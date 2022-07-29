@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--********************************************************************
+Copyright 2021 Aaron Wong
+*********************************************************************-->
+
+<backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude" permid="gsI">
+
+    <appendix xml:id="appendix-definitions">
+        <title>Definitions</title>
+        <list-of elements="definition" divisions="chapter" empty="no"/>
+    </appendix>
+
+    <appendix xml:id="appendix-theorems">
+        <title>Theorems</title>
+        <list-of elements="theorem" divisions="chapter" empty="no"/>
+    </appendix>
+
+    <index>
+        <title>Index</title>
+        <index-list />
+  </index>
+</backmatter>
