@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>FMCC Reading Mathematical Expressions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Foundational Mathematics for Corequisite Courses">
+<meta property="book:author" content="Aaron Wong">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/dejavu-serif" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="https://www.nsc.edu"><img src="external/images/CartoonMe.png" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="main.html"><span class="title">Foundational Mathematics for Corequisite Courses:</span> <span class="subtitle">Succeeding at College Mathematics</span></a></h1>
+<p class="byline">Aaron Wong</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="chapter-factoring-quadratics.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="part-main-branch.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="chapter-review-1.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\identity}{\mathrm{id}}
+\newcommand{\notdivide}{{\not{\mid}}}
+\newcommand{\notsubset}{\not\subset}
+\newcommand{\lcm}{\operatorname{lcm}}
+\newcommand{\gf}{\operatorname{GF}}
+\newcommand{\inn}{\operatorname{Inn}}
+\newcommand{\aut}{\operatorname{Aut}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\cis}{\operatorname{cis}}
+\newcommand{\chr}{\operatorname{char}}
+\newcommand{\Null}{\operatorname{Null}}
+
+\newcommand{\tikzspacer}{
+    \draw (-8,0) circle (0.02);
+    \draw (8,0) circle (0.02);
+}
+\newcommand{\eqnspacer}{\hspace{25pt}}
+
+\usepackage{cancel}
+\usepackage{multirow}
+\usepackage{hhline}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 parts"><ul class="structural contains-active toc-item-list">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="front-colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-part contains-active">
+<div class="toc-title-box"><a href="part-main-branch.html" class="internal"><span class="codenumber">I</span> <span class="title">Main Trunk</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html" class="internal"><span class="codenumber">1</span> <span class="title">Basic Algebraic Presentation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html#sec-bap-1-main" class="internal"><span class="codenumber">1.1</span> <span class="title">How We Write Affects How We Think</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html#sec-bap-2-worksheets" class="internal"><span class="codenumber">1.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html#sec-bap-2-worksheets-1" class="internal"><span class="codenumber">1.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html#sec-bap-2-worksheets-2" class="internal"><span class="codenumber">1.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html#sec-bap-2-worksheets-3" class="internal"><span class="codenumber">1.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html#sec-bap-2-worksheets-4" class="internal"><span class="codenumber">1.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html#sec-bap-2-worksheets-5" class="internal"><span class="codenumber">1.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html#sec-bap-3-practice" class="internal"><span class="codenumber">1.3</span> <span class="title">Deliberate Practice: Solving Equations for a Variable</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html#sec-bap-3-worksheet" class="internal"><span class="codenumber">1.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html#sec-bap-4-closing" class="internal"><span class="codenumber">1.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-basic-algebraic-presentation.html#sec-bap-5-deeper" class="internal"><span class="codenumber">1.5</span> <span class="title">Going Deeper: Clearing the Denominator</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-variables.html" class="internal"><span class="codenumber">2</span> <span class="title">Variables in Expressions and Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-variables.html#sec-vee-1-main" class="internal"><span class="codenumber">2.1</span> <span class="title">Letters are Numbers in Disguise</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-variables.html#sec-vee-2-worksheets" class="internal"><span class="codenumber">2.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables.html#sec-vee-2-worksheets-1" class="internal"><span class="codenumber">2.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables.html#sec-vee-2-worksheets-2" class="internal"><span class="codenumber">2.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables.html#sec-vee-2-worksheets-3" class="internal"><span class="codenumber">2.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables.html#sec-vee-2-worksheets-4" class="internal"><span class="codenumber">2.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables.html#sec-vee-2-worksheets-5" class="internal"><span class="codenumber">2.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-variables.html#sec-vee-3-practice" class="internal"><span class="codenumber">2.3</span> <span class="title">Deliberate Practice: Solving Equations for a Variable Expression</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables.html#sec-vee-3-worksheet" class="internal"><span class="codenumber">2.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-variables.html#sec-vee-4-closing" class="internal"><span class="codenumber">2.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-variables.html#sec-vee-5-deeper" class="internal"><span class="codenumber">2.5</span> <span class="title">Going Deeper: Sets and Solution Sets</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-like-terms.html" class="internal"><span class="codenumber">3</span> <span class="title">Like and Unlike Terms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-like-terms.html#sec-lult-1-main" class="internal"><span class="codenumber">3.1</span> <span class="title">One of These Things is Not Like the Other</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-like-terms.html#sec-lult-2-worksheets" class="internal"><span class="codenumber">3.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-like-terms.html#sec-lult-2-worksheets-1" class="internal"><span class="codenumber">3.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-like-terms.html#sec-lult-2-worksheets-2" class="internal"><span class="codenumber">3.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-like-terms.html#sec-lult-2-worksheets-3" class="internal"><span class="codenumber">3.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-like-terms.html#sec-lult-2-worksheets-4" class="internal"><span class="codenumber">3.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-like-terms.html#sec-lult-2-worksheets-5" class="internal"><span class="codenumber">3.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-like-terms.html#sec-lult-3-practice" class="internal"><span class="codenumber">3.3</span> <span class="title">Deliberate Practice: Combining Like Terms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-like-terms.html#sec-lult-3-worksheet" class="internal"><span class="codenumber">3.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-like-terms.html#sec-lult-4-closing" class="internal"><span class="codenumber">3.4</span> <span class="title">Closing Ideas</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-simplify-solve.html" class="internal"><span class="codenumber">4</span> <span class="title">Simplifying Expressions and Solving Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-simplify-solve.html#sec-sese-1-main" class="internal"><span class="codenumber">4.1</span> <span class="title">Read the Instructions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-simplify-solve.html#sec-sese-2-worksheets" class="internal"><span class="codenumber">4.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-simplify-solve.html#sec-sese-2-worksheets-1" class="internal"><span class="codenumber">4.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-simplify-solve.html#sec-sese-2-worksheets-2" class="internal"><span class="codenumber">4.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-simplify-solve.html#sec-sese-2-worksheets-3" class="internal"><span class="codenumber">4.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-simplify-solve.html#sec-sese-2-worksheets-4" class="internal"><span class="codenumber">4.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-simplify-solve.html#sec-sese-2-worksheets-5" class="internal"><span class="codenumber">4.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-simplify-solve.html#sec-sese-3-practice" class="internal"><span class="codenumber">4.3</span> <span class="title">Deliberate Practice: Solving Equations for a Variable (Part 2)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-simplify-solve.html#sec-sese-3-worksheet" class="internal"><span class="codenumber">4.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-simplify-solve.html#sec-sese-4-closing" class="internal"><span class="codenumber">4.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-simplify-solve.html#sec-sese-5-deeper" class="internal"><span class="codenumber">4.5</span> <span class="title">Going Deeper: Inequalities</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-variables-substitutions.html" class="internal"><span class="codenumber">5</span> <span class="title">Variables and Substitutions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-variables-substitutions.html#sec-vas-1-main" class="internal"><span class="codenumber">5.1</span> <span class="title">This is a That</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-variables-substitutions.html#sec-vas-2-worksheets" class="internal"><span class="codenumber">5.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables-substitutions.html#sec-vas-2-worksheets-1" class="internal"><span class="codenumber">5.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables-substitutions.html#sec-vas-2-worksheets-2" class="internal"><span class="codenumber">5.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables-substitutions.html#sec-vas-2-worksheets-3" class="internal"><span class="codenumber">5.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables-substitutions.html#sec-vas-2-worksheets-4" class="internal"><span class="codenumber">5.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables-substitutions.html#sec-vas-2-worksheets-5" class="internal"><span class="codenumber">5.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-variables-substitutions.html#sec-vas-3-practice" class="internal"><span class="codenumber">5.3</span> <span class="title">Deliberate Practice: Substitute and Solve</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-variables-substitutions.html#sec-vas-3-worksheet" class="internal"><span class="codenumber">5.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-variables-substitutions.html#sec-vas-4-closing" class="internal"><span class="codenumber">5.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-variables-substitutions.html#sec-vas-5-deeper" class="internal"><span class="codenumber">5.5</span> <span class="title">Going Deeper: Disappearing Variables</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-exponents.html" class="internal"><span class="codenumber">6</span> <span class="title">Exponents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-exponents.html#sec-exp-1-main" class="internal"><span class="codenumber">6.1</span> <span class="title">Don’t Memorize These Formulas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-exponents.html#sec-exp-2-worksheets" class="internal"><span class="codenumber">6.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-exponents.html#sec-exp-2-worksheets-1" class="internal"><span class="codenumber">6.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-exponents.html#sec-exp-2-worksheets-2" class="internal"><span class="codenumber">6.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-exponents.html#sec-exp-2-worksheets-3" class="internal"><span class="codenumber">6.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-exponents.html#sec-exp-2-worksheets-4" class="internal"><span class="codenumber">6.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-exponents.html#sec-exp-2-worksheets-5" class="internal"><span class="codenumber">6.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-exponents.html#sec-exp-3-practice" class="internal"><span class="codenumber">6.3</span> <span class="title">Deliberate Practice: Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-exponents.html#sec-exp-3-worksheet" class="internal"><span class="codenumber">6.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-exponents.html#sec-exp-4-closing" class="internal"><span class="codenumber">6.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-exponents.html#sec-exp-5-deeper" class="internal"><span class="codenumber">6.5</span> <span class="title">Going Deeper: Radicals and Fractional Exponents</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-polynomial-products.html" class="internal"><span class="codenumber">7</span> <span class="title">Products of Polynomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-1-main" class="internal"><span class="codenumber">7.1</span> <span class="title">Organization Will Set You Free</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-2-worksheets" class="internal"><span class="codenumber">7.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-2-worksheets-1" class="internal"><span class="codenumber">7.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-2-worksheets-2" class="internal"><span class="codenumber">7.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-2-worksheets-3" class="internal"><span class="codenumber">7.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-2-worksheets-4" class="internal"><span class="codenumber">7.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-2-worksheets-5" class="internal"><span class="codenumber">7.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-3-practice" class="internal"><span class="codenumber">7.3</span> <span class="title">Deliberate Practice: The Distributive Property</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-3-worksheet" class="internal"><span class="codenumber">7.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-4-closing" class="internal"><span class="codenumber">7.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-5-deeper" class="internal"><span class="codenumber">7.5</span> <span class="title">Going Deeper: Algebra Tiles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-5-represent-simplify" class="internal"><span class="codenumber">7.5.1</span> <span class="title">Representing and Simplifying Algebriac Expressions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-5-deeper-9" class="internal"><span class="codenumber">7.5.2</span> <span class="title">Solving Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-polynomial-products.html#sec-pop-5-deeper-10" class="internal"><span class="codenumber">7.5.3</span> <span class="title">Other Uses of Algebra Tiles</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-common-factors.html" class="internal"><span class="codenumber">8</span> <span class="title">Common Factors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-common-factors.html#sec-cf-1-main" class="internal"><span class="codenumber">8.1</span> <span class="title">You All Have This in Common</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-common-factors.html#sec-cf-2-worksheets" class="internal"><span class="codenumber">8.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-common-factors.html#sec-cf-2-worksheets-1" class="internal"><span class="codenumber">8.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-common-factors.html#sec-cf-2-worksheets-2" class="internal"><span class="codenumber">8.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-common-factors.html#sec-cf-2-worksheets-3" class="internal"><span class="codenumber">8.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-common-factors.html#sec-cf-2-worksheets-4" class="internal"><span class="codenumber">8.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-common-factors.html#sec-cf-2-worksheets-5" class="internal"><span class="codenumber">8.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-common-factors.html#sec-cf-3-practice" class="internal"><span class="codenumber">8.3</span> <span class="title">Deliberate Practice: Factor by Grouping</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-common-factors.html#sec-cf-3-worksheet" class="internal"><span class="codenumber">8.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-common-factors.html#sec-cf-4-closing" class="internal"><span class="codenumber">8.4</span> <span class="title">Closing Ideas</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-factoring-quadratics.html" class="internal"><span class="codenumber">9</span> <span class="title">Factoring Quadratic Polynomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-1-main" class="internal"><span class="codenumber">9.1</span> <span class="title">Lots of Methods, Not All Good</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-2-worksheets" class="internal"><span class="codenumber">9.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-2-worksheets-1" class="internal"><span class="codenumber">9.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-2-worksheets-2" class="internal"><span class="codenumber">9.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-2-worksheets-3" class="internal"><span class="codenumber">9.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-2-worksheets-4" class="internal"><span class="codenumber">9.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-2-worksheets-5" class="internal"><span class="codenumber">9.2</span> <span class="title">Worksheet 5</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-2-worksheets-6" class="internal"><span class="codenumber">9.2</span> <span class="title">Worksheet 6</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-3-practice" class="internal"><span class="codenumber">9.3</span> <span class="title">Deliberate Practice: Factoring Quadratic Polynomials</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-3-worksheet" class="internal"><span class="codenumber">9.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-4-closing" class="internal"><span class="codenumber">9.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-factoring-quadratics.html#sec-fqp-5-deeper" class="internal"><span class="codenumber">9.5</span> <span class="title">Going Deeper: Special Factorizations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter active">
+<div class="toc-title-box"><a href="chapter-reading-math.html" class="internal"><span class="codenumber">10</span> <span class="title">Reading Mathematical Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-reading-math.html#sec-rme-1-main" class="internal"><span class="codenumber">10.1</span> <span class="title">So Many Symbols!</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-reading-math.html#sec-rme-2-worksheets" class="internal"><span class="codenumber">10.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-reading-math.html#sec-rme-2-worksheets-1" class="internal"><span class="codenumber">10.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-reading-math.html#sec-rme-2-worksheets-2" class="internal"><span class="codenumber">10.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-reading-math.html#sec-rme-2-worksheets-3" class="internal"><span class="codenumber">10.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-reading-math.html#sec-rme-2-worksheets-4" class="internal"><span class="codenumber">10.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-reading-math.html#sec-rme-2-worksheets-5" class="internal"><span class="codenumber">10.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-reading-math.html#sec-rme-3-practice" class="internal"><span class="codenumber">10.3</span> <span class="title">Deliberate Practice: Solving for Variables and Function Expressions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-reading-math.html#sec-rme-3-worksheet" class="internal"><span class="codenumber">10.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-reading-math.html#sec-rme-4-closing" class="internal"><span class="codenumber">10.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-reading-math.html#sec-rme-5-deeper" class="internal"><span class="codenumber">10.5</span> <span class="title">Going Deeper: Your Calculator and You</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-review-1.html" class="internal"><span class="codenumber">11</span> <span class="title">Reflection</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-review-1.html#sec-ref1-1-main" class="internal"><span class="codenumber">11.1</span> <span class="title">A Pause for Reflection</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-review-1.html#sec-ref1-2-worksheets" class="internal"><span class="codenumber">11.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-review-1.html#sec-ref1-2-worksheets-1" class="internal"><span class="codenumber">11.2</span> <span class="title">Worksheet 1: Questions about the Content</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-review-1.html#sec-ref1-2-worksheets-2" class="internal"><span class="codenumber">11.2</span> <span class="title">Worksheet 2: Questions about You</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="part-linear-equations.html" class="internal"><span class="codenumber">II</span> <span class="title">Linear Equations and the Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-lines-and-plane.html" class="internal"><span class="codenumber">12</span> <span class="title">Lines and the Coordinate Plane</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-lines-and-plane.html#sec-lcp-1-main" class="internal"><span class="codenumber">12.1</span> <span class="title">Get it Straight</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-lines-and-plane.html#sec-lcp-2-worksheets" class="internal"><span class="codenumber">12.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-lines-and-plane.html#sec-lcp-2-worksheets-1" class="internal"><span class="codenumber">12.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-lines-and-plane.html#sec-lcp-2-worksheets-2" class="internal"><span class="codenumber">12.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-lines-and-plane.html#sec-lcp-2-worksheets-3" class="internal"><span class="codenumber">12.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-lines-and-plane.html#sec-lcp-2-worksheets-4" class="internal"><span class="codenumber">12.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-lines-and-plane.html#sec-lcp-2-worksheets-5" class="internal"><span class="codenumber">12.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-lines-and-plane.html#sec-lcp-3-practice" class="internal"><span class="codenumber">12.3</span> <span class="title">Deliberate Practice: Graphing Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-lines-and-plane.html#sec-lcp-3-worksheet" class="internal"><span class="codenumber">12.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-lines-and-plane.html#sec-lcp-4-closing" class="internal"><span class="codenumber">12.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-lines-and-plane.html#sec-lcp-5-deeper" class="internal"><span class="codenumber">12.5</span> <span class="title">Going Deeper: Graphing Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-slope-intercept.html" class="internal"><span class="codenumber">13</span> <span class="title">Slope-Intercept Form</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-slope-intercept.html#sec-sif-1-main" class="internal"><span class="codenumber">13.1</span> <span class="title">The Line in the Sand</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-slope-intercept.html#sec-sif-2-worksheets" class="internal"><span class="codenumber">13.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-slope-intercept.html#sec-sif-2-worksheets-1" class="internal"><span class="codenumber">13.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-slope-intercept.html#sec-sif-2-worksheets-2" class="internal"><span class="codenumber">13.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-slope-intercept.html#sec-sif-2-worksheets-3" class="internal"><span class="codenumber">13.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-slope-intercept.html#sec-sif-2-worksheets-4" class="internal"><span class="codenumber">13.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-slope-intercept.html#sec-sif-2-worksheets-5" class="internal"><span class="codenumber">13.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-slope-intercept.html#sec-sif-3-practice" class="internal"><span class="codenumber">13.3</span> <span class="title">Deliberate Practice: Slope-Intercept Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-slope-intercept.html#sec-sif-3-worksheet" class="internal"><span class="codenumber">13.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-slope-intercept.html#sec-sif-4-closing" class="internal"><span class="codenumber">13.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-slope-intercept.html#sec-sif-5-deeper" class="internal"><span class="codenumber">13.5</span> <span class="title">Going Deeper: Average Rate of Change</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-point-slope.html" class="internal"><span class="codenumber">14</span> <span class="title">Point-Slope Form</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-point-slope.html#sec-psf-1-main" class="internal"><span class="codenumber">14.1</span> <span class="title">Start Here, Go There</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-point-slope.html#sec-psf-2-worksheets" class="internal"><span class="codenumber">14.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-point-slope.html#sec-psf-2-worksheets-1" class="internal"><span class="codenumber">14.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-point-slope.html#sec-psf-2-worksheets-2" class="internal"><span class="codenumber">14.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-point-slope.html#sec-psf-2-worksheets-3" class="internal"><span class="codenumber">14.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-point-slope.html#sec-psf-2-worksheets-4" class="internal"><span class="codenumber">14.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-point-slope.html#sec-psf-2-worksheets-5" class="internal"><span class="codenumber">14.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-point-slope.html#sec-psf-3-practice" class="internal"><span class="codenumber">14.3</span> <span class="title">Deliberate Practice: Point-Slope Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-point-slope.html#sec-psf-3-worksheet" class="internal"><span class="codenumber">14.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-point-slope.html#sec-psf-4-closing" class="internal"><span class="codenumber">14.4</span> <span class="title">Closing Ideas</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-substitution.html" class="internal"><span class="codenumber">15</span> <span class="title">The Method of Substitution</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-substitution.html#sec-mos-1-main" class="internal"><span class="codenumber">15.1</span> <span class="title">Replace This With That</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-substitution.html#sec-mos-1-fraction-review" class="internal"><span class="codenumber">15.1.1</span> <span class="title">Brief Fraction Review</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-substitution.html#sec-mos-2-worksheets" class="internal"><span class="codenumber">15.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-substitution.html#sec-mos-2-worksheets-1" class="internal"><span class="codenumber">15.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-substitution.html#sec-mos-2-worksheets-2" class="internal"><span class="codenumber">15.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-substitution.html#sec-mos-2-worksheets-3" class="internal"><span class="codenumber">15.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-substitution.html#sec-mos-2-worksheets-4" class="internal"><span class="codenumber">15.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-substitution.html#sec-mos-2-worksheets-5" class="internal"><span class="codenumber">15.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-substitution.html#sec-mos-3-practice" class="internal"><span class="codenumber">15.3</span> <span class="title">Deliberate Practice: Solving by Substitution</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-substitution.html#sec-mos-3-worksheet" class="internal"><span class="codenumber">15.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-substitution.html#sec-mos-4-closing" class="internal"><span class="codenumber">15.4</span> <span class="title">Closing Ideas</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-elimination.html" class="internal"><span class="codenumber">16</span> <span class="title">The Method of Elimination</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-1-main" class="internal"><span class="codenumber">16.1</span> <span class="title">Make it Go Away</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-2-worksheets" class="internal"><span class="codenumber">16.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-2-worksheets-1" class="internal"><span class="codenumber">16.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-2-worksheets-2" class="internal"><span class="codenumber">16.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-2-worksheets-3" class="internal"><span class="codenumber">16.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-2-worksheets-4" class="internal"><span class="codenumber">16.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-2-worksheets-5" class="internal"><span class="codenumber">16.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-3-practice" class="internal"><span class="codenumber">16.3</span> <span class="title">Deliberate Practice: Solving by Elimination</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-3-worksheet" class="internal"><span class="codenumber">16.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-4-closing" class="internal"><span class="codenumber">16.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-5-deeper" class="internal"><span class="codenumber">16.5</span> <span class="title">Going Deeper: Three Dimensional Systems</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-5-deeper-14" class="internal"><span class="codenumber">16.5.1</span> <span class="title">Solving Three Dimensional Systems by Substitution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-elimination.html#sec-moe-5-deeper-15" class="internal"><span class="codenumber">16.5.2</span> <span class="title">Solving Three Dimensional Systems by Elimination</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="part-fractions-decimals.html" class="internal"><span class="codenumber">III</span> <span class="title">Fractions and Decimals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-fraction-basics.html" class="internal"><span class="codenumber">17</span> <span class="title">Fraction Basics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-1-main" class="internal"><span class="codenumber">17.1</span> <span class="title">Facing Your Fear</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-2-worksheets" class="internal"><span class="codenumber">17.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-2-worksheets-1" class="internal"><span class="codenumber">17.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-2-worksheets-2" class="internal"><span class="codenumber">17.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-2-worksheets-3" class="internal"><span class="codenumber">17.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-2-worksheets-4" class="internal"><span class="codenumber">17.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-2-worksheets-5" class="internal"><span class="codenumber">17.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-3-practice" class="internal"><span class="codenumber">17.3</span> <span class="title">Deliberate Practice: Reducing Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-3-worksheet" class="internal"><span class="codenumber">17.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-4-closing" class="internal"><span class="codenumber">17.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-5-deeper" class="internal"><span class="codenumber">17.5</span> <span class="title">Going Deeper: Reducing Rational Expressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-5-deeper-13" class="internal"><span class="codenumber">17.5.1</span> <span class="title">A Collection of Errors</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-fraction-basics.html#sec-fb-5-deeper-14" class="internal"><span class="codenumber">17.5.2</span> <span class="title">Factoring Out the Constant (Including the Negative)</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-fraction-add-subtract.html" class="internal"><span class="codenumber">18</span> <span class="title">Fraction Addition and Subtraction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-fraction-add-subtract.html#sec-fas-1-main" class="internal"><span class="codenumber">18.1</span> <span class="title">Find the Common Denominator</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-fraction-add-subtract.html#sec-fas-2-worksheets" class="internal"><span class="codenumber">18.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-add-subtract.html#sec-fas-2-worksheets-1" class="internal"><span class="codenumber">18.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-add-subtract.html#sec-fas-2-worksheets-2" class="internal"><span class="codenumber">18.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-add-subtract.html#sec-fas-2-worksheets-3" class="internal"><span class="codenumber">18.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-add-subtract.html#sec-fas-2-worksheets-4" class="internal"><span class="codenumber">18.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-add-subtract.html#sec-fas-2-worksheets-5" class="internal"><span class="codenumber">18.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-fraction-add-subtract.html#sec-fas-3-practice" class="internal"><span class="codenumber">18.3</span> <span class="title">Deliberate Practice: Adding and Subtracting Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-add-subtract.html#sec-fas-3-worksheet" class="internal"><span class="codenumber">18.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-fraction-add-subtract.html#sec-fas-4-closing" class="internal"><span class="codenumber">18.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-fraction-add-subtract.html#sec-fas-5-deeper" class="internal"><span class="codenumber">18.5</span> <span class="title">Going Deeper: Adding and Subtracting Rational Expressions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-fraction-mult.html" class="internal"><span class="codenumber">19</span> <span class="title">Fraction Multiplication</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-fraction-mult.html#sec-fm-1-main" class="internal"><span class="codenumber">19.1</span> <span class="title">Multiply Straight Across</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-fraction-mult.html#sec-fm-2-worksheets" class="internal"><span class="codenumber">19.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-mult.html#sec-fm-2-worksheets-1" class="internal"><span class="codenumber">19.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-mult.html#sec-fm-2-worksheets-2" class="internal"><span class="codenumber">19.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-mult.html#sec-fm-2-worksheets-3" class="internal"><span class="codenumber">19.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-mult.html#sec-fm-2-worksheets-4" class="internal"><span class="codenumber">19.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-mult.html#sec-fm-2-worksheets-5" class="internal"><span class="codenumber">19.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-fraction-mult.html#sec-fm-3-practice" class="internal"><span class="codenumber">19.3</span> <span class="title">Deliberate Practice: Multiplying Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-mult.html#sec-fm-3-worksheet" class="internal"><span class="codenumber">19.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-fraction-mult.html#sec-fm-4-closing" class="internal"><span class="codenumber">19.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-fraction-mult.html#sec-fm-5-deeper" class="internal"><span class="codenumber">19.5</span> <span class="title">Going Deeper: Additional Factoring Techniques</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-fraction-div.html" class="internal"><span class="codenumber">20</span> <span class="title">Fraction Division</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-fraction-div.html#sec-fd-1-main" class="internal"><span class="codenumber">20.1</span> <span class="title">Multiply by the Reciprocal</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-fraction-div.html#sec-fd-2-worksheets" class="internal"><span class="codenumber">20.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-div.html#sec-fd-2-worksheets-1" class="internal"><span class="codenumber">20.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-div.html#sec-fd-2-worksheets-2" class="internal"><span class="codenumber">20.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-div.html#sec-fd-2-worksheets-3" class="internal"><span class="codenumber">20.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-div.html#sec-fd-2-worksheets-4" class="internal"><span class="codenumber">20.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-div.html#sec-fd-2-worksheets-5" class="internal"><span class="codenumber">20.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-fraction-div.html#sec-fd-3-practice" class="internal"><span class="codenumber">20.3</span> <span class="title">Deliberate Practice: Dividing Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-fraction-div.html#sec-fd-3-worksheet" class="internal"><span class="codenumber">20.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-fraction-div.html#sec-fd-4-closing" class="internal"><span class="codenumber">20.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-fraction-div.html#sec-fd-5-deeper" class="internal"><span class="codenumber">20.5</span> <span class="title">Going Deeper: Fractions Inside of Fractions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-decimal-add-sub.html" class="internal"><span class="codenumber">21</span> <span class="title">Decimal Addition and Subtraction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-decimal-add-sub.html#sec-das-1-main" class="internal"><span class="codenumber">21.1</span> <span class="title">Making Sense with Dollars and Cents</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-decimal-add-sub.html#sec-das-2-worksheets" class="internal"><span class="codenumber">21.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-decimal-add-sub.html#sec-das-2-worksheets-1" class="internal"><span class="codenumber">21.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-decimal-add-sub.html#sec-das-2-worksheets-2" class="internal"><span class="codenumber">21.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-decimal-add-sub.html#sec-das-2-worksheets-3" class="internal"><span class="codenumber">21.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-decimal-add-sub.html#sec-das-2-worksheets-4" class="internal"><span class="codenumber">21.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-decimal-add-sub.html#sec-das-2-worksheets-5" class="internal"><span class="codenumber">21.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-decimal-add-sub.html#sec-das-3-practice" class="internal"><span class="codenumber">21.3</span> <span class="title">Deliberate Practice: Adding and Subtracting Decimals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-decimal-add-sub.html#sec-das-3-worksheet" class="internal"><span class="codenumber">21.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-decimal-add-sub.html#sec-das-4-closing" class="internal"><span class="codenumber">21.4</span> <span class="title">Closing Ideas</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-mult-decimals-percents.html" class="internal"><span class="codenumber">22</span> <span class="title">Multiplying Decimals and Percents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-mult-decimals-percents.html#sec-mpd-1-main" class="internal"><span class="codenumber">22.1</span> <span class="title">What Percent Do You Understand?</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-mult-decimals-percents.html#sec-mpd-2-worksheets" class="internal"><span class="codenumber">22.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-mult-decimals-percents.html#sec-mpd-2-worksheets-1" class="internal"><span class="codenumber">22.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-mult-decimals-percents.html#sec-mpd-2-worksheets-2" class="internal"><span class="codenumber">22.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-mult-decimals-percents.html#sec-mpd-2-worksheets-3" class="internal"><span class="codenumber">22.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-mult-decimals-percents.html#sec-mpd-2-worksheets-4" class="internal"><span class="codenumber">22.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-mult-decimals-percents.html#sec-mpd-2-worksheets-5" class="internal"><span class="codenumber">22.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-mult-decimals-percents.html#sec-mpd-3-practice" class="internal"><span class="codenumber">22.3</span> <span class="title">Deliberate Practice: Percent Calculations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-mult-decimals-percents.html#sec-mpd-3-worksheet" class="internal"><span class="codenumber">22.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-mult-decimals-percents.html#sec-mpd-4-closing" class="internal"><span class="codenumber">22.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-mult-decimals-percents.html#sec-mpd-5-deeper" class="internal"><span class="codenumber">22.5</span> <span class="title">Going Deeper: Proportional Reasoning</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-review-2.html" class="internal"><span class="codenumber">23</span> <span class="title">Reflection</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-review-2.html#sec-ref2-1-main" class="internal"><span class="codenumber">23.1</span> <span class="title">Another Pause for Reflection</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-review-2.html#sec-ref2-2-worksheets" class="internal"><span class="codenumber">23.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-review-2.html#sec-ref2-2-worksheets-1" class="internal"><span class="codenumber">23.2</span> <span class="title">Worksheet 1: Questions about the Content</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-review-2.html#sec-ref2-2-worksheets-2" class="internal"><span class="codenumber">23.2</span> <span class="title">Worksheet 2: Questions about You</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="part-arithmetic.html" class="internal"><span class="codenumber">IV</span> <span class="title">Arithmetic</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-visualizing-numbers.html" class="internal"><span class="codenumber">24</span> <span class="title">Rethinking Arithmetic</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-visualizing-numbers.html#sec-ra-1-main" class="internal"><span class="codenumber">24.1</span> <span class="title">Visualizing Numbers</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-visualizing-numbers.html#sec-ra-2-worksheets" class="internal"><span class="codenumber">24.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-visualizing-numbers.html#sec-ra-2-worksheets-1" class="internal"><span class="codenumber">24.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-visualizing-numbers.html#sec-ra-2-worksheets-2" class="internal"><span class="codenumber">24.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-visualizing-numbers.html#sec-ra-2-worksheets-3" class="internal"><span class="codenumber">24.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-visualizing-numbers.html#sec-ra-2-worksheets-4" class="internal"><span class="codenumber">24.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-visualizing-numbers.html#sec-ra-2-worksheets-5" class="internal"><span class="codenumber">24.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-visualizing-numbers.html#sec-ra-3-practice" class="internal"><span class="codenumber">24.3</span> <span class="title">Deliberate Practice: Inequalities and the Number Line</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-visualizing-numbers.html#sec-ra-3-worksheet" class="internal"><span class="codenumber">24.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-visualizing-numbers.html#sec-ra-4-closing" class="internal"><span class="codenumber">24.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-visualizing-numbers.html#sec-ra-5-deeper" class="internal"><span class="codenumber">24.5</span> <span class="title">Going Deeper: Intervals on the Number Line</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-addition.html" class="internal"><span class="codenumber">25</span> <span class="title">Addition</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-addition.html#sec-add-1-main" class="internal"><span class="codenumber">25.1</span> <span class="title">Carry the One (or Maybe Not)</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-addition.html#sec-add-2-worksheets" class="internal"><span class="codenumber">25.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-addition.html#sec-add-2-worksheets-1" class="internal"><span class="codenumber">25.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-addition.html#sec-add-2-worksheets-2" class="internal"><span class="codenumber">25.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-addition.html#sec-add-2-worksheets-3" class="internal"><span class="codenumber">25.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-addition.html#sec-add-2-worksheets-4" class="internal"><span class="codenumber">25.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-addition.html#sec-add-2-worksheets-5" class="internal"><span class="codenumber">25.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-addition.html#sec-add-3-practice" class="internal"><span class="codenumber">25.3</span> <span class="title">Deliberate Practice: Addition Practice</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-addition.html#sec-add-3-worksheet" class="internal"><span class="codenumber">25.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-addition.html#sec-add-4-closing" class="internal"><span class="codenumber">25.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-addition.html#sec-add-5-deeper" class="internal"><span class="codenumber">25.5</span> <span class="title">Going Deeper:Automaticity with Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-subtraction.html" class="internal"><span class="codenumber">26</span> <span class="title">Subtraction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-subtraction.html#sec-sub-1-main" class="internal"><span class="codenumber">26.1</span> <span class="title">Borrowing is Overrated</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-subtraction.html#sec-sub-2-worksheets" class="internal"><span class="codenumber">26.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-subtraction.html#sec-sub-2-worksheets-1" class="internal"><span class="codenumber">26.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-subtraction.html#sec-sub-2-worksheets-2" class="internal"><span class="codenumber">26.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-subtraction.html#sec-sub-2-worksheets-3" class="internal"><span class="codenumber">26.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-subtraction.html#sec-sub-2-worksheets-4" class="internal"><span class="codenumber">26.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-subtraction.html#sec-sub-2-worksheets-5" class="internal"><span class="codenumber">26.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-subtraction.html#sec-sub-3-practice" class="internal"><span class="codenumber">26.3</span> <span class="title">Deliberate Practice: Subtraction Practice</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-subtraction.html#sec-sub-3-worksheet" class="internal"><span class="codenumber">26.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-subtraction.html#sec-sub-4-closing" class="internal"><span class="codenumber">26.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-subtraction.html#sec-sub-5-deeper" class="internal"><span class="codenumber">26.5</span> <span class="title">Going Deeper: Subtraction as Displacement</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-negatives.html" class="internal"><span class="codenumber">27</span> <span class="title">Negatives on the Number Line</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-negatives.html#sec-nonl-1-main" class="internal"><span class="codenumber">27.1</span> <span class="title">Through the Looking Glass</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-negatives.html#sec-nonl-2-worksheets" class="internal"><span class="codenumber">27.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-negatives.html#sec-nonl-2-worksheets-1" class="internal"><span class="codenumber">27.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-negatives.html#sec-nonl-2-worksheets-2" class="internal"><span class="codenumber">27.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-negatives.html#sec-nonl-2-worksheets-3" class="internal"><span class="codenumber">27.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-negatives.html#sec-nonl-2-worksheets-4" class="internal"><span class="codenumber">27.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-negatives.html#sec-nonl-2-worksheets-5" class="internal"><span class="codenumber">27.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-negatives.html#sec-nonl-3-practice" class="internal"><span class="codenumber">27.3</span> <span class="title">Deliberate Practice: Practice with Negatives</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-negatives.html#sec-nonl-3-worksheet" class="internal"><span class="codenumber">27.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-negatives.html#sec-nonl-4-closing" class="internal"><span class="codenumber">27.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-negatives.html#sec-nonl-5-deeper" class="internal"><span class="codenumber">27.5</span> <span class="title">Going Deeper: The Absolute Value Function</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-integer-chips.html" class="internal"><span class="codenumber">28</span> <span class="title">Calculations with Integer Chips</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-integer-chips.html#sec-cic-1-main" class="internal"><span class="codenumber">28.1</span> <span class="title">When All the Chips are Down</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-integer-chips.html#sec-cic-2-worksheets" class="internal"><span class="codenumber">28.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-integer-chips.html#sec-cic-2-worksheets-1" class="internal"><span class="codenumber">28.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-integer-chips.html#sec-cic-2-worksheets-2" class="internal"><span class="codenumber">28.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-integer-chips.html#sec-cic-2-worksheets-3" class="internal"><span class="codenumber">28.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-integer-chips.html#sec-cic-2-worksheets-4" class="internal"><span class="codenumber">28.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-integer-chips.html#sec-cic-2-worksheets-5" class="internal"><span class="codenumber">28.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-integer-chips.html#sec-cic-3-practice" class="internal"><span class="codenumber">28.3</span> <span class="title">Deliberate Practice: Practice with Negatives</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-integer-chips.html#sec-cic-3-worksheet" class="internal"><span class="codenumber">28.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-integer-chips.html#sec-cic-4-closing" class="internal"><span class="codenumber">28.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-integer-chips.html#sec-cic-5-deeper" class="internal"><span class="codenumber">28.5</span> <span class="title">Going Deeper: Mental Arithmetic</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-number-line.html" class="internal"><span class="codenumber">29</span> <span class="title">Arithmetic as Movement on a Number Line</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-number-line.html#sec-amnl-1-main" class="internal"><span class="codenumber">29.1</span> <span class="title">Turn Around and Walk Backwards</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-number-line.html#sec-amnl-2-worksheets" class="internal"><span class="codenumber">29.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-number-line.html#sec-amnl-2-worksheets-1" class="internal"><span class="codenumber">29.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-number-line.html#sec-amnl-2-worksheets-2" class="internal"><span class="codenumber">29.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-number-line.html#sec-amnl-2-worksheets-3" class="internal"><span class="codenumber">29.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-number-line.html#sec-amnl-2-worksheets-4" class="internal"><span class="codenumber">29.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-number-line.html#sec-amnl-2-worksheets-5" class="internal"><span class="codenumber">29.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-number-line.html#sec-amnl-3-practice" class="internal"><span class="codenumber">29.3</span> <span class="title">Deliberate Practice: Movement on the Number Line</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-number-line.html#sec-amnl-3-worksheet" class="internal"><span class="codenumber">29.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-number-line.html#sec-amnl-4-closing" class="internal"><span class="codenumber">29.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-number-line.html#sec-amnl-5-deeper" class="internal"><span class="codenumber">29.5</span> <span class="title">Going Deeper: Number Patterns</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-multiplication.html" class="internal"><span class="codenumber">30</span> <span class="title">Multiplication</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-1-main" class="internal"><span class="codenumber">30.1</span> <span class="title">Making Groups of Things</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-2-worksheets" class="internal"><span class="codenumber">30.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-2-worksheets-1" class="internal"><span class="codenumber">30.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-2-worksheets-2" class="internal"><span class="codenumber">30.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-2-worksheets-3" class="internal"><span class="codenumber">30.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-2-worksheets-4" class="internal"><span class="codenumber">30.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-2-worksheets-5" class="internal"><span class="codenumber">30.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-3-practice" class="internal"><span class="codenumber">30.3</span> <span class="title">Deliberate Practice: Multiplication Concepts</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-3-worksheet" class="internal"><span class="codenumber">30.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-4-closing" class="internal"><span class="codenumber">30.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-5-deeper" class="internal"><span class="codenumber">30.5</span> <span class="title">Going Deeper: Alternative Multiplication Techniques</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-5-deeper-3" class="internal"><span class="codenumber">30.5.1</span> <span class="title">The Lattice Method</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="chapter-multiplication.html#sec-mult-5-deeper-4" class="internal"><span class="codenumber">30.5.2</span> <span class="title">The Egyptian Multiplication Method</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-division.html" class="internal"><span class="codenumber">31</span> <span class="title">Division</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-division.html#sec-div-1-main" class="internal"><span class="codenumber">31.1</span> <span class="title">Breaking Down the Mantra</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-division.html#sec-div-2-worksheets" class="internal"><span class="codenumber">31.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-division.html#sec-div-2-worksheets-1" class="internal"><span class="codenumber">31.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-division.html#sec-div-2-worksheets-2" class="internal"><span class="codenumber">31.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-division.html#sec-div-2-worksheets-3" class="internal"><span class="codenumber">31.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-division.html#sec-div-2-worksheets-4" class="internal"><span class="codenumber">31.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-division.html#sec-div-2-worksheets-5" class="internal"><span class="codenumber">31.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-division.html#sec-div-3-practice" class="internal"><span class="codenumber">31.3</span> <span class="title">Deliberate Practice: Division</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-division.html#sec-div-3-worksheet" class="internal"><span class="codenumber">31.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-division.html#sec-div-4-closing" class="internal"><span class="codenumber">31.4</span> <span class="title">Closing Ideas</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-division.html#sec-div-5-deeper" class="internal"><span class="codenumber">31.5</span> <span class="title">Going Deeper: Remainders and Decimals</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-review-3.html" class="internal"><span class="codenumber">32</span> <span class="title">Reflection</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-review-3.html#sec-ref3-1-main" class="internal"><span class="codenumber">32.1</span> <span class="title">Yet Another Pause for Reflection</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-review-3.html#sec-ref3-2-worksheets" class="internal"><span class="codenumber">32.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-review-3.html#sec-ref3-2-worksheets-1" class="internal"><span class="codenumber">32.2</span> <span class="title">Worksheet 1: Questions about the Content</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-review-3.html#sec-ref3-2-worksheets-2" class="internal"><span class="codenumber">32.2</span> <span class="title">Worksheet 2: Questions about You</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-part">
+<div class="toc-title-box"><a href="part-applications.html" class="internal"><span class="codenumber">V</span> <span class="title">Applications</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-relationships.html" class="internal"><span class="codenumber">33</span> <span class="title">Mathematical Relationships</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-relationships.html#sec-mr-1-main" class="internal"><span class="codenumber">33.1</span> <span class="title">Key Words are (Mostly) Evil</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-relationships.html#sec-mr-2-worksheets" class="internal"><span class="codenumber">33.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-relationships.html#sec-mr-2-worksheets-1" class="internal"><span class="codenumber">33.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-relationships.html#sec-mr-2-worksheets-2" class="internal"><span class="codenumber">33.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-relationships.html#sec-mr-2-worksheets-3" class="internal"><span class="codenumber">33.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-relationships.html#sec-mr-2-worksheets-4" class="internal"><span class="codenumber">33.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-relationships.html#sec-mr-2-worksheets-5" class="internal"><span class="codenumber">33.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-relationships.html#sec-mr-3-practice" class="internal"><span class="codenumber">33.3</span> <span class="title">Deliberate Practice: Basic Word Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-relationships.html#sec-mr-3-worksheet" class="internal"><span class="codenumber">33.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-relationships.html#sec-mr-4-closing" class="internal"><span class="codenumber">33.4</span> <span class="title">Closing Ideas</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-scientific-notation.html" class="internal"><span class="codenumber">34</span> <span class="title">Scientific Notation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-scientific-notation.html#sec-sn-1-main" class="internal"><span class="codenumber">34.1</span> <span class="title">Numbers That Are Annoyingly Big or Small</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-scientific-notation.html#sec-sn-2-worksheets" class="internal"><span class="codenumber">34.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-scientific-notation.html#sec-sn-2-worksheets-1" class="internal"><span class="codenumber">34.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-scientific-notation.html#sec-sn-2-worksheets-2" class="internal"><span class="codenumber">34.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-scientific-notation.html#sec-sn-2-worksheets-3" class="internal"><span class="codenumber">34.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-scientific-notation.html#sec-sn-2-worksheets-4" class="internal"><span class="codenumber">34.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-scientific-notation.html#sec-sn-2-worksheets-5" class="internal"><span class="codenumber">34.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-scientific-notation.html#sec-sn-3-practice" class="internal"><span class="codenumber">34.3</span> <span class="title">Deliberate Practice: Scientific Notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-scientific-notation.html#sec-sn-3-worksheet" class="internal"><span class="codenumber">34.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-scientific-notation.html#sec-sn-4-closing" class="internal"><span class="codenumber">34.4</span> <span class="title">Closing Ideas</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-unit-conversions.html" class="internal"><span class="codenumber">35</span> <span class="title">Unit Conversions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-unit-conversions.html#sec-uc-1-main" class="internal"><span class="codenumber">35.1</span> <span class="title">Say Goodbye to the Mars Climate Orbiter</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-unit-conversions.html#sec-uc-2-worksheets" class="internal"><span class="codenumber">35.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-unit-conversions.html#sec-uc-2-worksheets-1" class="internal"><span class="codenumber">35.2</span> <span class="title">Worksheet 1</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-unit-conversions.html#sec-uc-2-worksheets-2" class="internal"><span class="codenumber">35.2</span> <span class="title">Worksheet 2</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-unit-conversions.html#sec-uc-2-worksheets-3" class="internal"><span class="codenumber">35.2</span> <span class="title">Worksheet 3</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-unit-conversions.html#sec-uc-2-worksheets-4" class="internal"><span class="codenumber">35.2</span> <span class="title">Worksheet 4</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-unit-conversions.html#sec-uc-2-worksheets-5" class="internal"><span class="codenumber">35.2</span> <span class="title">Worksheet 5</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-unit-conversions.html#sec-uc-3-practice" class="internal"><span class="codenumber">35.3</span> <span class="title">Deliberate Practice: Unit Conversions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-unit-conversions.html#sec-uc-3-worksheet" class="internal"><span class="codenumber">35.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-unit-conversions.html#sec-uc-4-closing" class="internal"><span class="codenumber">35.4</span> <span class="title">Closing Ideas</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="chapter-review-4.html" class="internal"><span class="codenumber">36</span> <span class="title">Reflection</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="chapter-review-4.html#sec-ref4-1-main" class="internal"><span class="codenumber">36.1</span> <span class="title">Yet Another Pause for Reflection</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="chapter-review-4.html#sec-ref4-2-worksheets" class="internal"><span class="codenumber">36.2</span> <span class="title">Worksheets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-review-4.html#sec-ref4-2-worksheets-1" class="internal"><span class="codenumber">36.2</span> <span class="title">Worksheet 1: Questions about the Content</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chapter-review-4.html#sec-ref4-2-worksheets-2" class="internal"><span class="codenumber">36.2</span> <span class="title">Worksheet 2: Questions about You</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-definitions.html" class="internal"><span class="codenumber">A</span> <span class="title">Definitions</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-theorems.html" class="internal"><span class="codenumber">B</span> <span class="title">Theorems</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-PDF-Textbooks.html" class="internal"><span class="codenumber">C</span> <span class="title">PDF Textbooks</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-PDF-Worksheets.html" class="internal"><span class="codenumber">D</span> <span class="title">PDF Worksheets</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="chapter-reading-math"><h2 class="heading">
+<span class="type">Chapter</span><span class="space"> </span><span class="codenumber">10</span><span class="space"> </span><span class="title">Reading Mathematical Expressions</span>
+</h2>
+<section class="section" id="sec-rme-1-main"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">10.1</span><span class="space"> </span><span class="title">So Many Symbols!</span>
+</h3>
+<article class="objectives goal-like" id="sec-rme-1-main-2"><h4 class="heading"><span class="type">Learning Objectives</span></h4>
+<ul class="disc">
+<li id="sec-rme-1-main-2-1-1"><div class="para" id="sec-rme-1-main-2-1-1-1">Correctly write and interpret algebraic expressions.</div></li>
+<li id="sec-rme-1-main-2-1-2"><div class="para" id="sec-rme-1-main-2-1-2-1">Recognize common algebraic errors.</div></li>
+<li id="sec-rme-1-main-2-1-3"><div class="para" id="sec-rme-1-main-2-1-3-1">Solve linear equations</div></li>
+</ul></article><aside class="aside aside-like" id="sec-rme-1-main-3"><div class="para" id="sec-rme-1-main-3-1">We’ve mentioned before that math can be understood as a language. This is just another example of that.</div></aside><div class="para" id="sec-rme-1-main-4">As we continue forward into higher levels of mathematics, we will encounter more mathematical notation. Students sometimes start to struggle because they’ve never developed a set of tools to help them interpret those symbols. It’s like trying to read a language when you don’t have a sense of the grammar. You can sometimes piece things together and follow what’s happening, but most of the time you’re completely lost.</div>
+<div class="para logical" id="sec-rme-1-main-5">
+<div class="para">We will begin with familiar territory. At some point in their lives, most students learned some version of the order of operations (often called PEMDAS). This is a set of instructions for the correct way to perform a complex calculation by prioritizing certain calculations. Here is how the order of operations is usually presented:</div>
+<ul class="disc">
+<li id="sec-rme-1-main-5-1-1"><div class="para" id="sec-rme-1-main-5-1-1-1">Parentheses and other grouping symbols.</div></li>
+<li id="sec-rme-1-main-5-1-2"><div class="para" id="sec-rme-1-main-5-1-2-1">Exponents</div></li>
+<li id="sec-rme-1-main-5-1-3"><div class="para" id="sec-rme-1-main-5-1-3-1">Multiplication and division (performed left-to-right)</div></li>
+<li id="sec-rme-1-main-5-1-4"><div class="para" id="sec-rme-1-main-5-1-4-1">Addition and subtraction (performed left-to-right)</div></li>
+</ul>
+</div>
+<aside class="aside aside-like" id="sec-rme-1-main-6"><div class="para" id="sec-rme-1-main-6-1">Unfortunately, some students learn this as "multiplication THEN division" and "addition THEN subtraction" which is incorrect. Do you see the difference?</div></aside><div class="para" id="sec-rme-1-main-7">This is fine as far as the basics are concerned. And when working with numbers, students are usually able to do this correctly. But it’s not long after we start introducing variables that students can feel overwhelmed by symbols.</div>
+<div class="para" id="sec-rme-1-main-8">The best analogy for understanding this comes from thinking about a complex sentence in English: "The man carrying a large bag containing three apples and two pears bought a blue shirt with six silver buttons from the store on the corner of Main Street and West Park Avenue." There are a lot of details in that sentence, but there’s also the "big picture" of the sentence. What is actually happening in the sentence? Some man bought a shirt from a store. From there we can go into specific details, such as what the man was holding, the color of the shirt, and the location of the store. But those details add information to the big picture without changing the core of the picture.</div>
+<div class="para logical" id="sec-rme-1-main-9">
+<div class="para">The focus of this section is not really on algebra, but on helping you familiarize yourself with the language of mathematics. Fortunately, mathematicians have created an entire notation to help you do this. Consider the following polynomial:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x^3 - 3x^2 - 7x + 11
+\end{equation*}
+</div>
+<div class="para">At this point, your experience should lead you to interpret this as the sum of four terms. You should be able to visualize the plus and minus signs as being separators for the different terms. Compare this to how we would have to write it if we had to write everything out:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x \cdot x \cdot x + (-3) \cdot x \cdot x + (-7) \cdot x + 11
+\end{equation*}
+</div>
+</div>
+<aside class="aside aside-like" id="sec-rme-1-main-10"><div class="para" id="sec-rme-1-main-10-1">We still have to use order of operations with multiplication and addition.</div></aside><div class="para" id="sec-rme-1-main-11">It is much harder for our brains to process this because we have to do a lot of extra work. It’s harder to locate the plus signs from among all of the symbols, and we have to count out all of the products to figure out how many factors of there are.</div>
+<div class="para" id="sec-rme-1-main-12">The two key features here are the use of implied multiplication and exponents. These two bits of notation help us to visually condense the information and make it easier to read. The exponents also mean that we don’t have to count out the products. We also have the convention that subtraction means addition of the opposite, which lets us write the negative coefficients as subtraction.</div>
+<aside class="aside aside-like" id="sec-rme-1-main-13"><div class="para" id="sec-rme-1-main-13-1">Implied multiplication is when we write two symbols next to each other to indicate multiplication instead of using a multiplication symbol between them.</div></aside><div class="para" id="sec-rme-1-main-14">All of this notation helps us to identify that the "big picture" of this is that we have a sum of four terms. From there, we can choose to look at the details of those terms to see (for example) if there are any like terms that we might want to combine.</div>
+<div class="para" id="sec-rme-1-main-15">Another mathematical notation that was developed is the use of fractions for division. Interestingly, it’s very rare in the modern mathematical world to use the <span class="process-math">\(\div\)</span> symbol. It is not as rare, but still uncommon to use <span class="process-math">\(/\)</span> to represent division as well. These tend to cause more confusion than clarity, which is why modern mathematics prefers the use of a fraction. This way, we can clearly distinguish between the numerator and denominator of a fraction.</div>
+<aside class="aside aside-like" id="sec-rme-1-main-16"><div class="para" id="sec-rme-1-main-16-1">If you’ve ever seen the meme about calculating <span class="process-math">\(8 \div 2(2+2)\text{,}\)</span> then you’ve seen how the symbol is problematic. It’s not so much a math problem as it is a pedantry problem.</div></aside><div class="para" id="sec-rme-1-main-17">For example, consider the following expression: <span class="process-math">\(x^2 + 3/x + 2\text{.}\)</span> The strict (and proper) application of the order of operations is that this result is the same as <span class="process-math">\(x^2 + \frac{3}{x} + 2\text{.}\)</span> But students will write that to mean <span class="process-math">\(\frac{x^2 + 3}{x + 2}\text{.}\)</span> If you insist on writing your fractions with a diagonal slash, you will need to use parentheses to separate out the numerator and the denominator: <span class="process-math">\((x^2 + 3)/(x + 2)\text{.}\)</span>
+</div>
+<aside class="aside aside-like" id="sec-rme-1-main-18"><div class="para" id="sec-rme-1-main-18-1">Note: Please do not insist on using the diagonal slash</div></aside><div class="para" id="sec-rme-1-main-19">For this reason, students are strongly urged to not use the diagonal slash for division, but write their division using a long horizontal bar (long enough to span the width of all the terms in the numerator and the denominator) so that it is clear what is in the numerator and what is in the denominator.</div>
+<div class="para" id="sec-rme-1-main-20">Similarly, when using the square root, it is important that the bar of the square root is long enough (and only long enough) to cover the parts inside the square root. For example, <span class="process-math">\(\sqrt{x + 3}\)</span> is not the same as <span class="process-math">\(\sqrt{x} + 3\text{,}\)</span> and <span class="process-math">\(\sqrt{x \,+ \, } \, 3\)</span> doesn’t even make sense. So please be careful with what you’re writing.</div>
+<article class="activity project-like" id="sec-rme-1-ac1-big-picture"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.1</span><span class="period">.</span><span class="space"> </span><span class="title">Identifying the "Big Picture" of an Expression.</span>
+</h4> <div class="para logical" id="sec-rme-1-ac1-big-picture-2">
+<div class="para">A basic skill when learning to read mathematical notation is to mentally "group together" things to be able to process what’s happening. For example, the polynomial from before can be seen as the sum of four terms.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x^3 - 3x^2 - 7x + 11
+\longrightarrow \boxed{x^3} + \boxed{(-3x^2)} + \boxed{ (-7x) } + \boxed{11}
+\longrightarrow \boxed{A} + \boxed{B} + \boxed{C} + \boxed{D}
+\end{equation*}
+</div>
+<div class="para">Similarly, we can think of fractions as being basically a numerator divided by a denominator.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{x^2 + 3}{x + 2}
+\longrightarrow \frac{\boxed{x^2 + 3}}{\boxed{ x + 2} }
+\longrightarrow \frac{ \boxed{A} }{\boxed{B}}
+\end{equation*}
+</div>
+</div> <aside class="aside aside-like" id="sec-rme-1-ac1-big-picture-3"><div class="para" id="sec-rme-1-ac1-big-picture-3-1">There is no standard language for this. But potential examples are "this is a division calculation" or "this is a sum."</div></aside> <div class="para" id="sec-rme-1-ac1-big-picture-4"><em class="alert">Try it!</em></div> <div class="para" id="sec-rme-1-ac1-big-picture-5">Consider the expression <span class="process-math">\(\frac{x + 3}{x - 2} + 3x\text{.}\)</span> Describe the "big picture" perspective of the expression and put boxes around the terms as appropriate.</div> <details id="sec-rme-1-ac1-big-picture-6" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<aside class="aside aside-like" id="sec-rme-1-ac1-big-picture-6-1"><div class="para" id="sec-rme-1-ac1-big-picture-6-1-1">If you also put boxes around the numerator and the denominator, that would also be acceptable. But the "big picture" is the sum of two terms.</div></aside> <div class="para logical" id="sec-rme-1-ac1-big-picture-6-2"><div class="displaymath process-math">
+\begin{equation*}
+\boxed{ \frac{ x + 3 }{ x - 2 } } + \boxed{ 3x } 
+\end{equation*}
+</div></div> <div class="para" id="sec-rme-1-ac1-big-picture-6-3">This is the sum of a fraction and a monomial.</div>
+</div></details></article><div class="para logical" id="sec-rme-1-main-22">
+<div class="para">After seeing the "big picture" we can then break things down further. Once we’re inside of the numerator or the denominator of the fraction, and that may consist of multiple terms.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{x^2 + 3}{x + 2}
+\longrightarrow \frac{\boxed{x^2 + 3}}{\boxed{ x + 2} }
+\longrightarrow \frac{\boxed{ \boxed{x^2} + \boxed{3} }} {\boxed{ \boxed{x} + \boxed{2} } }
+\longrightarrow \frac{ \boxed{\boxed{A} + \boxed{B} }}{\boxed{\boxed{C} + \boxed{D}}}
+\end{equation*}
+</div>
+</div>
+<aside class="aside aside-like" id="sec-rme-1-main-23"><div class="para" id="sec-rme-1-main-23-1">It’s rare that you have to diagram a sentence to understand it. Sometimes, you may need to reread a portion of it, and the same is going to be true of reading mathematical sentences.</div></aside><div class="para" id="sec-rme-1-main-24">And we can go deeper into the individual terms and break them up into the coefficient (which is sometimes an unwritten and the variable part. And the variable part can be broken down into individual variables. But at this point, it’s like focusing on the number of apples in the bag and you’ve lost sight of the big picture.</div>
+<div class="para" id="sec-rme-1-main-25">But so far, we’ve only focused on the basic arithmetic operations. The next large piece of language you will encounter are functions. We aren’t going to go into the details of what functions are here. We’re just going to use the notation to help you understand how to think about it when you get to them.</div>
+<div class="para" id="sec-rme-1-main-26">The basic shape of a function is <span class="process-math">\(f(x)\text{.}\)</span> This represents a number just like the variable <span class="process-math">\(y\)</span> would represent a number. The	only difference is that with a function, there is a "rule" that tells you how to calculate the number. When we write <span class="process-math">\(f(x)\)</span> we are saying to use the rule associated with <span class="process-math">\(f\)</span> to do the calculation. In addition to the letters <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> (which are used for generic functions), there are also a number of special functions that have names. Here are a few examples: <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Name</td>
+<td class="l m b0 r0 l0 t0 lines">Notation</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">sine</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\sin()\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">cosine</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\cos()\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">tangent</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\tan()\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">common logarithm</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\log()\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">natural logarithm</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\ln()\)</span></td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">exponential</td>
+<td class="l m b0 r0 l0 t0 lines"><span class="process-math">\(\exp()\)</span></td>
+</tr>
+</table></div>
+</div>
+<div class="para" id="sec-rme-1-main-27">The empty parentheses indicate that there is a value to "plug into" the function. So there would normally be some expression inside of those parentheses, which can be a number (such as with <span class="process-math">\(\ln(2)\)</span>), a variable (such as with <span class="process-math">\(\sin(x)\)</span>) or a variable expression (such as with <span class="process-math">\(\exp(-x^2 + 1)\)</span>).</div>
+<div class="para" id="sec-rme-1-main-28">At this point, it doesn’t matter what these functions represent, other than they represent a method for calculating some specific number. So it doesn’t matter that <span class="process-math">\(\ln(2) \approx 0.693\text{,}\)</span> only that <span class="process-math">\(\ln(2)\)</span> is some number that your calculator can calculate for you.</div>
+<div class="para logical" id="sec-rme-1-main-29">
+<div class="para">At least in terms of algebra, functions behave very similarly to variables. Here are some examples:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+2f(x) + 3f(x) \amp = 5f(x) \\
+x \ln(3) - x \amp = (\ln(3) - 1)x 
+\end{aligned}
+\end{equation*}
+</div>
+</div>
+<aside class="aside aside-like" id="sec-rme-1-main-30"><div class="para" id="sec-rme-1-main-30-1">Think of "factoring out" the appropriate symbols.</div></aside><div class="para logical" id="sec-rme-1-main-31">
+<div class="para">The important note is that the function name cannot be separated from its argument (the parentheses and everything inside of the parentheses). All of that notation should be seen as a single object. That is, you cannot factor out the <span class="process-math">\(f\)</span> in the first example:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2f(x) + 3f(x) \overset{\times}{=} f(2(x) + 3(x))
+\end{equation*}
+</div>
+<div class="para">It may help for you to put a box around the function and its argument.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2f(x) + 3f(x) = 2 \, \boxed{ f(x) } + 3 \, \boxed{ f(x) }
+\end{equation*}
+</div>
+</div>
+<aside class="aside aside-like" id="sec-rme-1-main-32"><div class="para" id="sec-rme-1-main-32-1">In practice, you will probably just do this mentally.</div></aside><div class="para" id="sec-rme-1-main-33">The error of breaking apart the function from its argument is similar to other errors where students "distribute" incorrectly:</div>
+<aside class="aside aside-like" id="sec-rme-1-main-34"><div class="para" id="sec-rme-1-main-34-1">In fact, all of these errors are of the same type. They are all misinterpretations of function notation.</div></aside><div class="para logical" id="sec-rme-1-main-35">
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+\frac{1}{a + b} \amp \overset{\times}{=} \frac{1}{a} + \frac{1}{b} \\
+(x + y)^2 \amp \overset{\times}{=} x^2 + y^2 \\
+\sqrt{n + m} \amp \overset{\times}{=} \sqrt{n} + \sqrt{m} \\
+\sqrt{n^2 + m^2} \amp \overset{\times}{=} n + m \\
+\sin(\theta + \phi) \amp \overset{\times}{=} \sin(\theta) + \sin(\phi) 
+\end{aligned}
+\end{equation*}
+</div>
+<div class="para">It all comes down to not understanding what the symbols mean or how they behave.</div>
+</div>
+<article class="activity project-like" id="sec-rme-1-ac2-box-substitutions"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.2</span><span class="period">.</span><span class="space"> </span><span class="title">Hiding Information in Boxes.</span>
+</h4> <aside class="aside aside-like" id="sec-rme-1-ac2-box-substitutions-2"><div class="para" id="sec-rme-1-ac2-box-substitutions-2-1">This is a lot like ignoring the details what was in the man’s bag in the complex sentence we used earlier.</div></aside> <div class="para logical" id="sec-rme-1-ac2-box-substitutions-3">
+<div class="para">Students often feel intimidated by the notation. One trick is to think of the the function as being hidden inside of a box. This will "hide" the details so that you can focus on the big picture.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+x \ln(3) + 4 \amp = \ln(6) \\
+x \cdot \boxed{ A } + 4 \amp = \boxed{ B } \amp \eqnspacer \amp \text{Substitute} \\
+x \cdot \boxed{ A } \amp = \boxed{ B } - 4 \amp \amp \text{Subtract $4$ from both sides} \\
+x \amp = \frac{ \boxed{ B } - 4}{\boxed{A}} \amp \amp \text{Divide both sides by $\boxed{A}$} \\
+x \amp = \frac{ \ln(6) - 4}{\ln(3)} \amp \amp \text{Substitute} 
+\end{aligned}
+\end{equation*}
+</div>
+</div> <aside class="aside aside-like" id="sec-rme-1-ac2-box-substitutions-4"><div class="para" id="sec-rme-1-ac2-box-substitutions-4-1">It is more traditional to use variables to replace expressions rather than boxes. However, students tend to connect better to the boxes than variables, at least at first. The long-term goal is to not need to use substitutions at all.</div></aside> <div class="para" id="sec-rme-1-ac2-box-substitutions-5"><em class="alert">Try it!</em></div> <div class="para" id="sec-rme-1-ac2-box-substitutions-6">Solve the equation <span class="process-math">\(x \sin(1) + 5 = 3x - \cos(2)\text{.}\)</span> Do it once using a substitution similar to the example above, and then do it without that substitution. Use a complete presentation both times.</div> <details id="sec-rme-1-ac2-box-substitutions-7" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec-rme-1-ac2-box-substitutions-7-1"><div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+x \sin(1) + 5 \amp = 3x - \cos(2) \\
+x \cdot \boxed{ A } + 5 \amp = 3x - \boxed{ B } \amp \amp \text{Substitute} \\
+x \cdot \boxed{ A } \amp = 3x - \boxed{ B } - 5 \amp \amp \text{Subtract $5$ from both sides} \\
+x \cdot \boxed{ A } - 3x \amp = - \boxed{ B } - 5 \amp \amp \text{Subtract $3x$ from both sides} \\
+\left( \boxed{ A } - 3 \right) x \amp = - \boxed{ B } - 5 \amp \amp \text{Factor out the $x$} \\
+x \amp = \frac{ - \boxed{B} - 5}{\boxed{A} - 3} \amp \amp \text{Divide by $\boxed{A} - 3$} \\
+x \amp = \frac{ - \cos(2) - 5}{\sin(1) - 3} \amp \amp \text{Substitute} 
+\end{aligned}
+\end{equation*}
+</div></div> <div class="para logical" id="sec-rme-1-ac2-box-substitutions-7-2"><div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+x \sin(1) + 5 \amp = 3x - \cos(2) \\
+x \sin(1) \amp = 3x - \cos(2) - 5 \amp \amp \text{Subtract $5$ from both sides} \\
+x \sin(1) - 3x \amp = - \cos(2) - 5 \amp \amp \text{Subtract $3x$ from both sides} \\
+\left( \sin(1) - 3 \right) x \amp = - \cos(2) - 5 \amp \amp \text{Factor out the $x$} \\
+x \amp = \frac{ - \cos(2) - 5}{\sin(1) - 3} \amp \amp \text{Divide by $\sin(1) - 3$} 
+\end{aligned}
+\end{equation*}
+</div></div>
+</div></details></article><article class="activity project-like" id="sec-rme-1-ac3-solve-expression"><h4 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">10.3</span><span class="period">.</span><span class="space"> </span><span class="title">Solving for an Expression.</span>
+</h4> <div class="para logical" id="sec-rme-1-ac3-solve-expression-2">
+<div class="para">When we solve equations, sometimes we’re not solving for the variable, but some expression involving the variable. This is often the case when the variable is wrapped up in a function. The same type of process can be done by making a substitution similar to the ones above. It is important to remember to substitute back to the original variable if you do this.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+2 \sin(x) + \sqrt{2} \amp = 0 \\
+2 y + \sqrt{2} \amp = 0 \amp \eqnspacer \amp \text{Substitute $y = \sin(x)$} \\
+2 y \amp = -\sqrt{2} \amp \amp \text{Subtract $\sqrt{2}$ from both sides} \\
+y \amp = - \frac{\sqrt{2}}{2} \amp \amp \text{Divide both sides by $2$} \\
+\sin(x) \amp = - \frac{\sqrt{2}}{2} \amp \amp \text{Substitute back to the original variable} 
+\end{aligned}
+\end{equation*}
+</div>
+</div> <aside class="aside aside-like" id="sec-rme-1-ac3-solve-expression-3"><div class="para" id="sec-rme-1-ac3-solve-expression-3-1">This last step is easily forgotten.</div></aside> <div class="para" id="sec-rme-1-ac3-solve-expression-4"><em class="alert">Try it!</em></div> <div class="para" id="sec-rme-1-ac3-solve-expression-5">Solve the equation <span class="process-math">\(4 \exp(x) + 6 = \ln(4)\)</span> for Do it once using a substitution similar to the example above, and then do it without that substitution. Use a complete presentation both times.</div> <details id="sec-rme-1-ac3-solve-expression-6" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec-rme-1-ac3-solve-expression-6-1"><div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+4 \exp(x) + 6 \amp = \ln(4) \\
+4 y + 6 \amp = \ln(4) \amp \amp \text{Substitute $y = \exp(x)$} \\
+4 y \amp = \ln(4) - 6 \amp \amp \text{Subtract $6$ from both sides} \\
+y \amp = \frac{\ln(4) - 6}{4} \amp \amp \text{Divide both sides by $4$} \\
+\exp(x) \amp = \frac{\ln(4) - 6}{4} \amp \amp \text{Substitute back to the original variable} \\
+\end{aligned}
+\end{equation*}
+</div></div> <div class="para logical" id="sec-rme-1-ac3-solve-expression-6-2"><div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+4 \exp(x) + 6 \amp = \ln(4) \\
+4 \exp(x) \amp = \ln(4) - 6 \amp \amp \text{Subtract $6$ from both sides} \\
+\exp(x) \amp = \frac{\ln(4) - 6}{4} \amp \amp \text{Divide both sides by $4$} 
+\end{aligned}
+\end{equation*}
+</div></div>
+</div></details></article></section><section class="section" id="sec-rme-2-worksheets"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">10.2</span><span class="space"> </span><span class="title">Worksheets</span>
+</h3>
+<div class="para" id="sec-rme-2-worksheets-2">
+<a class="external" href="external/worksheets/10-Worksheets.pdf" target="_blank">PDF Version of these Worksheets</a><details class="ptx-footnote" aria-live="polite" id="sec-rme-2-worksheets-2-2"><summary class="ptx-footnote__number" title="Footnote 10.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-rme-2-worksheets-2-2"><code class="code-inline tex2jax_ignore">external/worksheets/10-Worksheets.pdf</code></div></details>
+</div>
+<section class="worksheet" id="sec-rme-2-worksheets-1"><h4 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Worksheet 1</span><div class="print-links">
+<a href="sec-rme-2-worksheets-1-a4.html" class="a4">A4</a><a href="sec-rme-2-worksheets-1-letter.html" class="us">US</a>
+</div>
+</h4>
+<article class="exercise exercise-like" id="sec-rme-2-worksheets-1-2"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-1-2-1">Consider the expression <span class="process-math">\((x + 2)(x - 5)\text{.}\)</span> Describe the "big picture" perspective of the expression and put boxes around the terms as appropriate.</div></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-1-3"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-1-3-1">Consider the expression <span class="process-math">\(x + 2(x - 5)\text{.}\)</span> Describe the "big picture" perspective of the expression and put boxes around the terms as appropriate.</div>
+<aside class="aside aside-like" id="sec-rme-2-worksheets-1-3-2"><div class="para" id="sec-rme-2-worksheets-1-3-2-1">Many students treat this calculation like the previous one. It’s an easy "gotcha" problem to catch students that aren’t paying attention.</div></aside></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-1-4"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-1-4-1">Determine whether you think the following equation is valid. Explain your reasoning.</div>
+<div class="para logical" id="sec-rme-2-worksheets-1-4-2"><div class="displaymath process-math">
+\begin{equation*}
+\sin(x + y) = \sin(x) + \sin(y) 
+\end{equation*}
+</div></div>
+<aside class="aside aside-like" id="sec-rme-2-worksheets-1-4-3"><div class="para" id="sec-rme-2-worksheets-1-4-3-1">Hint: This is one of the special named functions that was discussed in this chapter.</div></aside></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-1-5"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-1-5-1">Solve the equation <span class="process-math">\(x \ln(2) + 3 = -4\text{.}\)</span> Do it once using a substitution for then do it without a that substitution. Use a complete presentation both times.</div></article></section><section class="worksheet" id="sec-rme-2-worksheets-2"><h4 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Worksheet 2</span><div class="print-links">
+<a href="sec-rme-2-worksheets-2-a4.html" class="a4">A4</a><a href="sec-rme-2-worksheets-2-letter.html" class="us">US</a>
+</div>
+</h4>
+<article class="exercise exercise-like" id="sec-rme-2-worksheets-2-2"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-2-2-1">Consider the expression <span class="process-math">\(2x(x - 3) + 4\text{.}\)</span> Describe the "big picture" perspective of the expression and put boxes around the terms as appropriate.</div></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-2-3"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-2-3-1">Evaluate the expression <span class="process-math">\(2x(x - 3) - 5\)</span> when <span class="process-math">\(x = 2\text{.}\)</span> Use a complete presentation.</div>
+<aside class="aside aside-like" id="sec-rme-2-worksheets-2-3-2"><div class="para" id="sec-rme-2-worksheets-2-3-2-1">There are no examples of this! Use your best judgment of what a "complete presentation" would like for this calculation based on your experience. Start trusting yourself.</div></aside></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-2-4"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para logical" id="sec-rme-2-worksheets-2-4-1">
+<div class="para">Check the presentation for errors. If you find one, circle it and describe the mistake in words.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+3x + f(4) \amp = f(10) \\
+3x + 4 \amp = 10 \amp \eqnspacer \amp \text{Cancel out the $f$} \\
+3x \amp = 6 \amp \amp \text{Subtract $4$ from both sides} \\
+x \amp = 2 \amp \amp \text{Divide both sides by $3$} 
+\end{aligned}
+\end{equation*}
+</div>
+</div></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-2-5"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para logical" id="sec-rme-2-worksheets-2-5-1">
+<div class="para">Check the presentation for errors. If you find one, circle it and describe the mistake in words.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+\exp(x) + 3 \amp = 8 \\
+\exp(x) \amp = 5 \amp \eqnspacer \amp \text{Subtract $3$ from both sides} \\
+x \amp = \frac{5}{\exp} \amp \amp \text{Divide both sides by $\exp$} \\
+\end{aligned}
+\end{equation*}
+</div>
+</div></article></section><section class="worksheet" id="sec-rme-2-worksheets-3"><h4 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Worksheet 3</span><div class="print-links">
+<a href="sec-rme-2-worksheets-3-a4.html" class="a4">A4</a><a href="sec-rme-2-worksheets-3-letter.html" class="us">US</a>
+</div>
+</h4>
+<article class="exercise exercise-like" id="sec-rme-2-worksheets-3-2"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-3-2-1">Consider the expression <span class="process-math">\((x + 1)^2 - (x - 1)^2\text{.}\)</span> Describe the "big picture" perspective of the expression and put boxes around the terms as appropriate.</div></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-3-3"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para logical" id="sec-rme-2-worksheets-3-3-1">
+<div class="para">Check the presentation for errors. If you find one, circle it and describe the mistake in words.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+(x + 4)^2 - (x - 3)^2 \amp = (x^2 + 16) - (x^2 - 9) \amp \eqnspacer \amp \text{Distribute the square} \\
+\amp = x^2 - x^2 + 16 + 9 \amp \amp \text{Rearrange the terms} \\
+\amp = 25 \amp \amp \text{Combine like terms} 
+\end{aligned}
+\end{equation*}
+</div>
+</div></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-3-4"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-3-4-1">Simplify the expression <span class="process-math">\((x + 1)^2 - (x - 1)^2\)</span> using a complete presentation.</div></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-3-5"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-3-5-1">Solve the equation <span class="process-math">\(2 \tan(x) - 5 = -3\)</span> for Do it once using a substitution for then do it without that substitution. Use a complete presentation both times.</div></article></section><section class="worksheet" id="sec-rme-2-worksheets-4"><h4 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Worksheet 4</span><div class="print-links">
+<a href="sec-rme-2-worksheets-4-a4.html" class="a4">A4</a><a href="sec-rme-2-worksheets-4-letter.html" class="us">US</a>
+</div>
+</h4>
+<article class="exercise exercise-like" id="sec-rme-2-worksheets-4-2"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para logical" id="sec-rme-2-worksheets-4-2-1">
+<div class="para">Check the presentation for errors. If you find one, circle it and describe the mistake in words.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+6 \exp(2) \amp = 10 \\
+x \amp = \frac{10}{\exp(2)} \amp \eqnspacer \amp \text{Divide both sides by $\exp(2)$} \\
+x \amp = \frac{5}{\exp(1)} \amp \amp \text{Reduce} 
+\end{aligned}
+\end{equation*}
+</div>
+</div></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-4-3"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-4-3-1">Solve the equation <span class="process-math">\(ax + b = c\)</span> for the variable using a complete presentation.</div></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-4-4"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para logical" id="sec-rme-2-worksheets-4-4-1">
+<div class="para">Check the presentation for errors. If you find one, circle it and describe the mistake in words.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{aligned}
+x \log(5) \amp = \log(7) \\
+x \amp = \frac{\log(7)}{\log(5)} \amp \eqnspacer \amp \text{Divide both sides by $\log(5)$} \\
+x \amp = \frac{7}{5} \amp \amp \text{Cancel out the $\log$} 
+\end{aligned}
+\end{equation*}
+</div>
+</div></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-4-5"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-4-5-1">Solve the equation <span class="process-math">\(2 \log(x) = \log(x) + 5\)</span> for Do it once using a substitution for then do it without that substitution. Use a complete presentation both times.</div>
+<aside class="aside aside-like" id="sec-rme-2-worksheets-4-5-2"><div class="para" id="sec-rme-2-worksheets-4-5-2-1">Students can start to feel lost with a problem like this. But the substitution helps them to visually identify where the variable terms are located, and it helps them to see how to proceed.</div></aside></article></section><section class="worksheet" id="sec-rme-2-worksheets-5"><h4 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Worksheet 5</span><div class="print-links">
+<a href="sec-rme-2-worksheets-5-a4.html" class="a4">A4</a><a href="sec-rme-2-worksheets-5-letter.html" class="us">US</a>
+</div>
+</h4>
+<article class="exercise exercise-like" id="sec-rme-2-worksheets-5-2"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-5-2-1">Solve the equation <span class="process-math">\(ax + b = cx + d\)</span> for the variable using a complete presentation.</div></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-5-3"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-5-3-1">Solve the equation <span class="process-math">\(x\sin(1) + \cos(2) = x \ln(3) - f(4)\text{.}\)</span> Use a complete presentation.</div>
+<aside class="aside aside-like" id="sec-rme-2-worksheets-5-3-2"><div class="para" id="sec-rme-2-worksheets-5-3-2-1">Try to do this without making substitutions.</div></aside></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-5-4"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-5-4-1">Solve the equation <span class="process-math">\(3\ln(x) + \ln(4) = 8\)</span> for Use a complete presentation.</div></article><article class="exercise exercise-like" id="sec-rme-2-worksheets-5-5"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-2-worksheets-5-5-1">Solve the equation <span class="process-math">\(3x + \log(6) = \exp(3)\text{.}\)</span> Use a complete presentation.</div></article></section></section><section class="section" id="sec-rme-3-practice"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">10.3</span><span class="space"> </span><span class="title">Deliberate Practice: Solving for Variables and Function Expressions</span>
+</h3>
+<div class="para" id="sec-rme-3-practice-2">Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections, you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.</div>
+<div class="para logical" id="sec-rme-3-practice-3">
+<div class="para"><em class="emphasis">Focus on these skills:</em></div>
+<ul class="disc">
+<li id="sec-rme-3-practice-3-2-1"><div class="para" id="sec-rme-3-practice-3-2-1-1">Write the original expression.</div></li>
+<li id="sec-rme-3-practice-3-2-2"><div class="para" id="sec-rme-3-practice-3-2-2-1">You do not need to use a substitution to replace the function expressions, but it might help.</div></li>
+<li id="sec-rme-3-practice-3-2-3"><div class="para" id="sec-rme-3-practice-3-2-3-1">Avoid inappropriate cancellations and other algebraic errors involving functions.</div></li>
+<li id="sec-rme-3-practice-3-2-4"><div class="para" id="sec-rme-3-practice-3-2-4-1">Present your work legibly.</div></li>
+</ul>
+</div>
+<section class="worksheet" id="sec-rme-3-worksheet"><h4 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Worksheet</span><div class="print-links">
+<a href="sec-rme-3-worksheet-a4.html" class="a4">A4</a><a href="sec-rme-3-worksheet-letter.html" class="us">US</a>
+</div>
+</h4>
+<div class="para" id="sec-rme-3-worksheet-1">
+<em class="emphasis">Instructions:</em> Solve for the indicated quantity.</div>
+<article class="exercise exercise-like" id="sec-rme-3-worksheet-2"><h5 class="heading"><span class="codenumber">1<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-3-worksheet-2-1">Solve <span class="process-math">\(\ln(3) x + 5 = \ln(2) x - 7\)</span> for <span class="process-math">\(x\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="sec-rme-3-worksheet-3"><h5 class="heading"><span class="codenumber">2<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-3-worksheet-3-1">Solve <span class="process-math">\(\pi x + \sqrt{3} = 2x + \cos(2)\)</span> for <span class="process-math">\(x\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="sec-rme-3-worksheet-4"><h5 class="heading"><span class="codenumber">3<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-3-worksheet-4-1">Solve <span class="process-math">\(\exp(4) x + 3 = \exp(2) x + \exp(5)\)</span> for <span class="process-math">\(x\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="sec-rme-3-worksheet-5"><h5 class="heading"><span class="codenumber">4<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-3-worksheet-5-1">Solve <span class="process-math">\(\sqrt{5} x - \log(4) = \pi x + \sqrt{7}\)</span> for <span class="process-math">\(x\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="sec-rme-3-worksheet-6"><h5 class="heading"><span class="codenumber">5<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-3-worksheet-6-1">Solve <span class="process-math">\(2 \sin(x) + \sqrt{3} = 4 \sin(x)\)</span> for <span class="process-math">\(\sin(x)\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="sec-rme-3-worksheet-7"><h5 class="heading"><span class="codenumber">6<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-3-worksheet-7-1">Solve <span class="process-math">\(5 \cos(x) + \sqrt{2} = 3 \cos(x) - 2\)</span> for <span class="process-math">\(\cos(x)\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="sec-rme-3-worksheet-8"><h5 class="heading"><span class="codenumber">7<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-3-worksheet-8-1">Solve <span class="process-math">\(4 \ln(x) + 3 = -2 \ln(x) + \ln(4)\)</span> for <span class="process-math">\(\ln(x)\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="sec-rme-3-worksheet-9"><h5 class="heading"><span class="codenumber">8<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-3-worksheet-9-1">Solve <span class="process-math">\(5 \exp(x) - \sqrt{6} = 2 \exp(x) - \cos(1)\)</span> for <span class="process-math">\(\exp(x)\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="sec-rme-3-worksheet-10"><h5 class="heading"><span class="codenumber">9<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-3-worksheet-10-1">Solve <span class="process-math">\(3 f(x) - 4 f(2) = g(3) + 6\)</span> for <span class="process-math">\(f(x)\text{.}\)</span>
+</div></article><article class="exercise exercise-like" id="sec-rme-3-worksheet-11"><h5 class="heading"><span class="codenumber">10<span class="period">.</span></span></h5>
+<div class="para" id="sec-rme-3-worksheet-11-1">Solve <span class="process-math">\(5 \sqrt{x} + \ln(3) = 4 \exp(2) - 3\)</span> for <span class="process-math">\(\sqrt{x}\text{.}\)</span>
+</div></article></section></section><section class="section" id="sec-rme-4-closing"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">10.4</span><span class="space"> </span><span class="title">Closing Ideas</span>
+</h3>
+<div class="para logical" id="sec-rme-4-closing-2">
+<div class="para">There’s an internet math meme that makes its way around social media every now and then. There are a few versions of it, but they all look something like this:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{Calculate: } 6 \div 2(1+2)
+\end{equation*}
+</div>
+</div>
+<div class="para" id="sec-rme-4-closing-3">People will argue for hours over whether the correct answer is or Some people will insist on the "rule" that division and multiplication and done left-to-right, but others will note that the implied multiplication is usually given priority. For example, in writing <span class="process-math">\(5 \div 2x\text{,}\)</span> there’s virtually no context in which we would separate the 2 from the <span class="process-math">\(x\text{.}\)</span>
+</div>
+<div class="para" id="sec-rme-4-closing-4">But all of that arguing misses the point. The "answer" is that the person writing the problem did not communicate effectively. The person who wrote the expression did not use notation in a clear manner. And that’s an important lesson. Mathematics is not about arcane rules, but about communicating ideas.</div>
+<div class="para" id="sec-rme-4-closing-5">One of the ongoing challenges for math courses is that students can keep advancing forward with a weak foundation. They can often do well enough to pass the new material while there are weaknesses from previous sections that remain unaddressed. And this can continue for a while, sometimes multiple years, until there’s a certain moment where things suddenly make no sense at all.</div>
+<div class="para" id="sec-rme-4-closing-6">Sometimes, students will get to that spot and try to brute force their way through it. It is not often successful from the educational perspective, though with enough effort students they may still be able to "pass" the material (even if just barely).</div>
+<div class="para" id="sec-rme-4-closing-7">The first part of this book has been focused on shoring up a number of key algebraic ideas and concepts. This last section is an important step towards true algebraic fluency. As soon as you are able to "see through" all of the notation and break down complicated expressions to their more basic components, you have access to a much wider range of algebraic thought processes. Going back to the language analogy, this is the point where you cross over from speaking in broken sentence fragments into the early stages of fluency.</div>
+<aside class="aside aside-like" id="sec-rme-4-closing-8"><div class="para" id="sec-rme-4-closing-8-1">Study tip: Keep a log of your basic algebra errors. Write down (using a complete presentation!) what you did and what you were supposed to do. This will help your brain catch the patterns and fix them. This is one of the fastest ways to correct these types of errors. After the third or fourth time, you will have trained your brain to watch for that error.</div></aside><div class="para" id="sec-rme-4-closing-9">The next major step in forward development is contextualized practice. It’s not enough to simply see these algebraic ideas in isolation. They need to be brought into perspective through the lens of other mathematical ideas. And that is where the college level math course will take over.</div>
+<div class="para" id="sec-rme-4-closing-10">The rest of this book is about backwards development. In other words, it’s about finding and filling some of the earlier holes that create problems for students. In a real sense, we will be working backwards from concepts found in high school algebra down to elementary school arithmetic. The content is full of a number of simple ideas that are sometimes missed by students as they’re coming up through the educational system. And those are sometimes the concepts that help to support higher levels of mathematical thinking.</div></section><section class="section" id="sec-rme-5-deeper"><h3 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">10.5</span><span class="space"> </span><span class="title">Going Deeper: Your Calculator and You</span>
+</h3>
+<div class="para" id="sec-rme-5-deeper-2">Teachers used to say that you wouldn’t be carrying around a calculator in your pocket all the time. They were wrong. We do this all the time. But it’s surprising that even though we have these calculators, most people can’t actually use them properly. Most people can use them for simple arithmetic, but will make errors for even slightly complex situations.</div>
+<div class="para logical" id="sec-rme-5-deeper-3">
+<div class="para">From what I can tell, the basic challenge is that calculators behave in a way that doesn’t always match up with how students think the calculator should behave. Here is an example:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2 + 6}{3 + 1}
+\end{equation*}
+</div>
+<div class="para">When students read this in their minds, they see it as plus divided by plus and proceed to press the following buttons:</div>
+</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/sec-rme-5-calculation-1.svg" role="img" class="contained"></div>
+<aside class="aside aside-like" id="sec-rme-5-deeper-5"><div class="para" id="sec-rme-5-deeper-5-1">Most modern calculators will give the wrong answer of 5. But some will give a wrong answer of 3.33333333. Those calculators are evaluating everything step-by-step and not even trying to manage the order of operations for you.</div></aside><div class="para" id="sec-rme-5-deeper-6">If you do the calculation by hand, you can see that the result will be 2. But the calculator will give the answer 5. Most students won’t even recognize that there’s something wrong because they have learned to trust their calculators. The problem here is exactly the same as the problem with the <span class="process-math">\(x^2 + 3/x + 2\)</span> example from earlier in this section. The calculator is trying to apply the order of operations based on what you’ve entered, but that results in the calculation of something other than what you had intended.</div>
+<div class="para" id="sec-rme-5-deeper-7">The problems only get worse as you get further along in math. There are other situations where different calculators are programmed to interpret expressions differently. A common test for calculators is to see how it handles implied multiplication. Consider the following key presses:</div>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="generated/latex-image/sec-rme-5-calculation-2.svg" role="img" class="contained"></div>
+<aside class="aside aside-like" id="sec-rme-5-deeper-9"><div class="para" id="sec-rme-5-deeper-9-1">The calculators that give are calculators that evaluate the square root when you push the button, as opposed to letting you type out the full expression. There’s actually something going on with the memory when you press the square root button. Basically, the second 2 is overwriting the <span class="process-math">\(\sqrt{2}\)</span> calculation, so that you end up with just <span class="process-math">\(1 \div 2\text{.}\)</span>
+</div></aside><div class="para" id="sec-rme-5-deeper-10">Some calculators will interpret this as <span class="process-math">\(\frac{1}{2\sqrt{2}}\)</span> (giving 0.5356), others will treat this as <span class="process-math">\(\frac{1}{2} \sqrt{2}\)</span> (giving 0.7071), and still there’s a whole other set of calculators that might just give you the number 0.5.</div>
+<div class="para" id="sec-rme-5-deeper-11">Your instinct may be to ask the following question: "Which one is right?" And the reason you might do this is because you’re used to there always being a right answer. But that’s simply not the case. Just as with the math meme in <a href="chapter-reading-math.html#sec-rme-4-closing" class="internal" title="Section 10.4: Closing Ideas">Section 10.4</a>, this isn’t a problem of right and wrong. It’s a problem of communication. Did the buttons communicate the right instruction to the calculator? In this case, you don’t know what the intention was, and neither does the calculator. It’s just blindly following its instructions.</div>
+<div class="para" id="sec-rme-5-deeper-12">Fortunately, most modern calculators give you a way around this problem. They give you parentheses so that you can be explicit with the calculator what you want it to do. And this is a habit that you will want to develop for any time you use a computational device to perform a calculation. It also doesn’t hurt to be explicit about multiplication calculations.</div>
+<div class="para" id="sec-rme-5-deeper-13">The problems continue to get worse when you start using functions. Some calculators evaluate the function when you press the button, and others wait for you to type in your full expression before it decides what it wants to calculate. And depending on which type of calculator you have, you’ll need to do things in different orders to get the result that you want. If you didn’t read the margin comment about the square root function, you should read that now.</div>
+<div class="para" id="sec-rme-5-deeper-14">When you get into trigonometry, you will also need to know whether your calculator is in degree mode or radian mode. And failing to switch to the appropriate mode will lead to even more errors. Basically, you’re picking between different units for numbers. It’s like if someone were to tell you that the length of an object is 3. On its own, you don’t know what units of measurement they used, and so it’s impossible to know if they meant 3 inches or 3 miles.</div>
+<div class="para" id="sec-rme-5-deeper-15">Ultimately, it’s impossible to give clear guidance for how your specific calculator will behave, because there’s so much variation between them. You just need to know how to use it right. There are a couple techniques you can use. The first was mentioned earlier, which is to use parentheses to explicitly tell the calculator the order you want it to calculate everything. Another technique is to break the calculation down into smaller steps, so that you’re only putting in one calculation at a time, and then writing down that number on your paper before going to the next calculation. This is especially helpful if you have a calculator that evaluates functions immediately. This saves you from the mental gymnastics of trying to plan ahead to make sure that you’ve worked out the correct order for typing everything into your calculator.</div>
+<div class="para" id="sec-rme-5-deeper-16">In some ways, even if your calculator has parentheses it’s preferable for you to do it step by step and write out the results of each set of calculations. The reason is that this is easier to work with when you check your work. For longer expressions, you can end up with four or five sets of parentheses, and it can be a lot of work to make sure they’re all correct. It also helps you to mentally think through the steps of the calculation to make sure that you really understand what you’re doing. But the precise bounds on when to switch is going to depend on the amount of practice you have with your calculator.</div></section></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="chapter-factoring-quadratics.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="chapter-review-1.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="338 3000 8772 6866"><g style="stroke-width:.025in; stroke:black; fill:none"><polyline points="472,3590 472,9732 " style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke:#000000;stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke:#000000;stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke:#000000;stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke:#000000;stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke:#000000;stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"></a>
+</div>
+</body>
+</html>
