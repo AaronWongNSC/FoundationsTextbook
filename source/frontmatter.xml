@@ -24,8 +24,7 @@ Copyright 2021 Aaron Wong
         <edition>Spring 2023</edition>
 
         <website>
-            <name><c>www.nsc.edu/FoundationsTextbook</c></name>
-            <address>http://www.nsc.edu/FoundationsTextbook</address>
+            <url href="http://www.nsc.edu/FoundationsTextbook">Foundations Textbook</url>
         </website>
 
         <copyright>
@@ -58,7 +57,7 @@ Copyright 2021 Aaron Wong
     </colophon>
 
     <preface xml:id="preface">
-        <section xml:id="preface-why">
+        <paragraphs xml:id="preface-why">
             <title>Underlying Philosophy</title>
             <p>
                 Why write this book? That's a question that I needed to have a clear answer to before I began the
@@ -164,9 +163,9 @@ Copyright 2021 Aaron Wong
                 is contextualized as a support for a college level math course. And that's the reality. We simply need
                 to do the best we can with the time that we have.
             </p>
-        </section>
+        </paragraphs>
 
-        <section xml:id="preface-target-audience">
+        <paragraphs xml:id="preface-target-audience">
             <title>Who is the Target Audience?</title>
             <p>
                 This book is written for all college students who are interested in improving their mathematical
@@ -176,9 +175,9 @@ Copyright 2021 Aaron Wong
                 brokenness in the math education system, and I will be glad if these ideas help to fix even a smallest
                 part of that.
             </p>
-        </section>
+        </paragraphs>
 
-        <section xml:id="preface-book-goal">
+        <paragraphs xml:id="preface-book-goal">
             <title>The Goal of the Book</title>
             <p>
                 So we return to the driving question: What do we <em>really</em> want students to learn? The answer that
@@ -231,9 +230,9 @@ Copyright 2021 Aaron Wong
                 trust their thinking), they will be far more able to reconstruct the ideas behind the manipulations if
                 they've forgotten them. It simply puts them in a much better position for long-term success.
             </p>
-        </section>
+        </paragraphs>
 
-        <section xml:id="preface-book-structure">
+        <paragraphs xml:id="preface-book-structure">
             <title>The Structure of the Book</title>
             <aside>
                 <p>
@@ -349,9 +348,9 @@ Copyright 2021 Aaron Wong
                 Simply put, for a support course like this we would rather that students make the mental effort to
                 connect the dots of ideas that already exist in their heads instead of asking them to pursue new topics.
             </p>
-        </section>
+        </paragraphs>
 
-        <section xml:id="preface-section-structure">
+        <paragraphs xml:id="preface-section-structure">
             <title>The Structure of Each Section</title>
             <p>
                 The core structure of each section is the following:
@@ -405,9 +404,9 @@ Copyright 2021 Aaron Wong
                     </li>
                 </ul>
             </p>
-        </section>
+        </paragraphs>
 
-        <section xml:id="preface-precalculus-alignment">
+        <paragraphs xml:id="preface-precalculus-alignment">
             <title>Alignment with Precalculus Courses</title>
             <p>
                 This textbook was organized with precalculus in mind. While precalculus textbooks vary somewhat, they
@@ -487,9 +486,9 @@ Copyright 2021 Aaron Wong
                     </tabular>
                 </table>
             </p>
-        </section>
+        </paragraphs>
 
-        <section xml:id="sec-other-alignment">
+        <paragraphs xml:id="sec-other-alignment">
             <title>Alignment with Other Courses</title>
             <p>
                 Although the organization of this textbook is not built around other first semester courses (such as a
@@ -500,9 +499,9 @@ Copyright 2021 Aaron Wong
                 intended order, it's the ideas are sufficiently self-contained that they can be rearranged without much
                 harm to the overall delivery of the material. 
             </p>
-        </section>
+        </paragraphs>
 
-        <section xml:id="sec-errors-suggestions">
+        <paragraphs xml:id="sec-errors-suggestions">
             <title>Errors? Suggestions?</title>
             
             <p>
@@ -511,7 +510,7 @@ Copyright 2021 Aaron Wong
                 always open to new ideas. The best way to contact me is through email
                 (<email>aaron.wong@nsc.edu</email>).
             </p>
-        </section>
+        </paragraphs>
 
     </preface>
 
