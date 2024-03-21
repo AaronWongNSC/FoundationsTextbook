@@ -1,0 +1,264 @@
+<section xml:id="sec-bap-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/01-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-bap-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Circle and identify the two features that make the equations below make a complete presentation of the
+                mathematical manipulation. 
+				<me>
+					\begin{aligned}
+                        -6x + 16 \amp = -8 \\
+                        -6x \amp = -24 \amp \eqnspacer \amp \text{Subtract $16$ from both sides} \\
+                        x \amp = 4 \amp \amp \text{Divide both sides by $6$} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>5x + 9 = 34</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>4x - 13 = 8</m> using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					Don't assume that if you end up with a fraction that you must have done something wrong! You will
+                    need to develop the self-confidence to assess your work based on the logic and not the answer. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Work backwards from the given information to derive the original presentation. 
+			</p>
+			<aside>
+				<p>
+					Problem solving is an important life skill. If you can only work with information when it's
+                    presented in one specific way, you don't have a complete understanding of it. 
+				</p>
+			</aside>
+			<p>
+				<me>
+					\begin{aligned}
+                        \\
+                        \\
+                        \amp \amp \eqnspacer \amp \text{Add $8$ to both sides} \\
+                        \\
+                        x \amp = -3 \amp \amp \text{Divide both sides by $5$} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-bap-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Solve the equation <m>6x + 9 = -21</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>4x + 7 = 7</m> using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					Students sometimes get confused when division involves the number zero. We'll look into division in
+                    detail later. For now, just remember that zero divided by anything is zero and that you should never
+                    divide by zero. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>-5t - 27 = -6t</m> using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					While we traditionally use the variable <m>x</m> we can and will use many other symbols as our
+                    variables. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Work backwards from the given information to derive the original presentation. 
+			</p>
+			<aside>
+				<p>
+					Sometimes, in the process of solving an equation, you may end up with the variable on the right
+                    side. It is conventional to have your final answer written with the variable on the left side, even
+                    if both <m>7 = y</m> and <m>y = 7</m> mean the same thing. It's not a big deal if you don't do this,
+                    but it's a nice thing to do. 
+				</p>
+			</aside>
+			<p>
+				<me>
+					\begin{aligned}
+                        \\
+                        \amp \amp \eqnspacer \amp \text{Add $3y$ to both sides} \\
+                        \\
+                        \amp \amp \amp \text{Subtract $6$ from both sides} \\
+                        \\
+                        7 \amp = y \amp \amp \text{Divide both sides by $-2$} \\
+                        \\
+                        y \amp = 7 \amp \amp \text{Rewrite in the conventional order} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-bap-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Solve the equation <m>-9x + 3 = 66</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>3x + 9 = -9</m> using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					If you get <m>x = 0</m>, then you made an error. Be careful because this is a common mistake! 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>-8x + 17 = -4x + 41</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+                        -9x + 16 \amp = 7x - 8 \\
+                        -9x \amp = 7x - 24 \amp \eqnspacer  \amp \text{Subtract $16$ from both sides} \\
+                        -2x \amp = -24 \amp \amp \text{Subtract $7x$ from both sides} \\
+                        x \amp = 12 \amp \amp \text{Divide both sides by $-2$} 
+					\end{aligned}
+				</me>
+			</p>
+			<aside>
+				<p>
+					It is usually much easier for us to see errors in other people's work than it is to see them in our
+                    own. One way to help find your own errors is to walk away for a while and come back later. This
+                    gives your brain a chance to "forget" what you did so that you can rethink everything from the
+                    beginning. Wait... did you think this is a discussion about algebra? 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-bap-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Solve the equation <m>-3x + 12 = 5x - 8</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>4x + 7 = -3x + 7</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Perform the indicated algebraic manipulations. 
+				<me>
+					\begin{aligned}
+                        x^2 \amp = 6x + 7 \\
+                        \\
+                        \amp \amp \eqnspacer \amp \text{Subtract $6x$ from both sides} \\
+                        \\
+                        \amp \amp \amp \text{Add $9$ to both sides} 
+					\end{aligned}
+				</me>
+			</p>
+			<aside>
+				<p>
+					This is known as "completing the square." You may not know what it is or why you're doing it right
+                    now, but this is an important algebraic concept that will likely see later. For now, just focus on
+                    practicing your algebra. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+                        5x + 8 \amp = -2x - 8 \\
+                        5x \amp = -2x \amp \eqnspacer \amp \text{Subtract $8$ from both sides} \\
+                        7x \amp = 0 \amp \amp \text{Add $2x$ to both sides} \\
+                        x \amp = 0 \amp \amp \text{Divide both sides by $7$} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-bap-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Solve the equation <m>7x - 15 = -2x + 7</m> using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					Don't assume you've made a mistake just because you got a fraction. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>-5x - 3 = -3x + 3</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Work backwards from the given information to derive the original presentation. 
+			</p>
+			<aside>
+				<p>
+					There is no rhyme or reason to the manipulations for this one. It's just an exercise in thinking
+                    carefully. 
+				</p>
+			</aside>
+			<p>
+				<me>
+					\begin{aligned}
+                        \amp \amp \eqnspacer \amp \\
+                        \\
+                        \amp \amp \amp \text{Subtract $3x$ from both sides} \\
+                        \\
+                        2x + 1 \amp = 5x -4 \amp \amp \text{Add $9$ to both sides} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+                        6x + 4 \amp = -3x - 10 \\
+                        6x \amp = -3x - 14 \amp \eqnspacer \amp \text{Subtract $4$ from both sides} \\
+                        9x \amp = -14 \amp \amp \text{Add $3x$ to both sides} \\
+                        x \amp = \frac{14}{9} \amp \amp \text{Divide both sides by $9$} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+	</worksheet>
+</section>

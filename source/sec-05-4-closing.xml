@@ -1,0 +1,104 @@
+<section xml:id="sec-vas-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		The use of variables to represent other variable expressions is an extremely important skill in mathematics. In
+		your college math course, you will likely see that function notation can lead you to make the exact same type of
+		substitutions. Here is a brief preview of that. 
+	</p>
+	<aside>
+		<p>
+			See <xref ref="def-fucntion" /> for the definition of a function.
+		</p>
+	</aside>
+	<p>
+		Suppose we define the function <m>f(x) = x^2 - 2</m>. To evaluate the function means to substitute for the
+		variable and simplify the result. Here are some examples. 
+		<ul>
+			<li>
+				<p>
+					<m>f(y) = y^2 - 2</m> 
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>f(x - 3) = (x - 3)^2 - 2</m> 
+				</p>
+			</li>
+		</ul>But students start to struggle with this concept as soon as we start substituting objects other than
+		numbers: 
+		<ul>
+			<li>
+				<p>
+					<m>f(y) = y^2 - 2</m> 
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>f(x - 3) = (x - 3)^2 - 2</m> 
+				</p>
+			</li>
+		</ul>
+		(In the second case, you might be asked to simplify the expression.) 
+	</p>
+	<p>
+		The actual concept involved is exactly what we've done in this section. We've simply replaced the variable of
+		the function with a variable expression. But students who lack a clear understanding of this concept end up with
+		all sorts of wrong answers. Here are some examples: 
+		<ul>
+			<li>
+				<p>
+					<m>f(x - 3) = (x^2 - 3) - 2</m> 
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>f(x - 3) = x - 3^2 - 2</m> 
+				</p>
+			</li>
+			<li>
+				<p>
+					<m>f(x - 3) = (x^2 + 2) - 3</m> 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			The emotional battle of mathematics is usually the far greater challenge than the intellectual one. 
+		</p>
+	</aside>
+	<p>
+		These sorts of erroneous manipulations stem from a much deeper place than most students realize. Some students
+		don't even want to try to think through the problem, and so they just guess and hope for the best. And there's
+		some human psychology to this. They feel so accustomed to being wrong in math classes that they've simply given
+		up trying to be right. Their mentality has shifted to "I'm just going to write down something and wait for
+		someone to tell me what the right thing is." And so they just scribble down symbols and hope for the best.
+		As we keep making our way through the different topics, remember that mathematical thinking includes having a
+		clear sense of what you're doing and why you're doing it. Everything is supposed to be logical, and everything
+		is supposed to make sense. 
+	</p>
+	<aside>
+		<p>
+			Sometimes, you just need to stop and think. 
+		</p>
+	</aside>
+	<p>
+		Most of the errors above stem from students simply not taking the time to think carefully. In fact, many
+		students can find their errors after they start to try to explain what they're doing and why they're doing it.
+		In other words, most students know enough to fix their own errors, if they would just take the time to think
+		more carefully about it. 
+	</p>
+	<aside>
+		<p>
+			Careful and thoughtful practice can be enhanced by seeking academic support mechanisms such as tutoring and
+			office hours. These things exist as a pathway to help students become successful, and you should not be
+			afraid to take advantage of them. 
+		</p>
+	</aside>
+	<p>
+		Success in mathematics is attainable through the consistent effort of careful and thoughtful practice. It's not
+		about being fast or even being smart. Math is a learned skill like every other learned skill, which means that
+		you can learn it by putting in the time and the effort. So do not sell yourself short by refusing to try to
+		learn. You're going to make mistakes, and that's okay. Just keep trying to do a little bit better every time.
+	</p>
+</section>

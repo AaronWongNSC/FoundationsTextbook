@@ -1,0 +1,473 @@
+<section xml:id="sec-mult-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/30-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-mult-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Calculate <m>4 \cdot 6</m> using groups of and an integer chip diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-3 \cdot 5</m> using groups of and an integer chip diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>5 \cdot (-2)</m> using groups of and an integer chip diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-4 \cdot (-5)</m> using groups of and an integer chip diagram. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mult-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Calculate <m>3 \cdot 6</m> using groups of and a movement diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>4 \cdot (-2)</m> using groups of and a movement diagram. 
+			</p>
+			<aside>
+				<p>
+					Which way should you be facing? 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-3 \cdot 5</m> using groups of and a movement diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-5 \cdot (-4)</m> using groups of and a movement diagram. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mult-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Represent <m>5 \cdot 6</m> using a rectangle and determine the product by determining the area. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				The concept of counting up the area doesn't really make sense if we start to involve negative numbers.
+				However, we can mix the integer chips with the basic multiplication rules in order to create pictures
+				with "signed" areas. What this means is that each block of area counts as either a positive or negative.
+				You only need to maintain the basic rule of signs for each box. Here are some examples.
+			</p>
+			<image xml:id="sec-mult-2-wksht-3-1" width="100%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.2]
+						\draw (0,0) grid[step=2] (10,6); 
+						\draw[ultra thick, fill=yellow] (1,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw[ultra thick, fill=yellow] (3,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw[ultra thick, fill=yellow] (5,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw[ultra thick, fill=yellow] (7,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw[ultra thick, fill=yellow] (9,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw[thick, fill=red] (-2,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (-2,3) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (-2,5) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (1,3) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (1,5) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (3,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (3,3) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (3,5) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (5,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (5,3) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (5,5) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (7,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (7,3) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (7,5) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (9,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (9,3) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (9,5) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw (5,-3) node[anchor=north] {\small $5$}; 
+						\draw (-3,3) node[anchor=east] {\small $-3$}; 
+						\begin{scope} [shift={(-20,0)}]
+							\draw (0,0) grid[step=2] (8,6); 
+							\draw[ultra thick, fill=yellow] (1,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (3,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (5,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (7,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (-2,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (-2,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (-2,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (3,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (5,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (7,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (1,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (3,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (5,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (7,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (1,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (3,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (5,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (7,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw (4,-3) node[anchor=north] {\small $4$}; 
+							\draw (-3,3) node[anchor=east] {\small $3$}; 
+						\end{scope} 
+						\begin{scope} [shift={(22,0)}]
+							\draw (0,0) grid[step=2] (12,6); 
+							\draw[thick, fill=red] (1,-2) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+							\draw[thick, fill=red] (3,-2) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+							\draw[thick, fill=red] (5,-2) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+							\draw[thick, fill=red] (7,-2) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+							\draw[thick, fill=red] (9,-2) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+							\draw[thick, fill=red] (11,-2) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+							\draw[thick, fill=red] (-2,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+							\draw[thick, fill=red] (-2,3) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+							\draw[thick, fill=red] (-2,5) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+							\draw[ultra thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (3,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (5,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (7,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (1,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (3,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (5,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (7,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (1,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (3,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (5,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (7,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (9,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (9,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (9,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (11,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (11,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (11,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw (6,-3) node[anchor=north] {\small $-6$}; 
+							\draw (-3,3) node[anchor=east] {\small $-3$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				Something that's interesting about this approach is that is remains consistent even if we more complex
+				expressions. Use the grid below to draw a signed area diagram for the the product
+				<m>(3 + (-1)) \cdot (-2 + 4))</m>. Calculate the result by counting the values in the grid and then by
+				directly simplifying the expression. 
+			</p>
+			<image xml:id="sec-mult-2-wksht-3-2" width="40%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.2]
+						\draw (0,0) grid[step=2] (12,8); 
+						\draw[thick, fill=red] (1,-2) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[thick, fill=red] (3,-2) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[ultra thick, fill=yellow] (5,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw[ultra thick, fill=yellow] (7,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw[ultra thick, fill=yellow] (9,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw[ultra thick, fill=yellow] (11,-2) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw[thick, fill=red] (-2,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+						\draw[ultra thick, fill=yellow] (-2,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw[ultra thick, fill=yellow] (-2,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw[ultra thick, fill=yellow] (-2,7) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\draw (5,-3) node[anchor=north] {\small $4$}; 
+						\draw (-3,5) node[anchor=east] {\small $3$}; 
+						\draw (-3,1) node[anchor=east] {\small $-1$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mult-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				In the same way that we used blocks to help us to organize information for addition and subtraction, we
+				can also use them for organizing information for multiplication. When working with larger numbers, we
+				can use organize the calculation of areas using the base-10 blocks to measure the side lengths instead
+				of using individual squares.
+			</p>
+			<image xml:id="sec-mult-2-wksht-4-1" width="60%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.2] 
+						\begin{scope} [shift={(-2,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,10); 
+							\draw (0,0) grid ++ (1,10); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,10); 
+						\end{scope} 
+						\begin{scope} [shift={(-2,10.5)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(-2,12)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(-2,13.5)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(0,-2)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (10,1); 
+							\draw (0,0) grid ++ (10,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (10,1); 
+						\end{scope} 
+						\begin{scope} [shift={(10.5,-2)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (10,1); 
+							\draw (0,0) grid ++ (10,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (10,1); 
+						\end{scope} 
+						\begin{scope} [shift={(21,-2)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(22.5,-2)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(24,-2)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(25.5,-2)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(0,0)}]
+							\draw[fill=red!50!white] (0,0) rectangle ++ (10,10); 
+							\draw (0,0) grid ++ (10,10); 
+							\draw[ultra thick] (0,0) rectangle ++ (10,10); 
+						\end{scope} 
+						\begin{scope} [shift={(10.5,0)}]
+							\draw[fill=red!50!white] (0,0) rectangle ++ (10,10); 
+							\draw (0,0) grid ++ (10,10); 
+							\draw[ultra thick] (0,0) rectangle ++ (10,10); 
+						\end{scope} 
+						\begin{scope} [shift={(21,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,10); 
+							\draw (0,0) grid ++ (1,10); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,10); 
+						\end{scope} 
+						\begin{scope} [shift={(22.5,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,10); 
+							\draw (0,0) grid ++ (1,10); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,10); 
+						\end{scope} 
+						\begin{scope} [shift={(24,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,10); 
+							\draw (0,0) grid ++ (1,10); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,10); 
+						\end{scope} 
+						\begin{scope} [shift={(25.5,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,10); 
+							\draw (0,0) grid ++ (1,10); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,10); 
+						\end{scope} 
+						\begin{scope} [shift={(0,10.5)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (10,1); 
+							\draw (0,0) grid ++ (10,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (10,1); 
+						\end{scope} 
+						\begin{scope} [shift={(0,12)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (10,1); 
+							\draw (0,0) grid ++ (10,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (10,1); 
+						\end{scope} 
+						\begin{scope} [shift={(0,13.5)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (10,1); 
+							\draw (0,0) grid ++ (10,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (10,1); 
+						\end{scope} 
+						\begin{scope} [shift={(10.5,10.5)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (10,1); 
+							\draw (0,0) grid ++ (10,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (10,1); 
+						\end{scope} 
+						\begin{scope} [shift={(10.5,12)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (10,1); 
+							\draw (0,0) grid ++ (10,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (10,1); 
+						\end{scope} 
+						\begin{scope} [shift={(10.5,13.5)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (10,1); 
+							\draw (0,0) grid ++ (10,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (10,1); 
+						\end{scope} 
+						\begin{scope} [shift={(21,10.5)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(22.5,10.5)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(24,10.5)}] 
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(25.5,10.5)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(21,12)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(22.5,12)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(24,12)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(25.5,12)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(21,13.5)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(22.5,13.5)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(24,13.5)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope} 
+						\begin{scope} [shift={(25.5,13.5)}] 
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,1); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,1); 
+						\end{scope}
+						\draw [decorate,decoration={brace,amplitude=8pt},xshift=-10pt,yshift=0pt] (-2,0) -- (-2,14.5) node [midway,anchor=east,xshift=-3mm] {\small $13$}; 
+						\draw [decorate,decoration={brace,mirror,amplitude=8pt},xshift=0pt,yshift=-10pt] (0,-2) -- (26.5,-2) node [midway,anchor=north,yshift=-3mm] {\small $24$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<aside>
+				<p>
+					You should be able to count up the value mentally by working through the diagram in an organized manner. 
+				</p>
+			</aside>
+			<p>
+				Use the diagram to determine the product <m>24 \cdot 13</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a diagram with base-10 blocks to calculate <m>14 \cdot 32</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Visualize a diagram with base-10 blocks to calculate <m>14 \cdot 12</m>. 
+			</p>
+			<aside>
+				<p>
+					Stay organized by thinking of an organized way to think through the diagram. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mult-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				We are going to analyze the "standard" multiplication algorithm. There are actually several
+				multiplication algorithms, and it's not necessarily the case that the way it's presented here is the way
+				you learned it. But this is the most common way it's taught in the United States. 
+			</p>
+			<aside>
+				<p>
+					There is also the lattice algorithm, the "peasant" algorithm, and the box/grid method, to name a few. 
+				</p>
+			</aside>
+			<p>
+				Most people who can do this calculation have a difficult time describing it in terms other than the
+				specific steps. (For example, multiply this by that, then this by that, then make sure you write a
+				zero...) But we want to take the time to actually understand why these steps are what they are. To help,
+				we are going to put the standard algorithm side-by-side with the grid method. 
+			</p>
+			<aside>
+				<p>
+					Remember that we used the grid method when multiplying polynomials and that it's reflecting the idea that multiplication is an area. 
+				</p>
+			</aside>
+			<image xml:id="sec-mult-2-wksht-5-1" width="60%">
+				<latex-image>
+					\begin{tikzpicture} [xscale=0.5,yscale=0.4]
+						\draw (0,0) node[anchor=east] {$3$}; 
+						\draw (0.5,0) node[anchor=east] {$7$}; 
+						\draw (-0.5,-1) node[anchor=east] {$\times$}; 
+						\draw (0,-1) node[anchor=east] {$2$}; 
+						\draw (0.5,-1) node[anchor=east] {$8$}; 
+						\draw (-1.5,-1.5) -- (0.5,-1.5); 
+						\draw (0,1.4) node[anchor=east] {\scriptsize $1$}; 
+						\draw (0,0.7) node[anchor=east] {\scriptsize $5$}; 
+						\draw (-0.5,-2) node[anchor=east] {$2$}; 
+						\draw (0,-2) node[anchor=east] {$9$}; 
+						\draw (0.5,-2) node[anchor=east] {$6$}; 
+						\draw (-0.5,-3) node[anchor=east] {$7$}; 
+						\draw (0,-3) node[anchor=east] {$4$}; 
+						\draw (0.5,-3) node[anchor=east] {$0$}; 
+						\draw (-1,-3) node[anchor=east] {$+$}; 
+						\draw (-2,-3.5) -- (0.5,-3.5); 
+						\draw (-1,-4) node[anchor=east] {$1$}; 
+						\draw (-0.5,-4) node[anchor=east] {$0$}; 
+						\draw (0,-4) node[anchor=east] {$3$}; 
+						\draw (0.5,-4) node[anchor=east] {$6$}; 
+						\begin{scope} [shift={(5,-4)},xscale=2,yscale=2.5,scale=0.8]
+							\draw (0,0) rectangle (2,2); 
+							\draw (1,0) -- (1,2); 
+							\draw (0,1) -- (2,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $8$}; 
+							\draw (0,1.5) node[anchor=east] {\strut $20$}; 
+							\draw (0.5,2) node[anchor=south] {$30$}; 
+							\draw (1.5,2) node[anchor=south] {$7$}; 
+							\draw (0.5,0.5) node[anchor=center] {\strut $240$}; 
+							\draw (0.5,1.5) node[anchor=center] {\strut $600$}; 
+							\draw (1.5,0.5) node[anchor=center] {\strut $56$}; 
+							\draw (1.5,1.5) node[anchor=center] {\strut $140$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<aside>
+				<p>
+					If you are unfamiliar with this multiplication algorithm, you may want to find an online video that describes it. 
+				</p>
+			</aside>
+			<p>
+				In performing the standard algorithm, you compute four separate multiplication calculations:
+				<m>7 \times 8</m>, <m>3 \times 8</m> (don't forget the carried terms), <m>7 \times 2</m>, and
+				<m>3 \times 2</m> (again, don't forget the carried terms). Explain how the four boxes in the grid method
+				correspond to the four products in the standard algorithm. Be sure to explain the roles of the zeros
+				after the numbers in the grid method compared to the standard algorithm. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				In the "middle" portion of the standard algorithm, we come across the numbers 296 and 740. Those numbers
+				do not directly appear in the grid method, but those values do correspond to a certain aspect of the
+				grid method. Explain how you can get the numbers 296 and 740 from the grid method. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				The last step of the standard algorithm is to add the two values from the "middle" portion. The last
+				step of the grid method is to add the values in the boxes together. Verify that you get the same result
+				using both methods. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

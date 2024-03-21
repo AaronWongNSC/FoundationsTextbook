@@ -1,0 +1,84 @@
+<section xml:id="sec-lult-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		In this section, we rearranged terms many different times and in many different ways. As long as we made sure
+		that the negative signs moved with the appropriate terms, everything worked out just fine. But we didn't really
+		discuss why things worked out fine. We just showed you how to do it, and then let you mimic that. 
+	</p>
+	<p>
+		There are some fundamental properties of addition that you've probably seen at some point before. 
+	</p>
+    <definition xml:id="def-comm-assoc-prop-add">
+        <title>The Commutative and Associative Properties of Addition</title>
+        <idx><h>commutative property of addition</h></idx>
+        <idx><h>associative property of addition</h></idx>
+        <statement>
+            <p>
+                Let <m>a</m>, <m>b</m>, and <m>c</m> be real numbers. Then the following properties hold:
+				<ul>
+					<li>
+						<p>
+							<term>The Commutative Property of Addition</term>: <m>a + b = b + a</m>
+						</p>
+					</li>
+					<li>
+						<p>
+							<term>The Associative Property of Addition</term>: <m>(a + b) + c = a + (b + c)</m>
+						</p>
+					</li>
+				</ul>
+            </p>
+        </statement>
+    </definition>
+	<aside>
+		<p>
+			Use the ideas from the previous section and replace the variables with numbers to check this! 
+		</p>
+	</aside>
+	<p>
+		Notice that this property does not apply to subtraction. You should be able to see that <m>a - b</m> and
+		<m>b - a</m> are not the same value. If we were to switch their positions without changing the value, we would
+		first have to rewrite it as addition, and then apply the commutative property of addition to swap their
+		positions. If you've worked through the exercises, then this should feel very familiar. 
+		<me>
+			\begin{aligned}
+				a - b \amp = a + (-b) \amp \eqnspacer \amp \text{Subtraction is addition of the opposite} \\
+				\amp = (-b) + a \amp \amp \text{Commutative property of addition} 
+			\end{aligned}
+		</me>
+	</p>
+	<p>
+		As it turns out, these two addition properties are what give us the ability to move things around the way we
+		have this section. The reason that we need these properties is extremely subtle. Have you ever noticed that you
+		can only add two numbers at a time? This doesn't mean that you haven't seen sums like <m>3 + 5 + 5</m> before,
+		but when you actually go to calculate this, you don't actually work with all of the numbers all at once. 
+	</p>
+	<aside>
+		<p>
+			We call addition a binary operation because it only deals with two numbers at a time. 
+		</p>
+	</aside>
+	<p>
+		This means that when we do arithmetic, we are always implicitly putting parentheses all over the place. If
+		you're just working from left to right, then you would see the calculation as <m>(3 + 5) + 5</m>. That is,
+		you add the and the first, and then you add to that result. 
+	</p>
+	<p>
+		But maybe you've got a bit of intuition and recognize that <m>5 + 5 = 10</m>, which is potentially an easier or
+		faster approach. In that case, you would see the calculation as <m>3 + (5 + 5)</m>. This is not a problem
+		because the result is the same both ways! 
+	</p>
+	<aside>
+		<p>
+			The reason <m>27 + 2</m> is easier to think about than <m>2 + 27</m> is because we often think of addition
+			by starting from the first number and counting up by the second one. Count up 2 is much easier than counting
+			up 27. 
+		</p>
+	</aside>
+	<p>
+		The commutative property is also used when doing calculations. For most people, the calculation <m>27 + 2</m> is
+		much easier to think about than <m>2 + 27</m>. And so when we see that calculation, we instinctively switch it
+		around to the way that's easier for our brains to think about. And because of the commutative property, it
+		doesn't change the result.
+	</p>
+</section>

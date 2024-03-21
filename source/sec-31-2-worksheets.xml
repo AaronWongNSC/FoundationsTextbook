@@ -1,0 +1,202 @@
+<section xml:id="sec-div-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/31-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-div-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Draw a diagram that shows the calculation <m>24 \div 6</m> using the concept of making groups. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a diagram that shows the calculation <m>24 \div 6</m> using the concept of equal distribution. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a diagram that shows the calculation <m>21 \div 3</m> using the concept of making groups. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a diagram that shows the calculation <m>21 \div 3</m> using the concept of equal distribution. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-div-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Draw a diagram that shows the calculation <m>15 \div 3</m> using the concept of making groups. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a diagram that shows the calculation <m>15 \div 3</m> using the concept of equal distribution. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a diagrams that represent the product <m>3 \cdot 5</m> as groups of and as groups of 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Based on the diagrams that you've created, pair up each division concept with one of the <m>A</m> groups
+				of <m>B</m> diagrams. This shows how both division concepts represent the same multiplication calculation. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-div-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Determine the value of <m>248 \div 4</m>, showing your work as described in this section. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the value of <m>252 \div 7</m>, showing your work as described in this section. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the value of <m>1432 \div 4</m>, showing your work as described in this section. 
+			</p>
+			<aside>
+				<p>
+					Notice that you can go bigger than groups of 40.
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Practice your mental arithmetic by performing the following calculations.
+				<me>
+					\begin{aligned}
+						114 \div 3 \amp = \\
+						385 \div 5 \amp = \\
+						192 \div 8 \amp = \\
+						294 \div 6 \amp = \\
+						266 \div 7 \amp = \\
+						423 \div 9 \amp = \\
+						738 \div 6 \amp = \\
+						2358 \div 3 \amp = \\
+						2198 \div 7 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-div-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Determine the value of <m>532 \div 14</m>, showing your work as described in this section. 
+			</p>
+			<aside>
+				<p>
+					Follow the logic and do not be afraid that you are dividing by a two-digit number. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the value of <m>598 \div 13</m>, showing your work as described in this section. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the value of <m>756 \div 21</m>, showing your work as described in this section. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the value of <m>990 \div 18</m>, showing your work as described in this section. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-div-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Sometimes, a division calculation is "close" to being something extremely easy. For example, the
+				calculation <m>495 \div 5</m> is very close an easily calculated <m>500 \div 5</m>. But since it's easy
+				to see that <m>500 \div 5</m> is and that is one group of less than it is not too difficult to see that
+				<m>495 \div 5 = 99</m> (1 group short of 100 groups of 5).
+			</p>
+			<p>
+				This method of finding approximate answers and adjusting is commonly done in mental arithmetic when it's
+				possible. But it's a good way to quickly calculate the answer in those situations. 
+			</p>
+			<p>
+				Practice your mental arithmetic by performing the following calculations.
+				<me>
+					\begin{aligned}
+						297 \div 3 \amp = \\
+						995 \div 5 \amp = \\
+						792 \div 8 \amp = \\
+						1194 \div 6 \amp = \\
+						2691 \div 9 \amp = \\
+						693 \div 7 \amp = \\
+						1592 \div 8 \amp = \\
+						2093 \div 7 \amp = \\
+						1996 \div 4 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				It's not always the case that the number will be "one away" from a nice value. Sometimes, it may be two
+				or three away. But with some practice and experience, you can learn to spot those values, too. 
+			</p>
+			<p>
+				Practice your mental arithmetic by performing the following calculations.
+				<me>
+					\begin{aligned}
+						1490 \div 5 \amp = \\
+						1782 \div 6 \amp = \\
+						392 \div 4 \amp = \\
+						882 \div 9 \amp = \\
+						3486 \div 7 \amp = \\
+						1188 \div 6 \amp = \\
+						1491 \div 3 \amp = \\
+						1576 \div 8 \amp = \\
+						5982 \div 6 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Sometimes the "nice" value isn't quite as nice, but is still helpful. Instead of being near a multiples 
+				of these are examples that are near multiples of The same ideas still apply. These are a bit trickier
+				because you really need to be comfortable with your multiplication table to do itself.
+				<me>
+					\begin{aligned}
+						195 \div 5 \amp = \\
+						236 \div 4 \amp = \\
+						343 \div 7 \amp = \\
+						354 \div 6 \amp = \\
+						312 \div 8 \amp = \\
+						342 \div 9 \amp = \\
+						476 \div 7 \amp = \\
+						531 \div 9 \amp = \\
+						456 \div 8 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+			<aside>
+				<p>
+					This isn't a race! Focus on thinking through the process carefully and correctly. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+</section>

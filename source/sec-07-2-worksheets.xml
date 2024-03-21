@@ -1,0 +1,219 @@
+<section xml:id="sec-pop-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/07-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-pop-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Compute the product <m>4m^2 n^3 \cdot 5 m^3 n</m> using three different presentations as demonstrated in
+				this section. 
+			</p>
+			<aside>
+				<p>
+					The reason for doing this all three ways is to practice thinking through the logic. In the end, the
+					goal will be that you can do this mentally, but you need to also be able to think through the
+					individual steps correctly. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Complete the products in the following boxes. 
+			</p>
+			<image xml:id="sec-pop-2-wksht-1-products-1" width="60%">
+				<latex-image>
+					\begin{tikzpicture}
+						\begin{scope} [shift={(0,0)}]
+							\draw (0,0) rectangle (1.5,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $3x$}; 
+							\draw (0.75,1) node[anchor=south] {$8$}; 
+						\end{scope} 
+						\begin{scope} [shift={(4,0)}]
+							\draw (0,0) rectangle (1.5,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $4 a^2 b^2$}; 
+							\draw (0.75,1) node[anchor=south] {$-3 a b$}; 
+						\end{scope} 
+						\begin{scope} [shift={(8,0)}]
+							\draw (0,0) rectangle (1.5,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $-6 p^3 q^2$}; 
+							\draw (0.75,1) node[anchor=south] {$-2 p^2 q$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<aside>
+				<p>
+					Doing these products mentally is all about practicing keeping yourself organized. Work through the
+					products in a systematic way. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Complete the products in the following grids, then write up your results using a complete presentation. 
+			</p>
+			<image xml:id="sec-pop-2-wksht-1-products-2" width="40%">
+				<latex-image>
+					\begin{tikzpicture}
+						\begin{scope} [shift={(0,0.5)}]
+							\draw (0,0) rectangle (2,1); 
+							\draw (1,0) -- (1,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $5$}; 
+							\draw (0.5,1) node[anchor=south] {$x$}; 
+							\draw (1.5,1) node[anchor=south] {$4$}; 
+						\end{scope} 
+						\begin{scope} [shift={(5,0)}]
+							\draw (0,0) rectangle (1,2); 
+							\draw (0,1) -- (1,1); 
+							\draw (0,1.5) node[anchor=east] {\strut $-x$}; 
+							\draw (0,0.5) node[anchor=east] {\strut $3$}; 
+							\draw (0.5,2) node[anchor=south] {$6$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-pop-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Compute the product <m>-3 x^4 y^3 \cdot 8 x^3 y</m> using three different presentations as demonstrated
+				in this section. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Complete the products in the following boxes. 
+			</p>
+			<image xml:id="sec-pop-2-wksht-2-products" width="60%">
+				<latex-image>
+					\begin{tikzpicture}
+						\begin{scope} [shift={(0,0)}]
+							\draw (0,0) rectangle (1.5,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $2a$}; 
+							\draw (0.75,1) node[anchor=south] {$-4$}; 
+						\end{scope} 
+						\begin{scope} [shift={(4,0)}]
+							\draw (0,0) rectangle (1.5,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $-6 mn $}; 
+							\draw (0.75,1) node[anchor=south] {$5 m^2 n$}; 
+						\end{scope} 
+						\begin{scope} [shift={(8,0)}]
+							\draw (0,0) rectangle (1.5,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $-3 x^4 y^5$}; 
+							\draw (0.75,1) node[anchor=south] {$7x$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<aside>
+				<p>
+					Some students get confused by products like the last one. But the <m>7x</m> term has no <m>y</m> in
+					it! What do you think that means when it comes to taking the product? 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(x + 5)(x + 8)</m> using a grid. Write up your result using a complete presentation, being
+				sure to simplify by combining like terms. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-pop-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Complete the products in the following grids, then write up your results using a complete presentation. 
+			</p>
+			<image xml:id="sec-pop-2-wksht-3-products" width="40%">
+				<latex-image>
+					\begin{tikzpicture}
+						\begin{scope} [shift={(0,0.5)}]
+							\draw (0,0) rectangle (2,1); 
+							\draw (1,0) -- (1,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $2y$}; 
+							\draw (0.5,1) node[anchor=south] {$3x$}; 
+							\draw (1.5,1) node[anchor=south] {$-5y$}; 
+						\end{scope} 
+						\begin{scope} [shift={(5,0)}]
+							\draw (0,0) rectangle (1,2); 
+							\draw (0,1) -- (1,1); 
+							\draw (0,1.5) node[anchor=east] {\strut $3a$}; 
+							\draw (0,0.5) node[anchor=east] {\strut $-2$}; 
+							\draw (0.5,2) node[anchor=south] {$4a$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>4(2x + 3)</m> using a grid. Then write up your result as an equation. 
+			</p>
+			<aside>
+				<p>
+					Your final presentation for this will be <me>4(2x + 3) = (\text{Result}).</me>
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(x + 3)(x - 2)</m> using a grid. Write up your result using a complete presentation, being
+				sure to simplify by combining like terms. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-pop-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Calculate <m>4a(-3a + 2)</m> using a grid. Then write up your result as an equation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(2x + 4)(x - 3)</m> using a grid. Write up your result using a complete presentation, being
+				sure to simplify by combining like terms. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(2a - 3b + 4)(a - 1)</m> using a grid. Write up your result using a complete presentation,
+				being sure to simplify by combining like terms. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-pop-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Calculate <m>(2x + 5)(3x - 1)</m> using a grid. Write up your result using a complete presentation,
+				being sure to simplify by combining like terms. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(x^2 - 2x + 3)(x - 4)</m> using a grid. Write up your result using a complete presentation,
+				being sure to simplify by combining like terms. 
+			</p>
+			<aside>
+				<p>
+					We generally prefer that the terms of a polynomial are written so that the degree is decreasing.
+					This helps everyone be consistent with each other. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(x^2 + 4x - 1)(2x^2 - 3x - 2)</m> using a grid. Write up your result using a complete
+				presentation, being sure to simplify by combining like terms. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

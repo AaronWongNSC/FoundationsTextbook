@@ -1,0 +1,83 @@
+<section xml:id="sec-div-3-practice">
+	<title>Deliberate Practice: Division</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<p>
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Think through the division by making groupings. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Perform the calculation mentally before writing out the minimal presentation in this section. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-div-3-worksheet">
+		<p>
+			<em>Instructions:</em> Perform the indicated calculation. 
+		</p>
+		<exercise>
+			<p>
+				Calculate <m>372 \div 6</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>296 \div 8</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>265 \div 5</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>273 \div 7</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>342 \div 9</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>512 \div 8</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>402 \div 6</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>504 \div 9</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>315 \div 5</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>294 \div 7</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

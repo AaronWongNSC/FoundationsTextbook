@@ -1,0 +1,88 @@
+<section xml:id="sec-exp-3-practice">
+	<title>Deliberate Practice: Exponents</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<p>
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Write the original expression. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Imagine writing out the various groupings of the variables to reinforce the specific concepts that connect to the formulas. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Pay close attention to the interplay between negative exponents and fractions. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-exp-3-worksheet">
+		<p>
+			<em>Instructions:</em> Simplify the expression, expressing your final answer without fractions. 
+		</p>
+		<exercise>
+			<p>
+				Simplify <m>x^3 \cdot x^6 \cdot x^{-5}</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify <m>\left( a^{-4} \right)^3 \cdot a^2</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify <m>m^3 \cdot m^2 \cdot m^{-5}</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify <m>s^2 \cdot \left( s^3 \right)^{-1}</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify <m>y^{-3} \cdot y^6 \cdot y^{-4}</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify <m>(n^3 \cdot n^2)^{-2} \cdot n^4</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify <m>\dfrac{b^3 \cdot b^5}{b^5}</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify <m>\dfrac{p^4 \cdot p^3}{\left( p^2 \right)^3}</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify <m>\dfrac{v^{-2} \cdot \left( v^3 \right)^2}{v^3 \cdot v^{-1}}</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify <m>\dfrac{\left( z^{-3} \right)^{-2} \cdot z^4}{z^2 \cdot \left( z^{-3} \right)^{-2}} </m>.
+			</p>
+		</exercise>
+	</worksheet>
+</section>

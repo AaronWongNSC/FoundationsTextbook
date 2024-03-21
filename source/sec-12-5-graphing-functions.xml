@@ -1,0 +1,229 @@
+<section xml:id="sec-lcp-5-deeper">
+	<title>Going Deeper: Graphing Functions</title>
+	<p>
+		Most of the time in math courses, we use the variable for the horizontal axis and for the vertical axis. This is
+		the "standard" choice for coordinate systems when there is no specific context being applied. But a lot of
+		mathematical ideas are applied in very specific contexts, and so we need to be able to translate our ideas from
+		the generic situation to specific ones. 
+	</p>
+	<p>
+		Traditionally, the <m>x</m> variable represents the input (or independent) variable, and <m>y</m> represents the
+		output (or dependent) variable. This language is tied to how mathematicians talk about functions. We will start
+		with the formal definition: 
+	</p>
+    <definition xml:id="def-fucntion">
+        <title>Function</title>
+        <idx><h>function</h></idx>
+
+        <statement>
+            <p>
+                A <term>function</term> is a rule that assigns each object of one set to exactly one object a second
+				set.
+            </p>
+        </statement>
+    </definition>
+
+	<p>
+		Conceptually, functions are often thought of as machines. On one side of the machine there's a place for you to
+		put something in, and on the other side there's a place where something comes out.
+	</p>
+	<image xml:id="sec-lcp-5-basic-function" width="40%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (0,0) node[anchor=center] {\strut $f$}; 
+				\draw (-2,0.2) -- (-1,0.2) -- (-1,0.6) -- (1,0.6) -- (1,0.2) -- (2,0.2); 
+				\draw (-2,-0.2) -- (-1,-0.2) -- (-1,-0.6) -- (1,-0.6) -- (1,-0.2) -- (2,-0.2); 
+				\draw[-stealth] (-2.5,0) node[anchor=east] {\strut $x$} -- (-1.5,0); 
+				\draw[-stealth] (1.5,0) -- (2.5,0) node[anchor=west] {\strut $y$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Specifically what comes out	will depend on what the machine is designed to do (the "rule" that it has been
+		created to follow). For example, we can have an "Add 3" machine that takes whatever number we give it and add 3
+		to it.
+	</p>
+	<image xml:id="sec-lcp-5-add-3-to-2" width="40%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (0,0) node[anchor=center] {\strut Add 3}; 
+				\draw (-2,0.2) -- (-1,0.2) -- (-1,0.6) -- (1,0.6) -- (1,0.2) -- (2,0.2); 
+				\draw (-2,-0.2) -- (-1,-0.2) -- (-1,-0.6) -- (1,-0.6) -- (1,-0.2) -- (2,-0.2); 
+				\draw[-stealth] (-2.5,0) node[anchor=east] {\strut $2$} -- (-1.5,0); 
+				\draw[-stealth] (1.5,0) -- (2.5,0) node[anchor=west] {\strut $5$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		If we picked a different input, we would get a different output.
+	</p>
+	<aside>
+		<p>
+			For some functions, you can get the same output for different input values. For example, if the function
+			squared the number, then both 2 and -2 would have an output of 4.
+		</p>
+	</aside>
+	<image xml:id="sec-lcp-5-add-3-to-neg-2" width="40%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (0,0) node[anchor=center] {\strut Add 3}; 
+				\draw (-2,0.2) -- (-1,0.2) -- (-1,0.6) -- (1,0.6) -- (1,0.2) -- (2,0.2); 
+				\draw (-2,-0.2) -- (-1,-0.2) -- (-1,-0.6) -- (1,-0.6) -- (1,-0.2) -- (2,-0.2); 
+				\draw[-stealth] (-2.5,0) node[anchor=east] {\strut $-2$} -- (-1.5,0); 
+				\draw[-stealth] (1.5,0) -- (2.5,0) node[anchor=west] {\strut $1$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		In fact, if we were to give it a generic quantity, it could give us an expression that represents the
+		appropriate output. 
+	</p>
+	<image xml:id="sec-lcp-5-add-3-to-x" width="50%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (0,0) node[anchor=center] {\strut Add 3}; 
+				\draw (-2,0.2) -- (-1,0.2) -- (-1,0.6) -- (1,0.6) -- (1,0.2) -- (2,0.2); 
+				\draw (-2,-0.2) -- (-1,-0.2) -- (-1,-0.6) -- (1,-0.6) -- (1,-0.2) -- (2,-0.2); 
+				\draw[-stealth] (-2.5,0) node[anchor=east] {\strut $x$} -- (-1.5,0); 
+				\draw[-stealth] (1.5,0) -- (2.5,0) node[anchor=west] {\strut $x+3$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			Many students erroneously read as "<m>f</m> times <m>x</m>" instead of "<m>f</m> of <m>x</m>." Don't do
+			this! Use the correct language to help your brain build a different mental category for information about
+			functions. 
+		</p>
+	</aside>
+	<p>
+		The mathematical shorthand for this concept is <m>y = f(x)</m>. This is a versatile notation that we use both to
+		describe the function in general as well as to describe specific input-output pairs of a specific function. And
+		while we often use the letter to represent a function, we can use other letters or symbols if we wanted. The key
+		observation about this notation is that it defines as the independent variable and as the dependent variable.
+		For the "Add 3" example, we would write <m>y = f(x) = x + 3</m>. 
+	</p>
+	<p>
+		Notice that this is a process that gives us ordered pairs <m>(x,y)</m>. If we were to put these values into a
+		chart like the ones we were working with earlier in this section, we could convert this information into a
+		graph. 
+	</p>
+	<image xml:id="sec-lcp-5-graph-x-plus-3" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5]
+				\draw (-2,0) node[anchor=east] {
+					$\begin{array} {c|c|c}
+						x \amp \phantom{.} y \phantom{.} \amp (x,y) \\ \hline
+						-2 \amp 1 \amp (-2,1) \\
+						-1 \amp 2 \amp (-1,2) \\
+						0 \amp 3 \amp (0,3) \\
+						1 \amp 4 \amp (1,4) \\
+						2 \amp 5 \amp (2,5)
+					\end{array} $}; 
+				\begin{scope} [shift={(6,0)}]
+					\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+					\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+					\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\draw[fill=black] (-2,1) circle (0.1); 
+					\draw[fill=black] (-1,2) circle (0.1); 
+					\draw[fill=black] (0,3) circle (0.1); 
+					\draw[fill=black] (1,4) circle (0.1); 
+					\draw[fill=black] (2,5) circle (0.1); 
+					\draw (-5.5,-2.5) -- (2.5,5.5); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		There are situations where the data that you have in your table comes from measurements. For example, if you're
+		measuring the temperature throughout the day, you will get a chart of values, but the values probably won't fit
+		a nice formula. Even though there may not be a formula, there's still a meaningful sense that this is a
+		function. The input variable is the time and the output variable is the measurement. And using the same ideas as
+		above, we can put that information into a chart and get a graph of the temperature throughout the day. 
+	</p>
+	<image xml:id="sec-lcp-5-graph-temps" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5]
+				\draw (-2,0) node[anchor=east] {
+					$\begin{array} {c|c}
+						t \amp \phantom{.} F \phantom{.} \\ \hline
+						\text{3 AM} \amp 67^\circ \\
+						\text{6 AM} \amp 65^\circ \\
+						\text{9 AM} \amp 70^\circ \\
+						\text{Noon} \amp 73^\circ \\
+						\text{3 PM} \amp 75^\circ \\
+						\text{6 PM} \amp 74^\circ \\
+						\text{9 PM} \amp 71^\circ \\
+						\text{Midnight} \amp 69^\circ
+					\end{array} $}; 
+				\begin{scope} [shift={(1,-4)}, scale=0.8]
+					\draw[very thin, lightgray] (0,1) -- ++ (16,0); 
+					\draw[very thin, lightgray] (0,2) -- ++ (16,0); 
+					\draw[very thin, lightgray] (0,3) -- ++ (16,0); 
+					\draw[very thin, lightgray] (0,4) -- ++ (16,0); 
+					\draw[very thin, lightgray] (0,5) -- ++ (16,0); 
+					\draw[very thin, lightgray] (0,6) -- ++ (16,0); 
+					\draw[very thin, lightgray] (0,7) -- ++ (16,0); 
+					\draw[very thin, lightgray] (0,8) -- ++ (16,0); 
+					\draw[very thin, lightgray] (0,9) -- ++ (16,0); 
+					\draw[very thin, lightgray] (0,10) -- ++ (16,0); 
+					\draw[very thin, lightgray] (1,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (3,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (5,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (7,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (9,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (11,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (13,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (15,0) -- ++ (0,10); 
+					\draw[-stealth] (0,0) -- (16.5,0) node[black, anchor=west] {$t$}; 
+					\draw[-stealth] (0,0) -- (0,10.5) node[anchor=south, black] {$F$}; 
+					\draw (0,10) node[anchor=east] {$80^\circ$}; 
+					\draw (0,5) node[anchor=east] {$70^\circ$}; 
+					\draw (0,0) node[anchor=east] {$60^\circ$}; 
+					\draw (1,0.3) -- ++ (0,-0.6) node[anchor=east,rotate=60] {$\text{3 AM}$}; 
+					\draw (3,0.3) -- ++ (0,-0.6) node[anchor=east,rotate=60] {$\text{6 AM}$}; 
+					\draw (5,0.3) -- ++ (0,-0.6) node[anchor=east,rotate=60] {$\text{9 AM}$}; 
+					\draw (7,0.3) -- ++ (0,-0.6) node[anchor=east,rotate=60] {$\text{Noon}$}; 
+					\draw (9,0.3) -- ++ (0,-0.6) node[anchor=east,rotate=60] {$\text{3 PM}$}; 
+					\draw (11,0.3) -- ++ (0,-0.6) node[anchor=east,rotate=60] {$\text{6 PM}$}; 
+					\draw (13,0.3) -- ++ (0,-0.6) node[anchor=east,rotate=60] {$\text{9 PM}$}; 
+					\draw (15,0.3) -- ++ (0,-0.6) node[anchor=east,rotate=60] {$\text{Midnight}$}; 
+					\draw[fill=black] (1,3.5) circle (0.15); 
+					\draw[fill=black] (3,2.5) circle (0.15); 
+					\draw[fill=black] (5,5) circle (0.15); 
+					\draw[fill=black] (7,6.5) circle (0.15); 
+					\draw[fill=black] (9,7.5) circle (0.15); 
+					\draw[fill=black] (11,7) circle (0.15); 
+					\draw[fill=black] (13,5.5) circle (0.15); 
+					\draw[fill=black] (15,4.5) circle (0.15); 
+					\draw (1,3.5) -- (3,2.5) -- (5,5) -- (7,6.5) -- (9,7.5) -- (11,7) -- (13,5.5) -- (15,4.5); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Notice that we had to make some modifications to the graph. We changed the letters to better reflect what we're
+		measuring (<m>t</m> for time and <m>F</m> for degrees Fahrenheit), and we also labeled the axes so that the
+		values could be more easily interpreted. We also altered the time axis to correspond to clock times instead of
+		just having numbers. 
+	</p>
+	<p>
+		But notice how natural this is to read. Given a time, we can get an estimate of the temperature by looking at
+		the graph. This is where a lot of the value of graphing functions starts to come into play. There is a clear
+		relationship between the input value (time) and the output value (temperature). Even if we picked a time that
+		isn't one of the data points, we can still come up with an estimate for the temperature. 
+	</p>
+	<p>
+		You might have noticed that we connected the data points together with straight lines, and that makes the graph
+		look a little artificial. That's almost certainly not how the temperature behaved! It's far more likely to have
+		a smooth shape. This is also why we said that we could <em>estimate</em> the temperature instead of saying that
+		we could determine the temperature. There's a little bit of guesswork involved in thinking through the shape of
+		the curve in between the data points. 
+	</p>
+	<aside>
+		<p>
+			<idx><h>spline interpolation</h></idx>
+			Look for "spline interpolation" if you're interested in learning about how to smooth these curves.
+		</p>
+	</aside>
+</section>

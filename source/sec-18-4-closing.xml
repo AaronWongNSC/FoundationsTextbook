@@ -1,0 +1,59 @@
+<section xml:id="sec-fas-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		On the last worksheet, you derived the general formula for adding two fractions. There's a similar one for
+		subtraction. 
+	</p>
+    <theorem xml:id="thm-fraction-addition-subtraction">
+        <title>The Sum and Difference of Fractions</title>
+        <idx><h>fraction</h> <h>sum</h> </idx>
+        <idx><h>fraction</h> <h>difference</h> </idx>
+        
+        <statement>
+            <p>
+				The <term>sum</term> of the fractions <m>\frac{a}{b}</m> and <m>\frac{c}{d}</m> is given by the
+				following formula:
+				<me>
+					\frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}.
+				</me>
+				The <term>difference</term> of the fractions <m>\frac{a}{b}</m> and <m>\frac{c}{d}</m> is given by the
+				following formula:
+				<me>
+					\frac{a}{b} - \frac{c}{d} = \frac{ad - bc}{bd}.
+				</me>
+            </p>
+        </statement>
+    </theorem>
+
+	<p>
+		On the very last problem of the worksheet, you also saw the downside to having such a formula. If you had no
+		concept of common denominators, you would have ended up making the problem unnecessarily difficult for yourself
+		because the numbers in your calculation would end up being quite large. 
+	</p>
+	<p>
+		Some students simply learn the "rule" for adding and subtracting fractions with different denominators. These
+		are also the students that tend to forget over time, and they will often start to guess wildly at solutions.
+		Here are some non-examples of adding fractions together:
+		<me>
+			\frac{a}{b} + \frac{c}{d} \overset{\times}{=} \frac{a + c}{b + d} \qquad
+			\frac{a}{b} + \frac{c}{d} \overset{\times}{=} \frac{a + c}{bd}
+		</me> 
+	</p>
+	<aside>
+		<p>
+			One of the reasons this book has short worksheets of problems is because the goal is to have you think more.
+			Yes, practice is important, but those repetitions alone are not the goal. 
+		</p>
+	</aside>
+	<p>
+		The major trapping is for students to fall into the habit of simply manipulating the symbols without
+		understanding what's happening. It's very easy to think you understand something because you can execute the
+		proper procedure. But mathematical reasoning goes beyond execution. 
+	</p>
+	<p>
+		Take another look at the two errors. Suppose that a friend showed you that work and asked you for help. Would
+		you just tell them that they did it wrong and show them the right way to do it? Would be able to explain the
+		right ideas to them? In the mathematical world, the goal is to both be able to execute the calculation and
+		explain the reasoning behind it. This is a theme that we will keep returning to throughout the book.
+	</p>
+</section>

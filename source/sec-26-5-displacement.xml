@@ -1,0 +1,252 @@
+<section xml:id="sec-sub-5-deeper">
+	<title>Going Deeper: Subtraction as Displacement</title>
+	<p>
+		In Worksheet 3 of this section, we looked at the idea of using subtraction to measure distance. We're going to
+		push that idea further and look at the signed distance between numbers, and see some applications of the idea. 
+	</p>
+	<p>
+		Let's look at the calculation <m>5 - 3 = 2</m>. Using motion on the number line, we can interpret this as
+		starting at 5 and moving 3 to the left to get to 2.
+	</p>
+	<aside>
+		<p>
+			<ul>
+				<li>
+					<p>
+						Step 1: Start at 5.
+					</p>
+				</li>
+				<li>
+					<p>
+						Step 2: Move 3 spaces to the left. 
+					</p>
+				</li>
+				<li>
+					<p>
+						Step 3: End up at 2.
+					</p>
+				</li>
+			</ul>
+		</p>
+	</aside>
+	<image xml:id="sec-sub-5-first-subtraction" width="90%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw[stealth-stealth] (-1,0) -- (7,0); 
+				\foreach \i in {0,...,6} {
+					\draw[fill=black] (\i, 0) circle (0.1); 
+					\draw (\i, -0.1) node[anchor=north] {\small $\i$}; 
+				}
+				\draw (5,0) -- ++ (0,1); 
+				\draw[-stealth] (5,0.5) -- ++ (-3,0) node[midway,anchor=south] {\strut \small $3$}; 
+				\draw (2,0) -- ++ (0,1); 
+				\draw (9,0) node[anchor=west] {\strut \boxed{5 - 3 = 2}}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		However, we can get another interpretation of this by inverting the movement and turning it into a question: If
+		we're starting at 2 and ending up at 5, what is the movement that we must make? And by looking at the picture,
+		we can see that we need to move 3 to the right. 
+	</p>
+	<aside>
+		<p>
+			How do you get from 2 to 5? By moving 3 to the right. 
+		</p>
+	</aside>
+	<image xml:id="sec-sub-5-subtraction-turned-arond" width="90%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw[stealth-stealth] (-1,0) -- (7,0); 
+				\foreach \i in {0,...,6} {
+					\draw[fill=black] (\i, 0) circle (0.1); 
+					\draw (\i, -0.1) node[anchor=north] {\small $\i$}; 
+				}
+				\draw (5,0) -- ++ (0,1); 
+				\draw[stealth-] (5,0.5) -- ++ (-3,0) node[midway,anchor=south] {\strut \small $3$}; 
+				\draw (2,0) -- ++ (0,1); 
+				\draw (9,0) node[anchor=west] {\strut \boxed{5 - 2 = 3}}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		<idx><h>displacement</h></idx>
+		<term>Displacement</term> is the movement from one position to another, and it can be expressed in terms of
+		subtraction. To move from <m>a</m> to <m>b</m> the required displacement is <m>b - a</m>. We can check this
+		algebraically:
+		<me>
+			\underbrace{a}_{\text{start}} + \underbrace{(b - a)}_{\text{displacement}} = \underbrace{b}_{\text{end}}
+		</me>
+		This concept gets applied in a number of ways at many different levels of mathematics. 
+	</p>
+	<p>
+		In <xref ref="sec-sif-1-main" />, we looked at the concept of slope. The main definition we presented was purely
+		geometric:
+		<me>
+			m = \frac{\Delta y}{\Delta x} = \frac{\text{Rise}}{\text{Run}} = \frac{\text{The change of $y$}}{\text{The change of $x$}}
+		</me>
+		We're going to take a closer look at this idea through the lens of displacement to understand the algebraic
+		formula for slope. 
+	</p>
+	<p>
+		Consider a line that is passing through the indicated points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> as shown
+		below:
+	</p>
+	<image xml:id="sec-sub-5-line-through-points" width="80%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.8]
+				\draw[stealth-stealth] (-7,-3) -- (5.5,-3) node[black, anchor=west] {$x$}; 
+				\draw[stealth-stealth] (-5,-4.5) -- (-5,5.5) node[anchor=south, black] {$y$}; 
+				\draw (-5.5,-2.333) -- (5.5,5); 
+				\draw[fill=black] (-2,0) circle (0.15) node[anchor=south east] {$(x_1, y_1)$}; 
+				\draw[fill=black] (4,4) circle (0.15) node[anchor=south east] {$(x_2, y_2)$}; 
+				\draw[dotted] (-2,0) -- (4,0) node[midway,anchor=north] {$\Delta x$}; 
+				\draw[dotted] (4,0) -- (4,4) node[midway,anchor=west] {$\Delta y$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			<idx><h>projection</h></idx>
+			The technical term for viewing each of these displacements relative to their axes is a <em>projection</em>. 
+		</p>
+	</aside>
+	<p>
+		Notice that both <m>\Delta x</m> and <m>\Delta y</m> can be interpreted as displacements. They describe a motion
+		to get from one location to another. Furthermore, these two displacements are independent of each other, meaning
+		that as we change our <m>x</m>-coordinate the <m>y</m>-coordainte is fixed, and the same is true the other way
+		around. In fact, we can look at both of these displacements relative to the corresponding axes:
+	</p>
+	<image xml:id="sec-sub-5-displacement-and-slope" width="80%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.8]
+				\draw[stealth-stealth] (-7,-3) -- (5.5,-3) node[black, anchor=west] {$x$}; 
+				\draw[stealth-stealth] (-5,-4.5) -- (-5,5.5) node[anchor=south, black] {$y$}; 
+				\draw (-5.5,-2.333) -- (5.5,5); 
+				\draw[fill=black] (-2,0) circle (0.15) node[anchor=south east] {$(x_1, y_1)$}; 
+				\draw[fill=black] (4,4) circle (0.15) node[anchor=south east] {$(x_2, y_2)$}; 
+				\draw[-stealth] (-2,-2) -- (4,-2) node[midway,anchor=south] {$\Delta x$}; 
+				\draw[dotted] (-2,0) -- (-2,-3) node[anchor=north] {\strut $x_1$}; 
+				\draw[dotted] (4,4) -- (4,-3) node[anchor=north] {\strut $x_2$}; 
+				\draw[-stealth] (-6,0) -- (-6,4) node[midway,anchor=east] {$\Delta y$}; 
+				\draw[dotted] (-2,0) -- (-6.5,0) node[anchor=east] {\strut $y_1$}; 
+				\draw[dotted] (4,4) -- (-6.5,4) node[anchor=east] {\strut $y_2$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		<idx><h>slope</h></idx>
+		By viewing the movements in this way, we can see that we are looking at displacement on the number line, and can
+		use the formula for displacement for each to get the algebraic formula for slope:
+		<me>
+			m = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1}.
+		</me>
+		This formula was given in a margin comment (<xref ref="sec-sif-1-main" text="title"/>), but we didn't
+		explain it at the time because the focus was on the geometric interpretation and building basic intuition and
+		experience. But now that we have the concept of displacement, this formula is not as mysterious. 
+	</p>
+	<p>
+		As you continue forward in mathematics (and also science and statistics classes), you will see lots of
+		situations where subtraction is being used to represent a quantity like acts like a displacement (though the
+		language will vary depending on the topic). More generally, these concepts appear in vectors, which can be used
+		to represent displacement in multiple dimensions. The following are a few examples of this. Don't worry if you
+		don't understand these, as they're not relevant to this class. But if you've seen them before, it will help you
+		to put this idea into context. 
+		<ul>
+			<li>
+				<p>
+					The Distance Formula: The distance formula is the Pythagorean Theorem applied to points on a plane.
+					The lengths of the two sides of the right triangle are found using the same <m>\Delta x</m> and
+					<m>\Delta y</m> concepts that we used with slope. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<image xml:id="sec-sub-5-slope-displacement" width="90%"> 
+		<latex-image>
+			\begin{tikzpicture}[scale=0.8]
+				\begin{scope}
+					\clip (-4,-2) rectangle (5.5,5); 
+					\draw (-5.5,-2.333) -- (5.5,5); 
+				\end{scope}
+				\draw[fill=black] (-2,0) circle (0.15) node[anchor=south east] {$(x_1, y_1)$}; 
+				\draw[fill=black] (4,4) circle (0.15) node[anchor=south east] {$(x_2, y_2)$}; 
+				\draw[dotted] (-2,0) -- (4,0) node[midway,anchor=north] {$x_2 - x_1$}; 
+				\draw[dotted] (4,0) -- (4,4) node[midway,anchor=west] {$y_2 - y_1$}; 
+				\draw (1,2) node[anchor=south east] {$d$}; 
+				\draw (8,1) node[anchor=west] {$d = \sqrt{ (x_2 - x_1)^2 + (y_2 - y_1)^2}$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			This description is valid when the force is perpendicular to the lever arm. Otherwise, it's a little more
+			complicated. 
+		</p>
+	</aside>
+	<p>
+		<ul>
+			<li>
+				<p>
+					Torque: Torque is the result of applying a force around a pivot point. The torque is equal to the
+					force multiplied by the displacement from the pivot. The location of the objects is often given
+					relative to an underlying coordinate system. In fact, it is this idea that leads to the formula for
+					the center of mass of an object. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<image xml:id="sec-sub-5-torque" width="100%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (0,0) -- (1,-1) -- (-1,-1) -- cycle; 
+				\draw (-5,0) -- (5,0) -- (5,0.2) -- (-5,0.2) -- cycle; 
+				\draw (-3.5,0.3) rectangle ++ (1,1); 
+				\draw[-stealth] (-3,2) node[anchor=south] {$F_1 = m_1 g$} -- (-3,1.4); 
+				\draw (3.5,0.3) rectangle ++ (1.5,1.5); 
+				\draw[-stealth] (4.25,3) node[anchor=south] {$F_2 = m_2 g$} -- (4.25,1.9); 
+				\draw[stealth-stealth] (-6,-3) -- (6,-3) node[anchor=west] {\small $x$}; 
+				\draw[dotted] (-3,0) -- (-3,-3) node[anchor=north] {\strut $x_1$}; 
+				\draw[dotted] (0,-1) -- (0,-3) node[anchor=north] {\strut $\overline{x}$}; 
+				\draw[dotted] (4.25,0) -- (4.25,-3) node[anchor=north] {\strut $x_2$}; 
+				\draw[-stealth] (0,-2.5) -- (-3,-2.5) node[midway,anchor=south] {$x_1 - \overline{x}$}; 
+				\draw[-stealth] (0,-2.5) -- (4.25,-2.5) node[midway,anchor=south] {$x_2 - \overline{x}$}; 
+				\draw[fill=black] (0,-2.5) circle (0.12); 
+				\draw (6,0) node[anchor=west] {$\tau = F_1 (x_1 - \overline{x}) + F_2 (x_2 - \overline{x})$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			It is no coincidence that the <m>\overline{x}</m> notation was used in both this example and the previous
+			one. They can both be used to represent an average if set up properly. 
+		</p>
+	</aside>
+	<p>
+		<ul>
+			<li>
+				<p>
+					Deviation from the Mean: In statistics, we often want to know where a particular data point is
+					located relative to the mean of the sample or population. Concepts like this relate the standard
+					deviation, and correlations. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<image xml:id="sec-sub-5-statistics-deviation" width="90%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw[stealth-stealth] (-6,0) -- (6,0) node[anchor=west] {\small $x$}; 
+				\draw[smooth, samples=100, domain=-5.5:5.5] plot( {\x}, {3.2*exp(-0.2*(\x * \x)) + 0.1}); 
+				\draw[dotted] (0,4) -- (0,0) node[anchor=north] {\strut $\overline{x}$}; 
+				\draw[dotted] (3,4) -- (3,0) node[anchor=north] {\strut $x_i$}; 
+				\draw[-stealth] (0,3.7) -- (3,3.7) node[midway,anchor=south] {$\Delta x_i$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		The more familiar you are with the basic structures of mathematics, the more capacity you will have for
+		understanding mathematical applications. Instead of seeing collections of random symbols, you will start to see
+		concepts and ideas, which will help everything make more sense.
+	</p>
+</section>

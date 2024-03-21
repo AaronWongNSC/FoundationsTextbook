@@ -1,0 +1,164 @@
+<section xml:id="sec-exp-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/06-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-exp-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Calculate <m>t^2 \cdot t^4</m> using a presentation that shows all of the individual steps. Then verify
+				that the product rule gives the same result. 
+			</p>
+			<aside>
+				<p>
+					Why write it out when there's a formula? It's important to really understand the formula and not
+					just use it. Otherwise, you might apply the wrong formula at the wrong time and not understand why
+					things are off. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\left( a^3 \right)^4</m> using a presentation that shows all of the individual steps. Then
+				verify that the power rule gives the same result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>y^{-3} \cdot y^5</m> using a presentation that shows all of the individual steps. Then
+				verify that the product rule gives the same result. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-exp-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Calculate <m>x^{-2} \cdot x^{-3}</m> using a presentation that shows all of the individual steps.
+				Then verify that the product rule gives the same result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\left( x^{-1} \right)^{-n}</m> using the power rule. Then rewrite the part of the
+				expression inside the parentheses using the definition of negative exponents. In order for the math to
+				be consistent, the two results should be equal. Explain how this verifies the first formula in
+				<xref ref="thm-more-properties-of-exponents" />. 
+			</p>
+			<aside>
+				<p>
+					Mathematicians like their formulas to be as consistent as possible. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Start from the equation <m>x^{-n} = \frac{1}{x^n}</m> and take the reciprocal of both sides of the
+				equation. Explain how this verifies the second formula in <xref ref="thm-more-properties-of-exponents" />. 
+			</p>
+			<aside>
+				<p>
+					Recall that the reciprocal of the fraction <m>\frac{a}{b}</m> is <m>\frac{b}{a}</m>.
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-exp-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Calculate <m>x^{2} \cdot x^{-5}</m> using a presentation that shows all of the individual steps. Then
+				verify that the product rule gives the same result. Give your final answer in the form <m>x^n</m> for
+				some number <m>n</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>x^{2n} \cdot x^{3n}</m> using the product rule. Explain the logic of your result in
+				complete sentences. 
+			</p>
+			<aside>
+				<p>
+					Remember that variables are just numbers in disguise. What would you do for this problem if the
+					exponents were just numbers? 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Consider the following presentation: 
+				<me>
+					\begin{aligned}
+						x^3 \cdot x^{-3} \amp = x^3 \cdot \frac{1}{x^3} \amp \eqnspacer \amp \text{Definition of negative exponents} \\
+						\amp = \frac{x^3}{x^3} \amp \amp \text{Multiply fractions} \\
+						\amp = \frac{x \cdot x \cdot x}{x \cdot x \cdot x} \amp \amp \text{Definition of exponents} \\
+						\amp = \frac{\cancel{x \cdot x \cdot x}}{\cancel{x \cdot x \cdot x}} \amp \amp \text{Reduce the fraction} \\
+						\amp = 0 
+					\end{aligned}
+				</me>
+				Identify and explain the error. What would you suggest as a way for students to avoid this mistake? 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-exp-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Calculate <m>\left( x^{3} \right)^{-4}</m> using a presentation that shows all of the individual steps.
+				Then verify that the power rule gives the same result. Give your final answer in the form <m>x^n</m> for
+				some number <m>n</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\left( x^{2m} \right)^{3n}</m> using the power rule. Explain the logic of your result in
+				complete sentences. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>x^{4} \cdot x^{-4}</m> using a presentation that shows all of the individual steps. Then
+				verify that the product rule gives the same result. 
+			</p>
+			<aside>
+				<p>
+					Write your answer using the simplest notation possible. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-exp-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Calculate <m>\left( x^{-3} \right)^{-4}</m> using a presentation that shows all of the individual steps.
+				Then verify that the power rule gives the same result. Give your final answer in the form <m>x^n</m> for
+				some number <m>n</m>.
+			</p>
+			<aside>
+				<p>
+					You may want to review <xref ref="thm-more-properties-of-exponents" /> for showing all of the steps. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>x^n \cdot x^m \cdot x^p</m>. Explain the logic of your result. 
+			</p>
+			<aside>
+				<p>
+					Mathematicians look for ways to generalize our results so that the ideas we have can be applied to
+					more situations. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\left( \left( x^n \right)^m \right)^p</m>. Explain the logic of your result. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

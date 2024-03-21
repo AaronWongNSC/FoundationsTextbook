@@ -1,0 +1,146 @@
+<section xml:id="sec-cf-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/08-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+
+	<worksheet xml:id="sec-cf-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Identify the greatest common factor of <m>6x + 9</m>, then factor it out of the polynomial. Draw the
+				grid and write the corresponding equation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Identify the greatest common factor of <m>4y - 10</m>, then factor it out of the polynomial. Draw the
+				grid and write the corresponding equation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Identify the greatest common factor of <m>3a^2b + 9ab - 15b</m>, then factor it out of the polynomial.
+				Draw the grid and write the corresponding equation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Identify the greatest common factor of <m>8n + 4</m>, then factor it out of the polynomial. Write the
+				corresponding equation, but do not draw a grid. 
+			<aside>
+				<p>
+					In the long run, you will want to be able to factor out terms mentally and go straight to the final
+					result. 
+				</p>
+			</aside>
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-cf-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Identify the greatest common factor of <m>4x^5 - 10x^2 + 12x</m>, then factor it out of the polynomial.
+				Draw the grid and write the corresponding equation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Identify the greatest common factor of <m>12p^2 - 18p</m>, then factor it out of the polynomial. Write
+				the corresponding equation, but do not draw a grid. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Identify the greatest common factor of <m>3y^3 + 15y^2 - 6y</m>, then factor it out of the polynomial.
+				Write the corresponding equation, but do not draw a grid. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Identify the greatest common factor of <m>x(x - 4) + 3(x - 4)</m>, then factor it out of the polynomial.
+				Draw the grid and write the corresponding equation. 
+			</p>
+			<aside>
+				<p>
+					Remember that the <m>(x - 4)</m> can be viewed as a single object for factoring. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-cf-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Identify the greatest common factor of <m>x(3y - 2) - 5(3y - 2)</m>, then factor it out of the
+				polynomial. Write the corresponding equation, but do not draw a grid. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Factor <m>x^3 + 4x^2 + 3x + 12</m> by grouping. Draw the grids and use a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Factor <m>x^2 - 6x - 3x + 18</m> by grouping. Draw the grids and use a complete presentation. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-cf-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Factor <m>2x^2 - 3x - 6x + 9</m> by grouping. Draw the grids and use a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Factor <m>3xy + 6x - 2y - 4</m> by grouping. Draw the grids and use a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Factor <m>x^3 - 3x^2 + 4x - 12</m> by grouping. Use a complete presentation, but do not draw the grids. 
+			</p>
+			<aside>
+				<p>
+					This is the end goal for your presentations using factoring by grouping. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-cf-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Factor <m>x^2 - 4x - 4x + 16</m> by grouping. Use a complete presentation, but do not draw the grids. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Factor <m>2x^2 + 5x - 4x - 10</m> by grouping. Use a complete presentation, but do not draw the grids. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Factor <m>x^2 - 3x + 5x - 15</m> by grouping. Then factor <m>x^2 + 5x - 3x - 15</m> by grouping. Use a
+				complete presentation for both, but do not draw the grids. Was one easier than the other? Explain your
+				perspective. 
+			</p>
+			<aside>
+				<p>
+					Both factorizations are the same! This is yet another example of there being multiple pathways to
+					the same conclusion in mathematics.
+				</p>
+				<p>
+					Some students find one grouping easier than the other. You can decide for yourself whether this is
+					true for you. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+</section>

@@ -1,0 +1,136 @@
+<section xml:id="sec-moe-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/16-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-moe-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Solve the system of equations using the method of elimination.
+				<me>
+					\left\{ \begin{array} {rcrcr}
+						x \amp - \amp y \amp = \amp 5 \\
+						x \amp + \amp y \amp = \amp 1
+					\end{array} \right.
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the system of equations using the method of elimination.
+				<me>
+					\left\{ \begin{array} {rcrcr}
+						2x \amp - \amp 2y \amp = \amp 8 \\
+						-2x \amp + \amp 3y \amp = \amp -6
+					\end{array} \right.
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-moe-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Solve the system of equations using the method of elimination.
+				<me>
+					\left\{ \begin{array} {rcrcr}
+						3x \amp + \amp 2y \amp = \amp -5 \\
+						2x \amp + \amp y \amp = \amp 2
+					\end{array} \right.
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the system of equations using the method of elimination.
+				<me>
+					\left\{ \begin{array} {rcrcr}
+						4x \amp + \amp 5y \amp = \amp 0 \\
+						2x \amp - \amp 3y \amp = \amp 3
+					\end{array} \right.
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-moe-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Solve the system of equations using the method of elimination.
+				<me>
+					\left\{ \begin{array} {rcrcr}
+						-x \amp + \amp 2y \amp = \amp 6 \\
+						3x \amp - \amp 4y \amp = \amp 1
+					\end{array} \right.
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the system of equations using the method of elimination.
+				<me>
+					\left\{ \begin{array} {rcrcr}
+						-3x \amp + \amp 5y \amp = \amp 3 \\
+						-2x \amp + \amp 3y \amp = \amp -2
+					\end{array} \right.
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-moe-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Attempt to solve the system of equations using the method of elimination. Explain what happened and the
+				conclusion that you can draw from it.
+				<me>
+					\left\{ \begin{array} {rcrcr}
+						2x \amp + \amp 4y \amp = \amp 8 \\
+						-x \amp - \amp 2y \amp = \amp -4
+					\end{array} \right.
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Attempt to solve the system of equations using the method of elimination. Explain what happened and the
+				conclusion that you can draw from it. 
+				<me>
+					\left\{ \begin{array} {rcrcr}
+						x \amp - \amp 3y \amp = \amp 2 \\
+						-3x \amp + \amp 9y \amp = \amp 5
+					\end{array} \right.
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-moe-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Solve the system of equations using the method of elimination.
+				<me>
+					\left\{ \begin{array} {rcrcr}
+						ax \amp + \amp by \amp = \amp c \\
+						dx \amp + \amp ey \amp = \amp f
+					\end{array} \right.
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Use the formula you derived from the previous problem to solve the system of equations. Do you find it
+				easier to use the formula or to use the method of elimination?
+				<me>
+					\left\{ \begin{array} {rcrcr}
+						-2x \amp + \amp 3y \amp = \amp 5 \\
+						3x \amp - \amp 5y \amp = \amp -6
+					\end{array} \right.
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

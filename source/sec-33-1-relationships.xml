@@ -1,0 +1,245 @@
+<section xml:id="sec-mr-1-main">
+	<title>Key Words are (Mostly) Evil</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Translate verbal relationships into mathematical relationships.
+				</p>
+			</li>
+			<li>
+				<p>
+					Find mathematical relationships that match given data.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		Students tend to dislike word problems. This is probably because word problems ask students to do something more
+		difficult than pure calculations. Word problems ask students to understand information and then translate it
+		into a form that allows them to use their mathematical toolbox. 
+	</p>
+	<aside>
+		<p>
+			If you've been following along with the challenges of rule-based thinking that we've been discussing
+			throughout this book, you'll know where we're going. 
+		</p>
+	</aside>
+	<p>
+		In order to help students with this transition, some teachers started to introduce rule-based patterns into
+		reading word problems. The problem is that this has led to students thinking incorrectly about the process of
+		thinking through word problems. This approach is sometimes called "key words" and you can find lists of
+		"key words" that are categorized by operation. 
+	</p>
+	<aside>
+		<p>
+			The grain of truth is that the words do indicate mathematical relationships that involve the operation. But
+			that's different from treating the word as a rule. 
+		</p>
+	</aside>
+	<p>
+		The problem with this is that these lists are (mostly) evil. There is a grain of truth in them, but it sells
+		students short of an actual understanding of how to think through word problems. It causes students to read word
+		problems in ways that are sometimes incorrect and does not advance the cause of mathematical thinking. 
+	</p>
+	<activity xml:id="sec-mr-1-ac1-problem-with-key-words">
+		<title>The Problem with Key Words</title>
+		<p>
+			Here is a classic example: "Bob has 5 rocks. Alice has 3 more rocks than Bob. How many rocks does Alice have?"
+			The common thought process for people is that "more" tells us we need to add, so Alice has 8 rocks. The answer
+			is correct, but the reasoning is wrong. But to understand why the reasoning is wrong, we need to look at a
+			slightly different problem. 
+		</p>
+		<p>
+			<alert xml:id="sec-mr-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Alice has 5 rocks. Alice has 3 more rocks than Bob. How many rocks does Bob have? Explain your reasoning. 
+		</p>
+		<solution>
+			<aside>
+				<p>
+					Your exact language may vary, but the ideas should be basically the same. 
+				</p>
+			</aside>
+			<p>
+				Since Alice has 3 more rocks than Bob, Bob has a smaller number of rocks compared to Alice. So if Alice
+				has 5 rocks, we need to subtract to get the number of rocks that Bob has, which means Bob has 2 rocks.
+			</p>
+		</solution>
+	</activity>
+	<p>
+		In the example, the mathematical operation that was required was subtraction, but "more" means to add (if you
+		believe in the rule-based key word approach). And so this leads us to the question of what's really happening in
+		the word problem. 
+	</p>
+	<activity xml:id="sec-mr-1-ac2-relationship">
+		<title>Mathematical Relationships</title>
+		<p>
+			In most word problems, the words do not directly describe mathematical operations that you need to perform.
+			They are not instructions. Rather, they are representations of mathematical equations using words. In the
+			example above, the relationship is "Alice has more rocks than Bob." We can translate this into the
+			following:
+			<me>
+				\begin{array}{c}
+					a = \text{The number of rocks Alice has} \\
+					b = \text{The number of rocks Bob has} \\ \\
+					a = b + 3
+				\end{array}
+			</me> 
+		</p>
+		<p>
+			There are some key points to remember. The first is that the variables used are all defined. This is an
+			important element of communication. If you introduce a symbol, you need to be clear what the symbol means.
+			Furthermore, it's not acceptable to say that <m>a</m> represents "Alice." Variables are symbols that represent a
+			quantity or a mathematical expression. Alice is a person, not a number. So it is good to get into the habit
+			of being accurate in describing your variables. 
+		</p>
+		<p>
+			Once we have the relationship established, we can then move to plug in the variables. If we are told that
+			"Bob has 5 rocks" then we can set <m>b = 5</m> and solve: 
+			<me>
+				\begin{aligned}
+					a \amp = b + 3 \\
+					5 \amp = b + 3 \amp \eqnspacer \amp \text{Substitute $a = 5$} \\
+					b \amp = 2 \amp \amp \text{Subtract $3$ from both sides} 
+				\end{aligned}
+			</me>
+			Or we are told that "Alice has rocks" then we can set <m>a = 5</m> and solve: 
+			<me>
+				\begin{aligned}
+					a \amp = b + 3 \\
+					5 \amp = b + 3 \amp \eqnspacer \amp \text{Substitute $a = 5$} \\
+					b \amp = 2 \amp \amp \text{Subtract $3$ from both sides} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			The actual decision to add or subtract is based on the relationship that is established by the words, not
+			through identifying a specific word as if it were an instruction. This distinction once again highlights
+			mathematical thinking. You're not looking for a specific rule or algorithm to follow, you're looking to
+			understand a relationship so that you can apply the appropriate tool to solve your problem. 
+		</p>
+		<p>
+			If you are unsure about the mathematical relationship you've created, it can always be checked by plugging
+			in a couple numbers. There is clarity in examining specific values that can sometimes be lost when looking
+			at symbols. For example, when reading <m>a = b + 3</m> some students will think that <m>b</m> is the bigger
+			value "because 3 is being added to it." But this is not true, and the clearest way to see it is to just pick a
+			value of <m>b</m> and see what the formula actually gives as the result. 
+		</p>
+		<aside>
+			<p>
+				Implicit in writing the relationship is that you should define your variables. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-mr-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Annika is 4 inches taller than Carlos. Write an equation that describes this relationship. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{array}{c}
+						a = \text{Annika's height in inches} \\
+						c = \text{Carlos' height in inches} \\ \\
+						a = c + 4
+					\end{array}
+				</me> 
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-mr-1-ac3-full-word-problem">
+		<title>Solving a Full Word Problem</title>
+		<p>
+			Once a mathematical relationship is established, it then becomes the foundation for solving a word problem
+			based on that relationship. 
+		</p>
+		<p>
+			<alert xml:id="sec-mr-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Annika is 70 inches tall. She is also 4 inches taller than Carlos. How tall is Carlos? 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+					a \amp = c + 4 \\
+					70 \amp = c + 4 \amp \amp \text{Substitute $a = 70$} \\
+					c \amp = 66 \amp \amp \text{Subtract $4$ from both sides} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<p>
+		Students shy away from word problems because of the extra step of effort that's required to translate the words
+		into mathematical symbols. However, that extra step is the step that covers the gap between "real life" and
+		mathematics. Making that connection is an important piece of the puzzle for mathematical thinking. 
+	</p>
+	<p>
+		In addition to having mathematical relationships described by words, there are situations where the relationship
+		is described by a chart of values.
+		<me>
+			\begin{array}{c|c}
+				x \amp y \\ \hline
+				1 \amp 2 \\
+				2 \amp 4 \\
+				3 \amp 6
+			\end{array}
+		</me>
+		After some thought, the pattern that you will likely see is that <m>y = 2x</m>. And you can check this by
+		plugging in values. 
+	</p>
+	<aside>
+		<p>
+			You might want to try to figure out how we got that other equation. 
+		</p>
+	</aside>
+	<p>
+		It turns out that there are all sorts of formulas that would match those values. If you were to use the equation
+		<m>y = -\frac{1}{6} x^3 + x^2 + \frac{1}{6} x + 1</m>, you would find that it also works! However, for these
+		problems we are going to stick with the "obvious" answer and not worry about more complicated relationships. 
+	</p>
+	<activity xml:id="sec-mr-1-ac4-find-relationship">
+		<title>Finding a Mathematical Relationship</title>
+		<p>
+			When trying to find a formula that matches a given table, there is no magic formula. And while there is a
+			computational method if you can guess the "form" of the equation, it's better to develop intuition. The
+			relationships that you will be given to work with are going to be relatively simple, and you should be able
+			to come up with them by trying to think logically and in an organized manner. 
+		</p>
+		<aside>
+			<p>
+				There are multiple ways to represent the relationship. Just make sure that your form works for the
+				given values. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-mr-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Find a formula that relates and based on the following chart. 
+			<me>
+				\begin{array}{c|c}
+					x \amp y \\ \hline
+					1 \amp 9 \\
+					4 \amp 6 \\
+					8 \amp 2
+				\end{array}
+			</me> 
+		</p>
+		<solution>
+			<aside>
+				<p>
+					Your answer may vary, but it must be equivalent to the one provided. 
+				</p>
+			</aside>
+			<p>
+				<me> x + y = 10 </me> 
+			</p>
+		</solution>
+	</activity>
+</section>

@@ -1,0 +1,550 @@
+<section xml:id="sec-div-1-main">
+	<title>Breaking Down the Mantra</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Understand division as making groupings.
+				</p>
+			</li>
+			<li>
+				<p>
+					Understand division as equal distribution.
+				</p>
+			</li>
+			<li>
+				<p>
+					Understand why division by 0 is prohibited.
+				</p>
+			</li>
+			<li>
+				<p>
+					Understand the idea behind the long division algorithm.
+				</p>
+			</li>
+			<li>
+				<p>
+					Perform mental division calculations correctly.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		So far, we've covered addition, subtraction, and multiplication, which leaves us with division. Division, as
+		with all of the other arithmetic operations, has multiple interpretations and visualizations. The two
+		interpretations come out of the fact that <m>A</m> groups of <m>B</m> and <m>B</m> groups of <m>A</m> both have
+		the same numbers of objects in them. 
+	</p>
+	<activity xml:id="sec-div-1-ac1-making-groups">
+		<title>Divisions as Making Groupings</title>
+		<p>
+			We will start by looking at division as making groupings. This was the way we looked at division earlier
+			when we were working with fractions. The calculation <m>a \div b</m> (which is the same as gives the number
+			of groups of size <m>b</m> that can be made if you start with <m>a</m> objects. Here is the diagram we used
+			to represents <m>6 \div 2</m> from earlier: 
+		</p>
+		<image xml:id="sec-div-1-ac1-6-div-2" width="100%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7] 
+					\begin{scope}
+					\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (2,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (4,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (6,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (8,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (10,0) rectangle ++ (1,1); 
+					\draw (-6,0.5) node[anchor=west] {\strut $6$ objects}; 
+					\draw[fill=lightgray] (0.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (1.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (4.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (5.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (8.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (9.5,-2) rectangle ++ (1,1); 
+					\draw (-6,-1.5) node[anchor=west] {\strut $3$ full groups of $2$}; 
+					\draw[-stealth] ($ (0.5,0)!0.2!(1,-1) $) -- ($ (0.5,0)!0.8!(1,-1) $); 
+					\draw[-stealth] ($ (2.5,0)!0.2!(2,-1) $) -- ($ (2.5,0)!0.8!(2,-1) $); 
+					\draw[-stealth] ($ (4.5,0)!0.2!(5,-1) $) -- ($ (4.5,0)!0.8!(5,-1) $); 
+					\draw[-stealth] ($ (6.5,0)!0.2!(6,-1) $) -- ($ (6.5,0)!0.8!(6,-1) $); 
+					\draw[-stealth] ($ (8.5,0)!0.2!(9,-1) $) -- ($ (8.5,0)!0.8!(9,-1) $); 
+					\draw[-stealth] ($ (10.5,0)!0.2!(10,-1) $) -- ($ (10.5,0)!0.8!(10,-1) $); 
+					\draw (13,-0.5) node[anchor=west] {$6 \div 2 = 3$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			This way of looking at division leads to a very natural interpretation of fractions as parts of a whole. If
+			we are short pieces to make a full group, then we use that to determine the fractional part. 
+		</p>
+		<image xml:id="sec-div-1-ac1-5-div-2" width="100%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7] 
+				\begin{scope}
+					\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (2,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (4,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (6,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (8,0) rectangle ++ (1,1); 
+					\draw (-6,0.5) node[anchor=west] {\strut $5$ objects}; 
+					\draw[fill=lightgray] (0.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (1.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (4.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (5.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (8.5,-2) rectangle ++ (1,1); 
+					\draw (-6,-1.5) node[anchor=west] {\strut $2$ full groups of $2$}; 
+					\draw (9.5,-2) -- ++ (1,0) -- ++ (0,1) -- ++ (-1,0); 
+					\draw (9.5,-2.5) node[anchor=north] {\strut 1 out of 2 pieces}; 
+					\draw[-stealth] ($ (0.5,0)!0.2!(1,-1) $) -- ($ (0.5,0)!0.8!(1,-1) $); 
+					\draw[-stealth] ($ (2.5,0)!0.2!(2,-1) $) -- ($ (2.5,0)!0.8!(2,-1) $); 
+					\draw[-stealth] ($ (4.5,0)!0.2!(5,-1) $) -- ($ (4.5,0)!0.8!(5,-1) $); 
+					\draw[-stealth] ($ (6.5,0)!0.2!(6,-1) $) -- ($ (6.5,0)!0.8!(6,-1) $); 
+					\draw[-stealth] ($ (8.5,0)!0.2!(9,-1) $) -- ($ (8.5,0)!0.8!(9,-1) $); 
+					\draw (13,-0.5) node[anchor=west] {$5 \div 2 = 2 \frac{1}{2}$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-div-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Draw a diagram that shows the calculation <m>12 \div 3</m> using the concept of making groups. 
+		</p>
+		<solution>
+			<image xml:id="sec-div-1-ti1-solution" width="95%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5] 
+						\begin{scope}
+							\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (1.5,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (3,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (4.5,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (6,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (7.5,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (9,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (10.5,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (12,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (13.5,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (15,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (16.5,0) rectangle ++ (1,1); 
+							\draw (-7,0.5) node[anchor=west] {\strut $12$ objects}; 
+							\draw[fill=lightgray] (0.5,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (1.5,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (2.5,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (5,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (6,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (7,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (9.5,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (10.5,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (11.5,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (14,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (15,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (16,-2) rectangle ++ (1,1); 
+							\draw (-7,-1.5) node[anchor=west] {\strut $4$ full groups of $3$}; 
+							\draw[-stealth] ($ (0.5,0)!0.2!(1,-1) $) -- ($ (0.5,0)!0.8!(1,-1) $); 
+							\draw[-stealth] ($ (2,0)!0.2!(2,-1) $) -- ($ (2,0)!0.8!(2,-1) $); 
+							\draw[-stealth] ($ (3.5,0)!0.2!(3,-1) $) -- ($ (3.5,0)!0.8!(3,-1) $); 
+							\draw[-stealth] ($ (5,0)!0.2!(5.5,-1) $) -- ($ (5,0)!0.8!(5.5,-1) $); 
+							\draw[-stealth] ($ (6.5,0)!0.2!(6.5,-1) $) -- ($ (6.5,0)!0.8!(6.5,-1) $); 
+							\draw[-stealth] ($ (8,0)!0.2!(7.5,-1) $) -- ($ (8,0)!0.8!(7.5,-1) $); 
+							\draw[-stealth] ($ (9.5,0)!0.2!(10,-1) $) -- ($ (9.5,0)!0.8!(10,-1) $); 
+							\draw[-stealth] ($ (11,0)!0.2!(11,-1) $) -- ($ (11,0)!0.8!(11,-1) $); 
+							\draw[-stealth] ($ (12.5,0)!0.2!(12,-1) $) -- ($ (12.5,0)!0.8!(12,-1) $); 
+							\draw[-stealth] ($ (14,0)!0.2!(14.5,-1) $) -- ($ (14,0)!0.8!(14.5,-1) $); 
+							\draw[-stealth] ($ (15.5,0)!0.2!(15.5,-1) $) -- ($ (15.5,0)!0.8!(15.5,-1) $); 
+							\draw[-stealth] ($ (17,0)!0.2!(16.5,-1) $) -- ($ (17,0)!0.8!(16.5,-1) $); 
+							\draw (8.75,-2.5) node[anchor=north] {$12 \div 3 = 4$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<activity xml:id="sec-div-1-ac2-equal-distribution">
+		<title>Division as Equal Distribution</title>
+		<p>
+			An alternative perspective for division known as equal distribution. The idea here is that you are
+			attempting to create a specific number of equal-sized groups. In this case, <m>a \div b</m> means to
+			determine how many elements will be in each group if you make <m>b</m> equal groups. Here is a diagram: 
+		</p>
+		<image xml:id="sec-div-1-ac2-6-div-2" width="100%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7] 
+					\begin{scope}
+						\draw (-6,0.5) node[anchor=west] {\strut $6$ objects}; 
+						\draw (-6,-1.5) node[anchor=west] {\strut $3$ in each of $2$ groups}; 
+					\end{scope} 
+					\begin{scope} [shift={(1,0)}]
+						\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (2,0) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (4,0) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (6,0) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (8,0) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (10,0) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (1,-2) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (2,-2) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (3,-2) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (7,-2) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (8,-2) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (9,-2) rectangle ++ (1,1); 
+						\draw[-stealth] ($ (0.5,0)!0.2!(1.5,-1) $) -- ($ (0.5,0)!0.8!(1.5,-1) $); 
+						\draw[-stealth] ($ (2.5,0)!0.2!(2.5,-1) $) -- ($ (2.5,0)!0.8!(2.5,-1) $); 
+						\draw[-stealth] ($ (4.5,0)!0.2!(3.5,-1) $) -- ($ (4.5,0)!0.8!(3.5,-1) $); 
+						\draw[-stealth] ($ (6.5,0)!0.2!(7.5,-1) $) -- ($ (6.5,0)!0.8!(7.5,-1) $); 
+						\draw[-stealth] ($ (8.5,0)!0.2!(8.5,-1) $) -- ($ (8.5,0)!0.8!(8.5,-1) $); 
+						\draw[-stealth] ($ (10.5,0)!0.2!(9.5,-1) $) -- ($ (10.5,0)!0.8!(9.5,-1) $); 
+						\draw (13,-0.5) node[anchor=west] {$6 \div 2 = 3$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			Sometimes, in order to create equal groups, you need to break some of pieces into parts. In this case, the
+			fractional part comes not from having an incomplete group, but the necessity of dismantling a whole object
+			in order to allow everyone to have an equal share. 
+		</p>
+		<image xml:id="sec-div-1-ac2-5-div-2" width="100%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7] 
+					\begin{scope}
+						\draw (-6,0.5) node[anchor=west] {\strut $5$ objects}; 
+						\draw (-6,-1.5) node[anchor=west] {\strut $2\frac{1}{2}$ in each of $2$ groups}; 
+					\end{scope} 
+					\begin{scope} [shift={(2,0)}]
+						\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (2,0) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (4,0) rectangle ++ (1,1); 
+						\draw (4.5,0) -- ++ (0,1); 
+						\draw[fill=lightgray] (6,0) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (8,0) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (1,-2) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (2,-2) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (3,-2) rectangle ++ (0.5,1); 
+						\draw[fill=lightgray] (5.5,-2) rectangle ++ (0.5,1); 
+						\draw[fill=lightgray] (6,-2) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (7,-2) rectangle ++ (1,1); 
+						\draw[-stealth] ($ (0.5,0)!0.2!(1.5,-1) $) -- ($ (0.5,0)!0.8!(1.5,-1) $); 
+						\draw[-stealth] ($ (2.5,0)!0.2!(2.5,-1) $) -- ($ (2.5,0)!0.8!(2.5,-1) $); 
+						\draw[-stealth] ($ (4.5,0)!0.2!(3.5,-1) $) -- ($ (4.5,0)!0.8!(3.5,-1) $); 
+						\draw[-stealth] ($ (4.5,0)!0.2!(5.5,-1) $) -- ($ (4.5,0)!0.8!(5.5,-1) $); 
+						\draw[-stealth] ($ (6.5,0)!0.2!(6.5,-1) $) -- ($ (6.5,0)!0.8!(6.5,-1) $); 
+						\draw[-stealth] ($ (8.5,0)!0.2!(7.5,-1) $) -- ($ (8.5,0)!0.8!(7.5,-1) $); 
+						\draw (11,-0.5) node[anchor=west] {$5 \div 2 = 2\frac{1}{2}$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-div-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Draw a diagram that shows the calculation <m>12 \div 3</m> using the concept of equal distribution. 
+		</p>
+		<solution>
+			<image xml:id="sec-div-1-ti2-solution" width="95%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5] 
+						\begin{scope}
+							\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (1.5,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (3,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (4.5,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (6,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (7.5,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (9,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (10.5,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (12,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (13.5,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (15,0) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (16.5,0) rectangle ++ (1,1); 
+							\draw (-8,0.5) node[anchor=west] {\strut $12$ objects}; 
+							\draw[fill=lightgray] (0.75,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (1.75,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (2.75,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (3.75,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (6.75,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (7.75,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (8.75,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (9.75,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (12.75,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (13.75,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (14.75,-2) rectangle ++ (1,1); 
+							\draw[fill=lightgray] (15.75,-2) rectangle ++ (1,1); 
+							\draw (-8,-1.5) node[anchor=west] {\strut $4$ in each of $3$ groups}; 
+							\draw[-stealth] ($ (0.5,0)!0.2!(1.25,-1) $) -- ($ (0.5,0)!0.8!(1.25,-1) $); 
+							\draw[-stealth] ($ (2,0)!0.2!(2.25,-1) $) -- ($ (2,0)!0.8!(2.25,-1) $); 
+							\draw[-stealth] ($ (3.5,0)!0.2!(3.25,-1) $) -- ($ (3.5,0)!0.8!(3.25,-1) $); 
+							\draw[-stealth] ($ (5,0)!0.2!(4.25,-1) $) -- ($ (5,0)!0.8!(4.25,-1) $); 
+							\draw[-stealth] ($ (6.5,0)!0.2!(7.25,-1) $) -- ($ (6.5,0)!0.8!(7.25,-1) $); 
+							\draw[-stealth] ($ (8,0)!0.2!(8.25,-1) $) -- ($ (8,0)!0.8!(8.25,-1) $); 
+							\draw[-stealth] ($ (9.5,0)!0.2!(9.25,-1) $) -- ($ (9.5,0)!0.8!(9.25,-1) $); 
+							\draw[-stealth] ($ (11,0)!0.2!(10.25,-1) $) -- ($ (11,0)!0.8!(10.25,-1) $); 
+							\draw[-stealth] ($ (12.5,0)!0.2!(13.25,-1) $) -- ($ (12.5,0)!0.8!(13.25,-1) $); 
+							\draw[-stealth] ($ (14,0)!0.2!(14.25,-1) $) -- ($ (14,0)!0.8!(14.25,-1) $); 
+							\draw[-stealth] ($ (15.5,0)!0.2!(15.25,-1) $) -- ($ (15.5,0)!0.8!(15.25,-1) $); 
+							\draw[-stealth] ($ (17,0)!0.2!(16.25,-1) $) -- ($ (17,0)!0.8!(16.25,-1) $); 
+							\draw (8.75,-2.5) node[anchor=north] {$12 \div 3 = 4$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		Both of these concepts of division can be used to understand why division by 0 is undefined. Let's look at the
+		meaning of the division calculation <m>5 \div 0</m> as an example. Using the idea of groupings, the question is
+		"How many groups of size 0 are needed to use up 5 objects?" And with groupings of size 0 you're never going to
+		use up all of the objects. If we use equal distribution, the question is "How many objects does each person get
+		if there are 0 people?" Again, the question really doesn't make sense. How many objects does nobody have? 
+	</p>
+	<p>
+		And so this "rule" that dividing by is "undefined" is just representation of the idea that the division concept
+		doesn't make sense when you divide by 0. It is "undefined" because there is no meaningful answer to the
+		question. 
+	</p>
+	<aside>
+		<p>
+			We will explore the relationship between them in the worksheets, but it's worth taking a moment to think about it yourself. 
+		</p>
+	</aside>
+	<p>
+		Both of these perspectives of division are valid and they are related to each other. We are going to be focusing
+		on making groupings because the connection to parts of a whole is stronger. 
+	</p>
+	<p>
+		Many students have memorized the long-division mantra at some point: "Divide, multiply, subtract, bring down,
+		repeat." And by learning to execute these steps, students learn how to perform long division problems. But what
+		is actually happening as these steps are being executed? Very few people are able to explain what is happening
+		conceptually. And since the emphasis of this book is mathematical thinking and understanding, we're going to
+		break it down and take away the mystery of long division. 
+	</p>
+	<p>
+		The problem of long division is that you're given a large collection of objects and asked how many groups of a
+		specific size can be made from that collection. One way to get the answer is by "counting up" to that value.
+		For example, if we wanted to know how many groups of could be made from objects, we could simply count up to it
+		by doing multiples of 4:
+	</p>
+	<image xml:id="sec-div-1-multiples-of-4" width="95%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (-1,0) node[anchor=east] {\strut Multiples of $4$:}; 
+				\draw (-1,-1) node[anchor=east] {\strut Count:}; 
+				\draw (1,0) node[anchor=center] {\strut $4$}; 
+				\draw (3,0) node[anchor=center] {\strut $8$}; 
+				\draw (5,0) node[anchor=center] {\strut $12$}; 
+				\draw (7,0) node[anchor=center] {\strut $16$}; 
+				\draw (9,0) node[anchor=center] {\strut $20$}; 
+				\draw (11,0) node[anchor=center] {\strut $24$}; 
+				\draw (1,-1) node[anchor=center] {\strut $1$}; 
+				\draw (3,-1) node[anchor=center] {\strut $2$}; 
+				\draw (5,-1) node[anchor=center] {\strut $3$}; 
+				\draw (7,-1) node[anchor=center] {\strut $4$}; 
+				\draw (9,-1) node[anchor=center] {\strut $5$}; 
+				\draw (11,-1) node[anchor=center] {\strut $6$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		And from this, we can see that we can make groups of out of objects. 
+	</p>
+	<p>
+		This theoretically works for any number, but it's quickly seen as grossly inefficient. Let's say that we were
+		given 336 objects instead. Trying to count as above is not a smart approach because it will simply take a very
+		long time to get the target number. 
+	</p>
+	<image xml:id="sec-div-1-more-multiples-of-4" width="95%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (-1,0) node[anchor=east] {\strut Multiples of $4$:}; 
+				\draw (-1,-1) node[anchor=east] {\strut Count:}; 
+				\draw (0,0) node[anchor=center] {\strut $4$}; 
+				\draw (1,0) node[anchor=center] {\strut $8$}; 
+				\draw (2,0) node[anchor=center] {\strut $12$}; 
+				\draw (3,0) node[anchor=center] {\strut $16$}; 
+				\draw (4,0) node[anchor=center] {\strut $20$}; 
+				\draw (5,0) node[anchor=center] {\strut $24$}; 
+				\draw (6,0) node[anchor=center] {\strut $28$}; 
+				\draw (7,0) node[anchor=center] {\strut $32$}; 
+				\draw (8,0) node[anchor=center] {\strut $36$}; 
+				\draw (9,0) node[anchor=center] {\strut $40$}; 
+				\draw (10,0) node[anchor=center] {\strut $\cdots$}; 
+				\draw (0,-1) node[anchor=center] {\strut $1$}; 
+				\draw (1,-1) node[anchor=center] {\strut $2$}; 
+				\draw (2,-1) node[anchor=center] {\strut $3$}; 
+				\draw (3,-1) node[anchor=center] {\strut $4$}; 
+				\draw (4,-1) node[anchor=center] {\strut $5$}; 
+				\draw (5,-1) node[anchor=center] {\strut $6$}; 
+				\draw (6,-1) node[anchor=center] {\strut $7$}; 
+				\draw (7,-1) node[anchor=center] {\strut $8$}; 
+				\draw (8,-1) node[anchor=center] {\strut $9$}; 
+				\draw (9,-1) node[anchor=center] {\strut $10$}; 
+				\draw (10,-1) node[anchor=center] {\strut $\cdots$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Here is where we can invoke our mathematical thinking and problem solving skills. We want to count faster, but we want to do it in an organized manner. Based on our knowledge of numbers, a reasonable approach would be to count in groups of instead of groups of We can quickly see that a group of requires pieces, and use those groupings instead to speed up the process. Notice that we crossed out the last one because is larger than so we don't have enough pieces to make another groups. But we're also not done yet because we've only accounted for out of the pieces. We can see that there are pieces left, which we know corresponds to another groups. And so in total, there are <m>80 + 4 = 84</m> groups of that can be made with objects. 
+	</p>
+	<image xml:id="sec-div-1-multiples-of-40" width="90%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (-1,0) node[anchor=east] {\strut Multiples of $4$:}; 
+				\draw (-1,-1) node[anchor=east] {\strut Count:}; 
+				\draw (0,0) node[anchor=center] {\strut $40$}; 
+				\draw (1,0) node[anchor=center] {\strut $80$}; 
+				\draw (2,0) node[anchor=center] {\strut $120$}; 
+				\draw (3,0) node[anchor=center] {\strut $160$}; 
+				\draw (4,0) node[anchor=center] {\strut $200$}; 
+				\draw (5,0) node[anchor=center] {\strut $240$}; 
+				\draw (6,0) node[anchor=center] {\strut $280$}; 
+				\draw (7,0) node[anchor=center] {\strut $320$}; 
+				\draw (8,0) node[anchor=center] {\strut $360$}; 
+				\draw (0,-1) node[anchor=center] {\strut $10$}; 
+				\draw (1,-1) node[anchor=center] {\strut $20$}; 
+				\draw (2,-1) node[anchor=center] {\strut $30$}; 
+				\draw (3,-1) node[anchor=center] {\strut $40$}; 
+				\draw (4,-1) node[anchor=center] {\strut $50$}; 
+				\draw (5,-1) node[anchor=center] {\strut $60$}; 
+				\draw (6,-1) node[anchor=center] {\strut $70$}; 
+				\draw (7,-1) node[anchor=center] {\strut $80$}; 
+				\draw (8,-1) node[anchor=center] {\strut $90$}; 
+				\draw[ultra thick,red] (7.5,0.5) -- ++ (1,-2) ++ (-1,0) -- ++ (1,2); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<activity xml:id="sec-div-1-ac3-long-division">
+		<title>The Concept Behind Long Division</title>
+		<p>
+			One of the challenges with these calculations is figuring out the "correct" amount of work to show. With
+			practice, these calculations can be done mentally without too much difficulty. But it takes some time to get
+			there. If you wanted to write out multiples of numbers as above as scratch work, that would be acceptable.
+			But for the purposes of these division problems, the following is the minimum presentation expectation:
+			<me>
+				\left.
+					\begin{array}{rl}
+						80 \cdot 4 \amp = 320 \\
+						4 \cdot 4 \amp = 16
+					\end{array}
+				\right\} \implies 336 \div 4 = 84
+			</me>
+			This diagram represents the creation of the different sized groupings as well as shows how they come
+			together to give the final answer. 
+		</p>
+		<p>
+			<alert xml:id="sec-div-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Determine the value of <m>462 \div 6</m> using the method described above. 
+		</p>
+	<solution>
+		<p>
+			<me>
+				\left. \begin{array}{rl}
+					70 \cdot 6 \amp = 420 \\
+					7 \cdot 6 \amp = 42
+					\end{array}
+				\right\} \implies 462 \div 6 = 77
+			</me> 
+		</p>
+	</solution>
+	</activity>
+	<p>
+		The long division method is precisely this grouping process, but written in a far more compact style. The trick
+		to unwinding it is to think past the digits and contemplate the process as working with numbers. We will follow
+		the steps of the long division calculation <m>336 \div 4</m> and track the logic of the calculation we just
+		completed. 
+	</p>
+	<image xml:id="sec-div-1-long-division" width="100%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\begin{scope}
+					\draw (-0.8,0) node[anchor=east] {\strut $4$}; 
+					\draw (0,0) node[anchor=east] {\strut $3$}; 
+					\draw (0.5,0) node[anchor=east] {\strut $3$}; 
+					\draw (1,0) node[anchor=east] {\strut $6$}; 
+					\draw (-0.8,-0.5) -- (-0.8,0.5) -- (1,0.5); 
+					\draw[blue] (-0.6,-0.4) -- ++ (0.4,0); 
+					\draw (3,1) node[anchor=west] {Long division:}; 
+					\draw (3,0) node[anchor=west] {Conceptual:}; 
+					\draw (8,1) node[anchor=west] {Does $4$ go into $3$? No.}; 
+					\draw (8,0) node[anchor=west] {How many groups of $400$ can be made from $300$? None.}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-3.5)}]
+					\draw (-0.8,0) node[anchor=east] {\strut $4$}; 
+					\draw (0,0) node[anchor=east] {\strut $3$}; 
+					\draw (0.5,0) node[anchor=east] {\strut $3$}; 
+					\draw (1,0) node[anchor=east] {\strut $6$}; 
+					\draw (-0.8,-0.5) -- (-0.8,0.5) -- (1,0.5); 
+					\draw (0.5,1) node[anchor=east] {\strut $8$}; 
+					\draw[blue] (-0.6,-0.4) -- ++ (0.9,0); 
+					\draw (3,1) node[anchor=west] {Long division:}; 
+					\draw (3,0) node[anchor=west] {Conceptual:}; 
+					\draw (8,1) node[anchor=west] {Does $4$ go into $33$? Yes. $8$ times.}; 
+					\draw (8,0) node[anchor=west] {How many groups of $40$ can be made from $330$? $8$ groups.}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-6.5)}]
+					\draw (-0.8,0) node[anchor=east] {\strut $4$}; 
+					\draw (0,0) node[anchor=east] {\strut $3$}; 
+					\draw (0.5,0) node[anchor=east] {\strut $3$}; 
+					\draw (1,0) node[anchor=east] {\strut $6$}; 
+					\draw (-0.8,-0.5) -- (-0.8,0.5) -- (1,0.5); 
+					\draw (0.5,1) node[anchor=east] {\strut $8$}; 
+					\draw (-0.5,-1) node[anchor=east] {\strut $-$}; 
+					\draw (0,-1) node[anchor=east] {\strut $3$}; 
+					\draw (0.5,-1) node[anchor=east] {\strut $2$}; 
+					\draw (0.5,-2) node[anchor=east] {\strut $1$}; 
+					\draw (1,-2) node[anchor=east] {\strut $6$}; 
+					\draw (-0.8,-1.5) -- (0.4,-1.5); 
+					\draw[blue,-stealth] (0.6,-0.3) -- ++ (0,-1); 
+					\draw (3,0) node[anchor=west] {Long division:}; 
+					\draw (3,-1) node[anchor=west] {Conceptual:}; 
+					\draw (8,0) node[anchor=west] {Multiply, subtract, bring down.}; 
+					\draw (8,-1) node[anchor=west] {After making those groups, how many are left? $16$ pieces.}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-11)}]
+					\draw (-0.8,0) node[anchor=east] {\strut $4$}; 
+					\draw (0,0) node[anchor=east] {\strut $3$}; 
+					\draw (0.5,0) node[anchor=east] {\strut $3$}; 
+					\draw (1,0) node[anchor=east] {\strut $6$}; 
+					\draw (-0.8,-0.5) -- (-0.8,0.5) -- (1,0.5); 
+					\draw (0.5,1) node[anchor=east] {\strut $8$}; 
+					\draw (1,1) node[anchor=east] {\strut $4$}; 
+					\draw (-0.5,-1) node[anchor=east] {\strut $-$}; 
+					\draw (0,-1) node[anchor=east] {\strut $3$}; 
+					\draw (0.5,-1) node[anchor=east] {\strut $2$}; 
+					\draw (0.5,-2) node[anchor=east] {\strut $1$}; 
+					\draw (1,-2) node[anchor=east] {\strut $6$}; 
+					\draw (-0.8,-1.5) -- (0.4,-1.5); 
+					\draw (3,0) node[anchor=west] {Long division:}; 
+					\draw (3,-1) node[anchor=west] {Conceptual:}; 
+					\draw (8,0) node[anchor=west] {Does $4$ go into $16$? Yes. $4$ times.}; 
+					\draw (8,-1) node[anchor=west] {How many groups of $4$ can be made from $16$? $4$ groups.}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		So the underlying logic of long division is to make the big groups first and then work your way down to smaller groups. 
+	</p>
+	<activity xml:id="sec-div-1-ac4-mental-division">
+		<title>Mental Division</title>
+		<p>
+			Something else happens when you start to open up that logic. The mental calculations actually become much
+			simpler. In the same way that it is difficult for your brain to keep track of all of the symbols when adding
+			in columns, long division is an extremely complicated process if you need to remember both the values and
+			locations of all the digits. But if you think about them as numbers, you significantly simplify the logic
+			and (with a little bit of practice) this becomes a much simpler mental calculation. 
+		</p>
+		<p>
+			<alert xml:id="sec-div-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Mentally calculate <m>462 \div 6</m>. 
+		</p>
+		<solution>
+			<p>
+				<me> 462 \div 6 = 77 </me> 
+			</p>
+		</solution>
+	</activity>
+</section>

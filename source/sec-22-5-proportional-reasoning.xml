@@ -1,0 +1,94 @@
+<section xml:id="sec-mpd-5-deeper">
+	<title>Going Deeper: Proportional Reasoning</title>
+	<aside>
+		<p>
+			We will see ratios again when we look at unit conversions. 
+		</p>
+	</aside>
+	<p>
+		<idx><h>ratio</h></idx>
+		In this section, we focused on the standard type of percent problem and some minor variants of it. With some of
+		the more complicated problems, you had to do a bit more thinking to correctly identify the components of the
+		basic percent relationship. This way of thinking about percents is a specific example of a broader framework
+		known as <em>ratios</em>. A ratio is a general type of mathematical relationship where two (or more) quantities
+		are held in a constant proportion with each other. 
+	</p>
+	<p>
+		For example, if you are buying packages of hot dog buns where each package contains 8 buns, then there is a
+		constant ratio between the number of packages you purchase and the total number of buns you have. We can set
+		this up using the following word equation:
+		<me>
+			\text{(the number of buns)} = 8 \cdot \text{(the number of packages)}.
+		</me>
+		When you compare this to the percent equation, you'll see that it has a similar structure, though the name of
+		the components are different. 
+	</p>
+	<p>
+		We can set this up a little more generally:
+		<me>
+			\text{(the number of item $Y$)}
+			= \text{(the ratio of item $Y$ to item $X$)} \cdot \text{(the number of item $X$)}
+		</me>
+		We usually prefer to use symbols instead of words because it takes up a lot less space, so if we let <m>y</m>
+		represent the number of item <m>Y</m>, <m>x</m> represent the number of item <m>X</m>, and let <m>k</m> be the
+		ratio of item <m>Y</m> to item <m>X</m> then this becomes
+		<me>
+			y = kx.
+		</me>
+		This type of relationship is one of the standard models that we use for talking about how two quantities are
+		related to each other. We call this a linear (or direct) relationship between the variables. In many cases, it's
+		more useful to think of the equation in the form
+		<me>
+			k = \frac{y}{x},
+		</me>
+		which more directly shows us that is the ratio of the number of item <m>Y</m> to the number of item <m>X</m>.
+	</p>
+	<p>
+		We can set up this relationship between any two collections of objects. In example above, it was the ratio of
+		hot dog buns to the number of packages. When we're talking about percents, it's the ratio of "the part" (the
+		number of a specific type of object) to "the whole" (the total number of objects in the collection). We also saw
+		this ratio when looking at slopes of lines (the amount of "rise" to the amount of "run"). When we think about
+		speed, we think about the ratio of how far something travels for a given amount of time, which is why speed has
+		units such as "miles per hour." This shows that idea of a ratio is fundamental to algebraic reasoning and is
+		useful in many applications. 
+	</p>
+	<p>
+		It is often useful to think about the distinction between a ratio and a proportion. A ratio is the relationship
+		between two quantities. A proportion is when we say that two ratios are the same. For example, if you went to
+		the store to buy two packages of hot dog buns and your friend went to the store to buy two packages of hot dots,
+		you may end up with different numbers of buns and dogs even though you bought the same number of packages. The
+		reason for this is that the buns and dogs may have different numbers of objects per package. They are not
+		proportional to each other. 
+	</p>
+	<p>
+		Proportional reasoning can be difficult for many people because the the importance of one quantity is measured
+		relative to the size of another. For example, losing $1000 can be very detrimental to a household's income, but
+		a multi-billion dollar company would hardly be bothered by the loss. And on the other side of things, the
+		difference between the price of milk being $2.99 per gallon or $3.09 per gallon is negligible for a household's
+		budget, but this can be a large additional expense for a company that needs to buy millions of gallons of milk. 
+	</p>
+	<p>
+		This idea can be looped back around to percents by thinking about <em>percent change</em>. The idea of a percent
+		change is that we're looking at the ratio of the amount of change to the quantity relative to the quantity
+		itself. This helps us to think about how much of an impact something has on the overall situation. For example,
+		a pay raise of $1 per hour means a lot to someone who is earning $10 per hour, but it means very little to
+		someone earning $100 per hour, even though the raise is the same size. The difference is that it's a larger
+		percent increase in wages to the person earning less money (a 10% pay raise compared to a 1% pay raise). 
+	</p>
+	<p>
+		An important note about percent change is that it can lead to error if you're not careful. An example of this
+		can be seen if we think about something doubling. For example, let's say that the person making $10 per hour
+		finds a different job and doubles their wages to $20 per hour. What is the percent change of their wages? Some
+		people immediately latch on to the number 2 (because the wages doubled) and convert 2 into a percent to get a
+		percent change of 200%. But this is wrong. We have to go back and think about what the definition of a percent
+		increase is. We have to look at the total amount of change in the wages, which is $10 more per hour, and then
+		use the base pay as the denominator of the ratio, which is also $10. This means that there was a 100% increase
+		in their wages. 
+	</p>
+	<p>
+		This is not intuitive for many people. It's a specific type of thinking that requires time and practice in order
+		to become proficient. As you continue to take quantitative classes, especially science and social science
+		courses, you will see proportional reasoning start to seep into the basic language you use to describe the
+		world around you, and the more prepared you are, the more you will get out of those other classes.
+	</p>
+</section>

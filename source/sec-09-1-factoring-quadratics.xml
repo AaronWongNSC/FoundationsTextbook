@@ -1,0 +1,542 @@
+<section xml:id="sec-fqp-1-main">
+	<title>Lots of Methods, Not All Good</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Represent factoring quadratic polynomials geometrically.
+				</p>
+			</li>
+			<li>
+				<p>
+					Factor monic quadratic polynomials by grouping.
+				</p>
+			</li>
+			<li>
+				<p>
+					Factor non-monic quadratic polynomials by grouping.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		Factoring quadratic polynomials is generally seen as an important marker for a student's algebra skill level.
+		Because of this, various teachers have tried to design particular methods to help students factor correctly.
+		Unfortunately, many of those methods are answer-oriented, which leads to students getting into the habit of
+		making incorrect algebraic manipulations. 
+	</p>
+	<p>
+		In this section, the focus is going to be on understanding the process of factoring and the ideas behind it.
+		Although getting the right answer is also important, the right answer is the outcome of a proper understanding
+		of the concepts, not the ultimate end in itself. 
+	</p>
+	<aside>
+		<p>
+			If you want physical manipulatives, you can purchase algebra tiles or make them out of paper. 
+		</p>
+	</aside>
+	<p>
+		To emphasize this point, we're going to use a purely geometric framework and sidestep all of the algebra. A
+		couple sections ago, we introduced algebra tiles. These are geometric images that represent different quantities
+		to help us think about algebraic relationships. 
+	</p>
+	<aside>
+		<p>
+			The basic idea is that you have positive and negative versions of the tiles, and one positive and one
+			negative of the same type of tile will cancel each other out. 
+		</p>
+	</aside>
+	<p>
+		Algebra tiles come with a set of "rules" for how they can be manipulated, which is especially important when
+		you're working with negative values. However, for the purposes of illustration, we're just going to focus on
+		the situation where all of the values are positive. This means that we're going to be thinking about three
+		different tiles (both tiles should be viewed as the same piece, just rotated relative to each other):
+	</p>
+	<image xml:id="sec-fqp-1-algebra-tiles" width="50%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope} [scale=0.4] 
+					\begin{scope} [shift={(-2,0)}] \draw[thick] (0,0) rectangle (3.5,-3.5); 
+					\draw (1.75,-1.75) node[anchor=center] {\strut $x^2$}; 
+					\end{scope} 
+					\begin{scope} [shift={(6,0)}] \draw[thick] (0,0) rectangle (1,-3.5); 
+					\draw (0.5,-1.75) node[anchor=center] {\strut $x$}; 
+					\end{scope} 
+					\begin{scope} [shift={(8,-1.25)}] \draw[thick] (0,0) rectangle (3.5,-1); 
+					\draw (1.75,-0.5) node[anchor=center] {\strut $x$}; 
+					\end{scope} 
+					\begin{scope} [shift={(15,-1.25)}] \draw[thick] (0,0) rectangle (1,-1); 
+					\draw (0.5,-0.5) node[anchor=center] {\strut $1$}; 
+					\end{scope} 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		A representation of a quadratic polynomial using the algebra tiles is simply a matter of having the right number
+		of pieces: 
+	</p>
+	<image xml:id="sec-fqp-1-representation-with-tiles" width="80%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (0,0) node[anchor=east] {$x^2 + 6x + 8$}; 
+				\draw[stealth-stealth] (1,0) -- (2,0); 
+				\begin{scope} [shift={(3,0)},scale=0.4,shift={(0,1.75)}] 
+					\begin{scope} [shift={(0,0)}]
+						\draw[thick] (0,0) rectangle (3.5,-3.5); 
+						\draw (1.75,-1.75) node[anchor=center] {\strut $x^2$}; 
+					\end{scope} 
+					\begin{scope} [shift={(5,0)}]
+						\draw[thick] (0,0) rectangle (1,-3.5); 
+						\draw (0.5,-1.75) node[anchor=center] {\strut $x$}; 
+						\draw[thick] (1.5,0) rectangle ++ (1, -3.5); 
+						\draw (2,-1.75) node[anchor=center] {\strut $x$}; 
+						\draw[thick] (3,0) rectangle ++ (1, -3.5); 
+						\draw (3.5,-1.75) node[anchor=center] {\strut $x$}; 
+						\draw[thick] (4.5,0) rectangle ++ (1, -3.5); 
+						\draw (5,-1.75) node[anchor=center] {\strut $x$}; 
+						\draw[thick] (6,0) rectangle ++ (1, -3.5); 
+						\draw (6.5,-1.75) node[anchor=center] {\strut $x$}; 
+						\draw[thick] (7.5,0) rectangle ++ (1, -3.5); 
+						\draw (8,-1.75) node[anchor=center] {\strut $x$}; 
+					\end{scope} 
+					\begin{scope} [shift={(15,1)}]
+						\draw[thick] (0,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (0,-1.5) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (0,-3) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (0,-4.5) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (1.5,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (1.5,-1.5) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (1.5,-3) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (1.5,-4.5) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+					\end{scope} 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		The challenge is then to arrange all of these pieces into a rectangle where the small squares are at the
+		bottom right, the large square (or squares) are on the top left, and the rectangles fill in the spaces on
+		the top right and lower left. Once a rectangle is found, it can be used to determine the factorization. 
+	</p>
+	<aside>
+		<p>
+			You should count up the pieces and double check that this works. 
+		</p>
+	</aside>
+	<image xml:id="sec-fqp-1-tile-factorization" width="30%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope} [shift={(-1,0)},scale=0.4,shift={(0,3)}] 
+					\begin{scope} [shift={(0,0)}]
+						\draw[thick] (0,0) rectangle (3.5,-3.5); 
+						\draw (1.75,-1.75) node[anchor=center] {\strut $x^2$}; 
+					\end{scope} 
+					\begin{scope} [shift={(3.5,0)}]
+						\draw[thick] (0,0) rectangle (1,-3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+						\draw[thick] (1,0) rectangle ++ (1, -3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+						\draw[thick] (2,0) rectangle ++ (1, -3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+						\draw[thick] (3,0) rectangle ++ (1, -3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+					\end{scope} 
+					\begin{scope} [shift={(0,-3.5)}]
+						\draw[thick] (0,0) rectangle (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+						\draw[thick] (0,-1) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+					\end{scope} 
+					\begin{scope} [shift={(3.5,-3.5)}]
+						\draw[thick] (0,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (1,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (2,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (3,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (0,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (1,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (2,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (3,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+					\end{scope}
+					\draw (0,-1.75) node[anchor=east] {\strut $x$}; 
+					\draw (0,-4.5) node[anchor=east] {\strut $2$}; 
+					\draw (1.75,0) node[anchor=south] {$x$}; 
+					\draw (5.5,0) node[anchor=south] {$4$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<activity xml:id="sec-fqp-1-ac1-factor-by-diagram">
+		<title>Factoring a Quadratic by Diagram</title>
+		<aside>
+			<p>
+				The small squares must form a rectangle by themselves, otherwise the tiles won't fit together properly. 
+			</p>
+		</aside>
+		<p>
+			We're not going to focus on trying to give you a "method" for finding these rectangles. We're going to
+			trust that your geometric intuition will lead you to the appropriate conclusion. 
+		</p>
+		<p>
+			<alert xml:id="sec-fqp-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Use a diagram of algebra tiles to factor <m>x^2 + 7x + 12</m>. Draw the diagram and write the final equation. 
+		</p>
+		<solution>
+			<image xml:id="sec-fqp-1-ti1-solution" width="30%">
+				<latex-image>
+					\begin{tikzpicture}
+						\begin{scope} [shift={(-1,0)},scale=0.4,shift={(0,3)}] 
+							\begin{scope} [shift={(0,0)}]
+								\draw[thick] (0,0) rectangle (3.5,-3.5); 
+								\draw (1.75,-1.75) node[anchor=center] {\strut $x^2$}; 
+							\end{scope} 
+							\begin{scope} [shift={(3.5,0)}]
+								\draw[thick] (0,0) rectangle (1,-3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (1,0) rectangle ++ (1, -3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (2,0) rectangle ++ (1, -3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (3,0) rectangle ++ (1, -3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+							\end{scope} 
+							\begin{scope} [shift={(0,-3.5)}]
+								\draw[thick] (0,0) rectangle (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (0,-1) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (0,-2) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+							\end{scope} 
+							\begin{scope} [shift={(3.5,-3.5)}]
+								\draw[thick] (0,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (1,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (2,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (3,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (0,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (1,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (2,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (3,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (0,-2) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (1,-2) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (2,-2) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (3,-2) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+							\end{scope}
+							\draw (0,-1.75) node[anchor=east] {\strut $x$}; 
+							\draw (0,-5) node[anchor=east] {\strut $3$}; 
+							\draw (1.75,0) node[anchor=south] {$x$}; 
+							\draw (5.5,0) node[anchor=south] {$4$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<definition xml:id="def-monic">
+		<title>Monic and Non-Monic Quadratic Polynomials</title>
+		<idx><h>monic</h></idx>
+		<idx><h>non-monic</h></idx>
+		
+		<statement>
+			<p>
+				A quadratic polynomial of the form <m>ax^2 + bx + c</m> is called <term>monic</term> quadratic
+				polynomial if <m>a = 1</m>. If <m>a \neq 1</m>, then we call it a <term>non-monic</term> quadratic
+				polynomial.
+			</p>
+		</statement>
+	</definition>
+
+	<activity xml:id="sec-fqp-1-ac2-factor-non-monic-by-diagram">
+		<title>Factoring a Non-Monic Quadratic by Diagram</title>
+		<p>
+			Algebra tiles can be used to factor both monic and non-monic polynomials. It all comes down to finding the right rectangle. 
+		</p>
+		<image xml:id="sec-fqp-1-ac2-non-monic-factorization" width="30%">
+			<latex-image>
+				\begin{tikzpicture}
+					\begin{scope} [shift={(-1,0)},scale=0.4,shift={(0,3)}] 
+						\begin{scope} [shift={(0,0)}]
+							\draw[thick] (0,0) rectangle ++ (3.5,-3.5) ++ (-1.75,1.75) node[anchor=center] {\strut $x^2$}; 
+							\draw[thick] (3.5,0) rectangle ++ (3.5,-3.5) ++ (-1.75,1.75) node[anchor=center] {\strut $x^2$}; 
+						\end{scope} 
+						\begin{scope} [shift={(7,0)}]
+							\draw[thick] (0,0) rectangle ++ (1,-3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+							\draw[thick] (1,0) rectangle ++ (1, -3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+							\draw[thick] (2,0) rectangle ++ (1, -3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+						\end{scope} 
+						\begin{scope} [shift={(0,-3.5)}]
+							\draw[thick] (0,0) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick] (0,-1) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick] (3.5,0) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick] (3.5,-1) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+						\end{scope} 
+						\begin{scope} [shift={(7,-3.5)}]
+							\draw[thick] (0,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick] (1,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick] (2,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick] (0,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick] (1,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick] (2,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\end{scope}
+						\draw (0,-1.75) node[anchor=east] {\strut $x$}; 
+						\draw (0,-4.5) node[anchor=east] {\strut $2$}; 
+						\draw (3.5,0) node[anchor=south] {$2x$}; 
+						\draw (8.5,0) node[anchor=south] {$3$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-fqp-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Use a diagram of algebra tiles to factor <m>2x^2 + 9x + 4</m>. Draw the diagram and write the final equation. 
+		</p>
+		<solution>
+			<image xml:id="sec-fqp-1-ti2-solution" width="30%">
+				<latex-image>
+					\begin{tikzpicture}
+						\begin{scope} [shift={(-1,0)},scale=0.4,shift={(0,3)}] 
+							\begin{scope} [shift={(0,0)}]
+								\draw[thick] (0,0) rectangle ++ (3.5,-3.5) ++ (-1.75,1.75) node[anchor=center] {\strut $x^2$}; 
+								\draw[thick] (3.5,0) rectangle ++ (3.5,-3.5) ++ (-1.75,1.75) node[anchor=center] {\strut $x^2$}; 
+							\end{scope} 
+							\begin{scope} [shift={(7,0)}]
+								\draw[thick] (0,0) rectangle ++ (1,-3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+							\end{scope} 
+							\begin{scope} [shift={(0,-3.5)}]
+								\draw[thick] (0,0) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (0,-1) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (0,-2) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (0,-3) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (3.5,0) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (3.5,-1) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (3.5,-2) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+								\draw[thick] (3.5,-3) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+							\end{scope} 
+							\begin{scope} [shift={(7,-3.5)}]
+								\draw[thick] (0,0) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (0,-1) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (0,-2) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+								\draw[thick] (0,-3) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+							\end{scope}
+							\draw (0,-1.75) node[anchor=east] {\strut $x$}; 
+							\draw (0,-5.5) node[anchor=east] {\strut $4$}; 
+							\draw (3.5,0) node[anchor=south] {$2x$}; 
+							\draw (7.5,0) node[anchor=south] {$1$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		While the use of diagrams (or physical manipulatives) may help us to get answers, it doesn't necessarily help us
+		to think in an organized and logical manner. So we are going to look at a structured algebraic approach to the
+		same challenge. 
+	</p>
+	<p>
+		But before we do that, let's take a look at why factoring is difficult. Let's take a look at the steps of
+		expanding out a product. 
+		<me>
+			\begin{aligned}
+				2x^2 + 7x + 6 \amp = 2x^2 + x + 6x + 6 \\
+				\amp = 2x^2 + 2x + 5x + 6 \\
+				\amp = 2x^2 + 3x + 4x + 6 
+			\end{aligned}
+		</me>
+	</p>
+	<aside>
+		<p>
+			We're not going to draw out the grid for these products. But if you want to, you can. 
+		</p>
+	</aside>
+	<p>
+		At this point, you can still factor by grouping to get back the original product. 
+		<me>
+			\begin{aligned}
+				2x^2 + 7x + 6 \amp = 2x^2 + x + 6x + 6 \\
+				\amp = 2x^2 + 2x + 5x + 6 \\
+				\amp = 2x^2 + 3x + 4x + 6 
+			\end{aligned}
+		</me>
+	</p>
+	<p>
+		The challenge arises once the like terms are combined. We no longer have access to the rationale behind
+		uncombining the like terms. In fact, there are lots of ways to uncombine like terms! 
+		<me>
+			\begin{aligned}
+				2x^2 + 7x + 6 \amp = 2x^2 + x + 6x + 6 \\
+				\amp = 2x^2 + 2x + 5x + 6 \\
+				\amp = 2x^2 + 3x + 4x + 6 
+			\end{aligned}
+		</me>
+	</p>
+	<aside>
+		<p>
+			These examples don't even take into account possibilities with negative numbers! 
+		</p>
+	</aside>
+	<p>
+		Some students learn how to do this with monic polynomials with a guessing method, but it very often falls apart
+		on them when they are working on non-monic polynomials. At the core, most of the problems arise from the
+		students learning to simply "write down" their answer without understanding how or why it worked. We want to
+		avoid that type of method because it does not enhance mathematical thinking. 
+	</p>
+	<aside>
+		<p>
+			There are some methods that lead students to write down expressions that are mathematical nonsense, and then
+			do some manipulations from there to get the answer. 
+		</p>
+	</aside>
+	<p>
+		We will be using the "<m>ac</m> method" of factoring. The goal is to uncover the right way to uncombine like
+		terms so that we can factor by grouping. Here is a representation of the method:
+		<me>
+			ax^2 + bx + c \longrightarrow \left\{
+				\begin{array}{l}
+					\text{Multiply to $ac$} \\
+					\text{Add to $b$}
+				\end{array}
+				\right.
+		</me>
+	</p>
+	<aside>
+		<p>
+			Here are a few of the reasons for this choice: 
+			<ol>
+				<li>
+					<p>All the steps are algebraically valid.</p>
+				</li>
+				<li>
+					<p>The same technique is used for both monic and non-monic quadratics.</p>
+				</li>
+				<li>
+					<p>It builds on the same intution as most of the other methods.</p>
+				</li>
+			</ol>
+		</p>
+	</aside>
+	<p>
+		As the text states, the goal is to find two numbers that multiply to and add to The values you obtain from this
+		will be the way to uncombine the like terms, which will allow you to factor by grouping. 
+	</p>
+	<activity xml:id="sec-fqp-1-ac3-ac-method-monic">
+		<title>The <m>ac</m> Method with a Monic Quadratic</title>
+		<p>
+			We will start by applying this method to factor <m>x^2 - 3x - 10</m>. We will first translate our quadratic
+			into the two target properties.
+		</p>
+		<aside>
+			<p>
+				Notice that <m>a = 1</m>, <m>b = -3</m>, and <m>c = -10</m>. This means that <m>ac = 1 \cdot (-10) = -10</m>. 
+			</p>
+		</aside>
+		<p>
+			<me>
+				x^2 - 3x - 10 \longrightarrow
+					\left\{
+						\begin{array}{l}
+							\text{Multiply to -10} \\
+							\text{Add to -3}
+						\end{array}
+					\right.
+			</me>
+		</p>
+		<aside>
+			<p>
+				Hint: It's usually easier to focus on the multiplication pairs because there are fewer of them. 
+			</p>
+		</aside>
+		<p>
+			And here is where you simply have to use your experience with numbers to try to find the right combination.
+			What two numbers multiply to -10 and add to -3? You should be able to determine that the values are -2 and
+			5. These two values are used to uncombine the like terms (<m>-3x = -5x + 2x</m>), which then allows us to
+			complete the factorization using grouping. Here is the complete presentation. 
+		</p>
+		<aside>
+			<p>
+				Whether you write out the "multiply to" and "add to" statements is up to you. Some students find it
+				helpful for organization, while others find it tedious and distracting. In any case, that should be
+				considered scratch work. 
+			</p>
+		</aside>
+		<p>
+			<me>
+				\begin{aligned}
+					x^2 - 3x - 10 \amp = x^2 - 5x + 2x - 10 \amp \eqnspacer \amp \text{The $ac$ method} \\
+					\amp = x(x - 5) + 2(x - 5) \amp \amp \text{Factor by grouping} \\
+					\amp = (x + 2)(x - 5) \amp \amp \text{Factor out the common factor} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			<alert xml:id="sec-fqp-1-ac3-ti">Try it!</alert>
+		</p>
+		<aside>
+			<p>
+				You should get the same final answer no matter which way you do it. 
+			</p>
+		</aside>
+		<p>
+			Use the <m>ac</m> method to factor <m>x^2 - 3x - 10</m> using a complete presentation, but instead of
+			un-combining the middle term using <m>-3x = -5x + 2x</m>, swap the order and un-combine it using
+			<m>-3x = 2x - 5x</m>. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						x^2 - 3x - 10 \amp = x^2 + 2x - 5x - 10 \amp \amp \text{The $ac$ method} \\
+						\amp = x(x + 2) - 5(x + 2) \amp \amp \text{Factor by grouping} \\
+						\amp = (x - 5)(x + 2) \amp \amp \text{Factor out the common factor} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<p>
+		One of the main values of the method is that it works for both monic and non-monic polynomials. This benefit
+		allows us to simplify the process of factoring quadratic polynomials to a single approach that works for all
+		situations. So by adopting the method, we don't have to create two different sets of methods to accomplish the
+		same goal. 
+	</p>
+	<activity xml:id="sec-fqp-1-ac4-ac-method-non-monic">
+		<title>The <m>ac</m> Method with a Non-Monic Quadratic</title>
+		<p>
+			We will use this method to factor <m>4x^2 + 5x - 6</m>.
+			<me>
+				4x^2 + 5x - 6 \longrightarrow
+					\left\{
+						\begin{array}{l}
+							\text{Multiply to -24} \\
+							\text{Add to 5}
+						\end{array}
+					\right.
+			</me>
+
+		</p>
+		
+		<aside>
+			<p>
+				In this case, <m>a = 4</m>, <m>b = 5</m>, and <m>c = -6</m>, so <m>ac = 4 \cdot (-6) = -24</m>. 
+			</p>
+		</aside>
+		<p>
+ 			With a little bit of thought, you will find the combination of and will satisfy the goal. 
+			<me>
+				\begin{aligned}
+				4x^2 + 5x - 6 \amp = 4x^2 + 8x - 3x - 6 \amp \amp \text{The $ac$ method} \\
+				\amp = 4x(x + 2) - 3(x + 2) \amp \amp \text{Factor by grouping} \\
+				\amp = (4x - 3)(x + 2) \amp \amp \text{Factor out the common factor} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			<alert xml:id="sec-fqp-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Use the <m>ac</m> method to factor <m>2x^2 + 5x - 12</m> using a complete presentation. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						2x^2 + 5x - 12 \amp = 2x^2 - 3x + 8x - 12 \amp \amp \text{The $ac$ method} \\
+						\amp = x(2x - 3) + 4(2x - 3) \amp \amp \text{Factor by grouping} \\
+						\amp = (x + 4)(2x - 3) \amp \amp \text{Factor out the common factor} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+</section>

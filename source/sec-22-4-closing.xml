@@ -1,0 +1,63 @@
+<section xml:id="sec-mpd-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		As mentioned before, most decimal multiplication is performed by calculators or computers. But computers are
+		usually not able to perform percent calculations without a person correctly identifying the part, the whole, and
+		the percent, and then determining what calculations are required to solve the problem. With the goal of
+		mathematical thinking in mind, the problems in this section were set up so that calculators would not be needed. 
+	</p>
+	<p>
+		But if you were run into a situation where you would need a calculator, as long you have the correct
+		mathematical thinking then all you need to do is replace the mental calculation with a calculator calculation.
+		There is no real loss (from the perspective of logic) in trading that out. Here is the light bulb problem again,
+		but with slightly more realistic numbers: 
+	</p>
+	<p>
+		 The last batch of 1500 light bulbs had 37 defects. What is the percent of defective bulbs? 
+	</p>
+	<p>
+		<ul>
+			<li>
+				<p>
+					The part: The number of defective bulbs is 37.
+				</p>
+			</li>
+			<li>
+				<p>
+					The whole: The total number of bulbs in the batch is 1500.
+				</p>
+			</li>
+			<li>
+				<p>
+					The percent: The percent of defective bulbs is unknown. 
+				</p>
+			</li>
+		</ul>
+		<me>
+			\begin{aligned}
+				(\text{the part}) \amp = (\text{the percent}) \cdot (\text{the whole}) \\
+				37 \amp = x \cdot 1500 \\
+				\frac{37}{1500} \amp = x \\
+				x \amp \approx 0.02467 \\
+				x \amp \approx 2.467\% \\
+			\end{aligned}
+		</me>
+		 Answer: About 2.5% of the bulbs were defective. 
+	</p>
+	<aside>
+		<p>
+			This number came from a calculator.
+		</p>
+	</aside>
+	<p>
+		<idx><h>algebraic reasoning</h></idx>
+		Notice that the overall process is unchanged, and it's just a matter of using different numbers. This is very
+		similar to the process of learning to treat variables like numbers in other calculations, such as reducing
+		fractions. In fact, the particular area of mathematical thinking, which is sometimes called <term>algebraic
+		reasoning</term>, is the whole idea that you can generalize the methods and ideas of simple examples so that
+		they can be applied in more complex situations. You got a hint of this type of reasoning in the last few
+		problems where you had to do a mental manipulation before putting the numbers into the parts of a whole
+		framework. And that is the skill that you should be aiming to develop in your college level courses. You want to
+		be more than a calculator.
+	</p>
+</section>

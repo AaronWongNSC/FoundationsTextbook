@@ -1,0 +1,83 @@
+<section xml:id="sec-fd-3-practice">
+	<title>Deliberate Practice: Dividing Fractions</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<p>
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Write the original expression. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Show the factoring and cancellation step. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-fd-3-worksheet">
+		<p>
+			<em>Instructions:</em> Perform the indicated calculation. 
+		</p>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{36}{35} \div \frac{21}{25}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{8}{15} \div \frac{20}{27}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{45}{28} \div \frac{15}{14}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{9x^2}{5y^3} \div \frac{6x y^2}{35}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{15b}{4a^2} \div \frac{9a^2 b^2}{10}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{9}{5n^2m^3} \div \frac{3 n m^2}{20}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{8xy^2}{15z^3} \div \frac{2yz^2}{21 x^4}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{14b^2}{3a^3 c^3} \div \frac{28a^2 b^3}{15c^3}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{2 x^2 (x + 3)}{3 (x - 4)^2} \div \frac{4(x + 3)}{15 x (x - 4)^2}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{15 (x - 3)^2 (x + 1)}{9(x + 3)^2} \div \frac{10 (x + 1)(x -3)}{3 (x + 3)^3}</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

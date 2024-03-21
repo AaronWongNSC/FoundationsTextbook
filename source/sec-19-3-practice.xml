@@ -1,0 +1,83 @@
+<section xml:id="sec-fm-3-practice">
+	<title>Deliberate Practice: Multiplying Fractions</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<p>
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Write the original expression. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Show the factoring and cancellation step. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-fm-3-worksheet">
+		<p>
+			<em>Instructions:</em> Perform the indicated calculation. 
+		</p>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{48}{35} \cdot \frac{25}{36}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{20}{27} \cdot \frac{18}{25}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{45}{7} \cdot \frac{28}{15}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{15}{4ab^2} \cdot \frac{8a^2}{5b}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{14x^2}{9y^3} \cdot \frac{15x y^2}{8}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{9n^2m^3}{5} \cdot \frac{20 n m^3}{3}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{15xz^2}{4y^3} \cdot \frac{2yz}{21 x^4}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{14a^2}{3b^2 c^3} \cdot \frac{15a^2 c}{7b^3}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{2 x^2 (x - 3)}{3(x-4)^2} \cdot \frac{6x (x-4)}{5 (x - 3)^2}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\displaystyle \frac{12 (x + 2)^2 (x - 1)}{5(x + 3)^2} \cdot \frac{10 (x + 2)}{9 (x - 1)(x + 3)^3}</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

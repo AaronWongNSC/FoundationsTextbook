@@ -1,0 +1,1050 @@
+<section xml:id="sec-amnl-5-deeper">
+	<title>Going Deeper: Number Patterns</title>
+	<p>
+		At this point, we have a wide range of tools for representing numbers and arithmetic. We've used movement on the
+		number line, base-10 blocks, and integer chips to help build out our understanding of addition and subtraction.
+		But it turns out that this is just the beginning. 
+	</p>
+	<p>
+		What we have been discussing is a way to represent numbers. In particular, we've been representing numbers in
+		the service of thinking through arithmetic. There's a completely different way to represent numbers where we can
+		begin to understand numbers on their own terms and make discoveries about the numbers themselves. 
+	</p>
+	<p>
+		We're going to strip everything back to one of the most primitive representations of numbers that we have. We
+		can think of numbers as the quantity represented by a collection of objects. We will use dots as those objects.
+		A key idea here is that the organization of those dots is not what defines the number, but simply the quantity
+		of dots. This means that we can have multiple representations of the same number. Here are some examples: 
+	</p>
+	<aside>
+		<p>
+			Fans of a certain Russian game from the 1980s will appreciate the bottom row. 
+		</p>
+	</aside>
+	<image xml:id="sec-amnl-5-three-four-dots" width="100%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope}
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $1$}; 
+				\end{scope} 
+				\begin{scope} [shift={(5,0)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $2$}; 
+				\end{scope} 
+				\begin{scope} [shift={(10,0)}]
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $2$}; 
+				\end{scope} 
+				\begin{scope} [shift={(15,0)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $3$}; 
+				\end{scope} 
+				\begin{scope} [shift={(20,0)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $3$}; 
+				\end{scope} 
+				\begin{scope} [shift={(25,0)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $3$}; 
+				\end{scope} 
+				\begin{scope} [shift={(30,0)}]
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $3$}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-6)}]
+					\draw[fill=black] (-1.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (1.5,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $4$}; 
+				\end{scope} 
+				\begin{scope} [shift={(5,-6)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $4$}; 
+				\end{scope} 
+				\begin{scope} [shift={(10,-6)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $4$}; 
+				\end{scope} 
+				\begin{scope} [shift={(15,-6)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $4$}; 
+				\end{scope} 
+				\begin{scope} [shift={(20,-6)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $4$}; 
+				\end{scope} 
+				\begin{scope} [shift={(25,-6)}]
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $4$}; 
+				\end{scope} 
+				\begin{scope} [shift={(30,-6)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $4$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		There is already so much that can be said about these dot arrangements, and we've only gone up through 4. 
+		<ul>
+			<li>
+				<p>
+					All but one of the shapes is built on a square grid pattern. That square pattern is helpful for
+					highlighting the ideas we'll be discussing later, but is not necessary to have that in a
+					representation. For example, there's a triangle for 3 that isn't set up that way. 
+				</p>
+			</li>
+			<li>
+				<p>
+					In the first row, some of the patterns are just rotations of each other. In some ways, they might be
+					seen as the same, but there are some contexts in which we care about whether the dots are in a row
+					or in a column. 
+				</p>
+			</li>
+			<li>
+				<p>
+					In the bottom row, none of the figures are rotations of each other, but some are reflections of each
+					other. This is another type of relationship that we can set up with numbers. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		As we create more representations of numbers, we can find that some numbers share features with each other, and
+		this creates a pattern that we can explore. Consider the following patterns: 
+	</p>
+	<image xml:id="sec-amnl-5-even-odd" width="90%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope}
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $1$}; 
+				\end{scope} 
+				\begin{scope} [shift={(3,0)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $3$}; 
+				\end{scope} 
+				\begin{scope} [shift={(7,0)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $5$}; 
+				\end{scope} 
+				\begin{scope} [shift={(12,0)}]
+					\draw[fill=black] (-1.5,0) circle (0.15); 
+					\draw[fill=black] (-1.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (1.5,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $7$}; 
+				\end{scope} 
+				\begin{scope} [shift={(18,0)}]
+					\draw[fill=black] (-2,0) circle (0.15); 
+					\draw[fill=black] (-2,1) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (2,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $9$}; 
+				\end{scope} 
+				\begin{scope} [shift={(25,0)}]
+					\draw[fill=black] (-2.5,0) circle (0.15); 
+					\draw[fill=black] (-2.5,1) circle (0.15); 
+					\draw[fill=black] (-1.5,0) circle (0.15); 
+					\draw[fill=black] (-1.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (1.5,0) circle (0.15); 
+					\draw[fill=black] (1.5,1) circle (0.15); 
+					\draw[fill=black] (2.5,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $11$}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-4)}]
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+				\draw (0,-1) node[anchor=center] {\strut $2$}; 
+				\end{scope} 
+				\begin{scope} [shift={(3,-4)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $4$}; 
+				\end{scope} 
+				\begin{scope} [shift={(7,-4)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $6$}; 
+				\end{scope} 
+				\begin{scope} [shift={(12,-4)}]
+					\draw[fill=black] (-1.5,0) circle (0.15); 
+					\draw[fill=black] (-1.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (1.5,0) circle (0.15); 
+					\draw[fill=black] (1.5,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $8$}; 
+				\end{scope} 
+				\begin{scope} [shift={(18,-4)}]
+					\draw[fill=black] (-2,0) circle (0.15); 
+					\draw[fill=black] (-2,1) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (2,0) circle (0.15); 
+					\draw[fill=black] (2,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $10$}; 
+				\end{scope} 
+				\begin{scope} [shift={(25,-4)}]
+					\draw[fill=black] (-2.5,0) circle (0.15); 
+					\draw[fill=black] (-2.5,1) circle (0.15); 
+					\draw[fill=black] (-1.5,0) circle (0.15); 
+					\draw[fill=black] (-1.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (1.5,0) circle (0.15); 
+					\draw[fill=black] (1.5,1) circle (0.15); 
+					\draw[fill=black] (2.5,0) circle (0.15); 
+					\draw[fill=black] (2.5,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $12$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			The extra dot is the "odd man out." 
+		</p>
+	</aside>
+	<p>
+		This pattern is highlighting a basic feature of numbers, which is that some of them are even and some of them
+		are odd. This is something inherent to the numbers themselves. In some sense, we do not make the even numbers
+		even and the odd numbers odd. It's just the case that some numbers can be broken into two equal-sized groups,
+		and that others can't. And the ones that can't will always have one extra object by itself. This seems to be an
+		intrinsic property of the numbers. 
+	</p>
+	<p>
+		This isn't the only place that these types of number patterns show up. Here are a few more examples.
+	</p>
+	<aside>
+		<p>
+			Think about the meaning of this relative to the algebraic concept of squaring. 
+		</p>
+	</aside>
+	<p>
+		<ul>
+			<li>
+				<p>
+					Square Numbers: <m>S_n</m> is the <m>n</m>th square that we can make with dots. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<image xml:id="sec-amnl-5-squares" width="80%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope}
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $S_1 = 1$}; 
+				\end{scope} 
+				\begin{scope} [shift={(4,0)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $S_2 = 4$}; 
+				\end{scope} 
+				\begin{scope} [shift={(9,0)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (-1,2) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (1,2) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $S_ 3 = 9$}; 
+				\end{scope} 
+				\begin{scope} [shift={(15,0)}]
+					\draw[fill=black] (-1.5,0) circle (0.15); 
+					\draw[fill=black] (-1.5,1) circle (0.15); 
+					\draw[fill=black] (-1.5,2) circle (0.15); 
+					\draw[fill=black] (-1.5,3) circle (0.15); 
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,2) circle (0.15); 
+					\draw[fill=black] (-0.5,3) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,2) circle (0.15); 
+					\draw[fill=black] (0.5,3) circle (0.15); 
+					\draw[fill=black] (1.5,0) circle (0.15); 
+					\draw[fill=black] (1.5,1) circle (0.15); 
+					\draw[fill=black] (1.5,2) circle (0.15); 
+					\draw[fill=black] (1.5,3) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $S_4 = 16$}; 
+				\end{scope} 
+				\begin{scope} [shift={(22,0)}]
+					\draw[fill=black] (-2,0) circle (0.15); 
+					\draw[fill=black] (-2,1) circle (0.15); 
+					\draw[fill=black] (-2,2) circle (0.15); 
+					\draw[fill=black] (-2,3) circle (0.15); 
+					\draw[fill=black] (-2,4) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (-1,2) circle (0.15); 
+					\draw[fill=black] (-1,3) circle (0.15); 
+					\draw[fill=black] (-1,4) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw[fill=black] (0,3) circle (0.15); 
+					\draw[fill=black] (0,4) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (1,2) circle (0.15); 
+					\draw[fill=black] (1,3) circle (0.15); 
+					\draw[fill=black] (1,4) circle (0.15); 
+					\draw[fill=black] (2,0) circle (0.15); 
+					\draw[fill=black] (2,1) circle (0.15); 
+					\draw[fill=black] (2,2) circle (0.15); 
+					\draw[fill=black] (2,3) circle (0.15); 
+					\draw[fill=black] (2,4) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $S_5 = 25$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		<ul>
+			<li>
+				<p>
+					Triangular Numbers: <m>T_n</m> is the <m>n</m>th triangle of that we can make with dots. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<image xml:id="sec-amnl-5-triangles" width="80%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope}
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $T_1 = 1$}; 
+				\end{scope} 
+				\begin{scope} [shift={(4,0)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $T_2 = 3$}; 
+				\end{scope} 
+				\begin{scope} [shift={(9,0)}]
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (1,2) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $T_3 = 6$}; 
+				\end{scope} 
+				\begin{scope} [shift={(15,0)}]
+					\draw[fill=black] (1.5,0) circle (0.15); 
+					\draw[fill=black] (1.5,1) circle (0.15); 
+					\draw[fill=black] (1.5,2) circle (0.15); 
+					\draw[fill=black] (1.5,3) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,2) circle (0.15); 
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (-1.5,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $T_4 = 10$}; 
+				\end{scope} 
+				\begin{scope} [shift={(22,0)}]
+					\draw[fill=black] (2,0) circle (0.15); 
+					\draw[fill=black] (2,1) circle (0.15); 
+					\draw[fill=black] (2,2) circle (0.15); 
+					\draw[fill=black] (2,3) circle (0.15); 
+					\draw[fill=black] (2,4) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (,2) circle (0.15); 
+					\draw[fill=black] (1,3) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (-2,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $T_5 = 15$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			This is not an "official" math terminology. Sometimes, mathematicians make up names for things just so that they can reference them, even if nobody else knows what they're talking about. 
+		</p>
+	</aside>
+	<p>
+		<ul>
+			<li>
+				<p>
+					Almost-Square Numbers: is the rectangle that is either one column of dots short or being a perfect square. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<image xml:id="sec-amnl-5-almost-square" width="80%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope}
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $A_1 = 2$}; 
+				\end{scope} 
+				\begin{scope} [shift={(4,0)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,2) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,2) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $A_2 = 6$}; 
+				\end{scope} 
+				\begin{scope} [shift={(9,0)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (-1,2) circle (0.15); 
+					\draw[fill=black] (-1,3) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw[fill=black] (0,3) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (1,2) circle (0.15); 
+					\draw[fill=black] (1,3) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $A_3 = 12$}; 
+				\end{scope} 
+				\begin{scope} [shift={(15,0)}]
+					\draw[fill=black] (-1.5,0) circle (0.15); 
+					\draw[fill=black] (-1.5,1) circle (0.15); 
+					\draw[fill=black] (-1.5,2) circle (0.15); 
+					\draw[fill=black] (-1.5,3) circle (0.15); 
+					\draw[fill=black] (-1.5,4) circle (0.15); 
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,2) circle (0.15); 
+					\draw[fill=black] (-0.5,3) circle (0.15); 
+					\draw[fill=black] (-0.5,4) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,2) circle (0.15); 
+					\draw[fill=black] (0.5,3) circle (0.15); 
+					\draw[fill=black] (0.5,4) circle (0.15); 
+					\draw[fill=black] (1.5,0) circle (0.15); 
+					\draw[fill=black] (1.5,1) circle (0.15); 
+					\draw[fill=black] (1.5,2) circle (0.15); 
+					\draw[fill=black] (1.5,3) circle (0.15); 
+					\draw[fill=black] (1.5,4) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $A_4 = 20$}; 
+				\end{scope} 
+				\begin{scope} [shift={(22,0)}]
+					\draw[fill=black] (-2,0) circle (0.15); 
+					\draw[fill=black] (-2,1) circle (0.15); 
+					\draw[fill=black] (-2,2) circle (0.15); 
+					\draw[fill=black] (-2,3) circle (0.15); 
+					\draw[fill=black] (-2,4) circle (0.15); 
+					\draw[fill=black] (-2,5) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (-1,2) circle (0.15); 
+					\draw[fill=black] (-1,3) circle (0.15); 
+					\draw[fill=black] (-1,4) circle (0.15); 
+					\draw[fill=black] (-1,5) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw[fill=black] (0,3) circle (0.15); 
+					\draw[fill=black] (0,4) circle (0.15); 
+					\draw[fill=black] (0,5) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (1,2) circle (0.15); 
+					\draw[fill=black] (1,3) circle (0.15); 
+					\draw[fill=black] (1,4) circle (0.15); 
+					\draw[fill=black] (1,5) circle (0.15); 
+					\draw[fill=black] (2,0) circle (0.15); 
+					\draw[fill=black] (2,1) circle (0.15); 
+					\draw[fill=black] (2,2) circle (0.15); 
+					\draw[fill=black] (2,3) circle (0.15); 
+					\draw[fill=black] (2,4) circle (0.15); 
+					\draw[fill=black] (2,5) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $A_5 = 30$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		As we construct these geometric patterns, it's helpful to come up with algebraic expressions that can represent
+		them. The square numbers are somewhat obvious. The square number is just which we can write as <m>S_n = n^2</m>.
+		The almost-square numbers are a little bit trickier, but we can look at the pictures and see that there's
+		always one more row than the number of columns, and so the almost-square number is We can write this as
+		<m>A_n = n(n+1)</m>. 
+	</p>
+	<p>
+		But the triangular numbers are trickier. One way we can express those numbers is by writing them as a sum of the
+		dots in each column. For example:
+	</p>
+	<image xml:id="sec-amnl-5-decomposed-triangles" width="50%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope}
+					\draw[fill=black] (2,0) circle (0.15); 
+					\draw[fill=black] (2,1) circle (0.15); 
+					\draw[fill=black] (2,2) circle (0.15); 
+					\draw[fill=black] (2,3) circle (0.15); 
+					\draw[fill=black] (2,4) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (,2) circle (0.15); 
+					\draw[fill=black] (1,3) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (-2,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $T_5$}; 
+				\end{scope} 
+				\begin{scope} [shift={(4,0)}]
+					\draw[-stealth] (-1,2) -- ++ (2,0); 
+					\draw(0,-1) node[anchor=center] {\strut $=$}; 
+				\end{scope} 
+				\begin{scope} [shift={(15,0)}]
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw[fill=black] (0,3) circle (0.15); 
+					\draw[fill=black] (0,4) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $5$}; 
+				\end{scope} 
+				\begin{scope} [shift={(13,0)}]
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw[fill=black] (0,3) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $4$}; 
+					\draw (1,-1) node[anchor=center] {\strut $+$}; 
+				\end{scope} 
+				\begin{scope} [shift={(11,0)}]
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $3$}; 
+					\draw (1,-1) node[anchor=center] {\strut $+$}; 
+				\end{scope} 
+				\begin{scope} [shift={(9,0)}]
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $2$}; 
+					\draw (1,-1) node[anchor=center] {\strut $+$}; 
+				\end{scope} 
+				\begin{scope} [shift={(7,0)}]
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $1$}; 
+					\draw (1,-1) node[anchor=center] {\strut $+$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		We can write this more generally as
+		<me>
+			T_n = 1 + 2 + 3 + \cdots + n.
+		</me> 
+	</p>
+	<aside>
+		<p>
+			The <m>\cdots</m> means that you continue the pattern until you reach the end. 
+		</p>
+	</aside>
+	<p>
+		This gives us a computational method for calculating triangular numbers. One drawback to this is that if we
+		wanted to find a very large triangular number, such as the one millionth one, we would end up having to add up a
+		million numbers. Mathematicians see these situations as a challenge. Is there a better way to calculate
+		triangular numbers? 
+	</p>
+	<p>
+		It turns out that there is, but it's a little bit tricky. And this is where a lot of creative mathematical
+		thinking starts to come into play. Look at the following diagram:
+	</p>
+	<image xml:id="sec-amnl-1-math-trick" width="60%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope}
+					\draw[red,fill=red] (-2,0) circle (0.15);
+					\draw[red,fill=red] (-2,1) circle (0.15);
+					\draw[red,fill=red] (-2,2) circle (0.15);
+					\draw[red,fill=red] (-2,3) circle (0.15);
+					\draw[red,fill=red] (-2,4) circle (0.15);
+					\draw[red,fill=red] (-1,0) circle (0.15);
+					\draw[red,fill=red] (-1,1) circle (0.15);
+					\draw[red,fill=red] (-1,2) circle (0.15);
+					\draw[red,fill=red] (-1,3) circle (0.15);
+					\draw[red,fill=red] (0,0) circle (0.15);
+					\draw[red,fill=red] (0,1) circle (0.15);
+					\draw[red,fill=red] (0,2) circle (0.15);
+					\draw[red,fill=red] (1,0) circle (0.15);
+					\draw[red,fill=red] (1,1) circle (0.15);
+					\draw[red,fill=red] (2,0) circle (0.15);
+					\draw[red] (-2,0) -- (2,0) -- (-2,4) -- cycle;
+					\draw (0,-1) node[anchor=center] {\strut $T_5$};
+				\end{scope}
+				\draw (4,-1) node[anchor=center] {\strut $+$};
+				\begin{scope}[shift={(8,0)}]
+					\draw[blue,fill=blue] (-2,0) circle (0.15);
+					\draw[blue,fill=blue] (-2,1) circle (0.15);
+					\draw[blue,fill=blue] (-2,2) circle (0.15);
+					\draw[blue,fill=blue] (-2,3) circle (0.15);
+					\draw[blue,fill=blue] (-2,4) circle (0.15);
+					\draw[blue,fill=blue] (-1,0) circle (0.15);
+					\draw[blue,fill=blue] (-1,1) circle (0.15);
+					\draw[blue,fill=blue] (-1,2) circle (0.15);
+					\draw[blue,fill=blue] (-1,3) circle (0.15);
+					\draw[blue,fill=blue] (0,0) circle (0.15);
+					\draw[blue,fill=blue] (0,1) circle (0.15);
+					\draw[blue,fill=blue] (0,2) circle (0.15);
+					\draw[blue,fill=blue] (1,0) circle (0.15);
+					\draw[blue,fill=blue] (1,1) circle (0.15);
+					\draw[blue,fill=blue] (2,0) circle (0.15);
+					\draw[blue] (-2,0) -- (2,0) -- (-2,4) -- cycle;
+					\draw (0,-1) node[anchor=center] {\strut $T_5$};
+				\end{scope}
+				\draw (12,-1) node[anchor=center] {\strut $=$};
+				\begin{scope}[shift={(16,0)}]
+					\draw[red,fill=red] (-2,0) circle (0.15);
+					\draw[red,fill=red] (-2,1) circle (0.15);
+					\draw[red,fill=red] (-2,2) circle (0.15);
+					\draw[red,fill=red] (-2,3) circle (0.15);
+					\draw[red,fill=red] (-2,4) circle (0.15);
+					\draw[blue,fill=blue] (-2,5) circle (0.15);
+					\draw[red,fill=red] (-1,0) circle (0.15);
+					\draw[red,fill=red] (-1,1) circle (0.15);
+					\draw[red,fill=red] (-1,2) circle (0.15);
+					\draw[red,fill=red] (-1,3) circle (0.15);
+					\draw[blue,fill=blue] (-1,4) circle (0.15);
+					\draw[blue,fill=blue] (-1,5) circle (0.15);
+					\draw[red,fill=red] (0,0) circle (0.15);
+					\draw[red,fill=red] (0,1) circle (0.15);
+					\draw[red,fill=red] (0,2) circle (0.15);
+					\draw[blue,fill=blue] (0,3) circle (0.15);
+					\draw[blue,fill=blue] (0,4) circle (0.15);
+					\draw[blue,fill=blue] (0,5) circle (0.15);
+					\draw[red,fill=red] (1,0) circle (0.15);
+					\draw[red,fill=red] (1,1) circle (0.15);
+					\draw[blue,fill=blue] (1,2) circle (0.15);
+					\draw[blue,fill=blue] (1,3) circle (0.15);
+					\draw[blue,fill=blue] (1,4) circle (0.15);
+					\draw[blue,fill=blue] (1,5) circle (0.15);
+					\draw[red,fill=red] (2,0) circle (0.15);
+					\draw[blue,fill=blue] (2,1) circle (0.15);
+					\draw[blue,fill=blue] (2,2) circle (0.15);
+					\draw[blue,fill=blue] (2,3) circle (0.15);
+					\draw[blue,fill=blue] (2,4) circle (0.15);
+					\draw[blue,fill=blue] (2,5) circle (0.15);
+					\draw[red] (-2,0) -- (2,0) -- (-2,4) -- cycle;
+					\draw[blue] (-2,5) -- (2,5) -- (2,1) -- cycle;
+					\draw (0,-1) node[anchor=center] {\strut $A_5$};
+				\end{scope}
+			\end{tikzpicture}
+		</latex-image>
+	</image>
+	<p>
+		If you try drawing a few other pictures, you'll see that this pattern persists. This means that we have the
+		relationship <m>2T_n = A_n</m>, which can be written as <m>T_n = \frac{A_n}{2}</m>. But we established earlier
+		that <m>A_n = n(n+1)</m>, and so we must have <m>T_n = \frac{n(n+1)}{2}</m>. And this gives us a different
+		formula for the triangular numbers, but now we're able to easily compute the millionth triangular number. 
+	</p>
+	<aside>
+		<p>
+			Mathematicians call this a <em>closed form formula</em>. It basically means that we can calculate values
+			directly from the formula without needing to do excessive calculations. 
+		</p>
+	</aside>
+	<p>
+		But now we can also combine our two formulas for triangular numbers and get an even more interesting result:
+		<me>
+			1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}.
+		</me>
+		This gives us a somewhat surprising formula for adding up consecutive numbers starting from 1. And we found it
+		as the result of exploring patterns of numbers by combining both an algebraic and geometric perspective. 
+	</p>
+	<p>
+		This line of thinking can lead us to explore other possibilities. Instead of adding every number, what happens
+		if we only add the odd numbers together? For example, we can see that <m>1 + 3 + 5 = 9</m> and
+		<m>1 + 3 + 5 + 7 = 16</m>. Do those numbers look familiar? This hints at a mathematical relationship between the
+		odd numbers and perfect squares. We're not going to elaborate any further on that relationship, but here is a
+		diagram to contemplate as you think about why this relationship seems to exist. 
+	</p>
+	<aside>
+		<p>
+			See if you can understand the pattern and describe it in words. Then think about how you can be confident that this pattern will continue. This exercise is simple, but it's not easy. 
+		</p>
+	</aside>
+	<image xml:id="sec-amnl-5-odds-and-squares" width="40%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope}
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $1$}; 
+					\draw[blue,fill=blue] (0,1) circle (0.15); 
+					\draw[blue,fill=blue] (1,1) circle (0.15); 
+					\draw[blue,fill=blue] (1,0) circle (0.15); 
+					\draw[blue] (0,1) -- (1,1) -- (1,0); 
+					\draw[blue] (1,-1) node[anchor=center] {\strut $3$}; 
+					\draw[red,fill=red] (0,2) circle (0.15); 
+					\draw[red,fill=red] (1,2) circle (0.15); 
+					\draw[red,fill=red] (2,2) circle (0.15); 
+					\draw[red,fill=red] (2,1) circle (0.15); 
+					\draw[red,fill=red] (2,0) circle (0.15); 
+					\draw[red] (0,2) -- (2,2) -- (2,0); 
+					\draw[red] (2,-1) node[anchor=center] {\strut $5$}; 
+					\draw[green!50!black,fill=green!50!black] (0,3) circle (0.15); 
+					\draw[green!50!black,fill=green!50!black] (1,3) circle (0.15); 
+					\draw[green!50!black,fill=green!50!black] (2,3) circle (0.15); 
+					\draw[green!50!black,fill=green!50!black] (3,3) circle (0.15); 
+					\draw[green!50!black,fill=green!50!black] (3,2) circle (0.15); 
+					\draw[green!50!black,fill=green!50!black] (3,1) circle (0.15); 
+					\draw[green!50!black,fill=green!50!black] (3,0) circle (0.15); 
+					\draw[green!50!black] (0,3) -- (3,3) -- (3,0); 
+					\draw[green!50!black] (3,-1) node[anchor=center] {\strut $7$}; 
+				\end{scope} 
+				\begin{scope} [shift={(10,0)}]
+					\draw[fill=black] (-1.5,0) circle (0.15); 
+					\draw[fill=black] (-1.5,1) circle (0.15); 
+					\draw[fill=black] (-1.5,2) circle (0.15); 
+					\draw[fill=black] (-1.5,3) circle (0.15); 
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,2) circle (0.15); 
+					\draw[fill=black] (-0.5,3) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,2) circle (0.15); 
+					\draw[fill=black] (0.5,3) circle (0.15); 
+					\draw[fill=black] (1.5,0) circle (0.15); 
+					\draw[fill=black] (1.5,1) circle (0.15); 
+					\draw[fill=black] (1.5,2) circle (0.15); 
+					\draw[fill=black] (1.5,3) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $16$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		There are other investigations that can be launched by exploring these patterns of dots. 
+		<ul>
+			<li>
+				<p>
+					Some numbers can form rectangles, but others can only be represented as a string of dots in a single
+					line. Is there anything special about those numbers? How many of these numbers are there? 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<image xml:id="sec-amnl-5-primes" width="90%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope} [shift={(0,0)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $\boxed{2}$}; 
+				\end{scope} 
+				\begin{scope} [shift={(6,0)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $\boxed{3}$}; 
+				\end{scope} 
+				\begin{scope} [shift={(12,0)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $4$}; 
+				\end{scope} 
+				\begin{scope} [shift={(18,0)}]
+					\draw[fill=black] (-2,0) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (2,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $\boxed{5}$}; 
+				\end{scope} 
+				\begin{scope} [shift={(24,0)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $6$}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-6)}]
+					\draw[fill=black] (-3,0) circle (0.15); 
+					\draw[fill=black] (-2,0) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (2,0) circle (0.15); 
+					\draw[fill=black] (3,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $\boxed{7}$}; 
+				\end{scope} 
+				\begin{scope} [shift={(6,-6)}]
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw[fill=black] (0.5,0) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,2) circle (0.15); 
+					\draw[fill=black] (0.5,2) circle (0.15); 
+					\draw[fill=black] (-0.5,3) circle (0.15); 
+					\draw[fill=black] (0.5,3) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $8$}; 
+				\end{scope} 
+				\begin{scope} [shift={(12,-6)}]
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (-1,2) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw[fill=black] (1,2) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $9$}; 
+				\end{scope} 
+				\begin{scope} [shift={(18,-6)}]
+					\draw[fill=black] (-2,0) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (2,0) circle (0.15); 
+					\draw[fill=black] (-2,1) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (2,1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $10$}; 
+				\end{scope} 
+				\begin{scope} [shift={(24,-6)}]
+					\draw (0,0) node[anchor=south] {$?$}; 
+					\draw (0,-1) node[anchor=center] {\strut $11$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		<ul>
+			<li>
+				<p>
+					Dots can be used to represent ways of writing numbers as the sums of numbers less than or equal to
+					them. We can look at this as adding the individual rows. Is there a way to determine how many ways
+					we can break up a number into pieces like this? 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			Or maybe we should add columns. Or perhaps it doesn't even matter? 
+		</p>
+	</aside>
+	<image xml:id="sec-amnl-6-partitions" width="90%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope} [shift={(-8,0)}]
+					\draw[fill=black] (-2,0) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (1,0) circle (0.15); 
+					\draw[fill=black] (2,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $5$}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,0)}]
+					\draw[fill=black] (-1.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (1.5,1) circle (0.15); 
+					\draw[fill=black] (-1.5,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $4+1$}; 
+				\end{scope} 
+				\begin{scope} [shift={(8,0)}]
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (1,1) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $3+2$}; 
+				\end{scope} 
+				\begin{scope} [shift={(-12,-7)}]
+					\draw[fill=black] (-1,2) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw[fill=black] (1,2) circle (0.15); 
+					\draw[fill=black] (-1,1) circle (0.15); 
+					\draw[fill=black] (-1,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $3+1+1$}; 
+				\end{scope} 
+				\begin{scope} [shift={(-4,-7)}]
+					\draw[fill=black] (-0.5,2) circle (0.15); 
+					\draw[fill=black] (0.5,2) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (0.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $2+2+1$}; 
+				\end{scope} 
+				\begin{scope} [shift={(4,-7)}]
+					\draw[fill=black] (-0.5,3) circle (0.15); 
+					\draw[fill=black] (0.5,3) circle (0.15); 
+					\draw[fill=black] (-0.5,2) circle (0.15); 
+					\draw[fill=black] (-0.5,1) circle (0.15); 
+					\draw[fill=black] (-0.5,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $2+1+1+1$}; 
+				\end{scope} 
+				\begin{scope} [shift={(12,-7)}]
+					\draw[fill=black] (0,4) circle (0.15); 
+					\draw[fill=black] (0,3) circle (0.15); 
+					\draw[fill=black] (0,2) circle (0.15); 
+					\draw[fill=black] (0,1) circle (0.15); 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $1+1+1+1+1$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		<ul>
+			<li>
+				<p>
+					We can reject the underlying rectangular grid and look at other patterns involving shapes of
+					different numbers of sides. What patterns can be found here? 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			<m>P</m> stands for pentagon and <m>H</m> stands for hexagon. 
+		</p>
+	</aside>
+	<image xml:id="sec-amnl-5-pentagonal" width="60%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope} [shift={(0,0)}]
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $P_1$}; 
+				\end{scope} 
+				\begin{scope} [shift={(4,0)}]
+					\draw[fill=black] (-0.5,0) -- ++ (1,0) circle (0.15) -- ++ (72:1) circle (0.15) -- ++ (144:1) circle (0.15) -- ++ (216:1) circle (0.15) -- ++ (288:1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $P_2$}; 
+				\end{scope} 
+				\begin{scope} [shift={(9,0)}]
+					\draw[fill=black] (-1,0) -- ++ (1,0) circle (0.15) -- ++ (72:1) circle (0.15) -- ++ (144:1) circle (0.15) -- ++ (216:1) circle (0.15) -- ++ (288:1) circle (0.15); 
+					\draw[fill=black] (-1,0) -- ++ (2,0) circle (0.15) -- ++ (72:1) circle (0.15) -- ++ (72:1) circle (0.15) -- ++ (144:1) circle (0.15) -- ++ (144:1) circle (0.15) -- ++ (216:1) circle (0.15) -- ++ (216:1) circle (0.15) -- ++ (288:1) circle (0.15) -- ++ (288:1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $P_3$}; 
+				\end{scope} 
+				\begin{scope} [shift={(16,0)}]
+					\draw[fill=black] (-1.5,0) -- ++ (1,0) circle (0.15) -- ++ (72:1) circle (0.15) -- ++ (144:1) circle (0.15) -- ++ (216:1) circle (0.15) -- ++ (288:1) circle (0.15); 
+					\draw[fill=black] (-1.5,0) -- ++ (2,0) circle (0.15) -- ++ (72:1) circle (0.15) -- ++ (72:1) circle (0.15) -- ++ (144:1) circle (0.15) -- ++ (144:1) circle (0.15) -- ++ (216:1) circle (0.15) -- ++ (216:1) circle (0.15) -- ++ (288:1) circle (0.15) -- ++ (288:1) circle (0.15); 
+					\draw[fill=black] (-1.5,0) -- ++ (3,0) circle (0.15) -- ++ (72:1) circle (0.15) -- ++ (72:1) circle (0.15) -- ++ (72:1) circle (0.15) -- ++ (144:1) circle (0.15) -- ++ (144:1) circle (0.15) -- ++ (144:1) circle (0.15) -- ++ (216:1) circle (0.15) -- ++ (216:1) circle (0.15) -- ++ (216:1) circle (0.15) -- ++ (288:1) circle (0.15) -- ++ (288:1) circle (0.15) -- ++ (288:1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $P_4$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<image xml:id="sec-amnl-5-hexagonal" width="60%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope} [shift={(0,0)}]
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $H_1$}; 
+				\end{scope} 
+				\begin{scope} [shift={(4,0)}]
+					\draw[fill=black] (-0.5,0) circle (0.15) -- ++ (0:1) circle (0.15) -- ++ (60:1) circle (0.15) -- ++ (120:1) circle (0.15) -- ++ (180:1) circle (0.15) -- ++ (240:1) circle (0.15) -- ++ (300:1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $H_2$}; 
+				\end{scope} 
+				\begin{scope} [shift={(9,0)}]
+					\draw[fill=black] (-1,0) circle (0.15) -- ++ (0:1) circle (0.15) -- ++ (60:1) circle (0.15) -- ++ (120:1) circle (0.15) -- ++ (180:1) circle (0.15) -- ++ (240:1) circle (0.15) -- ++ (300:1) circle (0.15); 
+					\draw[fill=black] (-1,0) -- ++ (0:2) circle (0.15) -- ++ (60:1) circle (0.15) -- ++ (60:1) circle (0.15) -- ++ (120:1) circle (0.15) -- ++ (120:1) circle (0.15) -- ++ (180:1) circle (0.15) -- ++ (180:1) circle (0.15) -- ++ (240:1) circle (0.15) -- ++ (240:1) circle (0.15) -- ++ (300:1) circle (0.15) -- ++ (300:1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $H_3$}; 
+				\end{scope} 
+				\begin{scope} [shift={(16,0)}]
+					\draw[fill=black] (-1.5,0) circle (0.15) -- ++ (0:1) circle (0.15) -- ++ (60:1) circle (0.15) -- ++ (120:1) circle (0.15) -- ++ (180:1) circle (0.15) -- ++ (240:1) circle (0.15) -- ++ (300:1) circle (0.15); 
+					\draw[fill=black] (-1.5,0) -- ++ (0:2) circle (0.15) -- ++ (60:1) circle (0.15) -- ++ (60:1) circle (0.15) -- ++ (120:1) circle (0.15) -- ++ (120:1) circle (0.15) -- ++ (180:1) circle (0.15) -- ++ (180:1) circle (0.15) -- ++ (240:1) circle (0.15) -- ++ (240:1) circle (0.15) -- ++ (300:1) circle (0.15) -- ++ (300:1) circle (0.15); 
+					\draw[fill=black] (-1.5,0) -- ++ (0:3) circle (0.15) -- ++ (60:1) circle (0.15) -- ++ (60:1) circle (0.15) -- ++ (60:1) circle (0.15) -- ++ (120:1) circle (0.15) -- ++ (120:1) circle (0.15) -- ++ (120:1) circle (0.15) -- ++ (180:1) circle (0.15) -- ++ (180:1) circle (0.15) -- ++ (180:1) circle (0.15) -- ++ (240:1) circle (0.15) -- ++ (240:1) circle (0.15) -- ++ (240:1) circle (0.15) -- ++ (300:1) circle (0.15) -- ++ (300:1) circle (0.15) -- ++ (300:1) circle (0.15); 
+					\draw (0,-1) node[anchor=center] {\strut $H_4$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		<idx><h>number theory</h></idx>
+		There is an endless supply of questions like these. The exploration of these number patterns is at the heart of
+		an area of mathematics known as <em>number theory</em>, which is one of the oldest topics of mathematical study.
+		We'll have to leave the topic here, but hopefully this brief introduction will encourage you to explore some new
+		ways of thinking about mathematics. 
+	</p>
+</section>

@@ -1,0 +1,50 @@
+<section xml:id="sec-sese-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		We spent a lot of time in this section discussing how mathematics is presented. One of the main challenges of
+		this is that there are no formal rules that tell you how much or how little writing is required. How much work
+		you show depends on the audience that will be reading the work. 
+	</p>
+	<p>
+		Let's take another look at the example from the worksheet of the very long presentation: 
+		<me>
+			\begin{aligned}
+				7x \amp = x + 24 \\
+				7x - x \amp = x + 24 - x \amp \eqnspacer \amp \text{Subtract $x$ from both sides} \\
+				7x - x \amp = x - x + 24 \amp \amp \text{Rearrange the terms} \\
+				7x - x \amp = (x - x) + 24 \amp \amp \text{Group the terms} \\
+				(7 - 1)x \amp = (1 - 1)x + 24 \amp \amp \text{Factor out the $x$} \\
+				6x \amp = 0x + 24 \amp \amp \text{Arithmetic} \\
+				6x \amp = 24 \amp \amp \text{Simplify} \\
+				\frac{6x}{6} \amp = \frac{24}{6} \amp \amp \text{Divide both sides by $6$} \\
+				x \amp = 4 \amp \amp \text{Arithmetic} 
+			\end{aligned}
+		</me>
+		As was noted in that problem, there is nothing wrong with the algebra in this presentation. And if someone asked
+		you to show all of the work, this is what it would look like. But in practice, we would never do this. Why?
+		Because in the context of solving an equation, it's natural to assume that the reader already understands how to
+		combine like terms. The focus of the problem is on the steps needed to solve the equation, and not the steps
+		required to combine like terms. 
+	</p>
+	<aside>
+		<p>
+			In some situations, it is customary not to show any of the algebra! 
+		</p>
+	</aside>
+	<p>
+		A more normal level of presentation for that problem would be something like this: 
+		<me>
+			\begin{aligned}
+				7x \amp = x + 24 \\
+				6x \amp = 24 \amp \eqnspacer \amp \text{Subtract $x$ from both sides} \\
+				x \amp = 4 \amp \amp \text{Divide both sides by $6$} 
+			\end{aligned}
+		</me>
+		Notice how each step in the presentation is focused on the actual steps of solving the equation, and all the
+		little steps are not shown. This is because the presentation is being tailored to match the goal of the problem. 
+	</p>
+	<p>
+		Reading the instructions of a problem should give you a sense of what the problem is asking you to do, and from
+		that information you can also make decisions about what steps are important and which ones are less so. 
+	</p>
+</section>

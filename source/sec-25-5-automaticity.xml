@@ -1,0 +1,131 @@
+<section xml:id="sec-add-5-deeper">
+	<title>Going Deeper:Automaticity with Arithmetic</title>
+	<aside>
+		<p>
+			<idx><h>mathemagic</h></idx>
+			There are also some mathematicians who are amazingly fast at arithmetic, but have only become that way 
+			hrough intensive practice. For example, look for a video of Arthur Benjamin doing "mathemagic" on the
+			internet. 
+		</p>
+	</aside>
+	<p>
+		When it comes to arithmetic, faster is not always better. In fact, there a number of people who are not
+		naturally fast at arithmetic, and yet have become very talented mathematicians. However, this does not mean that
+		there is no value at all to being able to do so arithmetic moderately quickly and confidently. 
+	</p>
+	<p>
+		It is easiest to understand this concept by using an analogy with reading. Consider the word cat. As an adult,
+		you probably see the word all at once and can recognize that it's the word cat (as opposed to dog or
+		catastrophe). But let's think about what goes into learning the word cat as a child. For young children, a
+		common reading technique is to "sound out" the various letters. Rather than seeing cat all at once, it's seen as
+		"c - a - t" (with each letter sounded out individually). And after making the sounds in faster and faster
+		succession, the child will eventually understand that it is the word cat. 
+	</p>
+	<aside>
+		<p>
+			<idx><h>sight words</h></idx>
+			Short words like cat are known as "sight words" because they are words that we eventually expect children to
+			recognize instantly. 
+		</p>
+	</aside>
+	<p>
+		There's an interesting thing that happens to the brain with reading as people get better at it. It actually
+		starts taking less and less brain power to read as you do more of it. The child that is sounding out the
+		individual letters of the word cat is investing a significantly larger part of their brain than an adult that
+		immediately recognizes it. Basically, our brains get used to seeing the word so often that we have a mental
+		shortcut that allows us to identify it right away. 
+	</p>
+	<p>
+		This skill doesn't make us speed readers, but it does allow us to read fluently. As sentences become longer and
+		their meanings become more complex, the fact that our brains don't have to work hard to recognize words gives us
+		more brain space to think about the ideas rather than using it all up just figuring out which words are on the
+		page. 
+	</p>
+	<p>
+		A similar thing happens with mathematics. Students that struggle with basic arithmetic and algebra are often
+		unable to take in the larger mathematical ideas because their brains are bogged down in the calculations. But
+		even a moderate level of mathematical fluency creates space for students to start to have mathematical ideas
+		and make important connections. 
+	</p>
+	<p>
+		<idx><h>automaticity</h></idx>
+		The ability to immediately recognize basic arithmetic facts and fluidly perform simple algebraic manipulations
+		is known as <em>automaticity</em>. Mathematical automaticity is the mathematical equivalent of sight words. It's
+		when you can recognize that <m>7 + 4 = 11</m> and <m>6 \cdot 9 = 54</m> without needing to do a bunch of
+		counting or other mental manipulations. 
+	</p>
+	<p>
+		There is a thin line between the practice required to develop automaticity and what is often called "drill and
+		kill" (the endless repetition of calculations that leads to the destruction of all motivation). To understand
+		this, we can draw from another analogy, but this time with music. In the context of learning a musical
+		instrument, there are a core set of exercises (scales and arpeggios) that students practice. These exercises are
+		rarely an end for themselves. That is, nobody goes to concerts to listen to someone simply play scales. However,
+		fluency with scales and arpeggios leads to greater skill in playing more complex music, as the complex music is
+		built out of scales and the intervals found in arpeggios. Another way of saying this is that those exercises
+		help to build the musician's musical vocabulary, so that they are better able to "understand" the music that
+		they're learning. 
+	</p>
+	<p>
+		The same is true for mathematics. The reason math teachers hope for students to reach a certain level of fluency
+		with basic calculations is that our larger mathematical ideas are often built on those calculations. Basic
+		arithmetic is required for almost every pursuit within mathematics, and almost every mathematical idea is built
+		from some experience that can be grounded back in our experiences of basic arithmetic. 
+	</p>
+	<aside>
+		<p>
+			Awareness of your common errors helps you to recognize those situations as they arise, which helps you to
+			fix it. 
+		</p>
+	</aside>
+	<p>
+		As hinted at above, the development of automaticity requires regular practice. Fortunately, the amount of
+		practice is not very significant. Flash cards and online arithmetic practice programs are readily available,
+		and there are cheap or free options. All it takes for many people is just a few minutes a day for a couple weeks
+		to reach a reasonable level of proficiency. 
+	</p>
+	<p>
+		What skills should you practice? Interestingly, it's the same basic arithmetic drills that we would use with
+		elementary school children: 
+		<ul>
+			<li>
+				<p>
+					Addition: One-digit plus one-digit 
+				</p>
+			</li>
+			<li>
+				<p>
+					Subtraction: One-digit or two-digit minus one digit 
+				</p>
+			</li>
+			<li>
+				<p>
+					Multiplication: One-digit multiplied by one-digit 
+				</p>
+			</li>
+			<li>
+				<p>
+					Division: The inverses of the multiplication problems
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			If you have the multiplication problem <m>5 \cdot 9 = 45</m>, then the inverse problems are
+			<m>45 \div 9 = 5</m> and <m>45 \div 5 = 9</m>.) 
+		</p>
+	</aside>
+	<p>
+		You are encouraged to keep a record of your progress. You might be quite surprised to see how much progress you
+		make in a short period of time with just a little bit of practice. These exercise has been used with college
+		students, and they have reported that their overall level of mathematical confidence has risen as a result of
+		doing them. And in many senses, that is one of the most important obstacles that students who are struggling
+		with mathematics can overcome. The pattern of mathematical self-doubt that a wide range of students bring with
+		them to college is something that can hold them back from accomplishing their goals, and it's incredible how a
+		simple exercise like this can reap positive benefits. 
+	</p>
+	<p>
+		In <xref ref="sec-cic-5-deeper"/>, we'll talk about how to build larger mental arithmetic skills
+		on the foundation of this basic arithmetic automaticity.
+	</p>
+</section>

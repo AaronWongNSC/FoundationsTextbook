@@ -1,0 +1,382 @@
+<section xml:id="sec-sif-5-deeper">
+	<title>Going Deeper: Average Rate of Change</title>
+	<p>
+		It turns out that the idea of slope is extremely important in both practical and theoretical mathematical
+		thinking. Slopes can be used to represent important relationships between variables, and they one of the core
+		concepts that we see in calculus. So we want to take extra time to really think about how we can understand and
+		interpret the notion of slope. 
+	</p>
+	<p>
+		Let's imagine that we're watching someone run the 100-meter dash, and that it takes them exactly 10 seconds to
+		reach the finish line. It would make perfect sense for us to say that they ran 10 meters per second. But what
+		does that really mean? Let's look at a graph that represents the situation. 
+	</p>
+	<image xml:id="sec-sif-5-two-points" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5] 
+				\begin{scope} [shift={(0,0)}, scale=0.8]
+					\draw[very thin, lightgray] (0,1) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,2) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,3) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,4) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,5) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,6) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,7) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,8) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,9) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,10) -- ++ (20,0); 
+					\draw[very thin, lightgray] (1,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (2,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (3,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (4,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (5,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (6,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (7,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (8,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (9,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (10,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (11,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (12,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (13,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (14,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (15,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (16,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (17,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (18,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (19,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (20,0) -- ++ (0,10); 
+					\draw[-stealth] (0,0) -- (20.5,0) node[black, anchor=west] {$t$}; 
+					\draw[-stealth] (0,0) -- (0,10.5) node[anchor=south, black] {$d$}; 
+					\draw (0,2) node[anchor=east] {$20$}; 
+					\draw (0,4) node[anchor=east] {$40$}; 
+					\draw (0,6) node[anchor=east] {$60$}; 
+					\draw (0,8) node[anchor=east] {$80$}; 
+					\draw (0,10) node[anchor=east] {$100$}; 
+					\draw (2,0.3) -- ++ (0,-0.6) node[anchor=north] {$1$}; 
+					\draw (4,0.3) -- ++ (0,-0.6) node[anchor=north] {$2$}; 
+					\draw (6,0.3) -- ++ (0,-0.6) node[anchor=north] {$3$}; 
+					\draw (8,0.3) -- ++ (0,-0.6) node[anchor=north] {$4$}; 
+					\draw (10,0.3) -- ++ (0,-0.6) node[anchor=north] {$5$}; 
+					\draw (12,0.3) -- ++ (0,-0.6) node[anchor=north] {$6$}; 
+					\draw (14,0.3) -- ++ (0,-0.6) node[anchor=north] {$7$}; 
+					\draw (16,0.3) -- ++ (0,-0.6) node[anchor=north] {$8$}; 
+					\draw (18,0.3) -- ++ (0,-0.6) node[anchor=north] {$9$}; 
+					\draw (20,0.3) -- ++ (0,-0.6) node[anchor=north] {$10$}; 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (20,10) circle (0.15); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		The only things we know about the graph are that the runner started was at the starting line at <m>t = 0</m> and
+		at the finish line (100 meters) at <m>t = 10</m>. The speed of 10 meters per second is the result of taking the
+		ratio of distance and time:
+		<me>
+			\frac{\text{100 meters}}{\text{10 seconds}} = 10 \, \frac{\text{meters}}{\text{second}}
+		</me> 
+	</p>
+	<aside>
+		<p>
+			Instead of <m>\frac{\Delta y}{\Delta x}</m>, we have <m>\frac{\Delta d}{\Delta t}</m> because of the
+			variables that we're using. But the directions are still the same. 
+		</p>
+	</aside>
+	<p>
+		If the original fraction has a familiar feel, that's because it's the formula for slope. It's nothing more than
+		the rise over the run. We can see this more clearly if we connect the two points to create a line. 
+	</p>
+	<image xml:id="sec-sif-5-linear-dash" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5] 
+				\begin{scope} [shift={(0,0)}, scale=0.8]
+					\draw[very thin, lightgray] (0,1) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,2) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,3) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,4) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,5) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,6) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,7) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,8) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,9) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,10) -- ++ (20,0); 
+					\draw[very thin, lightgray] (1,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (2,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (3,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (4,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (5,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (6,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (7,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (8,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (9,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (10,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (11,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (12,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (13,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (14,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (15,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (16,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (17,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (18,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (19,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (20,0) -- ++ (0,10); 
+					\draw[-stealth] (0,0) -- (20.5,0) node[black, anchor=west] {$t$}; 
+					\draw[-stealth] (0,0) -- (0,10.5) node[anchor=south, black] {$d$}; 
+					\draw (0,2) node[anchor=east] {$20$}; 
+					\draw (0,4) node[anchor=east] {$40$}; 
+					\draw (0,6) node[anchor=east] {$60$}; 
+					\draw (0,8) node[anchor=east] {$80$}; 
+					\draw (0,10) node[anchor=east] {$100$}; 
+					\draw (2,0.3) -- ++ (0,-0.6) node[anchor=north] {$1$}; 
+					\draw (4,0.3) -- ++ (0,-0.6) node[anchor=north] {$2$}; 
+					\draw (6,0.3) -- ++ (0,-0.6) node[anchor=north] {$3$}; 
+					\draw (8,0.3) -- ++ (0,-0.6) node[anchor=north] {$4$}; 
+					\draw (10,0.3) -- ++ (0,-0.6) node[anchor=north] {$5$}; 
+					\draw (12,0.3) -- ++ (0,-0.6) node[anchor=north] {$6$}; 
+					\draw (14,0.3) -- ++ (0,-0.6) node[anchor=north] {$7$}; 
+					\draw (16,0.3) -- ++ (0,-0.6) node[anchor=north] {$8$}; 
+					\draw (18,0.3) -- ++ (0,-0.6) node[anchor=north] {$9$}; 
+					\draw (20,0.3) -- ++ (0,-0.6) node[anchor=north] {$10$}; 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (20,10) circle (0.15); 
+					\draw (0,0) -- (20,10); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		But there's a problem with this graph. It does not represent the actual position of the runner at every moment
+		in time. Sprinters don't run at a constant speed. When they start they're moving at a slow speed, and then speed
+		up as they go. So the real graph may look more like this: 
+	</p>
+	<aside>
+		<p>
+			In reality, it looks nothing like this. Sprinters hit their peak speed in the middle of the race and are
+			slowing down at the end. But we're going to go with this because it's visually simpler. 
+		</p>
+	</aside>
+	<image xml:id="sec-sif-5-better-graph" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5]
+				\begin{scope} [shift={(0,0)}, scale=0.8]
+					\draw[very thin, lightgray] (0,1) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,2) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,3) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,4) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,5) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,6) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,7) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,8) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,9) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,10) -- ++ (20,0); 
+					\draw[very thin, lightgray] (1,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (2,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (3,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (4,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (5,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (6,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (7,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (8,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (9,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (10,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (11,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (12,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (13,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (14,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (15,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (16,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (17,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (18,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (19,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (20,0) -- ++ (0,10); 
+					\draw[-stealth] (0,0) -- (20.5,0) node[black, anchor=west] {$t$}; 
+					\draw[-stealth] (0,0) -- (0,10.5) node[anchor=south, black] {$d$}; 
+					\draw (0,2) node[anchor=east] {$20$}; 
+					\draw (0,4) node[anchor=east] {$40$}; 
+					\draw (0,6) node[anchor=east] {$60$}; 
+					\draw (0,8) node[anchor=east] {$80$}; 
+					\draw (0,10) node[anchor=east] {$100$}; 
+					\draw (2,0.3) -- ++ (0,-0.6) node[anchor=north] {$1$}; 
+					\draw (4,0.3) -- ++ (0,-0.6) node[anchor=north] {$2$}; 
+					\draw (6,0.3) -- ++ (0,-0.6) node[anchor=north] {$3$}; 
+					\draw (8,0.3) -- ++ (0,-0.6) node[anchor=north] {$4$}; 
+					\draw (10,0.3) -- ++ (0,-0.6) node[anchor=north] {$5$}; 
+					\draw (12,0.3) -- ++ (0,-0.6) node[anchor=north] {$6$}; 
+					\draw (14,0.3) -- ++ (0,-0.6) node[anchor=north] {$7$}; 
+					\draw (16,0.3) -- ++ (0,-0.6) node[anchor=north] {$8$}; 
+					\draw (18,0.3) -- ++ (0,-0.6) node[anchor=north] {$9$}; 
+					\draw (20,0.3) -- ++ (0,-0.6) node[anchor=north] {$10$}; 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (20,10) circle (0.15); 
+					\draw plot [smooth] coordinates {(0,0) (3.7,0.3) (13,3) (20,10)}; 
+					\draw[dashed] (0,0) -- (20,10); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		So let's go back and think about what we mean when we say that they ran 10 meters per second. This actually
+		represents the <em>average</em> speed over the course of the race. If we only knew the starting point and the
+		ending point, then we can calculate this value as our best estimate of the speed, even though something
+		different may have happened in between. 
+	</p>
+	<p>
+		From this picture, we can try to break things down further. What was the average speed in the first 5 seconds
+		and the last 5 seconds? Now instead of using just the endpoints, we're adding a point in the middle. 
+	</p>
+	<image xml:id="sec-sif-5-with-middle" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5] 
+				\begin{scope} [shift={(0,0)}, scale=0.8]
+					\draw[very thin, lightgray] (0,1) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,2) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,3) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,4) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,5) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,6) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,7) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,8) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,9) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,10) -- ++ (20,0); 
+					\draw[very thin, lightgray] (1,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (2,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (3,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (4,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (5,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (6,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (7,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (8,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (9,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (10,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (11,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (12,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (13,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (14,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (15,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (16,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (17,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (18,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (19,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (20,0) -- ++ (0,10); 
+					\draw[-stealth] (0,0) -- (20.5,0) node[black, anchor=west] {$t$}; 
+					\draw[-stealth] (0,0) -- (0,10.5) node[anchor=south, black] {$d$}; 
+					\draw (0,2) node[anchor=east] {$20$}; 
+					\draw (0,4) node[anchor=east] {$40$}; 
+					\draw (0,6) node[anchor=east] {$60$}; 
+					\draw (0,8) node[anchor=east] {$80$}; 
+					\draw (0,10) node[anchor=east] {$100$}; 
+					\draw (2,0.3) -- ++ (0,-0.6) node[anchor=north] {$1$}; 
+					\draw (4,0.3) -- ++ (0,-0.6) node[anchor=north] {$2$}; 
+					\draw (6,0.3) -- ++ (0,-0.6) node[anchor=north] {$3$}; 
+					\draw (8,0.3) -- ++ (0,-0.6) node[anchor=north] {$4$}; 
+					\draw (10,0.3) -- ++ (0,-0.6) node[anchor=north] {$5$}; 
+					\draw (12,0.3) -- ++ (0,-0.6) node[anchor=north] {$6$}; 
+					\draw (14,0.3) -- ++ (0,-0.6) node[anchor=north] {$7$}; 
+					\draw (16,0.3) -- ++ (0,-0.6) node[anchor=north] {$8$}; 
+					\draw (18,0.3) -- ++ (0,-0.6) node[anchor=north] {$9$}; 
+					\draw (20,0.3) -- ++ (0,-0.6) node[anchor=north] {$10$}; 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (10,1.82) circle (0.15); 
+					\draw[fill=black] (20,10) circle (0.15); 
+					\draw plot [smooth] coordinates {(0,0) (3.7,0.3) (13,3) (20,10)}; 
+					\draw[dashed] (0,0) -- (10,1.82) -- (20,10); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Notice that we now have two slopes. One slope for the first part and another slope for the second part. In other
+		words, we now have an average speed for the first half of the race and the second half of the race. The smaller
+		slope at the beginning and larger slope at the end matches with our intuition that the sprinter is moving faster
+		at the end of the race than the beginning. 
+	</p>
+	<p>
+		We can see that theses lines do a better job of capturing the information of the graph, but it's still not very
+		good. We can still see some rather large deviations between the straight lines and the curve. But why stop at
+		just two divisions? Why not make a new division every second? 
+	</p>
+	<image xml:id="sec-sif-5-per-second" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5] 
+				\begin{scope} [shift={(0,0)}, scale=0.8]
+					\draw[very thin, lightgray] (0,1) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,2) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,3) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,4) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,5) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,6) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,7) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,8) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,9) -- ++ (20,0); 
+					\draw[very thin, lightgray] (0,10) -- ++ (20,0); 
+					\draw[very thin, lightgray] (1,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (2,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (3,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (4,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (5,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (6,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (7,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (8,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (9,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (10,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (11,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (12,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (13,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (14,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (15,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (16,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (17,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (18,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (19,0) -- ++ (0,10); 
+					\draw[very thin, lightgray] (20,0) -- ++ (0,10); 
+					\draw[-stealth] (0,0) -- (20.5,0) node[black, anchor=west] {$t$}; 
+					\draw[-stealth] (0,0) -- (0,10.5) node[anchor=south, black] {$d$}; 
+					\draw (0,2) node[anchor=east] {$20$}; 
+					\draw (0,4) node[anchor=east] {$40$}; 
+					\draw (0,6) node[anchor=east] {$60$}; 
+					\draw (0,8) node[anchor=east] {$80$}; 
+					\draw (0,10) node[anchor=east] {$100$}; 
+					\draw (2,0.3) -- ++ (0,-0.6) node[anchor=north] {$1$}; 
+					\draw (4,0.3) -- ++ (0,-0.6) node[anchor=north] {$2$}; 
+					\draw (6,0.3) -- ++ (0,-0.6) node[anchor=north] {$3$}; 
+					\draw (8,0.3) -- ++ (0,-0.6) node[anchor=north] {$4$}; 
+					\draw (10,0.3) -- ++ (0,-0.6) node[anchor=north] {$5$}; 
+					\draw (12,0.3) -- ++ (0,-0.6) node[anchor=north] {$6$}; 
+					\draw (14,0.3) -- ++ (0,-0.6) node[anchor=north] {$7$}; 
+					\draw (16,0.3) -- ++ (0,-0.6) node[anchor=north] {$8$}; 
+					\draw (18,0.3) -- ++ (0,-0.6) node[anchor=north] {$9$}; 
+					\draw (20,0.3) -- ++ (0,-0.6) node[anchor=north] {$10$}; 
+					\draw[fill=black] (0,0) circle (0.15); 
+					\draw[fill=black] (2,0.01) circle (0.15); 
+					\draw[fill=black] (4,0.33) circle (0.15); 
+					\draw[fill=black] (6,0.8) circle (0.15); 
+					\draw[fill=black] (8,1.25) circle (0.15); 
+					\draw[fill=black] (10,1.78) circle (0.15); 
+					\draw[fill=black] (12,2.5) circle (0.15); 
+					\draw[fill=black] (14,3.75) circle (0.15); 
+					\draw[fill=black] (16,5.6) circle (0.15); 
+					\draw[fill=black] (18,7.75) circle (0.15); 
+					\draw[fill=black] (20,10) circle (0.15); 
+					\draw [dashed] (0,0) -- (2,0.01) -- (4,0.33) -- (6,0.8) -- (8,1.25) -- (10,1.78) -- (12,2.5) -- (14,3.75) -- (16,5.6) -- (18,7.75) -- (20,10); 
+					\draw plot [smooth] coordinates {(0,0) (3.7,0.3) (13,3) (20,10)}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Now the dashed line matches very closely with the curve. It's still not perfect, but it's getting a lot better.
+		We now have the average speed for every second of the race. 
+	</p>
+	<p>
+		This leads us to an interesting question: What happens if we continue this process? Instead of every second,
+		what if we pushed this to every half second? Or every tenth of a second? Or every hundredth of a second? We can
+		get average speeds for smaller and smaller time intervals. How far can we push this idea? And what is the end
+		result?
+	</p>
+	<aside>
+		<p>
+			<idx><h>Zeno's paradox</h></idx>
+			If you really want to have some fun with this, look up Zeno's Arrow Paradox. 
+		</p>
+	</aside>
+</section>

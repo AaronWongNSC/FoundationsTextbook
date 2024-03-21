@@ -1,0 +1,391 @@
+<section xml:id="sec-ra-5-deeper">
+	<title>Going Deeper: Intervals on the Number Line</title>
+	<aside>
+		<p>
+			Inequalities were discussed in <xref ref="sec-sese-5-deeper" />.
+		</p>
+	</aside>
+	<p>
+		In this section, we introduced a couple geometric representation of the numbers. We are going to focus our
+		attention on the number line picture in the context of thinking about inequalities. Suppose that we have the
+		inequality <m>x \gt a</m>. Here's how we would represent that on the number line:
+	</p>
+	<image xml:id="sec-ra-5-greater-than" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-5,0) -- (5,0); 
+				\draw (0, -0.1) node[anchor=north] {\small \strut $a$}; 
+				\draw[-stealth, ultra thick, blue] (0,0) -- (4,0); 
+				\draw[thick,blue, fill=white] (0,0) circle (0.17); 
+				\draw (-0.15,0) -- (0.15,0); 
+				\draw[fill=black] (0, 0) circle (0.1); 
+				\draw (5.5,0) node[anchor=west] {\small $x \gt a$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		The circle around the indicates that we do not want to include in the interval. It represents a "hole" in the
+		arrow at that point. If we wanted to graph <m>x \geq a</m>, then it would look like this:
+	</p>
+	<image xml:id="sec-ra-5-greater-than-or-equal" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-5,0) -- (5,0); 
+				\draw (0, -0.1) node[anchor=north] {\small \strut $a$}; 
+				\draw[-stealth, ultra thick, blue] (0,0) -- (4,0); 
+				\draw[thick,blue, fill=blue] (0,0) circle (0.17); 
+				\draw (5.5,0) node[anchor=west] {\small $x \geq a$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		We could draw similar diagrams for <m>x \lt a</m> and <m>x \leq a</m>: 
+	</p>
+	<image xml:id="sec-ra-5-less-than-and-or-equal" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7] 
+				\begin{scope}
+					\draw[stealth-stealth] (-5,0) -- (5,0); 
+					\draw (0, -0.1) node[anchor=north] {\small \strut $a$}; 
+					\draw[-stealth, ultra thick, blue] (0,0) -- (-4,0); 
+					\draw[thick,blue, fill=white] (0,0) circle (0.17); 
+					\draw (-0.15,0) -- (0.15,0); 
+					\draw[fill=black] (0, 0) circle (0.1); 
+					\draw (5.5,0) node[anchor=west] {\small $x \lt a$}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-1.5)}] \draw[stealth-stealth] (-5,0) -- (5,0); 
+					\draw (0, -0.1) node[anchor=north] {\small \strut $a$}; 
+					\draw[-stealth, ultra thick, blue] (0,0) -- (-4,0); 
+					\draw[thick,blue, fill=blue] (0,0) circle (0.17); 
+					\draw (5.5,0) node[anchor=west] {\small $x \leq a$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			<idx><h>Hilbert Hotel</h></idx>
+			Look up the "Hilbert Hotel" if you're interested in exploring the nature of infinity. It turns out that it's
+			more complicated than it initially seems.
+		</p>
+	</aside>
+	<p>
+		The arrows on the end of the thickened lines indicates that it extends forever in the indicated direction. This
+		introduces the concept of infinity, which is denoted <m>\infty</m>. We are going to have to leave this at an
+		intuitive level, as infinity turns out to be an incredibly complicated and nuanced topic. The key fact is that
+		infinity is <em>not</em> a number. It is not a part of the number line. For our purposes, it represents the idea
+		of continuing along in the same direction indefinitely. We also have an infinity in both directions, where 
+		<m>\infty</m> (sometimes written <m>+\infty</m> for emphasis) is off to the right and <m>-\infty</m> is off to
+		the left. The diagram below is an attempt to convey this idea: 
+	</p>
+	<aside>
+		<p>
+			Notice that neither or have dots associated with them, and that they are not attached to the number line.
+			Both of these features emphasize that they aren't numbers. 
+		</p>
+	</aside>
+	<image xml:id="sec-ra-5-number-line-infinity" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-5,0) -- (5,0); 
+				\draw[fill=black] (-3, 0) circle (0.1); 
+				\draw[fill=black] (-2, 0) circle (0.1); 
+				\draw[fill=black] (-1, 0) circle (0.1); 
+				\draw[fill=black] (0, 0) circle (0.1); 
+				\draw[fill=black] (1, 0) circle (0.1); 
+				\draw[fill=black] (2, 0) circle (0.1); 
+				\draw[fill=black] (3, 0) circle (0.1); 
+				\draw (-3, -0.1) node[anchor=north] {\small \strut $-3$}; 
+				\draw (-2, -0.1) node[anchor=north] {\small \strut $-2$}; 
+				\draw (-1, -0.1) node[anchor=north] {\small \strut $-1$}; 
+				\draw (0, -0.1) node[anchor=north] {\small \strut $0$}; 
+				\draw (1, -0.1) node[anchor=north] {\small \strut $1$}; 
+				\draw (2, -0.1) node[anchor=north] {\small \strut $2$}; 
+				\draw (3, -0.1) node[anchor=north] {\small \strut $3$}; 
+				\draw (5.5,0) node[anchor=west] {\small $\infty$}; 
+				\draw (-5.5,0) node[anchor=east] {\small $-\infty$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			<idx><h>logical and</h></idx>
+			<idx><h>logical or</h></idx>
+			There are two types of compound inequalities. We can combine them with the word <term>and</term> to indicate
+			that we want both conditions to be met, or we can combine them with the word <term>or</term> to indicate that
+			we want at least one of the conditions to be met. We are going to focus on the first type here. 
+		</p>
+	</aside>
+	<p>
+		There are times that we want to restrict our values on two sides. For example, if you want a number between 1
+		and 5 (not restricting yourself to integers), you're actually asking for the number to meet two conditions at
+		the same time: (1) The number must be greater than 1; (2) The number must be less than 5. This is an example of
+		a compound inequality. 
+	</p>
+	<image xml:id="sec-ra-5-1-to-5" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-5,0) -- (5,0); 
+				\draw (-2, -0.1) node[anchor=north] {\small \strut $1$}; 
+				\draw (2, -0.1) node[anchor=north] {\small \strut $5$}; 
+				\draw[ultra thick, blue] (-2,0) -- (2,0); 
+				\draw[thick,blue, fill=white] (-2,0) circle (0.17); 
+				\draw[thick,blue, fill=white] (2,0) circle (0.17); 
+				\draw (-2.15,0) -- (-1.85,0); 
+				\draw (2.15,0) -- (1.85,0); 
+				\draw[fill=black] (-2, 0) circle (0.1); 
+				\draw[fill=black] (2, 0) circle (0.1); 
+				\draw (5.5,0) node[anchor=west] {\small $1 \lt x \lt 5$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Graphically, this is not too hard to think about, as the betweenness property is captured intuitively. Notice
+		that we wrote this as a single inequality. Even though this looks like just one inequality, it's actually
+		shorthand for two inequalities: <m>1 \lt x</m> and <m>x \lt 5</m>. 
+	</p>
+	<p>
+		It's important that the direction of the inequality is consistent. If the inequalities get turned around, we
+		treat it as a meaningless statement. For example, <m>1 \lt x \gt 8</m> is <em>not</em> interpreted as
+		<m>1 \lt x</m> and <m>x \gt 8</m>. If we look at what that would mean, we can see that there's a bit of
+		redundancy in that interpretation. We would be looking for values to the right of 1 that are also to the right
+		of 8. But every number to the right of 8 is already to the right of 1, so the first part doesn't really add
+		anything but confusion. So it leads to cleaner communication to declare that such combinations are not allowed. 
+	</p>
+	<image xml:id="sec-ra-5-greater-than-1-and-8" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7] 
+				\begin{scope}
+					\draw[stealth-stealth] (-5,0) -- (5,0); 
+					\draw (-2, -0.1) node[anchor=north] {\small \strut $1$}; 
+					\draw[-stealth, ultra thick, blue] (-2,0) -- (4,0); 
+					\draw[thick,blue, fill=white] (-2,0) circle (0.17); 
+					\draw (-2.15,0) -- (-1.85,0); 
+					\draw[fill=black] (-2, 0) circle (0.1); 
+					\draw (5.5,0) node[anchor=west] {\small $x \gt 1$}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-1.5)}]
+					\draw[stealth-stealth] (-5,0) -- (5,0); 
+					\draw (2, -0.1) node[anchor=north] {\small \strut $8$}; 
+					\draw[-stealth, ultra thick, blue] (2,0) -- (4,0); 
+					\draw[thick,blue, fill=white] (2,0) circle (0.17); 
+					\draw (2.15,0) -- (1.85,0); 
+					\draw[fill=black] (2, 0) circle (0.1); 
+					\draw (5.5,0) node[anchor=west] {\small $x \gt 8$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		<idx><h>interval (of the number line)</h></idx>
+		<idx><h>interval notation</h></idx>
+		Sets of these types are known as <term>intervals</term>. They play an important role in understanding and
+		describing functions and other mathematical objects. We have seen that we can describe intervals using diagrams
+		and inequalities, and it turns out that there is one more method that we use, which is known as <term>interval
+		notation</term>. The value of interval notation is that it allows us to describe an interval using symbols, but
+		without introducing a variable. When talking about a number between and it's not necessarily helpful for us to
+		arbitrarily pick a symbol to represent that quantity. This is especially true for more complicated situations
+		where we're already working with several other variables. 
+	</p>
+	<aside>
+		<p>
+			How can you tell the difference between the interval <m>(1, 5)</m> and the point <m>(1, 5)</m>? Use context
+			clues. 
+		</p>
+	</aside>
+	<p>
+		Interval notation is easiest to understand through to the number line diagrams that we've been drawing. There
+		are just a couple ideas that we need. The first idea is that we always want to think about the diagram from left
+		to right. And this is easy to remember because your notation will be written out from left to right. The second
+		is that we use a round bracket to exclude the endpoint and a square bracket to include it. Here is the example
+		we were working with before.
+	</p>
+	<image xml:id="sec-ra-5-1-to-5-again" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-5,0) -- (5,0); 
+				\draw (-2, -0.1) node[anchor=north] {\small \strut $1$}; 
+				\draw (2, -0.1) node[anchor=north] {\small \strut $5$}; 
+				\draw[ultra thick, blue] (-2,0) -- (2,0); 
+				\draw[thick,blue, fill=white] (-2,0) circle (0.17); 
+				\draw[thick,blue, fill=white] (2,0) circle (0.17); 
+				\draw (-2.15,0) -- (-1.85,0); 
+				\draw (2.15,0) -- (1.85,0); 
+				\draw[fill=black] (-2, 0) circle (0.1); 
+				\draw[fill=black] (2, 0) circle (0.1); 
+				\draw (0,0) node[anchor=south] {\small $(1,5)$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Here is the same example, except that we're including the point 5 in our set. 
+	</p>
+	<image xml:id="sec-ra-5-1-to-5-including" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-5,0) -- (5,0); 
+				\draw (-2, -0.1) node[anchor=north] {\small \strut $1$}; 
+				\draw (2, -0.1) node[anchor=north] {\small \strut $5$}; 
+				\draw[ultra thick, blue] (-2,0) -- (2,0); 
+				\draw[thick,blue, fill=white] (-2,0) circle (0.17); 
+				\draw[thick,blue, fill=blue] (2,0) circle (0.17); 
+				\draw (-2.15,0) -- (-1.85,0); 
+				\draw[fill=black] (-2, 0) circle (0.1); 
+				\draw (0,0) node[anchor=south] {\small $(1,5]$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		As you can see, there are four different combinations of symbols that we might have, depending on whether each
+		of the endpoints are included or excluded. Here they are presented together: 
+	</p>
+	<image xml:id="sec-ra-5-all-intervals" width="95%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7] 
+				\begin{scope}
+					\draw[stealth-stealth] (-4,0) -- (4,0); 
+					\draw (-2, -0.1) node[anchor=north] {\small \strut $a$}; 
+					\draw (2, -0.1) node[anchor=north] {\small \strut $b$}; 
+					\draw[ultra thick, blue] (-2,0) -- (2,0); 
+					\draw[thick,blue, fill=white] (-2,0) circle (0.17); 
+					\draw[thick,blue, fill=white] (2,0) circle (0.17); 
+					\draw (-2.15,0) -- (-1.85,0); 
+					\draw (2.15,0) -- (1.85,0); 
+					\draw[fill=black] (-2, 0) circle (0.1); 
+					\draw[fill=black] (2, 0) circle (0.1); 
+					\draw (0,0) node[anchor=south] {\small $(a,b)$}; 
+				\end{scope} 
+				\begin{scope} [shift={(10,0)}]
+					\draw[stealth-stealth] (-4,0) -- (4,0); 
+					\draw (-2, -0.1) node[anchor=north] {\small \strut $a$}; 
+					\draw (2, -0.1) node[anchor=north] {\small \strut $b$}; 
+					\draw[ultra thick, blue] (-2,0) -- (2,0); 
+					\draw[thick,blue, fill=white] (-2,0) circle (0.17); 
+					\draw[thick,blue, fill=blue] (2,0) circle (0.17); 
+					\draw (-2.15,0) -- (-1.85,0); 
+					\draw[fill=black] (-2, 0) circle (0.1); 
+					\draw (0,0) node[anchor=south] {\small $(a,b]$}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-1.5)}]
+					\draw[stealth-stealth] (-4,0) -- (4,0); 
+					\draw (-2, -0.1) node[anchor=north] {\small \strut $a$}; 
+					\draw (2, -0.1) node[anchor=north] {\small \strut $b$}; 
+					\draw[ultra thick, blue] (-2,0) -- (2,0); 
+					\draw[thick,blue, fill=blue] (-2,0) circle (0.17); 
+					\draw[thick,blue, fill=white] (2,0) circle (0.17); 
+					\draw (2.15,0) -- (1.85,0); 
+					\draw[fill=black] (2, 0) circle (0.1); 
+					\draw (0,0) node[anchor=south] {\small $[a,b)$}; 
+				\end{scope} 
+				\begin{scope} [shift={(10,-1.5)}]
+					\draw[stealth-stealth] (-4,0) -- (4,0); 
+					\draw (-2, -0.1) node[anchor=north] {\small \strut $a$}; 
+					\draw (2, -0.1) node[anchor=north] {\small \strut $b$}; 
+					\draw[ultra thick, blue] (-2,0) -- (2,0); 
+					\draw[thick,blue, fill=blue] (-2,0) circle (0.17); 
+					\draw[thick,blue, fill=blue] (2,0) circle (0.17); 
+					\draw (0,0) node[anchor=south] {\small $[a,b]$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			Remember: Infinity isn't a number! 
+		</p>
+	</aside>
+	<p>
+		What about intervals that go off to infinity? The same ideas hold. In particular, we always use round brackets
+		around the side with infinity because infinity is not actually included in the interval. We also need to use the
+		appropriate sign on the infinity, depending on which side we're considering. 
+	</p>
+	<image xml:id="sec-ra-5-infinite-intervals" width="95%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7] 
+				\begin{scope}
+					\draw[stealth-stealth] (-4,0) -- (4,0); 
+					\draw (-2, -0.1) node[anchor=north] {\small \strut $a$}; 
+					\draw[ultra thick, blue, -stealth] (-2,0) -- (2,0); 
+					\draw[thick,blue, fill=white] (-2,0) circle (0.17); 
+					\draw (-2.15,0) -- (-1.85,0); 
+					\draw[fill=black] (-2, 0) circle (0.1); 
+					\draw (0,0) node[anchor=south] {\small $(a,\infty)$}; 
+				\end{scope} 
+				\begin{scope} [shift={(10,0)}]
+					\draw[stealth-stealth] (-4,0) -- (4,0); 
+					\draw (2, -0.1) node[anchor=north] {\small \strut $b$}; 
+					\draw[ultra thick, blue,stealth-] (-2,0) -- (2,0); 
+					\draw[thick,blue, fill=white] (2,0) circle (0.17); 
+					\draw (2.15,0) -- (1.85,0); 
+					\draw[fill=black] (2, 0) circle (0.1); 
+					\draw (0,0) node[anchor=south] {\small $(-\infty,b)$}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-1.5)}]
+					\draw[stealth-stealth] (-4,0) -- (4,0); 
+					\draw (-2, -0.1) node[anchor=north] {\small \strut $a$}; 
+					\draw[ultra thick, blue,-stealth] (-2,0) -- (2,0); 
+					\draw[thick,blue, fill=blue] (-2,0) circle (0.17); 
+					\draw (2.15,0) -- (1.85,0); 
+					\draw (0,0) node[anchor=south] {\small $[a,\infty)$}; 
+				\end{scope} 
+				\begin{scope} [shift={(10,-1.5)}]
+					\draw[stealth-stealth] (-4,0) -- (4,0); 
+					\draw (2, -0.1) node[anchor=north] {\small \strut $b$}; 
+					\draw[ultra thick, blue, stealth-] (-2,0) -- (2,0); 
+					\draw[thick,blue, fill=blue] (2,0) circle (0.17); 
+					\draw (0,0) node[anchor=south] {\small $(-\infty,b]$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		We also have one more case where both sides go to infinity. This is basically saying that we want to include
+		every real number. Fortunately, this case follows all the same ideas as before, so the interval notation should
+		not be a surprise. 
+	</p>
+	<aside>
+		<p>
+			Some people will denote this set as <m>\mathbb{R}</m>.
+		</p>
+	</aside>
+	<image xml:id="sec-ra-5-whole-real-line" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7] 
+				\begin{scope}
+					\draw[stealth-stealth] (-4,0) -- (4,0); 
+					\draw[ultra thick, blue, stealth-stealth] (-3,0) -- (3,0); 
+					\draw (0,0) node[anchor=south] {\small $(-\infty,\infty)$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		With these examples in mind, you should be able to represent any interval using three different representations:
+		a number line diagram, an inequality (or compound inequality), and interval notation. You should also be able to
+		move freely between the different forms. For example, if you're given a number line diagram, you should be able
+		to translate that into an inequality as well as writing it in interval notation. 
+	</p>
+	<p>
+		Interval notation is used very often as part of the larger language of mathematics. While the notation is easy
+		to understand on its own, it can be difficult to understand how we use it in applications without placing it in
+		a larger context. Those larger contexts require some ideas that go beyond what we've developed. We will use one
+		example that involves describing the behavior of a function. It will hopefully be intuitive, but don't worry too
+		much if it's not. Consider the following graph:
+	</p>
+	<image xml:id="sec-ra-5-graph" width="40%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5]
+				\draw[ultra thin, lightgray] (-1,-1) grid (8,8); 
+				\draw[thin,stealth-stealth] (-1.5,0) -- (8.5,0) node[anchor=west] {\small $x$}; 
+				\draw[thin,stealth-stealth] (0,-1.5) -- (0,8.5) node[anchor=south] {\small $y$}; 
+				\draw[thick,blue] (0,3) -- (2,3) -- (5,6) -- (8,6) node[anchor=west] {$f(x)$}; 
+				\draw[dotted] (2,3) -- (2,0) node[anchor=north] {\strut $2$}; 
+				\draw[dotted] (5,6) -- (5,0) node[anchor=north] {\strut $5$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		The function is increasing on the interval <m>(2,5)</m>. In other words, the function is increasing when
+		<m>2 \lt x \lt 5</m>.
+	</p>
+</section>

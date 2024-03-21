@@ -1,0 +1,197 @@
+<section xml:id="sec-rme-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/10-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-rme-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Consider the expression <m>(x + 2)(x - 5)</m>. Describe the "big picture" perspective of the expression
+				and put boxes around the terms as appropriate. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Consider the expression <m>x + 2(x - 5)</m>. Describe the "big picture" perspective of the expression
+				and put boxes around the terms as appropriate. 
+			</p>
+			<aside>
+				<p>
+					Many students treat this calculation like the previous one. It's an easy "gotcha" problem to catch
+					students that aren't paying attention. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Determine whether you think the following equation is valid. Explain your reasoning. 
+			</p>
+			<p>
+				<me> \sin(x + y) = \sin(x) + \sin(y) </me> 
+			</p>
+			<aside>
+				<p>
+					Hint: This is one of the special named functions that was discussed in this chapter. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>x \ln(2) + 3 = -4</m>. Do it once using a substitution for then do it without a
+				that substitution. Use a complete presentation both times. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-rme-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Consider the expression <m>2x(x - 3) + 4</m>. Describe the "big picture" perspective of the expression
+				and put boxes around the terms as appropriate. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Evaluate the expression <m>2x(x - 3) - 5</m> when <m>x = 2</m>. Use a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					There are no examples of this! Use your best judgment of what a "complete presentation" would like
+					for this calculation based on your experience. Start trusting yourself. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+						3x + f(4) \amp = f(10) \\
+						3x + 4 \amp = 10 \amp \eqnspacer \amp \text{Cancel out the $f$} \\
+						3x \amp = 6 \amp \amp \text{Subtract $4$ from both sides} \\
+						x \amp = 2 \amp \amp \text{Divide both sides by $3$} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+						\exp(x) + 3 \amp = 8 \\
+						\exp(x) \amp = 5 \amp \eqnspacer \amp \text{Subtract $3$ from both sides} \\
+						x \amp = \frac{5}{\exp} \amp \amp \text{Divide both sides by $\exp$} \\
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-rme-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Consider the expression <m>(x + 1)^2 - (x - 1)^2</m>. Describe the "big picture" perspective of the
+				expression and put boxes around the terms as appropriate. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+						(x + 4)^2 - (x - 3)^2 \amp = (x^2 + 16) - (x^2 - 9) \amp \eqnspacer \amp \text{Distribute the square} \\
+						\amp = x^2 - x^2 + 16 + 9 \amp \amp \text{Rearrange the terms} \\
+						\amp = 25 \amp \amp \text{Combine like terms} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify the expression <m>(x + 1)^2 - (x - 1)^2</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>2 \tan(x) - 5 = -3</m> for Do it once using a substitution for then do it without
+				that substitution. Use a complete presentation both times. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-rme-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+						6 \exp(2) \amp = 10 \\
+						x \amp = \frac{10}{\exp(2)} \amp \eqnspacer \amp \text{Divide both sides by $\exp(2)$} \\
+						x \amp = \frac{5}{\exp(1)} \amp \amp \text{Reduce} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>ax + b = c</m> for the variable using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+						x \log(5) \amp = \log(7) \\
+						x \amp = \frac{\log(7)}{\log(5)} \amp \eqnspacer \amp \text{Divide both sides by $\log(5)$} \\
+						x \amp = \frac{7}{5} \amp \amp \text{Cancel out the $\log$} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>2 \log(x) = \log(x) + 5</m> for Do it once using a substitution for then do it
+				without that substitution. Use a complete presentation both times. 
+			</p>
+			<aside>
+				<p>
+					Students can start to feel lost with a problem like this. But the substitution helps them to
+					visually identify where the variable terms are located, and it helps them to see how to proceed. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-rme-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Solve the equation <m>ax + b = cx + d</m> for the variable using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>x\sin(1) + \cos(2) = x \ln(3) - f(4)</m>. Use a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					Try to do this without making substitutions. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>3\ln(x) + \ln(4) = 8</m> for Use a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>3x + \log(6) = \exp(3)</m>. Use a complete presentation. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

@@ -1,0 +1,76 @@
+<section xml:id="sec-ref4-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/36-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-ref4-2-worksheets-1">
+		<title>Worksheet 1: Questions about the Content</title>
+		<exercise>
+			<p>
+				Were there any topics that you had seen before, but you understand better as a result of working through
+				it again?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Were there any ideas that you had never seen before?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Based on your experience, which of these ideas seems the most important to understand well?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Did any part of the presentation make you curious about math in a way that went beyond the material? Are
+				there questions or ideas that you would like to explore?
+			</p>
+			<aside>
+				<p>
+					Examples:
+					<ul>
+						<li>
+							<p>
+								What other key word traps are there?
+							</p>
+						</li>
+						<li>
+							<p>
+								What are other applications of unit conversions?
+							</p>
+						</li>
+					</ul>
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-ref4-2-worksheets-2">
+		<title>Worksheet 2: Questions about You</title>
+		<exercise>
+			<p>
+				How has your mathematical writing continued to evolve from the previous pause for reflection? Do you
+				find yourself thinking in different ways?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Did you have any "Aha!" moments where you had an insight into something that you had not noticed
+				before?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				What is the biggest mathematical connection that you made?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				How is your mathematical confidence coming out of these book? Do you feel more or less confident in
+				your mathematical knowledge than before the book? Explain why you think you feel the way you do.
+			</p>
+		</exercise>
+	</worksheet>
+</section>

@@ -1,0 +1,84 @@
+<section xml:id="sec-add-3-practice">
+	<title>Deliberate Practice: Addition Practice</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<p>
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Do the problem mentally before drawing any part of the number line diagram. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Draw out the steps of adding the different place values on the number line diagram. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-add-3-worksheet">
+		<p>
+			<em>Instructions:</em> Perform the given calculation mentally, then draw out a number line diagram to
+			perform the calculation. 
+		</p>
+		<exercise>
+			<p>
+				Calculate <m>43 + 25</m> mentally and on a number line.  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>18 + 38</m> mentally and on a number line.  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>26 + 49</m> mentally and on a number line.  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>76 + 19</m> mentally and on a number line.  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>54 + 21</m> mentally and on a number line.  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>35 + 45</m> mentally and on a number line.  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>29 + 52</m> mentally and on a number line.  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>276 + 112</m> mentally and on a number line.  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>135 + 349</m> mentally and on a number line.  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>289 + 428</m> mentally and on a number line.  
+			</p>
+		</exercise>
+	</worksheet>
+</section>

@@ -1,0 +1,192 @@
+<section xml:id="sec-vee-5-deeper">
+    <title>Going Deeper: Sets and Solution Sets</title>
+    <p>
+        In mathematics, a set is just a collection of objects. In a very real way, sets are among the most fundamental
+        objects in mathematics. There is a particular type of set that is associated with equations involving variables,
+        which are known as solution sets. Basically, a solution set is the set of all the numbers that you can plug into
+        the equation to get a valid if-then statement regarding the values.
+
+    </p>
+    <p>
+        For example, the solution set of the equation <m>x^2 = 4</m> is <m>\{ -2, 2 \}</m>. We can check this b
+        thinking through the appropriate if-then statements:
+        <ul>
+            <li>
+                <p>
+                    If <m>x = -2</m>, then <m>x^2 = 4</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    If <m>x = 2</m>, then <m>x^2 = 4</m>.
+                </p>
+            </li>
+        </ul>
+
+    </p>
+    <p>
+        Notice that both of these statements are true. But we need to go further to justify that all other numbers fail
+        to make a true statement. For example, ``If $x = 5$, then $x^2 = 4$'' is false since $5^2 = 25$ and $25$ is not
+        the same as $4$. But checking that one number isn't good enough because there are infinitely other numbers to
+        check (including all decimals and fractions). We clearly can't check an infinite number of values, and so we
+        need some sort of logical structure to explain how we can know that we've got all the solutions.
+    </p>
+    <aside>
+        <p>
+            What is that logical structure? Algebra!
+        </p>
+    </aside>
+    <p>
+        Notice in the naming of the set, we used the symbols <m>\{</m> and <m>\}</m>. These are known as set brackets.
+        You can think of the set brackets as a bag in which you're going to put various objects. The contents in between
+        the set brackets describe the objects in the set in some form. In our example, we presented that as a list. We
+        would read <m>\{ -2, 2\}</m> as "the set containing the numbers -2 and 2." We don't really care about the order
+        that we list the values, so that this set is the same as <m>\{ 2, -2 \}</m>.
+    </p>
+    <p>
+        <idx><h>set-builder notation</h></idx>
+        Some books go into some detail about <term>set-builder notation</term>, which is another way of describing sets.
+        Rather than making an explicit list of elements, the set is defined by properties. Here is an example:
+        <me>
+            \{ x \in \mathbb{R} : x^2 = 4 \}
+        </me>
+    </p>
+    <aside>
+        <p>
+            Some people use <m>|</m> instead of <m>:</m> for set-builder notation.
+        </p>
+    </aside>
+    <p>
+        You can immediately see that set-builder notation has a lot of symbols. We'll explain how to read this and then
+        break it down into components.
+    </p>
+    <aside>
+        <p>
+            What are the real numbers? That question is much more complicated than you think. For now, just think of
+            them as all possible numbers.
+        </p>
+    </aside>
+    <p>
+        <me>
+            \begin{array}{ccccc}
+                \{ \amp x \in \mathbb{R} \amp : \amp \quad x^2 = 4 \quad \amp \quad \} \\
+                \downarrow \amp \downarrow \amp \downarrow \amp \downarrow \\
+                \quad \text{The set of} \quad \amp \quad \text{real numbers $x$} \quad \amp \quad \text{such that} \quad \amp \quad x^2 = 4 \quad \amp
+            \end{array}
+        </me>
+    </p>
+    <p>
+        We've already talked about the set brackets, so let's look at the other pieces
+        <ul>
+            <li>
+                <p>
+                    <idx><h>real numbers</h></idx>
+                    <idx><h>universal set</h></idx>
+                    <m>x \in \mathbb{R}</m>: This defines two objects. The first object it defines is a variable. This
+                    is a symbol that represents the quantity with the desired property. In this case it's the symbol
+                    <m>x</m>, but it can be basically any symbol you want. The second object that this defines is the
+                    <term>universal set</term>. This is important because it defines the collection of objects that we're
+                    going to consider. In this case, we're thinking about <term>real numbers</term>.
+                </p>
+                <aside>
+                    <p>
+                        <idx><h>imaginary unit</h></idx>
+                        The symbol <m>i</m> is called the <term>imaginary unit</term> and represents the quantity
+                        <m>\sqrt{-1}</m>.
+                    </p>
+                </aside>
+                <p>
+                    <idx><h>complex numbers</h></idx>
+                    If you happen to be familiar with <term>complex numbers</term>, you will probably remember that
+                    there is a special number called <m>i</m> that exist in the complex numbers that isn't part of the
+                    real numbers. For this situation, we're saying that we're not considering complex numbers to be
+                    options for our variable.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <m>x^2 = 4</m>: This is the property that the variable needs to satisfy. In other words, in order
+                    to be in the set the variable must satisfy this equation. This part of the notation can be a single
+                    equation, multiple equations, or even a collection of words that describe the property.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <p>
+        This set is the solution set of the equation <m>x^2 = 4</m> because it says that it is the set of all real
+        numbers that make <m>x^2 = 4</m> a true equation. And this shows one of the downsides of this notation. When we
+        define sets in terms of properties, it may still leave us with work to do to figure out what values actually
+        have the desired property. In order for us to know that this set contains the numbers -2 and 2, we would still
+        have to do some work. And that's both the strength and weakness of set-builder notation.
+    </p>
+    <p>
+        On the one hand, the notation is flexible enough that we can defined objects by a list of properties. On the
+        other hand, that flexibility sometimes means that even though we know what properties the objects should have,
+        we often don't actually know what the exact objects are that are in the set.
+    </p>
+    <p>
+        Some books try to teach students set-builder notation and ask them to present their solutions to equations as
+        sets. Unfortunately, this is makes things even more confusing and pushes students deeper into the world of rule
+        following rather than understanding. This puts students either in the position where their notation is wrong,
+        or their notation is correct but they don't really understand what they're writing. Neither is a good thing.
+    </p>
+    <p>
+        Set theory is the mathematical field that studies sets very carefully. It needs to be done carefully because as
+        simple as it may appear here, it turns out to be an incredibly difficult subject. We won't be able to explore
+        the details of that, but we can get a brief glimpse of some of the complexity that arises from that area.
+    </p>
+    <p>
+        <idx><h>empty set</h></idx>
+        Let's start with a set that contains nothing, which is knwon as the <term>empty set</term>. There are two
+        notations for this: <m>\{ \}</m> (literally, a set with nothing in it) and <m>\emptyset</m>. The latter notation
+        is far more common, so that's what we will use. We can think of this as being like an empty box. It's a
+        collection of objects where there is nothing inside.
+    </p>
+    <p>
+        But now let's consider this object: <m>\{ \emptyset \}</m>. This is the set that contains the empty set. This is
+        mathematically different from the empty set in the same way that a box containing an empty box is not the same
+        thing as an empty box. And you can already start to see some of the difficulty of this area of mathematics. You
+        have to parse the symbols very carefully to understand what's happening, because even though the object inside
+        the box is an empty box, we have to remember that the outside box is not actually empty.
+    </p>
+    <p>
+        Or consider this object: <m>\{ \emptyset, \{ \emptyset \} \}</m>. This is the set that contains the empty set
+        and the set that contains the empty set. In other words, it's a box with an empty box and a box containing and
+        empty box. We might want to ask a basic question: How many objects are in this set? And this turns out to be
+        somewhat challenging because there are actually four boxes in the picture now. What is the "correct" way of
+        counting them?
+    </p>
+    <aside>
+        <p>
+            It turns out that mathematicians have decided that the answer should be two. When you have containers inside
+            of containers, it's better to not have to worry about what's inside the inner containers.
+        </p>
+    </aside>
+    <p>
+        <image xml:id="sec-vee-5-boxes" width="70%">
+            <latex-image>
+                \begin{tikzpicture}
+                    \draw (0,0) rectangle (2,2);
+                    \draw (1,0) node[anchor=north] {$\emptyset$};
+                    
+                    \draw (4,0) rectangle ++ (2,2);
+                    \draw (4.5,0.5) rectangle ++ (1,1);
+                    \draw (5,0) node[anchor=north] {$\{ \emptyset \} $};
+
+                    \draw (8,0) rectangle ++ (2,2);
+                    \draw (8.1,1.1) rectangle ++ (0.8,0.8);
+                    \draw (9.1,0.1) rectangle ++ (0.8,0.8);
+                    \draw (9.3,0.3) rectangle ++ (0.4,0.4);
+                    \draw (9,0) node[anchor=north] {$\{ \emptyset, \{ \emptyset \} \} $};
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+    </p>
+    <p>
+        <idx><h>JSON</h></idx>
+        While this may appear to be extremely abstract, this way of thinking turns out to be very closely related to how
+        huge amounts of data is organized. For example, phones and computers use a file folder structure that looks like
+        boxes inside of boxes, and the internet uses a lot of <url href="https://www.json.org/json-en.html">JSON</url> data which can also be thought of as boxes inside of
+        boxes. And so the abstract ideas of set theory end up having practical ways of being interpreted and applied.
+    </p>
+</section>

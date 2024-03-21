@@ -1,0 +1,163 @@
+<section xml:id="sec-fb-5-deeper">
+	<title>Going Deeper: Reducing Rational Expressions</title>
+	<p>
+		Usually, when students think of calculus, they think of extremely elaborate calculations and complicated
+		algebraic manipulations. And while there are certainly some aspects of the course for which that is true, it
+		turns out that the core concepts of calculus are ideas that you can understand without needing a lot of algebra. 
+	</p>
+	<aside>
+		<p>
+			Derivatives are basically slopes. Integrals are basically areas. The trick to getting there is the concept
+			of a <em>limit</em>, which can be understood intuitively without much algebra at all. 
+		</p>
+	</aside>
+	<p>
+		One of the largest hurdles students face when they get to calculus is not the calculus, but the algebra. It is
+		very possible to get all the way to calculus without having attained algebraic fluency. As the expressions get
+		more complex, the error rate goes up. And this, much more than the calculus, ends up holding students back. 
+	</p>
+	<aside>
+		<p>
+			<idx><h>derivative</h></idx>
+			The derivative of the function is defined as
+			<me>
+				f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}.
+			</me> 
+		</p>
+	</aside>
+	<p>
+		One area of algebra that students struggle with in particular is the manipulation of fractions. This is an
+		extremely important skill because the main idea of the first half of calculus (differential calculus) is defined
+		as a fraction. In theory, you already have all the skills required to perform the algebraic part of these
+		calculations. You know how to perform a substitution, multiply polynomials, and combine like terms. The
+		remaining algebraic step is to reduce the algebraic fraction. 
+	</p>
+	<aside>
+		<p>
+			All examples and problems except for Problem 4 of Worksheet 5. 
+		</p>
+	</aside>
+	<p>
+		In all of the examples and problems in this section, you were given a fraction where all the numerator and
+		denominator were simply products of algebraic terms. This helps to give students the practice of matching up
+		terms and reducing correctly in these situations. But it also leads students down the path of incorrect
+		manipulations when they do not fully understand the cancellation process. 
+	</p>
+	<p>
+		Over the next several sections, the "Going Deeper" sections are going to focus specifically on dealing with
+		fractions involving polynomials, which are often called <em>rational expressions</em>. These sections are aimed
+		at students who are on the pathway towards calculus to help develop specific algebraic skills that are useful
+		along that pathway. 
+	</p>
+	<aside>
+		<p>
+			Whether you see it as multiplication or division depends on how you choose to view it. We're just going to
+			go with multiplication. 
+		</p>
+	</aside>
+	<p>
+		Reducing fractions is a mathematical process built on multiplication. You should be looking for terms that are
+		multiplicative in the numerator and the denominator. More precisely, you need to be able to factor identical
+		terms from the numerator and the denominator. This is why we chose to explicitly write out the products before
+		reducing in this section. 
+	</p>
+	<p>
+		Most of the errors that come from reducing fractions incorrectly result from different forms of simply crossing
+		off terms that look the same in the numerator and the denominator. When you look at these calculations, you will
+		probably immediately recognize them as being wrong. But it's easy to identify errors when it's someone else's
+		work and you're being told that these are errors. It's often more difficult when you're looking at your own
+		work. 
+	</p>
+	<subsection>
+		<title>A Collection of Errors</title>
+		<aside>
+			<p>
+				See <xref ref="sec-rme-1-main" /> to review this. 
+			</p>
+		</aside>
+		<p>
+			<ul>
+				<li>
+					<p>
+						Canceling addition: Do not cancel out terms when they are being added or subtracted. It must
+						always be a multiplicative term to cancel.
+						<me>
+							\frac{x^2 + 5x + 4}{x^2 - 4x + 4} \overset{\times}{=} \frac{x^2 + 5x \, \cancel{+ \, 4}}{x^2 - 4x \, \cancel{+ \, 4}} = \frac{x^2 + 5x}{x^2 - 4x}
+						</me> 
+					</p>
+				</li>
+				<li>
+					<p>
+						Partial cancellation: This is another version of the previous error. Even though the terms are
+						being multiplied by something, that something isn't the entire remainder of the numerator and
+						the denominator. The mistake here is canceling out part of an additive term.
+						<me>
+							\frac{3x + 1}{2x + 1} \overset{\times}{=} \frac{3 \cancel{x} + 1}{2\cancel{x} + 1} = \frac{3+1}{2+1} = \frac{4}{3}
+						</me> 
+					</p>
+				</li>
+				<li>
+					<p>
+						Another partial cancellation: This one is tricky because there's a half-truth to the
+						cancellation. We'll discuss this particular step in more detail later. The key for now is to
+						recognize how we're still canceling out within an additive term.
+						<me>
+							\frac{3x + 1}{x} \overset{\times}{=} \frac{3 \cancel{x} + 1}{\cancel{x}} = 3 + 1 = 4
+						</me> 
+					</p>
+				</li>
+				<li>
+					<p>
+						Breaking the order of operations: The multiplication being canceled must respect the order of
+						operations. In this example, the and the should be seen as being grouped together, so that this
+						cancellation cannot happen.
+						<me>
+							\frac{3x + 1}{x + 1} \overset{\times}{=} \frac{3 \, \cancel{x + \, 1}}{\cancel{x + \, 1}} = 3
+						</me> 
+					</p>
+				</li>
+			</ul>
+		</p>
+		<p>
+			As you continue to move forward into the more algebraically complex world of rational expressions, it's
+			likely that you're going to make some of these errors. The important thing is to not be discouraged.
+			Mistakes are going to happen. The real key is how you respond to the mistakes when you make them. Students
+			often have a reflex of "I forgot" and then quickly move on to the next thing. Unfortunately, this usually
+			does not help them avoid that error in the future. It takes a certain amount of intentional effort and
+			reflection to internalize the algebra. 
+		</p>
+		<p>
+			A helpful recommendation is to keep a record of your algebraic errors. By writing them down, you can start
+			to identify your own patterns of mistakes, which trains your brain to watch out for them in the future. It
+			only takes a few seconds per mistake, but that's sometimes all it takes to to get your brain to start to
+			recognize it. 
+		</p>
+	</subsection>
+	<subsection>
+		<title>Factoring Out the Constant (Including the Negative)</title>
+		<p>
+			Having gone through a list of examples that don't reduce, it's also important to discuss certain types of
+			fractions that do reduce. One type of factorization that students sometimes overlook is to factor out a
+			constant. This can sometimes reveal binomial terms that factor out that are not immediately obvious. Here
+			is an example:
+			<me>
+				\frac{x + 2}{4x + 8} = \frac{x + 2}{4(x + 2)} = \frac{\cancel{x + 2}}{4 \cancel{(x + 2)}} = \frac{1}{4}
+			</me> 
+		</p>
+		<aside>
+			<p>
+				Having a coefficient of 1 for the <m>x</m> term in a binomial is also important for some larger ideas
+				related to polynomials. Specifically, if we do this then it's easy for us to identify the <em>roots</em>
+				of the polynomial. 
+			</p>
+		</aside>
+		<p>
+			One particular example of this is factoring a negative from the binomial. In general, when it comes to
+			applications involving factoring, we try to keep the coefficient of the <m>x</m> term positive because it helps
+			us to more easily recognize terms that can cancel out. Here is an example of this:
+			<me>
+				\frac{3 - x}{x - 3}  = \frac{-x + 3}{x - 3} = \frac{-1 (x - 3)}{x - 3} = \frac{-1 \cancel{(x - 3)}}{\cancel{x - 3}} = -1
+			</me>
+		</p>
+	</subsection>
+</section>

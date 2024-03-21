@@ -1,0 +1,189 @@
+<section xml:id="sec-lult-2-worksheets">
+	<title>Worksheets</title>
+
+
+	<p>
+		<url href="external/worksheets/03-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+
+	<worksheet xml:id="sec-lult-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Using the grid below, identify all of the monomials of <m>4x^3 - 3x^2 + 6x - 5</m>. Then determine the
+				coefficient and variable part of each term. 
+			</p>
+            <image xml:id="sec-lult-2-wksht-1-1" width="60%">
+                <latex-image>
+                    \begin{tikzpicture}
+                        \draw (0, 0) node[anchor=center] {
+							\begin{tabular}{|c|c|c|c|c|}
+								\hline
+								\multirow{2}{*}{Monomial} \amp \hspace{1cm} \amp \hspace{1cm} \amp \hspace{1cm} \amp \hspace{1cm} \\
+								\amp \amp \amp \amp \\ \hline
+								\multirow{2}{*}{Coefficient} \amp \amp \amp \amp \\
+								\amp \amp \amp \amp \\ \hline
+								\multirow{2}{*}{Variable Part} \amp \amp \amp \amp \\
+								\amp \amp \amp \amp \\ \hline
+							\end{tabular}
+						};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+			<aside>
+				<p>
+					Mistakes involving negative signs and subtraction symbols are among the most common mistakes for
+					students to make. Part of the value of this exercise is to train your mind to pay close attention to
+					those symbols. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify the expression <m>(5a + 3b) + (8a - 5b)</m> using a complete presentation. Show the
+				rearrangement step, the grouping step, and the arithmetic step. 
+			</p>
+			<aside>
+				<p>
+					We are asking you to show all of the steps because it's important to be able to communicate these
+					manipulations clearly. Use these instructions like a checklist of algebraic manipulations that you
+					should know how to do. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Two students perform the calculation <m>6x - 6x</m>. One student claims that the answer is <m>x</m>
+				while the other claims the answer is 0. Determine which student did the calculation correctly and
+				explain your reasoning using complete sentences. Then explain the error that the other student made. 
+			</p>
+			<aside>
+				<p>
+					Knowing why certain manipulations are wrong can be as helpful as knowing why certain manipulations
+					are right. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-lult-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Using the grid below, identify all of the monomials of <m>3x^3 - 5xyz + xz - 3</m>. Then determine the
+				coefficient and variable part of each term. 
+			</p>
+            <image xml:id="sec-lult-2-wksht-2-1" width="60%">
+                <latex-image>
+                    \begin{tikzpicture}
+                        \draw (0, 0) node[anchor=center] {
+							\begin{tabular}{|c|c|c|c|c|}
+								\hline
+								\multirow{2}{*}{Monomial} \amp \hspace{1cm} \amp \hspace{1cm} \amp \hspace{1cm} \amp \hspace{1cm} \\
+								\amp \amp \amp \amp \\ \hline
+								\multirow{2}{*}{Coefficient} \amp \amp \amp \amp \\
+								\amp \amp \amp \amp \\ \hline
+								\multirow{2}{*}{Variable Part} \amp \amp \amp \amp \\
+								\amp \amp \amp \amp \\ \hline
+							\end{tabular}
+						};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify the expression <m>(7m + 3n) + (5m - 3n)</m> using a complete presentation. Show the
+				rearrangement step, the grouping step, and the arithmetic step. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify the expression <m>(5x + 3) - (2x - 5)</m> using a complete presentation. Show the distribution
+				step, the rearrangement step, the grouping step, and the arithmetic step. 
+			</p>
+			<aside>
+				<p>
+					Remember that a negative multiplied by a negative is a positive. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-lult-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Simplify the expression <m>(3a + 2b) + 2 (-a + 3b)</m> using a complete presentation. Show the
+				distribution step, rearrangement step, the grouping step, and the arithmetic step. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify the expression <m>(-6x + 4y) - (-6x - 4y)</m> using a complete presentation. Show the
+				rearrangement step, the grouping step, and the arithmetic step. 
+			</p>
+			<aside>
+				<p>
+					Be careful! 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify the expression <m>(7x - 5) - (3x - 4)</m>. 
+			</p>
+			<aside>
+				<p>
+					Although it's important to be able to explain every step carefully, in practice we don't always do
+					that. Your instructor may or may not have specific instructions for what they are looking for. Just
+					remember that the main thing is that your work must be legible and understandable to someone else. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-lult-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Simplify the expression <m>2 (4a^2 + 5ab - 3b^2) - (3a^2 - ab + 7b^2)</m>. 
+			</p>
+			<aside>
+				<p>
+					You were never told how to handle three different types of terms. But if you understand what you
+					were doing before, you should be able to do this without extra guidance. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify the expression <m>3 (x^2 - 4x + 2) - 2 (x^2 - 5)</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Two students perform the calculation <m>5x^2 - x^2</m>. One student claims that the answer is
+				<m>4x^2</m> while the other claims the answer is 5. Determine which student did the calculation
+				correctly and explain your reasoning using complete sentences. Then explain the error that the other
+				student made. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-lult-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Simplify the expression <m>-2 (3m^2 - 6mn + 4n) + 3(-m^2 + 4mn + 3n)</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify the expression <m>3 (x^2 - 5x + 4) - 2(3x^2 - 5x + 6)</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify the expression <m>3(t^2 - 6t + 2) - 2(t^2 + 4t) + 3(t - 5)</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

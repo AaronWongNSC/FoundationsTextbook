@@ -1,0 +1,242 @@
+<section xml:id="sec-sn-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/34-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-sn-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Convert the following list of numbers into scientific notation.
+				<me>
+					\begin{aligned}
+						38000000000 \amp = \\ 
+						17500000000000000000 \amp = \\
+						860000000000000 \amp = \\
+						20000 \amp = \\
+						3727000000000 \amp = \\
+						6811000000000000 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+			<aside>
+				<p>
+					There's no "work" to show here. Count carefully! 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Convert the following list of numbers into scientific notation.
+				<me>
+					\begin{aligned}
+						0.00000000032 \amp = \\
+						0.0000751 \amp = \\
+						0.0000003 \amp = \\
+						0.000000000866 \amp = \\
+						0.00073 \amp = \\
+						0.000000045 \amp = \\
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Convert the following list of numbers into standard form.
+				<me>
+					\begin{aligned}
+						2.45 \times 10^7 \amp = \\
+						8.12 \times 10^3 \amp = \\
+						3.8 \times 10^5 \amp = \\
+						5.318 \times 10^{10} \amp = \\
+						7.5 \times 10^6 \amp = \\
+						6.38 \times 10^9 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Convert the following list of numbers into standard form.
+				<me>
+					\begin{aligned}
+						1.86 \times 10^{-3} \amp = \\
+						3.8 \times 10^{-6} \amp = \\
+						6.83 \times 10^{-5} \amp = \\
+						5 \times 10^{-9} \amp = \\
+						8.931 \times 10^{-7} \amp = \\
+						8.12 \times 10^{-2} \amp =
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sn-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Convert the following list of numbers into scientific notation.
+				<me>
+					\begin{aligned}
+						680000000 \amp = \\
+						110000000000 \amp = \\
+						0.0000000138 \amp = \\
+						1830000000 \amp = \\
+						0.000008861 \amp = \\
+						0.0000000000003 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Convert the following list of numbers into standard form.
+				<me>
+					\begin{aligned}
+						3.22 \times 10^5 \amp = \\
+						4.9 \times 10^{-6} \amp = \\
+						7.69 \times 10^{-4}\amp = \\
+						9.08 \times 10^{8} \amp = \\
+						3.83 \times 10^7 \amp = \\
+						8.18 \times 10^{-5} \amp =
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Convert the following numbers into both scientific notation and standard form.
+			</p>
+			<image xml:id="sec-sn-2-wksht-2-1" width="90%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {$
+							\begin{array}{rccc}
+								\amp \text{Scientific Notation} \amp \text{Standard Form} \\ \\
+								23.86 \times 10^{-5} \amp = \phantom{.} \hspace{4cm} \phantom{.} \amp = \phantom{.} \hspace{4cm} \phantom{.} \\ \\
+								480000 \times 10^3 \amp = \phantom{.} \hspace{4cm} \phantom{.} \amp = \phantom{.} \hspace{4cm} \phantom{.} \\ \\
+								0.000831 \times 10^6 \amp = \phantom{.} \hspace{4cm} \phantom{.} \amp = \phantom{.} \hspace{4cm} \phantom{.} \\ \\
+							\end{array}$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the value of that will make each of these equalities valid. 
+			</p>
+			<image xml:id="sec-sn-2-wksht-2-2" width="50%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {$
+							\begin{array}{rll}
+								5.383 \times 10^{6} \amp = a \times 10^{5}, \amp a = \phantom{.} \hspace{2cm} \phantom{.} \\ \\
+								5.383 \times 10^{6} \amp = a \times 10^{7}, \amp a = \phantom{.} \hspace{2cm} \phantom{.} \\ \\
+								5.383 \times 10^{6} \amp = a \times 10^{4}, \amp a = \phantom{.} \hspace{2cm} \phantom{.} \\ \\
+								5.383 \times 10^{6} \amp = a \times 10^{8}, \amp a = \phantom{.} \hspace{2cm} \phantom{.} \\ \\
+							\end{array}$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sn-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Calculate <m>(3 \times 10^5) + (6 \times 10^5)</m> and <m>(8 \times 10^{-8}) + (9 \times 10^{-8})</m>.
+				Give your final answer in scientific notation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(4 \times 10^7) + (7 \times 10^8)</m> and <m>(6 \times 10^{-5}) + (9 \times 10^{-4})</m>.
+				Give your final answer in scientific notation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(3 \times 10^4) \cdot (6 \times 10^5)</m> and <m>(5 \times 10^{-8}) \cdot (8 \times 10^{-6})</m>.
+				Give your final answer in scientific notation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(8 \times 10^4) \cdot (4 \times 10^{-6})</m> and <m>(9 \times 10^{-3}) \cdot (2 \times 10^{4})</m>.
+				Give your final answer in scientific notation. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sn-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Calculate <m>(5 \times 10^5) + (8 \times 10^7)</m> and <m>(8 \times 10^{-5}) - (5 \times 10^{-7})</m>.
+				Give your final answer in scientific notation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(8 \times 10^{-3}) + (7 \times 10^{-2})</m> and <m>(8 \times 10^{12}) - (5 \times 10^{11})</m>.
+				Give your final answer in scientific notation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(7 \times 10^5) \cdot (8 \times 10^{-3})</m> and <m>(2 \times 10^{-5}) \cdot (5 \times 10^{4})</m>.
+				Give your final answer in scientific notation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{8 \times 10^4}{4 \times 10^{-6}}</m> and <m>\frac{9 \times 10^{-5}}{3 \times 10^{-2}}</m>.
+				Give your final answer in scientific notation. 
+			</p>
+			<aside>
+				<p>
+					Neither of these calculations should require a calculator. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sn-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<p>
+			In practice, calculations done in scientific notation are done by calculator. More advanced calculators can
+			handle the scientific notation on its own, but others can't. We are going to practice calculations as if the
+			calculators cannot handle scientific notation. The reason for this is to emphasize the logic of scientific
+			notation. 
+		</p>
+		<aside>
+			<p>
+				Different calculators present scientific notation differently. You should learn how your specific
+				calculator works. 
+			</p>
+		</aside>
+		<p>
+			The process of performing the calculation is the same as in the previous problems, except that instead of
+			using mental arithmetic to calculate things like <m>40 + 8</m> and <m>3 \cdot 5</m>, you would use the
+			calculator to calculate things like <m>31.57 + 1.79</m> and <m>(2.83) \cdot (8.9)</m>. 
+		</p>
+		<exercise>
+			<p>
+				Calculate <m>(2.8619 \times 10^6) + (3.18 \times 10^4)</m> using a calculator. Give your final answer in
+				scientific notation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(1.86 \times 10^6) \cdot (4.03 \times 10^{-3})</m> using a calculator. Give your final
+				answer in scientific notation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{8.136 \times 10^{-5}}{2.9 \times 10^{4}}</m> using a calculator. Give your final
+				answer in scientific notation. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

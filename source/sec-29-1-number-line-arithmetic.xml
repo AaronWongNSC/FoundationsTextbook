@@ -1,0 +1,411 @@
+<section xml:id="sec-amnl-1-main">
+	<title>Turn Around and Walk Backwards</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Represent numbers as movement along the number line.
+				</p>
+			</li>
+			<li>
+				<p>
+					Interpret addition and subtraction of numbers as movements along the number line.
+				</p>
+			</li>
+			<li>
+				<p>
+					Understand the equivalence of different types of movements.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		In the previous sections, we have discussed the idea of both numbers and arithmetic being represented by
+		movement. We're going to formalize this idea a bit more in this section. 
+	</p>
+	<p>
+		We will begin by thinking about numbers as arrows that indicate movement. When we were looking at integer chips,
+		we talked about taking a certain number of steps to the left or to the right. It is actually more useful to
+		think about this as taking a certain number of steps forward or backward. Imagine that you are standing on the
+		number line facing to the right:
+	</p>
+	<aside>
+		<p>
+			We have placed dots but no numbers to emphasize the idea that this is about movement and not location. 
+		</p>
+	</aside>
+	<image xml:id="sec-amnl-1-number-line" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-6,0) -- (6,0); 
+				\foreach \i in {-5,...,5} {
+					\draw[fill=black] (\i, 0) circle (0.1); 
+				}
+				\draw[thick, fill=yellow] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Every number represents movement. Positive numbers represent forward steps, negative numbers represent backwards
+		steps, and zero represents taking no steps. It is important to focus on the idea that this is an instruction
+		about movement, not location. This means that 3 means 3 steps forward no matter where you are on the number
+		line.
+	</p>
+	<image xml:id="sec-amnl-1-number-line-3" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-6,0) -- (6,0); 
+				\foreach \i in {-5,...,5} {
+					\draw[fill=black] (\i, 0) circle (0.1); 
+				}
+				\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow] (3,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[dotted,-stealth] (0,-0.5) -- ++ (3,0) node[midway, anchor=north] {\small $3$}; 
+				\draw (0,-.75) -- ++ (0,0.5); 
+				\draw (3,-.75) -- ++ (0,0.5); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Similarly, means steps backwards no matter where you are on the number line. 
+	</p>
+	<image xml:id="sec-amnl-1-number-line-neg3" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-6,0) -- (6,0); 
+				\foreach \i in {-5,...,5} {
+					\draw[fill=black] (\i, 0) circle (0.1); 
+				}
+				\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow] (-3,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[-stealth,dotted] (0,-0.5) -- ++ (-3,0) node[midway, anchor=north] {\small $-3$}; 
+				\draw (0,-.75) -- ++ (0,0.5); 
+				\draw (-3,-.75) -- ++ (0,0.5); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			These arrows are connected to the mathematical concept of vectors. We'll touch on them briefly in the
+			worksheets, but this an advanced topic that goes beyond the scope of this book. 
+		</p>
+	</aside>
+	<p>
+		It is very important that the orientation remain consistent. The default direction is to face to the right, so
+		that the default for "forward" is to the right. From this idea, we can actually reduce the entire picture to
+		just arrows (though we'll stick with including the figure for emphasis). 
+	</p>
+	<image xml:id="sec-amnl-1-arrows" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7] 
+				\begin{scope} [shift={(0,-2)}]
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (-3,0) node[midway, anchor=north] {\small $-3$}; 
+					\draw (0,-.75) -- ++ (0,0.5); 
+					\draw (-3,-.75) -- ++ (0,0.5); 
+				\end{scope} 
+				\begin{scope} [shift={(0,-1)}]
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (-2,0) node[midway, anchor=north] {\small $-2$}; 
+					\draw (0,-.75) -- ++ (0,0.5); 
+					\draw (-2,-.75) -- ++ (0,0.5); 
+				\end{scope} 
+				\begin{scope} [shift={(0,0)}]
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (-1,0) node[midway, anchor=north] {\small $-1$}; 
+					\draw (0,-.75) -- ++ (0,0.5); 
+					\draw (-1,-.75) -- ++ (0,0.5); 
+				\end{scope} 
+				\begin{scope} [shift={(3,0)}]
+					\draw (0,-.75) node[anchor=north] {$0$} -- ++ (0,0.5); 
+				\end{scope} 
+				\begin{scope} [shift={(6,-2)}]
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (3,0) node[midway, anchor=north] {\small $3$}; 
+					\draw (0,-.75) -- ++ (0,0.5); 
+					\draw (3,-.75) -- ++ (0,0.5); 
+				\end{scope} 
+				\begin{scope} [shift={(6,-1)}]
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (2,0) node[midway, anchor=north] {\small $2$}; 
+					\draw (0,-.75) -- ++ (0,0.5); 
+					\draw (2,-.75) -- ++ (0,0.5); 
+				\end{scope} 
+				\begin{scope} [shift={(6,0)}]
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (1,0) node[midway, anchor=north] {\small $1$}; 
+					\draw (0,-.75) -- ++ (0,0.5); 
+					\draw (1,-.75) -- ++ (0,0.5); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<activity xml:id="sec-amnl-1-ac1-adding-numbers">
+		<title>Adding Numbers on a Number Line</title>
+		<p>
+			Addition of two numbers means to perform two sets of movements in sequence. So <m>3 + 4</m> means to move 3
+			steps forward followed by 4 steps forward. The end result is the same as 7 steps forward, so
+			<m>3 + 4 = 7</m>. 
+		</p>
+		<aside>
+			<p>
+				We will use a dotted line for the intermediate steps and a solid line for the final result. 
+			</p>
+		</aside>
+		<image xml:id="sec-amnl-1-addition" width="95%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw[stealth-stealth] (-2,0) -- (10,0); 
+					\foreach \i in {-1,...,9} {
+						\draw[fill=black] (\i, 0) circle (0.1); 
+					}
+					\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+					\draw[thick, fill=yellow,opacity=0.3] (3,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+					\draw[thick, fill=yellow] (7,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (3,0) node[midway, anchor=north] {\small $3$}; 
+					\draw[-stealth,dotted] (3,-0.5) -- ++ (4,0) node[midway, anchor=north] {\small $4$}; 
+					\draw (0,-.75) -- ++ (0,0.5); 
+					\draw (3,-.75) -- ++ (0,0.5); 
+					\draw (7,-.75) -- ++ (0,0.5); 
+					\draw[-stealth] (0,-1.5) -- ++ (7,0) node[midway, anchor=north] {\small $7$}; 
+					\draw (0,-1.75) -- ++ (0,0.5); 
+					\draw (7,-1.75) -- ++ (0,0.5); 
+					\draw (12,0) node[anchor=west] {\strut \boxed{3 + 4 = 7}}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-amnl-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Draw a movement diagram to represent <m>2 + 4</m> and compute the result. 
+		</p>
+		<solution>
+			<image xml:id="sec-amnl-1-ti1-solution" width="95%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7]
+						\draw[stealth-stealth] (-2,0) -- (10,0); 
+						\foreach \i in {-1,...,9} {
+							\draw[fill=black] (\i, 0) circle (0.1); 
+						}
+						\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+						\draw[thick, fill=yellow,opacity=0.3] (2,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+						\draw[thick, fill=yellow] (6,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+						\draw[-stealth,dotted] (0,-0.5) -- ++ (2,0) node[midway, anchor=north] {\small $2$}; 
+						\draw[-stealth,dotted] (2,-0.5) -- ++ (4,0) node[midway, anchor=north] {\small $4$}; 
+						\draw (0,-.75) -- ++ (0,0.5); 
+						\draw (2,-.75) -- ++ (0,0.5); 
+						\draw (6,-.75) -- ++ (0,0.5); 
+						\draw[-stealth] (0,-1.5) -- ++ (6,0) node[midway, anchor=north] {\small $6$}; 
+						\draw (0,-1.75) -- ++ (0,0.5); 
+						\draw (6,-1.75) -- ++ (0,0.5); 
+						\draw (12,0) node[anchor=west] {\strut \boxed{2 + 4 = 6}}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<activity xml:id="sec-amnl-1-ac2-subtracting-numbers">
+		<title>Subtraction on a Number Line</title>
+		<aside>
+			<p>
+				You may be facing the opposite direction, but it's still the same as having taken zero steps. 
+			</p>
+		</aside>
+		<p>
+			Subtraction is the same idea, except that we face to the left before moving for subtracted values. This fits
+			in with the concept of subtraction undoing addition, since if you take a certain number of steps forward
+			then turn around and do it again, you will end up right back where you started. 
+		</p>
+		<p>
+			When reading a calculation, you want to be able to read it as a series of steps from left to right.
+		</p>
+		<image xml:id="sec-amnl-1-subtraction-explained" width="80%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw (-15,0) node[anchor=west] {Step 0: Always start facing right}; 
+					\draw[stealth-] (0.5,-0.5) node[anchor=south] {\strut $4$} |- (-2,-1) ; 
+					\draw (-15,-1) node[anchor=west] {Step 1: Four steps forward}; 
+					\draw[stealth-] (1,-0.5) node[anchor=south] {\strut $-$}|- (-2,-2) ; 
+					\draw (-15,-2) node[anchor=west] {Step 2: Subtraction means to face left}; 
+					\draw[stealth-] (1.5,-0.5) node[anchor=south] {\strut $2$} |- (-2,-3); 
+					\draw (-15,-3) node[anchor=west] {Step 3: Two steps forward}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			In the diagram, it is important to draw the figure facing the correct direction to really emphasize the
+			point. 
+		</p>
+		<image xml:id="sec-amnl-1-subtraction" width="70%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw[stealth-stealth] (-6,0) -- (6,0); 
+					\foreach \i in {-5,...,5} {
+						\draw[fill=black] (\i, 0) circle (0.1); 
+					}
+					\draw[thick, fill=yellow, opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+					\draw[thick, fill=yellow, opacity=0.3] (4,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+					\draw[thick, fill=yellow] (2,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (4,0) node[anchor=north,pos=0.75] {\small $4$}; 
+					\draw[-stealth,dotted] (4,-1.5) -- ++ (-2,0) node[midway, anchor=north] {\small $2$}; 
+					\draw (0,-1.75) -- ++ (0,1.5); 
+					\draw (2,-1.75) -- ++ (0,1.5); 
+					\draw (4,-1.75) -- ++ (0,1.5); 
+					\draw[-stealth] (0,-1.5) -- ++ (2,0) node[midway, anchor=north] {\small $2$}; 
+					\draw (8,0) node[anchor=west] {\strut \boxed{4 - 2 = 2}}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-amnl-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Draw a movement diagram to represent <m>2 - 5</m> and compute the result. 
+		</p>
+		<solution>
+			<image xml:id="sec-amnl-1-ti2-solution" width="70%">
+				<latex-image>
+					\begin{tikzpicture}[scale=0.7]
+						\draw[stealth-stealth] (-6,0) -- (6,0); 
+						\foreach \i in {-5,...,5} {
+							\draw[fill=black] (\i, 0) circle (0.1); 
+						}
+						\draw[thick, fill=yellow, opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+						\draw[thick, fill=yellow, opacity=0.3] (2,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+						\draw[thick, fill=yellow] (-3,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+						\draw[-stealth,dotted] (0,-0.5) -- ++ (2,0) node[anchor=north,midway] {\small $2$}; 
+						\draw[-stealth,dotted] (2,-1.5) -- ++ (-5,0) node[midway, anchor=north] {\small $5$}; 
+						\draw (0,-0.75) -- ++ (0,0.5); 
+						\draw (2,-1.75) -- ++ (0,1.5); 
+						\draw (-3,-1.75) -- ++ (0,1.5); 
+						\draw[-stealth] (0,-0.5) -- ++ (-3,0) node[midway, anchor=north] {\small $-3$}; 
+						\draw (8,0) node[anchor=west] {\strut \boxed{2 - 5 = -3}}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<activity xml:id="sec-amnl-1-ac3-negatives">
+		<title>Arithmetic on a Number with Negative Numbers</title>
+		<p>
+			If we replace the values with negative numbers, the only thing that changes is that instead of forward steps we use backward steps. This does not change the direction that we're facing. 
+		</p>
+		<image xml:id="sec-amnl-1-negative-arithmetic" width="70%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw[stealth-stealth] (-6,0) -- (6,0); 
+					\foreach \i in {-5,...,5} {
+						\draw[fill=black] (\i, 0) circle (0.1); 
+					}
+					\draw[thick, fill=yellow, opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+					\draw[thick, fill=yellow, opacity=0.3] (5,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+					\draw[thick, fill=yellow] (-3,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (5,0) node[anchor=north,midway] {\small $5$}; 
+					\draw[-stealth,dotted] (5,-1.5) -- ++ (-8,0) node[midway, anchor=north] {\small $-8$}; 
+					\draw (0,-0.75) -- ++ (0,0.5); 
+					\draw (5,-1.75) -- ++ (0,1.5); 
+					\draw (-3,-1.75) -- ++ (0,1.5); 
+					\draw[-stealth] (0,-0.5) -- ++ (-3,0) node[midway, anchor=north] {\small $-3$}; 
+					\draw (8,0) node[anchor=west] {\strut \boxed{5 + (-8) = -3}}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-amnl-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Draw a movement diagram to represent <m>3 - (-4)</m> and compute the result. 
+		</p>
+		<solution>
+			<image xml:id="sec-amnl-1-ti3-solution" width="70%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7]
+						\draw[stealth-stealth] (-3,0) -- (9,0); 
+						\foreach \i in {-2,...,8} {
+							\draw[fill=black] (\i, 0) circle (0.1); 
+						}
+						\draw[thick, fill=yellow, opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+						\draw[thick, fill=yellow, opacity=0.3] (3,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+						\draw[thick, fill=yellow] (7,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+						\draw[-stealth,dotted] (0,-0.5) -- ++ (3,0) node[anchor=north,midway] {\small $3$}; 
+						\draw[-stealth,dotted] (3,-0.5) -- ++ (4,0) node[midway, anchor=north] {\small $-4$}; 
+						\draw (0,-1.75) -- ++ (0,1.5); 
+						\draw (3,-0.75) -- ++ (0,0.5); 
+						\draw (7,-1.75) -- ++ (0,1.5); 
+						\draw[-stealth] (0,-1.5) -- ++ (7,0) node[midway, anchor=north] {\small $7$}; 
+						\draw (11,0) node[anchor=west] {\strut \boxed{3 - (-4) = 7}}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		With this representation in place, we can very quickly understand and visualize a particular relationship
+		between addition and subtraction. Notice that facing right and walking backward results in the same type of
+		movement as facing left and walking forward. Similarly, facing right and walking forward is the same as facing
+		left and walking backward. 
+	</p>
+	<image xml:id="sec-amnl-1-four-possibilities" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7] 
+				\begin{scope} [shift={(0,-5)}]
+					\draw (-1.5,2) node[anchor=south] {Face right, move backward}; 
+					\draw[stealth-stealth] (-5,0) -- (2,0); 
+					\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+					\draw[thick, fill=yellow] (-3,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (-3,0); 
+					\draw (0,-.75) -- ++ (0,0.5); 
+					\draw (-3,-.75) -- ++ (0,0.5); 
+				\end{scope} 
+				\begin{scope} [shift={(0,0)}]
+					\draw (-1.5,2) node[anchor=south] {Face left, move forward}; 
+					\draw[stealth-stealth] (-5,0) -- (2,0); 
+					\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+					\draw[thick, fill=yellow] (-3,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (-3,0); 
+					\draw (0,-.75) -- ++ (0,0.5); 
+					\draw (-3,-.75) -- ++ (0,0.5); 
+				\end{scope}
+				\draw (3,3) -- ++ (0 ,-9); 
+				\begin{scope} [shift={(6,-5)}]
+					\draw (1.5,2) node[anchor=south] {Face right, move forward}; 
+					\draw[stealth-stealth] (-2,0) -- (5,0); 
+					\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+					\draw[thick, fill=yellow] (3,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (3,0); 
+					\draw (0,-.75) -- ++ (0,0.5); 
+					\draw (3,-.75) -- ++ (0,0.5); 
+				\end{scope} 
+				\begin{scope} [shift={(6,0)}]
+					\draw (1.5,2) node[anchor=south] {Face left, move backward}; 
+					\draw[stealth-stealth] (-2,0) -- (5,0); 
+					\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+					\draw[thick, fill=yellow] (3,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+					\draw[-stealth,dotted] (0,-0.5) -- ++ (3,0); 
+					\draw (0,-.75) -- ++ (0,0.5); 
+					\draw (3,-.75) -- ++ (0,0.5); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		These diagrams show us the following relationships:
+	</p>
+	<aside>
+		<p>
+			Make sure you study the pictures and equations closely! 
+		</p>
+	</aside>
+	<me>
+		\begin{array}{lrll}
+			\textit{(Top-left)} \qquad \phantom{.} \amp a - b \amp = a + (-b) \amp \qquad  \textit{(Bottom-left)} \\
+			\textit{(Top-right)} \qquad  \phantom{.} \amp a - (-b) \amp = a + b \amp \qquad \textit{(Bottom-right)}
+		\end{array}
+	</me> 
+	<p>
+		These ideas give us a clear representation of "subtraction is addition of the opposite." Walking forward (no
+		matter which way you're facing) gives you the same result as turning around and walking backward. At a very deep
+		level, this is just another way to see that addition and subtraction are fundamentally related concepts.
+	</p>
+	<aside>
+		<p>
+			We saw earlier that addition has properties like commutativity and associativity, so we actually view
+			addition as the fundamental operation, and subtraction is the inverse of addition. 
+		</p>
+	</aside>
+</section>

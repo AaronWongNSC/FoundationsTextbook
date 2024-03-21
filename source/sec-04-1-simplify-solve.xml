@@ -1,0 +1,319 @@
+<section xml:id="sec-sese-1-main">
+	<title>Read the Instructions</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Distinguish between mathematical equations and expressions.
+				</p>
+			</li>
+			<li>
+				<p>
+					Recognize the differences between different sets of instructions.
+				</p>
+			</li>
+			<li>
+				<p>
+					Correctly execute the instructions that are given.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		An important aspect of mathematics is the attention to detail and precision required to do it well. However, for
+		many students (and even many teachers) the importance of that precision is often overlooked in favor of
+		repetitive execution. The most prevalent example of imprecision in language for mathematics at this level is the
+		word "solve." Unfortunately, this word is used as a placeholder for a wide range of mathematical procedures.
+	</p>
+	<aside>
+		<p>
+			Words are extremely important to mathematics. 
+		</p>
+	</aside>
+	<p>
+		Here are some examples: 
+		<ul>
+			<li>
+				<p>
+					Solve <m>5 + 8</m>. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Solve <m>5x + 8x</m>. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Solve <m>5x + 8 = 23</m>. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Solve <m>x^2 + 6x + 9</m>. 
+				</p>
+			</li>
+		</ul>
+		Only one of these reflects the proper usage of the word "solve." Do you know which one it is? Can you come up
+		with a description of what that word means? 
+	</p>
+	<aside>
+		<p>
+			Are you going to stop to think about that question, or just keep reading? 
+		</p>
+	</aside>
+	<p>
+		When one word comes to represent so many different activities, it becomes extremely confusing to know what's
+		being asked of you. But by taking the time to be precise with our language, we can create mental categories to
+		help us keep information organized. Here are the same calculations, but given with proper instructions. 
+		<ul>
+			<li>
+				<p>
+					Calculate <m>5 + 8</m>. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Simplify <m>5x + 8x</m>. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Solve <m>5x + 8 = 23</m>. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Factor <m>x^2 + 6x + 9</m>. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			Do any of these words make you think of specific procedures? 
+		</p>
+	</aside>
+	<p>
+		There are even more words that can be used as instructions. Evaluate, compute, estimate, round, rewrite, verify,
+		prove, plot, sketch, and graph are just some of them. Some of these are similar to each other, and some are very
+		different. 
+	</p>
+	<p>
+		The purpose of this section is to help you to make sense of some of these words to create some of the mental
+		structures that will help you think through the ideas more effectively. As usual, we will start with a couple
+		definitions. 
+	</p>
+
+    <definition xml:id="def-expression">
+        <title>Expression</title>
+        <idx><h>expression</h></idx>
+        
+        <statement>
+            <p>
+				A mathematical <term>expression</term> is a meaningful collection of mathematical symbols that
+				represents a value.
+            </p>
+        </statement>
+    </definition>
+
+	<p>
+		Whether or not something is meaningful depends on your level of knowledge. And the number of symbols that are
+		meaningful should grow over time in the same way that your vocabulary grows over time. At this point, you should
+		recognize that "<m>5 + \strut</m>" is not meaningful, but you might not be able to determine whether "<m>2 \sin
+		\pi - 1</m>" is if you've never seen trigonometry (and maybe even if you have). 
+	</p>
+	<aside>
+		<p>
+			"<m>5 + \strut</m>" doesn't say what number to add to 5. "<m>2 \sin \pi - 1</m>" is a valid expression. It's
+			okay if you don't know what that means right now. 
+		</p>
+	</aside>
+	<p>
+		Numbers (such as 5 and and monomials (such as and are expressions. Expressions may also consist of calculations
+		(such as <m>5 + 8</m>) or polynomials (such as <m>x^2 - 8x + 12</m>). Between these last two examples, there is
+		an important distinction. There is a shorter way to write <m>5 + 8</m> with fewer symbols (namely, as the number
+		13), but we cannot do the same with <m>x^2 - 8x + 12</m>. 
+	</p>
+
+    <definition xml:id="def-simplify">
+        <title>Simplify</title>
+        <idx><h>simplify</h></idx>
+        
+        <statement>
+            <p>
+				To <term>simplify</term> an expression means to find the simplest mathematical expression that
+				represents the same quantity.
+            </p>
+        </statement>
+    </definition>
+
+	<p>
+		This is a broad category for a lot of mathematical concepts. For example, the process of combining like terms is
+		one way to simplify an expression, since we can reasonably see that <m>5x + 8x</m> is not as simple as
+		<m>13x</m>. We can also use this word for arithmetic calculations such as <m>8 + 6 \cdot 7 - 12</m>. You will
+		sometimes see words like calculate or compute for these types of problems. 
+	</p>
+	<aside>
+		<p>
+			We will take a deeper look at the order of operations in a later section. 
+		</p>
+	</aside>
+	<p>
+		We didn't bring any attention to it, but in the last section we demonstrated the presentation format for
+		problems where the goal is simplification. 
+		<me>
+			\begin{aligned}
+			\text{(Original Expression)} \amp = \text{(Manipulated Expression 1)} \amp \eqnspacer \amp \text{Explanation 1} \\
+			\amp = \text{(Manipulated Expression 2)} \amp \amp \text{Explanation 2} \\
+			\amp = \cdots \\
+			\amp = \text{(Final Expression)} \amp \amp \text{Final explanation} 
+			\end{aligned}
+		</me>
+		You can think of this as a long line of small manipulations. It's helpful to go over to the right before going
+		down so that you can more easily visualize the idea that the top expression on the left side is the thing that
+		is equal to all of the expressions on the right. But it's not strictly necessary to do that. The more important
+		thing is to recognize that each new line is a continuation from the previous one, and not an entirely new
+		equation. 
+	</p>
+	<activity xml:id="sec-sese-1-ac1-simplifying-expression">
+		<title>Simplifying an Expression</title>
+		<p>
+			If you look back at the section on combining like terms, you will see the above presentation in all of the
+			presented work throughout the section. The examples exist not only to show you the ideas, but also to model
+			how you write things. 
+		</p>
+		<p>
+			<alert xml:id="sec-sese-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Simplify the expression <m>(3x + 7y) - (4x + 5y)</m> using a complete presentation. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						(3x + 7y) - (4x + 5y) \amp = 3x + 7y - 4x - 5y \amp \amp \text{Distributive property} \\
+						\amp = 3x - 4x + 7y - 5y \amp \amp \text{Rearrange the terms} \\
+						\amp = (3x - 4x) + (7y - 5y) \amp \amp \text{Group the terms} \\
+						\amp = (3-4)x + (7-5)y \amp \amp \text{Factor out the $x$ and the $y$} \\
+						\amp = -x + 2y \amp \amp \text{Arithmetic} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<p>
+		The reason the distinction in presentation is important is because the types of things you're allowed to do when
+		simplifying an expression are different from the things you can do when solving an equation. 
+	</p>
+
+    <definition xml:id="def-equation">
+        <title>Equation</title>
+        <idx><h>equation</h></idx>
+        
+        <statement>
+            <p>
+				A mathematical <term>equation</term> is a statement of the form <m>A = B</m>, where <m>A</m> and
+				<m>B</m> are mathematical expressions. The statement <m>A = B</m> means that both <m>A</m> and <m>B</m>
+				represent the same mathematical quantity.
+            </p>
+        </statement>
+    </definition>
+	<p>
+		The equal sign can be read as "represents the same quantity as," so that <m>A = B</m> can be read as "<m>A</m>
+		represents the same quantity as <m>B</m>."
+	</p>
+	<aside>
+		<p>
+			Some people use "is" because it's a lot shorter. However, it's a little less precise to say it that way. 
+		</p>
+	</aside>
+	<p>
+		If we think of expressions as phrases, then equations are sentences. The important distinction here is that
+		equations make a declaration that is either true or false, where as expressions are just ideas. For example,
+		"the dog" is just an expression. If we say "the dog" without any context, the response is, "What about it?" But
+		we can turn it into a complete thought, such as "the dog is brown," which is going to be either true or false.
+		We won't know whether it's true or false until we pick a particular dog to look at. 
+	</p>
+	<p>
+		In the same way, is a mathematical expression. It just represents a number, like 5. It's not until we put it
+		into a mathematical equation (such as <m>2x = 10</m>) that we can start to analyze the truth value. Depending on
+		the specific value of the equation might be true or it might not be true. If <m>x = 4</m> then the equation is
+		not true, but if <m>x = 5</m> then the equation is true. 
+	</p>
+
+    <definition xml:id="def-solve-solution">
+        <title>Solve and Solution of an Equation</title>
+        <idx><h>solve</h> <h>equation</h> </idx>
+        <idx><h>solution</h> <h>of an equation</h> </idx>
+        
+        <statement>
+            <p>
+				To <term>solve</term> an equation means to find the value (or values) of the variable (or variables)
+				that make the equation true. A <term>solution</term> of an equation is a specific value of the variable
+				(or specific values of the variables) that make the equation true.
+            </p>
+        </statement>
+    </definition>
+
+	<p>
+		We're not going to spend a lot of time discussing <em>truth values</em> and just rely on your intuition. The 
+		quation <m>2 + 3 = 5</m> is true and the equation <m>7 - 4 = 2</m> is false. We can apply the same ideas to
+		equations with variables. It's true that if <m>x = 2</m> then <m>3x - 1 = 5</m>, and it's false that when
+		<m>x = 2</m>, <m>3x - 1 = 7</m>. This means that <m>x = 2</m> is a solution of the equation <m>3x - 1 = 5</m>,
+		but is not a solution of the equation <m>3x - 1 = 7</m>. 
+	</p>
+	<p>
+		When working with equations, the key idea is that we have to maintain the equality. If we perform an arithmetic
+		operation on one side of the equation, then we must do it to the other side. As you get further in mathematics,
+		the types of manipulations become more complex, and there are other types of properties that you have to keep
+		in mind when working with equations. 
+	</p>
+	<aside>
+		<p>
+			For example, if you take the square root of both sides of an equation, you need to use a <m>\pm</m> symbol
+			since that operation creates two possibilities. 
+		</p>
+	</aside>
+	<p>
+		The presentation format when working with equations looks like the following:
+		<me>
+			\begin{array}{ccc}
+				\text{(Original Equation)} \\
+				\text{(Manipulated Equation 1)} \amp \eqnspacer \amp \text{Explanation 1} \\
+				\text{(Manipulated Equation 2)} \amp \amp \text{Explanation 2} \\
+				\cdots \\
+				\text{(Final Equation)} \amp \amp \text{Final explanation} 
+			\end{array}
+		</me>
+		When reading the meaning of this, what we're saying is that if the original equation is true, then the first
+		manipulated equation is true because of the reason in explanation 1. Then the next equation is true because of
+		the next manipulation, and so forth. 
+	</p>
+	<activity xml:id="sec-sese-1-ac2-solving-equation">
+		<title>Solving an Equation</title>
+		<p>
+			If you look back at the section about algebraic presentation, we used the same structure there that we're
+			advocating here. 
+		</p>
+		<p>
+			<alert xml:id="sec-sese-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Solve the equation <m>5x - 7 = 7x + 11</m> using a complete presentation. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						5x - 7 \amp = 7x + 11 \\
+						5x \amp = 7x + 18 \amp \amp \text{Add $7$ to both sides} \\
+						-2x \amp = 18 \amp \amp \text{Subtract $7x$ from both sides} \\
+						x \amp = -9 \amp \amp \text{Divide both sides by $-2$} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+</section>

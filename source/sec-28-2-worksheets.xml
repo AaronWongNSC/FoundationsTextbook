@@ -1,0 +1,273 @@
+<section xml:id="sec-cic-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/28-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-cic-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Calculate <m>3 + 4</m> using an integer chip diagram and a number line diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-2 + (-5)</m> using an integer chip diagram and a number line diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-2 + 6</m> using an integer chip diagram and a number line diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>3 + (-5)</m> using an integer chip diagram and a number line diagram. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-cic-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Calculate <m>2 - (-5)</m> using an integer chip diagram and a number line diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-4 - (-1)</m> using an integer chip diagram and a number line diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-2 - 4</m> using an integer chip diagram and a number line diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>5 - 3</m> using an integer chip diagram and a number line diagram. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-cic-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Perform the following calculations using a mental framework of integer chips. 
+			</p>
+			<aside>
+				<p>
+					This just means to think about the integer chip diagrams without actually drawing them. 
+				</p>
+			</aside>
+			<p>
+				<me>
+					\begin{aligned}
+						3 + 4 \amp = \\
+						-2 + 8 \amp = \\
+						-5 + 1 \amp = \\
+						2 + (-5) \amp = \\
+						8 + (-4) \amp = \\
+						-3 + (-5) \amp = \\
+						-4 + 6 \amp = \\
+						-7 + 7 \amp = \\
+						6 + (-4) \amp = 
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Perform the following calculations by rewriting them as addition calculations that can be done with
+				integer chips and then performing the calculation. 
+			</p>
+			<aside>
+				<p>
+					Visualize or verbalize the process as you go through it, but you do not need to write words or draw
+					pictures. Focus on which chips you start with, the chips you have after you've flipped some of them,
+					and the cancellation of zero pairs. 
+				</p>
+			</aside>
+			<p>
+				<me>
+					\begin{aligned}
+						8 - 4 \amp = \\
+						3 - 7 \amp = \\
+						-2 - 4 \amp = \\
+						4 - 9 \amp = \\
+						-3 - 3 \amp = \\
+						7 - 3 \amp = \\
+						-5 - 3 \amp = \\
+						5 - 7 \amp = \\
+						5 - 2 \amp = 
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Practice your mental arithmetic by performing the following calculations.
+			</p>
+			<p>
+				<me>
+					\begin{aligned}
+						21 - 48 \amp = \\
+						33 + (-15) \amp = \\
+						-27 + 59 \amp = \\
+						-32 + 15 \amp = \\
+						29 - (-55) \amp = \\
+						-18 + (-25) \amp = \\
+						11 + (-36) \amp = \\
+						-42 - (-26) \amp = \\
+						-42 + 37 \amp = 
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Practice your mental arithmetic by performing the following calculations.
+			</p>
+			<p>
+				<me>
+					\begin{aligned}
+						218 - 134 \amp = \\
+						-143 + 237 \amp = \\
+						-115 + (-283) \amp = \\
+						142 - 280 \amp = \\
+						-248 - (-333) \amp = \\
+						272 + (-358) \amp =
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-cic-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				There is a common phrase that is associated with subtraction: "Subtraction is addition of the opposite."
+				Integer chips and the number line can help to illuminate this concept. Consider the following diagram: 
+			</p>
+			<image xml:id="sec-cic-2-wksht-4-1" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.3] 
+						\begin{scope} [shift={(0,0)}]
+							\draw[ultra thick, fill=yellow] (0,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw (0,-1.5) node[anchor=north] {\strut $1$}; 
+						\end{scope}
+						\draw (5,-1.5) node[anchor=north] {\strut $+$}; 
+						\begin{scope} [shift={(10,0)}]
+							\draw[ultra thick, fill=red] (0,0) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+							\draw (0,-1.5) node[anchor=north] {\strut $(-1)$}; 
+						\end{scope}
+						\draw (15,-1.5) node[anchor=north] {\strut $=$}; 
+						\begin{scope} [shift={(20,0)}]
+							\draw[ultra thick, gray] (0,0) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+							\draw (0,-1.5) node[anchor=north] {\strut $0$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<aside>
+				<p>
+					What does it mean for one thing to be the "opposite" of another thing? 
+				</p>
+			</aside>
+			<p>
+				 How would you describe the idea that and are "opposite" numbers? How well does this idea extend to
+				 other numbers? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Describe how integer chips can be used to demonstrate the idea that "subtraction is addition of the
+				opposite." (Hint: You may want to think about the physical manipulation of the chips when doing
+				subtraction, and the relationship between a number and its opposite.) 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				The more technical term of the "opposite" of a number is the "additive inverse" of a number. The
+				additive inverse of a number is the number that has the property that <m>a + b = 0</m>. Using this
+				definition, we can see that is the opposite of since <m>1 + (-1) = 0</m>. Use this definition to argue
+				that the additive inverse of the additive inverse of a number is itself. 
+			</p>
+			<aside>
+				<p>
+					This is another tricky problem. Focus on the defining property of the additive inverse of a number. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-cic-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Integer chips can be combined with a variable chip to represent simple algebraic equations. Here is a
+				representation of the equation <m>x + 2 = 6</m>:
+			</p>
+			<image xml:id="sec-cic-2-wksht-5-1" width="70%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.3] 
+						\begin{scope} [shift={(0,0)}]
+							\draw[ultra thick, fill=blue!50!white] (0,0) circle (1) node[anchor=center] {\Large \textbf{?}}; 
+							\draw[ultra thick, fill=yellow] (2.5,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (5,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\end{scope} \draw (10,0) node[anchor=center] {\strut $=$}; 
+						\begin{scope} [shift={(15,0)}]
+							\draw[ultra thick, fill=yellow] (0,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (2.5,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (5,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (7.5,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (10,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (12.5,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				The equation can be "solved" by adding the same type and number of chips to both sides of the equation
+				until the unknown chip has been isolated. Describe the step required to isolate the unknown and
+				determine its value. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				The concept of division is making even groupings of things. The following is a visual demonstration of
+				the fact that <m>2x = 6</m> means that <m>x = 3</m>: 
+			</p>
+			<image xml:id="sec-cic-2-wksht-5-2" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.3] 
+						\begin{scope} [shift={(0,0)}]
+							\draw[ultra thick, fill=blue!50!white] (0,0) circle (1) node[anchor=center] {\Large \textbf{?}}; 
+							\draw[ultra thick, fill=blue!50!white] (0,-2.5) circle (1) node[anchor=center] {\Large \textbf{?}}; 
+						\end{scope}
+						\draw (5,-1.25) node[anchor=center] {\strut $=$}; 
+						\begin{scope} [shift={(10,0)}]
+							\draw[ultra thick, fill=yellow] (0,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (2.5,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (5,0) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (0,-2.5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (2.5,-2.5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (5,-2.5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				 Draw a series of integer chip diagrams that demonstrate solving the equation <m>2x + 4 = -8</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				This type of visual representation of solving equations can be very helpful for introducing young
+				children to algebraic reasoning. However, the practical use of this turns out to be very limited. Why do
+				you think that is? 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

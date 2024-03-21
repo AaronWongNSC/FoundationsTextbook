@@ -1,0 +1,443 @@
+<section xml:id="sec-div-5-deeper">
+	<title>Going Deeper: Remainders and Decimals</title>
+	<p>
+		In this section, we mostly avoided remainders so that the focus would be on the primary concept of division.
+		We're going to take a deeper dive into this topic to see how this idea relates back to one of the core concepts
+		of fractions, and also take a deeper look at the decimals associated with those fractions. 
+	</p>
+	<aside>
+		<p>
+			Remainders are useful in certain areas of mathematics, so it's not that the idea isn't used. But we don't
+			use the R notation in those other settings. 
+		</p>
+	</aside>
+	<p>
+		It's often the case that division problems don't work out evenly. In elementary school, children learn that when
+		you have leftover pieces, it's called a remainder. And in the long division process, they are often taught to
+		write their answers with an R, so that a calculation like <m>11 \div 3</m> results in <m>3 \, \text{R}2</m>.
+		What's interesting about this notation is that there's no other place in mathematics where we use it. 
+	</p>
+	<p>
+		The main tool for working with remainders is the idea of parts of a whole, which we discussed in detail in
+		<xref ref="sec-fb-1-main" />. The basic idea is that the fraction means to take a whole unit (often represented
+		by a circle) and cut it into pieces, and then the quantity is the amount you would have if you had of those
+		pieces. breaking a whole unit into pieces allows us to make groupings and equal-sized distributions when the
+		calculation doesn't work out evenly. 
+	</p>
+	<p>
+		For example, in the calculation <m>11 \div 3</m>, if we were thinking about making groupings, we would have
+		three full groups and two out of three pieces to make another group. The language of "two out of three pieces"
+		is exactly mirroring the language we use with parts of a whole. Here's what looks like as a parts of a whole
+		diagram: 
+	</p>
+	<image xml:id="sec-div-5-parts-of-whole" width="90%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.7]
+				\draw (0,0) node[anchor=east] {$\frac{11}{3}$}; 
+				\begin{scope} [shift={(1,0)}]
+					\draw[-stealth] (-1,0) -- (0,0); 
+					\draw[fill=lightgray] (1.5,0) circle (1); 
+					\draw (1.5,0) -- ++ (0:1); 
+					\draw (1.5,0) -- ++ (120:1); 
+					\draw (1.5,0) -- ++ (240:1); 
+					\draw[fill=lightgray] (4,0) circle (1); 
+					\draw (4,0) -- ++ (0:1); 
+					\draw (4,0) -- ++ (120:1); 
+					\draw (4,0) -- ++ (240:1); 
+					\draw[fill=lightgray] (6.5,0) circle (1); 
+					\draw (6.5,0) -- ++ (0:1); 
+					\draw (6.5,0) -- ++ (120:1); 
+					\draw (6.5,0) -- ++ (240:1); 
+					\draw[fill=lightgray] (9,0) -- ++ (0:1) arc (0:240:1) -- cycle; 
+					\draw (9,0) circle (1); 
+					\draw (9,0) -- ++ (0:1); 
+					\draw (9,0) -- ++ (120:1); 
+					\draw (9,0) -- ++ (240:1); 
+					\draw (1.5,0) ++ (60:0.5) node[anchor=center,rotate=-30] {\scriptsize \strut $1$}; 
+					\draw (1.5,0) ++ (180:0.5) node[anchor=center,rotate=90] {\scriptsize \strut $2$}; 
+					\draw (1.5,0) ++ (300:0.5) node[anchor=center,rotate=210] {\scriptsize \strut $3$}; 
+					\draw (4,0) ++ (60:0.5) node[anchor=center,rotate=-30] {\scriptsize \strut $4$}; 
+					\draw (4,0) ++ (180:0.5) node[anchor=center,rotate=90] {\scriptsize \strut $5$}; 
+					\draw (4,0) ++ (300:0.5) node[anchor=center,rotate=210] {\scriptsize \strut $6$}; 
+					\draw (6.5,0) ++ (60:0.5) node[anchor=center,rotate=-30] {\scriptsize \strut $7$}; 
+					\draw (6.5,0) ++ (180:0.5) node[anchor=center,rotate=90] {\scriptsize \strut $8$}; 
+					\draw (6.5,0) ++ (300:0.5) node[anchor=center,rotate=210] {\scriptsize \strut $9$}; 
+					\draw (9,0) ++ (60:0.5) node[anchor=center,rotate=-30] {\scriptsize \strut $10$}; 
+					\draw (9,0) ++ (180:0.5) node[anchor=center,rotate=90] {\scriptsize \strut $11$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		This gives us the explicit image of having three full groups and two out of three pieces needed for another
+		group. If we wanted to view this as equal distribution, we would have a diagram that looks more like this:
+	</p>
+	<image xml:id="sec-div-5-equal-distribution" width="95%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.4]
+				\begin{scope}
+					\draw (-6,0.5) node[anchor=west] {\strut $11$ objects}; 
+					\draw (-6,-1.5) node[anchor=west] {\strut $2\frac{2}{3}$ in each of $3$ groups}; 
+				\end{scope} 
+				\begin{scope} [shift={(4,0)}]
+					\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (2,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (4,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (6,0) rectangle ++ (1,1); 
+					\draw (6.3333,0) -- ++ (0,1); 
+					\draw (6.6667,0) -- ++ (0,1); 
+					\draw[fill=lightgray] (8,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (10,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (12,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (14,0) rectangle ++ (1,1); 
+					\draw (14.3333,0) -- ++ (0,1); 
+					\draw (14.6667,0) -- ++ (0,1); 
+					\draw[fill=lightgray] (16,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (18,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (20,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (1.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (2.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (3.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (4.5,-2) rectangle ++ (0.6667,1); 
+					\draw (4.8333,-2) -- ++ (0,1); 
+					\draw[fill=lightgray] (9,-2) rectangle ++ (-0.3333,1); 
+					\draw[fill=lightgray] (9,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (10,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (11,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (12,-2) rectangle ++ (0.3333,1); 
+					\draw[fill=lightgray] (16.5,-2) rectangle ++ (-0.6667,1); 
+					\draw (16.1667,-2) -- ++ (0,1); 
+					\draw[fill=lightgray] (16.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (17.5,-2) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (18.5,-2) rectangle ++ (1,1); 
+					\draw[-stealth] ($ (0.5,0)!0.2!(2,-1) $) -- ($ (0.5,0)!0.8!(2,-1) $); 
+					\draw[-stealth] ($ (2.5,0)!0.2!(3,-1) $) -- ($ (2.5,0)!0.8!(3,-1) $); 
+					\draw[-stealth] ($ (4.5,0)!0.2!(4,-1) $) -- ($ (4.5,0)!0.8!(4,-1) $); 
+					\draw[-stealth] ($ (6.5,0)!0.2!(5,-1) $) -- ($ (6.5,0)!0.8!(5,-1) $); 
+					\draw[-stealth] ($ (6.5,0)!0.2!(8.5,-1) $) -- ($ (6.5,0)!0.8!(8.5,-1) $); 
+					\draw[-stealth] ($ (8.5,0)!0.2!(9.5,-1) $) -- ($ (8.5,0)!0.8!(9.5,-1) $); 
+					\draw[-stealth] ($ (10.5,0)!0.2!(10.5,-1) $) -- ($ (10.5,0)!0.8!(10.5,-1) $); 
+					\draw[-stealth] ($ (12.5,0)!0.2!(11.5,-1) $) -- ($ (12.5,0)!0.8!(11.5,-1) $); 
+					\draw[-stealth] ($ (14.5,0)!0.2!(12.5,-1) $) -- ($ (14.5,0)!0.8!(12.5,-1) $); 
+					\draw[-stealth] ($ (14.5,0)!0.2!(16,-1) $) -- ($ (14.5,0)!0.8!(16,-1) $); 
+					\draw[-stealth] ($ (16.5,0)!0.2!(17,-1) $) -- ($ (16.5,0)!0.8!(17,-1) $); 
+					\draw[-stealth] ($ (18.5,0)!0.2!(18,-1) $) -- ($ (18.5,0)!0.8!(18,-1) $); 
+					\draw[-stealth] ($ (20.5,0)!0.2!(19,-1) $) -- ($ (20.5,0)!0.8!(19,-1) $); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		In both situations, the need for having parts of a whole comes up naturally. 
+	</p>
+	<p>
+		In <xref ref="sec-mpd-2-worksheets" />, there were a couple exercises on the worksheet that discussed the conversion of
+		fractions to decimals. In those sections, we simply assumed that you had sufficient familiarity with decimals
+		that you would be able to come up with the answers and they would make sense to you. But we didn't really talk
+		about what was going on with those decimals. 
+	</p>
+	<p>
+		Recall that decimals are really just fractions with powers of ten in the denominator. And so in some sense,
+		decimal expansions are just another way of trying to express a division calculation. In most practical settings,
+		it's far more likely that remainders will be expressed as decimals instead of fractions. There are many reasons
+		for this, including the simple fact that we use computers and calculators and they generally give us decimal
+		answers. 
+	</p>
+	<p>
+		<idx><h>decimal</h> <h>terminating</h></idx>
+		Some fractions have <term>terminating</term> decimal expansions. This means that at some point the decimal stops 
+		and gives us an exact answer. The simplest examples are the ones where we start with a power of ten in the
+		denominator. For example, <m>\frac{3}{10} = 0.3</m> and <m>\frac{51}{100} = 0.51</m>. These are quite literally
+		the direct translation of fractions to decimals. 
+	</p>
+	<p>
+		In other cases, we may not initially have a power of ten in the denominator, but we can get there by finding a
+		different representation of that fraction. Here are a couple examples of this:
+		<me>
+			\frac{1}{2} = \frac{1 \cdot 5}{2 \cdot 5} = \frac{5}{10} = 0.5 \qquad \qquad \qquad
+			\frac{3}{4} = \frac{3 \cdot 25}{4 \cdot 25} = \frac{75}{100} = 0.75
+		</me>
+		In both of these situations, there's a way to cut up our parts of a whole diagram so that we have a power of te
+		 pieces. We can visualize this with but with it's very difficult to see all subdivisions so we didn't draw all
+		 of them. But you should get the general idea from the diagram. 
+	</p>
+	<image xml:id="sec-div-1-equivalent-fractions">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope}
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:180:1) -- cycle; 
+					\draw (0,0) ++ (180:1) arc (180:360:1); 
+					\draw (0,-1.5) node[anchor=north] {$\frac{1}{2}$}; 
+				\end{scope} 
+				\begin{scope} [shift={(3,0)}]
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:180:1) -- cycle; 
+					\draw (0,0) ++ (180:1) arc (180:360:1); 
+					\draw (0,0) -- ++ (36:1); 
+					\draw (0,0) -- ++ (72:1); 
+					\draw (0,0) -- ++ (108:1); 
+					\draw (0,0) -- ++ (144:1); 
+					\draw (0,0) -- ++ (180:1); 
+					\draw (0,0) -- ++ (216:1); 
+					\draw (0,0) -- ++ (252:1); 
+					\draw (0,0) -- ++ (288:1); 
+					\draw (0,0) -- ++ (324:1); 
+					\draw (0,-1.5) node[anchor=north] {$\frac{5}{10}$}; 
+				\end{scope} 
+				\begin{scope} [shift={(7,0)}]
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:270:1) -- cycle; 
+					\draw (0,0) ++ (270:1) arc (270:360:1); 
+					\draw (0,0) -- ++ (90:1); 
+					\draw (0,0) -- ++ (180:1); 
+					\draw (0,-1.5) node[anchor=north] {$\frac{3}{4}$}; 
+				\end{scope} 
+				\begin{scope} [shift={(10,0)}]
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:270:1) -- cycle; 
+					\draw (0,0) ++ (270:1) arc (270:360:1); 
+					\foreach \x in {0,...,36} {
+						\draw[ultra thin] (0,0) -- ++ ({10*\x}:1); 
+					}; 
+					\draw (0,-1.5) node[anchor=north] {$\frac{75}{100}$}; 
+				\end{scope} 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Next, we have fractions for which we simply cannot use integers to get that representation. For example, with
+		the fraction <m>\frac{1}{3}</m> there is no integer value <m>x</m> so that is equal to a power of ten:
+		<me>
+			 \begin{array}{rlrl}
+				3x \amp = 1  \amp \implies x \amp = \frac{1}{3}\\
+				3x \amp = 10  \amp \implies x \amp = 3 \frac{1}{3}\\
+				3x \amp = 100 \amp \implies x \amp = 33 \frac{1}{3} \\
+				3x \amp = 1000 \amp \implies x \amp = 333 \frac{1}{3} \\
+				3x \amp = 10000 \amp \implies x \amp = 3333 \frac{1}{3} \\
+				3x \amp = 100,000 \amp \implies x \amp = 33333 \frac{1}{3} \\
+				3x \amp = 1,000,000 \amp \implies x \amp = 333,333 \frac{1}{3}
+			\end{array}
+		</me>
+		We can see that no matter how far out we go, we'll never get an integer answer. 
+	</p>
+	<p>
+		<idx><h>decimal</h> <h>repeating</h></idx>
+		These values were written as mixed numbers for a reason. That reason is that it makes it clear that even though
+		there is no integer value, there's a definite pattern that's developing. There is some number of 3s but then
+		there's always one out of three pieces left over. And this happens over and over again. Because of this, we know
+		that the decimal expansion for <m>\frac{1}{3}</m> is a <term>repeating decimal</term>. 
+	</p>
+	<aside>
+		<p>
+			The implicit <m>\ldots</m> notation can be confusing because we also use when we have decimals that don't
+			repeat. For example, <m> \pi = 3.14159265\ldots </m>.
+		</p>
+	</aside>
+	<p>
+		The idea of a repeating decimal is that there is some pattern of numbers that repeats indefinitely. The pattern
+		is not limited to a single digit, nor does it have to start immediately after the decimal. The feature is that
+		the decimal eventually falls into a fixed pattern. There are two notations for repeating decimals. The implicit
+		notation leaves it to the person reading it to identify the pattern. For example, here is the decimal expansion
+		of
+		<me>
+			\frac{1}{3} = 0.333333\ldots
+		</me>
+		In this case, the pattern is pretty easy to spot. But there's also an explicit notation that specifically marks
+		out the pattern. This is good for patterns that take longer to repeat:
+		<me>
+			\frac{7}{17} = 0.\overline{4117647058823529}
+		</me> 
+	</p>
+	<p>
+		We're going to spend some time exploring the nature of these repeating decimals by thinking about fractions. Can
+		we explain why those decimals repeat? If we look at the column of values we had for the fraction we can see that
+		keeps appearing over and over again. The process being shown above in equations is a bit easier to understand in
+		pictures. We are trying to calculate <m>\frac{1}{3} = 1 \div 3</m>. We will represent by a bar:
+	</p>
+	<image xml:id="sec-div-5-unit-bar" width="70%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw[fill=lightgray] (0,0) rectangle ++ (10,1); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		We want to divide this into three equal pieces. However, decimals constrain us to having to break things into
+		ten pieces. So we'll do that and do our best to create three equal groupings without breaking things up any
+		further:
+	</p>
+	<image xml:id="sec-div-5-unit-bar-grouped" width="85%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw[fill=lightgray] (0,0) rectangle ++ (3,1); 
+				\draw (1,0) -- ++ (0,1); 
+				\draw (2,0) -- ++ (0,1); 
+				\draw[fill=lightgray] (4,0) rectangle ++ (3,1); 
+				\draw (5,0) -- ++ (0,1); 
+				\draw (6,0) -- ++ (0,1); 
+				\draw[fill=lightgray] (8,0) rectangle ++ (3,1); 
+				\draw (9,0) -- ++ (0,1); 
+				\draw (10,0) -- ++ (0,1); 
+				\draw[fill=lightgray] (12,0) rectangle ++ (1,1); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		We get three groups and then one leftover piece. In order to try to create equal groupings, we're going to need
+		to break this piece up. But again, the limitation of using decimals is that we can only break this up into ten
+		pieces. But taking one item and breaking it into ten pieces is exactly what we just did, so we already know the
+		result. We're going to end up with three more groupings, and then one leftover piece. And if we were to try to
+		take that leftover piece and break it into ten again, it's just going to be the same thing forever. 
+	</p>
+	<p>
+		This pattern of breaking things into ten, dividing, and looking at the remainder is what leads to repeating
+		decimals. Notice that breaking into ten pieces is the same as multiplying the number of pieces by ten, so that
+		we can interpret this process as multiplying by ten, dividing, and looking at the remainder. We can see that the
+		size of the remainder is what controls the next step in the process. 
+	</p>
+	<p>
+		Let's look at another example that has a little but more going on. Let's say we were trying to get a decimal for
+		<m>\frac{2}{11}</m>
+	</p>
+	<image xml:id="sec-div-5-2-11-start" width="80%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw (0,0) node[anchor=center] {$2$}; 
+				\draw[-stealth] (0.5,0) -- ++ (4,0) node[midway, anchor=south] {\small $\frac{2 \times 10}{11} = 1 \frac{9}{11}$}; 
+				\draw (5,0) node[anchor=center] {$9$}; 
+				\draw (10,0) node[anchor=center] {$\frac{2}{11} \approx 0.1$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		The of the mixed number is our first decimal value, and the 9 in the numerator is our remainder. We can then
+		repeat this process to get the next decimal:
+	</p>
+	<image xml:id="sec-div-5-2-11-next-step" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw (0,0) node[anchor=center] {$2$}; 
+				\draw[-stealth] (0.5,0) -- ++ (4,0) node[midway, anchor=south] {\small $\frac{2 \times 10}{11} = 1 \frac{9}{11}$}; 
+				\draw (5,0) node[anchor=center] {$9$}; 
+				\draw[-stealth] (5.5,0) -- ++ (4,0) node[midway, anchor=south] {\small $\frac{9 \times 10}{11} = 8 \frac{2}{11}$}; 
+				\draw (10,0) node[anchor=center] {$2$}; 
+				\draw (15,0) node[anchor=center] {$\frac{2}{11} \approx 0.18$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		But notice that we have a remainder of 2, which is a number that we've already seen. In fact, we explicitly see
+		the <m>\frac{2}{11}</m> that we started with in the calculation. So we can return back to that value to create
+		the loop that gives us the repeating decimal expansion! 
+	</p>
+	<image xml:id="sec-div-5-2-11-repeating" width="95%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw (0,0) node[anchor=center] {$2$}; 
+				\draw[-stealth] (0.5,0) -- ++ (4,0) node[midway, anchor=south] {\small $\frac{2 \times 10}{11} = 1 \frac{9}{11}$}; 
+				\draw (5,0) node[anchor=center] {$9$}; 
+				\draw[-stealth] (5.5,0) -- ++ (4,0) node[midway, anchor=south] {\small $\frac{9 \times 10}{11} = 8 \frac{2}{11}$} -- ++ (0,1) -- (0,1) -- (0,0.5); 
+				\draw (13,0) node[anchor=center] {$\frac{2}{11} = 0.181818\ldots = 0.\overline{18}$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		We're going to condense the notation a bit so that it takes up less space. Since each arrow represents
+		multiplying by 10 and dividing by the denominator, we're just going to give the answers at each step. So the
+		above diagram can be reduced to this one: 
+	</p>
+	<image xml:id="sec-div-5-2-11-simplified" width="30%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw (0,0) node[anchor=center] {$2$}; 
+				\draw[-stealth] (0.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $1 \frac{9}{11}$}; 
+				\draw (2,0) node[anchor=center] {$9$}; 
+				\draw[-stealth] (2.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $8 \frac{2}{11}$} -- ++ (0,1) -- (0,1) -- (0,0.5); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Let's take a look at an example with a longer pattern. Here is what we get when working with <m>\frac{1}{7}</m>:
+	</p>
+	<image xml:id="sec-div-5-1-7-loop" width="80%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw(0,0) node[anchor=center] {$1$}; 
+				\draw[-stealth] (0.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $1 \frac{3}{7}$}; 
+				\draw(2,0) node[anchor=center] {$3$}; 
+				\draw[-stealth] (2.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $4 \frac{2}{7}$}; 
+				\draw(4,0) node[anchor=center] {$2$}; 
+				\draw[-stealth] (4.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $2 \frac{6}{7}$}; 
+				\draw(6,0) node[anchor=center] {$6$}; 
+				\draw[-stealth] (6.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $8 \frac{4}{7}$}; 
+				\draw(8,0) node[anchor=center] {$4$}; 
+				\draw[-stealth] (8.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $5 \frac{5}{7}$}; 
+				\draw(10,0) node[anchor=center] {$5$}; 
+				\draw[-stealth] (10.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $7 \frac{1}{7}$} -- ++ (0,1) -- (0,1) -- (0,0.5); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		In this case, we have a cycle that runs through every single remainder. This means that we have the full
+		information about the decimal expansions when the denominator is 7. If we wanted the decimal expansion of
+		<m>\frac{2}{7}</m> we start from the 2 and write down the integer parts of the mixed numbers in order:
+		<m>\frac{2}{7} = 0.\overline{285714}</m>. 
+	</p>
+	<p>
+		Different denominators will have different diagrams. Here is what the denominator of 6 looks like. Notice that
+		we don't reduce the fractions (because that changes the value of the numerator and the denominator).
+	</p>
+	<image xml:id="sec-div-5-other-denominators" width="90%">
+		<latex-image>
+			\begin{tikzpicture}
+			[scale=0.7] \draw(0,0) node[anchor=center] {$1$}; 
+			\draw[-stealth] (0.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $1 \frac{4}{6}$}; 
+			\draw(2,0) node[anchor=center] {$4$}; 
+			\draw[-stealth] (2.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $6 \frac{4}{6}$} -- ++ (0,1) -- (2,1) -- ++ (0,-0.5); 
+			\draw(6,0) node[anchor=center] {$5$}; 
+			\draw[-stealth] (6.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $8 \frac{2}{6}$}; 
+			\draw(8,0) node[anchor=center] {$2$}; 
+			\draw[-stealth] (8.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $3 \frac{2}{6}$} -- ++ (0,1) -- (8,1) -- ++ (0,-0.5); 
+			\draw(12,0) node[anchor=center] {$3$}; 
+			\draw[-stealth] (12.5,0) -- ++ (1,0) node[midway, anchor=south] {\small $5 \frac{0}{6}$}; 
+			\draw(14,0) node[anchor=center] {$0$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		<me>
+			\frac{1}{6} = 0.1\overline{6} \qquad \qquad
+			\frac{2}{6} = 0.\overline{3}  \qquad \qquad
+			\frac{3}{6} = 0.5  \qquad \qquad
+			\frac{4}{6} = 0.\overline{6}  \qquad \qquad
+			\frac{5}{6} = 0.8\overline{3}
+		</me>
+	</p>
+	<p>
+		In this case, there are three separate pieces, two of which repeat (but don't repeat the entire chain) and one
+		that terminates. So it's possible to get denominators that multiple possibilities. 
+	</p>
+	<p>
+		Here are a few questions to consider. If you were to be given some other denominator (such as 12):
+		<ul>
+			<li>
+				<p>
+					Can you predict how many fractions will terminate and how many won't? 
+				</p>
+			</li>
+			<li>
+				<p>
+					Can you predict how many different cycles you will have? 
+				</p>
+			</li>
+			<li>
+				<p>
+					Can you predict which cycles will have full loops and which ones will have partial loops? 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		You actually have all the tools you need to explore these questions. You may even be able to come up with some
+		conjectures and have some explanations for why you think your ideas are correct. At this point, you may not have
+		the tools to fully explain everything, but that's part of the learning process. As you get interested in new
+		ideas, that's the starting point for developing new tools and new skills to try to find out more.
+	</p>
+</section>

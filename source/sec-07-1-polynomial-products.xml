@@ -1,0 +1,588 @@
+<section xml:id="sec-pop-1-main">
+	<title>Organization Will Set You Free</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Multiply monomials.
+				</p>
+			</li>
+			<li>
+				<p>
+					Interpret multiplication as counting boxes in a grid.
+				</p>
+			</li>
+			<li>
+				<p>
+					Use the grid method to multiply polynomials.
+				</p>
+			</li>
+			<li>
+				<p>
+					Understand the distinction between scratch work and formal presentation for polynomial
+					multiplication problems.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<aside>
+		<p>
+			We'll take a deeper look at multiplication in a later section. 
+		</p>
+	</aside>
+	<p>
+		Multiplication can be represented in several different ways. For this section, we're going to focus on the idea
+		of multiplication as the area of a rectangle. The area of a rectangle with length and width is given by
+		<m>A = \ell w</m>. This can also be seen by drawing out the grid and counting the squares, though it's a waste
+		of time to do it in practice. So we will often represent this symbolically by simply using a box to represent
+		the idea of the calculation. 
+	</p>
+	<image xml:id="sec-pop-1-grid-product" width="40%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope}[shift={(2,0)}]
+					\begin{scope} [shift={(-5,0)}, scale=0.3]
+						\draw[ultra thin, gray] (0,0) grid (7,5); 
+						\draw (0,0) rectangle (7,5); 
+						\draw (0,2.5) node[anchor=east] {\strut $5$}; 
+						\draw (3.5,5) node[anchor=south] {$7$}; 
+					\end{scope}
+					\draw[-stealth] (-2,0.75) -- (-1,0.75); 
+					\begin{scope} [shift={(0,0.25)}]
+						\draw (0,0) rectangle (1,1); 
+						\draw (0,0.5) node[anchor=east] {\strut $5$}; 
+						\draw (0.5,1) node[anchor=south] {$7$}; 
+						\draw (0.5,0.5) node[anchor=center] {\strut $35$}; 
+					\end{scope}
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			Abstraction is about focusing on the ideas and not the specific instances. It helps us to see patterns
+			instead of just numbers. 
+		</p>
+	</aside>
+	<p>
+		One of the advantages of reducing the idea to just a representation is that it creates a space for us to work
+		with abstract ideas. Once we stop focusing on specific numbers, we can start to use symbols to represent the
+		idea of creating a grid. Consider the following examples:
+	</p>
+	<image xml:id="sec-pop-1-multiple-grid-products" width="60%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope}[shift={(-5,0)}]
+					\begin{scope} [shift={(0,0)}]
+						\draw (0,0) rectangle (1,1); 
+						\draw (0,0.5) node[anchor=east] {\strut $5$}; 
+						\draw (0.5,1) node[anchor=south] {$7$}; 
+						\draw (0.5,0.5) node[anchor=center] {\strut $35$}; 
+					\end{scope} 
+					\begin{scope} [shift={(3,0)}]
+						\draw (0,0) rectangle (1,1); 
+						\draw (0,0.5) node[anchor=east] {\strut $w$}; 
+						\draw (0.5,1) node[anchor=south] {$7$}; 
+						\draw (0.5,0.5) node[anchor=center] {\strut $7w$}; 
+					\end{scope} 
+					\begin{scope} [shift={(6,0)}]
+						\draw (0,0) rectangle (1,1); 
+						\draw (0,0.5) node[anchor=east] {\strut $5$}; 
+						\draw (0.5,1) node[anchor=south] {$\ell$}; 
+						\draw (0.5,0.5) node[anchor=center] {\strut $5\ell$}; 
+					\end{scope} 
+					\begin{scope} [shift={(9,0)}]
+						\draw (0,0) rectangle (1,1); 
+						\draw (0,0.5) node[anchor=east] {\strut $w$}; 
+						\draw (0.5,1) node[anchor=south] {$\ell$}; 
+						\draw (0.5,0.5) node[anchor=center] {\strut $\ell w$}; 
+					\end{scope}
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		We may not know the particular values of the variables and but we see that if we knew what those values were,
+		then we would be able to draw out the grid to count out the number of squares, and that the number of squares
+		would correspond with the expression inside the box. 
+	</p>
+	<aside>
+		<p>
+			These pictures can "make sense" but requires you to expand your thinking of area to allow for negative
+			distances and negative areas. What would those even mean and how would we represent them? Those are
+			interesting questions to ponder. 
+		</p>
+	</aside>
+	<p>
+		We can push this even one step further and think about products that don't even have a proper physical
+		representation: 
+	</p>
+	<image xml:id="sec-pop-1-nonphysical-products" width="50%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope}[shift={(-3,0)}]
+					\begin{scope} [shift={(0,0)}]
+						\draw (0,0) rectangle (1,1); 
+						\draw (0,0.5) node[anchor=east] {\strut $-5$}; 
+						\draw (0.5,1) node[anchor=south] {$7$}; 
+						\draw (0.5,0.5) node[anchor=center] {\strut $-35$}; 
+					\end{scope} 
+					\begin{scope} [shift={(3,0)}]
+						\draw (0,0) rectangle (1,1); 
+						\draw (0,0.5) node[anchor=east] {\strut $5$}; 
+						\draw (0.5,1) node[anchor=south] {$-7$}; 
+						\draw (0.5,0.5) node[anchor=center] {\strut $-35$}; 
+					\end{scope} 
+					\begin{scope} [shift={(6,0)}]
+						\draw (0,0) rectangle (1,1); 
+						\draw (0,0.5) node[anchor=east] {\strut $-5$}; 
+						\draw (0.5,1) node[anchor=south] {$-7$}; 
+						\draw (0.5,0.5) node[anchor=center] {\strut $35$}; 
+					\end{scope}
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<activity xml:id="sec-pop-1-ac1-monomial-products">
+		<title>Products of Monomials</title>
+		<p>
+			Before we can put this to work for polynomials, we first need to focus a bit on multiplying monomials. There
+			were a few problems in the worksheets that hinted at how this works, but we'll formally practice some of
+			those manipulations here. 
+		</p>
+		<aside>
+			<p>
+				When in doubt, write it out! 
+			</p>
+		</aside>
+		<p>
+			When multiplying monomials, the result is actually just a single product involving a bunch of different
+			factors. There is usually a number part (from the coefficients) and then there is usually some combination
+			of variables. And all we need to do is properly account for them. 
+			<me>
+				\begin{aligned}
+					5x^2y \cdot 2 x^2 y^2
+						\amp = (5 \cdot x \cdot x \cdot y) \cdot (2 \cdot x \cdot x \cdot y \cdot y)
+							\amp \eqnspacer \amp \text{Definition of exponents} \\
+						\amp = 5 \cdot 2 \cdot x \cdot x \cdot x \cdot x \cdot y \cdot y \cdot y
+							\amp \amp \text{Rearranging the factors} \\
+     					\amp = 10 x^4 y^3 \amp \amp \text{Definition of exponents}
+				\end{aligned}
+			</me>
+		</p>
+		<aside>
+			<p>
+				The amount of explaining you need to do depends on the context of the problem. 
+			</p>
+		</aside>
+		<p>
+			This can also be done using the properties of exponents: 
+			<me>
+				\begin{aligned}
+					5x^2y \cdot 2 x^2 y^2
+						\amp = 5 \cdot 2 \cdot x^{2 + 2} \cdot y^{1 + 2}
+							\amp \eqnspacer \amp \text{Properties of exponents} \\
+						\amp = 10 x^4 y^3 \amp \amp \text{Arithmetic}
+				\end{aligned}
+			</me>
+		</p>
+		<aside>
+			<p>
+				The goal is that you would be comfortable and error-free when working at this level. 
+			</p>
+		</aside>
+		<p>
+			But in the long run, it will be important to be able to do this as just one step. 
+			<me>
+				\begin{aligned}
+					5x^2y \cdot 2 x^2 y^2 \amp = 10 x^4 y^3 \amp \eqnspacer \amp \text{Multiplying monomials} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			<alert xml:id="sec-pop-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Compute <m>-3a^3 b^2 \cdot 6 ab^3</m>. Use a presentation that matches each of the three examples above. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						-3a^3 b^2 \cdot 6ab^3 \amp = (-3 \cdot a \cdot a \cdot a \cdot b \cdot b) \cdot (6 \cdot a \cdot b \cdot b \cdot b) \amp \amp \text{Definition of exponents} \\
+						\amp = -3 \cdot 6 \cdot a \cdot a \cdot a \cdot a \cdot b \cdot b \cdot b \cdot b \cdot b \amp \amp \text{Rearrange the factors} \\
+						\amp = -18a^4 b^5 \amp \amp \text{Definition of exponents} 
+					\end{aligned}
+				</me>
+			</p>
+			<p>
+				<me>
+					\begin{aligned}
+						-3a^3 b^2 \cdot 6ab^3 \amp = -3 \cdot 6 \cdot a^{3+1} \cdot b^{2+3} \amp \amp \text{Properties of exponents} \\
+						\amp = -18a^4 b^5 \amp \amp \text{Arithmetic} 
+					\end{aligned}
+				</me>
+			</p>
+			<p>
+				<me>
+					\begin{aligned}
+						-3a^3 b^2 \cdot 6ab^3 \amp = -18a^4 b^5 \amp \amp \text{Multiplying monomials} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-pop-1-ac2-monomial-grid">
+		<title>Products of Monomials with Grid Representations</title>
+		<p>
+			We can use this framework to set up products using the grid representation that was introduced above. 
+		</p>
+		<image xml:id="sec-pop-1-monomial-grid" width="35%">
+			<latex-image>
+				\begin{tikzpicture}
+					\begin{scope} [shift={(-2,0)}]
+						\begin{scope} [shift={(0,0)}]
+							\draw (0,0) rectangle (1,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $4x$}; 
+							\draw (0.5,1) node[anchor=south] {$3x$}; 
+							\draw (0.5,0.5) node[anchor=center] {\strut $12x^2$}; 
+						\end{scope} 
+						\begin{scope} [shift={(3,0)}]
+							\draw (0,0) rectangle (1.5,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $-a^2b$}; 
+							\draw (0.75,1) node[anchor=south] {$5ab$}; 
+							\draw (0.75,0.5) node[anchor=center] {\strut $-5 a^3 b^2$}; 
+						\end{scope}
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<aside>
+			<p>
+				See if you can do these products mentally. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-pop-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Complete the products in the following boxes. 
+		</p>
+		<image xml:id="sec-pop-1-ac2-try-it-problems" width="70%">
+			<latex-image>
+				\begin{tikzpicture}
+					\begin{scope}[shift={(-5,0)}]
+						\begin{scope} [shift={(0,0)}]
+							\draw (0,0) rectangle (1.5,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $5x$}; 
+							\draw (0.75,1) node[anchor=south] {$6$}; 
+						\end{scope} 
+						\begin{scope} [shift={(4,0)}]
+							\draw (0,0) rectangle (1.5,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $3 x^3 y$}; 
+							\draw (0.75,1) node[anchor=south] {$-5 x y^2$}; 
+						\end{scope} 
+						\begin{scope} [shift={(8,0)}]
+							\draw (0,0) rectangle (1.5,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $-7m^2n$}; 
+							\draw (0.75,1) node[anchor=south] {$-3n^3$}; 
+						\end{scope}
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<solution>
+			<image xml:id="sec-pop-1-ti2-solution" width="70%">
+				<latex-image>
+					\begin{tikzpicture}
+						\begin{scope}[shift={(-5,0)}]
+							\begin{scope} [shift={(0,0)}]
+								\draw (0,0) rectangle (1.5,1); 
+								\draw (0,0.5) node[anchor=east] {\strut $5x$}; 
+								\draw (0.75,1) node[anchor=south] {$6$}; 
+								\draw (0.75,0.5) node[anchor=center] {\strut $30x$}; 
+							\end{scope} 
+							\begin{scope} [shift={(4,0)}]
+								\draw (0,0) rectangle (1.5,1); 
+								\draw (0,0.5) node[anchor=east] {\strut $3 x^3 y$}; 
+								\draw (0.75,1) node[anchor=south] {$-5 x y^2$}; 
+								\draw (0.75,0.5) node[anchor=center] {\strut $-15 x^4 y^3$}; 
+							\end{scope} 
+							\begin{scope} [shift={(8,0)}]
+								\draw (0,0) rectangle (1.5,1); 
+								\draw (0,0.5) node[anchor=east] {\strut $-7m^2n$}; 
+								\draw (0.75,1) node[anchor=south] {$-3n^3$}; 
+								\draw (0.75,0.5) node[anchor=center] {\strut $21 m^2 n^4$}; 
+							\end{scope}
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		We will now start thinking about how to extend this idea to products of polynomials. Just as before, we will
+		start with concrete values before looking at abstract ideas. Let's say that we wanted to calculate
+		<m>18 \cdot 6</m>. We can draw out the picture, but there are a whole lot of squares to count.
+	</p>
+	<aside>
+		<p>
+			Nobody really wants to count those squares, which is why we came up with organizational tools to help us
+			figure out how many there are without direct counting. 
+		</p>
+	</aside>
+	<image xml:id="sec-pop-1-big-grid" width="40%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope} [shift={(-5,0)}]
+					\begin{scope} [scale=0.3]
+						\draw[ultra thin, gray] (0,0) grid (18,6); 
+						\draw (0,0) rectangle (18,6); 
+						\draw (0,3) node[anchor=east] {\strut $6$}; 
+						\draw (9,6) node[anchor=south] {$18$}; 
+					\end{scope} 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		So we might start to think about how we can organize this in a more sensible manner. With a little bit of
+		thinking, you might realize that breaking up the into <m>10 + 8</m> might be helpful. Notice that this doesn't
+		change the number of boxes. However, it does rearrange the information in a way that's more useful to us because
+		we can work with more familiar multiplication calculations. 
+	</p>
+	<aside>
+		<p>
+			This is actually a demonstration of the distributive property of multiplication over addition! 
+		</p>
+	</aside>
+	<image xml:id="sec-pop-1-organized-big-grid" width="70%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope}[shift={(-5,0)}]
+					\begin{scope} [scale=0.3]
+						\draw[ultra thin, gray] (0,0) grid (18,6); 
+						\draw (0,0) rectangle (18,6); 
+						\draw (10,0) -- (10,6); 
+						\draw (0,3) node[anchor=east] {\strut $6$}; 
+						\draw (5,6) node[anchor=south] {$10$}; 
+						\draw (14,6) node[anchor=south] {$8$}; 
+					\end{scope}
+					\draw[->] (6,0.9) -- (7,0.9); 
+					\begin{scope} [shift={(8,0.4)}]
+						\draw (0,0) rectangle (2,1); 
+						\draw (1,0) -- (1,1); 
+						\draw (0,0.5) node[anchor=east] {\strut $6$}; 
+						\draw (0.5,1) node[anchor=south] {$10$}; 
+						\draw (1.5,1) node[anchor=south] {$8$}; 
+						\draw (0.5,0.5) node[anchor=center] {\strut $60$}; 
+						\draw (1.5,0.5) node[anchor=center] {\strut $48$}; 
+					\end{scope}
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<activity xml:id="sec-pop-1-ac3-binomial-product-grid">
+		<title>Product of Binomials Using a Grid</title>
+		<p>
+			We can use the same concept for polynomials. For example, we could write the product <m>(x + 2)(x - 4)</m>
+			using the following grid:
+		</p>
+		<image xml:id="sec-pop-1-binomial-product-grid" width="20%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (0,0) rectangle (2,2); 
+					\draw (1,0) -- (1,2); 
+					\draw (0,1) -- (2,1); 
+					\draw (0,0.5) node[anchor=east] {\strut $\phantom{.}-4$}; 
+					\draw (0,1.5) node[anchor=east] {\strut $x$}; 
+					\draw (0.5,2) node[anchor=south] {$x$}; 
+					\draw (1.5,2) node[anchor=south] {$2$}; 
+					\draw (0.5,0.5) node[anchor=center] {\strut $-4x$}; 
+					\draw (0.5,1.5) node[anchor=center] {\strut $x^2$}; 
+					\draw (1.5,0.5) node[anchor=center] {\strut $-8$}; 
+					\draw (1.5,1.5) node[anchor=center] {\strut $2x$}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			The grid itself is just a representation of the calculation. We would still need to use formal mathematical
+			writing to present the calculation. 
+			<me>
+				\begin{aligned}
+					(x + 2)(x - 4) \amp = x^2 + 2x - 4x - 8 \amp \eqnspacer \amp \text{Distributive Property} \\
+					\amp = x^2 - 2x - 8 \amp \amp \text{Combining like terms} 
+				\end{aligned}
+			</me>
+		</p>
+		<aside>
+			<p>
+				The distinction between scratch work and the final presentation is important. Scratch work can be as
+				neat or as messy as you want it to be, but your final presentation should be written up very cleanly. 
+			</p>
+		</aside>
+		<p>
+			The grid should be understood as scratch work. Scratch work is similar to an outline for an essay. It's
+			important and helpful for keeping yourself organized, but it's not part of the final product. In the end,
+			there must always be enough information in the final presentation so that other people reading your work
+			can know what you did. 
+		</p>
+		<p>
+			<alert xml:id="sec-pop-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>(2x - 3)(x + 4)</m> using a grid. Write up your result using a complete presentation, being
+			sure to simplify by combining like terms. 
+		</p>
+		<solution>
+			<image xml:id="sec-pop-1-ti3-solution" width="20%">
+				<latex-image>
+					\begin{tikzpicture}
+						\begin{scope}[shift={(-1.5,0)}]
+							\draw (0,0) rectangle (2,2); 
+							\draw (1,0) -- (1,2); 
+							\draw (0,1) -- (2,1); 
+							\draw (0,0.5) node[anchor=east] {\strut $4$}; 
+							\draw (0,1.5) node[anchor=east] {\strut $x$}; 
+							\draw (0.5,2) node[anchor=south] {$2x$}; 
+							\draw (1.5,2) node[anchor=south] {$-3$}; 
+							\draw (0.5,0.5) node[anchor=center] {\strut $8x$}; 
+							\draw (0.5,1.5) node[anchor=center] {\strut $2x^2$}; 
+							\draw (1.5,0.5) node[anchor=center] {\strut $-12$}; 
+							\draw (1.5,1.5) node[anchor=center] {\strut $-3x$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				<me>
+					\begin{aligned}
+						(2x - 3)(x + 4) \amp = 2x^2 - 3x + 8x - 12 \amp \amp \text{Distributive property} \\
+						\amp = 2x^2 + 5x - 12 \amp \amp \text{Combining like terms} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<p>
+		There are times when it's helpful to make variables a particular length so that they're different from numbers.
+		For example, we could physically represent the product <m>(x + 2)(x + 1)</m> using the following diagram.
+	</p>
+	<aside>
+		<p>
+			These are sometimes called "algebra tiles." 
+		</p>
+	</aside>
+	<image xml:id="sec-pop-1-grid-representations" width="50%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope} [shift={(-3.5,0)}]
+					\begin{scope} [scale=0.4, shift={(0,-0.25)}]
+						\draw[thick] (0,0) rectangle (3.5,-3.5); 
+						\draw (1.75,0) node[anchor=south] {$x$}; 
+						\draw (0,-1.75) node[anchor=east] {\strut $x$}; 
+						\draw (1.75,-1.75) node[anchor=center] {\strut $x^2$}; 
+						\draw[thick] (3.5,0) rectangle ++ (1,-3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+						\draw[thick] (4.5,0) rectangle ++ (1,-3.5) ++ (-0.5,1.75) node[anchor=center] {\strut $x$}; 
+						\draw (4.5,0) node[anchor=south] {$2$}; 
+						\draw[thick] (0,-3.5) rectangle ++ (3.5,-1) ++ (-1.75,0.5) node[anchor=center] {\strut $x$}; 
+						\draw (0,-4) node[anchor=east] {\strut $1$}; 
+						\draw[thick] (3.5,-3.5) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+						\draw[thick] (4.5,-3.5) rectangle ++ (1,-1) ++ (-0.5,0.5) node[anchor=center] {\strut $1$}; 
+					\end{scope}
+					\draw[-stealth] (3,-1) -- (4,-1); 
+					\begin{scope} [shift={(5,-2)}]
+						\draw (0,0) rectangle (2,2); 
+						\draw (1,0) -- (1,2); 
+						\draw (0,1) -- (2,1); 
+						\draw (0,0.5) node[anchor=east] {\strut $1$}; 
+						\draw (0,1.5) node[anchor=east] {\strut $x$}; 
+						\draw (0.5,2) node[anchor=south] {$x$}; 
+						\draw (1.5,2) node[anchor=south] {$2$}; 
+						\draw (0.5,0.5) node[anchor=center] {\strut $x$}; 
+						\draw (0.5,1.5) node[anchor=center] {\strut $x^2$}; 
+						\draw (1.5,0.5) node[anchor=center] {\strut $2$}; 
+						\draw (1.5,1.5) node[anchor=center] {\strut $2x$}; 
+					\end{scope}
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		We will be using this representation to help us to think about factoring in the next section. 
+	</p>
+	<p>
+		You are probably familiar with FOIL (First-Outer-Inner-Last) as a way to do this product. One of the downfalls
+		to FOIL is that students end up confused when there are more than two terms in the parentheses. Many are so
+		trapped by FOIL that they try to force it to happen even in problems that do not call for it. The basic problem
+		is that students do not have an organized sense of what FOIL is supposed to accomplish, and so they treat it
+		like a rule to be blindly followed. 
+	</p>
+	<aside>
+		<p>
+			In math (and in life) it's often unhealthy to blindly follow when someone tells you to do something. 
+		</p>
+	</aside>
+	<p>
+		However, this grid method extends very naturally regardless of the number of terms in the parentheses. And it's
+		completely built around the basic idea of thinking of multiplication as an area. Having the right organizational
+		scheme frees you from having to memorize more and more rules. 
+	</p>
+	<activity xml:id="sec-pop-1-ac4-large-product-grid">
+		<title>Larger Products Using a Grid</title>
+		<aside>
+			<p>
+				There is no example for you to follow this time. You're going to have to trust yourself. And even if
+				you're wrong, you can always reach out to your instructor for help. The answer is
+				<m>x^4 - 2x^3 - 17x^2 + 26x - 8</m>. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-pop-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>(x^2 + 3x -4)(x^2 - 5x + 2)</m> using a grid. Write up your result using a complete
+			presentation, being sure to simplify by combining like terms. 
+		</p>
+		<solution>
+			<image xml:id="sec-pop-1-ti4-solution" width="30%">
+				<latex-image>
+					\begin{tikzpicture}[scale=1.2]
+						\begin{scope}[shift={(-7,0)}]
+							\draw (0,0) rectangle (3,3); 
+							\draw (1,0) -- (1,3); 
+							\draw (2,0) -- (2,3); 
+							\draw (0,1) -- (3,1); 
+							\draw (0,2) -- (3,2); 
+							\draw (0,0.5) node[anchor=east] {\strut $2$}; 
+							\draw (0,1.5) node[anchor=east] {\strut $-5x$}; 
+							\draw (0,2.5) node[anchor=east] {\strut $x^2$}; 
+							\draw (0.5,3) node[anchor=south] {$x^2$}; 
+							\draw (1.5,3) node[anchor=south] {$3x$}; 
+							\draw (2.5,3) node[anchor=south] {$-4$}; 
+							\draw (0.5,0.5) node[anchor=center] {\strut $2x^2$}; 
+							\draw (0.5,1.5) node[anchor=center] {\strut $-5x^3$}; 
+							\draw (0.5,2.5) node[anchor=center] {\strut $x^4$}; 
+							\draw (1.5,0.5) node[anchor=center] {\strut $6x$}; 
+							\draw (1.5,1.5) node[anchor=center] {\strut $-15x^2$}; 
+							\draw (1.5,2.5) node[anchor=center] {\strut $3x^3$}; 
+							\draw (2.5,0.5) node[anchor=center] {\strut $-8$}; 
+							\draw (2.5,1.5) node[anchor=center] {\strut $20x$}; 
+							\draw (2.5,2.5) node[anchor=center] {\strut $-4x^2$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				<me>
+					\begin{aligned}
+						\amp (x^2 + 3x -4)(x^2 - 5x + 2) \\
+						\amp \qquad = x^4 + 3x^3 - 4x^2 - 5x^3 - 15x^2 + 20x + 2x^2 + 6x - 8 \amp \amp \text{Distributive property} \\
+						\amp \qquad = x^4 + 3x^3 - 5x^3 - 4x^2 - 15x^2 + 2x^2 + 20x + 6x - 8 \amp \amp \text{Rearrange the terms} \\
+						\amp \qquad = x^4 - 2x^3 - 17x^2 + 26x - 8 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+</section>

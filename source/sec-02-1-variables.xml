@@ -1,0 +1,250 @@
+<section xml:id="sec-vee-1-main">
+    <title>Letters are Numbers in Disguise</title>
+
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Substitute a number for a variable and then simplify the expression.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Manipulate linear equations with multiple variables.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+
+    <aside>
+        <p>
+            In broader contexts, variables are viewed in different ways. In computer programming, variables are
+            containers for information. In higher level math courses, variables are sometimes used for abstract
+            mathematical objects. The way we are using it here is consistent with both perspectives.
+        </p>
+    </aside>
+    <p>
+        Some people like to say that math made sense when it was all numbers, but then things fell apart when the
+        letters started showing up. This is unfortunate, because the letters are actually just a way of representing
+        numbers, and thinking about them in that way can help to clarify confusion. There are a lot of ways that
+        teachers talk about variables and they are of varying degrees of correctness. For example, some teachers
+        say that variables represent unknown values. It's not exactly wrong, but it's not exactly right. Whether or not
+        we know the value is irrelevant. In college level math courses, we can use variables to represent mathematical
+        expressions with other variables in it instead of just thinking of it as a quantity. This leads us to a more
+        general definition:
+    </p>
+    <definition xml:id="def-variable">
+        <title>Variable</title>
+        <idx><h>variable</h></idx>
+        <statement>
+            <p>
+                A <term>variable</term> is a symbol that represents a quantity or a mathematical expression.
+            </p>
+        </statement>
+    </definition>
+    <aside>
+        <p>
+            Mathematicians love to have good definitions. They help us to think about our ideas with very high levels of
+            precision.
+        </p>
+    </aside>
+    <p>
+        Notice that we allow for variables to represent both quantities and mathematical expressions. What this means is
+        that both <m>x = 4</m> and <m>x = y + 1</m> are valid uses of variables.
+    </p>
+
+    <activity xml:id="sec-vee-1-ac1-quantity">
+        <title>Variables as Quantities in Expressions</title>
+        <idx><h>if-then</h></idx>
+        <p>
+            What does it mean for a variable to represent a quantity in an expression? One way to think about it is that
+            it's a calculation waiting to happen. Consider the expression <m>2x</m>. This represents a number, but which
+            number it represents depends on the value of <m>x</m>. As soon as I give you a value for <m>x</m>, you can
+            plug it in and give me a specific number. But until then, this is just a number that is waiting to be
+            calculated. For example, if you know that <m>x = 4</m>, then you can calculate that <m>2x = 8</m>. We can
+            write this as an English sentence:
+        </p>
+        <aside>
+            <p>
+                It turns out that the if-then construction is at the core of basically our entire process of logical
+                reasoning. You will see it in a wide range of introductory courses, from an introduction to philosophy
+                to an introduction to computer science. It's also ubiquitous in mathematics, though at this level we
+                don't bring much attention to it.
+            </p>
+        </aside>
+        <me>
+            \text{If $x = 4$, then $2x = 8$.}
+        </me>
+        <p>
+            Notice that we're not saying that <m>2x</m> always has the value of 8. We're just saying that <em>if</em>
+            <m>x</m> takes the value of 4, <em>then</em> the value of <m>2x</m> must be 8.
+        </p>
+        <aside>
+            <p>
+                Writing in complete sentences helps you to think in complete ideas. You may not be used to writing
+                sentences in math classes, but math is much more about being able to understand and explain ideas than
+                just executing calculations.
+            </p>
+        </aside>
+        <p>
+            <alert xml:id="sec-vee-1-ac1-ti">Try it!</alert>
+        </p>
+        <p>
+            Determine the value of <m>2x</m> when <m>x = 5</m>, <m>x = 12</m>, and <m>x = -3</m>. Write your results as
+            if-then statements.
+        </p>
+        <solution>
+            <p>
+                <me>
+                    \begin{aligned}
+                        \amp \text{If $x = 5$, then $2x = 10$.} \\
+                        \amp \text{If $x = 12$, then $2x = 24$.} \\
+                        \amp \text{If $x = -3$, then $2x = -6$.}
+                    \end{aligned}
+                </me>
+            </p>
+        </solution>
+    </activity>
+    <activity xml:id="sec-vee-1-ac2-variable-representation-1">
+        <title>Variables Represent Quantities (Part 1)</title>
+        <p>
+            Consider the following set of equations:
+            <me>
+                x + 3 = 7 \hspace{2cm} x + 3 = 8 \hspace{2cm} x + 3 = 9 \hspace{2cm} x + 3 = 10
+            </me> 
+            Notice that to solve all of them, you would subtract 3 from both sides of the equation. This algebraic step
+            solves the equation regardless of what number is on the right side of the equation.
+        </p>
+        <aside>
+            <p>
+                We will formally define what it means to <term>solve</term> an equation in a couple sections. See
+                <xref ref="def-solve-solution" />.
+            </p>
+        </aside>
+        <p>
+            Now consider this equation: <m>x + 3 = a</m>. We will solve this variable for <m>x</m>. Notice that the
+            algebraic step remains the same. It turns out that the final result cannot be simplified any further.
+            <me>
+                \begin{aligned}
+                    x + 3 \amp = a \\
+                    x \amp = a - 3 \amp \eqnspacer \amp \text{Subtract 3 from both sides}
+                \end{aligned}
+            </me>
+        </p>
+        <p>
+            <aside>
+                You might remember the concept of "combining like terms" for determining whether an expression can be
+                simplified. If not, we'll get to it soon.
+            </aside>
+        </p>
+        <p>
+            <alert xml:id="sec-vee-1-ac2-ti">Try it!</alert>
+        </p>
+        <p>
+            Solve the equation <m>x - 7 = c</m> for the variable <m>x</m> using a complete presentation.
+        </p>
+        <p>
+            <aside>
+                Your final answer will be a mathematical expression, and that's okay.
+            </aside>
+        </p>
+        <solution>
+            <p>
+                <me>
+                    \begin{aligned}
+                        x - 7 \amp = c \\
+                        x \amp = c + 7 \amp \eqnspacer \amp \text{Add $7$ to both sides}
+                    \end{aligned}
+                </me>
+            </p>
+        </solution>
+    </activity>
+    <activity xml:id="sec-vee-1-ac3-variable-representation-2">
+        <title>Variables Represent Quantities (Part 2)</title>
+        <p>
+            Consider the following set of equations:
+            <me>
+                x + 3 = 7 \hspace{2cm} x + 4 = 7 \hspace{2cm} x + 5 = 7 \hspace{2cm} x + 6 = 7
+            </me> 
+            This time, the number that is being added to <m>x</m> is changing. But these are still very similar
+            equations. And the algebraic step is basically the same for each one. You need to subtract whatever number
+            it is that's being added to the <m>x</m>:
+        </p>
+        <aside>
+            <p>
+                A lot of math is seeking out and understanding patterns. This may be a simple pattern, but once you'v
+                 internalized it, algebra becomes much easier.
+            </p>
+        </aside>
+        <p>
+            <me>
+                \begin{aligned}
+                    x + 3 \amp = 7 \longrightarrow \text{Subtract $3$ from both sides} \\
+                    x + 4 \amp = 7 \longrightarrow \text{Subtract $4$ from both sides} \\
+                    x + 5 \amp = 7 \longrightarrow \text{Subtract $5$ from both sides} \\
+                    x + 6 \amp = 7 \longrightarrow \text{Subtract $6$ from both sides}
+                \end{aligned}
+            </me>
+        </p>
+        <p>
+            Now consider this equation: <m>x + b = 7</m>. Based on the pattern above, you should have an idea of what
+            you need to do to solve for <m>x</m>.
+        </p>
+        <p>
+            <alert xml:id="sec-vee-1-ac3-ti">Try it!</alert>
+        </p>
+        <p>
+            Solve the equation <m>x + b = 7</m> for the variable <m></m> using a complete presentation.
+        </p>
+        <solution>
+            <p>
+                <me>
+                    \begin{aligned}
+                        x + b \amp = 7 \\
+                        x \amp = -b + 7 \amp \eqnspacer \amp \text{Subtract $b$ from both sides}
+                    \end{aligned}
+                </me>
+            </p>
+            <aside>
+                <p>
+                    <m>x = 7 - b</m> is also acceptable.
+                </p>
+            </aside>
+        </solution>
+    </activity>
+    <activity xml:id="sec-vee-1-ac4-other-symbols">
+        <title>Using Other Symbols</title>
+        <p>
+            The variable <m>x</m> is traditional, but not special. We're allowed to solve for other variables. The
+            underlying thinking process remains the same.
+        </p>
+        <p>
+            <alert xml:id="sec-vee-1-ac4-ti">Try it!</alert>
+        </p>
+        <p>
+            Solve the equation <m>a + b - c = d - e</m> for the variable <m>c</m> using a complete presentation.
+        </p>
+        <aside>
+            <p>
+                You should be able to solve for any of the variables in this equation.
+            </p>
+        </aside>
+        <solution>
+            <p>
+                <me>
+                    \begin{aligned}
+                        a + b - c \amp = d - e \\
+                        b - c \amp = -a + d - e \amp \eqnspacer \amp \text{Subtract $a$ from both sides} \\ 
+                        - c \amp = -a - b + d - e \amp \amp \text{Subtract $b$ from both sides} \\
+                        c \amp = a + b - d + e \amp \amp \text{Multiply both sides by $-1$}
+                    \end{aligned}
+                </me>
+            </p>
+            <aside>
+                <p>
+                    It is often helpful to keep your variables in alphabetical order.
+                </p>
+            </aside>
+        </solution>
+    </activity>
+</section>

@@ -1,0 +1,370 @@
+<section xml:id="sec-sub-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/26-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-sub-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Draw a base-10 blocks diagram to represent <m>31 - 18</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a base-10 blocks diagram to represent <m>317 - 158</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Think about (do not draw) the diagram you would need to represent <m>36 - 19</m> and compute the result
+				from that mental picture. Did you find the visualization helpful or distracting? Explain what was
+				helpful or distracting about the mental image for you. 
+			</p>
+			<aside>
+				<p>
+					The only correct answer to the "helpful or distracting" part of the question is an answer that is
+					true to your own experience. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sub-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Calculate <m>57 - 35</m> using a number line. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>324 - 158</m> using a number line. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Think about (do not draw) the number line diagram you would need to calculate <m>42 - 26</m> and compute
+				the result from that mental picture. Do you prefer this visualization or the base-10 blocks
+				visualization? Why? 
+			</p>
+		</exercise>
+		<exercise>
+			<aside>
+				<p>
+					You might be surprised how much a little bit of practice can help to develop your skill and your confidence. 
+				</p>
+			</aside>
+			<p>
+				Practice your mental arithmetic by performing the following calculations.
+				<me>
+					\begin{aligned}
+						41 - 27 \amp = \\
+						53 - 38 \amp = \\
+						39 - 25 \amp = \\
+						82 - 54 \amp = \\
+						67 - 48 \amp = \\
+						43 - 37 \amp = \\
+						344 - 257 \amp = \\
+						401 - 235 \amp = \\
+						518 - 276 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sub-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Instead of thinking about motion, subtraction can also be thought of as a distance between numbers. Here
+				is a diagram that shows that <m>7 - 3 = 4</m>. 
+			</p>
+			<aside>
+				<p>
+					This works when the first number is to the right of the second number, otherwise you have to use
+					negative distances. 
+				</p>
+			</aside>
+			<image xml:id="sec-sub-2-wksht-3-1" width="80%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7]
+						\draw[stealth-stealth] (-1,0) -- (10,0); 
+						\foreach \i in {0,...,9} {
+							\draw[fill=black] (\i, 0) circle (0.1); 
+							\draw (\i, -0.1) node[anchor=north] {\small $\i$}; 
+						}
+						\draw (3,0) -- ++ (0,1); 
+						\draw (7,0) -- ++ (0,1); 
+						\draw[stealth-stealth] (3,0.5) -- (7,0.5) node[midway,anchor=south] {\strut \small $4$}; 
+						\draw (12,0) node[anchor=west] {\strut \boxed{7 - 3 = 4}}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				One of the values of this idea is that the distances do not change if you shift both numbers the same
+				amount. This can sometimes allow you to think of the calculation in a slightly different manner that
+				makes it easier to calculate. Here are two calculations where one is just slightly shifted from the
+				other. 
+			</p>
+			<image xml:id="sec-sub-2-wksht-3-2" width="60%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7] 
+						\begin{scope}
+							\draw[stealth-stealth] (-1,0) -- (5,0); 
+							\draw[fill=black] (0, 0) circle (0.1); 
+							\draw (0,-0.1) node[anchor=north] {\small $19$}; 
+							\draw[fill=black] (4, 0) circle (0.1); 
+							\draw (4,-0.1) node[anchor=north] {\small $62$}; 
+							\draw (0,0) -- ++ (0,1); 
+							\draw (4,0) -- ++ (0,1); 
+							\draw[stealth-stealth] (0,0.5) -- ++ (4,0) node[midway,anchor=south] {\strut \small $??$}; 
+						\end{scope} 
+						\begin{scope} [shift={(7,0)}]
+							\draw[stealth-stealth] (-1,0) -- (5,0); 
+							\draw[fill=black] (0, 0) circle (0.1); 
+							\draw (0,-0.1) node[anchor=north] {\small $20$}; 
+							\draw[fill=black] (4, 0) circle (0.1); 
+							\draw (4,-0.1) node[anchor=north] {\small $63$}; 
+							\draw (0,0) -- ++ (0,1); 
+							\draw (4,0) -- ++ (0,1); 
+							\draw[stealth-stealth] (0,0.5) -- ++ (4,0) node[midway,anchor=south] {\strut \small $??$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+					What were the two calculations? Which of the two calculations was easier to do? Why? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				There are two reasonable ways to calculate <m>201 - 149</m> by shifting the values. Draw the
+				corresponding diagrams and compute the result using both approaches. Which one was easier for you? Why? 
+			</p>
+		</exercise>
+		<exercise>
+			<aside>
+				<p>
+					You are encouraged to explore using a mixture of the techniques you've seen. Some methods are better
+					suited to some calculations compared to others. 
+				</p>
+			</aside>
+			<p>
+				Practice your mental arithmetic by performing the following calculations.
+				<me>
+					\begin{aligned}
+						49 - 28 \amp = \\
+						62 - 49 \amp = \\
+						55 - 37 \amp = \\
+						199 - 153 \amp = \\
+						303 - 178 \amp = \\
+						432 - 285 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sub-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				There is a way to leverage your addition experience for doing subtraction problems. It require
+				reframing the idea of subtraction as solving an addition algebra problem.
+				Notice that the following two equations are equivalent to each other.
+				<me>
+				 	x = 100 - 48 \qquad 48 + x = 100
+				</me>
+				The first question asks, "What is the result of subtracting 48 from 100"? The second question asks,
+				"48 plus what number is equal to 100?" While the answers will be the same, they represent two different
+				approaches. We will focus on the second one. Here is a diagram for that question:
+			</p>
+			<aside>
+				<p>
+					This is how cashiers used to count back change to people when cash was a far more common payment method. 
+				</p>
+			</aside>
+			<image xml:id="sec-sub-2-wksht-4-1" width="40%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7] 
+						\begin{scope}
+							\draw[stealth-stealth] (-1,0) -- (7,0); 
+							\draw[fill=black] (0, 0) circle (0.1); 
+							\draw[fill=black] (6, 0) circle (0.1); 
+							\draw (0,-0.1) node[anchor=north] {\small $48$}; 
+							\draw (6,-0.1) node[anchor=north] {\small $100$}; 
+							\draw (0,0) -- ++ (0,1); 
+							\draw (6,0) -- ++ (0,1); 
+							\draw[-stealth] (0,0.5) -- ++ (6,0) node[midway,anchor=south] {\strut \small $x$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				Rather than trying to count down from <m>b</m> by the amount <m>a</m>, this is now about counting up
+				from <m>a</m> to <m>b</m>. The application of this is most common when the value <m>b</m> is a "nice"
+				value to work from. The reason is that it's mentally easier to break it down into different parts using
+				the place values as a guide. Here are two diagrams for <m>100 - 48</m>, each showing a different
+				visualization: 
+			</p>
+			<image xml:id="sec-sub-2-wksht-4-2" width="95%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7] 
+						\begin{scope}
+							\draw[stealth-stealth] (-1,0) -- (7,0); 
+							\draw[fill=black] (0, 0) circle (0.1); 
+							\draw[fill=black] (5, 0) circle (0.1); 
+							\draw[fill=black] (6, 0) circle (0.1); 
+							\draw (0,-0.1) node[anchor=north] {\small $48$}; 
+							\draw (5,-0.1) node[anchor=north] {\small $98$}; 
+							\draw (6,-0.1) node[anchor=north] {\small $100$}; 
+							\draw (0,0) -- ++ (0,1); 
+							\draw (5,0) -- ++ (0,1); 
+							\draw (6,0) -- ++ (0,1); 
+							\draw[-stealth] (0,0.5) -- ++ (5,0) node[midway,anchor=south] {\strut \small $50$}; 
+							\draw[-stealth] (5,0.5) -- ++ (1,0) node[midway,anchor=south] {\strut \small $2$}; 
+						\end{scope} 
+						\begin{scope} [shift={(10,0)}]
+							\draw[stealth-stealth] (-1,0) -- (7,0); 
+							\draw[fill=black] (0, 0) circle (0.1); 
+							\draw[fill=black] (1, 0) circle (0.1); 
+							\draw[fill=black] (6, 0) circle (0.1); 
+							\draw (0,-0.1) node[anchor=north] {\small $48$}; 
+							\draw (1,-0.1) node[anchor=north] {\small $50$}; 
+							\draw (6,-0.1) node[anchor=north] {\small $100$}; 
+							\draw (0,0) -- ++ (0,1); 
+							\draw (1,0) -- ++ (0,1); 
+							\draw (6,0) -- ++ (0,1); 
+							\draw[-stealth] (0,0.5) -- ++ (1,0) node[midway,anchor=south] {\strut \small $2$}; 
+							\draw[-stealth] (1,0.5) -- ++ (5,0) node[midway,anchor=south] {\strut \small $50$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				Which of the two calculations at the bottom is more intuitive for you? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Mentally apply the above method of subtraction to perform the following calculations.
+				<me>
+					\begin{aligned}
+						100 - 28 \amp = \\
+						100 - 77 \amp = \\
+						100 - 31 \amp = \\
+						150 - 48 \amp = \\
+						150 - 87 \amp = \\
+						150 - 95 \amp = \\
+						300 - 153 \amp = \\
+						800 - 418 \amp = \\
+						600 - 238 \amp = \\
+						1000 - 275 \amp = \\
+						1000 - 318 \amp = \\
+						1000 - 444 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+			<aside>
+				<p>
+					This is sometimes called the "counting up" method. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sub-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				In the same way that we used base-8 blocks to visualize addition in base-8, we can use it to help us
+				perform subtraction.
+			</p>
+			<image xml:id="sec-sub-2-wksht-5-1" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.3] 
+							\begin{scope} [shift={(0,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(1.5,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(3,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(4.5,0)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,3); 
+							\draw[ultra thick] (0,0) grid ++ (1,3); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,3); 
+						\end{scope}
+						\draw (2.75,-0.5) node[anchor=north] {\strut \small $33_8$}; 
+						\draw (7.5,-0.5) node[anchor=north] {\strut \small $-$}; 
+						\begin{scope} [shift={(9.5,0)}]
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) -- ++ (1,8) ++ (-1,0) -- ++ (1,-8); 
+						\end{scope} 
+						\begin{scope} [shift={(11,0)}]
+							\draw (0,0) grid ++ (1,6); 
+							\draw[ultra thick] (0,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+							\draw[ultra thick] (0,1) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+							\draw[ultra thick] (0,2) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+							\draw[ultra thick] (0,3) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+							\draw[ultra thick] (0,4) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+							\draw[ultra thick] (0,5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+						\end{scope}
+						\draw (10.75,-0.5) node[anchor=north] {\strut \small $16_8$}; 
+						\draw (14,-0.5) node[anchor=north] {\strut \small $=$}; 
+						\begin{scope} [shift={(16,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+							\draw[ultra thick] (0,0) -- ++ (1,8) ++ (-1,0) -- ++ (1,-8); 
+						\end{scope} 
+						\begin{scope} [shift={(17.5,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(19,0)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+							\draw[ultra thick] (0,7) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+							\draw[ultra thick] (0,6) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+							\draw[ultra thick] (0,5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+						\end{scope} 
+						\begin{scope} [shift={(20.5,0)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,3); 
+							\draw[ultra thick] (0,0) grid ++ (1,3); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,3); 
+							\draw[ultra thick] (0,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+							\draw[ultra thick] (0,1) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+							\draw[ultra thick] (0,2) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+						\end{scope}
+						\draw (18.75,-0.5) node[anchor=north] {\strut \small $15_8$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				Draw a blocks diagram to represent <m>42_8 - 25_8</m> and compute the result.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a blocks diagram to represent <m>143_8 - 55_8</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Think about (but do not draw) the diagram you would need to represent <m>52_8 - 33_8</m> and compute the
+				result from that mental picture. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

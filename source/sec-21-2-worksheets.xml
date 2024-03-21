@@ -1,0 +1,260 @@
+<section xml:id="sec-das-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/21-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-das-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Write the number 34.72 in expanded form and label each of the parts with the corresponding unit. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write the number 20.709 in expanded form and label each of the parts with the corresponding unit. 
+			</p>
+			<aside>
+				<p>
+					Traditionally, expanded form does not include the zeros, but it doesn't hurt anything to include
+					them. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Write the number 0.73 as a fraction. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write the number 0.029 as a fraction. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write the number 1.05 as an improper fraction. Explain why you think your answer is correct. 
+			</p>
+			<aside>
+				<p>
+					Mixed numbers and addition are two ideas you can use to help explain your answer. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-das-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Calculate <m>2.3 + 3.08</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>4.2 + 1.03</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>4.6 - 2.22</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>3.6 - 1.38</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				A student calculates <m>2.5 + 1.04</m> and gets 3.09 as the result. How would you explain the error to them? 
+			</p>
+			<aside>
+				<p>
+					Just telling someone the correct way of doing a calculation does not <em>explain</em> the error to them. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-das-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Calculate <m>2.03 + 1.98</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>1.013 + 3.92</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>11.11 + 1.111</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>6.1 - 3.28</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>4.28 - 1.005</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>5.006 - 3.09</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-das-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				The word <term>decimal</term> comes from the Latin root for ten. This is because numbers can be written
+				in terms of powers of ten. This gives us a different way of writing the expanded form of a number: 
+			</p>
+			<aside>
+				<p>
+					Other examples from the same root: 
+					<ul>
+						<li>
+							<p>
+								Decade: ten years 
+							</p>
+						</li>
+						<li>
+							<p>
+								Decathlon: ten events 
+							</p>
+						</li>
+					</ul>
+				</p>
+			</aside>
+			<p>
+				<me>
+					\begin{aligned}
+						238 \amp = 200 + 30 + 8 \\
+						\amp = 2 \cdot 100 + 3 \cdot 10 + 8 \cdot 1 \\
+						\amp = 2 \cdot 10^2 + 3 \cdot 10^1 + 8 \cdot 10^0 
+					\end{aligned}
+				</me>
+				With this framework in mind, write the number 21.84 using expanded form and showing the powers of ten. 
+			</p>
+			<aside>
+				<p>
+					You don't necessarily need to show all the steps, but you may find it helpful. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Write the number 107.509 using expanded form and showing the powers of ten. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write the number 3100000000 using expanded form and showing the power of ten. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write the number 0.000000079 using expanded form and showing the power of ten. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Describe some of the challenges that you faced in the last two calculations. 
+			</p>
+			<aside>
+				<p>
+					<em>Scientific notation</em> is a way of writing numbers that avoids these difficulties. See
+					<xref ref="sec-sn-1-main" />.
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-das-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				There are certain decimals that come up often enough that it is useful to be able to convert between
+				decimals and fractions. Convert each of the decimals below into fractions, and then completely reduce
+				them. Put the reduced fraction into the charts.
+			</p>
+			<image xml:id="sec-das-2-wksht-5-1" width="70%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {
+							\begin{tabular}{|c||c|c|c|c||c|c|c|}
+								\hline
+								Decimal \amp $0.2$ \amp $0.4$ \amp $0.6$ \amp $0.8$ \amp $0.25$ \amp $0.5$ \amp $0.75$ \\ \hline
+								\multirow{2}{*}{Fraction} \amp \amp \amp \amp \amp \amp \amp \\
+								\amp \amp \amp \amp \amp \amp \amp \\ \hline
+							\end{tabular}
+						};
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<aside>
+				<p>
+					Try to organize your work so that you don't just have fractions scattered all over the place. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				There are fractions that lead to decimals that repeat a pattern forever. We can indicate repeating
+				decimals in two different ways. One notation writes out enough of the number so that the pattern is
+				"obvious" and then uses an ellipsis to indicate that the pattern continues. The other way uses a bar
+				over the part of the number that repeats. Using a calculator or long division, complete the chart of
+				values. 
+			</p>
+			<image xml:id="sec-das-2-wksht-5-2" width="90%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {
+							\begin{tabular}{|c||c|c|c|c||c|c|c|}
+								\hline
+								Fraction \amp $\frac{1}{6}$ \amp $\frac{1}{3}$ \amp $\frac{2}{3}$ \amp $\frac{5}{6}$ \\ \hline
+								Ellipsis Notation \amp $0.16666\ldots$ \amp \hspace{2cm} \amp\hspace{2cm} \amp \hspace{2cm} \\ \hline
+								Bar Notation \amp $0.1\overline{6}$ \amp \amp \amp \\ \hline
+							\end{tabular}
+						};
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Some decimals have interesting patterns that can be explored. One of the more surprising examples of
+				this happens with fractions with 7 in the denominator. 
+			</p>
+			<image xml:id="sec-das-2-wksht-5-3" width="95%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {
+							\begin{tabular}{|c||c|c|c|c||c|c|c|}
+								\hline
+								Fraction \amp $\frac{1}{7}$ \amp $\frac{2}{7}$ \amp $\frac{3}{7}$ \amp $\frac{4}{7}$ \amp $\frac{5}{7}$ \amp $\frac{6}{7}$ \\ \hline
+								Decimal \amp $0.\overline{142857}$ \amp $0.\overline{285714}$ \amp $0.\overline{428571}$ \amp $0.\overline{571428}$ \amp $0.\overline{714285}$ \amp $0.\overline{857142}$\\ \hline
+							\end{tabular}
+						};
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				What pattern do you observe in these decimals? 
+			</p>
+			<aside>
+				<p>
+					If you want to play with another one, try playing with fractions with 9, 99, and 999 in the
+					denominator. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+</section>

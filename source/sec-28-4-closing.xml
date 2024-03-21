@@ -1,0 +1,140 @@
+<section xml:id="sec-cic-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		In this section, we introduced the idea of integer chips, and used them to describe all integer addition and
+		subtraction problems, using both positive and negative integers. But we're not limited to just these things. We
+		can take the idea of these chips and use them with the idea of base-10 blocks by replacing the cubes with chips. 
+	</p>
+	<image xml:id="sec-cic-4-blocks-and-chips" width="60%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.2] 
+				\begin{scope} [shift={(0,0)}]
+					\draw (0,0) grid[step=2] ++ (2,20); 
+					\draw[thick] (0,0) rectangle ++ (2,20); 
+					\draw[thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,7) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,9) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,11) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,13) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,15) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,17) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,19) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+				\end{scope} 
+				\begin{scope} [shift={(2.5,0)}]
+					\draw (0,0) grid[step=2] ++ (2,20); 
+					\draw[thick] (0,0) rectangle ++ (2,20); 
+					\draw[thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,7) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,9) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,11) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,13) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,15) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,17) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,19) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+				\end{scope} 
+				\begin{scope} [shift={(5,0)}]
+					\draw[thick] (0,0) grid[step=2] ++ (2,10); 
+					\draw[thick] (0,0) rectangle ++ (2,10); 
+					\draw[thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,7) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,9) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+				\end{scope}
+				\draw (3.5,-0.5) node[anchor=north] {\strut \small $25$}; 
+				\draw (10,-0.5) node[anchor=north] {\strut \small $+$}; 
+				\begin{scope} [shift={(13,0)}]
+					\draw (0,0) grid[step=2] ++ (2,20); 
+					\draw[thick] (0,0) rectangle ++ (2,20); 
+					\draw[thick, fill=red] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,3) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,5) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,7) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,9) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,11) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,13) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,15) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,17) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,19) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+				\end{scope} 
+				\begin{scope} [shift={(15.5,0)}]
+					\draw (0,0) grid[step=2] ++ (2,14); 
+					\draw[thick] (0,0) rectangle ++ (2,14); 
+					\draw[thick, fill=red] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,3) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,5) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,7) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,9) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,11) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[thick, fill=red] (1,13) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+				\end{scope}
+				\draw (15.25,-0.5) node[anchor=north] {\strut \small $(-17)$}; 
+				\draw (20.5,-0.5) node[anchor=north] {\strut \small $=$}; 
+				\begin{scope} [shift={(23.5,0)}]
+					\draw[gray] (0,0) grid[step=2] ++ (2,20); 
+					\draw[thick, gray] (0,0) rectangle ++ (2,20); 
+					\draw[thick, gray] (1,1) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,3) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,5) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,7) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,9) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,11) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,13) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,15) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,17) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,19) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+				\end{scope} 
+				\begin{scope} [shift={(26,0)}]
+					\draw[gray] (0,16) grid[step=2] ++ (2,4); 
+					\draw[thick, gray] (0,16) rectangle ++ (2,4); 
+					\draw (0,0) grid[step=2] ++ (2,16); 
+					\draw[thick] (0,0) rectangle ++ (2,16); 
+					\draw[thick, gray] (1,17) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,19) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,3) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,5) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,7) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,9) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,11) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,13) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[thick, fill=yellow] (1,15) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+				\end{scope} 
+				\begin{scope} [shift={(28.5,0)}]
+					\draw[thick, gray] (0,0) grid[step=2] ++ (2,10); 
+					\draw[thick, gray] (0,0) rectangle ++ (2,10); 
+					\draw[thick, gray] (1,1) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,3) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,5) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,7) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[thick, gray] (1,9) circle (1) ++ (-0.5,-0.5) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+				\end{scope}
+				\draw (27,-0.5) node[anchor=north] {\strut \small $8$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		We can also imagine breaking each of the chips into wedges and using them for addition and subtraction of
+		fractions. And since decimals are just fractions, we can also imagine using them with decimals. Not that we
+		would actually do that, but this is is conceptually possible. 
+	</p>
+	<aside>
+		<p>
+			Unless the chips were fairly large to begin with, this would be a total mess to track in reality! 
+		</p>
+	</aside>
+	<p>
+		We also saw in the last couple worksheets that we can connect these chips to talking about the opposite of
+		numbers and solving equations. 
+	</p>
+	<p>
+		This flexibility is one of the marks of a beautiful idea in mathematics. The ability to take one idea and
+		connect it to so many other ideas means that we now have an expanded vocabulary with which to talk about our
+		mathematical ideas. It also means that when it comes down to solving problems, we have yet another tool in our
+		toolbox. And broadening that toolbox is the ultimate goal of college mathematics.
+	</p>
+</section>

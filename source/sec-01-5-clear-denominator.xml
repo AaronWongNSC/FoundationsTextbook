@@ -1,0 +1,171 @@
+<section xml:id="sec-bap-5-deeper">
+    <title>Going Deeper: Clearing the Denominator</title>
+    <p>
+        For the problems in this section, it was possible that you ended up with a fraction in your final answer, but
+        you were not given any fractions in the original problems. Students tend to have a negative relationship with
+        fractions. Later in the book, we're going to take a very close look at them. But for now, we're going to focus
+        on just some basic algebra involving fractions.
+    </p>
+    <p>
+        <idx><h>cross multiplication</h></idx>
+        Many students are at least vaguely familiar with something called "cross multiplication." This is a technique
+        for working with the specific situation when you have two fractions equal to each other and you're trying to
+        solve for the variable. Here is how it's often portrayed:
+        <image xml:id="sec-bap-5-cross-mult" width="10%">
+            <latex-image>
+                \begin{tikzpicture}
+                    \draw (0,0) node[anchor=north] {$\begin{aligned}
+                        \frac{a}{b} \amp = \frac{c}{d} \\
+                        ad \amp = bc
+                    \end{aligned}$};
+                    \draw (-0.5,-0.1) -- (0.5,-0.8);
+                    \draw (0.5,-0.1) -- (-0.5,-0.8);
+                \end{tikzpicture}
+            </latex-image>
+        </image>
+    </p>
+    <aside>
+        <p>
+            Notice how if you don't really know what's going on, the presentation is extremely unhelpful. It looks like
+            you've just crossed out the whole problem.
+        </p>
+    </aside>
+    <p>
+        Many teachers teach this method, but there are some downsides to it. It creates an additional rule for students
+        to remember, it's often applied incorrectly, and it doesn't teach or reinforce any specific algebraic concepts.
+    </p>
+    <p>
+        Fractions in equations introduce their own set of difficulties because fraction manipulations involve their own
+        concepts (for example, common denominators and reducing) which make things more complicated. Unfortunately, this
+        leads to the tendency to create even more manipulations for students to learn so that you have one set of rules
+        for fraction equations and a different set of rules for non-fraction equations. (If you're not comfortable with
+        fractions, there's a very brief fraction review in <xref ref="sec-mos-1-fraction-review" />, and a more
+        thorough discussion that runs through <xref ref="sec-fb-1-main" />, <xref ref="sec-fas-1-main" />,
+        <xref ref="sec-fm-1-main" />, and <xref ref="sec-fd-1-main" />.)
+    </p>
+    <p>
+        If you look back at <xref ref="def-equality" />, you might notice that there's one algebraic step that we did
+        not use in this section. We never multiplied both sides of the equation by a value in our attempts to solve for
+        the variable.
+    </p>
+    <aside>
+        <p>
+            Go back and check this claim!
+        </p>
+    </aside>
+    <p>
+        A very broad category of algebraic manipulations is known as "clearing the denominators." And this technique is
+        built on multiplying both sides of the equation by the same value. The basic premise of this method is that it's
+        often much easier to solve equations when there aren't fractions, and so it can make sense to eliminate them
+        from the equation as the first step.
+        <me>
+            \begin{aligned}
+                \frac{3x}{4} \amp = \frac{5}{3} \\
+                12 \cdot \frac{3x}{4} \amp = 12 \cdot \frac{5}{3} \amp \eqnspacer \amp \text{Multiply both sides by $12$} \\
+                3 \cdot \cancel{4} \cdot \frac{3x}{\cancel{4}} \amp = \cancel{3} \cdot 4 \cdot \frac{5}{\cancel{3}} \amp \amp \text{Reduce} \\
+                9x \amp = 20 \amp \amp \text{Simplify}
+            \end{aligned}
+        </me>
+    </p>
+    <p>
+        You can argue that cross-multiplication is "faster" in this case, and you would probably be correct. But that
+        doesn't mean that cross-multiplication isn't without its drawbacks. The blind application of
+        cross-multiplication can lead to numbers that are larger than necessary. Consider the following:
+        <me>
+            \begin{aligned}
+                \frac{5x}{12} \amp = \frac{3}{8} \\
+                24 \cdot \frac{5x}{12} \amp = 24 \cdot \frac{3}{8} \amp \eqnspacer \amp \text{Multiply both sides by $24$} \\
+                2 \cdot \cancel{12} \cdot \frac{5x}{\cancel{12}} \amp = 3 \cdot \cancel{8} \cdot \frac{3}{\cancel{8}} \amp \amp \text{Reduce} \\
+                10x \amp = 9 \amp \amp \text{Simplify}
+            \end{aligned}
+        </me>
+    </p>
+    <aside>
+        <p>
+            We can do even better by multiplying both sides by <m>\frac{12}{5}</m>, but that requires a higher level of
+            skill and confidence with fraction manipulations.
+        </p>
+    </aside>
+    <p>
+        If we were to use cross-multiplication, we would have ended up with <m>40x = 36</m>. Then after dividing, we
+        would have had to reduce the fraction, which creates more opportunities for error.
+    </p>
+    <p>
+        And then there's the challenge of more complex equations. Consider the following:
+        <me>
+            \frac{3x}{4} + \frac{1}{3} = \frac{5}{6}
+        </me>
+        Students that have learned cross-multiplication will often try to apply it to this situation, even though it
+        doesn't apply. When students learn rule-based mathematics, they will go through all sorts of interesting
+        machinations to try to apply a rule where it doesn't belong because they simply don't know what else to do.
+    </p>
+    <aside>
+        <p>
+            "If the only tool you have is a hammer, then everything looks like a nail."
+        </p>
+    </aside>
+    <p>
+        We could solve this using fraction manipulations, but most people (including instructors) prefer not to do that
+        if they don't have to. And clearing the denominator is the way around that. The trick is to multiply both sides
+        of the equation by a number that causes all the denominators to cancel out.
+    </p>
+    <aside>
+        <p>
+            <idx><h>least common denominator</h></idx>
+            This value turns out to be the <term>least common denominator</term> of all the fractions.
+        </p>
+    </aside>
+    <p>
+        <me>
+            \begin{aligned}
+                \frac{3x}{4} + \frac{1}{3} \amp = \frac{5}{6} \\
+                12 \cdot \left( \frac{3x}{4} + \frac{1}{3} \right) \amp = 12 \cdot \frac{5}{6} \amp \eqnspacer \amp \text{Multiply both sides by $12$} \\
+                12 \cdot \frac{3x}{4} + 12 \cdot \frac{1}{3} \amp = 12 \cdot \frac{5}{6} \amp \amp \text{Distribute} \\
+                3 \cdot \cancel{4} \cdot \frac{3x}{\cancel{4}} + \cancel{3} \cdot 4 \cdot \frac{1}{\cancel{3}} \amp = 2 \cdot \cancel{6} \cdot \frac{5}{\cancel{6}} \amp \amp \text{Reduce} \\
+                9x + 4 \amp = 10 \amp \amp \text{Simplify}
+            \end{aligned}
+        </me>
+    </p>
+    <aside>
+        <p>
+            Notice the parentheses in the second line! Those are incredibly important here! And if you don't remember
+            the distributive property, it's coming up in a couple sections.
+        </p>
+    </aside>
+    <p>
+        This technique is used much further along in mathematics. For example, there's a technique called "partial
+        fraction decomposition" that is used in calculus to break apart a fraction into simpler components. It comes
+        down to working with an equation that might look like the following:
+        <me>
+            \frac{A}{x-2} + \frac{B}{x+1} = \frac{x+4}{(x-2)(x+1)}
+        </me>
+        The goal is to solve for <m>A</m> and <m>B</m>. A common first step is to clear the denominators so that you
+        don't have to deal with fractions, and that manipulation looks very similar to the one above.
+        <me>
+            \begin{aligned}
+                \frac{A}{x-2} + \frac{B}{x+1} \amp = \frac{x+4}{(x-2)(x+1)} \\
+                (x-2)(x+1) \cdot \left( \frac{A}{x-2} + \frac{B}{x+1} \right) \amp = (x-2)(x+1) \cdot \frac{x+4}{(x-2)(x+1)} \\
+                (x-2)(x+1) \cdot \frac{A}{x-2} + (x-2)(x+1) \cdot  \frac{B}{x+1} \amp = (x-2)(x+1) \cdot \frac{x+4}{(x-2)(x+1)} \\
+                \cancel{(x-2)}(x+1) \cdot \frac{A}{\cancel{x-2}} + (x-2)\cancel{(x+1)} \cdot  \frac{B}{\cancel{x+1}} \amp = \cancel{(x-2)}\cancel{(x+1)} \cdot \frac{x+4}{\cancel{(x-2)}\cancel{(x+1)}} \\
+                (x+1)A + (x-2)B \amp = x+4
+            \end{aligned}
+        </me>
+    </p>
+    <p>
+        This is only the first step of this part of the problem. In practice, the next step would be to determine the
+        values of <m>A</m> and <m>B</m>, then use this equation to substitute for the integrand of an integral, which
+        then needs to be integrated.
+    </p>
+    <aside>
+        <p>
+            You're not expected to know what all those calculus words mean.
+        </p>
+    </aside>
+    <p>
+        Fortunately, you don't need to worry about this right now. The point is that the algebraic techniques you're
+        learning right now are the same algebraic techniques you're going to see down the line, especially if you are
+        on a track that's taking you towards calculus. It is important to do your best to build a solid foundation now
+        so that you will be ready when you see more complicated manipulations in the future. It is an incredibly
+        difficult task to do both at the same time.
+    </p>
+</section>

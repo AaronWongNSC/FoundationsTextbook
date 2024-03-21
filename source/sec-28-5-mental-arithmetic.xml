@@ -1,0 +1,182 @@
+<section xml:id="sec-cic-5-deeper">
+	<title>Going Deeper: Mental Arithmetic</title>
+	<p>
+		For many students, mental arithmetic usually feels quite complicated and can be extremely frustrating. One of
+		the big challenges for mental arithmetic is that most people try to do mental arithmetic the way they do
+		arithmetic on paper. Unfortunately, this is both extremely inefficient and unnecessarily difficult. The primary
+		reason has to do with how the paper method relies on being able to write down a digit to remember it later, but
+		our brains simply cannot do that. 
+	</p>
+	<p>
+		To get a sense of just how central that memory is, we're going to work through adding three three-digit numbers
+		together, and we're going to put a box around every number that appears in the process:
+		<me>
+			\begin{array}{r}
+				387 \\
+				236 \\
+				+ 523 \\
+				\hline
+			\end{array}
+		</me> 
+		<ul>
+			<li>
+				<p>
+					Ones digit: <m>\boxed{7}</m> plus <m>\boxed{6}</m> is <m>\boxed{13}</m>, plus <m>\boxed{3}</m> more
+					is <m>\boxed{16}</m>. Write the <m>\boxed{6}</m> below and carry the <m>\boxed{1}</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					Tens digit: <m>\boxed{1}</m> plus <m>\boxed{8}</m> is <m>\boxed{9}</m>, plus <m>\boxed{3}</m> more
+					is <m>\boxed{12}</m>, plus <m>\boxed{2}</m> more is <m>\boxed{14}</m>. Write the <m>\boxed{4}</m>
+					below and carry the <m>\boxed{1}</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					Hundreds digit: <m>\boxed{1}</m> plus <m>\boxed{3}</m> is <m>\boxed{4}</m>, plus <m>\boxed{2}</m>
+					more is <m>\boxed{6}</m>, plus <m>\boxed{5}</m> more is <m>\boxed{11}</m>. Write down these digits
+					to get the final result.
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		Let's make a list of all the digits that appeared in the process, keeping track of the order in which they
+		appeared:
+		<me>
+			\boxed{7} \, \boxed{6} \, \boxed{13} \, \boxed{3} \, \boxed{16} \, \boxed{6} \, \boxed{1} \, \boxed{1} \,
+			\boxed{8} \, \boxed{9} \, \boxed{3} \, \boxed{12} \, \boxed{2}\, \boxed{14} \, \boxed{4} \, \boxed{1} \,
+			\boxed{1} \, \boxed{3} \, \boxed{4} \, \boxed{2} \, \boxed{6} \, \boxed{5} \, \boxed{11}
+		</me>
+		When you look at this string of numbers, the critical observation to make is that the actual answer to the
+		calculation does not appear anywhere. In fact, when you look at the numbers, you may have a hard time even
+		finding the digits that make up the answer. We'll indicate those values with an arrow:
+		<me>
+			\boxed{7} \, \boxed{6} \, \boxed{13} \, \boxed{3} \, \boxed{16} \, \underset{\big\uparrow}{\boxed{6}} \,
+			\boxed{1} \, \boxed{1} \, \boxed{8} \, \boxed{9} \, \boxed{3} \, \boxed{12} \, \boxed{2}\, \boxed{14} \,
+			\underset{\big\uparrow}{\boxed{4}} \, \boxed{1} \, \boxed{1} \, \boxed{3} \, \boxed{4} \, \boxed{2} \,
+			\boxed{6} \, \boxed{5} \, \underset{\big\uparrow}{\boxed{11}}
+		</me>
+		Now that they've been marked, notice how many numbers appear in between them. These digits are numbers that
+		you're trying to hold in memory while all the other numbers are going through your head. Between the 6 for the
+		ones digit and the 11 for the hundreds and thousands digit in the last step, there are 16 numbers in between,
+		and one of those other numbers is one you were supposed to have memorized. 
+	</p>
+	<aside>
+		<p>
+			There is a technique of converting the digits into letters that you convert into a word to help remember
+			them. The idea is that it's easier for your brain to hold a word in memory while it processes numbers rather
+			than holding a number in memory while processing numbers. But that technique requires additional types of
+			practice and memory training. 
+		</p>
+	</aside>
+	<p>
+		When following this algorithm on paper, our brains are allowed to forget those digits because they're written
+		down. But when we do this mentally, we have to try to keep those numbers in memory while other digits are being
+		processed. While it helps to have reached a level of automaticity so that you're less consciously doing those
+		computations, it's still quite challenging for most people. 
+	</p>
+	<p>
+		The standard addition algorithm uses a digit manipulation scheme. What this means is that we're looking at each
+		digit as its own object. In the calculation, the number 387 is never used as a number. It's broken down into
+		three separate pieces:3, 8, and 7. This causes extra strain on our brains when handing it because it requires
+		more brain power to think about three separate objects rather than thinking about one. 
+	</p>
+	<p>
+		The big transition that makes mental arithmetic easier is to reorganize the calculation so that we don't have to
+		remember numbers for as long. The representations of arithmetic on the number that we developed a few sections
+		ago are a big towards that end. Here is how we're going to translate the process:
+		<me>
+			\begin{array}{r}
+				387 \\
+				236 \\
+				+ 523 \\
+				\hline
+			\end{array} \quad \longrightarrow \quad
+			\begin{array}{l}
+				387 \\
+				+ 200 + 30 + 6 \\
+				+ 500 + 20 + 3 =
+			\end{array}
+		</me> 
+	</p>
+	<p>
+		Here is how we're going to work through it: 
+		<ul>
+			<li>
+				<p>
+					Add the first two numbers: <m>\boxed{387}</m> plus <m>\boxed{200}</m> is <m>\boxed{587}</m>, plus
+					<m>\boxed{30}</m> more is <m>\boxed{617}</m>, plus <m>\boxed{6}</m> more is <m>\boxed{623}</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					Add the next number: <m>\boxed{623}</m> plus <m>\boxed{500}</m> is <m>\boxed{1123}</m>, plus
+					<m>\boxed{20}</m> more is <m>\boxed{1143}</m>, plus <m>\boxed{3}</m> more is <m>\boxed{1146}</m>.
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		This is how those numbers look written in order:
+		<me>
+			\boxed{387} \, \boxed{200} \, \boxed{587} \, \boxed{30} \, \boxed{617} \, \boxed{6} \, \boxed{623} \,
+			\boxed{623} \, \boxed{500} \, \boxed{1123} \, \boxed{20} \, \boxed{1143} \, \boxed{3} \, \boxed{1146}
+		</me>
+		Let's make some observations about this:
+		<ul>
+			<li>
+				<p>
+					The total number of boxed values is significantly lower. There were 23 in the first method and only
+					14 in the second method. 
+				</p>
+			</li>
+			<li>
+				<p>
+					However, the numbers that we were working with are also significantly larger. In the first method,
+					we only needed to be comfortable with small addition calculations, whereas the second method
+					requires a level of fluency with adding in different place values. 
+				</p>
+			</li>
+			<li>
+				<p>
+					The new approach does not require any long term memory, and the final number is the complete final
+					answer. In fact, the process is basically just keeping a running total as you work your way through,
+					so that you only really have to remember keep three numbers in your head at any time (the previous
+					total, the number you're adding, and the new total). 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		As with most things mathematical, this should not be seen as a "rule" for how you're "supposed to" do mental
+		arithmetic. It turns out that people who are good at mental arithmetic employ a number of different techniques
+		based on patterns that they identify as being familiar. It's not necessary to always go in the same order every
+		time, especially if there are patterns that make more intuitive sense. 
+	</p>
+	<p>
+		For example, in this calculation, you might notice that <m>300 + 200 + 500 = 1000</m>. This is a number that you
+		can put into memory (with a little bit of practice) because it's a "nice" number. And then you would only need
+		to add three two-digit numbers together instead. You might also notice that <m>387 + 3 = 390</m>, which also
+		brings you to a nice number. Then you can add in the hundreds and tens digits, leaving the final 6 for the very
+		last step. 
+	</p>
+	<p>
+		You could also use other groupings if they make sense. For example, you might see
+		<me>
+			387 + 236 = 387 + 13 + 223 = 400 + 223 = 523
+		</me>
+		and do that faster than you would do
+		<me>
+			387 + 200 + 30 + 6 = 587 + 30 + 6 = 617 + 6 = 623.
+		</me> 
+	</p>
+	<p>
+		The main point is that mathematics favors those who are flexible in their thinking instead of being rigid.
+		Throughout this book, we've emphasized just how restraining a rule-based approach to mathematics can be, and
+		this thread follows all the way back to the ways that you've learned your basic arithmetic. Hopefully, as you've
+		been working your way through this book, you've started to move away from those things and have started to build
+		a deeper understanding of mathematics.
+	</p>
+</section>

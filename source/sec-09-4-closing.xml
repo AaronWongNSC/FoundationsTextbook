@@ -1,0 +1,131 @@
+<section xml:id="sec-fqp-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		As mentioned earlier, factoring quadratic polynomials is viewed as an important marker of your algebraic skill
+		level. But the skill isn't just in getting the answer. In fact, the bulk of mathematics is not about getting
+		the answer. If you look back over everything we've done so far, you will see that there is a heavy emphasis on
+		understanding and communicating the thought processes involved in performing these algebraic manipulations. 
+	</p>
+	<aside>
+		<p>
+			Do you know why these are true? Or is it just another thing that you memorized at some point? 
+		</p>
+	</aside>
+	<p>
+		On the last worksheet page, instead of having you do more factorizations, you were asked to seek out patterns in
+		the factorizations you've already done. You were only asked to identify the information you could conclude in
+		each situation, but you were hopefully also able to discover the underlying logic. That logic goes all the way
+		back to basic arithmetic, with ideas such as the following: 
+		<ul>
+			<li>
+				<p>
+					A positive number multiplied by a positive number is a positive number.
+				</p>
+			</li>
+			<li>
+				<p>
+					A negative number multiplied by a negative number is a positive number.
+				</p>
+			</li>
+			<li>
+				<p>
+					A positive number multiplied by a negative number is a negative number.
+				</p>
+			</li>
+			<li>
+				<p>
+					A negative number multiplied by a positive number is a negative number.
+				</p>
+			</li>			
+		</ul>
+	</p>
+	<aside>
+		<p>
+			The third one may feel a bit tricky if you don't slow down. Remember the skill of thinking about specific
+			numbers. Pick a large positive number and add a small negative to it. What is the sign of the result? 
+		</p>
+	</aside>
+	<p>
+		There are also ideas that perhaps we don't have "memorized" phrases for, but should make sense when you think
+		about it. 
+		<ul>
+			<li>
+				<p>
+					A positive number plus a positive number is a positive number. 
+				</p>
+			</li>
+			<li>
+				<p>
+					A negative number plus a negative number is a negative number. 
+				</p>
+			</li>
+			<li>
+				<p>
+					When adding a positive and a negative number together, the sign of the result will match the sign of
+					the number that is larger (in absolute value).
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		Factoring quadratic polynomials is not an end in and of itself. It is a tool that allows you to do advanced
+		algebraic manipulations, such as solving more complicated equations. So we usually do not use it in complete
+		isolation. There is an important property of numbers that can be a useful supplemental tool.
+	</p>
+    <theorem xml:id="thm-zero-product-property">
+        <title>Zero Product Property</title>
+        <idx><h>zero product property</h></idx>
+        
+        <statement>
+            <p>
+				The <term>zero product property</term> states that if <m>a \cdot b = 0</m>, then we must have either
+				<m>a = 0</m> or <m>b = 0</m> (or possibly both).
+            </p>
+        </statement>
+    </theorem>
+
+	<p>
+		The combination of factoring with the zero product property allows you to take an equation with higher degree
+		and convert it into multiple equations of lower degree. Here is an example of solving the equation
+		<m>x^2 + 3x - 4 = 0</m>:
+		<me>
+			\begin{array}{ccl}
+			    \begin{aligned}
+        			x^2 + 3x - 4 \amp = 0 \\
+        			(x-1)(x+4) \amp = 0
+    			\end{aligned} \amp \phantom{.}\hspace{1cm}\phantom{.} \amp
+    			\begin{aligned}
+        			\\
+        		\amp \text{Factor} \\
+    			\end{aligned} \\
+				\begin{array}{rlcrl}
+					x - 1 \amp = 0 \amp \phantom{.}\hspace{5mm} \text{or} \hspace{5mm}\phantom{.} \amp x + 4 \amp = 0 \\
+					x \amp = 1 \amp \amp x \amp = -4
+				\end{array} \amp \amp 
+				\begin{aligned}
+					\amp \text{The zero product property} \\
+					\amp \text{Solve each equation} \\
+				\end{aligned}
+			\end{array}
+		</me> 
+	</p>
+	<aside>
+		<p>
+			Think of two non-zero numbers and multiply them together. Is the result ever zero? 
+		</p>
+	</aside>
+	<p>
+		Notice how the factorization was reduced to just a single step and that none of the steps for solving the
+		equation were justified. When you get further along in your math courses, you will be expected to know how to do
+		many of those steps for yourself, which is why we're strongly emphasizing the steps here. We are creating a
+		foundation for you to build on in the future. 
+	</p>
+	<p>
+		In this section, we can see the full scaffolded nature of algebraic reasoning. The skill of factoring is right
+		in the middle of the tower. Below us, we see that everything we're doing is premised on having basic fluency
+		with algebraic concepts such as the distributive property, and it also requires us to have enough experience
+		with numbers to search through different combinations to find the one we want. Above us, we see that there's an
+		entirely new set of equations that we can solve once we add in some more ideas. Every time you learn a new idea
+		in mathematics, you should take a step back to see how it fits into the bigger picture.
+	</p>
+</section>

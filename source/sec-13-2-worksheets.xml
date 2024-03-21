@@ -1,0 +1,195 @@
+<section xml:id="sec-sif-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/13-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-sif-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Calculate the slope of the line that contains the points below using three different pairs of points. Do not always pick consecutive points for this exercise. 
+			</p>
+			<image xml:id="sec-sif-2-wksht-1-1" width="30%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw (0,0) node[anchor = north] {
+							$\begin{array}{c|c|c}
+								x \amp \phantom{.} y \phantom{.} \amp (x,y) \\ \hline
+								-2 \amp -5 \amp (-2,-5) \\
+								-1 \amp -3 \amp (-1,-3) \\
+								0 \amp -1 \amp (0,-1) \\
+								1 \amp 1 \amp (1,1) \\
+								2 \amp 3 \amp (2,3) \\
+							\end{array}$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the slope of the given line. 
+			</p>
+			<aside>
+				<p>
+					Do not estimate coordinates. Find points that are on the grid. 
+				</p>
+			</aside>
+			<image xml:id="sec-sif-2-wksht-1-2" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+						\draw (-5.5,4) -- (5.5,-3.333); 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Write the equation <m>-3x + 4y = 12</m> in slope-intercept form. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sif-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Determine the slope of the given line. 
+			</p>
+			<image xml:id="sec-sif-2-wksht-2-1" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+						\draw (-5.5,1) -- (5.5,1); 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate the slope of the line that passes through the points <m>(-2, 3)</m> and <m>(4, 0)</m>.
+			</p>
+			<aside>
+				<p>
+					It may be helpful to make a sketch of the two points. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Write the equation <m>5x - 3y = 10</m> in slope-intercept form. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sif-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Calculate the slope of the line that passes through the points <m>(2, -1)</m> and <m>(5, 5)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate the slope of the line that passes through the points <m>(-2, 0)</m> and <m>(-2, 3)</m>.
+			</p>
+			<aside>
+				<p>
+					Be careful! Plot the points if you're not sure. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Write the equation <m>-4x - 2y = 8</m> in slope-intercept form. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Graph the line <m>y = 2x - 3</m>. 
+			</p>
+			<image xml:id="sec-sif-2-wksht-3-1" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sif-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Calculate the slope of the line that passes through the points <m>(-1, -1)</m> and <m>(2, -1)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write the equation <m>-3x - 4y = 0</m> in slope-intercept form. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write the equation <m>-5x + 3y = -7</m> in slope-intercept form. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Graph the line <m>y = -\frac{4}{3}x + 2</m>. 
+			</p>
+			<image xml:id="sec-sif-2-wksht-4-1" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sif-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Graph the line <m>x - 3y = 6</m>. 
+			</p>
+			<image xml:id="sec-sif-2-wksht-5-1" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Graph the line <m>-2x + 3y = -4</m>. 
+			</p>
+			<aside>
+				<p>
+					When graphing with fractions, do the best you can in estimating the locations of the points. If
+					possible, use integer coordinate points that are on the line to help make your graphs more accurate. 
+				</p>
+			</aside>
+			<image xml:id="sec-sif-2-wksht-5-2" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+	</worksheet>
+</section>

@@ -1,0 +1,426 @@
+<section xml:id="sec-exp-1-main">
+	<title>Don't Memorize These Formulas</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Interpret the meaning of integer exponents.
+				</p>
+			</li>
+			<li>
+				<p>
+					Explain the derivation of the product and power rules for exponents.
+				</p>
+			</li>
+			<li>
+				<p>
+					Correctly execute calculations involving the product and power rules for exponents.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		In an earlier section, we had worked with monomial and polynomial expressions that involved exponents. We
+		implicitly assumed that you were familiar with the notation. We're going to formally define exponents here for
+		the sake of completeness. 
+	</p>
+	<aside>
+		<p>
+			The positive integers are the numbers 1, 2, 3, 4, 5, and so forth. 
+		</p>
+	</aside>
+
+    <definition xml:id="def-exponent">
+        <title>Exponent</title>
+        <idx><h>exponent</h></idx>
+        
+        <statement>
+            <p>
+				A positive integer <term>exponent</term> represents repeated multiplication. The expression <m>a^n</m>
+				represents the quantity <m>a</m> multiplied by itself <m>n</m> times. In other words,
+				<me>
+					a^n = \underbrace{a \cdot a \cdots a}_{\text{$n$ times}}.
+				</me>
+            </p>
+        </statement>
+    </definition>
+
+	<p>
+		This definition allows us to write out exponent expressions "the long way" by explicitly writing out the terms
+		in the product: 
+		<me>
+			\begin{aligned}
+			x^1 \amp = x \\
+			x^2 \amp = x \cdot x \\
+			x^3 \amp = x \cdot x \cdot x \\
+			\amp \vdots 
+			\end{aligned}
+		</me>
+	</p>
+	<activity xml:id="sec-exp-1-ac1-product-rule-exponents">
+		<title>The Product Rule for Exponents</title>
+		<aside>
+			<p>
+				"But the equal signs aren't lined up!"
+			</p>
+			<p>
+				Relax. It's not a rule. It's just an organizational tool. Readability comes first. 
+			</p>
+		</aside>
+		<p>
+			This definition has a consequence that can be seen through some examples. Consider the following products: 
+			<me>
+				\begin{aligned}
+					x^3 \cdot x^4 =
+					\underbrace{\underbrace{(x \cdot x \cdot x)}_{\text{3 times}} \cdot
+					\underbrace{(x \cdot x \cdot x \cdot x)}_{\text{4 times}}}_{\text{7 times}} =
+					x^7 \\ \\
+				\end{aligned}
+			</me>
+			<me>
+				\begin{aligned}
+					x^4 \cdot x^1 =
+					\underbrace{\underbrace{(x \cdot x \cdot x \cdot x)}_{\text{4 times}} \cdot
+					\underbrace{(x)}_{\text{1 time}}}_{\text{5 times}} =
+					x^5 
+				\end{aligned}
+			</me>			 
+		</p>
+		<aside>
+			<p>
+				Being able to explain your ideas in sentences helps you to understand your ideas more deeply. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-exp-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Based on the pattern observed above, what would you say <m>x^m \cdot x^n</m> should be equal to? Write out
+			an explanation in both words and an equation (similar to the ones above) that explains why the pattern
+			exists. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						x^m \cdot x^n \amp = \underbrace{\underbrace{(x \cdot x \cdots x)}_{\text{$m$ times}} \cdot \underbrace{(x \cdot x \cdots x)}_{\text{$n$ times}}}_{\text{$m + n$ times}} = x^{m + n} 
+					\end{aligned}
+				</me>
+			</p>
+			<p>
+				Since <m>x^m</m> means to multiply <m>x</m> by itself <m>m</m> times, and <m>x^n</m> means to multiply
+				<m>x</m> by itself <m>n</m> times, if you do the first then the second, you've multiplied <m>x</m> by
+				itself <m>m + n</m> times in total. 
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-exp-1-ac2-power-rule-exponents">
+		<title>The Power Rule for Exponents</title>
+		<p>
+			There is a second consequence of the definition of exponents that can also been seen through some examples: 
+		</p>
+		<p>
+			<me>
+				\begin{aligned}
+					\left( x^4 \right)^2 =
+					\underbrace{ \underbrace{(x \cdot x \cdot x \cdot x)}_{\text{4 times}} \cdot
+					\underbrace{(x \cdot x \cdot x \cdot x)}_{\text{4 times}} }_{\text{2 groups of 4 times}} =
+					x^8 \\ \\
+				\end{aligned}
+			</me>
+			<me>
+				\begin{aligned}
+					\left( x^2 \right)^3 =
+					\underbrace{\underbrace{(x \cdot x)}_{\text{2 times}} \cdot
+					\underbrace{(x \cdot x)}_{\text{2 times}} \cdot
+					\underbrace{(x \cdot x)}_{\text{2 times}}}_{\text{3 groups of 2 times}} =
+					x^6 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			<alert xml:id="sec-exp-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Based on the pattern observed above, what would you say <m>\left( x^m \right)^n</m> should be equal to?
+			Write out an explanation in both words and an equation (similar to the ones above) that explains why the
+			pattern exists. 
+		</p>
+	<solution>
+		<p>
+			<me>
+				\begin{aligned}
+					\left( x^m \right)^n \amp = \underbrace{ \underbrace{(x \cdot x \cdots x)}_{\text{$m$ times}} \cdot \underbrace{(x \cdot x \cdots x)}_{\text{$m$ times}} \cdots \underbrace{(x \cdot x \cdots x)}_{\text{$m$ times}} }_{\text{$n$ groups of $m$ times}} = x^{mn} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			The product of <m>x</m> multiplied by itself <m>n</m> times is multiplied by itself <m>m</m> times, giving
+			you <m>m</m> groups of <m>x</m> multiplied by itself <m>n</m> times, for a total of <m>mn</m> times that
+			<m>x</m> has been multiplied by itself. 
+		</p>
+	</solution>
+	</activity>
+	<p>
+		These two results are important enough that they have names. 
+	</p>
+	<aside>
+		<p>
+			These may be "rules" but they are not arbitrary. If you ever get confused about whether to add or multiply
+			the exponents, just think about the explanations you just wrote out. 
+		</p>
+	</aside>
+	<theorem xml:id="thm-properties-of-exponents">
+		<title>Properties of Exponents</title>
+        <idx><h>exponent</h> <h>product rule</h> </idx>
+        <idx><h>exponent</h> <h>power rule</h></idx>
+
+
+		<statement>
+			<p>
+				When <m>m</m> and <m>n</m> are positive integers, we have the following:
+				<ul>
+					<li>
+						<p>The Product Rule for Exponents: <m>x^m \cdot x^n = x^{m+n}</m></p>
+					</li>
+					<li>
+						<p>The Power Rule for Exponents: <m>\left( x^m \right)^n = x^{mn}</m></p>
+					</li>
+				</ul>
+			</p>
+		</statement>
+	</theorem>
+	<aside>
+		<p>
+			Math is all about finding patterns. When we guess at something, it should be a guess based on a pattern, and
+			not just a random guess. 
+		</p>
+	</aside>
+	<p>
+		Did you notice how <xref ref="def-exponent"/> emphasizes that it only applies to positive integers? This is
+		because the definition requires us to count the number of terms in the product. But if that's the case, what
+		should <m>x^0</m> be? Should it be 0? Should it be 1? What about negative powers of <m>x</m>? Let's see if we
+		can come up with a sensible pattern. Consider the following diagram:
+	</p>
+	<image xml:id="sec-exp-1-exponents-up" width="60%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope}[shift={(3,0)}]
+					\draw (0,0) node[anchor=center] {%
+						$\begin{aligned}
+							x^4 \amp = x \cdot x \cdot x \cdot x \\
+								x^3\amp = x \cdot x \cdot x \\
+								x^2 \amp = x \cdot x \\
+								x^1 \amp = x
+						\end{aligned} $}; 
+					\draw[stealth-] (-1.7,1) -- (-1.7,-1) node[midway,anchor=east] {
+						\begin{minipage}{6cm}
+							At each step: \\ Add 1 to the exponent \\ Multiply the right side by $x$
+						\end{minipage} }; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		This gives us an accurate picture of the pattern of exponents. Starting from any equation, we can get the next
+		one by adding 1 to the exponent and multiplying the right side by another <m>x</m>. We're now going to try to
+		turn this around and go backwards:
+	</p>
+	<image xml:id="sec-exp-1-exponents-down" width="60%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope}[shift={(3,0)}]
+					\draw (0,0) node[anchor=center] {%
+						$\begin{aligned} x^4 \amp = x \cdot x \cdot x \cdot x \\
+							x^3 \amp = x \cdot x \cdot x \\
+							x^2 \amp = x \cdot x \\
+							x^1 \amp = x
+						\end{aligned} $ }; 
+					\draw[-stealth] (-1.7,1) -- (-1.7,-1) node[midway,anchor=east] {
+						\begin{minipage}{6cm}
+							At each step: \\ Subtract 1 from the exponent \\ Divide the right side by $x$
+						\end{minipage} }; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		 So all we need to do is continue the pattern.
+	</p>
+	<aside>
+		<p>
+			Philosophical question: Did we create this pattern, or was it already there and we're just discovering it? 
+		</p>
+	</aside>
+	<image xml:id="sec-exp-1-exponents-down-more" width="60%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope}[shift={(3,0)}]
+					\draw (0,0) node[anchor=center] {%
+						$\begin{aligned}
+							x^1 \amp = x \\
+							x^0 \amp = 1 \\
+							x^{-1} \amp = \frac{1}{x} \\
+							x^{-2} \amp = \frac{1}{x \cdot x} = \frac{1}{x^2}
+						\end{aligned} $}; 
+					\draw[-stealth] (-1.7,1) -- (-1.7,-1) node[midway,anchor=east] {
+						\begin{minipage}{6cm}
+							At each step: \\ Subtract 1 from the exponent \\ Divide the right side by $x$
+						\end{minipage}
+					}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		These ideas lead us to our next definition, which completes the definitions of exponents for the remaining integers: 
+	</p>
+    <definition xml:id="def-exponent-notation">
+        <title>Exponent Notation</title>
+        <idx><h>exponent</h> <h>negative</h> </idx>
+        <idx><h>exponent</h> <h>zero</h> </idx>
+        
+        <statement>
+            <p>
+				We define the following notation for <m>x \neq 0</m>:
+            </p>
+			<ul>
+				<li>
+					<p> <m>x^0 = 1</m> (Zero exponent) </p>
+				</li>
+				<li> 
+					<p> <m>x^{-n} = \frac{1}{x^n}</m> (Negative exponent) </p>
+				</li>
+			</ul>
+        </statement>
+    </definition>
+	<aside>
+		<p>
+			The second equation is true for all negative exponents, even when it's not an integer. But for now, we're
+			going to avoid the fractional and real number exponents. 
+		</p>
+	</aside>
+	<p>
+		The condition for this definition is worthy of a closer look. The challenge that arises is that the pattern that
+		we had fails when <m>x = 0</m>. The reason is that we cannot divide by zero, so inverting the multiplication and
+		turning it into division simply fails. 
+	</p>
+	<aside>
+		<p>
+			It's interesting to think about why division by zero is not allowed. It's related to the actual concept of
+			what it means to divide two numbers, but we'll talk more about that one later. 
+		</p>
+	</aside>
+	<p>
+		There are two other formulas that we can get by combining these properties. 
+	</p>
+	<aside>
+		<p>
+			We will see where these formulas come from in the worksheets. 
+		</p>
+	</aside>
+	<theorem xml:id="thm-more-properties-of-exponents">
+		<title>More Properties of Exponents</title>
+        <idx><h>exponent</h> <h>negative with fractions</h> </idx>
+
+		<statement>
+			<p>
+				When <m>x \neq 0</m> and <m>n</m> is any integer:
+				<ul>
+					<li> <m>\left( \frac{1}{x} \right)^{-n} = x^n</m> </li>
+					<li> <m>\frac{1}{x^{-n}} = x^n</m> </li>
+				</ul>
+			</p>
+		</statement>
+	</theorem>
+	<activity xml:id="sec-exp-1-ac3-negative-exponents">
+		<title>Negative Exponents</title>
+		<aside>
+			<p>
+				When we cancel terms in a fraction, they reduce to a 1, so this is <m>\frac{1 \cdot x^2}{1}</m>. 
+			</p>
+		</aside>
+		<p>
+			As it turns out, the patterns that were developed above can also be applied when the exponents are not
+			positive integers. Consider the following example: 
+			<me>
+				\begin{aligned}
+					x^5 \cdot x^{-3} \amp = x^{5 + (-3)} \amp \eqnspacer \amp \text{Product rule for exponents} \\
+					\amp = x^2 \amp \amp \text{Arithmetic} 
+				\end{aligned}
+			</me>
+			If we apply pattern from above, we get the same result: 
+			<me>
+				\begin{aligned}
+					x^5 \cdot x^{-3} \amp = x^{5 + (-3)} \amp \eqnspacer \amp \text{Product rule for exponents} \\
+					\amp = x^2 \amp \amp \text{Arithmetic} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			<alert xml:id="sec-exp-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>x^2 \cdot x^{-5}</m> using both types of presentations above. Your final result should be of
+			the form for some integer <m>n</m>.
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						x^2 \cdot x^{-5} \amp = x^2 \cdot \frac{1}{x^5} \amp \amp \text{Definition of negative exponents} \\
+						\amp = \frac{x^2}{x^5} \amp \amp \text{Multiply fractions} \\
+						\amp = \frac{x \cdot x}{x \cdot x \cdot x \cdot x \cdot x} \amp \amp \text{Definition of exponents} \\
+						\amp = \frac{ \cancel{x \cdot x} } {\cancel {x \cdot x} \cdot x \cdot x \cdot x} \amp \amp \text{Reduce the fraction} \\
+						\amp = \frac{1}{x^3} \amp \amp \text{Simplify} \\
+						\amp = x^{-3} \amp \amp \text{Definition of negative exponents} 
+					\end{aligned}
+				</me>
+			</p>
+			<p>
+				<me>
+					\begin{aligned}
+						x^2 \cdot x^{-5} \amp = x^{2 + (-5)} \amp \amp \text{Product rule for exponents} \\
+						\amp = x^{-3} \amp \amp \text{Arithmetic} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-exp-1-ac4-multiple-properties">
+		<title>Properties of Exponents with Negative Exponents</title>
+		<p>
+			The power rule for exponents also works when the exponents are zero or negative. You have all the tools you
+			need to demonstrate this for yourself. 
+		</p>
+		<p>
+			<alert xml:id="sec-exp-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>\left( x^{-2} \right)^3</m> using a presentation that shows all of the individual steps. Then
+			verify that the power rule gives the same result.
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						\left( x^{-2} \right)^3 \amp = x^2 \cdot x^2 \cdot x^2 \amp \amp \text{Definition of exponents} \\
+						\amp = \frac{1}{x^2} \cdot \frac{1}{x^2} \cdot \frac{1}{x^2} \amp \amp \text{Definition of negative exponents} \\
+						\amp = \frac{1}{x \cdot x} \cdot \frac{1}{x \cdot x} \cdot \frac{1}{x \cdot x} \amp \amp \text{Definition of exponents} \\
+						\amp = \frac{1}{x \cdot x \cdot x \cdot x \cdot x \cdot x} \amp \amp \text{Multiply fractions} \\
+						\amp = \frac{1}{x^6} \amp \amp \text{Simplify} \\
+						\amp = x^{-6} \amp \amp \text{Definition of negative exponents} 
+					\end{aligned}
+				</me>
+			</p>
+			<p>
+				<me>
+					\begin{aligned}
+						\left( x^{-2} \right)^3 \amp = x^{-2 \cdot 3} \amp \amp \text{Power rule for exponents} \\
+						\amp = x^{-6} \amp \amp \text{Arithmetic} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+</section>

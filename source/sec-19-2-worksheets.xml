@@ -1,0 +1,148 @@
+<section xml:id="sec-fm-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/19-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-fm-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Draw a diagram to represent the product <m>\frac{1}{4} \cdot \frac{3}{2}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a diagram to represent the product <m>\frac{2}{3} \cdot \frac{3}{4}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{4}{5} \cdot \frac{8}{3}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{4}{5} \cdot \frac{8}{3}</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fm-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Draw a diagram to represent the product <m>\frac{3}{4} \cdot \frac{3}{4}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{10}{9} \cdot \frac{4}{7}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{12}{5} \cdot \frac{15}{8}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{3a}{8} \cdot \frac{5}{7b}</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fm-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Calculate <m>\frac{3}{11} \cdot \frac{8}{5}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{25}{6} \cdot \frac{8}{3}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{5x}{8y} \cdot \frac{7x^2}{9}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{15p^2}{7q} \cdot \frac{21 pq }{5}</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fm-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+						\frac{3}{4} \cdot \frac{4}{3} \amp = \frac{\cancel{3}}{\cancel{4}} \cdot \frac{\cancel{4}}{\cancel{3}} \amp \eqnspacer \amp \text{Reduce} \\
+						\amp = 0 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{3}{5} \cdot 5x</m>. 
+			</p>
+			<aside>
+				<p>
+					Can you explain why <m>5x = \frac{5x}{1}</m>? Can you think of another way of understanding this
+					calculation? 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{15 x^2 y}{8z} \cdot \frac{10x z^2}{9 y}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{5 (x+2)^2}{8(x-3)} \cdot \frac{4(x-3)^3}{15 (x+2)^4}</m>. 
+			</p>
+			<aside>
+				<p>
+					Keep the terms in the parentheses together. Do not use the distributive property to expand those
+					terms. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fm-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+						\frac{5}{14} \cdot \frac{7}{15} \amp = \frac{5}{2 \cdot 7} \cdot \frac{7}{3 \cdot 5} \amp \eqnspacer \amp \text{Identify common factors} \\
+						\amp = \frac{\cancel{5}}{2 \cdot \cancel{7}} \cdot \frac{\cancel{7}}{3 \cdot \cancel{5}} \amp \amp \text{Reduce} \\
+						\amp = 6 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{15p^2}{7q} \cdot \frac{21 pq }{5}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{x^2 - 1}{x^2 - x - 6} \cdot \frac{x^2 - 5x + 6}{x + 1}</m>. 
+			</p>
+			<aside>
+				<p>
+					Factor the numerator and the denominator. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+</section>

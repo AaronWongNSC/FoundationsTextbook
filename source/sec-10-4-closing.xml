@@ -1,0 +1,59 @@
+<section xml:id="sec-rme-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		There's an internet math meme that makes its way around social media every now and then. There are a few
+		versions of it, but they all look something like this:
+		<me>
+			\text{Calculate: } 6 \div 2(1+2)
+		</me> 
+	</p>
+	<p>
+		People will argue for hours over whether the correct answer is or Some people will insist on the "rule" that
+		division and multiplication and done left-to-right, but others will note that the implied multiplication is
+		usually given priority. For example, in writing <m>5 \div 2x</m>, there's virtually no context in which we would
+		separate the 2 from the <m>x</m>.
+	</p>
+	<p>
+		But all of that arguing misses the point. The "answer" is that the person writing the problem did not
+		communicate effectively. The person who wrote the expression did not use notation in a clear manner. And that's
+		an important lesson. Mathematics is not about arcane rules, but about communicating ideas. 
+	</p>
+	<p>
+		One of the ongoing challenges for math courses is that students can keep advancing forward with a weak
+		foundation. They can often do well enough to pass the new material while there are weaknesses from previous
+		sections that remain unaddressed. And this can continue for a while, sometimes multiple years, until there's a
+		certain moment where things suddenly make no sense at all. 
+	</p>
+	<p>
+		Sometimes, students will get to that spot and try to brute force their way through it. It is not often
+		successful from the educational perspective, though with enough effort students they may still be able to "pass"
+		the material (even if just barely). 
+	</p>
+	<p>
+		The first part of this book has been focused on shoring up a number of key algebraic ideas and concepts. This
+		last section is an important step towards true algebraic fluency. As soon as you are able to "see through" all
+		of the notation and break down complicated expressions to their more basic components, you have access to a much
+		wider range of algebraic thought processes. Going back to the language analogy, this is the point where you
+		cross over from speaking in broken sentence fragments into the early stages of fluency. 
+	</p>
+	<aside>
+		<p>
+			Study tip: Keep a log of your basic algebra errors. Write down (using a complete presentation!) what you did
+			and what you were supposed to do. This will help your brain catch the patterns and fix them. This is one of
+			the fastest ways to correct these types of errors. After the third or fourth time, you will have trained
+			your brain to watch for that error. 
+		</p>
+	</aside>
+	<p>
+		The next major step in forward development is contextualized practice. It's not enough to simply see these
+		algebraic ideas in isolation. They need to be brought into perspective through the lens of other mathematical
+		ideas. And that is where the college level math course will take over. 
+	</p>
+	<p>
+		The rest of this book is about backwards development. In other words, it's about finding and filling some of the
+		earlier holes that create problems for students. In a real sense, we will be working backwards from concepts
+		found in high school algebra down to elementary school arithmetic. The content is full of a number of simple
+		ideas that are sometimes missed by students as they're coming up through the educational system. And those are
+		sometimes the concepts that help to support higher levels of mathematical thinking.
+	</p>
+</section>

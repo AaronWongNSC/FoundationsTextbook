@@ -1,0 +1,83 @@
+<section xml:id="sec-mpd-3-practice">
+	<title>Deliberate Practice: Percent Calculations</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<p>
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Determine which of the part, the whole, and the percent you are given in the initial statement. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Set up the equation and solve it. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-mpd-3-worksheet">
+		<p>
+			<em>Instructions:</em> Answer the question. 
+		</p>
+		<exercise>
+			<p>
+				What is 20% of 70?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				50% of what number is 15?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				40 is 10% of what number? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				What percent of 60 is 18?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				5% of 60 is what? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				What is of 30% of 27?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				8 is 25% of what number? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				40% of 32 is what number? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				25% of what number is 12?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				What number is 75% of 52?
+			</p>
+		</exercise>
+	</worksheet>
+</section>

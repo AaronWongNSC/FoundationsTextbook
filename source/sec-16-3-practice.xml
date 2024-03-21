@@ -1,0 +1,153 @@
+<section xml:id="sec-moe-3-practice">
+	<title>Deliberate Practice: Solving by Elimination</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<p>
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Write the original system of equations. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Indicate the manipulations of the equations in the process of eliminating the variables. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-moe-3-worksheet">
+		<p>
+			<em>Instructions:</em> Solve the system of equations by elimination. If the system has either zero or infinitely many solutions, explain how you can determine this information from your calculations. 
+		</p>
+		<exercise>
+			<p>
+				<m>
+					\left\{
+						\begin{array}{rcrcr}
+							x \amp + \amp 2y \amp = \amp 7 \\
+							-2x \amp + \amp y \amp = \amp 1
+						\end{array}
+					\right.
+				</m>  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>
+					\left\{
+						\begin{array}{rcrcr}
+							x \amp - \amp 2y \amp = \amp 4 \\
+							-3x \amp + \amp 6y \amp = \amp -12
+						\end{array}
+					\right.
+				</m>  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>
+					\left\{
+						\begin{array}{rcrcr}
+							3x \amp - \amp 2y \amp = \amp -8 \\
+							-x \amp + \amp 3y \amp = \amp 5
+						\end{array}
+					\right.
+				</m>  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>
+					\left\{
+						\begin{array}{rcrcr}
+							-2x \amp + \amp 3y \amp = \amp -8 \\
+							-x \amp + \amp 2y \amp = \amp -5
+						\end{array}
+					\right.
+				</m>  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>
+					\left\{
+						\begin{array}{rcrcr}
+							2x \amp - \amp 3y \amp = \amp 1 \\
+							4x \amp - \amp 6y \amp = \amp 4
+						\end{array}
+					\right.
+				</m>  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>
+					\left\{
+						\begin{array}{rcrcr}
+							3x \amp + \amp 4y \amp = \amp 5 \\
+							2x \amp + \amp 2y \amp = \amp 3
+						\end{array}
+					\right.
+				</m>  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>
+					\left\{
+						\begin{array}{rcrcr}
+							2x \amp - \amp y \amp = \amp -4 \\
+							x \amp - \amp 2y \amp = \amp 5
+						\end{array}
+					\right.
+				</m>  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>
+					\left\{
+						\begin{array}{rcrcr}
+							-3x \amp - \amp 5y \amp = \amp -3 \\
+							x \amp + \amp y \amp = \amp 6
+						\end{array}
+					\right.
+				</m>  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>
+					\left\{
+						\begin{array}{rcrcr}
+							3x \amp + \amp 3y \amp = \amp 4 \\
+							-3x \amp - \amp 2y \amp = \amp -1
+						\end{array}
+					\right.
+				</m>  
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>
+					\left\{
+						\begin{array}{rcrcr}
+							4x \amp + \amp 2y \amp = \amp -1 \\
+							3x \amp + \amp 2y \amp = \amp 2
+						\end{array}
+					\right.
+				</m>  
+			</p>
+		</exercise>
+	</worksheet>
+</section>

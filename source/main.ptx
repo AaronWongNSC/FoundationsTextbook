@@ -1,22 +1,396 @@
-<?xml version="1.0" encoding="utf-8"?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
 
-<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <!-- we first include a file which contains the docinfo element: -->
-  <xi:include href="./docinfo.ptx" />
+  <xi:include href="./bookinfo.xml" />
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+  <book xml:id="main">
+    <title>Foundational Mathematics for Corequisite Courses</title>
+    <subtitle>Succeeding at College Mathematics</subtitle>
 
-    <!-- Include frontmatter -->
-    <xi:include href="./frontmatter.ptx" />
+    <xi:include href="./frontmatter.xml" /> 
 
-    <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+    <part xml:id="part-main-branch">
+      <title>Main Trunk</title>
 
+      <chapter xml:id="chapter-basic-algebraic-presentation" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Basic Algebraic Presentation</title> <!-- sec-bap -->
+        <xi:include href="sec-01-1-basic-presentation.xml" />
+        <xi:include href="sec-01-2-worksheets.xml" />
+        <xi:include href="sec-01-3-practice.xml" />
+        <xi:include href="sec-01-4-closing.xml" />
+        <xi:include href="sec-01-5-clear-denominator.xml" /> 
+      </chapter>
 
-    <!-- Include backmatter -->
-    <xi:include href="./backmatter.ptx" />
+      <chapter xml:id="chapter-variables" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Variables in Expressions and Equations</title> <!-- sec-vee -->
+        <xi:include href="sec-02-1-variables.xml" />
+        <xi:include href="sec-02-2-worksheets.xml" />
+        <xi:include href="sec-02-3-practice.xml" />
+        <xi:include href="sec-02-4-closing.xml" />
+        <xi:include href="sec-02-5-sets.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-like-terms" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Like and Unlike Terms</title> <!-- sec-lult -->
+        <xi:include href="sec-03-1-like-terms.xml" />
+        <xi:include href="sec-03-2-worksheets.xml" />
+        <xi:include href="sec-03-3-practice.xml" />
+        <xi:include href="sec-03-4-closing.xml" />
+      </chapter>
+
+      <chapter xml:id="chapter-simplify-solve" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Simplifying Expressions and Solving Equations</title> <!-- sec-sese -->
+        <xi:include href="sec-04-1-simplify-solve.xml" />
+        <xi:include href="sec-04-2-worksheets.xml" />
+        <xi:include href="sec-04-3-practice.xml" />
+        <xi:include href="sec-04-4-closing.xml" />
+        <xi:include href="sec-04-5-inequalities.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-variables-substitutions" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Variables and Substitutions</title> <!-- sec-vas -->
+        <xi:include href="sec-05-1-variables-substitutions.xml" />
+        <xi:include href="sec-05-2-worksheets.xml" />
+        <xi:include href="sec-05-3-practice.xml" />
+        <xi:include href="sec-05-4-closing.xml" />
+        <xi:include href="sec-05-5-disappearing-variables.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Exponents</title> <!-- sec-exp -->
+        <xi:include href="sec-06-1-exponents.xml" />
+        <xi:include href="sec-06-2-worksheets.xml" />
+        <xi:include href="sec-06-3-practice.xml" />
+        <xi:include href="sec-06-4-closing.xml" />
+        <xi:include href="sec-06-5-radicals-fractional-exponents.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-polynomial-products" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Products of Polynomials</title> <!-- sec-pop -->
+        <xi:include href="sec-07-1-polynomial-products.xml" />
+        <xi:include href="sec-07-2-worksheets.xml" />
+        <xi:include href="sec-07-3-practice.xml" />
+        <xi:include href="sec-07-4-closing.xml" />
+        <xi:include href="sec-07-5-algebra-tiles.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-common-factors" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Common Factors</title> <!-- sec-cf -->
+        <xi:include href="sec-08-1-common-factors.xml" />
+        <xi:include href="sec-08-2-worksheets.xml" />
+        <xi:include href="sec-08-3-practice.xml" />
+        <xi:include href="sec-08-4-closing.xml" />
+      </chapter>
+
+      <chapter xml:id="chapter-factoring-quadratics" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Factoring Quadratic Polynomials</title> <!-- sec-fqp -->
+        <xi:include href="sec-09-1-factoring-quadratics.xml" />
+        <xi:include href="sec-09-2-worksheets.xml" />
+        <xi:include href="sec-09-3-practice.xml" />
+        <xi:include href="sec-09-4-closing.xml" />
+        <xi:include href="sec-09-5-special-factorizations.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-reading-math" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Reading Mathematical Expressions</title> <!-- sec-rme -->
+        <xi:include href="sec-10-1-reading-math.xml" />
+        <xi:include href="sec-10-2-worksheets.xml" />
+        <xi:include href="sec-10-3-practice.xml" />
+        <xi:include href="sec-10-4-closing.xml" />
+        <xi:include href="sec-10-5-calculator.xml" /> 
+      </chapter>
+      
+      <chapter xml:id="chapter-review-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Reflection</title> <!-- sec-ref1 -->
+        <xi:include href="sec-11-1-reflection.xml" />
+        <xi:include href="sec-11-2-worksheets.xml" />
+      </chapter>
+
+    </part>
+
+    <part xml:id="part-linear-equations">
+      <title>Linear Equations and the Coordinate Plane</title>
+
+      <chapter xml:id="chapter-lines-and-plane" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Lines and the Coordinate Plane</title> <!-- sec-lcp -->
+        <xi:include href="sec-12-1-lines-and-plane.xml" />
+        <xi:include href="sec-12-2-worksheets.xml" />
+        <xi:include href="sec-12-3-practice.xml" />
+        <xi:include href="sec-12-4-closing.xml" />
+        <xi:include href="sec-12-5-graphing-functions.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-slope-intercept" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Slope-Intercept Form</title> <!-- sec-sif -->
+        <xi:include href="sec-13-1-slope-intercept.xml" />
+        <xi:include href="sec-13-2-worksheets.xml" />
+        <xi:include href="sec-13-3-practice.xml" />
+        <xi:include href="sec-13-4-closing.xml" />
+        <xi:include href="sec-13-5-rate-of-change.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-point-slope" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Point-Slope Form</title> <!-- sec-psf -->
+        <xi:include href="sec-14-1-point-slope.xml" />
+        <xi:include href="sec-14-2-worksheets.xml" />
+        <xi:include href="sec-14-3-practice.xml" />
+        <xi:include href="sec-14-4-closing.xml" />
+      </chapter>
+
+      <chapter xml:id="chapter-substitution" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>The Method of Substitution</title> <!-- sec-mos -->
+        <xi:include href="sec-15-1-substitution.xml" />
+        <xi:include href="sec-15-2-worksheets.xml" />
+        <xi:include href="sec-15-3-practice.xml" />
+        <xi:include href="sec-15-4-closing.xml" />
+      </chapter>
+
+      <chapter xml:id="chapter-elimination" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>The Method of Elimination</title> <!-- sec-moe -->
+        <xi:include href="sec-16-1-elimination.xml" />
+        <xi:include href="sec-16-2-worksheets.xml" />
+        <xi:include href="sec-16-3-practice.xml" />
+        <xi:include href="sec-16-4-closing.xml" />
+        <xi:include href="sec-16-5-three-dims.xml" /> 
+      </chapter>
+
+    </part>
+
+    <part xml:id="part-fractions-decimals">
+      <title>Fractions and Decimals</title>
+
+      <chapter xml:id="chapter-fraction-basics" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Fraction Basics</title> <!--sec-fb -->
+        <xi:include href="sec-17-1-fraction-basics.xml" />
+        <xi:include href="sec-17-2-worksheets.xml" />
+        <xi:include href="sec-17-3-practice.xml" />
+        <xi:include href="sec-17-4-closing.xml" />
+        <xi:include href="sec-17-5-reducing-rational-expressions.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-fraction-add-subtract" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Fraction Addition and Subtraction</title> <!-- sec-fas -->
+        <xi:include href="sec-18-1-fraction-add-subtract.xml" />
+        <xi:include href="sec-18-2-worksheets.xml" />
+        <xi:include href="sec-18-3-practice.xml" />
+        <xi:include href="sec-18-4-closing.xml" />
+        <xi:include href="sec-18-5-add-subtract-rational-expressions.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-fraction-mult" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Fraction Multiplication</title> <!-- sec-fm -->
+        <xi:include href="sec-19-1-fraction-multiplication.xml" />
+        <xi:include href="sec-19-2-worksheets.xml" />
+        <xi:include href="sec-19-3-practice.xml" />
+        <xi:include href="sec-19-4-closing.xml" />
+        <xi:include href="sec-19-5-more-factoring.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-fraction-div" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Fraction Division</title> <!-- sec-fd -->
+        <xi:include href="sec-20-1-fraction-division.xml" />
+        <xi:include href="sec-20-2-worksheets.xml" />
+        <xi:include href="sec-20-3-practice.xml" />
+        <xi:include href="sec-20-4-closing.xml" />
+        <xi:include href="sec-20-5-fractions-inside-fractions.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-decimal-add-sub" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Decimal Addition and Subtraction</title> <!-- sec-das -->
+        <xi:include href="sec-21-1-decimal-add-subtract.xml" />
+        <xi:include href="sec-21-2-worksheets.xml" />
+        <xi:include href="sec-21-3-practice.xml" />
+        <xi:include href="sec-21-4-closing.xml" />
+      </chapter>
+
+      <chapter xml:id="chapter-mult-decimals-percents" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Multiplying Decimals and Percents</title> <!-- sec-mdp -->
+        <xi:include href="sec-22-1-mult-decimals-percents.xml" />
+        <xi:include href="sec-22-2-worksheets.xml" />
+        <xi:include href="sec-22-3-practice.xml" />
+        <xi:include href="sec-22-4-closing.xml" />
+        <xi:include href="sec-22-5-proportional-reasoning.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-review-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Reflection</title> <!-- sec-ref2 -->
+        <xi:include href="sec-23-1-reflection.xml" />
+        <xi:include href="sec-23-2-worksheets.xml" />
+      </chapter>
+
+    </part>
+
+    <part xml:id="part-arithmetic">
+      <title>Arithmetic</title>
+
+      <chapter xml:id="chapter-visualizing-numbers" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Rethinking Arithmetic</title> <!-- sec-ra -->
+        <xi:include href="sec-24-1-rethinking-arithmetic.xml" />
+        <xi:include href="sec-24-2-worksheets.xml" />
+        <xi:include href="sec-24-3-practice.xml" />
+        <xi:include href="sec-24-4-closing.xml" />
+        <xi:include href="sec-24-5-intervals.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-addition" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Addition</title> <!--sec-add -->
+        <xi:include href="sec-25-1-addition.xml" />
+        <xi:include href="sec-25-2-worksheets.xml" />
+        <xi:include href="sec-25-3-practice.xml" />
+        <xi:include href="sec-25-4-closing.xml" />
+        <xi:include href="sec-25-5-automaticity.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-subtraction" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Subtraction</title> <!-- sec-sub -->
+        <xi:include href="sec-26-1-subtraction.xml" />
+        <xi:include href="sec-26-2-worksheets.xml" />
+        <xi:include href="sec-26-3-practice.xml" />
+        <xi:include href="sec-26-4-closing.xml" />
+        <xi:include href="sec-26-5-displacement.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-negatives" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Negatives on the Number Line</title> <!-- sec-nonl -->
+        <xi:include href="sec-27-1-negatives.xml" />
+        <xi:include href="sec-27-2-worksheets.xml" />
+        <xi:include href="sec-27-3-practice.xml" />
+        <xi:include href="sec-27-4-closing.xml" />
+        <xi:include href="sec-27-5-absolute-value.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-integer-chips" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Calculations with Integer Chips</title> <!-- sec-cic -->
+        <xi:include href="sec-28-1-chips.xml" />
+        <xi:include href="sec-28-2-worksheets.xml" />
+        <xi:include href="sec-28-3-practice.xml" />
+        <xi:include href="sec-28-4-closing.xml" />
+        <xi:include href="sec-28-5-mental-arithmetic.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-number-line" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Arithmetic as Movement on a Number Line</title> <!-- sec-amnl -->
+        <xi:include href="sec-29-1-number-line-arithmetic.xml" />
+        <xi:include href="sec-29-2-worksheets.xml" />
+        <xi:include href="sec-29-3-practice.xml" />
+        <xi:include href="sec-29-4-closing.xml" />
+        <xi:include href="sec-29-5-number-patterns.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-multiplication" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Multiplication</title> <!-- sec-mult -->
+        <xi:include href="sec-30-1-multiplication.xml" />
+        <xi:include href="sec-30-2-worksheets.xml" />
+        <xi:include href="sec-30-3-practice.xml" />
+        <xi:include href="sec-30-4-closing.xml" />
+        <xi:include href="sec-30-5-other-multiplication.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-division" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Division</title> <!-- sec-div -->
+        <xi:include href="sec-31-1-division.xml" />
+        <xi:include href="sec-31-2-worksheets.xml" />
+        <xi:include href="sec-31-3-practice.xml" />
+        <xi:include href="sec-31-4-closing.xml" />
+        <xi:include href="sec-31-5-remainders-decimals.xml" /> 
+      </chapter>
+
+      <chapter xml:id="chapter-review-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Reflection</title> <!-- sec-ref3 -->
+        <xi:include href="sec-32-1-reflection.xml" />
+        <xi:include href="sec-32-2-worksheets.xml" />
+      </chapter>
+
+    </part>
+
+    <part xml:id="part-applications">
+      <title>Applications</title>
+
+      <chapter xml:id="chapter-relationships" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Mathematical Relationships</title> <!--sec-mr -->
+        <xi:include href="sec-33-1-relationships.xml" />
+        <xi:include href="sec-33-2-worksheets.xml" />
+        <xi:include href="sec-33-3-practice.xml" />
+        <xi:include href="sec-33-4-closing.xml" />
+      </chapter>
+
+      <chapter xml:id="chapter-scientific-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Scientific Notation</title> <!--sec-sn -->
+        <xi:include href="sec-34-1-scientific-notation.xml" />
+        <xi:include href="sec-34-2-worksheets.xml" />
+        <xi:include href="sec-34-3-practice.xml" />
+        <xi:include href="sec-34-4-closing.xml" />
+      </chapter>
+
+      <chapter xml:id="chapter-unit-conversions" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Unit Conversions</title> <!--sec-uc -->
+        <xi:include href="sec-35-1-unit-conversions.xml" />
+        <xi:include href="sec-35-2-worksheets.xml" />
+        <xi:include href="sec-35-3-practice.xml" />
+        <xi:include href="sec-35-4-closing.xml" />
+      </chapter>
+
+      <chapter xml:id="chapter-review-4" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Reflection</title> <!-- sec-ref4 -->
+        <xi:include href="sec-36-1-reflection.xml" />
+        <xi:include href="sec-36-2-worksheets.xml" />
+      </chapter>
+
+    </part>
+
+    <!-- SKIP
+
+    <part xml:id="to-do">
+      <title>To Do</title>
+      <chapter xml:id="to-do-chapter">
+        <title>To Do</title>
+        <ul>
+          <title>General</title>
+          <li>
+            <p>
+              Add reading questions
+            </p>
+          </li>
+          <li>
+            <p>
+              Worksheets-only LaTeX to remove section numbering and only have title
+            </p>
+          </li>
+          <li>
+            <p>
+              Order of Operations Calculations, maybe in the arithmetic section? Also Order of Operations in the index.
+            </p>
+          </li>
+          <li>
+            <p>
+              Scales to talk about linear equations.
+            </p>
+          </li>
+        </ul>
+        <ul>
+          <title>Specific Sections</title>
+          <li>
+            <p>
+              Section 2: The term "Mathematical Expression" was used but it isn't defined until Chapter 4. Probably
+              should make a brief mention of it?
+            </p>
+          </li>
+          <li>
+            <p>
+              Add video links to appendix
+            </p>
+          </li>
+          <li>
+            <p>
+              Add digital resources
+            </p>
+          </li>
+        </ul>
+      </chapter>
+    </part>
+
+    -->
+
+    <xi:include href="./backmatter.xml" /> 
 
   </book>
 </pretext>

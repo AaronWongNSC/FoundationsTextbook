@@ -1,0 +1,49 @@
+<section xml:id="sec-ra-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		The ability to see the same idea from multiple perspectives creates the opportunity to apply different
+		approaches to solving problems. In this section, we saw two different ways to represent numbers. 
+	</p>
+	<p>
+		The number line is a purely geometric framework. It turns out that the Greek mathematicians thought of numbers
+		this way, but in an even more strict sense. If they wanted to compare the numbers and then they would
+		(essentially) say that is longer than But how would this work with negative numbers? As it turns out, the Greeks
+		never really bothered with negative numbers. To them, they didn't exist because they only worked with counting
+		numbers and lengths. Since the number line contains negative numbers, we will have an additional set of tools
+		that the Greeks did not have when it comes to thinking about numbers and mathematical ideas. 
+	</p>
+	<p>
+		The base-10 blocks gives us another geometric framework, but it ties more closely with our sense of how we represent
+		numbers instead of giving us insights into the numbers themselves. It may seem obvious to us because we've
+		worked with numbers this way our whole lives. But not every system of writing numbers uses a place value system.
+		For example, Roman numerals are notoriously difficult for students to learn because it's built around rules that
+		are not always intuitive and sometimes feel arbitrary. 
+	</p>
+	<aside>
+		<p>
+			What comes next in the following pattern? 
+			<ul>
+				<li>
+					<p>
+						<m>1 \longrightarrow \, I</m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>2 \longrightarrow \, II </m>
+					</p>
+				</li>
+				<li>
+					<p>
+						<m>3 \longrightarrow \, III </m>
+					</p>
+				</li>
+			</ul>
+			Nobody would ever guess IV comes next if they didn't already know Roman numerals. 
+		</p>
+	</aside>
+	<p>
+		As you come to understand more mathematics, you can start to develop a more flexible mindset for looking at
+		ideas. This can often lead to new insights and more interesting questions. 
+	</p>
+</section>

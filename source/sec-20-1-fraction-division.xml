@@ -1,0 +1,326 @@
+<section xml:id="sec-fd-1-main">
+	<title>Multiply by the Reciprocal</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Relate division to multiplication both conceptually and algebraically.
+				</p>
+			</li>
+			<li>
+				<p>
+					Divide fractions involving both numbers and variables.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		Consider the following story:
+	</p>
+	<blockquote>
+		Suppose there are ten pieces of candy in the candy jar. You and a friend decide that you'll each take one half
+		of the candy. So you divide the candy into two equal portions, and you each enjoyed your share of five pieces
+		of candy.
+	</blockquote>
+	<p>
+		It not a particularly interesting story from the storytelling perspective. But something very interesting
+		happened from a mathematical point of view. Let's take a closer look. 
+	</p>
+	<p>
+		In one way of looking at the story, we're talking about a multiplication problem. Both you and your friend each
+		get half of a group of 10.
+	</p>
+	<image xml:id="sec-fd-1-multiplication" width="50%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5]
+				\draw (0,0) node[anchor=east] {$10$}; 
+				\draw[-stealth] (0,0) -- (1,0); 
+				\begin{scope} [shift={(1.5,-0.5)}]
+					\draw[fill=lightgray] (0,0) rectangle (10,1); 
+					\draw (1,0) -- ++ (0,1); 
+					\draw (2,0) -- ++ (0,1); 
+					\draw (3,0) -- ++ (0,1); 
+					\draw (4,0) -- ++ (0,1); 
+					\draw (5,0) -- ++ (0,1); 
+					\draw (6,0) -- ++ (0,1); 
+					\draw (7,0) -- ++ (0,1); 
+					\draw (8,0) -- ++ (0,1); 
+					\draw (9,0) -- ++ (0,1); 
+					\draw (5,-0.5) node[anchor=north] {$10$ objects}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-4)}]
+					\draw (0,0) node[anchor=east] {$\frac{1}{2} \cdot 10$}; 
+					\draw[-stealth] (0,0) -- (1,0); 
+					\begin{scope} [shift={(1.5,-0.5)}]
+						\draw[fill=lightgray] (0,0) rectangle (5,1); 
+						\draw (1,0) -- ++ (0,1); 
+						\draw (2,0) -- ++ (0,1); 
+						\draw (3,0) -- ++ (0,1); 
+						\draw (4,0) -- ++ (0,1); 
+						\draw (5,0) -- (10,0) -- (10,1) -- (5,1); 
+						\draw (6,0) -- ++ (0,1); 
+						\draw (7,0) -- ++ (0,1); 
+						\draw (8,0) -- ++ (0,1); 
+						\draw (9,0) -- ++ (0,1); 
+						\draw (5,-0.5) node[anchor=north] {$\frac{1}{2}$ of a group of $10$ objects}; 
+					\end{scope} 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		On the other hand, this is a story about dividing a collection into two equal parts. 
+	</p>
+	<image xml:id="sec-fd-1-division" width="60%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5]
+				\draw (0,0) node[anchor=east] {$10$}; 
+				\draw[-stealth] (0,0) -- (1,0); 
+				\begin{scope} [shift={(1.5,-0.5)}]
+					\draw[fill=lightgray] (0,0) rectangle (10,1); 
+					\draw (1,0) -- ++ (0,1); 
+					\draw (2,0) -- ++ (0,1); 
+					\draw (3,0) -- ++ (0,1); 
+					\draw (4,0) -- ++ (0,1); 
+					\draw (5,0) -- ++ (0,1); 
+					\draw (6,0) -- ++ (0,1); 
+					\draw (7,0) -- ++ (0,1); 
+					\draw (8,0) -- ++ (0,1); 
+					\draw (9,0) -- ++ (0,1); 
+					\draw (5,-0.5) node[anchor=north] {$10$ objects}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-4)}]
+					\draw (0,0) node[anchor=east] {$10 \div 2$}; 
+					\draw[-stealth] (0,0) -- (1,0); 
+					\begin{scope} [shift={(1.5,-0.5)}]
+						\draw[fill=lightgray] (0,0) rectangle (5,1); 
+						\draw (1,0) -- ++ (0,1); 
+						\draw (2,0) -- ++ (0,1); 
+						\draw (3,0) -- ++ (0,1); 
+						\draw (4,0) -- ++ (0,1); 
+						\draw (5,0) -- (10,0) -- (10,1) -- (5,1); 
+						\draw (6,0) -- ++ (0,1); 
+						\draw (7,0) -- ++ (0,1); 
+						\draw (8,0) -- ++ (0,1); 
+						\draw (9,0) -- ++ (0,1); 
+						\draw (5,-0.5) node[anchor=north] {$10$ objects divided into $2$ equal groups}; 
+					\end{scope} 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		What this is showing us is that there is a relationship between multiplication and division. Multiplying by
+		<m>\frac{1}{2}</m> is the same as dividing by 2. And while this is a simple example, it does help us to clearly
+		see that there is a relationship. We can even write 2 as <m>\frac{2}{1}</m> (since <m>2 \div 1 = 2</m>) and use
+		this to declare that dividing is the same as multiplying by the reciprocal of a number.
+	</p>
+	<aside>
+		<p>
+			The formal definition of the reciprocal is below. 
+		</p>
+	</aside>
+	<p>
+		But this doesn't actually explain anything. It just observes a computation and then declares it to be a rule
+		without explaining bringing any insight as to why. This is another example of the difference between driving a
+		car and understanding how it works. 
+	</p>
+	<aside>
+		<p>
+			"I step on the pedal and it goes" is not an explanation of how a car works. 
+		</p>
+	</aside>
+	<p>
+		There are many levels of understanding fraction division. We're going to focus on the algebraic understanding
+		here, and give you a chance to explore some of the more visual interpretations in the worksheets. Let's take a
+		look at a general division of fractions calculation: <m>\frac{a}{b} \div \frac{c}{d}</m>. Since fractions are a
+		representation of division, we could rewrite this as a fraction where the numerator and denominator are
+		themselves fractions:
+		<me>
+			\frac{a}{b} \div \frac{c}{d} = \frac{ \frac{a}{b} }{ \frac{c}{d} }
+		</me>
+	</p>
+	<aside>
+		<p>
+			We did this when found common denominators for adding and subtracting fractions. 
+		</p>
+	</aside>
+	<p>
+		At first, the may appear to be a worse situation, since the notation seems to be a mess of symbols. But when we
+		write it this way, we can use what we know about rewriting fractions, which is that as long as we multiply or
+		divide the top and bottom of a fraction by the same quantity, we do not change its value. With a little bit of
+		insight, we can come to the conclusion that our goal is to make it so that the numerator and denominator of the
+		overall fraction are just integers.
+		<me>
+			\frac{a}{b} \div \frac{c}{d}
+				= \frac{ \frac{a}{b} }{ \frac{c}{d} }
+				= \frac{ \frac{a}{b} \cdot bd }{ \frac{c}{d} \cdot bd }
+				= \frac{ad}{bc} = \frac{a}{b} \cdot \frac{d}{c}
+		</me> 
+	</p>
+	<p>
+		Notice that we have rewritten the division calculation as a multiplication calculation, and that the second
+		fraction got flipped over. This is why some students learn fraction division as "keep-change-flip." But this
+		pushes the calculation even deeper into the realm of simply following rules. So we will talk about this at a
+		higher mathematical level by using proper terminology. 
+	</p>
+    <definition xml:id="def-reciprocal">
+        <title>The Reciprocal of a Fraction</title>
+        <idx><h>reciprocal</h></idx>
+        
+        <statement>
+            <p>
+				The <term>reciprocal</term> of the fraction <m>\frac{a}{b}</m> is <m>\frac{b}{a}</m> as long as
+				<m>a \neq 0</m>. If <m>a = 0</m>, then we say that the reicprocal does not exist.
+            </p>
+        </statement>
+    </definition>
+
+	<p>
+		From this definition, we can say that dividing by a fraction is the same as multiplying by the reciprocal. And
+		we can see that this is derived from writing division as a fraction and simplifying the fraction. 
+	</p>
+	<activity xml:id="sec-fd-1-ac1-fraction-division-calculation">
+		<title>Fraction Division Calculation</title>
+		<p>
+		</p>
+		<p>
+			<alert xml:id="sec-fd-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>\frac{3}{7} \div \frac{9}{2}</m>.
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						\frac{3}{7} \div \frac{9}{2} \amp = \frac{3}{7} \cdot \frac{2}{9} \amp \eqnspacer \amp \text{Multiply by the reciprocal} \\
+						\amp = \frac{1 \cdot \cancel{3}}{7} \cdot \frac{2}{3 \cdot \cancel{3}} \amp \amp \text{Reduce} \\
+						\amp = \frac{1}{7} \cdot \frac{2}{3} \\
+						\amp = \frac{2}{21} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-fd-1-ac2-complex-fractions">
+		<title>Simplifying Complex Fractions</title>
+		<aside>
+			<p>
+				In fact, you can also turn problems written with the <m>\div</m> symbol as a fraction of fractions then
+				use either of these techniques. 
+			</p>
+		</aside>
+		<p>
+			Sometimes, the problem will be given to you as fractions inside of fractions. At that point, you can go
+			either multiply by the reciprocal or simplify the fraction by multiplying the top and the bottom by the
+			same quantity. 
+		</p>
+		<p>
+			This is what multiplication by the reciprocal looks like: 
+			<me>
+				\begin{aligned}
+					\frac{ \frac{6}{25} }{ \frac{7}{3} }
+						\amp = \frac{6}{25} \cdot \frac{3}{7}
+							\amp \eqnspacer \amp \text{Multiply by the reciprocal} \\
+						\amp = \frac{18}{175} 
+				\end{aligned}
+			</me>
+		</p>
+		<aside>
+			<p>
+				This is the same step as multiplying the top and bottom by the same number when adding or subtracting fractions. 
+			</p>
+		</aside>
+		<p>
+			And this is what simplifying within the fraction looks like: 
+			<me>
+				\begin{aligned}
+					\frac{ \frac{6}{25} }{ \frac{7}{3} }
+						\amp = \frac{ \frac{6}{\cancel{25}} \cdot \cancel{25} \cdot 3}{ \frac{7}{\cancel{3}} \cdot 25 \cdot \cancel{3}}
+							\amp \eqnspacer \amp \text{Simplify the fraction} \\
+					\amp = \frac{18}{175} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			It is helpful to be familiar with both of these. As fractions become more complicated, there are times that
+			multiplying by the reciprocal is the more difficult approach. Ultimately, those are decisions you will learn
+			to make based on your experience and the specific expression you're working with. 
+		</p>
+		<p>
+			<alert xml:id="sec-fd-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>\frac{ \frac{2}{3} }{ \frac{5}{14} }</m> using both methods. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						\frac{ \frac{2}{3} }{ \frac{5}{14} } \amp = \frac{2}{3} \cdot \frac{14}{5} \amp \eqnspacer \amp \text{Multiply by the reciprocal} \\
+						\amp = \frac{28}{15} 
+					\end{aligned}
+				</me>
+			</p>
+			<p>
+				<me>
+					\begin{aligned}
+						\frac{ \frac{2}{3} }{ \frac{5}{14} } \amp = \frac{ \frac{2}{\cancel{3}} \cdot \cancel{3} \cdot 14}{ \frac{5}{\cancel{14}} \cdot 3 \cdot \cancel{14} } \amp \eqnspacer \amp \text{Simplify the fraction} \\
+						\amp = \frac{28}{15} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<p>
+		Just as with the previous section, we can reduce before multiplying in order to simplify our calculations, and
+		we can also use this with fractions involving variables. 
+	</p>
+	<activity xml:id="sec-fd-1-ac3-reduce-first">
+		<title>Reducing Before Multiplying</title>
+		<p>
+		</p>
+		<p>
+			<alert xml:id="sec-fd-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>\frac{6}{5} \div \frac{18}{25}</m>.
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						\frac{6}{5} \div \frac{18}{25} \amp = \frac{6}{5} \cdot \frac{25}{18} \amp \amp \text{Multiply by the reciprocal} \\
+						\amp = \frac{1 \cdot \cancel{6}}{1 \cdot \cancel{5}} \cdot \frac{5 \cdot \cancel{5}}{3 \cdot \cancel{6}} \amp \eqnspacer \amp \text{Reduce} \\
+						\amp = \frac{1}{1} \cdot \frac{5}{3} \\
+						\amp = \frac{5}{3} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-fd-1-ac4-variable-fractions">
+		<title>Dividing Fractions with Variables</title>
+		<p>
+		</p>
+		<p>
+			<alert xml:id="sec-fd-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>\frac{8x}{15y^2} \div \frac{4x^2 y}{9}</m>.
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						\frac{8x}{15y^2} \div \frac{4x^2 y}{9} \amp = \frac{8x}{15y^2} \cdot \frac{9}{4x^2 y} \amp \eqnspacer \amp \text{Multiply by the reciprocal} \\
+						\amp = \frac{2 \cdot \cancel{4x}}{5y^2 \cdot \cancel{3}} \cdot \frac{3 \cdot \cancel{3}}{xy \cdot \cancel{4x}} \amp \amp \text{Reduce} \\
+						\amp = \frac{2}{5y^2} \cdot \frac{3}{xy} \\
+						\amp = \frac{6}{5xy^3} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+</section>

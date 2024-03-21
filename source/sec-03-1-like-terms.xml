@@ -1,0 +1,584 @@
+<section xml:id="sec-lult-1-main">
+    <title>One of These Things is Not Like the Other</title>
+
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Identify the coefficient and variable part of a monomial.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Identify the monomials of a polynomial.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Determine whether terms in a mathematical expression are like terms or unlike terms.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Simplify expressions by combining like terms.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+
+    <p>
+        The concept of combining like terms is not that different from the way we naturally organize information in our
+        heads. Consider the following question: If you have one bag that contains two apples and three oranges and you
+        had a second bag that has four apples and one orange, how many of each fruit do you have?
+    </p>
+    <aside>
+        <p>
+            Did you think about the question before moving on? Or did you just keep on reading without stopping? When
+            books ask you a question like this, the hope is that you would think about it for yourself because that
+            helps you to understand the ideas better.
+        </p>
+    </aside>
+    <p>
+        It should only take a moment's thought to conclude that you have six apples and four oranges. We can write this
+        out in a mathematical notation as follows:
+        <me>
+            ( 2 \text{ apples} + 3 \text{ oranges} ) + (4 \text{ apples} + 1 \text{ orange}) = 6 \text{ apples} + 4 \text{ oranges}
+        </me>
+        There's a lot to say here about the notation:
+    </p>
+    <ul>
+        <li>
+            <aside>
+                <p>
+                    Parentheses are called "grouping symbols" because they group different types of objects together.
+                </p>
+            </aside>
+            <p>
+                Notice how the parentheses serve as natural boundary markers for each bag. By looking at the
+                mathematical notation, you know exactly what's contained in the first bag and what's contained in the
+                second bag.
+            </p>
+        </li>
+        <li>
+            <p>
+                Notice how the addition sign corresponds to your intuition about addition. You can rearrange things so
+                that the first set of apples are with the other set of apples, and the same thing with the oranges.
+            </p>
+        </li>
+        <li>
+            <aside>
+                <p>
+                    You can conclude that there are 10 pieces of fruit, but that doesn't answer the question.
+                </p>
+            </aside>
+            <p>
+                Notice how you have no impulse to try to combine the apples and oranges together to get
+                "10 apple-oranges" as your final answer.
+            </p>
+        </li>
+    </ul>
+    <aside>
+        <p>
+            A shorter example of this is that one apple and one tree does not give you two apple trees. But that
+            doesn't let us explore the notation as much.
+        </p>
+    </aside>
+    <p>
+        This simple word problem serves as an illustration for how we think about combining like terms. It's easier for
+        us to see what's going on here because we have some experience handling pieces of fruit and we can easily
+        recognize that one type of fruit is different from the other. The same concept applies to algebraic expressions,
+        but we first need to make sure we know what we're looking at.
+    </p>
+    <definition xml:id="def-monomial-coefficient-variable-part">
+        <title>Monomial, Coefficient, Variable Part</title>
+        <idx><h>monomial</h></idx>
+        <idx><h>coefficient</h></idx>
+        <idx><h>variable part</h></idx>
+        <statement>
+            <p>
+                A <term>monomial</term> is any product of numbers and variables. The <term>coefficient</term> is the
+                product of all of the numbers and the <term>variable part</term> is the product of all the variables.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        Although it's possible for us to write a monomial as <m>3 \cdot x \cdot x \cdot x \cdot x \cdot y \cdot y</m>,
+        we usually take advantage of exponent notation to write it as <m>3x^4 y^2</m> to keep things compact. This also
+        makes it much easier to read. In this example, the coefficient is 3 and the variable part is <m>x^4 y^2</m>.
+    </p>
+    <aside>
+        <p>
+            <idx><h>degree</h></idx>
+            The <term>degree</term> of a monomial is the number of variables in the product when we write it out in
+            the expanded form. So <m>3x^4 y^2</m> has degree 6.
+        </p>
+    </aside>
+    <p>
+        There are a couple special situations to remember:
+        <ul>
+            <li>
+                <p>
+                    <idx><h>constant</h></idx>
+                    If you have a number by itself (such as the number 12), the term is called a <term>constant</term>
+                    and it is considered to have no variable part.
+                </p>
+            </li>
+            <li>
+                <aside>
+                    <p>
+                        Mathematicians prefer an economy of notation, so symbols like that are dropped when they're
+                        easily understood.
+                    </p>
+                </aside>
+                <p>
+                    If you have a variable by itself (such as with <m>x</m> or <m>y^2</m>), the coefficient is
+                    implicitly a 1. So it would be correct to think of <m>x</m> as <m>1x</m> and <m>y^2</m> as
+                    <m>1y^2</m>.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <definition xml:id="def-polynomial">
+        <title>Polynomial</title>
+        
+        <idx><h>polynomial</h></idx>
+        
+        <statement>
+            <aside>
+                <p>
+                    We allow for monomial by itself to be a polynomial because it would be annoying if we didn't. The
+                    use of an inclusive terminology greatly simplifies things for us.
+                </p>
+            </aside>
+            <p>
+                A <term>polynomial</term> is the sum of a number of monomials.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        The definition says that a polynomial is a sum of monomials, not a difference of them. But we will often write
+        polynomials with subtraction, such as with <m>x^2 - 6x + 8</m>. The reason for this is that we can use the idea
+        that subtraction is addition of the opposite to rewrite it:
+        <me>
+            x^2 - 6x + 8 = x^2 + (-6x) + 8
+        </me>
+        One of the features of writing subtraction as addition is that it visually groups the negative sign with the
+        monomial. This means that when we identify the coefficient of a monomial term, we need to account for the
+        negative sign. Therefore, the coefficient of the <m>x</m> term is -6.
+    </p>
+    <activity xml:id="sec-lult-1-ac1-identifying-monomial-parts">
+        <title>Identifying Parts of Monomials</title>
+        <aside>
+            <p>
+                The entire book is structured with this perspective in mind.
+            </p>
+        </aside>
+        <p>
+            Understanding vocabulary is a multi-step process. It's not enough to just read the definitions and see a
+            couple examples. In order for the definition to sink in effectively, you must take the time to work o
+             problems yourself.
+        </p>
+        <aside>
+            <p>
+                For terms with no variable part, writing NA in the box is good enough. Make sure you pay attention to
+                the subtraction symbols and negative signs.
+            </p>
+        </aside>
+        <p>
+            <alert xml:id="sec-lult-1-ac1-ti">Try it!</alert>
+        </p>
+        <p>
+            Using the grid below, identify all of the monomials of <m>x^2 + 7x - y - 8</m>. Then determine the
+            coefficient and variable part of each term.
+            <tabular top="medium" left="medium">
+                <row bottom="medium">
+                    <cell left="medium" right="medium">
+                        Monomial
+                    </cell>
+                    <cell right="medium">
+                        <m>\qquad</m>
+                    </cell>
+                    <cell right="medium">
+                        <m>\qquad</m>
+                    </cell>
+                    <cell right="medium">
+                        <m>\qquad</m>
+                    </cell>
+                    <cell right="medium">
+                        <m>\qquad</m>
+                    </cell>
+                </row>
+                <row bottom="medium">
+                    <cell left="medium" right="medium">
+                        Coefficient
+                    </cell>
+                    <cell right="medium">
+                    </cell>
+                    <cell right="medium">
+                    </cell>
+                    <cell right="medium">
+                    </cell>
+                    <cell right="medium">
+                    </cell>
+                </row>
+                <row bottom="medium">
+                    <cell left="medium" right="medium">
+                        Variable Part
+                    </cell>
+                    <cell right="medium">
+                    </cell>
+                    <cell right="medium">
+                    </cell>
+                    <cell right="medium">
+                    </cell>
+                    <cell right="medium">
+                    </cell>
+                </row>
+            </tabular>
+        </p>
+        <solution>
+            <p>
+                <tabular top="medium" left="medium">
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Monomial
+                        </cell>
+                        <cell right="medium">
+                            <m>x^2</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>7x</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>-y</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>-8</m>
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Coefficient
+                        </cell>
+                        <cell right="medium">
+                            <m>1</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>7</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>-1</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>-8</m>
+                        </cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell left="medium" right="medium">
+                            Variable Part
+                        </cell>
+                        <cell right="medium">
+                            <m>x^2</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>x</m>
+                        </cell>
+                        <cell right="medium">
+                            <m>y</m>
+                        </cell>
+                        <cell right="medium">
+                            NA
+                        </cell>
+                    </row>
+                </tabular>
+            </p>
+        </solution>
+    </activity>
+
+    <definition xml:id="def-like-unlike-terms">
+        <title>Like and Unlike Terms</title>
+        <idx><h>like terms</h></idx>
+        <idx><h>unlike terms</h></idx>
+        
+        <statement>
+            <p>
+                Two monomials are <term>like terms</term> if they have the same variable part. If their variable parts
+                are different, then they are <term>unlike terms</term>.
+            </p>
+        </statement>
+    </definition>
+
+    <activity xml:id="sec-lult-1-ac2-combining-like-terms">
+        <title>Combining Like Terms</title>
+        <p>
+            Combining like terms is an algebraic process that uses the distributive property, but it's backwards from
+            how it's most commonly seen. This reverse distributive property is often called "factoring out" terms. When
+            we have like terms, we can perform the arithmetic on the coefficients to simplify the expression.
+            <me>
+                \begin{aligned}
+                    5x + 8x \amp = (5 + 8)x \amp \eqnspacer \amp \text{Factor out the $x$} \\
+                        \amp = 13x \amp \amp \text{Arithmetic}
+                \end{aligned}
+            </me>
+        </p>
+        <aside>
+            <p>
+                Notice that the presentation follows the same general scheme as before. The equal signs are lined up and
+                the explanation is on the right.
+            </p>
+        </aside>
+        <p>
+            Notice how natural this is based on the logic of combining either the apples or the oranges. If you have 5
+            <m>x</m>-es and you add 8 more <m>x</m>-es, how many <m>x</m>-es do you have? 13 <m>x</m>-es.
+        </p>
+        <p>
+            <alert xml:id="sec-lult-1-ac2-ti">Try it!</alert>
+        </p>
+        <p>
+            Simplify the expression <m>7y^2 + 6y^2 - 5y^2</m> using a complete presentation. Show the step where you
+            factor out the common factor.
+        </p>
+        <aside>
+            <p>
+                There's no example with three terms, but you can figure it out. Trust yourself!
+            </p>
+        </aside>
+        <solution>
+            <p>
+                <me>
+                    \begin{aligned}
+                        7y^2 + 6y^2 - 5y^2 \amp = (7 + 6 - 5) y^2 \amp \eqnspacer \amp \text{Factor out the $y^2$} \\
+                          \amp = 8y^2 \amp \amp \text{Arithmetic}
+                    \end{aligned}
+                </me>
+            </p>
+        </solution>
+    </activity>
+
+    <activity xml:id="sec-lult-1-ac3-combining-with-unlike-terms">
+        <title>Combining Like Terms When Unlike Terms are Present</title>
+        <p>
+            What happens if there are unlike terms? Once again, we can think about the apples and oranges. Basically,
+            we're just stuck with what we have. We've actually been using this already. In previous sections, if we had
+            an expression like <m>4x + 3</m>, we just left it like that. And this was also true in the previous section
+            where the different variables were all left separate.
+        </p>
+        <p>
+            But what if there are some terms are like terms and others are unlike terms? Think back to the apples and
+            oranges. What happened there? In that case, the apples were combined and the oranges were combined, but the
+            fruits remained separate. We do the same thing in algebra.
+            <me>
+                \begin{aligned}
+                    (5x - 3y) + (4x + y) \amp = 5x + 4x - 3y + y \amp \eqnspacer \amp \text{Rearrange the terms} \\
+                        \amp = (5x + 4x) + ( - 3y + y) \amp \amp \text{Group the terms} \\
+                        \amp = (5 + 4)x + (-3 + 1)y \amp \amp \text{Factor out the $x$ and $y$} \\
+                        \amp = 9x - 2y \amp \amp \text{Arithmetic}
+                \end{aligned}
+            </me>
+        </p>
+        <aside>
+            <p>
+                The grouping step is the dangerous step. Be careful to keep the negative sign with the appropriate term!
+            </p>
+            <p>
+                We normally don't show the factoring step. We're just doing here for emphasis.
+            </p>
+        </aside>
+        <p>
+            Students are sometimes not very careful with parentheses. They often write the wrong thing even if what's
+            in their head is correct. Remember that the correct communication of ideas is important in math, so it's not
+            good enough to write the wrong thing and pretend that it's correct. Here are two very common errors that
+            students make:
+            <me>
+                \begin{aligned}
+                    5x + 4x - 3y + y \amp \overset{\times}{=} (5x + 4x)(-3y + y) \\
+                    5x + 4x - 3y + y \amp \overset{\times}{=} (5x + 4x) - (3y + y)                
+                \end{aligned}
+            </me>
+        </p>
+        <aside>
+            <p>
+                When parentheses are next to each other like on the first line, we call it "implied multiplication."
+            </p>
+        </aside>
+        <p>
+            The first one happens when students simply draw parentheses around symbols without thinking about how it
+            affects the meaning. Notice that the right side is a product of terms because the parentheses are right
+            next to each other. The second one happens when students don't pay attention to the fact that the negative
+            sign is part of the coefficient of the <m>-3y</m> term. These errors are avoidable with practice. But it
+            takes practice because you need to train you brain to see the expressions differently.
+        </p>
+        <p>
+            <alert xml:id="sec-lult-1-ac3-ti">Try it!</alert>
+        </p>
+        <p>
+            Simplify the expression <m>(-4a - 3b) + (-5a + 8b)</m> using a complete presentation. Show all the steps
+            that are in the example above.
+        </p>
+        <aside>
+            <p>
+                Remember that the negative sign stays with the term!
+            </p>
+        </aside>
+        <solution>
+            <p>
+                <me>
+                    \begin{aligned}
+                        (-4a - 3b) + (-5a + 8b) \amp = -4a - 5a - 3b + 8b \amp \eqnspacer \amp \text{Rearrange the terms} \\
+                            \amp = (-4a - 5a) + (-3b + 8b) \amp \amp \text{Group the terms} \\
+                            \amp = (-4 - 5)a + (-3 + 8)b \amp \amp \text{Factor out the $a$ and the $b$} \\
+                            \amp = -9a + 5b \amp \amp \text{Arithmetic}
+                    \end{aligned}
+                </me>
+            </p>
+        </solution>
+    </activity>
+
+    <p>
+        So far, when we have combined like terms, we've been focusing on addition. But we also need to be able to do
+        this with mathematical expressions that have subtraction and multiplication. For each of these, we need to
+        remember to use the distributive property.
+    </p>
+    <p>
+        The idea behind this one comes from the concept of multiplication representing groups of things. If you have four
+        bags that each contain two apples and three oranges, how much fruit do you have in total?
+    </p>
+    <aside>
+        <p>
+            We have used the multiplication dot to emphasize the multiplication.
+        </p>
+    </aside>
+    <p>
+        <me>
+            4 \cdot (2 \text{ apples} + 3 \text{ oranges} ) = 8 \text{ apples} + 12 \text{ oranges}
+        </me>
+    </p>
+    <p>
+        This is a demonstration of an important property of algebra.
+    </p>
+
+    <definition xml:id="def-distributive-property">
+        <title>The Distributive Property</title>
+        <idx><h>distributive property</h></idx>
+
+        <statement>
+            <p>
+                The <term>distributive property</term> states that <m>a(b + c) = ab + ac</m>. The full name of this the
+                <term>distributive property of multiplication over addition</term>.
+            </p>
+        </statement>
+    </definition>
+
+    <activity xml:id="sec-lult-1-ac4-using-the-distributive-property">
+        <title>Using the Distributive Property</title>
+        <aside>
+            <p>
+                The distributive property is a multiplication operation and combining like terms is an addition and
+                subtraction operation.
+            </p>
+        </aside>
+        <p>
+            You might recall that in the order of operations, multiplication comes before addition and subtraction. This
+            means that you should use the distributive property before you combine like terms.
+            <me>
+                \begin{aligned}
+                    (2x - 5y) + 3(x - 2y) \amp = (2x - 5y) + (3x - 6y) \amp \eqnspacer \amp \text{Distributive property} \\
+                        \amp = 2x + 3x - 5y - 6y \amp \amp \text{Rearrange the terms} \\
+                        \amp = (2x + 3x) + (- 5y - 6y) \amp \amp \text{Group the terms} \\
+                        \amp = (2+3)x + (-5 - 6)y \amp \amp \text{Factor out the $x$ and the $y$} \\
+                        \amp = 5x - 11y \amp \amp \text{Arithmetic}
+                \end{aligned}
+            </me>
+        </p>
+        <p>
+            <alert xml:id="sec-lult-1-ac4-ti">Try it!</alert>
+        </p>
+        <p>
+            Simplify the expression <m>(3a + 2b) + 2(5a - 3b)</m> using a complete presentation. Show the distributive
+            step, the rearrangement step, the grouping step, and the arithmetic step.
+        </p>
+        <solution>
+            <p>
+                <me>
+                    \begin{aligned}
+                        (3a + 2b) + 2(5a - 3b) \amp = (3a + 2b) + (10a - 6b) \amp \eqnspacer \amp \text{Distributive property} \\
+                        \amp = 3a + 10a + 2b - 6b \amp \amp \text{Rearrange the terms} \\
+                        \amp = (3a + 10a) + (2b - 6b) \amp \amp \text{Group the terms} \\
+                        \amp = (3 + 10)a + (2 - 6)b \amp \amp \text{Factor out the $a$ and $b$} \\
+                        \amp = 13a - 4b \amp \amp \text{Arithmetic}
+                    \end{aligned}
+                </me>
+            </p>
+        </solution>
+    </activity>
+    <activity xml:id="sec-lult-1-ac5-distributing-negative-signs">
+        <title>The Distributive Property With Subtraction</title>
+        <p>
+            Whenever we have an algebraic symbol next to a set of parentheses with multiple terms on the inside, we need
+            to use the distributive property. When we were doing it earlier with addition, we basically just multiplied
+            by 1, which is why there was no change. If the operation outside of the parentheses is subtraction, then we
+            also need to distribute that negative sign.
+        </p>
+        <aside>
+            <p>
+                Remember that multiplying by 1 does not change the value.
+            </p>
+        </aside>
+        <p>
+            To understand why the negative sign should be distributed, we will think about another example using apples
+            and oranges. Suppose you have eight apples and six oranges, and someone takes four apples and five oranges
+            away from you. How much fruit do you have left?
+            <me>
+                (8 \text{ apples} + 6 \text{ oranges}) - (4 \text{ apples} + 5 \text{ oranges})
+                = 4 \text{ apples} + 1 \text{ orange}
+            </me>
+        </p>
+        <p>
+            Notice that in context, it is completely natural to remember to subtract off the 5 oranges from the 6
+            oranges. However, when manipulating symbols that context is easily lost, which leads to errors like this
+            one:
+            <me>
+                (8x + 6y) - (4x + 5y) \overset{\times}{=} 8x + 6y - 4x + 5y
+            </me>
+        </p>
+        <aside>
+            <p>
+                This is an <em>extremely</em> common error!
+
+            </p>
+        </aside>
+        <p>
+            <alert xml:id="sec-lult-1-ac5-ti">Try it!</alert>
+        </p>
+        <p>
+            Simplify the expression <m>(8x + 6y) - (4x + 5y)</m> using a complete presentation. Show the distributive
+            step, the rearrangement step, the grouping step, and the arithmetic step.
+        </p>
+        <aside>
+            <p>
+                Notice how these words match up with the presentation in the previous example. Language is important in
+                mathematics because it helps us to communicate our ideas precisely.
+            </p>
+        </aside>
+        <solution>
+            <p>
+                <me>
+                    \begin{aligned}
+                        (8x + 6y) - (4x + 5y) \amp = 8x + 6y - 4x - 5y \amp \eqnspacer \amp \text{Distributive property} \\
+                        \amp = 8x - 4x + 6y - 5y \amp \amp \text{Rearrange the terms} \\
+                        \amp = (8x - 4x) + (6y - 5y) \amp \amp \text{Group the terms} \\
+                        \amp = (8-4)x + (6-5)y \amp \amp \text{Factor out the $x$ and the $y$} \\
+                        \amp = 4x + y \amp \amp \text{Arithmetic}
+                    \end{aligned}
+                </me>
+            </p>
+            <aside>
+                <p>
+                    You can write your final result as <m>4x + 1y</m> if you want, but you will almost always see that
+                    written with the implicit coefficient.
+                </p>
+            </aside>
+        </solution>
+    </activity>
+
+</section>

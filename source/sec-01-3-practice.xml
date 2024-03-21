@@ -1,0 +1,125 @@
+<section xml:id="sec-bap-3-practice">
+    <title>Deliberate Practice: Solving Equations for a Variable</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+    <p>
+        <em>Focus on these skills:</em>
+        <ul>
+            <li>
+                <p>
+                    Write the original equation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Line up your equal signs.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Correctly state the algebraic steps using the correct phrasing:
+                    <ul>
+                        <li>
+                            <p>
+                                Add (expression) to both sides.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Subtract (expression) from both sides.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply both sides by (expression).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Divide both sides by (expression).
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Execute the algebra and arithmetic correctly.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Present your work legibly.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <worksheet xml:id="sec-bap-3-worksheet">
+        <p>
+            <em>Instructions:</em> Solve the equations for the variable using a complete presentation.
+        </p>
+        <exercise>
+            <m>7x + 34 = 13</m>                
+        </exercise>
+        <exercise>
+            <m>2y + 24 = -32</m>
+        </exercise>
+        <exercise>
+            <m>5t - 7 = 7</m>
+        </exercise>
+        <exercise>
+            <m>6u - 18 = -31</m>
+        </exercise>
+        <exercise>
+            <m>3a - 44 = -38</m>
+        </exercise>
+        <exercise>
+            <m>2z + 24 = 24</m>
+        </exercise>
+        <exercise>
+            <m>5b - 1 = 40</m>
+        </exercise>
+        <exercise>
+            <m>11x + 40 = 13</m>
+        </exercise>
+        <exercise>
+            <m>6t - 19 = -35</m>
+        </exercise>
+        <exercise>
+            <m>9y - 40 = 32</m>
+        </exercise>
+        <exercise>
+            <m>-4u - 31 = -25u - 10</m>
+        </exercise>
+        <exercise>
+            <m>4v - 40 = -14v + 14</m>
+        </exercise>
+        <exercise>
+            <m>7r + 38 = 8r + 32</m>
+        </exercise>
+        <exercise>
+            <m>-9b + 3 = -8b + 14</m>
+        </exercise>
+        <exercise>
+            <m>6c + 7 = 7c + 13</m>
+        </exercise>
+        <exercise>
+            <m>2t - 10 = -3t + 10</m>
+        </exercise>
+        <exercise>
+            <m>17u - 5 = 3u + 23</m>
+        </exercise>
+        <exercise>
+            <m>-x - 1 = 2x + 83</m>
+        </exercise>
+        <exercise>
+            <m>2m + 6 = 4m - 2</m>
+        </exercise>
+        <exercise>
+            <m>s + 9 = -2s + 18</m>
+        </exercise>
+    </worksheet>
+</section>

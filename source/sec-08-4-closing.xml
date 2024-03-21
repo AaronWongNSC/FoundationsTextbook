@@ -1,0 +1,34 @@
+<section xml:id="sec-cf-4-closing">
+	<title>Closing Ideas</title>
+	<aside>
+		<p>
+			Being able to relate old ideas to new ideas is an important aspect of mathematical thinking. 
+		</p>
+	</aside>
+	<p>
+		Factoring is a basic but important algebraic manipulation. It's nothing more than the distributive property
+		(<xref ref="def-distributive-property" /> ) applied backwards. 
+		<me>
+			\begin{aligned}
+				3x + 4x \amp = (3 + 4)x = 7x \amp \eqnspacer \amp \text{Combine like terms} \\
+				x^2 + 4x \amp = (x + 4)x \amp \amp \text{Factor out the common factor} 
+			\end{aligned}
+		</me>
+		And if there were some aspects of this section that feels familiar, it's because this is the exact same algebra
+		that is used with combining like terms. 
+		<me>
+			\begin{aligned}
+				3x + 4x \amp = (3 + 4)x = 7x \amp \amp \text{Combine like terms} \\
+				x^2 + 4x \amp = (x + 4)x \amp \amp \text{Factor out the common factor} 
+			\end{aligned}
+		</me>
+		The difference between combining like terms and factoring out the common factor is that there's an extra step of
+		arithmetic that we can do with numbers that we can't do with algebraic expressions. 
+	</p>
+	<p>
+		Math is an extremely scaffolded subject. What this means is that new ideas are very often built on older ones.
+		This also means that weaknesses in the foundation make the higher levels of mathematical thinking less stable.
+		Hopefully, as you've been working your way through these sections, you have been taking the time to think
+		through the ideas and solidify those core concepts.
+	</p>
+</section>

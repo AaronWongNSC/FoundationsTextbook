@@ -1,0 +1,60 @@
+<section xml:id="sec-sub-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		In some ways, subtraction is very simple. You start with some objects and you take some away. But we have
+		already seen that there are a number of ways of looking at how we might do this. We have used base-10 blocks
+		(and base-8 blocks, if you did Worksheet 5) and we used the number line. But we also used the number line in
+		several different ways. We saw subtraction as movement, subtraction as a distance, and subtraction reframed as
+		addition. 
+	</p>
+	<p>
+		But there's even more to subtraction that this. What happens if you are being asked to "take away" more than
+		what you started with?
+	</p>
+	<image xml:id="sec-sub-4-subtraction" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.4] 
+				\begin{scope} [shift={(0,0)}]
+					\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (1.5,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (3,0) rectangle ++ (1,1); 
+					\draw (2,-0.5) node[anchor=north] {\strut \small $3$}; 
+				\end{scope}
+				\draw (6,-0.5) node[anchor=north] {\strut \small $-$}; 
+				\begin{scope} [shift={(8,0)}]
+					\draw[ultra thick] (0,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[ultra thick] (1.5,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[ultra thick] (3,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[ultra thick] (4.5,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[ultra thick] (6,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw (3.5,-0.5) node[anchor=north] {\strut \small $5$}; 
+				\end{scope} 
+				\draw (17,-0.5) node[anchor=north] {\strut \small $=$}; 
+				\begin{scope} [shift={(19,0)}]
+					\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (1.5,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (3,0) rectangle ++ (1,1); 
+					\draw[ultra thick] (0,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[ultra thick] (1.5,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[ultra thick] (3,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[ultra thick] (4.5,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw[ultra thick] (6,0) -- ++ (1,1) ++ (-1,0) -- ++ (1,-1); 
+					\draw (3.5,-0.5) node[anchor=north] {\strut \small $??$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		If you try to think about how an early elementary school student might respond, the most common explanation of
+		this is "You can't do that!" As adults, we have other ways of thinking about this that can help us resolve the
+		question, but it also requires a certain level of intellectual sophistication. Whatever explanation we might
+		have is going to be more complex than just saying that you start with a collection and "take away" things from
+		it. 
+	</p>
+	<p>
+		All of this only goes to show that sometimes simple and easy are not synonymous. The idea of subtraction is
+		fairly simple. But as you look deeper at it, the simplicity of it requires some rather complex ideas to fully
+		understand. And this helps us to see the beauty of mathematics. Simple concepts can lead to complex ideas if you
+		simply ask the right questions.
+	</p>
+</section>

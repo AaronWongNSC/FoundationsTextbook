@@ -1,0 +1,245 @@
+<section xml:id="sec-das-1-main">
+	<title>Making Sense with Dollars and Cents</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Understand the relationship between decimals and fractions.
+				</p>
+			</li>
+			<li>
+				<p>
+					Add and subtract decimals.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		Although fractions are important and useful for algebraic manipulations, many of the day-to-day numbers that
+		people encounter are decimals. But it turns out that decimals are just a special way of writing parts of a
+		whole, which means that they're also just fractions. Most students don't have a good sense of the interplay
+		between the two notations, and quite often think of them as mostly unrelated to each other. 
+	</p>
+	<p>
+		<idx><h>place value system</h></idx>
+		Where do decimals even come from? It turns out that this is an extension of the way we write numbers. We use
+		what a <em>place value system</em> which means that our numbers depend on both the symbol we use (the digits
+		0-9) and the position of that digit within the number itself. 
+	</p>
+	<activity xml:id="sec-das-1-ac1-representing-numbers">
+		<idx><h>standard form (of a number)</h></idx>
+		<idx><h>exapnded form (of a number)</h></idx>
+		<title>Representations of Numbers</title>
+		<aside>
+			<p>
+				The normal way of writing numbers is known as the <em>standard form</em> of a number. \\ \\
+				Breaking a number into distinct units like this is called the <em>expanded form</em> of a number. 
+			</p>
+		</aside>
+		<image xml:id="sec-das-1-representations" width="60%">
+			<latex-image>
+				\begin{tikzpicture}[scale=0.58]
+					\draw (0,0) node[anchor=west] {$238 = 200 + 30 + 8$}; 
+					\draw[stealth-] (0.45,-0.5) -- ++ (0,-0.5) -- (-1.5,-1) node[anchor=east] {\strut 2 Hundreds}; 
+					\draw[stealth-] (0.8,-0.5) -- ++ (0,-1.5) -- (-1.5,-2) node[anchor=east] {\strut 3 Tens}; 
+					\draw[stealth-] (1.15,-0.5) -- ++ (0,-2.5) -- (-1.5,-3) node[anchor=east] {\strut 8 Ones}; 
+					\draw[stealth-] (2.7,0.5) -- ++ (0,2.5) -- (7,3) node[anchor=west] {\strut 2 Hundreds}; 
+					\draw[stealth-] (4.5,0.5) -- ++ (0,1.5) -- (7,2) node[anchor=west] {\strut 3 Tens}; 
+					\draw[stealth-] (5.9,0.5) -- ++ (0,0.5) -- (7,1) node[anchor=west] {\strut 8 Ones}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			Let's think about the number 237. We have been trained to understand that when we put digits side-by-side
+			like this to make larger numbers, that each digit refers to a different group size. 
+		</p>
+		<p>
+			<alert xml:id="sec-das-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Write the number 8367 in expanded form and label each of the parts with the corresponding unit (as shown above). 
+		</p>
+		<solution>
+			<image xml:id="sec-das-1-ti1-solution" width="90%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw (0,0) node[anchor=west] {$8367 = 8000 + 300 + 60 + 7$}; 
+						\draw[stealth-] (0.5,-0.5) -- ++ (0,-0.5) -- (-1.5,-1) node[anchor=east] {\strut 8 Thousands}; 
+						\draw[stealth-] (0.9,-0.5) -- ++ (0,-1.5) -- (-1.5,-2) node[anchor=east] {\strut 3 Hundreds}; 
+						\draw[stealth-] (1.3,-0.5) -- ++ (0,-2.5) -- (-1.5,-3) node[anchor=east] {\strut 6 Tens}; 
+						\draw[stealth-] (1.7,-0.5) -- ++ (0,-3.5) -- (-1.5,-4) node[anchor=east] {\strut 7 Ones}; 
+						\draw[stealth-] (4,0.5) -- ++ (0,3.5) -- (11,4) node[anchor=west] {\strut 8 Thousands}; 
+						\draw[stealth-] (6.2,0.5) -- ++ (0,2.5) -- (11,3) node[anchor=west] {\strut 3 Hundreds}; 
+						\draw[stealth-] (8.4,0.5) -- ++ (0,1.5) -- (11,2) node[anchor=west] {\strut 6 Tens}; 
+						\draw[stealth-] (10,0.5) -- ++ (0,0.5) -- (11,1) node[anchor=west] {\strut 7 Ones}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		The choice to use ones, tens, and hundreds (and also thousands, ten thousands, and so forth) is because each of
+		those numbers turns out to be a power of 10.
+	</p>
+		<image xml:id="sec-das-1-positive-powers-of-10" width="70%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (0,0) node[anchor=north] {
+						\begin{tabular}{c|rr}
+							Units \amp \multicolumn{2}{c}{Representations} \\ \hline
+							Ones \amp $10^0 =$ \amp 1 \\
+							Tens \amp $10^1 =$ \amp 10 \\
+							Hundreds \amp $10^2 =$ \amp 100 \\ 
+							Thousands \amp $10^3 =$ \amp 1\,000 \\
+							Ten thousands \amp $10^4 =$ \amp 10\,000 \\
+							Hundred thousands \amp $10^5 =$ \amp 100\,000 \\
+							Millions \amp $10^6 =$ \amp 1\,000\,000 \\
+							Billions \amp $10^9 =$ \amp 1\,000\,000\,000 \\
+							Trillions \amp $10^{12} =$ \amp 1\,000\,000\,000\,000 \\
+						\end{tabular}
+					};
+				\end{tikzpicture}
+			</latex-image>
+		</image>
+	<aside>
+		<p>
+			For the sake of space, we skipped over ten million and a hundred million, and similarly for billions. It
+			just follows the same pattern. 
+		</p>
+	</aside>
+	<p>
+		Notice that as we go down the list, the exponents increase and so do the numbers. If we go up the list, the
+		exponents get decrease and so do the numbers. And in the same way we used this pattern to develop negative
+		exponents, we can develop decimals. The naming of these units are a little awkward to say out loud, but the
+		mathematics behind them is simple. Tenths are the size you get when you take one object and break it into ten
+		pieces. Hundredths are the size you get when you take one object and break it into one hundred pieces. 
+	</p>
+	<activity xml:id="sec-das-1-ac2-expanded-form">
+		<title>Expanded Form of a Number</title>
+		<p>
+		</p>
+		<p>
+			<alert xml:id="sec-das-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Write the number 35.79 in expanded form and label each of the parts with the corresponding unit. 
+		</p>
+		<solution>
+			<image xml:id="sec-das-1-ti2-solution">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw (0,0) node[anchor=west] {$35.79 = 30 + 5 + 0.7 + 0.09$}; 
+						\draw[stealth-] (0.5,-0.5) -- ++ (0,-0.5) -- (-1.5,-1) node[anchor=east] {\strut 3 Tens}; 
+						\draw[stealth-] (0.9,-0.5) -- ++ (0,-1.5) -- (-1.5,-2) node[anchor=east] {\strut 5 Ones}; 
+						\draw[stealth-] (1.6,-0.5) -- ++ (0,-2.5) -- (-1.5,-3) node[anchor=east] {\strut 7 Tenths}; 
+						\draw[stealth-] (2.0,-0.5) -- ++ (0,-3.5) -- (-1.5,-4) node[anchor=east] {\strut 9 Hundredths}; 
+						\draw[stealth-] (3.7,0.5) -- ++ (0,3.5) -- (11,4) node[anchor=west] {\strut 3 Tens}; 
+						\draw[stealth-] (5.3,0.5) -- ++ (0,2.5) -- (11,3) node[anchor=west] {\strut 5 Ones}; 
+						\draw[stealth-] (7.1,0.5) -- ++ (0,1.5) -- (11,2) node[anchor=west] {\strut 7 Tenths}; 
+						\draw[stealth-] (9.4,0.5) -- ++ (0,0.5) -- (11,1) node[anchor=west] {\strut 9 Hundredths}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		It turns out that decimals have multiple representations. This comes out of thinking about multiple
+		representations of the same fraction. 
+		<me>
+			\begin{aligned}
+				0.3 = \frac{3}{10} \amp = \frac{30}{100} = 0.30 \\
+				\amp = \frac{300}{1000} = 0.300 \\
+				\amp = \frac{3000}{10000} = 0.3000 
+			\end{aligned}
+		</me>
+	</p>
+	<activity xml:id="sec-das-1-ac3-fractions-decimals">
+		<title>The Connection Between Fractions and Decimals</title>
+		<p>
+			There is a simple connection between the number of decimals and the powers of ten. The number of zeros in
+			the power of in the denominator corresponds to the number of decimal places for that representation of the
+			number. For example, the number 0.0365 (four decimal places) corresponds to <m>\frac{365}{10000}</m> (four
+			zeros in the denominator). In fact, this number also corresponds to the exponent of the in the denominator:
+			<m>\frac{365}{10000} = \frac{365}{10^4}</m>. Thinking about numbers this way will help to avoid certain
+			types of errors. 
+		</p>
+		<aside>
+			<p>
+				For the purposes of this section, it's not important to reduce the fraction. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-das-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Write the number as a fraction. 
+		</p>
+		<solution>
+			<p>
+				<me> 0.086 = \frac{86}{1000} = \frac{86}{10^3} </me> 
+			</p>
+		</solution>
+	</activity>
+	<aside>
+		<p>
+			If all the numbers have the same number of decimals, it's ensuring that all of the corresponding fractions
+			have the same denominator. 
+		</p>
+	</aside>
+	<p>
+		Most of the challenges with addition and subtraction of decimals are resolved by simply ensuring that all your
+		numbers have the same number of decimal places. The best analogy for this is money. American currency is always
+		written with two decimal places (if decimal places are being used). And what this does is that it helps us think
+		about the coins relative to same base unit (1 cent) all the time, and there's no confusion about whether a dime
+		($0.10) is the same as a penny ($0.01). 
+	</p>
+	<activity xml:id="sec-das-1-ac4-add-decimals">
+		<title>Adding Decimals</title>
+		<p>
+			It can be helpful to ensure that all of the numbers are written to the same number of decimals if the
+			calculation is intended to be performed mentally or by hand. This will help to reinforce the underlying
+			concept as well as avoid computational errors.
+			<me>
+				3.04 + 1.1 = 3.04 + 1.10 = 4.14
+			</me> 
+		</p>
+		<p>
+			<alert xml:id="sec-das-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>2.5 + 1.22</m>. 
+		</p>
+		<solution>
+			<p>
+				<me> 2.5 + 1.22 = 2.50 + 1.22 = 3.72 </me> 
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-das-1-ac5-subtract-decimals">
+		<title>Subtracting Decimals</title>
+		<p>
+			The exact same trick applies to subtraction.
+			<me>
+				2.8 - 1.06 = 2.80 - 1.06 = 1.74
+			</me> 
+		</p>
+		<p>
+			<alert xml:id="sec-das-1-ac5-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>4.77 - 2.3</m>. 
+		</p>
+		<solution>
+			<p>
+				<me> 4.77 - 2.3 = 4.77 - 2.30 = 2.47 </me> 
+			</p>
+		</solution>
+	</activity>
+	<p>
+		In practice, most decimal calculations are done by calculator or computer. In fact, certain disciplines (such as
+		physics and chemistry) use the number of decimals as an indication of the quality of a measurement, so that 4.21
+		is not the same measurement as 4.21000. So we will not be spending a lot of time performing large decimal
+		calculations by hand. Instead, this section should be interpreted as developing a conceptual basis, not a
+		computational basis, for decimals. 
+	</p>
+</section>

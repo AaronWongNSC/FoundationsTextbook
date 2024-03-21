@@ -1,0 +1,217 @@
+<section xml:id="sec-uc-1-main">
+	<title>Say Goodbye to the Mars Climate Orbiter</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Convert mathematical relationships into conversion factors.
+				</p>
+			</li>
+			<li>
+				<p>
+					Use conversion factors to perform unit conversions.
+				</p>
+			</li>
+			<li>
+				<p>
+					Use scientific prefixes to create mathematical relationships.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<aside>
+		<p>
+			Search online for more information about the <em>Mars Climate Orbiter</em>. 
+		</p>
+	</aside>
+	<p>
+		The $300,000,000 NASA project called the <em>Mars Climate Orbiter</em> launched on December 11, 1998.
+		Approximately 9 months later, it crashed into the surface of Mars and was declared a total loss. The culprit was
+		a piece of hardware that gave distance in meters to a piece of software that was working in feet. 
+	</p>
+	<p>
+		This incident stands out among the many unit conversion errors (or simply the failure to convert units at all)
+		because of a combination of the magnitude of the project and the high capacity minds that were working on it.
+		Most errors of this type are not nearly as catastrophic, but that does not negate the importance of
+		understanding how to perform unit conversions. 
+	</p>
+	<aside>
+		<p>
+			These lists are not comprehensive. 
+		</p>
+	</aside>
+	<p>
+		Units are names of measurements of quantities. Here are some examples: 
+		<ul>
+			<li>
+				<p>
+					Time is measured in seconds, minutes, hours, days, and years. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Lengths are measured in inches, feet, miles, centimeters, meters, and kilometers. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Volumes are measured in tablespoons, cups, quarts, gallons, liters, and cubic meters. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Quantities are measured in dozens, hundreds, thousands, millions, and moles. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			No, moles is not a typo. 
+		</p>
+	</aside>
+	<activity xml:id="sec-uc-1-ac1-conversion-factors">
+		<title>Conversion Factors</title>
+		<p>
+			The most important feature about these units is that they represent specific quantities that can be related
+			to each other. For example, there are 12 inches in a foot. And there are 60 seconds in a minute. These
+			create mathematical relationships by simply translating the words into a formula:
+			<me>
+				\begin{array}{ccccc}
+					\text{12 inches in a foot} \amp \longrightarrow \amp 1 \text{ foot} = 12 \text{ inches} \\
+					\text{60 seconds in a minute} \amp \longrightarrow \amp 1 \text{ minute} = 60 \text{ seconds}
+				\end{array}
+			</me>
+		</p>
+		<p>
+			These equations can be turned into fractions that we call conversion factors. Conversion factors have the
+			property that they are equal to the number 1. Notice that every equality of this type creates two conversion
+			factors.
+			<me>
+				\begin{array}{ccccc}
+					1 \text{ foot} = 12 \text{ inches} \amp \longrightarrow
+						\amp \frac{1 \text{ foot}}{12 \text{ inches}} \amp \text{and} \amp \frac{12 \text{ inches}}{1 \text{ foot}} \\
+					1 \text{ minute} = 60 \text{ seconds} \amp \longrightarrow
+						\amp \frac{1 \text{ minute}}{60 \text{ seconds}} \amp \text{and} \amp \frac{60 \text{ seconds}}{1 \text{ minute}}
+				\end{array}
+			</me>
+		</p>
+		<p>
+			<alert xml:id="sec-uc-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Write an equation that relates feet to yards, then use it to determine two conversion factors. 
+		</p>
+		<solution>
+			<me>
+				\begin{array}{rl}
+					3 \text{ feet} = 1 \text{ yard}
+					\amp \hspace{1cm} \longrightarrow \hspace{1cm} \frac{3 \text{ feet}}{1 \text{ yard}} = 1 \hspace{0.5cm} \text{ and } \hspace{0.5cm} 1 = \frac{1 \text{ yard}}{3 \text{ feet}}
+				\end{array}			
+			</me>
+		</solution>
+	</activity>
+	<activity xml:id="sec-uc-1-ac2-using-conversion-factors">
+		<title>Using Conversion Factors</title>
+		<aside>
+			<p>
+				For every value of <m>x</m>, <m>x \cdot 1 = x</m>. 
+			</p>
+		</aside>
+		<p>
+			The importance of conversion factors being equal to the number is that multiplying by does not change the
+			value of a number. With an appropriate choice of conversion factors, it is possible to make original unit
+			cancel out, leaving you with the value in the new unit. Here is an example: 
+			<me>
+				\begin{aligned}
+					8 \text{ minutes} \amp = 8 \text{ minutes} \cdot 1 \amp \eqnspacer \amp \text{Multiplying by $1$} \\
+					\amp = 8 \text{ minutes} \cdot \frac{60 \text{ seconds}}{1 \text{ minute}} \amp \amp \text{Conversion factor} \\
+					\amp = 8 \cancel{\text{ minutes}} \cdot \frac{60 \text{ seconds}}{1 \cancel{\text{ minute}}} \amp \amp \text{Cancel the units} \\
+					\amp = 480 \text{ seconds} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			This example was drawn out with details for emphasis. Your presentation can be shortened. 
+			<me>
+				\begin{aligned}
+					8 \text{ minutes} \amp = 8 \cancel{\text{ minutes}} \cdot \frac{60 \text{ seconds}}{1 \cancel{\text{ minute}}}
+						\amp \eqnspacer \amp \text{Cancel the units} \\
+					\amp = 480 \text{ seconds} 
+				\end{aligned}
+			</me>
+		</p>
+		<aside>
+			<p>
+				If you choose the wrong conversion factor, the units won't cancel out. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-uc-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Convert 36 feet to yards using a conversion factor. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						36 \text{ feet} \amp = 36 \text{ }\cancel{feet} \cdot \frac{1 \text{ yard}}{3 \text{ }\cancel{feet}} \amp \eqnspacer \amp \text{Cancel the units} \\
+						\amp = 12 \text{ yards} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-uc-1-ac3-prefixes">
+		<title>Scientific Prefixes</title>
+		<aside>
+			<p>
+				<m>\mu</m> is the Greek letter "mu." 
+			</p>
+		</aside>
+		<p>
+			You may be aware that there are certain prefixes that apply the the unit. These prefixes are another way
+			that scientists avoid having to write really long numbers. Here are some of the common prefixes and their
+			meaning: 
+			<me>
+				\begin{array} {|c|c|c|c|}
+					\hline
+					\text{Prefix} \amp \text{Symbol} \amp \text{Value as Power of 10} \amp \text{Value in Standard Form} \\ \hline
+					\text{nano} \amp n \amp 10^{-9} \amp 0.000000001 \\ \hline
+					\text{micro} \amp \mu \amp 10^{-6} \amp 0.000001 \\ \hline
+					\text{milli} \amp m \amp 10^{-3} \amp 0.001 \\ \hline
+					\text{centi} \amp c \amp 10^{-2} \amp 0.01 \\ \hline
+					\text{deci} \amp d \amp 10^{-1} \amp 0.1 \\ \hline
+					\text{deka} \amp da \amp 10^{1} \amp 10 \\ \hline
+					\text{hecto} \amp h \amp 10^{2} \amp 100 \\ \hline
+					\text{kilo} \amp k \amp 10^{3} \amp 1000 \\ \hline
+					\text{mega} \amp M \amp 10^{6} \amp 1000000 \\ \hline
+					\text{giga} \amp G \amp 10^{9} \amp 1000000000 \\ \hline
+					\text{tera} \amp T \amp 10^{12} \amp 1000000000000 \\ \hline
+				\end{array}
+			</me>
+		</p>
+		<p>
+			These prefixes are placed in front of a unit to change its value. For example, a kilometer is 1000 meters
+			and a millimeter is 0.001 meters. This gives us mathematical relationships that we can use to write
+			conversion factors. While it is not wrong to use decimals in the conversion factors with these prefixes,
+			it's generally considered better to use integers. So instead of using
+			<m>\frac{0.001 \text{ meters}}{1 \text{ millimeter}}</m>, we would usually use
+			<m>\frac{1 \text{ meter}}{1000 \text{ millimeters}}</m>. 
+		</p>
+		<p>
+			<alert xml:id="sec-uc-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Write an equation that relates kilograms to grams, then use it to determine two conversion factors. 
+		</p>
+	<solution>
+		<me>
+			\begin{array}{rl}
+				1000 \text{ grams} = 1 \text{ kilogram} \amp \hspace{0.5cm} \longrightarrow \hspace{0.5cm} \frac{1000 \text{ grams}}{1 \text{ kilogram}} = 1 \hspace{0.5cm} \text{ and } \hspace{0.5cm} 1 = \frac{1 \text{ kilogram}}{1000 \text{ grams}}
+			\end{array}
+		</me>
+	</solution>
+	</activity>
+</section>

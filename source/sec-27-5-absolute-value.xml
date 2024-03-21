@@ -1,0 +1,269 @@
+<section xml:id="sec-nonl-5-deeper">
+	<title>Going Deeper: The Absolute Value Function</title>
+	<p>
+		Consider the following question: Is -1,000,000 a bigger number than 1? The answer you give depends on how you
+		interpret the notion of size. For example, we can say that <m>1 \gt -1,000,000</m> by just thinking about the
+		number line, and if we think that "bigger" is the same as "greater than" we can conclude that -1,000,000 is not
+		bigger than 1. On the other hand, if you think about "bigger" as meaning the "size" of a number, then we might
+		conclude that -1,000,000 is a pretty big number relative to 1. The notion of the "size" of a number is not
+		captured by the inequalities we used earlier, and so we need to introduce a new mathematical object. 
+	</p>
+	<p>
+		The <em>absolute value</em> of a number has several different representations, and the choice of representation
+		depends on the details of the situation. We will start with the geometric interpretation. 
+	</p>
+	<aside>
+		<p>
+			Implicitly, the distance is a nonnegative value. If we need something like a negative distance, then it's
+			better to use displacement. 
+		</p>
+	</aside>
+
+    <definition xml:id="def-absolute-value-distance">
+        <title>Absolute Value</title>
+        <idx><h>absolute value</h> <h>as distance</h> </idx>
+        
+        <statement>
+            <p>
+				The <term>absolute value</term> of a number <m>x</m> is denoted by <m>|x|</m> and is the distance
+				between 0 and <m>x</m> on the number line.
+            </p>
+        </statement>
+    </definition>
+
+	<p>
+		Because of how the number line is constructed, it's easy to see that when <m>x \gt 0</m>, we have
+		<m>|x| = x</m>. Here is an example of that:
+	</p>
+	<image xml:id="sec-nonl-5-positive-abs-value" width="60%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw[stealth-stealth] (-1,0) -- (7,0); 
+				\foreach \i in {0,...,6} {
+					\draw[fill=black] (\i, 0) circle (0.1); 
+					\draw (\i, -0.1) node[anchor=north] {\small $\i$}; 
+				}
+				\draw (0,0) -- ++ (0,1); 
+				\draw[stealth-stealth] (0,0.5) -- ++ (5,0) node[midway,anchor=south] {\strut \small $|5| = 5$}; 
+				\draw (5,0) -- ++ (0,1); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		When we have a negative number, takes the value of when we ignore the negative sign. 
+	</p>
+	<image xml:id="sec-nonl-5-negative-abs-value" width="60%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw[stealth-stealth] (-7,0) -- (1,0); 
+				\foreach \i in {0,...,6} {
+					\draw[fill=black] (-\i, 0) circle (0.1); 
+					\draw (-\i, -0.1) node[anchor=north] {\small $-\i$}; 
+				}
+				\draw (0,0) -- ++ (0,1); 
+				\draw[stealth-stealth] (0,0.5) -- ++ (-5,0) node[midway,anchor=south] {\strut \small $|-5| = 5$}; 
+				\draw (-5,0) -- ++ (0,1); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			If you pay close attention, you'll see that the definition of absolute value invokes the concept of
+			distance, but then we later say that distance is the absolute value of displacement. This feels like
+			circular reasoning, but it's actually a reflection of what concepts you're using as your assumptions. For
+			our definition of absolute value, we're using your intuitive notion of distance as the starting point. 
+		</p>
+	</aside>
+	<p>
+		<idx><h>distance</h></idx>
+		This framework for the absolute value should remind you of some of the ideas we used when we were working with
+		subtraction. In fact, we can use this to define the distance between two points. The <em>distance</em> between
+		the numbers <m>a</m> and <m>b</m> is <m>|b - a|</m>. Notice that this has the same value as <m>|a - b|</m>. You
+		will see both definitions used, but the first definition draws a better connection between distance and
+		displacement. In fact, sometimes distance is simply defined to be the absolute value of the displacement, and
+		you're just expected to know how to compute the displacement. 
+	</p>
+	<image xml:id="sec-nonl-5-distance-a-to-b">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw[stealth-stealth] (-6,0) -- (6,0); 
+				\draw (-4, -0.1) node[anchor=north] {\small \strut $a$}; 
+				\draw[fill=black] (-4, 0) circle (0.1); 
+				\draw (4, -0.1) node[anchor=north] {\small \strut $b$}; 
+				\draw[fill=black] (4, 0) circle (0.1); 
+				\draw (-4,0) -- ++ (0,1); 
+				\draw[stealth-stealth] (-4,0.5) -- ++ (8,0) node[midway,anchor=south] {\strut \small $|b-a|$}; 
+				\draw (4,0) -- ++ (0,1); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		The algebraic definition is slightly more complicated because it requires a special type of notation: 
+	</p>
+    <definition xml:id="def-absolute-value-algebra" width="80%">
+        <title>Absolute Value</title>
+        <idx><h>absolute value</h> <h>algebraic</h> </idx>
+        
+        <statement>
+            <p>
+				The <term>absolute value</term> of a number <m>x</m> is denoted by <m>|x|</m> and is given by the
+				following formula:
+				<me>
+					|x| = \begin{cases}
+						x \amp \text{if $x \geq 0$} \\
+						-x \amp \text{if $x \lt 0$}
+					\end{cases}
+				</me>
+            </p>
+        </statement>
+    </definition>
+	<p>
+		<idx><h>piecewise defined function</h></idx>
+		We first need to describe this notation. This is the notation that is used for a
+		<term>piecewise defined function</term>, which is a function that uses different formulas depending on the value
+		that it has been given. You can see that this definition is broken into two parts. The first formula is applied
+		when <m>x \geq 0</m> and the second formula is applied when <m>x \lt 0</m>. This means that you have to decide
+		which category your number is in before you apply the formulas. If you take a precalculus course, you will
+		probably run into this idea there and get a lot more experience. For now, it is enough to understand that this
+		is a special way of building a function using multiple different pieces. 
+	</p>
+	<p>
+		From this definition, we can see that this is the same as we had with the geometric definition. When the value
+		of <m>x</m> is positive, then we have <m>|x| = x</m>. This is also true when <m>x = 0</m>. When <m>x</m> is
+		negative, the geometric definition led us to ignoring the negative sign. Unfortunately, that concept doesn't
+		have a good algebraic equivalent. However, it's computationally true that the negative of a negative number is a
+		positive number, and so that's how we communicate it. 
+	</p>
+	<p>
+		Working with equations involving absolute value can feel very different depending on whether you're thinking
+		about it from the geometric perspective or the algebraic perspective. For example, let's consider the equation
+		<m>|x| = 4</m>. 
+	</p>
+	<p>
+		Geometrically, this is asking us to find the numbers that are a distance 4 from the number 0. And we can
+		immediately determine this by looking at the number line and moving 4 spaces in either direction starting at the
+		origin.
+	</p>
+	<image xml:id="sec-nonl-5-abs-value-solve" width="80%">
+		<latex-image>
+			\begin{tikzpicture}
+			\draw[stealth-stealth] (-6,0) -- (6,0); 
+			\foreach \i in {-5,...,5} {
+				\draw[fill=black] (\i, 0) circle (0.1); 
+				\draw (\i, -0.1) node[anchor=north] {\small $\i$}; 
+			}
+			\draw (0,0) -- ++ (0,1); 
+			\draw[stealth-stealth] (0,0.5) -- ++ (-4,0) node[midway,anchor=south] {\strut \small $|-4| = 4$}; 
+			\draw (-4,0) -- ++ (0,1); 
+			\draw[stealth-stealth] (0,0.5) -- ++ (4,0) node[midway,anchor=south] {\strut \small $|4| = 4$}; 
+			\draw (4,0) -- ++ (0,1); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		This tells us that the solutions are <m>x = -4</m> and <m>x = 4</m>. We can express this as <m>x = \pm 4</m>,
+		where the symbol <m>\pm</m> is a shorthand for two different possibilities. 
+	</p>
+	<p>
+		In order to solve this from the algebraic perspective, we need to think about the two different situations. When
+		<m>x \geq 0</m>, we have <m>|x| = x</m>, so that the equation becomes <m>x = 4</m>. On the other hand, if
+		<m>x \lt 0</m>, then <m>|x| = -x</m>, so that our equation becomes <m>-x = 4</m>, which we can solve to get
+		<m>x = -4</m>. We still arrived at <m>x = \pm 4</m> as the solution, but it required us to work with two
+		different cases. Here is one way of presenting that work:
+		<me>
+			\begin{array}{c}
+				|x| = 4 \\  \\
+				\begin{array}{c}
+					\text{If $x \geq 0$:} \\ \begin{aligned} x \amp = 4 \\ \\ \end{aligned}
+				\end{array} \qquad
+				\begin{array}{c}
+					\text{If $x \lt 0$:} \\ \begin{aligned} -x \amp = 4 \\ x \amp = -4 \end{aligned}
+				\end{array}
+			\end{array}
+		</me> 
+	</p>
+	<p>
+		The same ideas can be employed for more complicated equations. When you have mathematical expressions inside of
+		the absolute value sign, you need to treat that as a single object.
+		<me>
+			\begin{array}{c}
+				|x + 7| = 3 \\  \\
+				\begin{array}{c}
+					\text{If $x + 7 \geq 0$:} \\ \begin{aligned} x + 7 \amp = 3 \\ x \amp = -4 \\ \\ \end{aligned}
+				\end{array} \qquad
+				\begin{array}{c}
+					\text{If $x + 7 \lt 0$:} \\ \begin{aligned} -(x + 7) \amp = 3 \\ x + 7 \amp = -3 \\ x \amp = -10 \end{aligned}
+				\end{array}
+			\end{array}
+		</me> 
+	</p>
+	<p>
+		Most textbooks do this calculation in a much more condensed presentation: 
+		<me>
+			\begin{aligned}
+				| x + 7 | \amp = 3 \\
+				x + 7 \amp = \pm 3 \\
+				x \amp = -7 \pm 3 \\ x \amp = -4 \text{ or } -10 
+			\end{aligned}
+		</me>
+	</p>
+	<p>
+		This is ultimately the same process, but it starts to mask some of the ideas and turns it more into an exercise
+		of executing rote calculations rather than providing insight into how the absolute value function works. Since
+		our focus is on the ideas, we've left it in the slightly longer form. Ultimately, you can do this however you
+		choose. 
+	</p>
+	<p>
+		There's a catch to the algebraic approach, which is that it is possible to go through the algebra and get an
+		answer, but find that the answers don't satisfy the original equation. For example, let's look at
+		<m>|x| = -4</m>. If we simply pushed ahead with the algebra, it would look like this:
+		<me>
+			\begin{array}{c}
+				|x| = -4 \\  \\
+				\begin{array}{c}
+					\text{If $x \geq 0$:} \\ \begin{aligned} x \amp = -4 \\ \\ \end{aligned}
+				\end{array} \qquad
+				\begin{array}{c}
+					\text{If $x \lt 0$:} \\ \begin{aligned} -x \amp = -4 \\ x \amp = 4 \end{aligned}
+				\end{array}
+			\end{array}
+		</me> 
+		If we only looked at the last lines, we would say that <m>x = \pm 4</m>, just as before. But if we tried to plug
+		those values in, we would find that they aren't actually solutions. 
+	</p>
+	<p>
+		<idx><h>solutions</h> <h>apparent</h> </idx>
+		<idx><h>solutions</h> <h>phantom</h> </idx>
+		The problem is that the conclusion in each column is in contradiction with the assumption. On the left, we were
+		supposing that is a nonnegative number, but we concluded that <m>x = -4</m>. On the right, we have a similar
+		problem. These are sometimes called <term>apparent</term> solutions (or sometimes <term>phantom</term>
+		solutions) because they seem like they should be solutions even though they aren't. 
+	</p>
+	<p>
+		There are a number of methods that you can employ to identify these situations. The first is to simply check
+		that your solutions really work in the original equation. This is the most common approach that math textbooks
+		teach. The reason this is often suggested is that it's straight-forward to perform all the calculations, and you
+		don't really have to think very much about what's going on. You can simply grind out the calculations from
+		beginning to end without really thinking about things. And from a practical perspective, there's nothing wrong
+		with this approach. It will get the job done. 
+	</p>
+	<p>
+		However, It can be helpful to practice being more thoughtful. By thinking ahead, you can sometimes save yourself
+		the extra work by simply asking whether your absolute value equation is equal to a positive or a negative value.
+		For the equation <m>|x| = -4</m>, we can immediately conclude that there are no solutions because the absolute
+		value function will never give a negative value. 
+	</p>
+	<p>
+		Ultimately, neither approach is inherently better or worse. For simpler equations, thinking ahead can save some
+		work. But there are more complicated examples (such as when the variable is both inside and outside the absolute
+		value) where it can be more work to think through the possibilities than to simply grind out the algebra and
+		check to see if they work. Regardless of the approach, this is a feature that you will need to keep in mind when
+		solving equations involving the absolute value signs. 
+	</p>
+	<p>
+		(There is another set of complications that arise when working with absolute value inequalities. You end up
+		needing to work with compound intervals and paying close attention to the exact form of your equation. These
+		skills are sometimes taught in courses, but sometimes not. It usually ends up being another set of memorized
+		algebraic rules, and it has limited value to students at this level. So we're just not going to go there.)
+	</p>
+</section>

@@ -1,0 +1,208 @@
+<section xml:id="sec-uc-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/35-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-uc-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Write an equation that relates inches to centimeters, then use it to determine two conversion factors. 
+			</p>
+			<aside>
+				<p>
+					You may not know all of these conversions. You can look them up on the internet if you're not sure. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Convert 12 inches into centimeters. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Convert 100 centimeters into inches. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write an equation that relates cups to quarts, then use it to determine two conversion factors. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Convert 32 cups into quarts. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Convert 4 quarts into cups. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-uc-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Write an equation that relates kilowatts to watts, then use it to determine two conversion factors. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write an equation that relates deciliters to liters, then use it to determine two conversion factors. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write an equation that relates nanometers to meters, then use it to determine two conversion factors. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write an equation that relates hectares to acres, then use it to determine two conversion factors. 
+			</p>
+			<aside>
+				<p>
+					A hectare is the area of a square with side lengths of meters. However, it is not equal to square
+					meters. We'll explore this in a later worksheet. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Write an equation that relates centimeters to meters and another equation that relates meters to
+				kilometers. Use these two equations together to determine two conversion factors that relate kilometers
+				to centimeters. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-uc-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<p>
+			In science courses, you will encounter some interesting units that are built to describe specific
+			situations. Although you may not have any intuition with these, as long as you have a formula and you
+			understand the method, you can be begin to work with the problems. 
+		</p>
+		<exercise>
+			<p>
+				A mole of objects is <m>6.022 \times 10^{23}</m> of those objects. For example, a mole of carbon atoms
+				is <m>6.022 \times 10^{23}</m> carbon atoms. How many molecules of oxygen are in 5.7 moles of oxygen? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				An astronomical unit is approximately <m>1.496 \times 10^{11}</m> meters. This is the approximate
+				distance from the earth to the sun. Mars is approximately 1.52 astronomical units from the sun. About
+				how far is it from the sun to Mars in meters? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Words such as millions and billions can also be used as a unit conversion. This is often used when
+				talking about finances at a state or national level. Earlier, we talked about the $300000000 Mars
+				Climate Orbiter. This could have been written as $300 million. 
+			</p>
+			<aside>
+				<p>
+					<me>
+						\begin{aligned}
+							\text{1 thousand} \amp = 10^3 \\
+							\text{1 million} \amp = 10^6 \\
+							\text{1 billion} \amp = 10^9 \\
+							\text{1 trillion} \amp = 10^{12}
+						\end{aligned}
+					</me>
+				</p>
+			</aside>
+			<p>
+				Write the quantity 2753.78 billion in standard form and using scientific notation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				A light-year is the distance that light can travels in one year in a vacuum. This distance is
+				approximately <m>9.46 \times 10^{12}</m> kilometers. The distance between the Milky Way galaxy and the
+				Andromeda galaxy is approximately 2.5 million light-years. Approximately how many kilometers is it
+				between the two galaxies? 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-uc-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				A stone is a measure of weight that is commonly used in the UK and Ireland. One stone is equal to 14
+				pounds. If an object weighs 37 stone, how many pounds does it weigh? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				A smoot is a unit of measurement devised as a prank by a fraternity at MIT. It is considered to be 67
+				inches, which corresponds to the height of Oliver Smoot, who was used to measure Harvard bridge. The
+				bridge was determined to have a length of approximately 364.4 smoots. Convert this distance to feet. 
+			</p>
+			<aside>
+				<p>
+					Convert smoots to inches, then inches to feet. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				When thinking about very large or very small quantities, it is sometimes useful to relate them to
+				quantities that you are more familiar with. For example, we can think of <m>1 \text{ home} = \$400000</m>
+				as a relationship for converting dollars into homes. What is the equivalent of $1 billion in homes? 
+				</p>
+			<aside>
+				<p>
+					Go through the process of creating a conversion factor. 
+				</p>
+			</aside>
+			</exercise>
+			<exercise>
+				<p>
+					Transistors are an important component for modern electronics. The smallest transistors are about 7
+					nanometers in size. A human hair is approximately 100 micrometers in diameter. How many transistors
+					would need to be lined up to equate to the thickness of a human hair? 
+				</p>
+			</exercise>
+		</worksheet>
+		<worksheet xml:id="sec-uc-2-worksheets-5">
+			<title>Worksheet 5</title>
+			<p>
+				A compound unit is a unit that mixes multiple other units together. Some common compound units are
+				speeds like miles per hour (<m>\frac{\text{miles}}{\text{hours}}</m>) and pressures like pounds per
+				square inch (<m>\frac{\text{pounds}}{\text{inch}^2} = \frac{\text{pounds}}{\text{inch} \cdot \text{inch}}</m>).
+				When converting these, every unit much be converted individually. Here is an example of converting feet
+				per day into inches per week: 
+				<me>
+					\begin{aligned}
+						10 \frac{\text{feet}}{\text{day}}
+						\amp = 10 \frac{\cancel{\text{feet}}}{\cancel{\text{day}}} \cdot \frac{12 \text{ inches}}{1 \cancel{\text{ foot}}} \cdot \frac{7 \cancel{\text{ days}}}{1 \text{ week}} \\
+						\amp = 840 \frac{\text{inches}}{\text{week}} 
+					\end{aligned}
+				</me>
+			</p>
+			<exercise>
+				<p>
+					One mile is equal to about 1.6 kilometers. If a car is traveling 75 miles per hour, how many
+					kilometers per minute is it traveling? 
+				</p>
+			</exercise>
+			<exercise>
+				<p>
+					Water has a density of about 8.34 pounds per gallon. Convert this to ounces (weight) per ounce
+					(liquid). 
+				</p>
+			</exercise>
+			<exercise>
+				<p>
+					A hectare is the area of a square that is 100 meters on each side. Determine the conversion factor
+					for hectares to square meters. 
+				</p>
+			</exercise>
+		</worksheet>
+	</section>

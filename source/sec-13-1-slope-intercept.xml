@@ -1,0 +1,354 @@
+<section xml:id="sec-sif-1-main">
+	<title>The Line in the Sand</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Identify the slope of a line from a graph and from a chart of values.
+				</p>
+			</li>
+			<li>
+				<p>
+					Calculate the coordinates of the <m>y</m>-intercept of a line.
+				</p>
+			</li>
+			<li>
+				<p>
+					Convert linear equations into slope-intercept form.
+				</p>
+			</li>
+			<li>
+				<p>
+					Sketch the graph of a line.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		In the previous section, we used intuition to find solutions to linear equations in two variables. It is not
+		always the case that we can easily find solutions by inspection. So we are going to develop a more systematic
+		approach to graphing that does not rely on intuition. To do this, we're going to build off of the solutions of
+		lines that we looked at in the previous section. 
+	</p>
+	<p>
+		You might have noticed that when we had charts of values that you can find other charts by changing the <m>x</m>
+		and <m>y</m> values in a consistent manner. This sets up the idea that points on a line satisfy a certain ratio
+		with regards to how the coordinates change. This can be formalized as the concept of the slope of a line. 
+	</p>
+	<aside>
+		<p>
+			The use of <m>\Delta</m> (the capital Greek letter "delta") to represent the change of a variable between
+			two points is also used in physics and chemistry applications. 
+		</p>
+	</aside>
+    <definition xml:id="def-slope">
+        <title>Slope</title>
+        <idx><h>slope (of a line)</h></idx>
+        
+        <statement>
+            <p>
+				The <term>slope</term> of a line is defined by the following ratio for any two distinct points on the
+				line:
+				<me>
+					m = \frac{\Delta y}{\Delta x} = \frac{\text{The change of $y$}}{\text{The change of $x$}}
+				</me>
+            </p>
+        </statement>
+    </definition>
+	<aside>
+		<p>
+			This is not the first time that we have run into the prohibition of dividing by zero. It is something very
+			core to the concept of division. Have you thought through the reason for this yet? 
+		</p>
+	</aside>
+	<p>
+		There is a logical reason for not trying to apply this to vertical lines. In a vertical line, there is no change
+		in the <m>y</m>-coordinate which means that we would be dividing by zero, and that leads to an undefined
+		expression.
+	</p>
+	<activity xml:id="sec-sif-1-ac1-calculate-slopes">
+		<title>Calculating Slopes from Points</title>
+		<p>
+			The slope can be calculated between any two points on the line and it will result in the same value. The
+			consistent ratio of the changes of the two variables is what makes the line straight.
+		</p>
+		<aside>
+			<p>
+				Ask yourself: "What are the changes in the <m>x</m> and <m>y</m> coordinates going from this point to
+				that point?" 
+			</p>
+		</aside>
+		<p>
+			<me>
+				\begin{array}{c|c|c}
+					x \amp y \amp (x,y) \\ \hline
+					-5 \amp -2 \amp (-5, -2) \\
+					-3 \amp -1 \amp (-3, -1) \\
+					-1 \amp 0 \amp (-1, 0) \\
+					1 \amp 1 \amp (1,1) \\
+					3 \amp 2 \amp (3,2) \\
+					5 \amp 3 \amp (5,3)
+				\end{array}
+			</me>
+		</p>
+		<p>
+			<alert xml:id="sec-sif-1-ac1-ti">Try it!</alert>
+		</p>
+		<aside>
+			<p>
+				Notice that the fractions reduce. You could actually apply this idea backwards if you wanted to get new
+				points on the line. 
+			</p>
+		</aside>
+		<p>
+			Calculate the slope of this line using three different pairs of points. Do not always pick consecutive
+			points for this exercise. 
+		</p>
+		<solution>
+			<p>
+				The selected points may vary, but the slope will always be <m>\frac{1}{2}</m>.
+				<me>
+					\begin{array}{ll}
+						\text{From $(-5, -2)$ to $(-3, -1)$:} \amp m = \frac{\Delta y}{\Delta x} = \frac{1}{2} \\ 
+						\text{From $(-3, -1)$ to $(1, 1)$:} \amp m = \frac{\Delta y}{\Delta x} = \frac{2}{4} = \frac{1}{2} \\ 
+						\text{From $(-1, 0)$ to $(5, 3)$:} \amp m = \frac{\Delta y}{\Delta x} = \frac{3}{6} = \frac{1}{2} 
+					\end{array}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-sif-1-ac2-slope-from-graph">
+		<title>Identifying the Slope from a Graph</title>
+		<p>
+			When working with graphs of lines, we often use a different language to represent the same concept. The
+			"rise" of a function is the change in the variable between two points (up is positive, down is negative),
+			and the "run" of a function is the change in the variable between two points (right is positive, left is
+			negative). This leads us to sometimes say "the slope is the rise over the run." 
+		</p>
+		<aside>
+			<p>
+				Most people make the run positive because it's more natural to move left-to-right. 
+			</p>
+		</aside>
+		<image xml:id="sec-sif-1-slope-of-line" width="50%">
+			<latex-image>
+				\begin{tikzpicture}[scale=0.5]
+					\draw[ultra thin, gray] (-5,-5) grid (5,5); 
+					\draw[stealth-stealth] (-5.5,-3) -- (5.5,-3) node[black, anchor=west] {$x$}; 
+					\draw[stealth-stealth] (-3,-5.5) -- (-3,5.5) node[anchor=south, black] {$y$}; 
+					\draw (-5.5,-3.333) -- (5.5,4); 
+					\draw[fill=black] (-2,-1) circle (0.1); 
+					\draw[fill=black] (4,3) circle (0.1); 
+					\draw (-2,-1) -- (4,-1) node[midway,anchor=north] {$\Delta x = \text{(Run)}$}; 
+					\draw (4,-1) -- (4,3) node[midway,anchor=west] {$\Delta y = \text{(Rise)}$}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<aside>
+			<p>
+				Since the fraction reduces, there is a point on the grid between the two marked points. Can you identify
+				it? 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-sif-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Determine the slope of the line in the diagram above. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					m = \frac{\Delta y}{\Delta x} = \frac{4}{6} = \frac{2}{3}
+				</me> 
+			</p>
+		</solution>
+	</activity>
+	<image xml:id="sec-sif-1-slope-signs" width="100%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope}
+					\draw (-2,-1) -- (2,1); 
+					\draw (0,-1.5) node[anchor=north] {Positive slope}; 
+				\end{scope} 
+				\begin{scope} [shift={(6,0)}]
+					\draw (-2,0) -- (2,0); 
+					\draw (0,-1.5) node[anchor=north] {Zero slope}; 
+				\end{scope} 
+				\begin{scope} [shift={(12,0)}]
+					\draw (-2,1) -- (2,-1); 
+					\draw (0,-1.5) node[anchor=north] {Negative slope}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		If the slope is positive, the line points from the lower-left to upper-right, and if the slope is negative, the
+		line points from upper-left to lower-right. If the line is horizontal, then the slope is 0. 
+	</p>
+	<aside xml:id="sec-sif-1-slope-formula">
+		<title>The Slope Formula</title>
+		<p>
+			<idx><h>slope</h></idx>
+			The slope of the line that passes through the points <m>(x_1, y_1)</m> and <m>(x_2, y_2)</m> is given by
+			<m>m = \frac{y_2 - y_1}{x_2 - x_1}</m>. 
+		</p>
+	</aside>
+	<p>
+		There is a formula for the slope of the line if you have the coordinates of two points. The formula is commonly
+		given to students, but it can sometimes be a distraction. If you are able to construct a meaningful picture of
+		the line, you will not need to memorize this formula. There are some practical uses from an algebraic
+		perspective, but it's far better to have an understanding of the concepts than simply trying to apply formulas
+		blindly. 
+	</p>
+	<p>
+		The slope is one of the two parameters in the slope-intercept form of a line. The other parameter is the of the
+		<m>y</m>-intercept. The <m>y</m>-intercept is the point where the line crosses the When this point is not a
+		point on the grid, students often try to estimate the value. This is somewhat acceptable when sketching a graph,
+		but it is usually not acceptable when reading a graph. The challenge is that is can be very difficult to
+		identify them correctly. 
+	</p>
+	<p>
+		Try to estimate the of the in the two graphs below, and you'll understand why estimation is not a reliable
+		technique. 
+	</p>
+	<aside>
+		<p>
+			The <m>y</m>-intercept of the of the graph on the left is <m>\frac{1}{3}</m> and the <m>y</m>-intercept of
+			the of the graph on the right is <m>\frac{2}{5}</m>.
+		</p>
+	</aside>
+	<image xml:id="sec-sif-1-guess-intercepts" width="100%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5]
+				\begin{scope}
+					\draw[ultra thin, gray] (-5,-5) grid (5,5); 
+					\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+					\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\draw (-5.5,-3.333) -- (5.5,4); 
+				\end{scope} 
+				\begin{scope} [shift={(13,0)}]
+					\draw[ultra thin, gray] (-5,-5) grid (5,5); 
+					\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+					\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\draw (-5.5,-2.9) -- (5.5,3.7); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		This highlights the importance of developing an algebraic method for working with lines so that we can avoid
+		needing to make estimates. Specifically, if we're given the equation of a line, it is a common goal to write it
+		in slope-intercept form. 
+	</p>
+
+    <definition xml:id="def-slope-intercept-form">
+        <title>Slope-Intercept Form</title>
+        <idx><h>slope-intercept form (of a line)</h></idx>
+        
+        <statement>
+            <p>
+				The <term>slope-intercept form</term>  of a line is <m>y = mx + b</m>. In this form, <m>m</m> represents
+				the slope and <m>b</m> represents the <m>y</m>-coordinate of the <m>y</m>-intercept of the line.
+            </p>
+        </statement>
+    </definition>
+
+	<p>
+		The reason this works is because the of a line is the solution when <m>x = 0</m>. But in this form, setting
+		<m>x = 0</m> makes the first term disappear, and you're left with <m>y = b</m>, which tells us that the line
+		must pass through the point <m>(x,y) = (0,b)</m>. 
+	</p>
+	<activity xml:id="sec-sif-1-ac3-slope-intercept-form">
+		<title>Writing a Line in Slope-Intercept Form</title>
+		<p>
+			Writing an equation in slope-intercept form is simply a matter of solving for in a linear equation. 
+			<me>
+				\begin{aligned}
+					3x + 4y \amp = 8 \\
+					4y \amp = -3x + 8 \amp \eqnspacer \amp \text{Subtract $3x$ from both sides} \\
+					y \amp = -\frac{3}{4} x + 2 \amp \amp \text{Divide both sides by $4$} 
+				\end{aligned}
+			</me>
+		</p>
+		<aside>
+			<p>
+				Some people would write the last line as <m>y = -\frac{3x}{4} + 2</m>. It doesn't matter which way you
+				do it as long as you recognize that they are both the same result. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-sif-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Write the equation <m>2x - 5y = 10</m> in slope-intercept form. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						2x - 5y \amp = 10 \\
+						-5y \amp = -2x + 10 \amp \amp \text{Subtract $3x$ from both sides} \\
+						y \amp = \frac{2}{5} x - 2 \amp \amp \text{Divide both sides by $-2$} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<p>
+		Once you have the equation written in slope-intercept form, you have the information to sketch the graph. You
+		can immediately identify the and then you can use the slope to find a second point. 
+	</p>
+	<activity xml:id="sec-sif-1-ac4-graph-line">
+		<title>Graphing a Line from Slope-Intercept Form</title>
+		<aside>
+			<p>
+				Remember: "Slope is rise over run." 
+			</p>
+		</aside>
+		<p>
+			The line <m>y = -\frac{1}{2} x + 1</m> has its at the point <m>(0, 1)</m>. Since the slope is
+			<m>-\frac{1}{2}</m> we can find a second point on the line by moving to the right 2 spaces and down 1 space.
+			This gives us enough information to sketch the line. 
+		</p>
+		<aside>
+			<p>
+				You can also move left 2 spaces and up 1 space, but most people move to the right because it feels more
+				natural. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-sif-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Graph the line <m>y = -\frac{1}{2} x + 1</m> on the empty grid.
+		</p>
+		<image xml:id="sec-sif-1-ac4-empty-grid" width="50%">
+			<latex-image>
+				\begin{tikzpicture}
+					\begin{scope}
+						\draw[ultra thin, gray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<solution>
+			<image xml:id="sec-sif-1-ti4-solution" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5] 
+						\begin{scope}
+							\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+							\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+							\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+							\draw[fill=black] (0,1) circle (0.1); 
+							\draw[fill=black] (2,0) circle (0.1); 
+							\draw (-5.5,3.75) -- (5.5,-1.75); 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+</section>

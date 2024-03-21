@@ -1,0 +1,441 @@
+<section xml:id="sec-rme-1-main">
+	<title>So Many Symbols!</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Correctly write and interpret algebraic expressions.
+				</p>
+			</li>
+			<li>
+				<p>
+					Recognize common algebraic errors.
+				</p>
+			</li>
+			<li>
+				<p>
+					Solve linear equations
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<aside>
+		<p>
+			We've mentioned before that math can be understood as a language. This is just another example of that. 
+		</p>
+	</aside>
+	<p>
+		As we continue forward into higher levels of mathematics, we will encounter more mathematical notation. Students
+		sometimes start to struggle because they've never developed a set of tools to help them interpret those symbols.
+		It's like trying to read a language when you don't have a sense of the grammar. You can sometimes piece things
+		together and follow what's happening, but most of the time you're completely lost. 
+	</p>
+	<p>
+		We will begin with familiar territory. At some point in their lives, most students learned some version of the
+		order of operations (often called PEMDAS). This is a set of instructions for the correct way to perform a complex
+		calculation by prioritizing certain calculations. Here is how the order of operations is usually presented: 
+		<ul>
+			<li>
+				<p>
+					Parentheses and other grouping symbols. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Exponents 
+				</p>
+			</li>
+			<li>
+				<p>
+					Multiplication and division (performed left-to-right) 
+				</p>
+			</li>
+			<li>
+				<p>
+					Addition and subtraction (performed left-to-right) 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			Unfortunately, some students learn this as "multiplication THEN division" and "addition THEN subtraction"
+			which is incorrect. Do you see the difference?
+		</p>
+	</aside>
+	<p>
+		This is fine as far as the basics are concerned. And when working with numbers, students are usually able to do
+		this correctly. But it's not long after we start introducing variables that students can feel overwhelmed by
+		symbols. 
+	</p>
+	<p>
+		The best analogy for understanding this comes from thinking about a complex sentence in English: "The man
+		carrying a large bag containing three apples and two pears bought a blue shirt with six silver buttons from the
+		store on the corner of Main Street and West Park Avenue." There are a lot of details in that sentence, but
+		there's also the "big picture" of the sentence. What is actually happening in the sentence? Some man bought a
+		shirt from a store. From there we can go into specific details, such as what the man was holding, the color of
+		the shirt, and the location of the store. But those details add information to the big picture without changing
+		the core of the picture. 
+	</p>
+	<p>
+		The focus of this section is not really on algebra, but on helping you familiarize yourself with the language of
+		mathematics. Fortunately, mathematicians have created an entire notation to help you do this. Consider the
+		following polynomial:
+		<me>
+			x^3 - 3x^2 - 7x + 11
+		</me>
+		At this point, your experience should lead you to interpret this as the sum of four terms. You should be able to
+		visualize the plus and minus signs as being separators for the different terms. Compare this to how we would
+		have to write it if we had to write everything out:
+		<me>
+			x \cdot x \cdot x + (-3) \cdot x \cdot x + (-7) \cdot x + 11
+		
+		</me>
+	</p>
+	<aside>
+		<p>
+			We still have to use order of operations with multiplication and addition. 
+		</p>
+	</aside>
+	<p>
+		It is much harder for our brains to process this because we have to do a lot of extra work. It's harder to
+		locate the plus signs from among all of the symbols, and we have to count out all of the products to figure
+		out how many factors of there are. 
+	</p>
+	<p>
+		The two key features here are the use of implied multiplication and exponents. These two bits of notation help
+		us to visually condense the information and make it easier to read. The exponents also mean that we don't have
+		to count out the products. We also have the convention that subtraction means addition of the opposite, which
+		lets us write the negative coefficients as subtraction. 
+	</p>
+	<aside>
+		<p>
+			Implied multiplication is when we write two symbols next to each other to indicate multiplication instead of
+			using a multiplication symbol between them. 
+		</p>
+	</aside>
+	<p>
+		All of this notation helps us to identify that the "big picture" of this is that we have a sum of four terms.
+		From there, we can choose to look at the details of those terms to see (for example) if there are any like terms
+		that we might want to combine. 
+	</p>
+	<p>
+		Another mathematical notation that was developed is the use of fractions for division. Interestingly, it's very
+		rare in the modern mathematical world to use the <m>\div</m> symbol. It is not as rare, but still uncommon to
+		use <m>/</m> to represent division as well. These tend to cause more confusion than clarity, which is why modern
+		mathematics prefers the use of a fraction. This way, we can clearly distinguish between the numerator and
+		denominator of a fraction.
+	</p>
+	<aside>
+		<p>
+			If you've ever seen the meme about calculating <m>8 \div 2(2+2)</m>, then you've seen how the
+			symbol is problematic. It's not so much a math problem as it is a pedantry problem. 
+		</p>
+	</aside>
+	<p>
+		For example, consider the following expression: <m>x^2 + 3/x + 2</m>. The strict (and proper) application of the
+		order of operations is that this result is the same as <m>x^2 + \frac{3}{x} + 2</m>. But students will write
+		that to mean <m>\frac{x^2 + 3}{x + 2}</m>. If you insist on writing your fractions with a diagonal slash, you
+		will need to use parentheses to separate out the numerator and the denominator: <m>(x^2 + 3)/(x + 2)</m>. 
+	</p>
+	<aside>
+		<p>
+			Note: Please do not insist on using the diagonal slash 
+		</p>
+	</aside>
+	<p>
+		For this reason, students are strongly urged to not use the diagonal slash for division, but write their
+		division using a long horizontal bar (long enough to span the width of all the terms in the numerator and the
+		denominator) so that it is clear what is in the numerator and what is in the denominator. 
+	</p>
+	<p>
+		Similarly, when using the square root, it is important that the bar of the square root is long enough (and only
+		long enough) to cover the parts inside the square root. For example, <m>\sqrt{x + 3}</m> is not the same as
+		<m>\sqrt{x} + 3</m>, and <m>\sqrt{x \,+ \, } \, 3</m> doesn't even make sense. So please be careful with what
+		you're writing. 
+	</p>
+	<activity xml:id="sec-rme-1-ac1-big-picture">
+		<title>Identifying the "Big Picture" of an Expression</title>
+		<p>
+			A basic skill when learning to read mathematical notation is to mentally "group together" things to be able
+			to process what's happening. For example, the polynomial from before can be seen as the sum of four terms.
+			<me>
+				x^3 - 3x^2 - 7x + 11
+					\longrightarrow \boxed{x^3} + \boxed{(-3x^2)} + \boxed{ (-7x) } + \boxed{11}
+					\longrightarrow \boxed{A} + \boxed{B} + \boxed{C} + \boxed{D}
+			</me>
+			Similarly, we can think of fractions as being basically a numerator divided by a denominator.
+			<me>
+				\frac{x^2 + 3}{x + 2}
+					\longrightarrow \frac{\boxed{x^2 + 3}}{\boxed{ x + 2} }
+					\longrightarrow \frac{ \boxed{A} }{\boxed{B}}
+			</me> 
+		</p>
+		<aside>
+			<p>
+				There is no standard language for this. But potential examples are "this is a division calculation" or
+				"this is a sum." 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-rme-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Consider the expression <m>\frac{x + 3}{x - 2} + 3x</m>. Describe the "big picture" perspective of the
+			expression and put boxes around the terms as appropriate.
+		</p>
+		<solution>
+			<aside>
+				<p>
+					If you also put boxes around the numerator and the denominator, that would also be acceptable. But
+					the "big picture" is the sum of two terms. 
+				</p>
+			</aside>
+			<p>
+				<me> \boxed{ \frac{ x + 3 }{ x - 2 } } + \boxed{ 3x } </me> 
+			</p>
+			<p>
+				This is the sum of a fraction and a monomial. 
+			</p>
+		</solution>
+	</activity>
+	<p>
+		After seeing the "big picture" we can then break things down further. Once we're inside of the numerator or the
+		denominator of the fraction, and that may consist of multiple terms.
+		<me>
+			\frac{x^2 + 3}{x + 2}
+				\longrightarrow \frac{\boxed{x^2 + 3}}{\boxed{ x + 2} }
+				\longrightarrow \frac{\boxed{ \boxed{x^2} + \boxed{3} }} {\boxed{ \boxed{x} + \boxed{2} } }
+				\longrightarrow \frac{ \boxed{\boxed{A} + \boxed{B} }}{\boxed{\boxed{C} + \boxed{D}}}
+		</me> 
+	</p>
+	<aside>
+		<p>
+			It's rare that you have to diagram a sentence to understand it. Sometimes, you may need to reread a portion
+			of it, and the same is going to be true of reading mathematical sentences. 
+		</p>
+	</aside>
+	<p>
+		And we can go deeper into the individual terms and break them up into the coefficient (which is sometimes an
+		unwritten and the variable part. And the variable part can be broken down into individual variables. But at this
+		point, it's like focusing on the number of apples in the bag and you've lost sight of the big picture. 
+	</p>
+	<p>
+		But so far, we've only focused on the basic arithmetic operations. The next large piece of language you will
+		encounter are functions. We aren't going to go into the details of what functions are here. We're just going to
+		use the notation to help you understand how to think about it when you get to them. 
+	</p>
+	<p>
+		The basic shape of a function is <m>f(x)</m>. This represents a number just like the variable <m>y</m> would
+		represent a number. The	only difference is that with a function, there is a "rule" that tells you how to
+		calculate the number. When we write <m>f(x)</m> we are saying to use the rule associated with <m>f</m> to do the
+		calculation. In addition to the letters <m>f</m> and <m>g</m> (which are used for generic functions), there are
+		also a number of special functions that have names. Here are a few examples:
+		<tabular>
+			<row>
+				<cell>Name</cell>
+				<cell>Notation</cell>
+			</row>
+			<row>
+				<cell>sine</cell>
+				<cell><m>\sin()</m></cell>
+			</row>
+			<row>
+				<cell>cosine</cell>
+				<cell><m>\cos()</m></cell>
+			</row>
+			<row>
+				<cell>tangent</cell>
+				<cell><m>\tan()</m></cell>
+			</row>
+			<row>
+				<cell>common logarithm</cell>
+				<cell><m>\log()</m></cell>
+			</row>
+			<row>
+				<cell>natural logarithm</cell>
+				<cell><m>\ln()</m></cell>
+			</row>
+			<row>
+				<cell>exponential</cell>
+				<cell><m>\exp()</m></cell>
+			</row>
+		</tabular>
+	</p>
+	<p>
+		The empty parentheses indicate that there is a value to "plug into" the function. So there would normally be
+		some expression inside of those parentheses, which can be a number (such as with <m>\ln(2)</m>), a variable
+		(such as with <m>\sin(x)</m>) or a variable expression (such as with <m>\exp(-x^2 + 1)</m>).
+	</p>
+	<p>
+		At this point, it doesn't matter what these functions represent, other than they represent a method for
+		calculating some specific number. So it doesn't matter that <m>\ln(2) \approx 0.693</m>, only that <m>\ln(2)</m>
+		is some number that your calculator can calculate for you. 
+	</p>
+	<p>
+		At least in terms of algebra, functions behave very similarly to variables. Here are some examples: 
+		<me>
+			\begin{aligned}
+			2f(x) + 3f(x) \amp = 5f(x) \\
+			x \ln(3) - x \amp = (\ln(3) - 1)x 
+			\end{aligned}
+		</me>
+	</p>
+	<aside>
+		<p>
+			Think of "factoring out" the appropriate symbols. 
+		</p>
+	</aside>
+	<p>
+		The important note is that the function name cannot be separated from its argument (the parentheses and
+		everything inside of the parentheses). All of that notation should be seen as a single object. That is,
+		you cannot factor out the <m>f</m> in the first example:
+		<me>
+			2f(x) + 3f(x) \overset{\times}{=} f(2(x) + 3(x))
+		</me>
+		It may help for you to put a box around the function and its argument.
+		<me>
+			2f(x) + 3f(x) = 2 \, \boxed{ f(x) } + 3 \, \boxed{ f(x) }
+		</me> 
+	</p>
+	<aside>
+		<p>
+			In practice, you will probably just do this mentally. 
+		</p>
+	</aside>
+	<p>
+		The error of breaking apart the function from its argument is similar to other errors where students
+		"distribute" incorrectly: 
+	</p>
+	<aside>
+		<p>
+			In fact, all of these errors are of the same type. They are all misinterpretations of function notation. 
+		</p>
+	</aside>
+	<p>
+		<me>
+			\begin{aligned}
+				\frac{1}{a + b} \amp \overset{\times}{=} \frac{1}{a} + \frac{1}{b} \\
+				(x + y)^2 \amp \overset{\times}{=} x^2 + y^2 \\
+				\sqrt{n + m} \amp \overset{\times}{=} \sqrt{n} + \sqrt{m} \\
+				\sqrt{n^2 + m^2} \amp \overset{\times}{=} n + m \\
+				\sin(\theta + \phi) \amp \overset{\times}{=} \sin(\theta) + \sin(\phi) 
+			\end{aligned}
+		</me>
+		It all comes down to not understanding what the symbols mean or how they behave. 
+	</p>
+	<activity xml:id="sec-rme-1-ac2-box-substitutions">
+		<title>Hiding Information in Boxes</title>
+		<aside>
+			<p>
+				This is a lot like ignoring the details what was in the man's bag in the complex sentence we used
+				earlier. 
+			</p>
+		</aside>
+		<p>
+			Students often feel intimidated by the notation. One trick is to think of the the function as being hidden
+			inside of a box. This will "hide" the details so that you can focus on the big picture. 
+			<me>
+				\begin{aligned}
+					x \ln(3) + 4 \amp = \ln(6) \\
+					x \cdot \boxed{ A } + 4 \amp = \boxed{ B } \amp \eqnspacer \amp \text{Substitute} \\
+					x \cdot \boxed{ A } \amp = \boxed{ B } - 4 \amp \amp \text{Subtract $4$ from both sides} \\
+					x \amp = \frac{ \boxed{ B } - 4}{\boxed{A}} \amp \amp \text{Divide both sides by $\boxed{A}$} \\
+					x \amp = \frac{ \ln(6) - 4}{\ln(3)} \amp \amp \text{Substitute} 
+				\end{aligned}
+			</me>
+		</p>
+		<aside>
+			<p>
+				It is more traditional to use variables to replace expressions rather than boxes. However, students tend
+				to connect better to the boxes than variables, at least at first. The long-term goal is to not need to
+				use substitutions at all. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-rme-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Solve the equation <m>x \sin(1) + 5 = 3x - \cos(2)</m>. Do it once using a substitution similar to the
+			example above, and then do it without that substitution. Use a complete presentation both times. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						x \sin(1) + 5 \amp = 3x - \cos(2) \\
+						x \cdot \boxed{ A } + 5 \amp = 3x - \boxed{ B } \amp \amp \text{Substitute} \\
+						x \cdot \boxed{ A } \amp = 3x - \boxed{ B } - 5 \amp \amp \text{Subtract $5$ from both sides} \\
+						x \cdot \boxed{ A } - 3x \amp = - \boxed{ B } - 5 \amp \amp \text{Subtract $3x$ from both sides} \\
+						\left( \boxed{ A } - 3 \right) x \amp = - \boxed{ B } - 5 \amp \amp \text{Factor out the $x$} \\
+						x \amp = \frac{ - \boxed{B} - 5}{\boxed{A} - 3} \amp \amp \text{Divide by $\boxed{A} - 3$} \\
+						x \amp = \frac{ - \cos(2) - 5}{\sin(1) - 3} \amp \amp \text{Substitute} 
+					\end{aligned}
+				</me>
+			</p>
+			<p>
+				<me>
+					\begin{aligned}
+						x \sin(1) + 5 \amp = 3x - \cos(2) \\
+						x \sin(1) \amp = 3x - \cos(2) - 5 \amp \amp \text{Subtract $5$ from both sides} \\
+						x \sin(1) - 3x \amp = - \cos(2) - 5 \amp \amp \text{Subtract $3x$ from both sides} \\
+						\left( \sin(1) - 3 \right) x \amp = - \cos(2) - 5 \amp \amp \text{Factor out the $x$} \\
+						x \amp = \frac{ - \cos(2) - 5}{\sin(1) - 3} \amp \amp \text{Divide by $\sin(1) - 3$} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-rme-1-ac3-solve-expression">
+		<title>Solving for an Expression</title>
+		<p>
+			When we solve equations, sometimes we're not solving for the variable, but some expression involving the
+			variable. This is often the case when the variable is wrapped up in a function. The same type of process can
+			be done by making a substitution similar to the ones above. It is important to remember to substitute back
+			to the original variable if you do this. 
+			<me>
+				\begin{aligned}
+					2 \sin(x) + \sqrt{2} \amp = 0 \\
+					2 y + \sqrt{2} \amp = 0 \amp \eqnspacer \amp \text{Substitute $y = \sin(x)$} \\
+					2 y \amp = -\sqrt{2} \amp \amp \text{Subtract $\sqrt{2}$ from both sides} \\
+					y \amp = - \frac{\sqrt{2}}{2} \amp \amp \text{Divide both sides by $2$} \\
+					\sin(x) \amp = - \frac{\sqrt{2}}{2} \amp \amp \text{Substitute back to the original variable} 
+				\end{aligned}
+			</me>
+		</p>
+		<aside>
+			<p>
+				This last step is easily forgotten. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-rme-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Solve the equation <m>4 \exp(x) + 6 = \ln(4)</m> for Do it once using a substitution similar to the example
+			above, and then do it without that substitution. Use a complete presentation both times. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						4 \exp(x) + 6 \amp = \ln(4) \\
+						4 y + 6 \amp = \ln(4) \amp \amp \text{Substitute $y = \exp(x)$} \\
+						4 y \amp = \ln(4) - 6 \amp \amp \text{Subtract $6$ from both sides} \\
+						y \amp = \frac{\ln(4) - 6}{4} \amp \amp \text{Divide both sides by $4$} \\
+						\exp(x) \amp = \frac{\ln(4) - 6}{4} \amp \amp \text{Substitute back to the original variable} \\
+					\end{aligned}
+				</me>
+			</p>
+			<p>
+				<me>
+					\begin{aligned}
+						4 \exp(x) + 6 \amp = \ln(4) \\
+						4 \exp(x) \amp = \ln(4) - 6 \amp \amp \text{Subtract $6$ from both sides} \\
+						\exp(x) \amp = \frac{\ln(4) - 6}{4} \amp \amp \text{Divide both sides by $4$} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+</section>

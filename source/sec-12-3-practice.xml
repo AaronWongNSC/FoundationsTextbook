@@ -1,0 +1,93 @@
+<section xml:id="sec-lcp-3-practice">
+	<title>Deliberate Practice: Graphing Lines</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<aside>
+		<p>
+			Please don't freehand your graph paper. 
+		</p>
+	</aside>
+	<p>	
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Write the original equation. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Pick integer coordinate points. The problems are written to work with a grid that ranges from to in both axes, but you may use a larger grid if you want. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Grids are not included. You can either buy a pad of graph paper or use printable graph paper from internet (which you should be able to find for free). 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-lcp-3-worksheet">
+		<p>
+			<em>Instructions:</em> Find four solutions of the equation, then plot the points and sketch the solution. 
+		</p>
+		<exercise>
+			<p>
+				<m>x + y = 3</m> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>-2x + y = 1</m> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>x - y = 0</m> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>x + 2y = 3</m> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>3x - 2y = 1</m> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>-x + 3y = 2</m> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>x - 2y = 0</m> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>2x - 3y = -1</m> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>3x - y = 1</m> 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				<m>2x + 4y = 4</m> 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

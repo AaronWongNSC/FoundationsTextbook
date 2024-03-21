@@ -1,0 +1,150 @@
+<section xml:id="sec-fas-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/18-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-fas-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Find the least common multiple of 12 and 28 by writing out multiples of each number and also by applying
+				the technique from this section. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Find the least common multiple of 18 and 48 by writing out multiples of each number and also by applying
+				the technique from this section. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{3}{5} + \frac{7}{8}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+					\frac{4}{5} + \frac{3}{7} \amp = \frac{4}{5} \cdot 7 + \frac{3}{7} \cdot 5 \amp \amp \text{Common denominator} \\
+					\amp = \frac{28}{35} + \frac{15}{35} \\
+					\amp = \frac{43}{35} 
+					\end{aligned}
+				</me>
+			</p>
+			<aside>
+				<p>
+					This mistake is due to laziness and sloppiness. But neither of those words explain what is wrong. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fas-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Find the least common multiple of 40 and 72.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Find the least common multiple of <m>6x^2 y</m> and <m>9x y^3</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{11}{6} - \frac{7}{20}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{3}{x} + \frac{7}{y}</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fas-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Find the least common multiple of 8 and 32.
+			</p>
+			<aside>
+				<p>
+					Students sometimes feel confused by this one. Trust your reasoning skills. If you're still not sure,
+					try it a second way to confirm or reject your first answer. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Find the least common multiple of 8 and <m>3p^2 q</m>. 
+			</p>
+			<aside>
+				<p>
+					Trust yourself. Or at least, trust the process. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{3a}{4b} + \frac{4b}{3a}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{11}{6} + \frac{7}{20}</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fas-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Calculate <m>\frac{13}{8} + \frac{17}{20}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{3x}{8y^2} - \frac{5y}{6x}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{5x}{6y^2} + \frac{8}{10x^2y^3}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{x}{y^2} - \frac{y}{x^3}</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fas-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Calculate <m>\frac{7}{8} + \frac{5}{24}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{22}{15} - \frac{3}{35}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{a}{b} + \frac{c}{d}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				In the previous problem, you derived a general formula for adding two fractions together. Apply the
+				formula to calculating <m>\frac{11}{32} + \frac{23}{48}</m> and then explain why it's not a good idea to
+				use the formula in every situation. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

@@ -1,0 +1,480 @@
+<section xml:id="sec-bap-1-main">
+    <title>How We Write Affects How We Think</title>
+
+    <objectives>
+        <ul>
+            <li>
+                <p>
+                    Present a sequence of algebraic manipulations with the equal signs lined up.
+                </p>
+            </li>
+            <li>
+                <p>
+                    State an algebraic manipulation in words and then execute that manipulation correctly.
+                </p>
+            </li>
+        </ul>
+    </objectives>
+
+    
+    <p>
+        Welcome to college level mathematics! It is a well-known fact that many students struggle with college
+        mathematics. There are many people who proudly announce that they took a college math course three or
+        four times before they passed.
+    </p>
+    <aside>
+        <p>
+            What does it say about the state of math education when people are proud that they failed math classes?
+        </p>
+    </aside>
+    <p>
+        But what is less known are the reasons why students struggle with college level mathematics. Some will cite
+        math anxiety, others may blame the instructor, and others will simply say that they're not math people. And
+        there's probably a hint of truth to all of those.
+    </p>
+    <aside>
+        <p>
+            Growth Mindset: "I'm not a math person ... yet."
+        </p>
+    </aside>
+    <p>
+        A more basic reason for struggling with mathematics is that most students simply have not learned to think
+        mathematically before they get to college. Maybe they've memorized some formulas and some basic ways to
+        manipulate equations, but there's often a gap of understanding and the inability to communicate mathematics
+        effectively.
+    </p>
+    <aside>
+        <p>
+            Have you ever said "I know what I'm doing, but I can't explain it"?
+        </p>
+    </aside>
+    <p>
+        The easiest way to spot this is when a student says, "I know what I'm doing, but I can't explain it." This might
+        be good enough at lower levels of mathematics, where the goal is simply to get the answer, but college level
+        mathematics is different. We want students to be able to explain what they're doing and why.
+    </p>
+    <aside>
+        <p>
+            A couple more aspects of mathematical thinking:
+            <ul>
+                <li>
+                    <p>
+                        The confidence to attempt to solve problems using mathematics.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The curiosity to ask questions about mathematical ideas. 
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </aside>
+    <p>
+        <idx><h>mathematical thinking</h></idx>
+        These materials are designed to help students bridge that gap so that they can become mathematical thinkers. But
+        what is mathematical thinking? While it's hard to describe it in complete detail, it includes (and is not
+        limited to) the following:
+        <ul>
+            <li>
+                <p>
+                    The ability to think logically and analytically to solve problems
+                </p>
+            </li>
+            <li>
+                <p>
+                    The proper manipulation of symbols in the process of solving problems
+                </p>
+            </li>
+            <li>
+                <p>
+                    The ability to communicate and explain the ideas behind algebraic manipulations and the reasons for
+                    using them
+                </p>
+            </li>
+        </ul>
+    </p>
+    <aside>
+        <p>
+            You will often hear people say that math is a language. It can be useful to think of it in that way.
+        </p>
+    </aside>
+    <p>
+        As you work your way through these materials, you should be finding yourself being able to do these things
+        better through thoughtful practice and repetition. Just as with a foreign language, it's not enough to just
+        say a phrase once to learn it. You need to do it over and over again, and you need to see it or hear in multiple
+        contexts.
+    </p>
+    <aside>
+        <p>
+            These are not "rules" that must be followed all the time. But they are good guidelines for what clean
+            mathematical presentation should look like.
+        </p>
+    </aside>
+
+
+    <activity xml:id="sec-bap-1-ac1-expectations">
+        <title>The Basic Presentation Expectations</title>
+        <p>
+            <idx><h>complete presentation</h></idx>
+            We're going to start with some basic ideas for communicating mathematics. For the purposes of this book, a
+            <term>complete presentation</term> of a mathematical manipulation includes the following pieces:
+            <ul>
+                <li>
+                    <p>
+                        A series of equations or expressions with the equal signs lined up vertically
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        An explanation of the manipulations on the right side of each manipulation
+                    </p>
+                </li>
+            </ul>
+        </p>       
+        <aside>
+            <p>
+                Most textbooks use this format when presenting examples.
+            </p>
+        </aside>
+        <p>
+            Here is an example of solving the equation <m>3x + 4 = 16</m> using a complete presentation:
+            <me>
+                \begin{aligned}
+                    3x + 4 \amp = 16 \\
+                    3x \amp = 12 \amp \eqnspacer \amp \text{Subtract $4$ from both sides} \\
+                    x \amp = 4 \amp \amp \text{Divide both sides by $3$}
+                \end{aligned}
+            </me>
+        </p>
+        <p>
+            <alert xml:id="sec-bap-1-ac1-ti">Try it!</alert>
+        </p>
+        <p>
+            Using <xref ref="sec-bap-1-ac1-expectations"/> as a model, solve the equation <m>5x - 7 = 23</m>.
+        </p>
+        <solution>
+            <p>
+                <me>
+                    \begin{aligned}
+                        5x - 7 \amp = 23 \\
+                        5x \amp = 30 \amp \eqnspacer \amp \text{Add $7$ to both sides} \\
+                        x \amp = 6 \amp \amp \text{Divide both sides by $5$}
+                    \end{aligned}
+                </me>                
+            </p>
+        </solution>
+    </activity>
+    
+    
+    <activity xml:id="sec-bap-1-ac2-vertical-align">
+        <title>Lining up Equal Signs Vertically</title>
+        <aside>
+            <p>
+                If you want to be environmentally conscious, you can work in two or three columns on your page instead
+                of leaving the right half of the paper blank.
+            </p>
+        </aside>
+        <p>
+            Lining up the equal signs is mostly a matter of organization and readability. Some students learned to do
+            this because then they can use up the entire width of their paper and can cram in more problems per page.
+            Unfortunately, as problems become more complex, this leads to all sorts of small errors that could easily
+            be avoided by a more organized presentation.
+        </p>
+        <aside>
+            <p>
+                This exercise is much more difficult with handwritten math. Typed math is so clean that the errors
+                easier to find.
+            </p>
+        </aside>
+        <p>
+            Consider the following set of equations:
+            <me>5x + 9 = -3x - 7 \qquad 5x = - 3x + 16 \qquad 2x = 16 \qquad x = 8</me>
+            There are two errors embedded into these calculations. Notice how much your eyes have to go back and forth
+            to match up the terms. Lining up the equal signs vertically reduce that distance and make it easier to see
+            when terms change or disappear. It also helps you to keep track of what is on the left side of the equation
+            and what is on the right side of the equation.
+        </p>
+        <aside>
+            <p>
+                    If you aren't familiar with solving equations like this, talk to your instructor for further help.
+            </p>
+        </aside>
+        <p>
+            <alert xml:id="sec-bap-1-ac2-ti">Try it!</alert>            
+        </p>
+        <p>
+            Present the calculation in <xref ref="sec-bap-1-ac2-vertical-align"/> using a complete presentation. Be
+            sure to fix the errors.
+        </p>
+        <solution>
+            <p>
+                The two errors:
+                <ol>
+                    <li>
+                        <p>
+                            Line 2: Wrong sign on the 16
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Line 3: Calculation error
+                        </p>
+                    </li>
+                </ol>
+            </p>
+            <p>
+                <me>
+                    \begin{aligned}
+                        5x + 9 \amp = -3x - 7 \\
+                        5x \amp = -3x - 16 \amp \eqnspacer \amp \text{Subtract $9$ from both sides} \\
+                        8x \amp = -16 \amp \amp \text{Add $3x$ to both sides} \\
+                        x \amp = -2 \amp \amp \text{Divide both sides by $8$}
+                    \end{aligned}
+                </me>
+            </p>
+        </solution>
+    </activity>
+    
+    
+    <activity xml:id="sec-bap-1-ac3-common-problem">
+        <title>A Common Presentation Problem</title>
+        <aside>
+            <p>
+                You probably had a teacher teach you that this is the right way to write math. Unfortunately, they were
+                wrong and you're going to need to unlearn it.
+            </p>
+        </aside>
+        <p>
+            There is a common way of writing equations that some people use which is less than ideal:
+            <image xml:id="sec-bap-1-ac3-eq1" width="16%">
+                <latex-image>
+                    \begin{tikzpicture}
+                        \draw (-0.7, 0) node[anchor=center] {$\strut 4x$};
+                        \draw (-0.3, 0) node[anchor=center] {$\strut +$};
+                        \draw (-0.0, 0) node[anchor=center] {$\strut 7$};
+                        \draw (0.25, 0) node[anchor=center] {$\strut =$};
+                        \draw (0.75, 0) node[anchor=center] {$\strut 19$};
+
+                        \draw (-0.21, -0.4) node[anchor=center] {$\strut -7$};
+                        \draw (0.7, -0.4) node[anchor=center] {$\strut -7$};
+
+                        \draw (-1, -0.6) -- (1, -0.6);
+
+                        \draw (-0.7, -0.85) node[anchor=center] {$\strut 4x$};
+                        \draw (0.25, -0.85) node[anchor=center] {$\strut =$};
+                        \draw (0.75, -0.85) node[anchor=center] {$\strut 12$};
+
+                        \draw (-0.9, -1.05) -- (-0.5, -1.05);
+                        \draw (-0.7, -1.05) node[anchor=north] {$4$};
+                        \draw (0.6, -1.05) -- (0.95, -1.05);
+                        \draw (0.775, -1.05) node[anchor=north] {$4$};
+                        
+                        \draw (0.3,-1.7) node[anchor=center] {$x=3$};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </p>
+        <aside>
+            <p>
+                A good explanation of an idea should not require the reader to have to guess about what happened. This
+                means that the responsibility is on the writer to write clearly.
+            </p>
+        </aside>
+        <p>
+            There are a number of problems with this. To start, there's not really an organized way to read this. The
+            best way to think of it is that it breaks apart into four pieces with three of them overlapping each other.
+            Another problem is that the reader is expected to simply know what's happening. This is sometimes at the
+            root of students' complaints about "skipped steps." 
+            <image xml:id="sec-bap-1-ac3-eq1-explained" width="100%">
+                <latex-image>
+                    \begin{tikzpicture}
+                        \begin{scope}[shift={(-6,0)}]
+                            \draw (0,0.3) node[anchor=south] {\strut Original Problem};
+                        
+                            \draw (-0.7, 0) node[anchor=center] {$\strut 4x$};
+                            \draw (-0.3, 0) node[anchor=center] {$\strut +$};
+                            \draw (-0.0, 0) node[anchor=center] {$\strut 7$};
+                            \draw (0.25, 0) node[anchor=center] {$\strut =$};
+                            \draw (0.75, 0) node[anchor=center] {$\strut 19$};
+                        \end{scope}
+
+                        \begin{scope}[shift={(-2,0)}]
+                            \draw (0,0.8) node[anchor=south] {\strut Subtract 7 to};
+                            \draw (0,0.3) node[anchor=south] {\strut get a new equation};
+
+                            \draw (-0.7, 0) node[anchor=center] {$\strut 4x$};
+                            \draw (-0.3, 0) node[anchor=center] {$\strut +$};
+                            \draw (-0.0, 0) node[anchor=center] {$\strut 7$};
+                            \draw (0.25, 0) node[anchor=center] {$\strut =$};
+                            \draw (0.75, 0) node[anchor=center] {$\strut 19$};
+                        
+                            \draw (-0.21, -0.4) node[anchor=center] {$\strut -7$};
+                            \draw (0.7, -0.4) node[anchor=center] {$\strut -7$};
+                        
+                            \draw (-1, -0.6) -- (1, -0.6);
+                        
+                            \draw (-0.7, -0.85) node[anchor=center] {$\strut 4x$};
+                            \draw (0.25, -0.85) node[anchor=center] {$\strut =$};
+                            \draw (0.75, -0.85) node[anchor=center] {$\strut 12$};
+                        \end{scope}
+                        
+                        \begin{scope}[shift={(2,0)}]
+                            \draw (0,0.8) node[anchor=south] {\strut Divide the new};
+                            \draw (0,0.3) node[anchor=south] {\strut equation by 4};
+
+                            \draw (-0.7, -0.85) node[anchor=center] {$\strut 4x$};
+                            \draw (0.25, -0.85) node[anchor=center] {$\strut =$};
+                            \draw (0.75, -0.85) node[anchor=center] {$\strut 12$};
+
+                            \draw (-0.9, -1.05) -- (-0.5, -1.05);
+                            \draw (-0.7, -1.05) node[anchor=north] {$4$};
+                            \draw (0.6, -1.05) -- (0.95, -1.05);
+                            \draw (0.775, -1.05) node[anchor=north] {$4$};
+                        \end{scope}
+                        
+                        \begin{scope}[shift={(5.5,0)}]
+                            \draw (0,0.3) node[anchor=south] {\strut Final answer};
+                            \draw (0.3,-1.7) node[anchor=center] {$x=3$};
+                        \end{scope}
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </p>
+        <aside>
+            <p>
+                This all makes sense as you're writing it out, and it's good to help you put your ideas together and get
+                the overall picture of what's happening in a problem, but the final result isn't a carefully organized
+                presentation. In writing courses, the equivalent work would be called a "rough draft."
+            </p>
+        </aside>
+        <p>
+            <alert xml:id="sec-bap-1-ac3-ti">Try it!</alert>
+        </p>
+        <p>
+            Write the calculation in <xref ref="sec-bap-1-ac3-common-problem"/> using a complete presentation.
+        </p>
+        <solution>
+            <p>
+                <me>
+                    \begin{aligned}
+                        4x + 7 \amp = 19 \\
+                        4x \amp = 12 \amp \eqnspacer \amp \text{Subtract $7$ from both sides} \\
+                        x \amp = 3 \amp \amp \text{Divide both sides by $4$}
+                    \end{aligned}
+                </me>
+            </p>
+        </solution>
+    </activity>
+    
+    
+    <activity xml:id="sec-bap-1-ac4-describe-steps">
+        <title>Describing the Steps</title>
+        <aside>
+            <p>
+                Working with fractions is its own challenge for a lot of students. A lot of students have very little
+                conceptual foundation for the fraction manipulations, and a lot of it is just brute force memorization.
+                We'll try to enlighten fractions a bit later so that they really start to make sense.
+            </p>
+        </aside>
+        <p>
+            One other aspect of taking the time to carefully write what you're doing is that it causes you to think more
+            clearly about what you're doing. Consider the following equation: <m>2x = \frac{1}{2}</m>. A fair number of
+            students see this and think they should "cancel out" the 2 from both sides. This is not correct. There are
+            times you can cancel out numbers if one of them is in the numerator and the other is in the denominator, but
+            this isn't one of them.
+        </p>
+        <p>
+            The act of explicitly stating what mathematical operation you're performing helps your brain to make
+            categories of information. A more simple "error" of this type is that some students refer to all algebraic
+            manipulations as "moving the term to the other side." Here are two examples of what that could mean to
+            students:
+            <image xml:id="sec-bap-1-ac4-good" width="60%">
+                <latex-image>
+                    \begin{tikzpicture}
+                        \draw (-3, 0) node[anchor=center] {$\begin{aligned}
+                            3x + 5 \amp = 14 \\
+                            3x \amp = 9
+                        \end{aligned}$};
+                        \draw (3, 0) node[anchor=center] {$\begin{aligned}
+                            3x - 7 \amp = 14 \\
+                            3x \amp = 21
+                        \end{aligned}$};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </p>
+        <aside>
+            <p>
+                We use <m>\overset{\times}{=}</m> to indicate that there was an algebraic error.
+            </p>
+        </aside>
+        <p>
+            Each of these is a different mathematical operation and a different algebraic step. It is not uncommon to
+            see the following mistakes:
+            <image xml:id="sec-bap-1-ac4-bad" width="60%">
+                <latex-image>
+                    \begin{tikzpicture}
+                        \draw (-3, 0) node[anchor=center] {$\begin{aligned}
+                            3x + 5 \amp = 14 \\
+                            3x \amp \overset{\times}{=} 19
+                        \end{aligned}$};
+                        \draw (3, 0) node[anchor=center] {$\begin{aligned}
+                            3x - 7 \amp = 14 \\
+                            3x \amp \overset{\times}{=} 7
+                        \end{aligned}$};
+                    \end{tikzpicture}
+                </latex-image>
+            </image>
+        </p>
+        <aside>
+            <p>
+                Metacognition is the awareness of your own thinking. Many students lack this with mathematics, and are
+                simply manipulating symbols on the page. By thinking about the algebraic steps you're executing, you
+                give yourself better learning opportunities.
+            </p>
+        </aside>
+        <p>
+            Usually, when I ask students to state in words what they did, they're able to see their mistake for
+            themselves. So the act of stating the mathematical operation in words allows students to avoid errors.
+        </p>
+        <p>
+            <alert xml:id="sec-bap-1-ac4-ti">Try it!</alert>
+        </p>
+        <p>
+            Solve the equations <m>3x + 5 = 14</m> and <m>3x - 7 = 14</m> using a complete presentation.
+        </p>
+        <solution>
+            <p>
+                <me>
+                    \begin{aligned}
+                        3x + 5 \amp = 14 \\
+                        3x \amp = 9 \amp \eqnspacer \amp \text{Subtract $5$ from both sides} \\
+                        x \amp = 3 \amp \amp \text{Divide both sides by $3$}
+                    \end{aligned}
+                </me>
+                <me>
+                    \begin{aligned}
+                        3x - 7 \amp = 14 \\
+                        3x \amp = 21 \amp \eqnspacer \amp \text{Add $7$ to both sides} \\
+                        x \amp = 7 \amp \amp \text{Divide both sides by $3$}
+                    \end{aligned}
+                </me>
+            </p>
+        </solution>
+    </activity>
+    
+    
+    <p>
+        You will not always need to use a complete presentation. There are many times when it is tedious and unnecessary
+        to state what is happening at every single algebraic step. This becomes more and more true as your basic algebra
+        gets stronger and stronger. What ends up happening is that the steps that need to be described become less about
+        the small details and more about the big picture. When solving for <m>x</m>, it may be enough to say, "Apply the
+        quadratic formula" and not have to explain all of the individual arithmetic steps.
+    </p>
+    <p>
+        That being said, it is very important to develop the habit of keeping your equal signs lined up when writing
+        math. If there is any one writing habit you develop from these worksheets, it should be that one. This one
+        change by itself does a lot of things for you that you may not be consciously aware of.
+    </p>
+</section>

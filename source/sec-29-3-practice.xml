@@ -1,0 +1,83 @@
+<section xml:id="sec-amnl-3-practice">
+	<title>Deliberate Practice: Movement on the Number Line</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<p>
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Indicate the direction that you are facing at each step. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Indicate the motion at each step using arrows. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-amnl-3-worksheet">
+		<p>
+			<em>Instructions:</em> Draw a movement diagram to represent the calculation and compute the result. 
+		</p>
+		<exercise>
+			<p>
+				Draw a movement diagram for <m>3 + 2</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a movement diagram for <m>2 - 5</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a movement diagram for <m>6 - 4</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a movement diagram for <m>-3 + 5</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a movement diagram for <m>-5 - (-3)</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a movement diagram for <m>-4 + (-2)</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a movement diagram for <m>3 + (-4)</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a movement diagram for <m>4 - 9</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a movement diagram for <m>-3 + 7</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a movement diagram for <m>-4 - (-3)</m> and compute the result. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

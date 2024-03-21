@@ -1,0 +1,254 @@
+<section xml:id="sec-sese-5-deeper">
+	<title>Going Deeper: Inequalities</title>
+	<p>
+		In this section, we talked about the difference between equations and expressions. But there's another type of
+		mathematical statement that is like an equation, but instead of declaring that two quantities represent the same
+		value, we want one to be greater than or less than the other. These statements are known as inequalities. 
+	</p>
+	<aside>
+		<p>
+			In <xref ref="sec-ra-5-deeper"/> , we will see how to visualize these relationships geometrically. This
+			geometric framework is particularly useful when negative numbers are involved. But for now, we're going to
+			trust your intuition and experience to interpret the meaning of these words. 
+		</p>
+	</aside>
+    <definition xml:id="def-inequality">
+        <title>Inequality</title>
+        <idx><h>inequality</h></idx>
+        
+        <statement>
+            <p>
+				A mathematical <term>inequality</term> is a statement of the form <m>A \gt B</m>, <m>A \lt B</m>,
+				<m>A \geq B</m>, or <m>A \leq B</m>, where $A$ and $B$ are mathematical expressions. Each statement has
+				an associated interpretation:
+				<ul>
+					<li>
+						<p>
+							<m>A \gt B</m> means that <m>A</m> represents a quantity that is greater than the quantity
+							that <m>B</m> represents.
+						</p>
+					</li>
+					<li>
+						<p>
+							<m>A \lt B</m> means that <m>A</m> represents a quantity that is less than the quantity
+							that <m>B</m> represents.
+						</p>
+					</li>
+					<li>
+						<p>
+							<m>A \geq B</m> means that <m>A</m> represents a quantity that is greater than or equal to
+							the quantity that <m>B</m> represents.
+						</p>
+					</li>
+					<li>
+						<p>
+							<m>A \leq B</m> means that <m>A</m> represents a quantity that is less than or equal to the
+							quantity that <m>B</m> represents.
+						</p>
+					</li>
+				</ul>
+            </p>
+        </statement>
+    </definition>
+
+	<p>
+		<idx><h>inequality</h> <h>strict</h></idx>
+		<idx><h>inequality</h> <h>non-strict</h></idx>
+		<idx><h>inequality</h> <h>inclusive</h></idx>
+		<idx><h>inequality</h> <h>weak</h></idx>
+		We often call the first two symbols <term>strict inequalities</term>, emphasizing that we are interested in the
+		more stringent condition. Interestingly, we don't have a formal name for the other two. You will sometimes see
+		them called <term>non-strict</term>, <term>inclusive</term>, or <term>weak</term> inequalities, but there's no
+		consensus term among mathematicians. 
+	</p>
+	<p>
+		Manipulating inequalities is almost identical manipulating equations, though there is one very important
+		distinction. When multiplying or dividing, the axioms only allow for doing this with positive values. You should
+		compare this definition with <xref ref="def-equality" />. 
+	</p>
+	<aside>
+		<p>
+			The first axiom allows us to state these properties for just the symbol rather than having to repeat
+			everything with the symbol. We also avoid having to explicitly discuss the <m>\geq</m> and <m>\leq</m>
+			symbols because those are simply shorthand to represent both a strict inequality and an equality at the same
+			time. 
+		</p>
+	</aside>
+    <definition xml:id="def-inequality-axioms">
+        <title>Axioms of Inequality</title>
+        <idx><h>axioms of inequality</h></idx>
+        <statement>
+            <p>
+                Let <m>a</m>, <m>b</m>, and <m>c</m> be real numbers. The <term>axioms of inequality</term> state that
+                <ol>
+                    <li>
+                        <p>
+                            If <m>a \gt b</m>, then <m>b \lt a</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>a \gt b</m>, then <m>a + c \gt b + c</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>a \lt b</m>, then <m>a - c \lt b - c</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>a \gt b</m> and <m>c \gt 0</m>, then <m>ac \gt bc</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>a \gt b</m> and <m>c \gt 0</m>, then <m>\frac{a}{c} \gt \frac{b}{c}</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </definition>
+	<aside>
+		<p>
+			Notice the extra condition that is positive in the last two axioms! 
+		</p>
+	</aside>
+	<aside>
+		<p>
+			Rule-based thinking treats everything like a axiom. Every time there's a new situation, there's a new rule
+			to learn. Mathematicians prefer fewer rules because it helps us identify the most important ideas. 
+		</p>
+	</aside>
+	<p>
+		You might remember from your previous experiences that when you multiply or divide by a negative number, that
+		you're supposed to flip the inequality. But that's not listed here! What's happening is that this property is
+		not an axiom. We can actually show that this property is a logical consequence of the listed properties.
+		We will show how the negative sign appears in a simple calculation and let you try to prove the general property
+		on your own. 
+	</p>
+	<aside>
+		<p>
+			Breaking concepts down into basic axioms is like understanding that all atoms are made of protons, neutrons,
+			and electrons. A small set of basic building blocks can create an entire universe of mathematics. 
+		</p>
+	</aside>
+		<me>
+			\begin{aligned}
+				a \amp \gt b \\
+				a + ((-a) + (-b)) \amp \gt b + ((-a) + (-b)) \amp \eqnspacer \amp \text{Add $(-a) + (-b)$ to both sides} \\
+				-b \amp \gt -a \amp \amp \text{Combine like terms} \\
+				-a \amp \lt -b \amp \amp \text{The axioms of equality} 
+			\end{aligned}
+		</me>
+	<aside>
+		<p>
+			The general proof is a simple calculation, but remember that simple is not always easy. It's normal for
+			students to struggle with this. 
+		</p>
+	</aside>
+	<p>
+		To prove the general case, note that if <m>c \lt 0</m>, then <m>-c \gt 0</m> so that you can multiply both sides
+		by <m>-c</m> in the first step using the axioms of inequality. From there, you'll need to make a similar
+		manipulation to the one above. 
+	</p>
+	<p>
+		We can expand our definition of what it means to solve an equation so that it applies to inequalities. You
+		should compare this definition with <xref ref="def-solve-solution"/>.
+	</p>
+    <definition xml:id="def-solve-solution-inequality">
+        <title>Solve and Solution of an Inequality</title>
+        <idx><h>solve</h> <h>inequality</h> </idx>
+        <idx><h>solution</h> <h>of an inequality</h> </idx>
+        
+        <statement>
+            <p>
+				To <term>solve</term> an inequality means to find the value (or values) of the variable (or variables)
+				that make the inequality true. A <term>solution</term> of an inequality is a specific value of the
+				variable (or specific values of the variables) that make the inequality true.
+            </p>
+        </statement>
+    </definition>
+	<p>
+		With the exception of worrying about the direction of the inequality, solving inequalities is identical to
+		solving equations. In fact, if you go back to any of the problems from previous sections and replace the equal
+		sign with any of the inequality symbols, the algebraic steps will be identical and you would only need to check
+		whether any of the steps involved multiplying or dividing by a negative number. For example, here is "Try It"
+		exercise \#2, except using instead of in the original problem. 
+		<me>
+			\begin{aligned}
+				5x - 7 \amp \gt 7x + 11 \\
+				5x \amp \gt 7x + 18 \amp \eqnspacer \amp \text{Add $7$ to both sides} \\
+				-2x \amp \gt 18 \amp \amp \text{Subtract $7x$ from both sides} \\
+				x \amp \lt -9 \amp \amp \text{Divide both sides by $-2$} 
+			\end{aligned}
+		</me>
+	</p>
+	<aside>
+		<p>
+			Compare this to the solution of the original. 
+		</p>
+	</aside>
+	<p>
+		Notice that the change happened right at the step where we divided by -2. It doesn't happen before that step,
+		and it doesn't happen on its own line after that step. It also does not happen because the 9 is negative. It
+		happens because the algebraic manipulation called for dividing by a negative number. Furthermore, if you use the
+		improper presentation from the first section of the book, inequalities lead to some rather unusual and
+		nonsensical mathematical statements. We put such a heavy emphasis on presentation in order to avoid many of the
+		errors that can arise from these things. 
+	</p>
+	<p>
+		A key distinction is that solutions to inequalities are usually not a single value, but (usually) an infinite
+		collection of values. For example, the inequality <m>x > 0</m> is true when <m>x = 1, 2, 3, \ldots</m>. But we
+		have to remember that we're thinking about all possible values, so we have to include decimals such as
+		<m>0.1, 0.01, 0.001, 0.0001, \ldots</m>. 
+	</p>
+	<p>
+		The second collection of values hints at a very unusual feature about numbers. There is no smallest solution to
+		the inequality <m>x > 0</m>. Another way of saying this is that there is no smallest positive number. For any
+		positive number you can think of, there's always another that's less than your number but still positive. If
+		you've never really thought about why this happens, it's worth taking some time to think about it. 
+	</p>
+	<p>
+		It turns out that this simple notion is connected to a number of profoundly interesting mathematical ideas. Here
+		are just a few questions that this one idea leads to: 
+		<ul>
+			<li>
+				<p>
+					There are infinitely many numbers between 0 and 1 and infinitely many numbers between 0 and
+					0.00000001. Since the first gap is bigger than the second gap, does it make sense to say that the
+					infinity of values in the first interval is larger than the infinity of values in the second? (It
+					turns out that these two infinities are the same size, but that isn't the same as saying that
+					<em>all</em> infinities are the same!) 
+				</p>
+			</li>
+			<li>
+				<p>
+					What happens to the value of <m>\frac{1}{x}</m> as we let <m>x</m> take the values
+					<m>0.1, 0.01, 0.001, 0.0001, \ldots</m>? It looks like it's getting larger and larger. Does it make
+					sense to say that <m>\frac{1}{0} = \infty</m>? (It turns out that it doesn't, but the exact reason
+					this idea fails is a bit subtle.) 
+				</p>
+			</li>
+			<li>
+				<p>
+					<idx><h>number</h> <h>surreal</h> </idx>
+					Does it make sense to have a number where there are infinite number of zeros before the 1? (It turns
+					out that such a mathematical object can make sense if you think about it the right way, but it's no
+					longer what we would call a number. Instead, it's what me might call a <term>surreal</term> number.
+					And no, this is not a joke.) 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			What does it even mean for something to come <em>after</em> an infinite number of other things? 
+		</p>
+	</aside>
+	<p>
+		We won't go into further detail about any of these topics here, as it goes way beyond the scope of this course.
+		But it is interesting to reflect on how some very basic questions can lead to very profound mathematical ideas.
+	</p>
+</section>

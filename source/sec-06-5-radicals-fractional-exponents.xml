@@ -1,0 +1,143 @@
+<section xml:id="sec-exp-5-deeper">
+	<title>Going Deeper: Radicals and Fractional Exponents</title>
+	<p>
+		At some point in the past, you might have remembered learning that <m>x^{\frac{1}{2}} = \sqrt{x}</m>. Most
+		likely, you learned this as another rule. However, you have enough knowledge at this point to learn why this is
+		the most (and perhaps only) sensible thing that the fractional exponent could represent. 
+	</p>
+	<p>
+		<idx><h>perfect square</h></idx>
+		Before we take a look at fractional exponents, we will do a quick review of radicals. The first radical that
+		students encounter is the square root. The symbol represents the non-negative number that has the property that
+		<m>\left( \sqrt{x} \right)^2 = x</m>. Certain integers are considered to be <em>perfect squares</em> because
+		their square roots are themselves integers. For example, we have <m>\sqrt{4} = 2</m> (since <m>2^2 = 4</m>) and
+		<m>\sqrt{25} = 5</m> (since <m>5^2 = 25</m>). Square roots of other numbers exist, and we can either represent
+		the exact values symbolically (such as being the number such that <m>\left( \sqrt{2} \right)^2 = 2</m>) or we
+		can use a decimal approximation (<m>\sqrt{2} \approx 1.41421</m> because <m>1.41421^2 = 1.9999899241 \approx 2</m>). 
+	</p>
+	<p>
+		An important feature of square roots is that we always take the value to be non-negative. When we think about
+		numbers that have the property that squaring them gives you the value 4 we quickly realize that there are two
+		possible values: 2 and -2. and This creates a potential ambiguity in our notation, because could theoretically
+		be one of two values. However, mathematicians have adopted the convenient convention that the square root
+		function is always non-negative. 
+	</p>
+	<p>
+		This framework clashes with what some students have learned in their previous algebra experiences. Some students
+		have been taught that <m>\sqrt{4} = \pm 2</m>. Unfortunately, this is not a proper understanding of the symbols.
+		When we write the only value this can represent is and it never represents the value The distinction comes down
+		to understanding what question is being asked: 
+		<ul>
+			<li>
+				<p>
+					What number does <m>\sqrt{4}</m> represent? The value of <m>\sqrt{4}</m> is 2, so that
+					<m>\sqrt{4} = 2</m>. 
+				</p>
+			</li>
+			<li>
+				<p>
+					What numbers have the property that <m>x^2 = 4</m>? The value can be either 2 or -2, which we can
+					denote as <m>x = \pm 2</m>. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			This is a callback to <xref ref="sec-sese-1-main" /> . 
+		</p>
+	</aside>
+	<p>
+		In the first case, we're given a specific mathematical expression and are asked to determine its value. In the
+		second case, we are given a mathematical equation and are asked to solve it. These are two different questions,
+		which is why we end up with two different answers. 
+	</p>
+	<aside>
+		<p>
+			Do you know why a negative multiplied by a negative gives a positive? 
+		</p>
+	</aside>
+	<p>
+		The reason that there are two solutions to <m>x^2 = 4</m> is because squaring a negative number results in a
+		positive number. In fact, raising a negative number to any even power leads to a positive result. But a negative
+		number raised to an odd power remains odd. This observation is helpful for defining higher roots. 
+	</p>
+    <definition xml:id="def-nth-root">
+        <title>The <m>n</m>-th root</title>
+        <idx><h>n-th root</h></idx>
+        
+        <statement>
+            <p>
+				The <term><m>n</m>-th root of <m>x</m></term>, denoted <m>\sqrt[n]{x}</m> is the number that has property
+				<m>\left( \sqrt[n]{x} \right)^n = x</m>. If <m>n</m> is even, we pick this value to be a nonnegative
+				number (by convention). If <m>n = 2</m>, we often omit the <m>n</m> in the notation, so that
+				<m>\sqrt{x} = \sqrt[2]{x}</m>.
+            </p>
+        </statement>
+    </definition>
+	<p>
+		We can take odd roots of both positive and negative numbers, so that <m>\sqrt[3]{8} = 2</m> and
+		<m>\sqrt[3]{-8} = -2</m>. However, we can only take even roots of nonnegative numbers and the roots are only
+		ever nonnegative values. So <m>\sqrt[4]{81} = 3</m> even though both <m>3^4 = 81</m> and <m>(-3)^4 = 81</m>. And
+		it turns out that doesn't exist because it's impossible for a number raised to the fourth power to be negative. 
+	</p>
+	<aside>
+		<p>
+			Actually, <m>\sqrt[4]{81}</m> does exist, but we would first have to create or discover some more numbers to
+			describe it. 
+		</p>
+	</aside>
+	<p>
+		This takes us back to the concept of fractional exponents. The key is to think about them in terms of
+		properties. If we expect the properties of exponents to be consistent, then we must have the following:
+		<me>
+			\left( x^{\frac{1}{2}} \right)^2 = x^{\frac{1}{2} \cdot 2} = x^1 = x
+		</me>
+	</p>
+	<aside>
+		<p>
+			The first equality is from the power rule for exponents. 
+		</p>
+	</aside>
+	<p>
+		This means that whatever <m>x^{\frac{1}{2}}</m> is, it really ought to have the property that when you square
+		it, you get <m>x</m>. And we have already seen that this is the definition of <m>\sqrt{x}</m>, which tells us
+		that <m>x^{\frac{1}{2}} = \sqrt{x}</m>. 
+	</p>
+	<p>
+		We can use the exact same logic to determine the value of <m>x^{\frac{1}{3}}</m>. Since
+		<m>\left( x^{\frac{1}{3}} \right)^3 = x</m>, we see that <m>x^{\frac{1}{3}} = \sqrt[3]{x}</m>. In fact, we can
+		see that <m>x^{\frac{1}{n}} = \sqrt[n]{x}</m>. 
+	</p>
+	<p>
+		What can we say about <m>x^{\frac{m}{n}}</m>? Once again, we're going to look at the properties of exponents.
+		Notice that
+		<me>
+			x^{\frac{m}{n}} = \left( x^{\frac{1}{n}} \right)^m = \left( \sqrt[n]{x} \right)^m
+		</me>
+		and
+		<me>
+			x^{\frac{m}{n}} = \left( x^m \right)^\frac{1}{n} = \sqrt[n]{x^m}.
+		</me>
+		These calculations give us the ability to evaluate every fractional exponent. 
+	</p>
+    <definition xml:id="def-fractional-exponent">
+        <title>Fractional Exponents</title>
+        <idx><h>exponent</h> <h>fractional</h></idx>
+        
+        <statement>
+            <p>
+				For any integer <m>m</m> and positive integer <m>n</m>, we define <m>x^{\frac{m}{n}}</m> to be
+				<m>\left( \sqrt[n]{x} \right)^m = \sqrt[n]{x^m}</m>.
+            </p>
+        </statement>
+    </definition>
+	<p>
+		A key observation about this definition is that we have set it up so that it would be consistent with the
+		product rule and power rule (<xref ref="thm-properties-of-exponents" />). It is also consistent with negative
+		exponents (<xref ref="def-exponent-notation" />). This consistency means that there are no new "rules" to learn.
+		This is how mathematicians like to generalize results. It would be very confusing if we had one set of rules
+		that only worked with integer exponents, and then an entirely different set of rules for working with fractional
+		exponents. It makes much more sense to work towards consistent notation and consistent structures.
+	</p>
+</section>

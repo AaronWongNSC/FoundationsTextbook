@@ -1,0 +1,463 @@
+<section xml:id="sec-pop-5-deeper">
+	<title>Going Deeper: Algebra Tiles</title>
+	<aside>
+		<p>
+			You can print up paper manipulatives off the internet, but they can sometimes be a bit flimsy on their own.
+			If you do that, you may want to glue them to pieces of cardboard (similar in thickness to a cereal box) to
+			give them some extra thickness. Alternatively, there are collections virtual manipulatives online or you can
+			purchase more durable plastic tiles from online sources. 
+		</p>
+	</aside>
+	<p>
+		For many students, one of their struggles with mathematics is that all the concepts feel extremely abstract to
+		them. This can make math particularly difficult for students that are more visual or kinesthetic in their
+		learning. A number of educational manipulatives have been created to help students connect to mathematical
+		thinking, but not all teachers are familiar with them or have encouraged their students to embrace them. We will
+		be discussing a few of these as we work our way through the content to help bring deeper insights into the
+		material. 
+	</p>
+	<p>
+		Algebra tiles were introduced in this section to help visualize products, but they can be used more generally to
+		help represent a range of algebraic concepts. We will start by describing the tiles themselves. 
+	</p>
+	<image xml:id="sec-pop-5-algebra-tiles" width="80%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope} [scale=0.5, shift={(0,-0.25)}]
+					\draw[thick,fill=yellow] (0,0) rectangle ++ (3.5,3.5) ++ (-1.75,-1.75) node[anchor=center] {\strut $x^2$}; 
+					\draw[thick,fill=red] (4.5,0) rectangle ++ (3.5,3.5) ++ (-1.75,-1.75) node[anchor=center] {\strut $-x^2$}; 
+					\draw[thick,fill=yellow] (9,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+					\draw[thick,fill=red] (13.5,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $-x$}; 
+					\draw[thick,fill=yellow] (18,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+					\draw[thick,fill=red] (20,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut \small $-1$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			Some manufacturers have multiple colors and allow the teachers to define the different meanings for each of
+			them. We're going to stick with just two colors for the bulk of our discussion. 
+		</p>
+	</aside>
+	<p>
+		There are three basic shapes of tiles, and each one comes in two colors. The three shapes are a small square, a
+		rectangle, and a large square. The dimensions of the different shapes correspond to each other, so that the
+		narrow side of the rectangle matches with the small square and the long side of the rectangle matches with the
+		large square. The actual relationship between the sides of the small square and large square are irrelevant.
+		They just need visibly different in size. The small square is a unit tile, the rectangle is an <m>x</m> tile,
+		and the large square is an <m>x^2</m> tile. The two colors represent either a positive or negative version of
+		the various tiles. 
+	</p>
+	<subsection xml:id="sec-pop-5-represent-simplify">
+		<title>Representing and Simplifying Algebriac Expressions</title>
+		<p>
+			Algebraic expressions can be represented by collections of tiles. Here are some examples: 
+		</p>
+		<image xml:id="sec-pop-5-tile-representations" width="50%">
+			<latex-image>
+				\begin{tikzpicture}
+				\begin{scope} [scale=0.5, shift={(0,0)}] \draw (0,0.5) node[anchor=east] {$2x + 1 \longleftrightarrow$}; 
+				\draw[thick,fill=yellow] (0,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+				\draw[thick,fill=yellow] (4,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+				\draw[thick,fill=yellow] (8,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+				\end{scope} 
+				\begin{scope} [scale=0.5, shift={(0,-2)}] \draw (0,0.5) node[anchor=east] {$x - 2 \longleftrightarrow$}; 
+				\draw[thick,fill=yellow] (0,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+				\draw[thick,fill=red] (4,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+				\draw[thick,fill=red] (5.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+				\end{scope} 
+				\begin{scope} [scale=0.5, shift={(0,-4)}] \draw (0,0.5) node[anchor=east] {$-2x + 3 \longleftrightarrow$}; 
+				\draw[thick,fill=red] (0,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $-x$}; 
+				\draw[thick,fill=red] (4,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $-x$}; 
+				\draw[thick,fill=yellow] (8,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+				\draw[thick,fill=yellow] (9.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+				\draw[thick,fill=yellow] (11,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+				\end{scope} \end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			Adding algebraic expressions together can be accomplished by combining two collections of tiles together.
+			When combining tiles, there is an additional rule where a positive and negative version of the same shape
+			will cancel each other out. When working with manipulatives, this is accomplished by simply setting the
+			canceled tiles off to the side. For visualization purposes in this book, we will use a light gray outline to
+			represent a pair of canceled tiles. 
+		</p>
+		<image xml:id="sec-pop-5-tile-addition" width="80%">
+			<latex-image>
+				\begin{tikzpicture}
+					\begin{scope} [scale=0.5, shift={(0,2)}]
+						\draw (0,0) node[anchor=west] {$(x - 2) + (-2x + 3)$}; 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,0)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\begin{scope} [shift={(0,-0.5)}]
+							\draw (0,0.5) node[anchor=west] {$\bigg($}; 
+							\draw[thick,fill=yellow] (1,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=red] (5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+							\draw[thick,fill=red] (6.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+							\draw (8.5,0.5) node[anchor=east] {$\bigg)$}; 
+							\draw (8.5,0.5) node[anchor=mid] {$+$}; 
+						\end{scope} 
+						\begin{scope} [shift={(8.5,-0.5)}]
+							\draw (0,0.5) node[anchor=west] {$\bigg($}; 
+							\draw[thick,fill=red] (1,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $-x$}; 
+							\draw[thick,fill=red] (5,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $-x$}; 
+							\draw[thick,fill=yellow] (9,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (10.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (12,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw (14,0.5) node[anchor=east] {$\bigg)$}; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-2)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\begin{scope} [shift={(0.5,-0.5)}]
+							\draw[thick,fill=red] (0,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $-x$}; 
+							\draw[thick,fill=yellow] (4,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,gray,fill=lightgray] (7,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {}; 
+							\draw[thick,gray,fill=lightgray] (11,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {}; 
+							\draw[thick,gray,fill=lightgray] (12.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {}; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-3.5)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\draw (0,0) node[anchor=west] {$-x + 1$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<aside>
+			<p>
+				There was one pair of <m>x</m> tiles and two pairs of unit tiles that canceled out. This leaves one negative
+				<m>x</m> tile and one positive unit tile.
+			</p>
+		</aside>
+		<p>
+			Subtracting is similar to addition, except that we first need to swap the colors of the tile. This
+			corresponds to distributing the negative sign across the parentheses. 
+		</p>
+		<image xml:id="sec-pop-5-tile-subtraction" width="80%">
+			<latex-image>
+				\begin{tikzpicture}
+					\begin{scope} [scale=0.5, shift={(0,2)}]
+						\draw (0,0) node[anchor=west] {$(2x + 1) - (x - 2)$}; 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,0)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\begin{scope} [shift={(0,-0.5)}]
+							\draw (0,0.5) node[anchor=west] {$\bigg($}; 
+							\draw[thick,fill=yellow] (1,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (5,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (9,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw (11,0.5) node[anchor=east] {$\bigg)$}; 
+							\draw (11,0.5) node[anchor=mid] {$-$}; 
+						\end{scope} 
+						\begin{scope} [shift={(11,-0.5)}]
+							\draw (0,0.5) node[anchor=west] {$\bigg($}; 
+							\draw[thick,fill=yellow] (1,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=red] (5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+							\draw[thick,fill=red] (6.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+							\draw (8.5,0.5) node[anchor=east] {$\bigg)$}; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-2)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\begin{scope} [shift={(0,-0.5)}]
+							\draw (0,0.5) node[anchor=west] {$\bigg($}; 
+							\draw[thick,fill=yellow] (1,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (5,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (9,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw (11,0.5) node[anchor=east] {$\bigg)$}; 
+							\draw (11,0.5) node[anchor=mid] {$+$}; 
+						\end{scope} 
+						\begin{scope} [shift={(11,-0.5)}]
+							\draw (0,0.5) node[anchor=west] {$\bigg($}; 
+							\draw[thick,fill=red] (1,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $-x$}; 
+							\draw[thick,fill=yellow] (5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (6.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw (8.5,0.5) node[anchor=east] {$\bigg)$}; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-4)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\begin{scope} [shift={(0.5,-0.5)}]
+							\draw[thick,fill=yellow] (0,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (4,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (5.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (7,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,gray,fill=lightgray] (10,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {}; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-5.5)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\draw (0,0) node[anchor=west] {$x + 3$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<aside>
+			<p>
+				This is a tangible representation of "subtraction is addition of the opposite." 
+			</p>
+		</aside>
+		<p>
+			The distributive property can be thought of as having multiple bundles of the tiles in the parentheses. If the
+			distributive property is paired with subtraction, we create multiple copies first, then subtract by swapping the
+			colors. 
+		</p>
+		<image xml:id="sec-pop-5-tile-distributive" width="80%">
+			<latex-image>
+				\begin{tikzpicture}
+					\begin{scope} [scale=0.5, shift={(0,2)}]
+						\draw (0,0) node[anchor=west] {$(2x + 1) - 2(x - 2)$}; 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,0)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\begin{scope} [shift={(0,-0.5)}]
+							\draw (0,0.5) node[anchor=west] {$\bigg($}; 
+							\draw[thick,fill=yellow] (1,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (5,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (9,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw (11,0.5) node[anchor=east] {$\bigg)$}; 
+							\draw (11,0.5) node[anchor=mid] {$-$}; 
+						\end{scope} 
+						\begin{scope} [shift={(11,-0.5)}]
+							\draw (0,0.5) node[anchor=west] {$\,2\,\bigg($}; 
+							\draw[thick,fill=yellow] (1.5,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=red] (5.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+							\draw[thick,fill=red] (7,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+							\draw (9,0.5) node[anchor=east] {$\bigg)$}; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-2.5)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\begin{scope} [shift={(0,-0.5)}] \draw (0,0.5) node[anchor=west] {$\bigg($}; 
+							\draw[thick,fill=yellow] (1,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (5,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (9,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw (11,0.5) node[anchor=east] {$\bigg)$}; 
+							\draw (11,0.5) node[anchor=mid] {$-$}; 
+						\end{scope} 
+						\begin{scope} [shift={(11,-0.5)}]
+							\draw (0,0.5) node[anchor=west] {$\Bigg($}; 
+							\draw[thick,fill=yellow] (1,0.6) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=red] (5,0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+							\draw[thick,fill=red] (6.5,0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+							\draw[thick,fill=yellow] (1,-0.6) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=red] (5,-0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+							\draw[thick,fill=red] (6.5,-0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+							\draw (9,0.5) node[anchor=east] {$\Bigg)$}; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-5)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\begin{scope} [shift={(0,-0.5)}]
+							\draw (0,0.5) node[anchor=west] {$\bigg($}; 
+							\draw[thick,fill=yellow] (1,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (5,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (9,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw (11,0.5) node[anchor=east] {$\bigg)$}; 
+							\draw (11,0.5) node[anchor=mid] {$+$}; 
+						\end{scope} 
+						\begin{scope} [shift={(11,-0.5)}]
+							\draw (0,0.5) node[anchor=west] {$\Bigg($}; 
+							\draw[thick,fill=red] (1,0.6) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $-x$}; 
+							\draw[thick,fill=yellow] (5,0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (6.5,0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=red] (1,-0.6) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $-x$}; 
+							\draw[thick,fill=yellow] (5,-0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (6.5,-0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw (9,0.5) node[anchor=east] {$\Bigg)$}; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-7)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\begin{scope} [shift={(0.5,-0.5)}]
+							\draw[thick,fill=yellow] (0,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (1.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (3,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (4.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (6,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,gray,fill=lightgray] (9,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {}; 
+							\draw[thick,gray,fill=lightgray] (13,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {}; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-8.5)}]
+						\draw (0,0) node[anchor=east] {$\longleftrightarrow$}; 
+						\draw (0,0) node[anchor=west] {$5$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+	</subsection>
+	<subsection>
+			<title>Solving Equations</title>
+		<p>
+			The process of solving equations with algebra tiles focuses on the idea that the two quantities on either
+			side of the equation must be the same. On each side, we can use any of the simplification steps from before.
+			In addition to this, there are two other operations. We can add the same set of tiles to both sides, and we
+			can divide the blocks on each side into an equal number of groups. 
+		</p>
+		<p>
+			Here is an example of solving the equation <m>x + 1 = -x + 5</m>: 
+		</p>
+		<aside>
+			<p>
+				We completely removed the canceled pairs of tiles in the line after they appeared.
+			</p>
+		</aside>
+		<image xml:id="sec-pop-1-tiles-solving" width="100%">
+			<latex-image>
+				\begin{tikzpicture}[scale=1.5]
+					\begin{scope} [scale=0.5, shift={(0,1.5)}]
+						\draw (-0.5,0) node[anchor=east] {$x + 1$}; 
+						\draw (0,0) node[anchor=mid] {$=$}; 
+						\draw (0.5,0) node[anchor=west] {$-x + 5$}; 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,0)}]
+						\draw (0,0) node[anchor=mid] {$=$}; 
+						\begin{scope} [shift={(0,-0.5)}]
+							\draw[thick,fill=yellow] (-2.5,0) rectangle ++ (-3.5,1) ++ (1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (-1,0) rectangle ++ (-1,1) ++ (0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=red] (1,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $-x$}; 
+							\draw[thick,fill=yellow] (5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (6.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (8,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (9.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (11,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-2.5)}]
+						\draw (0,0) node[anchor=mid] {$=$}; 
+						\begin{scope} [shift={(0,-0.5)}]
+							\draw[thick,fill=yellow] (-2.5,0.6) rectangle ++ (-3.5,1) ++ (1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (-1,0.6) rectangle ++ (-1,1) ++ (0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=red] (1,0.6) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $-x$}; 
+							\draw[thick,fill=yellow] (5,0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (6.5,0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (8,0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (9.5,0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (11,0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (-2.5,-0.6) rectangle ++ (-3.5,1) ++ (1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=red] (-1,-0.6) rectangle ++ (-1,1) ++ (0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+							\draw[thick,fill=yellow] (1,-0.6) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=red] (5,-0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $-1$}; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-5.5)}]
+						\draw (0,0) node[anchor=mid] {$=$}; 
+						\begin{scope} [shift={(0,-0.5)}]
+							\draw[thick,fill=yellow] (-2.5,0.6) rectangle ++ (-3.5,1) ++ (1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (-2.5,-0.6) rectangle ++ (-3.5,1) ++ (1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (6.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (8,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (9.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (11,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,gray,fill=lightgray] (-1,0) rectangle ++ (-1,1) ++ (0.5,-0.5) node[anchor=center] {}; 
+							\draw[thick,gray,fill=lightgray] (1,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {}; 
+							\draw[thick,gray,fill=lightgray] (5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {}; 
+							\draw(13,0.5) node[anchor=west] { \begin{minipage} {2.5cm} Combine and cancel \end{minipage} }; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-8.5)}]
+						\draw (0,0) node[anchor=mid] {$=$}; 
+							\begin{scope} [shift={(0,-0.5)}]
+							\draw[thick,fill=yellow] (-1,0.6) rectangle ++ (-3.5,1) ++ (1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (-1,-0.6) rectangle ++ (-3.5,1) ++ (1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (1,0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (2.5,0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (1,-0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (2.5,-0.6) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw(13,0.5) node[anchor=west] { \begin{minipage} {2.5cm} Split into two equal groups \end{minipage} }; 
+						\end{scope} 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-11)}]
+						\draw (0,0) node[anchor=mid] {$=$}; 
+						\begin{scope} [shift={(0,-0.5)}] \draw[thick,fill=yellow] (-1,0) rectangle ++ (-3.5,1) ++ (1.75,-0.5) node[anchor=center] {\strut $x$}; 
+							\draw[thick,fill=yellow] (1,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw[thick,fill=yellow] (2.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut $1$}; 
+							\draw(13,0.5) node[anchor=west] { \begin{minipage} {2.5cm} Isolate one group \end{minipage} }; 
+						\end{scope} 
+						\end{scope} 
+						\begin{scope} [scale=0.5, shift={(0,-12.5)}]
+							\draw (-0.5,0) node[anchor=east] {$x$}; 
+							\draw (0,0) node[anchor=mid] {$=$}; 
+							\draw (0.5,0) node[anchor=west] {$2$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<aside>
+			<p>
+				We'll take a closer look at the connection between division and making groups of objects in a later section. 
+			</p>
+		</aside>
+		<p>
+			This process directly mirrors the algebraic steps involved in solving equations. You should be able to
+			recognize that adding tiles is either addition or subtraction of algebraic expressions (depending on whether
+			positive or negative tiles are added) and the grouping step is related to division. 
+		</p>
+	</subsection>
+	<subsection>
+		<title>Other Uses of Algebra Tiles</title>
+		
+		<p>
+			These are not the only ideas that algebra tiles can represent. In this section, we briefly mentioned how
+			algebra tiles can be used for representing multiplication. The idea here is to think of the tiles
+			representing the length and width of a rectangle, and then additional tiles can be used to represent the
+			result as an area. We'll later see how tiles can be used to help factor polynomials. 
+		</p>
+		<aside>
+			<p>
+				This diagram doesn't even take into account the ways that we can use negative versions of these tiles to
+				write even more polynomial products. However, at a certain point you start to reach diminishing returns
+				on the algebra tiles, and the actual algebra with symbols becomes a better option. 
+			</p>
+		</aside>
+		<image xml:id="sec-pop-5-tile-product" width="70%">
+			<latex-image>
+				\begin{tikzpicture}
+					\begin{scope} [scale=0.5, shift={(0,1)}]
+						\draw[thick,fill=yellow!50!white] (0,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+						\draw[thick,fill=blue!25!white] (3.5,0) rectangle ++ (2.5,1) ++ (-1.25,-0.5) node[anchor=center] {\strut $y$}; 
+						\draw[thick,fill=blue!25!white] (6,0) rectangle ++ (2.5,1) ++ (-1.25,-0.5) node[anchor=center] {\strut $y$}; 
+						\draw[thick,fill=orange] (8.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut \small $1$}; 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(-1,0)}]
+						\draw[thick,fill=yellow!50!white] (0,0) rectangle ++ (-1,-3.5) ++ (0.5,1.75) node[anchor=center] {\strut $x$}; 
+						\draw[thick,fill=blue!25!white] (0,-3.5) rectangle ++ (-1,-2.5) ++ (0.5,1.25) node[anchor=center] {\strut $y$}; 
+						\draw[thick,fill=orange] (0,-6) rectangle ++ (-1,-1) ++ (0.5,0.5) node[anchor=center] {\strut \small $1$}; 
+						\draw[thick,fill=orange] (0,-7) rectangle ++ (-1,-1) ++ (0.5,0.5) node[anchor=center] {\strut \small $1$}; 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-3.5)}]
+						\draw[thick,fill=yellow] (0,0) rectangle ++ (3.5,3.5) ++ (-1.75,-1.75) node[anchor=center] {\strut $x^2$}; 
+						\draw[thick,fill=green!50!white] (3.5,0) rectangle ++ (2.5,3.5) ++ (-1.25,-1.75) node[anchor=center] {\strut $xy$}; 
+						\draw[thick,fill=green!50!white] (6,0) rectangle ++ (2.5,3.5) ++ (-1.25,-1.75) node[anchor=center] {\strut $xy$}; 
+						\draw[thick,fill=yellow!50!white] (8.5,0) rectangle ++ (1,3.5) ++ (-0.5,-1.75) node[anchor=center] {\strut \small $x$}; 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-6)}]
+						\draw[thick,fill=green!50!white] (0,0) rectangle ++ (3.5,2.5) ++ (-1.75,-1.25) node[anchor=center] {\strut $xy$}; 
+						\draw[thick,fill=blue!50!white] (3.5,0) rectangle ++ (2.5,2.5) ++ (-1.25,-1.25) node[anchor=center] {\strut $y^2$}; 
+						\draw[thick,fill=blue!50!white] (6,0) rectangle ++ (2.5,2.5) ++ (-1.25,-1.25) node[anchor=center] {\strut $y^2$}; 
+						\draw[thick,fill=blue!25!white] (8.5,0) rectangle ++ (1,2.5) ++ (-0.5,-1.25) node[anchor=center] {\strut $y$}; 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-7)}]
+						\draw[thick,fill=yellow!50!white] (0,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+						\draw[thick,fill=blue!25!white] (3.5,0) rectangle ++ (2.5,1) ++ (-1.25,-0.5) node[anchor=center] {\strut $y$}; 
+						\draw[thick,fill=blue!25!white] (6,0) rectangle ++ (2.5,1) ++ (-1.25,-0.5) node[anchor=center] {\strut $y$}; 
+						\draw[thick,fill=orange] (8.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut \small $1$}; 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(0,-8)}]
+						\draw[thick,fill=yellow!50!white] (0,0) rectangle ++ (3.5,1) ++ (-1.75,-0.5) node[anchor=center] {\strut $x$}; 
+						\draw[thick,fill=blue!25!white] (3.5,0) rectangle ++ (2.5,1) ++ (-1.25,-0.5) node[anchor=center] {\strut $y$}; 
+						\draw[thick,fill=blue!25!white] (6,0) rectangle ++ (2.5,1) ++ (-1.25,-0.5) node[anchor=center] {\strut $y$}; 
+						\draw[thick,fill=orange] (8.5,0) rectangle ++ (1,1) ++ (-0.5,-0.5) node[anchor=center] {\strut \small $1$}; 
+					\end{scope} 
+					\begin{scope} [scale=0.5, shift={(4.5,-9)}]
+						\draw (0,0) node[anchor=north] {$(x+2y+1)(x+y+2) = x^2 + 3xy + y^2 + 3x + 5y + 2$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+	</subsection>
+</section>

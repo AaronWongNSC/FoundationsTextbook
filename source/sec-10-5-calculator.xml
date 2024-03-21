@@ -1,0 +1,121 @@
+<section xml:id="sec-rme-5-deeper">
+	<title>Going Deeper: Your Calculator and You</title>
+	<p>
+		Teachers used to say that you wouldn't be carrying around a calculator in your pocket all the time. They were
+		wrong. We do this all the time. But it's surprising that even though we have these calculators, most people
+		can't actually use them properly. Most people can use them for simple arithmetic, but will make errors for even
+		slightly complex situations. 
+	</p>
+	<p>
+		From what I can tell, the basic challenge is that calculators behave in a way that doesn't always match up with
+		how students think the calculator should behave. Here is an example:
+		<me>
+			\frac{2 + 6}{3 + 1}
+		</me>
+		When students read this in their minds, they see it as plus divided by plus and proceed to press the following
+		buttons: 
+	</p>
+	<image xml:id="sec-rme-5-calculation-1" width="50%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (0,0) node[anchor=center] {\strut \texttt{$2$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+				\draw (1,0) node[anchor=center] {\strut \texttt{$+$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+				\draw (2,0) node[anchor=center] {\strut \texttt{$6$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+				\draw (3,0) node[anchor=center] {\strut \texttt{$\div$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+				\draw (4,0) node[anchor=center] {\strut \texttt{$3$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+				\draw (5,0) node[anchor=center] {\strut \texttt{$+$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+				\draw (6,0) node[anchor=center] {\strut \texttt{$1$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+				\draw (7,0) node[anchor=center] {\strut \texttt{$=$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			Most modern calculators will give the wrong answer of 5. But some will give a wrong answer of 3.33333333.
+			Those calculators are evaluating everything step-by-step and not even trying to manage the order of
+			operations for you. 
+		</p>
+	</aside>
+	<p>
+		If you do the calculation by hand, you can see that the result will be 2. But the calculator will give the 
+		answer 5. Most students won't even recognize that there's something wrong because they have learned to trust
+		their calculators. The problem here is exactly the same as the problem with the <m>x^2 + 3/x + 2</m> example
+		from earlier in this section. The calculator is trying to apply the order of operations based on what you've
+		entered, but that results in the calculation of something other than what you had intended. 
+	</p>
+	<p>
+		The problems only get worse as you get further along in math. There are other situations where different
+		calculators are programmed to interpret expressions differently. A common test for calculators is to see how it
+		handles implied multiplication. Consider the following key presses:
+	</p>
+	<image xml:id="sec-rme-5-calculation-2" width="40%">
+		<latex-image>
+			\begin{tikzpicture}
+			\draw (0,0) node[anchor=center] {\strut \texttt{$1$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+			\draw (1,0) node[anchor=center] {\strut \texttt{$\div$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+			\draw (2,0) node[anchor=center] {\strut \texttt{$2$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+			\draw (3,0) node[anchor=center] {\strut \texttt{$\sqrt{\,\,}$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+			\draw (4,0) node[anchor=center] {\strut \texttt{$2$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+			\draw (5,0) node[anchor=center] {\strut \texttt{$=$}} ++ (-0.3,-0.3) rectangle ++ (0.6,0.6); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			The calculators that give are calculators that evaluate the square root when you push the button, as opposed
+			to letting you type out the full expression. There's actually something going on with the memory when you
+			press the square root button. Basically, the second 2 is overwriting the <m>\sqrt{2}</m> calculation, so
+			that you end up with just <m>1 \div 2</m>. 
+		</p>
+	</aside>
+	<p>
+		Some calculators will interpret this as <m>\frac{1}{2\sqrt{2}}</m> (giving 0.5356), others will treat this as
+		<m>\frac{1}{2} \sqrt{2}</m> (giving 0.7071), and still there's a whole other set of calculators that might just
+		give you the number 0.5.
+	</p>
+	<p>
+		Your instinct may be to ask the following question: "Which one is right?" And the reason you might do this is
+		because you're used to there always being a right answer. But that's simply not the case. Just as with the math
+		meme in <xref ref="sec-rme-4-closing" />, this isn't a problem of right and wrong. It's a problem of
+		communication. Did the buttons communicate the right instruction to the calculator? In this case, you don't know
+		what the intention was, and neither does the calculator. It's just blindly following its instructions. 
+	</p>
+	<p>
+		Fortunately, most modern calculators give you a way around this problem. They give you parentheses so that you
+		can be explicit with the calculator what you want it to do. And this is a habit that you will want to develop
+		for any time you use a computational device to perform a calculation. It also doesn't hurt to be explicit about
+		multiplication calculations. 
+	</p>
+	<p>
+		The problems continue to get worse when you start using functions. Some calculators evaluate the function when
+		you press the button, and others wait for you to type in your full expression before it decides what it wants to
+		calculate. And depending on which type of calculator you have, you'll need to do things in different orders to
+		get the result that you want. If you didn't read the margin comment about the square root function, you should
+		read that now. 
+	</p>
+	<p>
+		When you get into trigonometry, you will also need to know whether your calculator is in degree mode or radian
+		mode. And failing to switch to the appropriate mode will lead to even more errors. Basically, you're picking
+		between different units for numbers. It's like if someone were to tell you that the length of an object is 3. On
+		its own, you don't know what units of measurement they used, and so it's impossible to know if they meant 3 
+		inches or 3 miles. 
+	</p>
+	<p>
+		Ultimately, it's impossible to give clear guidance for how your specific calculator will behave, because there's
+		so much variation between them. You just need to know how to use it right. There are a couple techniques you can
+		use. The first was mentioned earlier, which is to use parentheses to explicitly tell the calculator the order
+		you want it to calculate everything. Another technique is to break the calculation down into smaller steps, so
+		that you're only putting in one calculation at a time, and then writing down that number on your paper before
+		going to the next calculation. This is especially helpful if you have a calculator that evaluates functions
+		immediately. This saves you from the mental gymnastics of trying to plan ahead to make sure that you've worked
+		out the correct order for typing everything into your calculator. 
+	</p>
+	<p>
+		In some ways, even if your calculator has parentheses it's preferable for you to do it step by step and write
+		out the results of each set of calculations. The reason is that this is easier to work with when you check your
+		work. For longer expressions, you can end up with four or five sets of parentheses, and it can be a lot of work
+		to make sure they're all correct. It also helps you to mentally think through the steps of the calculation to
+		make sure that you really understand what you're doing. But the precise bounds on when to switch is going to
+		depend on the amount of practice you have with your calculator.
+	</p>
+</section>

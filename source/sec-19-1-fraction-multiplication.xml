@@ -1,0 +1,505 @@
+<section xml:id="sec-fm-1-main">
+	<title>Multiply Straight Across</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Interpret multiplication of fractions as a two step process: Counting the number of wedges and
+					determining the size of the wedges.
+				</p>
+			</li>
+			<li>
+				<p>
+					Multiply fractions involving both numbers and variables.
+				</p>
+			</li>
+			<li>
+				<p>
+					Cancel terms in fraction multiplication problems before multiplying.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		Many students have learned that to multiply fractions, you must "multiply straight across." Not as many students
+		have stopped to ask the question of why that's the right way to multiply fractions. In this section, we're going
+		to explore this idea more deeply to bring some intuition to that manipulation. 
+	</p>
+	<p>
+		We will start by looking at a simple diagram to represent multiplication with integers. One concept we use for
+		multiplication is by having multiple groups with the same number of elements.
+	</p>
+	<aside>
+		<p>
+			Have you noticed the pattern? To understand an idea, we start with simple examples and often draw diagrams. 
+		</p>
+	</aside>
+	<image xml:id="sec-fm-1-basic-mult" width="80%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.5] 
+				\begin{scope} [shift={(0,3.5)}]
+					\draw (0,0) node[anchor=east] {$4$}; 
+					\draw[-stealth] (0,0) -- (1,0); 
+					\begin{scope} [shift={(2,-0.5)}]
+						\draw[fill=lightgray] (0,0) rectangle (4,1); 
+						\draw (1,0) -- ++ (0,1); 
+						\draw (2,0) -- ++ (0,1); 
+						\draw (3,0) -- ++ (0,1); 
+						\draw (2,-0.5) node[anchor=north] {$4$ objects}; 
+					\end{scope} 
+				\end{scope}
+				\draw (0,0) node[anchor=east] {$3 \cdot 4$}; 
+				\draw[-stealth] (0,0) -- (1,0); 
+				\begin{scope} [shift={(2,-0.5)}]
+					\draw[fill=lightgray] (0,0) rectangle (4,1); 
+					\draw (1,0) -- ++ (0,1); 
+					\draw (2,0) -- ++ (0,1); 
+					\draw (3,0) -- ++ (0,1); 
+					\draw[fill=lightgray] (4.5,0) rectangle ++ (4,1); 
+					\draw (5.5,0) -- ++ (0,1); 
+					\draw (6.5,0) -- ++ (0,1); 
+					\draw (7.5,0) -- ++ (0,1); 
+					\draw[fill=lightgray] (9,0) rectangle ++ (4,1); 
+					\draw (10,0) -- ++ (0,1); 
+					\draw (11,0) -- ++ (0,1); 
+					\draw (12,0) -- ++ (0,1); 
+					\draw (6.5,-0.5) node[anchor=north] {$3$ groups of $4$ objects}; 
+				\end{scope}
+				\draw[-stealth] (15.5,0) -- ++ (1,0); 
+				\draw (16.5,0) node[anchor=west] {$3 \cdot 4 = 12$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		The same idea applies to fractions using the wedges from looking at parts of a whole.
+	</p>
+	<aside>
+		<p>
+			You could rewrite as <m>2 \frac{1}{4}</m>, but you should really just get used to seeing improper fractions. 
+		</p>
+	</aside>
+	<image xml:id="sec-fm-1-basic-mult-fractions" width="80%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.4]
+				\draw (0,0) node[anchor=east] {\strut $\frac{3}{4}$}; 
+				\draw[-stealth] (0,0) -- (1,0); 
+				\begin{scope} [shift={(3,-0.5)}]
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+					\draw[fill=lightgray] (1.5,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+					\draw[fill=lightgray] (3,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+					\draw (2,-0.5) node[anchor=north] {\strut $3$ wedges of size $\frac{1}{4}$}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-4.5)}]
+					\draw (0,0) node[anchor=east] {\strut $3 \cdot \frac{3}{4}$}; 
+					\draw[-stealth] (0,0) -- (1,0); 
+					\begin{scope} [shift={(1.5,-0.5)}]
+						\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+						\draw[fill=lightgray] (1.5,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+						\draw[fill=lightgray] (3,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+						\draw[fill=lightgray] (5.5,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+						\draw[fill=lightgray] (7,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+						\draw[fill=lightgray] (8.5,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+						\draw[fill=lightgray] (11,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+						\draw[fill=lightgray] (12.5,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+						\draw[fill=lightgray] (14,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+						\draw (7.5,-0.5) node[anchor=north] {\strut $3$ groups of $3$ wedges of size $\frac{1}{4}$}; 
+					\end{scope}
+					\draw[-stealth] (17,0) -- ++ (1,0); 
+					\begin{scope} [shift={(19.5,0)}]
+						\draw[fill=lightgray] (0,0) circle (1); 
+						\draw (0,0) -- (0:1); 
+						\draw (0,0) -- (90:1); 
+						\draw (0,0) -- (180:1); 
+						\draw (0,0) -- (270:1); 
+						\draw[fill=lightgray] (2.5,0) circle (1); 
+						\draw (2.5,0) -- ++ (0:1); 
+						\draw (2.5,0) -- ++ (90:1); 
+						\draw (2.5,0) -- ++ (180:1); 
+						\draw (2.5,0) -- ++ (270:1); 
+						\draw[fill=lightgray] (5,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+						\draw (5,0) ++ (90:1) arc (90:360:1); 
+						\draw (5,0) -- ++ (180:1); 
+						\draw (5,0) -- ++ (270:1); 
+						\draw (2.5,-1.5) node[anchor=north] {\strut $3 \cdot \frac{3}{4} = \frac{9}{4}$}; 
+					\end{scope}
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		If we think about the structure of a fraction, the numerator represents the number of pieces that we have. And
+		so it would make sense that if we have groups of wedges we would be multiplying the numerator by that quantity. 
+	</p>
+	<p>
+		So we have a clear picture of what it looks like to have multiple groupings of fractional quantities. But what
+		about a fractional grouping? We will once again work from diagrams.
+	</p>
+	<image xml:id="sec-fm-1-fraction-mult-parts-of-whole" width="60%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.4] 
+				\begin{scope}
+					\draw (0,0) node[anchor=east] {$\frac{3}{4}$ of $1$ object}; 
+					\draw[-stealth] (0,0) -- ++ (1,0); 
+					\draw[fill=lightgray] (5,0) -- ++ (1,0) arc (0:270:1) -- cycle; 
+					\draw (5,0) ++ (270:1) arc (270:360:1); 
+					\draw (5,0) -- ++ (90:1); 
+					\draw (5,0) -- ++ (180:1); 
+					\draw[-stealth] (9,0) -- ++ (1,0); 
+					\draw (10,0) node[anchor=west] {$\frac{3}{4} \cdot 1 = \frac{3}{4}$}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-3)}]
+					\draw (0,0) node[anchor=east] {$\frac{3}{4}$ of $3$ objects}; 
+					\draw[-stealth] (0,0) -- ++ (1,0); 
+					\draw[fill=lightgray] (2.5,0) -- ++ (1,0) arc (0:270:1) -- cycle; 
+					\draw (2.5,0) ++ (270:1) arc (270:360:1); 
+					\draw (2.5,0) -- ++ (90:1); 
+					\draw (2.5,0) -- ++ (180:1); 
+					\draw[fill=lightgray] (5,0) -- ++ (1,0) arc (0:270:1) -- cycle; 
+					\draw (5,0) ++ (270:1) arc (270:360:1); 
+					\draw (5,0) -- ++ (90:1); 
+					\draw (5,0) -- ++ (180:1); 
+					\draw[fill=lightgray] (7.5,0) -- ++ (1,0) arc (0:270:1) -- cycle; 
+					\draw (7.5,0) ++ (270:1) arc (270:360:1); 
+					\draw (7.5,0) -- ++ (90:1); 
+					\draw (7.5,0) -- ++ (180:1); 
+					\draw[-stealth] (9,0) -- ++ (1,0); 
+					\draw (10,0) node[anchor=west] {$\frac{3}{4} \cdot 3 = \frac{9}{4}$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			See <xref ref="def-comm-assoc-prop-mult"/>. 
+		</p>
+	</aside>
+	<p>
+		It shouldn't be a surprise that we ended up with the same result since multiplication is commutative. We can
+		even visually see that the two pictures of <m>\frac{9}{4}</m> have the same number of shaded wedges (just in a different
+		arrangement). But this is an important step because it then gives us access to understand multiplying a fraction
+		by a fraction. 
+	</p>
+	<image xml:id="sec-fm-1-fraction-mult" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5]
+				\draw (0,0) node[anchor=east] {\strut $\frac{3}{4}$}; 
+				\draw[-stealth] (0,0) -- (1,0); 
+				\begin{scope} [shift={(3.5,-0.5)}]
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+					\draw[fill=lightgray] (1.5,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+					\draw[fill=lightgray] (3,0) -- ++ (1,0) arc (0:90:1) -- cycle; 
+					\draw (2,-0.5) node[anchor=north] {\strut $3$ wedges of size $\frac{1}{4}$}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,-4.5)}]
+					\draw (0,0) node[anchor=east] {\strut $\frac{2}{3} \cdot \frac{3}{4}$}; 
+					\draw[-stealth] (0,0) -- (1,0); 
+					\begin{scope} [shift={(3.5,-0.5)}] \draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:60:1) -- cycle; 
+						\draw (0,0) ++ (60:1) arc (60:90:1) -- (0,0); 
+						\draw (0,0) -- ++ (30:1); 
+						\draw[fill=lightgray] (1.5,0) -- ++ (1,0) arc (0:60:1) -- cycle; 
+						\draw (1.5,0) ++ (60:1) arc (60:90:1) -- (1.5,0); 
+						\draw (1.5,0) -- ++ (30:1); 
+						\draw[fill=lightgray] (3,0) -- ++ (1,0) arc (0:60:1) -- cycle; 
+						\draw (3,0) ++ (60:1) arc (60:90:1) -- (3,0); 
+						\draw (3,0) -- ++ (30:1); 
+						\draw (2,-1) node[anchor=north] {\strut $\frac{2}{3}$ of $3$ wedges of size $\frac{1}{4}$}; 
+					\end{scope}
+					\draw[-stealth] (10,0) -- ++ (1,0); 
+					\begin{scope} [shift={(13,-0.5)}]
+						\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:60:1) -- cycle; 
+						\draw (0,0) -- ++ (30:1); 
+						\draw[fill=lightgray] (1.5,0) -- ++ (1,0) arc (0:60:1) -- cycle; 
+						\draw (1.5,0) -- ++ (30:1); 
+						\draw[fill=lightgray] (3,0) -- ++ (1,0) arc (0:60:1) -- cycle; 
+						\draw (3,0) -- ++ (30:1); 
+						\draw (2,-1) node[anchor=north] {\strut $6$ wedges of size $\frac{1}{12}$}; 
+					\end{scope}
+					\draw[-stealth] (19,0) -- ++ (1,0); 
+					\begin{scope} [shift={(22.5,0)}]
+						\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:180:1) -- cycle; 
+						\draw (0,0) ++ (180:1) arc (180:360:1); 
+						\draw (0,0) -- ++ (30:1); 
+						\draw (0,0) -- ++ (60:1); 
+						\draw (0,0) -- ++ (90:1); 
+						\draw (0,0) -- ++ (120:1); 
+						\draw (0,0) -- ++ (150:1); 
+						\draw (0,0) -- ++ (210:1); 
+						\draw (0,0) -- ++ (240:1); 
+						\draw (0,0) -- ++ (270:1); 
+						\draw (0,0) -- ++ (300:1); 
+						\draw (0,0) -- ++ (330:1); 
+						\draw (0,-1.5) node[anchor=north] {$\frac{6}{12} = \frac{1}{2}$}; 
+					\end{scope} 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		The last set of images gives us the big insight that we need to understand fraction multiplication. We went from
+		<m>\frac{2}{3}</m> of 3 wedges of size <m>\frac{1}{4}</m> to 6 wedges of size <m>\frac{1}{12}</m>. Let's take a
+		look at each of these parts separately. 
+		<ul>
+			<li>
+				<p>
+					6 wedges: We started with 3 wedges, and each of these turned into 2 (smaller) wedges. So we have
+					that the 6 comes from 3 groups of 2 wedges. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Wedges of size <m>\frac{1}{12}</m>: The starting wedge size was <m>\frac{1}{4}</m>, which
+					corresponds to cutting the whole into 4 equal pieces. Each of these pieces was cut 3 into pieces,
+					which gives a total of 12 pieces for the whole. This is why that the wedges are size
+					<m>\frac{1}{12}</m>.
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<image xml:id="sec-fm-1-margin-comment" width="100%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.4]
+					\draw (0,0) circle (1); 
+					\draw (0,0) -- ++ (0:1); 
+					\draw (0,0) -- ++ (90:1); 
+					\draw (0,0) -- ++ (180:1); 
+					\draw (0,0) -- ++ (270:1); 
+					\draw[-stealth] (1.5,0) -- (2.5,0); 
+					\draw (4,0) circle (1); 
+					\draw (4,0) -- ++ (0:1); 
+					\draw (4,0) -- ++ (30:1); 
+					\draw (4,0) -- ++ (60:1); 
+					\draw (4,0) -- ++ (90:1); 
+					\draw (4,0) -- ++ (120:1); 
+					\draw (4,0) -- ++ (150:1); 
+					\draw (4,0) -- ++ (180:1); 
+					\draw (4,0) -- ++ (210:1); 
+					\draw (4,0) -- ++ (240:1); 
+					\draw (4,0) -- ++ (270:1); 
+					\draw (4,0) -- ++ (300:1); 
+					\draw (4,0) -- ++ (330:1); 
+					\draw (2,-1.5) node[anchor=north] {Cut each wedge into $3$ pieces.}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+	</aside>
+	<p>
+		This observation shows us that fraction multiplication is essentially a two-step process. We multiply the
+		numerators together to get an accurate count of the number of wedges, and we multiply the denominators together
+		to get the correct wedge size. 
+	</p>
+	<activity xml:id="sec-fm-1-ac1-multiplication-by-diagram">
+		<title>Fraction Multiplication Using a Diagram</title>
+		<p>
+			Now that we have the conceptual framework in place, we can understand the why the phrase "multiply straight
+			across" for fraction multiplication actually works. For a fraction, the numerator represents the number of
+			wedges and the denominator represents the size of the wedges. When we multiply the numerators, we're
+			counting for the total number of wedges (a number of groups of a certain size). When we multiply the
+			denominators, we're establishing the size of the wedges (based on parts of a part of a whole). 
+		</p>
+		<aside>
+			<p>
+				As you draw the diagrams, make sure to think through the meaning. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-fm-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Draw a diagram to represent the product <m>\frac{1}{2} \cdot \frac{3}{4}</m>.
+		</p>
+		<solution>
+			<image xml:id="sec-fm-1-ti1-solution" width="90%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.6] 
+						\begin{scope} [shift={(0,-4.5)}]
+							\draw (0,0) node[anchor=east] {\strut $\frac{1}{2} \cdot \frac{3}{4}$}; 
+							\draw[-stealth] (0,0) -- (1,0); 
+							\begin{scope} [shift={(3.5,-0.5)}]
+								\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:45:1) -- cycle; 
+								\draw (0,0) ++ (45:1) arc (45:90:1) -- (0,0); 
+								\draw (0,0) -- ++ (45:1); 
+								\draw[fill=lightgray] (1.5,0) -- ++ (1,0) arc (0:45:1) -- cycle; 
+								\draw (1.5,0) ++ (45:1) arc (45:90:1) -- (1.5,0); 
+								\draw (1.5,0) -- ++ (45:1); 
+								\draw[fill=lightgray] (3,0) -- ++ (1,0) arc (0:45:1) -- cycle; 
+								\draw (3,0) ++ (45:1) arc (45:90:1) -- (3,0); 
+								\draw (3,0) -- ++ (45:1); 
+								\draw (2,-1) node[anchor=north] {\strut $\frac{1}{2}$ of $3$ wedges of size $\frac{1}{4}$}; 
+							\end{scope}
+							\draw[-stealth] (10,0) -- ++ (1,0); 
+							\begin{scope} [shift={(13,-0.5)}]
+								\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:45:1) -- cycle; 
+								\draw (0,0) -- ++ (45:1); 
+								\draw[fill=lightgray] (1.5,0) -- ++ (1,0) arc (0:45:1) -- cycle; 
+								\draw (1.5,0) -- ++ (45:1); 
+								\draw[fill=lightgray] (3,0) -- ++ (1,0) arc (0:45:1) -- cycle; 
+								\draw (3,0) -- ++ (45:1); 
+								\draw (2,-1) node[anchor=north] {\strut $3$ wedges of size $\frac{1}{8}$}; 
+							\end{scope}
+							\draw[-stealth] (19,0) -- ++ (1,0); 
+							\begin{scope} [shift={(22.5,0)}]
+								\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:135:1) -- cycle; 
+								\draw (0,0) ++ (135:1) arc (135:360:1); 
+								\draw (0,0) -- ++ (45:1); 
+								\draw (0,0) -- ++ (90:1); 
+								\draw (0,0) -- ++ (180:1); 
+								\draw (0,0) -- ++ (225:1); 
+								\draw (0,0) -- ++ (270:1); 
+								\draw (0,0) -- ++ (315:1); 
+								\draw (0,-1.5) node[anchor=north] {$\frac{3}{8}$}; 
+							\end{scope} 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<aside>
+		<p>
+			Can you think of other examples? 
+		</p>
+	</aside>
+	<p>
+		The practice of multiplying fractions looks nothing like the concept. This is not an uncommon situation in life.
+		Most adults know how to drive a car, but very few of them can actually explain the processes involved between
+		pressing the gas pedal and the car moving. In this analogy, we've just finished describing how the engine works,
+		and now we're going to just focus on driving the car. 
+	</p>
+	<p>
+		The "rule" of multiplying straight across is expressed using algebraic symbols in the following manner. 
+	</p>
+    <theorem xml:id="thm-fraction-product">
+        <title>The Product of Fractions</title>
+        <idx><h>fraction</h> <h>product</h></idx>
+        
+        <statement>
+            <p>
+				The <term>product</term> of the fractions <m>\frac{a}{b}</m> and <m>\frac{c}{d}</m> is guiven by the
+				following formula.
+				<me>
+					\frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd}
+				</me>
+            </p>
+        </statement>
+    </theorem>
+
+	<p>
+		The idea of multiplying straight across applies regardless of whether we're working with numerical fractions or
+		fractions involving variables. 
+	</p>
+	<activity xml:id="sec-fm-1-ac2-fraction-multiplication">
+		<title>Fraction Multiplication</title>
+		<aside>
+			<p>
+				This is one of the few times in this book where you're just plugging things into a formula. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-fm-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>\frac{2}{5} \cdot \frac{6}{7}</m> and <m>\frac{3x}{4} \cdot \frac{7x}{2}</m>. 
+		</p>
+		<solution>
+			<image xml:id="sec-fm-1-ti2-solution">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {
+							$ \begin{aligned}
+								\frac{2}{5} \cdot \frac{6}{7} \amp = \frac{2 \cdot 6}{5 \cdot 7} \\
+								\amp = \frac{12}{35}
+							\end{aligned} $}; 
+						\draw (5,0) node[anchor=north] {
+							$ \begin{aligned}
+							\frac{3x}{4} \cdot \frac{7x}{2} \amp = \frac{3x \cdot 7x}{4 \cdot 2} \\
+							\amp = \frac{21x^2}{8}
+						\end{aligned} $}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<activity xml:id="sec-fm-1-ac3-reduce-before-multiplying">
+		<title>Reducing Before Multiplying Fractions</title>
+		<aside>
+			<p>
+				This is similar to the situation on the last worksheet for fraction addition and subtraction. 
+			</p>
+		</aside>
+		<p>
+			In some situations, you will find that multiplying straight across will result in very large numbers.
+			<me>
+				\frac{32}{21} \cdot \frac{35}{24} = \frac{1120}{504}
+			</me>
+			It turns out that by using a little foresight, large fractions can sometimes be avoided by reducing before
+			multiplying. The idea is the same as reducing a fraction. We are going to look for factors that appear in
+			the product for both the numerator and the denominator. This requires you to identify common factors between
+			the terms in the numerator and the terms in the denominator. 
+		</p>
+		<p>
+			<me>
+				\begin{aligned}
+					\frac{32}{21} \cdot \frac{35}{24}
+					\amp = \frac{4 \cdot 8}{3 \cdot 7} \cdot \frac{5 \cdot 7}{3 \cdot 8} \amp \eqnspacer \amp \text{Identify common factors} \\
+					\amp = \frac{4 \cdot \cancel{8}}{3 \cdot \cancel{7}} \cdot \frac{5 \cdot \cancel{7}}{3 \cdot \cancel{8}} \amp \amp \text{Reduce} \\
+					\amp = \frac{4}{3} \cdot \frac{5}{3} \\
+					\amp = \frac{20}{9} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			<alert xml:id="sec-fm-1-ac3-ti">Try it!</alert>
+			</p>
+		<p>
+			Calculate <m>\frac{12}{25} \cdot \frac{40}{9}</m> by reducing before multiplying.
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						\frac{12}{25} \cdot \frac{40}{9} \amp = \frac{4 \cdot 3}{5 \cdot 5} \cdot \frac{8 \cdot 5}{3 \cdot 3} \amp \eqnspacer \amp \text{Identify common factors} \\
+						\amp = \frac{4 \cdot \cancel{3}}{5 \cdot \cancel{5}} \cdot \frac{8 \cdot \cancel{5}}{3 \cdot \cancel{3}} \amp \amp \text{Reduce} \\
+						\amp = \frac{4}{5} \cdot \frac{8}{3} \\
+						\amp = \frac{32}{15} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-fm-1-ac4-reduce-before-multiplying-variables">
+		<title>Reducing Before Multiplying Fractions with Variables</title>
+		<p>
+			The exact same idea can be applied to fractions with variables. 
+		</p>
+		<p>
+			<me>
+				\begin{aligned}
+					\frac{4x}{9y^3} \cdot \frac{15y^2}{2x^4}
+					\amp = \frac{2 \cdot 2x}{3y \cdot 3y^2} \cdot \frac{5 \cdot 3y^2}{x^3 \cdot 2x} \amp \eqnspacer \amp \text{Identify common factors} \\
+					\amp = \frac{2 \cdot \cancel{2x}}{3y \cdot \cancel{3y^2}} \cdot \frac{5 \cdot \cancel{3y^2}}{x^3 \cdot \cancel{2x}} \amp \amp \text{Reduce} \\
+					\amp = \frac{2}{3y} \cdot \frac{5}{x^3} \\
+					\amp = \frac{10}{3 x^3 y} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			<alert xml:id="sec-fm-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>\frac{6t}{5} \cdot \frac{8}{3t^3}</m> by reducing before multiplying.
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						\frac{6t}{5} \cdot \frac{8}{3t^3} \amp = \frac{2 \cdot 3t}{5} \cdot \frac{8}{t^2 \cdot 3t} \amp \eqnspacer \amp \text{Identify common factors} \\
+						\amp = \frac{2 \cdot \cancel{3t}}{5} \cdot \frac{8}{t^2 \cdot \cancel{3t}} \amp \amp \text{Reduce} \\
+						\amp = \frac{2}{5} \cdot \frac{8}{t^2} \\
+						\amp = \frac{16}{5t^2} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+</section>

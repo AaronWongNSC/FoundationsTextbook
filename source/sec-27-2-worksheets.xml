@@ -1,0 +1,311 @@
+<section xml:id="sec-nonl-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/27-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-nonl-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Calculate <m>-3 + 5</m> using a number line. Draw all the points and count out the steps. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>3 - 8</m> using a number line. Draw all the points and count out the steps. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-3 - 4</m> using a number line. Draw all the points and count out the steps. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Without performing the calculation, explain why <m>387 - 749</m> will result in a negative number. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Without performing the calculation, explain why <m>-178 - 455</m> will result in a negative number. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-nonl-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Calculate <m>19 - 45</m> using a number line. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-28 - 46</m> using a number line. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-15 + 73</m> using a number line. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Practice your mental arithmetic by performing the following calculations without drawing a number line
+				(though you may certainly visualize one).
+				<me>
+					\begin{aligned}
+						33 - 57 \amp = \\
+						-38 + 19 \amp = \\
+						-32 - 29 \amp = \\
+						-42 + 70 \amp = \\
+						-43 + 37 \amp = \\
+						72 - 34 \amp = \\
+						38 - 14 \amp = \\
+						-52 + 31 \amp = \\
+						-22 + 49 \amp = \\
+						-18 - 35 \amp = \\
+						28 - 63 \amp = \\
+						-24 + 15 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-nonl-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Calculate <m>159 - 217</m> using a number line. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-228 - 146</m> using a number line. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>-215 + 273</m> using a number line. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Practice your mental arithmetic by performing the following calculations without drawing a number line
+				(though you may certainly visualize one). 
+				<me>
+					\begin{aligned}
+						-211 - 157 \amp = \\
+						-118 + 205 \amp = \\
+						-312 + 129 \amp = \\
+						-138 - 124 \amp = \\
+						-152 + 361 \amp = \\
+						-212 + 188 \amp = \\
+						-242 + 170 \amp = \\
+						-143 + 137 \amp = \\
+						238 - 314 \amp = 
+					\end{aligned}
+				</me> 
+			</p>
+			<aside>
+				<p>
+					These are difficult mental calculations! Aim for being accurate, not fast. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-nonl-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Calculate <m>-53 + 27</m> using a number line. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Earlier in the section, there was a warning about adding and subtracting in columns when working with
+				negative numbers. We are going to explore the challenges that arise in this setting in order to more
+				fully understand the challenges that arise from working in columns. 
+			</p>
+			<p>
+				Below a possible first step (ones column) of the calculation <m>-53 + 27</m> when performed using
+				columns:
+			</p>
+			<image xml:id="sec-nonl-2-wksht-4-1" width="30%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.45] 
+						\begin{scope}
+							\draw (-0.5,0) node[anchor=east] {\strut $-$}; 
+							\draw (0,0) node[anchor=east] {\strut $5$}; 
+							\draw (0.5,0) node[anchor=east] {\strut $3$}; 
+							\draw (-0.5,-0.9) node[anchor=east] {\strut $+$}; 
+							\draw (0,-0.9) node[anchor=east] {$2$}; 
+							\draw (0.5,-0.9) node[anchor=east] {$7$}; 
+							\draw (-1.5,-1.5) -- (0.5,-1.5); 
+							\draw (0.5,-2.2) node[anchor=east] {$0$}; 
+							\draw (0,0.7) node[anchor=east] {\scriptsize $1$}; 
+							\draw (6,0) node[anchor=north] {$3 + 7 = 10$}; 
+							\draw (6,-1) node[anchor=north] {Carry the one}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				Identify the error that has already taken place in this calculation. 
+			</p>
+			<aside>
+				<p>
+					This can be difficult. If you do not get an answer in a few minutes, just go on to the next problem. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				There is a "rule" that can be used for doing this calculation in columns. To calculate <m>-a + b</m>
+				(where and are positive numbers). 
+				<ul>
+					<li>
+						<p>
+							Step 1: Identify the larger number. 
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 2: Perform the calculation "larger minus smaller." 
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 3: Give your result the same sign as the larger number in the original problem. 
+						</p>
+					</li>
+				</ul>
+				Apply this "rule" to the calculation <m>-53 + 27</m>. Explain how this "rule" is a more complicated
+				expression of the number line calculation. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-nonl-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				In the previous worksheet, we saw that calculations in columns can be problematic and lead to errors.
+				The "rule" that was provided is the common way that this is taught. But this is not the only way to
+				think about doing this calculation in columns. We're going to explore this in a different way. 
+			</p>
+			<p>
+				Rather than working with digits, we will work with values. We will look at the calculation
+				<m>-53 + 27</m> again, but rewriting the calculations using expanded form. From here, it is much easier
+				to perform the calculation while avoiding errors. 
+			</p>
+			<aside>
+				<p>
+					Notice that this presentation does not conform to any of the best practices of presentation. This
+					should really be considered as scratch work. 
+				</p>
+			</aside>
+			<image xml:id="sec-nonl-2-wksht-5-1" width="60%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.4] 
+						\begin{scope}
+							\draw (-0.5,0) node[anchor=east] {\strut $-$}; 
+							\draw (0,0) node[anchor=east] {\strut $5$}; 
+							\draw (0.5,0) node[anchor=east] {\strut $3$}; 
+							\draw (-0.5,-0.9) node[anchor=east] {\strut $+$}; 
+							\draw (0,-0.9) node[anchor=east] {$2$}; 
+							\draw (0.5,-0.9) node[anchor=east] {$7$}; 
+							\draw (-1.5,-1.5) -- (0.5,-1.5); 
+							\draw[-stealth] (2,-0.5) -- ++ (1,0); 
+						\end{scope} 
+						\begin{scope} [shift={(6,0)}]
+							\draw (-1,0) node[anchor=east] {\strut $-$}; 
+							\draw (0,0) node[anchor=east] {\strut $50$}; 
+							\draw (1,0) node[anchor=east] {\strut $-$}; 
+							\draw (1.5,0) node[anchor=east] {\strut $3$}; 
+							\draw (-1,-0.9) node[anchor=east] {\strut $+$}; 
+							\draw (0,-0.9) node[anchor=east] {$20$}; 
+							\draw (1,-0.9) node[anchor=east] {\strut $+$}; 
+							\draw (1.5,-0.9) node[anchor=east] {$7$}; 
+							\draw (-2,-1.5) -- (1.5,-1.5); 
+						\end{scope}
+						\draw[-stealth] (9,-0.5) -- ++ (1,0); 
+						\begin{scope} [shift={(13,0)}]
+							\draw (-1,0) node[anchor=east] {\strut $-$}; 
+							\draw (0,0) node[anchor=east] {\strut $50$}; 
+							\draw (1,0) node[anchor=east] {\strut $-$}; 
+							\draw (1.5,0) node[anchor=east] {\strut $3$}; 
+							\draw (-1,-0.9) node[anchor=east] {\strut $+$}; 
+							\draw (0,-0.9) node[anchor=east] {$20$}; 
+							\draw (1,-0.9) node[anchor=east] {\strut $+$}; 
+							\draw (1.5,-0.9) node[anchor=east] {$7$}; 
+							\draw (-2,-1.5) -- (1.5,-1.5); 
+							\draw (-1,-2.2) node[anchor=east] {\strut $-$}; 
+							\draw (0,-2.2) node[anchor=east] {\strut $30$}; 
+							\draw (1,-2.2) node[anchor=east] {\strut $+$}; 
+							\draw (1.5,-2.2) node[anchor=east] {\strut $4$}; 
+							\draw (1.8,-2.2) node[anchor=west] {\strut $= -26$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				 Using the expanded form version of writing the calculation, calculation <m>42 - 76</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				What this is showing is that the calculation can be performed if we focus on individual place values.
+				Upon a deeper investigation, this would also reveal that the real issue comes down to the steps of
+				"carrying the one" or "borrowing." The digit manipulations that one might normally do are incompatible
+				with the algorithms for addition or subtraction in columns. Here are two of the most reasonable attempts
+				at performing this calculation using the traditional algorithms. 
+			</p>
+			<image xml:id="sec-nonl-2-wksht-5-2" width="80%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.4] 
+						\begin{scope}
+							\draw (-0.5,0) node[anchor=east] {\strut $-$}; 
+							\draw (0,0) node[anchor=east] {\strut $5$}; 
+							\draw (0.5,0) node[anchor=east] {\strut $3$}; 
+							\draw (-0.5,-0.9) node[anchor=east] {\strut $+$}; 
+							\draw (0,-0.9) node[anchor=east] {$2$}; 
+							\draw (0.5,-0.9) node[anchor=east] {$7$}; 
+							\draw (-1.5,-1.5) -- (0.5,-1.5); 
+							\draw (-0.5,-2.2) node[anchor=east] {\strut $-$}; 
+							\draw (0,-2.2) node[anchor=east] {\strut $2$}; 
+							\draw (0.5,-2.2) node[anchor=east] {$0$}; 
+							\draw (0,0.7) node[anchor=east] {\scriptsize $1$}; 
+							\draw (6,1) node[anchor=north] {$3 + 7 = 10$}; 
+							\draw (6,0) node[anchor=north] {Carry the one}; 
+							\draw (6,-2) node[anchor=north] {$1 - 5 + 2 = -2$}; 
+						\end{scope} 
+						\begin{scope} [shift={(18,0)}]
+							\draw (-0.5,0) node[anchor=east] {\strut $-$}; 
+							\draw (0,0) node[anchor=east] {\strut $5$}; 
+							\draw (0.5,0) node[anchor=east] {\strut $3$}; 
+							\draw (-0.5,-0.9) node[anchor=east] {\strut $+$}; 
+							\draw (0,-0.9) node[anchor=east] {$2$}; 
+							\draw (0.5,-0.9) node[anchor=east] {$7$}; 
+							\draw (-1.5,-1.5) -- (0.5,-1.5); 
+							\draw (-0.5,-2.2) node[anchor=east] {\strut $-$}; 
+							\draw (0,-2.2) node[anchor=east] {\strut $3$}; 
+							\draw (0.5,-2.2) node[anchor=east] {$4$}; 
+							\draw (6,1) node[anchor=north] {$-3 + 7 = 4$}; 
+							\draw (6,-1) node[anchor=north] {$- 5 + 2 = -3$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<aside>
+				<p>
+					This is a very tricky problem! It's not obvious to a lot of people what is going wrong here. Try
+					using the previous problem to help your thinking. 
+				</p>
+			</aside>
+			<p>
+				 As best as you can, try to explain the conceptual errors of each attempt. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

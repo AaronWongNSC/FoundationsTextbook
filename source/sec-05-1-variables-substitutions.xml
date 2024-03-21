@@ -1,0 +1,208 @@
+<section xml:id="sec-vas-1-main">
+	<title>This is a That</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Substitute a number for a variable then simplify or solve.
+				</p>
+			</li>
+			<li>
+				<p>
+					Substitute a variable expression for another variable then simplify or solve.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		We have previously seen how we can substitute a number for a variable. This led us to write sentences like "If
+		<m>x = 3</m>, then <m>2x + 1 = 7</m>." 
+	</p>
+	<aside>
+		<p>
+			In math, we often loop back to previous ideas to give ourselves a chance to go deeper. 
+		</p>
+	</aside>
+	<p>
+		We are not restricted to just single variable expressions. It is often the case that a problem is modeled using
+		multiple variables. Algebraically, this is just a matter of making sure you use the correct value for the
+		correct variable. But there are some potential pitfalls as the substitutions become more complex. 
+	</p>
+	<activity xml:id="sec-vas-1-ac1-multiple-substitutions">
+		<title>Substituting for Multiple Variables</title>
+		<p>
+			The problem is fundamentally about demonstrating that you can make substitutions and perform the
+			corresponding arithmetic correctly. When making a substitution, it is helpful to be in the habit of putting
+			that substitution inside of parentheses. Sometimes it's necessary, and sometimes it's extraneous. Over time,
+			you will have the experience and insight to see whether it's necessary, but to start off it's best be in the
+			habit of using parentheses all the time. 
+		</p>
+		<aside>
+			<p>
+				Some people are comfortable doing both arithmetic steps mentally, while others aren't. For this section,
+				we recommend showing your work at about this level to help identify any errors in your mental
+				arithmetic. 
+			</p>
+		</aside>
+		<p>
+			Here is a presentation for finding the value of <m>3a - 2b</m> when <m>a = 2</m> and <m>b = 4</m>: 
+			<me>
+				\begin{aligned}
+					3a - 2b \amp = 3(2) - 2(4) \amp \eqnspacer \amp \text{Substitute $a = 2$ and $b = 4$} \\
+					\amp = 6 - 8 \amp \amp \text{Arithmetic} \\
+					\amp = -2 \amp \amp \text{Arithmetic} 
+				\end{aligned}
+			</me>
+			<me> \text{If <m>a = 2</m> and <m>b = 4</m>, then <m>3a - 2b = -2</m>.} </me> 
+		</p>
+		<p>
+			<alert xml:id="sec-vas-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Determine the value of the expression <m>2x + 5y</m> when <m>x = 3</m> and <m>y = -2</m>. Show the
+			calculation and write your result as an if-then statement. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						2x + 5y \amp = 2(3) + 5(-2) \amp \amp \text{Substitute $x = 3$ and $y = -2$} \\
+						\amp = 6 + (-10) \amp \amp \text{Arithmetic} \\
+						\amp = -4 \amp \amp \text{Arithmetic} 
+					\end{aligned}
+				</me>
+				<me>
+					\text{If $x = 3$ and $y = -2$, then $2x + 5y = -4$.}
+				</me> 
+			</p>
+		</solution>
+	</activity>
+	<p>
+		A major step in your mathematical thinking is the ability to apply previous results in new settings, and
+		combining old ideas in new ways. We have talked about substituting a value for a variable, and we've talked
+		about solving for a variable. We can combine the two into a new type of problem. 
+	</p>
+	<activity xml:id="sec-vas-1-ac2-substitute-solve-1">
+		<title>Substituting a Value for a Variable and Solving</title>
+		<aside>
+			<p>
+				In this case, no matter what value of <m>m</m> or <m>n</m> is given to you, there will always be a
+				solution. But for some equations, this won't happen. 
+			</p>
+		</aside>
+		<p>
+			Here is an example of combining the two ideas together. Consider the equation <m>3m + 5n = 30</m>. This
+			 equation has two variables in it. If we declare a value for one of the variables, then we can solve for the
+			 other one. For example, if we are told that <m>m = 5</m>, then we have the following: 
+			<me>
+				\begin{aligned}
+					3m + 5n \amp = 30 \\
+					3(5) + 5n \amp = 30 \amp \eqnspacer \amp \text{Substitute $m = 5$} \\
+					15 + 5n \amp = 30 \amp \amp \text{Arithmetic} \\
+					5n \amp = 15 \amp \amp \text{Subtract $15$ from both sides} \\
+					n \amp = 3 \amp \amp \text{Divide both sides by 5} 
+				\end{aligned}
+			</me>
+		</p>
+		<aside>
+			<p>
+				Don't be afraid of fractions. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-vas-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+				Solve the equation <m>3m + 5n = 30</m> for when <m>n = -2</m>. Use a complete presentation. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						3m + 5n \amp = 30 \\
+						3m + 5(-2) \amp = 30 \amp \amp \text{Substitute $n = -2$} \\
+						3m + (-10) \amp = 30 \amp \amp \text{Arithmetic} \\
+						3m \amp = 40 \amp \amp \text{Add $10$ to both sides} \\
+						m \amp = \frac{40}{3} \amp \amp \text{Divide both sides by $3$} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<p>
+		There are other types of substitutions that we can make. In the definition of a variable
+		(<xref ref="def-variable"/>), we said that variables can also represent mathematical expressions.
+		Fortunately, there is no conceptual difference between the two. It all comes down to the proper execution of
+		algebra. 
+	</p>
+	<activity xml:id="sec-vas-1-ac3-substitute-expressions">
+		<title>Substituting an Expression for a Variable</title>
+		<p>
+			When substituting an expression for a variable, it is important to wrap the expression inside of
+			parentheses. This small detail is extremely important because it represents a container that holds the
+			entire contents of the variable. Failure to do so will often lead to failing to properly apply the
+			distributive property or committing other types of errors. 
+		</p>
+		<p>
+			This is how it looks to substitute <m>x = 2y - 1</m> into the expression <m>-x + 6</m>: 
+			<me>
+				\begin{aligned}
+					-x + 6 \amp = -(2y - 1) + 6 \amp \eqnspacer \amp \text{Substitute $x = 2y - 1$} \\
+					\amp = -2y + 1 + 6 \amp \amp \text{Distributive property} \\
+					\amp = -2y + 7 \amp \amp \text{Combine like terms} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			<alert xml:id="sec-vas-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Substitute <m>a = -2b + 3</m> into the expression <m>-2a - 5</m> and simplify the result. Use a 
+			 presentation. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						-2a - 5 \amp = -2(-2b + 3) - 5 \amp \amp \text{Substitute $a = -2b + 3$} \\
+						\amp = 4b - 6 - 5 \amp \amp \text{Distributive property} \\
+						\amp = 4b - 11 \amp \amp \text{Combine like terms} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-vas-1-ac4-substitute-solve-2">
+		<title>Substituting an Expression for a Variable and Solving</title>
+		<p>
+			Conceptually, substituting into an expression is not different from substituting into an equation because an
+			equation is just two expressions that are claimed to represent the same value. 
+		</p>
+		<aside>
+			<p>
+				This might remind you of the substitution method of solving linear equations. If you don't know what
+				that is, we'll get to it in <xref ref="sec-mos-1-main"/>. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-vas-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Substitute <m>x = 2y + 1</m> into the equation <m>3x - 2y = 7</m> and solve for Use a complete presentation. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						3x - 2y \amp = 7 \\
+						3(2y + 1) - 2y \amp = 7 \amp \amp \text{Substitute $x = 2y + 1$} \\
+						6y + 3 - 2y \amp = 7 \amp \amp \text{Distributive property} \\
+						4y + 3 \amp = 7 \amp \amp \text{Combine like terms} \\
+						4y \amp = 4 \amp \amp \text{Subtract $6$ from both sides} \\
+						y \amp = 1 \amp \amp \text{Divide both sides by $4$} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+</section>

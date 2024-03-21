@@ -1,0 +1,356 @@
+<section xml:id="sec-mult-5-deeper">
+	<title>Going Deeper: Alternative Multiplication Techniques</title>
+	<p>
+		On Worksheet 5, we looked at how the standard multiplication algorithm (multiplication in columns) has all of
+		the same components as looking at multiplication using the grid method we used for algebra. This grid method
+		also has a connection to the base-10 diagrams that were used on Worksheet 4. We're going to look at a couple
+		other multiplication methods. The first is another representations of the same idea, and the second one is a
+		surprising method discovered by the ancient Egyptians that uses only multiplication by with addition. 
+	</p>
+	<subsection>
+		<title>The Lattice Method</title>
+		<p>
+			The lattice method is an organizational scheme for calculating products. This method is convenient because
+			it tracks the place values for you, so that you don't need to keep track of the trailing zeros in your
+			numbers. Interestingly, this method of calculation was independently discovered by Arab, European, and
+			Chinese mathematicians. 
+		</p>
+		<p>
+			To use the lattice method, you start by creating a grid where the number of columns is the number of digits
+			in the first number of the product, and the number of rows is the number of digits in the second column.
+			Then write the digits of the numbers in the correspond positions. Lastly, draw the up-right diagonals
+			through all of the boxes. Here is an example: 
+		</p>
+		<image xml:id="sec-mult-5-lattice-setup" width="70%">
+			<latex-image>
+				\begin{tikzpicture}[scale=0.7]
+					\draw (0,0) node[anchor=east] {$126 \times 23$}; 
+					\draw[-stealth] (2,0) -- (4,0); 
+					\begin{scope} [shift={(6,-1)}]
+						\draw (0,0) grid (3,2); 
+						\draw (0.5,2) node[anchor=south] {$1$}; 
+						\draw (1.5,2) node[anchor=south] {$2$}; 
+						\draw (2.5,2) node[anchor=south] {$6$}; 
+						\draw (3,1.5) node[anchor=west] {$2$}; 
+						\draw (3,0.5) node[anchor=west] {$3$}; 
+						\draw (0,1) -- (1,2); 
+						\draw (0,0) -- (2,2); 
+						\draw (1,0) -- (3,2); 
+						\draw (2,0) -- (3,1); 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			From here, you write out the products of each pair of numbers in the corresponding square, where the tens
+			digit goes in the upper-left region and the ones digit goes on the lower-right. If your product gives a
+			one-digit number, use a in the tens digit. 
+		</p>
+		<image xml:id="sec-mult-5-lattice-step-1" width="70%">
+			<latex-image>
+				\begin{tikzpicture}[scale=0.7]
+					\begin{scope} [shift={(0.5,-1)}]
+						\draw[lightgray] (0,0) grid (3,2); 
+						\draw[lightgray] (0.5,2) node[anchor=south] {$1$}; 
+						\draw (1.5,2) node[anchor=south] {$2$}; 
+						\draw[lightgray] (2.5,2) node[anchor=south] {$6$}; 
+						\draw[lightgray] (3,1.5) node[anchor=west] {$2$}; 
+						\draw (3,0.5) node[anchor=west] {$3$}; 
+						\draw[lightgray] (0,1) -- (1,2); 
+						\draw[lightgray] (0,0) -- (2,2); 
+						\draw[lightgray] (1,0) -- (3,2); 
+						\draw[lightgray] (2,0) -- (3,1); 
+						\draw[-stealth] (1.5,2) -- (1.5,1); 
+						\draw[-stealth] (3,0.5) -- (2,0.5); 
+						\draw (1.65,0.35) node[anchor=south east] {$0$}; 
+						\draw (1.35,0.65) node[anchor=north west] {$6$}; 
+					\end{scope}
+					\draw[-stealth] (5,0) -- (7,0); 
+					\begin{scope} [shift={(8.5,-1)}]
+						\draw (0,0) grid (3,2); 
+						\draw (0.5,2) node[anchor=south] {$1$}; 
+						\draw (1.5,2) node[anchor=south] {$2$}; 
+						\draw (2.5,2) node[anchor=south] {$6$}; 
+						\draw (3,1.5) node[anchor=west] {$2$}; 
+						\draw (3,0.5) node[anchor=west] {$3$}; 
+						\draw (0,1) -- (1,2); 
+						\draw (0,0) -- (2,2); 
+						\draw (1,0) -- (3,2); 
+						\draw (2,0) -- (3,1); 
+						\draw (0.65,1.35) node[anchor=south east] {$0$}; 
+						\draw (0.35,1.65) node[anchor=north west] {$2$}; 
+						\draw (0.65,0.35) node[anchor=south east] {$0$}; 
+						\draw (0.35,0.65) node[anchor=north west] {$3$}; 
+						\draw (1.65,1.35) node[anchor=south east] {$0$}; 
+						\draw (1.35,1.65) node[anchor=north west] {$4$}; 
+						\draw (1.65,0.35) node[anchor=south east] {$0$}; 
+						\draw (1.35,0.65) node[anchor=north west] {$6$}; 
+						\draw (2.65,1.35) node[anchor=south east] {$1$}; 
+						\draw (2.35,1.65) node[anchor=north west] {$2$}; 
+						\draw (2.65,0.35) node[anchor=south east] {$1$}; 
+						\draw (2.35,0.65) node[anchor=north west] {$8$}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			Next, you add along the diagonals down and to the left. Start from the lower-right and work your way to the
+			upper-right. If you end up with a number larger than carry the tens digit to the next diagonal. The final
+			answer is the collection of digits read from the top-left down, then to the right. 
+		</p>
+		<image xml:id="sec-mult-5-lattice-result" width="70%">
+			<latex-image>
+				\begin{tikzpicture}[scale=0.7]
+					\begin{scope} [shift={(0,-1)}]
+						\draw[lightgray] (0,0) grid (3,2); 
+						\draw[lightgray] (0.5,2) node[anchor=south] {$1$}; 
+						\draw[lightgray] (1.5,2) node[anchor=south] {$2$}; 
+						\draw[lightgray] (2.5,2) node[anchor=south] {$6$}; 
+						\draw[lightgray] (3,1.5) node[anchor=west] {$2$}; 
+						\draw[lightgray] (3,0.5) node[anchor=west] {$3$}; 
+						\draw[lightgray] (0,1) -- (1,2); 
+						\draw[lightgray] (0,0) -- (2,2); 
+						\draw[lightgray] (1,0) -- (3,2); 
+						\draw[lightgray] (2,0) -- (3,1); 
+						\draw[-stealth] (3,0.5) -- (2.5,0); 
+						\draw[-stealth] (3,1.5) -- (1.5,0); 
+						\draw[-stealth] (2.5,2) -- (0.5,0); 
+						\draw[-stealth] (1.5,2) -- (0,0.5); 
+						\draw[-stealth] (0.5,2) -- (0,1.5); 
+					\end{scope}
+					\draw[-stealth] (5,0) -- (7,0); 
+					\begin{scope} [shift={(9,-1)}]
+						\draw (0,0) grid (3,2); 
+						\draw (0.5,2) node[anchor=south] {$1$}; 
+						\draw (1.5,2) node[anchor=south] {$2$}; 
+						\draw (2.5,2) node[anchor=south] {$6$}; 
+						\draw (3,1.5) node[anchor=west] {$2$}; 
+						\draw (3,0.5) node[anchor=west] {$3$}; 
+						\draw (0,1) -- (1,2); 
+						\draw (0,0) -- (2,2); 
+						\draw (1,0) -- (3,2); 
+						\draw (2,0) -- (3,1); 
+						\draw (0.65,1.35) node[anchor=south east] {$0$}; 
+						\draw (0.35,1.65) node[anchor=north west] {$2$}; 
+						\draw (0.65,0.35) node[anchor=south east] {$0$}; 
+						\draw (0.35,0.65) node[anchor=north west] {$3$}; 
+						\draw (1.65,1.35) node[anchor=south east] {$0$}; 
+						\draw (1.35,1.65) node[anchor=north west] {$4$}; 
+						\draw (1.65,0.35) node[anchor=south east] {$0$}; 
+						\draw (1.35,0.65) node[anchor=north west] {$6$}; 
+						\draw (2.65,1.35) node[anchor=south east] {$1$}; 
+						\draw (2.35,1.65) node[anchor=north west] {$2$}; 
+						\draw (2.65,0.35) node[anchor=south east] {$1$}; 
+						\draw (2.35,0.65) node[anchor=north west] {$8$}; 
+						\draw (2.5,0) node[anchor=north] {$8$}; 
+						\draw (1.5,0) node[anchor=north] {$9$}; 
+						\draw (0.5,0) node[anchor=north] {$8$}; 
+						\draw (0,0.5) node[anchor=east] {$2$}; 
+						\draw (0,1.5) node[anchor=east] {$0$}; 
+						\draw[dotted,-stealth] (-0.7,1.7) -- (-0.7,-0.7) -- (2.9,-0.7); 
+					\end{scope}
+					\draw (6,-2) node[anchor=north] {$126 \times 23 = 2898$}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			Although the presentation of this calculation feels significantly different, it's actually the exact same
+			concept that we used with the grid. To see the connection, we simply need to rearrange how we calculate the
+			products. The primary distinction between these two methods is that the place values are being tracked by
+			the diagonals in the lattice method, whereas the grid method requires you to keep track of that yourself.
+			This makes the final addition step significantly more compact. 
+		</p>
+		<image xml:id="sec-mult-5-lattice-comparison" width="100%">
+			<latex-image>
+				\begin{tikzpicture}
+					\begin{scope} [shift={(0,-1)}]
+						\draw (0,0) grid (3,2); 
+						\draw (0.5,2) node[anchor=south] {$1$}; 
+						\draw (1.5,2) node[anchor=south] {$2$}; 
+						\draw (2.5,2) node[anchor=south] {$6$}; 
+						\draw (3,1.5) node[anchor=west] {$2$}; 
+						\draw (3,0.5) node[anchor=west] {$3$}; 
+						\draw (0,1) -- (1,2); 
+						\draw (0,0) -- (2,2); 
+						\draw (1,0) -- (3,2); 
+						\draw (2,0) -- (3,1); 
+						\draw (0.65,1.35) node[anchor=south east] {$0$}; 
+						\draw (0.35,1.65) node[anchor=north west] {$2$}; 
+						\draw (0.65,0.35) node[anchor=south east] {$0$}; 
+						\draw (0.35,0.65) node[anchor=north west] {$3$}; 
+						\draw (1.65,1.35) node[anchor=south east] {$0$}; 
+						\draw (1.35,1.65) node[anchor=north west] {$4$}; 
+						\draw (1.65,0.35) node[anchor=south east] {$0$}; 
+						\draw (1.35,0.65) node[anchor=north west] {$6$}; 
+						\draw (2.65,1.35) node[anchor=south east] {$1$}; 
+						\draw (2.35,1.65) node[anchor=north west] {$2$}; 
+						\draw (2.65,0.35) node[anchor=south east] {$1$}; 
+						\draw (2.35,0.65) node[anchor=north west] {$8$}; 
+						\draw (2.5,0) node[anchor=north] {$8$}; 
+						\draw (1.5,0) node[anchor=north] {$9$}; 
+						\draw (0.5,0) node[anchor=north] {$8$}; 
+						\draw (0,0.5) node[anchor=east] {$2$}; 
+						\draw (0,1.5) node[anchor=east] {$0$}; 
+						\draw[dotted,-stealth] (-0.7,1.7) -- (-0.7,-0.7) -- (2.9,-0.7); 
+					\end{scope} 
+					\begin{scope} [shift={(5,-1)}]
+						\draw (0,0) rectangle (4.5,2); 
+						\draw (1.5,0) -- (1.5,2); 
+						\draw (3,0) -- (3,2); 
+						\draw (0,1) -- (4.5,1); 
+						\draw (4.5,1.5) node[anchor=west] {\strut $20$}; 
+						\draw (4.5,0.5) node[anchor=west] {\strut $3$}; 
+						\draw (0.75,2) node[anchor=south] {$100$}; 
+						\draw (2.25,2) node[anchor=south] {$20$}; 
+						\draw (3.75,2) node[anchor=south] {$6$}; 
+						\draw (0.75,1.5) node[anchor=center] {\strut $2000$}; 
+						\draw (0.75,0.5) node[anchor=center] {\strut $300$}; 
+						\draw (2.25,1.5) node[anchor=center] {\strut $400$}; 
+						\draw (2.25,0.5) node[anchor=center] {\strut $60$}; 
+						\draw (3.75,1.5) node[anchor=center] {\strut $120$}; 
+						\draw (3.75,0.5) node[anchor=center] {\strut $18$}; 
+						\draw (7,3.5) node[anchor=north] {$ \begin{array} {r} 2000 \\ 300 \\ 400 \\ 60 \\ 120 \\ + \qquad 18 \\ \hline 2898 \end{array} $}; 
+					\end{scope} 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			Ultimately, neither method is necessarily better than the other. They both accomplish the same thing, and
+			there are costs and benefits to each. The lattice method is similar to the traditional multiplication
+			algorithm in that there are some ideas that get lost in the process. If you were just following the "rules"
+			of the calculation, you may not necessarily see the connection between the diagonals and the place values
+			On the other hand, it's hard for the grid method to compete with the organization provided by the lattice
+			method. 
+		</p>
+	</subsection>
+	<subsection>
+		<title>The Egyptian Multiplication Method</title>
+		
+		<aside>
+			<p>
+				It's interesting just how often mathematical ideas are discovered (or created) by multiple people at
+				different times and different places. 
+			</p>
+		</aside>
+		<p>
+			The Egyptian multiplication method is named this way because they were the first known culture to have
+			adopted this method. There is a similar method called the Russian peasant multiplication method, which was a
+			rediscovery of the method by Russian peasants in the 19th century. This method is significantly different
+			from our other methods because the only multiplication is multiplication by 2. The simplicity of the
+			calculations is part of the appeal of the method. 
+		</p>
+		<p>
+			We will perform the same calculation as before: <m>126 \times 23</m>. We start by making two columns. The
+			first column starts with the number 1 and the second column starts with the larger number in our product.
+		</p>
+		<image xml:id="sec-mult-5-egyptian-1" width="15%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw(0,0) node[anchor=south] {
+						\begin{tabular}{c|c}
+							1 \amp 126 \\ \\ \\ \\
+						\end{tabular}
+					};
+				\end{tikzpicture}
+			</latex-image>
+		</image>
+		<p>
+			From here, we're going to double each entry moving down the column, stopping when the first column will
+			exceed the second number in the product.
+		</p>
+		<aside>
+			<p>
+				If we double 16 we get 32 and that is larger than 23.
+			</p>
+		</aside>
+		<image xml:id="sec-mult-5-egyptian-2" width="15%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw(0,0) node[anchor=south] {
+						\begin{tabular}{c|c}
+							1 \amp 126 \\
+							2 \amp 252 \\
+							4 \amp 504 \\
+							8 \amp 1008 \\
+							16 \amp 2016
+						\end{tabular}
+					};
+				\end{tikzpicture}
+			</latex-image>
+		</image>
+		<p>
+			Next, we look for a combination of numbers in the first column that add up to the second number in the
+			product. The method is quite simple, but explaining it can be a little wordy. The basic idea is that you
+			work your way back up the table, keeping a running total as you go. If keeping the value puts you above your
+			target, skip it. Otherwise, you keep it. At some point, you will hit your target number, and you can skip
+			any remaining values. The process for this example is performed in steps below. 
+		</p>
+		<image xml:id="sec-mult-5-egyptian-picking" width="90%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (0,0) node[anchor=south] { \begin{tabular} {cc|c} \amp 1 \amp 126 \\ \amp 2 \amp 252 \\ \amp 4 \amp 504 \\ \amp 8 \amp 1008 \\ $\rightarrow$ \amp 16 \amp 2016 \\ \hhline{~--} \amp 23 \amp \end{tabular} }; 
+					\draw(0,0) node[anchor=north] {$16 \lt 23$}; 
+					\draw (5,0) node[anchor=south] { \begin{tabular} {cc|c} \amp 1 \amp 126 \\ \amp 2 \amp 252 \\ \amp 4 \amp 504 \\ $\times$ \amp 8 \amp 1008 \\ $\rightarrow$ \amp 16 \amp 2016 \\ \hhline{~--} \amp 23 \amp \end{tabular} }; 
+					\draw(5,0) node[anchor=north] {$16 + 8 \not \lt 23$}; 
+					\draw (10,0) node[anchor=south] { \begin{tabular} {cc|c} \amp 1 \amp 126 \\ \amp 2 \amp 252 \\ $\rightarrow$ \amp 4 \amp 504 \\ $\times$ \amp 8 \amp 1008 \\ $\rightarrow$ \amp 16 \amp 2016 \\ \hhline{~--} \amp 23 \amp \end{tabular} }; 
+					\draw(10,0) node[anchor=north] {$16 + 4 \lt 23$}; 
+					\draw (2.5,-5) node[anchor=south] { \begin{tabular} {cc|c} \amp 1 \amp 126 \\ $\rightarrow$ \amp 2 \amp 252 \\ $\rightarrow$ \amp 4 \amp 504 \\ $\times$ \amp 8 \amp 1008 \\ $\rightarrow$ \amp 16 \amp 2016 \\ \hhline{~--} \amp 23 \amp \end{tabular} }; 
+					\draw(2.5,-5) node[anchor=north] {$16 + 4 + 2 \lt 23$}; 
+					\draw (7.5,-5) node[anchor=south] { \begin{tabular} {cc|c} $\rightarrow$ \amp 1 \amp 126 \\ $\rightarrow$ \amp 2 \amp 252 \\ $\rightarrow$ \amp 4 \amp 504 \\ $\times$ \amp 8 \amp 1008 \\ $\rightarrow$ \amp 16 \amp 2016 \\ \hhline{~--} \amp 23 \amp \end{tabular} }; 
+					\draw(7.5,-5) node[anchor=north] {$16 + 4 + 2 + 1 = 23$}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			The last step is to add up the values on the right side of the chart corresponding to the selected rows.
+			For clarity, we're going to rewrite the desired values before adding. 
+		</p>
+		<image xml:id="sec-mult-5-egyptian-result" width="40%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (0,0) node[anchor=south] {
+						\begin{tabular}{cc|ccr}
+							$\rightarrow$ \amp 1 \amp 126 \amp $\rightarrow$ \amp 126 \\
+							$\rightarrow$ \amp 2 \amp 252 \amp $\rightarrow$ \amp 252 \\
+							$\rightarrow$ \amp 4 \amp 504 \amp $\rightarrow$ \amp 504 \\
+							$\times$ \amp 8 \amp 1008 \\
+							$\rightarrow$ \amp 16 \amp 2016 \amp $\rightarrow$ \amp 2016 \\ \hhline{~--~-}
+							\amp 23 \amp \amp \amp 2898
+						\end{tabular}
+					};
+				\end{tikzpicture}
+			</latex-image>
+		</image>
+		<p>
+			For most people, it's quite surprising that this works. Let's take a look at what's actually happening. In
+			our example, notice that the right side is always 126 times the left side. For example, the row with on the
+			left side has <m>8 \times 126 = 1008</m> on the right. We then picked the rows on the left that add up to 23
+			giving us <m>23 = 16 + 4 + 2 + 1</m>. We can take this and multiply both sides by 126:
+			<me>
+				\begin{aligned}
+					23 \times 126 \amp = (16 + 4 + 2 + 1) \times 126 \\
+					\amp = (16 \times 126) + (4 \times 126) + (2 \times 126) + (1 \times 126) \\
+					\amp = 2016 + 504 + 252 + 126 
+				\end{aligned}
+			</me>
+			We can see that the third line consists of the same values that appeared in the right-most column. 
+		</p>
+		<p>
+			From a mathematical perspective, there's not much difference between the groupings that are being used in
+			this method and the base-10 groupings. All we've done is broken up the product into smaller pieces. In fact,
+			we could even go as far as saying that the only difference between this method and the multiplications we've
+			done previously is that this method is using a binary (or base-2) approach. So even though it looks very
+			different, the underlying concepts are actually still the same. 
+		</p>
+		<aside>
+			<p>
+				Another method is known as Vedic multiplication, which is similar to the standard algorithm but with a
+				fancier organizational scheme. 
+			</p>
+		</aside>
+		<p>
+			The point of showing you these examples is to further expand your perspective of multiplication. What is
+			normally taught as a very rigid process turns out to have many different approaches.
+		</p>
+	</subsection>
+</section>

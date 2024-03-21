@@ -1,0 +1,119 @@
+<section xml:id="sec-fm-5-deeper">
+	<title>Going Deeper: Additional Factoring Techniques</title>
+
+	<p>
+		In <xref ref="sec-fqp-1-main" /> and <xref ref="sec-fqp-5-deeper" />, we looked at various factoring ideas and
+		techniques. We're going to push that a little bit deeper here. Before getting started, we want to remind
+		ourselves of the most common special factorizations patterns from that section: 
+		<me>
+			\begin{array}{ll}
+				\text{Square of a binomial sum:} \amp a^2 + 2ab + b^2 = (a + b)^2 \\
+				\text{Square of a binomial difference:} \amp a^2 - 2ab + b^2 = (a - b)^2 \\
+				\text{Difference of squares:} \amp a^2 - b^2 = (a + b)(a - b) \\
+				\text{Sum of cubes:} \amp a^3 + b^3 = (a + b)(a^2 - ab + b^2) \\
+				\text{Difference of cubes:} \amp a^3 - b^3 = (a - b)(a^2 + ab + b^2)
+			\end{array}
+		</me>
+	</p>
+	<p>
+		When working with these expressions, we noted how we can use these formulas to factor expressions even when the
+		expressions contain multiple variables or higher powers of the variables. As long as the expression can be made
+		to fit the form, then the factorization works. 
+	</p>
+	<aside>
+		<p>
+			It's the same as larger numbers having more factors than smaller numbers. 
+		</p>
+	</aside>
+	<p>
+		But there's something else that can happen with those more complicated expressions, which is that it may take
+		multiple factorizations to factor it completely. In other words, after one factorization step, you may discover
+		that the factors can be factored again. Here is an example: 
+		<me>
+			\begin{aligned}
+				x^4 - 1 \amp = (x^2 + 1)(x^2 - 1) \amp \eqnspacer \amp \text{Difference of squares} \\
+				\amp = (x^2 + 1)(x + 1)(x - 1) \amp \amp \text{Difference of squares} 
+			\end{aligned}
+		</me>
+	</p>
+	<p>
+		Unfortunately, there is no indicator that you will need to continue to factor other than recognizing that you
+		can continue to factor. However, as you gain experience, you will get better at recognizing when expressions can
+		be factored and when they can't. 
+	</p>
+	<aside>
+		<p>
+			Some students find it easier to substitute <m>y = x^2</m> so that this becomes <m>y^2 + 4y - 5</m> before
+			attempting to factor it. 
+		</p>
+	</aside>
+	<p>
+		<idx><h>quadratic in form</h></idx>
+		It turns out that the <m>ac</m> method of factoring can also be extended to factor certain types of expressions.
+		Expressions of this type are said to be <em>quadratic in form</em>, which means that we can treat them as a
+		quadratic expression by thinking about them in the right way. Here is an example:
+		<me>
+			x^4 + 4x^2 - 5
+		</me>
+		This is not a quadratic expression, but it is quadratic in form. This means that if we think about it the right
+		way, we can treat it like a quadratic expression. Specifically, we can rewrite it by treating <m>x^2</m> as the
+		variable: 
+		<me>
+			\begin{aligned}
+				x^4 + 4x^2 - 5 \amp = (x^2)^2 + 4(x^2) - 5 \amp \eqnspacer \amp \text{Rewrite as a quadratic} \\
+				\amp = (x^2 + 5)(x^2 - 1) \amp \amp \text{$ac$ method} \\
+				\amp = (x^2 + 5)(x + 1)(x - 1) \amp \amp \text{Difference of squares} 
+			\end{aligned}
+		</me>
+	</p>
+	<aside>
+		<p>
+			<idx><h>perfect square</h></idx>
+			A <em>perfect square</em> is the square of an integer. 
+		</p>
+	</aside>
+	<p>
+		It would be nice if there were some fixed set of rules for when to factor expressions and when to leave them
+		alone. Unfortunately, those decisions are often driven by context. The most common place this becomes an issue
+		is with a difference of squares. For example, consider this quadratic expression:
+		<me>
+			x^2 - 3
+		</me>
+		On the one hand, we can look at this and say that is not a perfect square and just leave it in that form. On the
+		other hand, while isn't a perfect square, it is the square of which means that we can still factor it. 
+		<me>
+			\begin{aligned}
+				x^2 - 3 \amp = x^2 - (\sqrt{3})^2 \amp \eqnspacer \amp \text{Rewrite $3$ as a square} \\
+				\amp = (x + \sqrt{3})(x - \sqrt{3}) \amp \amp \text{Difference of squares} 
+			\end{aligned}
+		</me>
+	</p>
+	<p>
+		Does this mean that we should factor <m>x^2 - 3</m> using square roots? The answer is that it depends. The
+		factorization into linear terms is helpful for some mathematical operations, but other times it's an unnecessary
+		step. So the decision of whether to factor will be dependent upon the context. This is an idea that we've
+		touched on many times before, which is that you don't want to think about math as a set of rules that you follow
+		every single time. It is better to recognize that you have the option of taking that factorization one step
+		further, but then to decide what you're going to do based on the specific goals for the problem. 
+	</p>
+	<aside>
+		<p>
+			Students usually learn a combination of the rational root theorem and either synthetic division or
+			polynomial long division. 
+		</p>
+	</aside>
+	<p>
+		This may not be the last factoring technique that you'll encounter. In many precalculus courses, you will learn
+		about other techniques that can be applied to help to sometimes factor higher degree polynomials that don't fit
+		any of our current ideas. But even with that technique, you still will not be able to factor everything. In
+		fact, one of the big questions that mathematicians had wondered about for a long time is whether there's a
+		formula that can be used to factor everything. This question was ultimately answered in the early 1800s, when
+		it was proven that there are fifth degree equations that have roots that are "impossible" write down.
+	</p>
+	<aside>
+		<p>
+			<idx><h>Galois Theory</h></idx>
+			This question is answered by a mathematical field known as Galois Theory.
+		</p>
+	</aside>
+</section>

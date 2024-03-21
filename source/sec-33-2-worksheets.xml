@@ -1,0 +1,194 @@
+<section xml:id="sec-mr-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/33-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-mr-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Matt and Reuben have 14 toys between the two of them. Write an equation that describes this relationship. 
+			</p>
+			<aside>
+				<p>
+					Remember to define your variables! 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Matt and Reuben have 14 toys between the two of them. Matt has 5 toys. How many toys does Reuben have? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Reuben has 4 more toys than Matt. Write an equation that describes this relationship. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Reuben has 4 more toys than Matt. Together, they have 14 toys between them. How many toys does each one have? 
+			</p>
+			<aside>
+				<p>
+					Use the relationship as a substitution. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mr-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				A box of cans of soda contains 12 cans. Write a relationship between the number of boxes and the number
+				of cans of soda. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				A store has a sale on boxes of cans of soda. However, the store limit is 8 boxes per customer. If each
+				box of soda contains 12 cans, how many cans of soda can be bought by a single customer during this sale? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Dr. Pepper is a math professor. Every semester, she buys each of her students a can of her favorite
+				soda. She has 30 students in her class. If a box of cans of soda contains 12 cans, how many boxes does
+				she need for her class? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				In the previous question, there were two possible answers, depending on how you saw the problem. You
+				might have had a fractional box of sodas, or you might have decided a fractional box of soda doesn't
+				make sense and rounded up to an integer number of boxes. Is it possible that both answers are correct,
+				or is one answer correct and the other incorrect? 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mr-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Find a formula that relates the variables in each chart. (Note: Each chart is separate.) 
+			</p>
+			<image xml:id="sec-mr-2-wksht-3-1" width="80%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 1 \amp 4 \\ 2 \amp 5 \\ 3 \amp 6 \end{array} $}; 
+						\draw (5,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 1 \amp 3 \\ 2 \amp 6 \\ 3 \amp 9 \end{array} $}; 
+						\draw (10,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 1 \amp 3 \\ 2 \amp 5 \\ 3 \amp 7 \end{array} $}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Find a formula that relates the variables in each chart. (Note: Each chart is separate.) 
+			</p>
+			<aside>
+				<p>
+					Each of these has relatively simple formulas that only involve integers. 
+				</p>
+			</aside>
+			<image xml:id="sec-mr-2-wksht-3-2" width="80%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 5 \amp 20 \\ 15 \amp 10 \\ 30 \amp -5 \end{array} $}; 
+						\draw (5,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 3 \amp 7 \\ 5 \amp 13 \\ 8 \amp 22 \end{array} $}; 
+						\draw (10,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 2 \amp -3 \\ 3 \amp -5 \\ 6 \amp -11 \end{array} $}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Find a formula that relates the variables in each chart. (Note: Each chart is separate.) 
+			</p>
+			<image xml:id="sec-mr-2-wksht-3-3" width="80%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 2 \amp 12 \\ 4 \amp 11 \\ 6 \amp 10 \end{array} $}; 
+						\draw (5,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 5 \amp 3 \\ 10 \amp 4 \\ 15 \amp 5 \end{array} $}; 
+						\draw (10,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 3 \amp 1 \\ 5 \amp 5 \\ 9 \amp 13 \end{array} $}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<aside>
+				<p>
+					The idea for the first one may help you with the others. 
+				</p>
+			</aside>
+			<p>
+				Find a formula that relates the variables in each chart. (Note: Each chart is separate.) 
+			</p>
+			<image xml:id="sec-mr-2-wksht-3-4" width="80%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 1 \amp 1 \\ 2 \amp 4 \\ 3 \amp 9 \end{array} $}; 
+						\draw (5,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 1 \amp 3 \\ 2 \amp 6 \\ 3 \amp 11 \end{array} $}; 
+						\draw (10,0) node[anchor=north] {$ \begin{array} {c|c} x \amp y \\ \hline 1 \amp 0 \\ 2 \amp -3 \\ 3 \amp -8 \end{array} $}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mr-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				A gym membership at Gym A costs $60 as an initiation fee plus $20 per month. Write a formula that
+				relates the gym costs and the length of the membership. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				A gym membership at Gym B costs $100 as an initiation fee plus $10 per month. Write a formula that
+				relates the gym costs and the length of the membership. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the price of months of membership at each gym. Which one is the better deal if you are a
+				member for less than 4 months? Which is the better deal if you are a member for more than 4 months? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Suppose you were thinking about starting an exercise routine, and that you were deciding between Gym A
+				and Gym B. You know that you want to give it at least three months of effort, but you're not sure if
+				you'll go beyond that. Which gym would you choose? Explain the logic of your decision. 
+			</p>
+			<aside>
+				<p>
+					There is no right answer. You really want to focus on whether your answer is reasonable. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mr-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Write a word problem that uses the phrase "more than" but that you cannot just add the numbers in the
+				problem to get the correct answer. Then solve it. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write a word problem that uses the phrase "fewer than" but that you cannot just subtract the numbers in
+				the problem to get the correct answer. Then solve it. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Write a word problem that uses multiplication in the mathematical relationship between the variables.
+				Then solve it. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

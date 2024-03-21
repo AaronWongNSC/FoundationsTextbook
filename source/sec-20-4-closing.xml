@@ -1,0 +1,70 @@
+<section xml:id="sec-fd-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		We opened this section with the idea that multiplication and division were related by thinking about how taking
+		10 objects and splitting it into two equal groups looks the same as taking half of a group of 10 objects. But we
+		didn't elaborate on the nature of that relationship. 
+	</p>
+	<p>
+		Multiplication and division are known as inverse operations. Basically, it means that one operation undoes the
+		other. We've actually already seen this idea, but without those words. When we were solving equations, we would
+		run into situations that look like the following: 
+		<me>
+			\begin{aligned}
+				\frac{x}{3} \amp = 4 \\
+				x \amp = 12 \amp \eqnspacer \amp \text{Multiply both sides by $3$} 
+			\end{aligned}
+		</me>
+		The act of dividing both sides by is undoing the multiplication of by on the left side of the equation. In fact,
+		we can do the same thing when solving equations that involve fractions. 
+		<me>
+			\begin{aligned}
+				\frac{x}{3} \amp = 4 \\
+				x \amp = 12 \amp \eqnspacer \amp \text{Multiply both sides by $3$} 
+			\end{aligned}
+		</me>
+	</p>
+	<aside>
+		<p>
+			This is the algebraic representation of subtraction as the addition of the opposite:
+			<me>
+				a - b = a + (-b).
+			</me> 
+		</p>
+	</aside>
+	<p>
+		The idea that multiplication is the inverse of division and that division is multiplication by the reciprocal
+		has another important parallel. We run into the exact same situation with addition and subtraction. When solving
+		equations, you have to subtract to undo addition and you have to add to undo subtraction. 
+		<me>
+			\begin{aligned}
+				x + 4 \amp = 9 \\
+				x \amp = 5 \amp \eqnspacer \amp \text{Subtract $4$ from both sides} 
+			\end{aligned}
+		</me>
+		<me>
+			\begin{aligned}
+				x + 4 \amp = 9 \\
+				x \amp = 5 \amp \eqnspacer \amp \text{Subtract $4$ from both sides} 
+			\end{aligned}
+		</me>
+	</p>
+	<p>
+		It is often said that subtraction is addition of the opposite. This phrase is very close to our division phrase.
+		We will put these phrases next to each other to see the comparison.
+		<me>
+			\begin{array}{ccccc}
+				\text{Division} \amp \text{is} \amp \text{multiplication} \amp \text{by} \amp \text{the reciprocal.} \\
+				\text{Subtraction} \amp \text{is} \amp \text{addition} \amp \text{of} \amp \text{the opposite.}
+			\end{array}
+		</me>
+	</p>
+	<p>
+		<idx><h>field theory</h></idx>
+		This shows us that addition and multiplication are the fundamental operations on numbers. In some ways, this may
+		help to explain why addition is easier than subtraction and why multiplication is easier than division. Some
+		operations are just more basic and more fundamental than others. These ideas are also at the core of an area of
+		mathematics known as <term>field theory</term>, which is built on many of the ideas that we've already
+		encountered. So it turns out that high level mathematics has its roots in things that we teach to all students. 
+	</p>
+</section>

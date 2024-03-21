@@ -1,0 +1,66 @@
+<section xml:id="sec-div-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		We have now completed a tour of all four arithmetic operations: addition, subtraction, multiplication, and
+		division. We have seen that addition and subtraction are closely related to each other, and that multiplication
+		and division are closely related to each other. This touches on an idea that was discussed much earlier, but is
+		worth reviewing now that we have more knowledge and experience. 
+	</p>
+	<p>
+		In the early parts of this book (<xref ref="def-comm-assoc-prop-add"/> and
+		<xref ref="def-comm-assoc-prop-mult"/>), we introduced certain properties of addition and
+		multiplication: 
+		<ul>
+			<li>
+				<p>
+					The commutative properties: <m>a + b = b + a</m> and <m>a \cdot b = b \cdot a</m> 
+				</p>
+			</li>
+			<li>
+				<p>
+					The associative properties: <m>(a + b) + c = a + (b + c)</m> and
+					<m>(a \cdot b) \cdot c = a \cdot (b \cdot c)</m> 
+				</p>
+			</li>
+		</ul>
+		The fact that these properties hold for addition and multiplication, but not for subtraction and division, is a
+		signal that addition and multiplication are somehow more "basic" or more "fundamental" than the other
+		operations. And if we think back to the work that we've done over the last several sections, we can start to see
+		how that has played out in our analysis. 
+	</p>
+	<p>
+		Addition is closely tied to counting. When we add numbers, it can be viewed as a process of counting up by a
+		certain amount. We saw this when we were combining groups of objects together (whether using blocks, integer
+		chips, and even movements on the number line). But when we subtracted, we were still required to count up to a
+		number in some form. We had to count out the right number of negative chips, or we had to count up to the right
+		number of objects to take away, or we had to count up to the right number of movements. And so in all
+		situations, our core addition concept was part of the process of subtracting. 
+	</p>
+	<p>
+		Something similar happened with multiplication and division. The process of division required us to make groups
+		that built up to a specific value. We saw this explicitly when we were counting out multiples of numbers in the
+		division problems. We also saw this visually when we took individual objects and turned them into groups of
+		objects (multiplication is represented as groups of objects). 
+	</p>
+	<p>
+		<idx><h>logarithm</h></idx>
+		As you continue onward in your college level mathematics, you may start to see further hints of this idea. For
+		example, in the study of <term>logarithms</term>, you'll see that the primary relationship is between addition and
+		multiplication, and the relationship between subtraction and division turns out to be nothing more than a fancy
+		way of rewriting that relationship. Those calculations are included below. It's okay if you do not really
+		understand it right now. Just focus on the relationships between addition and multiplication and how they relate
+		to the relationships between subtraction and division. 
+		<ul>
+			<li>
+				<p>
+					The sum of logarithms: <m>\log(a) + \log(b) = \log(a \cdot b)</m> 
+				</p>
+			</li>
+			<li>
+				<p>
+					The difference of logarithms: <m>\log(a) - \log(b) = \log( \frac{a}{b} )</m>
+				</p>
+			</li>
+		</ul>
+	</p>
+</section>

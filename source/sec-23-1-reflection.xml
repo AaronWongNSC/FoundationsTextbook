@@ -1,0 +1,97 @@
+<section xml:id="sec-ref2-1-main">
+    <title>Another Pause for Reflection</title>
+
+    <p>
+        Congratulations! You have just completed the first two "branches" of the course.
+    </p>
+    <p>
+        In the first branch, we looked at some of the ideas of the coordinate plane, which will be important for
+        anything you do in the future that involves graphs. We also looked at the equations of lines, which are
+        important for both analytical mathematical calculations as well as applied mathematical calculations. It turns
+        out that lines are one of the core conceptual models we use in the development of calculus (approximating curves
+        with lines) and lines are one of the core applied models we use in applications (including in the development of
+        artificial intelligence).
+    </p>
+    <p>
+        In the second branch, we broadened our numerical experiences to include fractions and decimals. Fractions
+        represent a division concept and can be interpreted using the concept of parts of a whole. We saw that addition
+        and subtraction of fractions require us to work with a common denominator, and that the common denominator is
+        simply a way of allowing us to work with pieces that are all the same size, rather than pieces that are of
+        different sizes.
+    </p>
+    <p>
+        With that framework in mind, we saw that fraction multiplication is just a bookkeeping exercise, where
+        multiplying the numerators is tracking the number of wedges and multiplying the denominators is tracking the
+        size of the wedges. And this idea is what makes "multiply straight across" a logical and non-arbitrary
+        computational method. Next, we explored the relationship between multiplication and division, and focused on the
+        idea that these operations are inverses of each other. We also developed more computational methods for handling
+        increasingly complex fraction division calculations.
+    </p>
+    <p>
+        Finally, we looked at decimals as yet another representation of parts of a whole. By thinking about common
+        denominators, we saw that addition and subtraction was easiest to perform if we simply viewed the numbers as
+        having the same number of digits after the decimal point. We also saw that moving the decimal around in
+        multiplication calculations is the exact same concept we used in fraction multiplication, but presented in a
+        different way.
+    </p>
+    <p>
+        At this point, we're going to take another pause in order to let you practice your metacognitive skills by
+        thinking about what you've learned in order to continue to better understand our the development of your own
+        thinking.
+    </p>
+    <p>
+        In this portion of the course, we have covered the following topics:
+        <ul>
+            <li>
+                <p>
+                    Lines and the Coordinate Plane
+                </p>
+            </li>
+            <li>
+                <p>
+                    Slope-Intercept Form
+                </p>
+            </li>
+            <li>
+                <p>
+                    Solving Systems of Equations by Substitution
+                </p>
+            </li>
+            <li>
+                <p>
+                    Solving Systems of Equations by Elimination
+                </p>
+            </li>
+            <li>
+                <p>
+                    Fraction Basics
+                </p>
+            </li>
+            <li>
+                <p>
+                    Fraction Addition and Subtraction
+                </p>
+            </li>
+            <li>
+                <p>
+                    Fraction Multiplication
+                </p>
+            </li>
+            <li>
+                <p>
+                    Fraction Division
+                </p>
+            </li>
+            <li>
+                <p>
+                    Decimal Addition and Subtraction
+                </p>
+            </li>
+            <li>
+                <p>
+                    Multiplying Decimals and Percents
+                </p>
+            </li>
+        </ul>
+    </p>
+</section>

@@ -1,0 +1,271 @@
+<section xml:id="sec-moe-1-main">
+	<title>Make it Go Away</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Solve systems of linear equations using elimination.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		We have seen that we can solve systems of linear equations using substitution, but that one of the challenges of
+		this method was the computational problem of manipulating fractions. The method of elimination is another
+		approach to solving systems of equations that mostly sidesteps the issue (at least at this level), which often
+		makes it a more efficient approach. 
+	</p>
+	<p>
+		The core concept of this method is a slightly different use of axioms of equality that were introduced in
+		<xref ref="sec-bap-1-main"/> mixed in with a substitution. We can add the same value to both sides of an
+		equation without losing the equality. The only twist is that we use two different representations in the
+		addition step. Here is how it looks: 
+		<me>
+			\text{If $a = b$ and $c = d$, then $a + c = b + d$.}
+		</me>
+	</p>
+	<p>
+		The challenge is to find useful equations so that adding the equations together gives a helpful result. Here are
+		two examples to compare: 
+	</p>
+	<image xml:id="sec-moe-1-elimination-attempts" width="60%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (-3,0) node[anchor=north] {$
+					\begin{array} {rcrcr}
+						2x \amp + \amp 3y \amp = \amp 3 \\
+						3x \amp + \amp 2y \amp = \amp 5 \\ \hline
+						5x \amp + \amp 5y \amp = \amp 8
+					\end{array} $}; 
+				\draw (3,0) node[anchor=north] {$
+					\begin{array} {rcrcr}
+						2x \amp + \amp y \amp = \amp 2 \\
+						x \amp - \amp y \amp = \amp 4 \\ \hline
+						3x \amp \amp \amp = \amp 6
+					\end{array} $}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		First, notice that the addition in columns is simply an organizational tool. By putting like terms together, it
+		simplifies the process of combining them and avoids errors. Second, notice that the final equation on the right
+		only has one variable even though the two initial equations had two variables. The goal of the method of
+		elimination is to eliminate one of the variables. This allows you to solve for the remaining variable. 
+	</p>
+	<activity xml:id="sec-moe-1-ac1-eliminiation-1">
+		<title>Solving a System by Elimination (Part 1)</title>
+		<p>
+			Here is the worked solution to the system of equations on the right (see above): 
+		</p>
+		<image xml:id="sec-moe-1-ac1-elimination-calculation" width="70%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (-3,0) node[anchor=north] {$
+						\begin{array} {rcrcr}
+							2x \amp + \amp y \amp = \amp 2 \\
+							x \amp - \amp y \amp = \amp 4 \\ \hline
+							3x \amp \amp \amp = \amp 6 \\
+							x \amp \amp \amp = \amp 2
+						\end{array} $}; 
+					\draw (3,0) node[anchor=north] {$
+						\begin{aligned}
+							x - y \amp = 4 \\
+							2 - y \amp = 4 \amp \eqnspacer \amp \text{Substitute $x = 2$} \\
+							-y \amp = 2 \\
+							y \amp = -2
+						\end{aligned} $}; 
+					\draw (0,-2.5) node[anchor=north] {The solution is $(x,y) = (2,-2)$.}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-moe-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Solve the system of equations below using the method of elimination.
+			<me>
+				\left\{
+					\begin{array}{rcrcr}
+						3x \amp + \amp y \amp = \amp 3 \\
+						-3x \amp + \amp 3y \amp = \amp -7 \\
+					\end{array}
+				\right.
+			</me> 
+		</p>
+		<solution>
+			<image xml:id="sec-moe-1-ti1-solution" width="70%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {
+							$\begin{array} {rcrcr}
+								3x \amp + \amp y \amp = \amp 3 \\
+								-3x \amp + \amp 3y \amp = \amp -7 \\ \hline
+								\amp \amp 4y \amp = \amp -4 \\
+								\amp \amp y \amp = \amp -1
+							\end{array} $}; 
+						\draw (6,0) node[anchor=north] {
+							$\begin{aligned}
+								3x + y \amp = 3 \\
+								3x + (-1) \amp = 3 \amp \amp \text{Substitute $x = 2$} \\
+								3x \amp = 4 \\
+								x \amp = \frac{4}{3}
+							\end{aligned} $}; 
+						\draw (3,-3) node[anchor=north] {The solution is $(x,y) = (\frac{4}{3},-1)$.}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<activity xml:id="sec-moe-1-ac2-elimination-2">
+		<title>Solving a System by Elimination (Part 2)</title>
+		<p>
+			Not all systems of equations are in a form that immediately lends itself to the method of elimination. Let's
+			take another look at the example on the left from earlier:
+			<me>
+				\left\{
+					\begin{array}{rcrcr}
+						2x \amp + \amp 3y \amp = \amp 3 \\
+						3x \amp + \amp 2y \amp = \amp 5 \\
+					\end{array}
+				\right.
+			</me> 
+		</p>
+		<p>
+			If we add these equations together directly, nothing will cancel out. But we can multiply either equation by
+			any non-zero number to change its form. And if this is done correctly, it will lead to cancellation. 
+		</p>
+		<image xml:id="sec-moe-1-ac2-elimination-calculation-1" width="60%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (0,0) node[anchor=north] {$
+						\begin{array} {rcrcr}
+							\strut 2x \amp + \amp 3y \amp = \amp 3 \\
+							\strut 3x \amp + \amp 2y \amp = \amp 5
+						\end{array} $}; 
+					\draw (2.5,0.1) node[anchor=north] {$
+						\begin{array} {c}
+							\strut \overset{\times (-3)}{\longrightarrow} \\
+							\strut \overset{\times 2}{\longrightarrow}
+						\end{array} $}; 
+					\draw (5.5,0) node[anchor=north] {$
+						\begin{array} {rcrcr}
+							\strut -6x \amp - \amp 9y \amp = \amp -9 \\
+							\strut 6x \amp + \amp 4y \amp = \amp 10 \\ \hline
+							\amp \amp -5y \amp = \amp 1 \\
+							\amp \amp y \amp = \amp -\frac{1}{5}
+						\end{array} $}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			From here, we can plug in <m>y = -\frac{1}{5}</m> into either of the original equations, but that will lead
+			to fraction manipulations. If we wanted to avoid those, we can just use the same idea to eliminate the terms
+			instead. 
+		</p>
+		<image xml:id="sec-moe-1-ac2-elimination-calculation-2" width="60%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (0,0) node[anchor=north] {$
+						\begin{array} {rcrcr}
+							\strut 2x \amp + \amp 3y \amp = \amp 3 \\
+							\strut 3x \amp + \amp 2y \amp = \amp 5
+						\end{array} $}; 
+					\draw (2.5,0.1) node[anchor=north] {$
+						\begin{array} {c}
+							\strut \overset{\times (-2)}{\longrightarrow} \\
+							\strut \overset{\times 3}{\longrightarrow}
+						\end{array} $}; 
+					\draw (5.5,0) node[anchor=north] {$
+						\begin{array} {rcrcr}
+							\strut -4x \amp - \amp 6y \amp = \amp -6 \\
+							\strut 9x \amp + \amp 6y \amp = \amp 15 \\ \hline
+							5x \amp \amp \amp = \amp 9 \\
+							x \amp \amp \amp = \amp \frac{9}{5}
+						\end{array} $}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			This leads to the solution <m>(x,y) = ( \frac{9}{5}, -\frac{1}{5} )</m>. 
+		</p>
+		<p>
+			<alert xml:id="sec-moe-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Solve the system of equations below using the method of elimination.
+			<me>
+				\left\{
+					\begin{array}{rcrcr}
+						2x \amp + \amp 3y \amp = \amp -7 \\
+						-3x \amp + \amp y \amp = \amp 3 \\
+					\end{array}
+				\right.
+			</me> 
+		</p>
+		<solution>
+			<image xml:id="sec-moe-1-ti2-solution" width="70%">
+				<latex-image>
+					\begin{tikzpicture}[scale=1.1]
+						\draw (0,0) node[anchor=north] {
+							$\left\{ \begin{array} {rcrcr}
+								2x \amp + \amp 3y \amp = \amp -7 \\
+								-3x \amp + \amp y \amp = \amp 3
+							\end{array} \right.$}; 
+						\begin{scope} [shift={(-2,-2)}]
+							\draw (-0.2,0) node[anchor=north] {
+								$\begin{array} {rcrcr}
+									\strut 2x \amp + \amp 3y \amp = \amp -7 \\
+									\strut -3x \amp + \amp y \amp = \amp 3
+								\end{array} $}; 
+							\draw (2.3,0.1) node[anchor=north] {
+								$\begin{array} {c}
+									\strut \overset{\times 3}{\longrightarrow} \\
+									\strut \overset{\times 2}{\longrightarrow}
+								\end{array} $}; 
+							\draw (5.3,0) node[anchor=north] {
+								$\begin{array} {rcrcr}
+									\strut 6x \amp + \amp 9y \amp = \amp -21 \\
+									\strut -6x \amp + \amp 2y \amp = \amp 6 \\ \hline
+									\amp \amp 11y \amp = \amp -15 \\
+									\amp \amp y \amp = \amp -\frac{15}{11}
+								\end{array} $}; 
+						\end{scope} 
+						\begin{scope} [shift={(-2,-5)}]
+						\draw (-0.2,0) node[anchor=north] {
+							$ \begin{array} {rcrcr}
+								\strut 2x \amp + \amp 3y \amp = \amp -7 \\
+								\strut -3x \amp + \amp y \amp = \amp 3
+							\end{array} $}; 
+						\draw (2.3,0.1) node[anchor=north] {
+							$ \begin{array} {c}
+								\strut \overset{\times 1}{\longrightarrow} \\
+								\strut \overset{\times (-3)}{\longrightarrow}
+							\end{array} $}; 
+						\draw (5.3,0) node[anchor=north] {
+							$ \begin{array} {rcrcr}
+								\strut 2x \amp + \amp 3y \amp = \amp -7 \\
+								\strut 9x \amp - \amp 3y \amp = \amp -9 \\ \hline
+								11x \amp \amp \amp = \amp -16 \\
+								x \amp \amp \amp = \amp - \frac{16}{11} \end{array} $}; 
+						\end{scope}
+						\draw (0,-8) node[anchor=north] {The solution is $(x,y) = (-\frac{16}{11},-\frac{15}{11})$.}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		There's no real "trick" to figuring out the numbers that you need to get the terms to cancel, but there is a
+		general heuristic. Once you've identified the variable you want to eliminate, find the least common multiple of
+		the coefficients, and multiply the equations by the appropriate value to make match, and then make sure that the
+		signs are opposite each other. While some instructors suggest that you can "subtract" the equations, this ends
+		up causing a lot of computational errors, and so it's usually better to use addition.
+
+	</p>
+	<aside>
+		<p>
+			There's nothing algebraically wrong with subtracting one equation from another. The problem is that it leads
+			to mistakes in the execution that can otherwise be avoided. 
+		</p>
+	</aside>
+</section>

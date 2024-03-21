@@ -1,0 +1,173 @@
+<section xml:id="sec-sese-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/04-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-sese-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Simplify the expression <m>2(7a - 4b) - 4(2a - b)</m> using a complete presentation. Show the
+				distribution step, the rearrangement step, the grouping step, and the arithmetic step. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Look through your presentation on the previous problem. Which steps do you think can most safely be
+				skipped in terms of demonstrating your understanding? In terms of avoiding errors? Explain your
+				reasoning. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify the expression <m>3(x^2 - 2x + 4) - 2(2x^2 + 5)</m> using a complete presentation. Show only
+				the steps that you think are the important. 
+			</p>
+			<aside>
+				<p>
+					Be sure to pick an appropriate level of explanation for the presentation you're providing.
+				</p>
+				<p>
+					Note that your instructor may set specific expectations for your presentation. If they do that, then
+					do what they tell you to do. Just remember that the real goal is to understand and be able to
+					communicate that understanding effectively. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sese-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Determine whether <m>p = -3</m> is a solution of the equation <m>-2p - 4 = -2</m>. 
+			</p>
+			<aside>
+				<p>
+					In other words, determine if the two sides of the equation give the same value when <m>p = -3</m>. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>7x = x + 24</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Consider the following presentation for solving the equation from the previous problem. 
+				<me>
+					\begin{aligned}
+						7x \amp = x + 24 \\
+						7x - x \amp = x + 24 - x \amp \eqnspacer \amp \text{Subtract $x$ from both sides} \\
+						7x - x \amp = x - x + 24 \amp \amp \text{Rearrange the terms} \\
+						7x - x \amp = (x - x) + 24 \amp \amp \text{Group the terms} \\
+						(7 - 1)x \amp = (1 - 1)x + 24 \amp \amp \text{Factor out the $x$} \\
+						6x \amp = 0x + 24 \amp \amp \text{Arithmetic} \\
+						6x \amp = 24 \amp \amp \text{Simplify} \\
+						\frac{6x}{6} \amp = \frac{24}{6} \amp \amp \text{Divide both sides by $6$} \\
+						x \amp = 4 \amp \amp \text{Arithmetic} 
+					\end{aligned}
+				</me>
+				The work above is all technically correct. Why do you think this would be considered a problematic
+				presentation? 
+			</p>
+			<aside>
+				<p>
+					Go beyond the idea that this it is too long. Think about the goals of the problem and how the work
+					relates to that goal. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sese-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Determine whether <m>q = -2</m> is a solution of the equation <m>3q + 1 = -q - 7</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>3(y + 4) - 2 = 2y - 7</m> using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					Hint: Find a way to simplify to left side of the equation by writing it without parentheses. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>3(2n - 1) + 5 = 4n - 8</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify the expression <m>4(a^2 - 2ab + 3b^2) - 3(a^2 + 4ab) - 3(ab + 2b^2)</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sese-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Verify that <m>y = 4</m> and <m>y = -4</m> are both solutions of the equation <m>-y^2 + 6 = -10</m>. 
+			</p>
+			<aside>
+				<p>
+					To verify the solution means to show by direct calculation that the equation is true. It's similar
+					to asking you to determine whether a given value is a solution, except that you already know that
+					the calculation is supposed to show that it is a true equation. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				For the previous problem, what mistake do you think would be common for students to make? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>5t + 8 = -3t + 15</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>-2(s -3) + 2 = 2s + 8</m> using a complete presentation. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-sese-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Solve the equation <m>5(2a + 7) - 3a + 4 = 3(a - 3) - (2a + 1)</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				There is no value of that makes the equation <m>3x + 5 = 5(x + 1) - 2x</m> false. This means that every
+				choice of the variable will result in a true equation. Attempt to solve the equation using the normal
+				method. Describe what your equation looks like and why it makes sense to conclude that all values of
+				make the equation true. 
+			</p>
+			<aside>
+				<p>
+					The situation described in this problem and the next often gets students confused. The point of this
+					is to remind you what the meaning of these equations are so that you aren't just blindly memorizing
+					more rules. It's important to understand the underlying logic of the problem. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				There is no value of that makes the equation <m>-2x + 3 = -2(2x + 1) + 2x</m> true. This means that
+				every choice of the variable will result in a false equation. Attempt to solve the equation using the
+				normal method. Describe what your equation looks like and why it makes sense to conclude that all values
+				of make the equation false. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

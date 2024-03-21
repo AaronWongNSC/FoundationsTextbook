@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--********************************************************************
+Copyright 2021-2023 Aaron Wong
+*********************************************************************-->
+
+<backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude" permid="gsI">
+
+    <appendix xml:id="appendix-definitions">
+        <title>Definitions</title>
+        <list-of elements="definition" divisions="chapter" empty="no"/>
+    </appendix>
+
+    <appendix xml:id="appendix-theorems">
+        <title>Theorems</title>
+        <list-of elements="theorem" divisions="chapter" empty="no"/>
+    </appendix>
+
+    <appendix xml:id="appendix-PDF-Textbooks">
+        <title>PDF Textbooks</title>
+        <p>
+            These are the PDFs of various versions of the textbook.
+        </p>
+        <p>
+            <ul>
+                <li>
+                    <url href="external/PDFTextbooks/20230510-Foundations_for_Success.pdf">LaTeX Version - May 2023</url>
+                </li>
+                <li>
+                    <url href="external/PDFTextbooks/20230509-PreTeXt-FoundationsTextbook.pdf">PreTeXt Version - May 2023</url>
+                </li>
+            </ul>
+        </p>
+    </appendix>
+
+    <appendix xml:id="appendix-PDF-Worksheets">
+        <title>PDF Worksheets</title>
+        <p>
+            <ul>
+                <li>
+                    <url href="external/worksheets/01-Worksheets.pdf">Section 1 Worksheet - Basic Algebraic Presentation: How We Write Affects How We Think</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/02-Worksheets.pdf">Section 2 Worksheet - Variables in Expressions and Equations: Letters are Numbers in Disguise</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/03-Worksheets.pdf">Section 3 Worksheet - Like and Unlike Terms: One of These Things is Not Like the Other</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/04-Worksheets.pdf">Section 4 Worksheet - Simplifying Expressions and Solving Equations: Read the Instructions</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/05-Worksheets.pdf">Section 5 Worksheet - Variables and Substitutions: This is a That</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/06-Worksheets.pdf">Section 6 Worksheet - Exponents: Don't Memorize These Formulas</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/07-Worksheets.pdf">Section 7 Worksheet - Products of Polynomials: Organization Will Set You Free</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/08-Worksheets.pdf">Section 8 Worksheet - Common Factors: You All Have This in Common</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/09-Worksheets.pdf">Section 9 Worksheet - Factoring Quadratic Polynomials: Lots of Methods, Not All Good</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/10-Worksheets.pdf">Section 10 Worksheet - Reading Mathematical Expressions: So Many Symbols!</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/11-Worksheets.pdf">Section 11 Worksheet - A Pause for Reflection</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/12-Worksheets.pdf">Section 12 Worksheet - Lines and the Coordinate Plane: Get it Straight</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/13-Worksheets.pdf">Section 13 Worksheet - Slope-Intercept Form: The Line in the Sand</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/14-Worksheets.pdf">Section 14 Worksheet - Point-Sope Form: Start Here, Go There</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/15-Worksheets.pdf">Section 15 Worksheet - The Method of Substitution: Replace This with That</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/16-Worksheets.pdf">Section 16 Worksheet - The Method of Elimination: Make it Go Away</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/17-Worksheets.pdf">Section 17 Worksheet - Fraction Basics: Facing Your Fear</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/18-Worksheets.pdf">Section 18 Worksheet - Fraction Addition and Subtraction: Find the Common Denominator</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/19-Worksheets.pdf">Section 19 Worksheet - Fraction Multiplication: Multiply Straight Across</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/20-Worksheets.pdf">Section 20 Worksheet - Fraction Division: Multiply by the Reciprocal</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/21-Worksheets.pdf">Section 21 Worksheet - Decimal Addition and Subtraction: Making Sense with Dollars and Cents</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/22-Worksheets.pdf">Section 22 Worksheet - Multiplying Decimals and Percents: What Percent Do You Understand?</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/23-Worksheets.pdf">Section 23 Worksheet - Another Pause for Reflection</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/24-Worksheets.pdf">Section 24 Worksheet - Rethinking Arithmetic: Visualizing Numbers</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/25-Worksheets.pdf">Section 25 Worksheet - Addition: Carry the One (or Maybe Not)</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/26-Worksheets.pdf">Section 26 Worksheet - Subtraction: Borrowing is Overrated</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/27-Worksheets.pdf">Section 27 Worksheet - Negatives on the Number Line: Through the Looking Glass</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/28-Worksheets.pdf">Section 28 Worksheet - Calculations with Integer Chips: When All the Chips are Down</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/29-Worksheets.pdf">Section 29 Worksheet - Arithmetic as Movement on the Number Line: Turn Around and Walk Backwards</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/30-Worksheets.pdf">Section 30 Worksheet - Multiplication: Making Groups of Things</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/31-Worksheets.pdf">Section 31 Worksheet - Division: Breaking Down the Mantra</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/32-Worksheets.pdf">Section 32 Worksheet - Yet Another Pause for Reflection</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/33-Worksheets.pdf">Section 33 Worksheet - Mathematical Relationships: Key Words are (Mostly) Evil</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/34-Worksheets.pdf">Section 34 Worksheet - Scientific Notation: Numbers That Are Annoyingly Big or Small</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/35-Worksheets.pdf">Section 35 Worksheet - Unit Conversions: Say Goodbye to the Mars Climate Orbiter</url>
+                </li>
+                <li>
+                    <url href="external/worksheets/36-Worksheets.pdf">Section 36 Worksheet - A Final Pause for Reflection</url>
+                </li>
+            </ul>
+        </p>
+    </appendix>
+
+    <index>
+        <title>Index</title>
+        <index-list />
+  </index>
+</backmatter>

@@ -1,0 +1,416 @@
+<section xml:id="sec-fas-1-main">
+	<title>Find the Common Denominator</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Understand the why a common denominator is important to addition and subtraction of fractions.
+				</p>
+			</li>
+			<li>
+				<p>
+					Identify common multiples and the least common multiple of numbers or variable expressions.
+				</p>
+			</li>
+			<li>
+				<p>
+					Add and subtract fractions with different denominators, including fractions with variables.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		Many students will say that they sometimes "forget" how to do arithmetic with fractions. This often results from
+		viewing fractions as purely a collection of symbols with particular rules for how to manipulate them. Their
+		forgetfulness sometimes leads them to guess at how to work with fractions. Here are some examples:
+		<me>
+			\begin{array}{ccc}
+    			\dfrac{3}{5} + \dfrac{8}{5} \overset{\times}{=} \dfrac{3 + 8}{5 + 5} = \dfrac{11}{10}
+					\amp \qquad \qquad \amp
+					\dfrac{2}{5} + \dfrac{5}{6} \overset{\times}{=} \dfrac{2 + 5}{5 \cdot 6} = \dfrac{7}{30} \\ \\
+			    \dfrac{4}{5} - \dfrac{1}{3} \overset{\times}{=} \dfrac{4 - 1}{5 - 3} = \dfrac{3}{2}
+					\amp \qquad \qquad \amp
+					\hspace{2cm} \dfrac{3}{5} - \dfrac{1}{3} \overset{\times}{=} \dfrac{3 - 1}{5 \cdot 3} = \dfrac{2}{15}
+			\end{array}
+		</me> 
+	</p>
+	<aside>
+		<p>
+			Of course, focusing on a mathematical understanding doesn't mean that incorrect calculations are acceptable. 
+		</p>
+	</aside>
+	<p>
+		It's not enough to simply identify that these calculations are incorrect. We have been emphasizing the
+		importance of mathematical reasoning throughout this book. Mathematical reasoning goes beyond simply pointing at
+		some rules and saying that they weren't properly followed. 
+	</p>
+	<p>
+		Let's take a step back and just think about some basic addition and subtraction. What do we mean by
+		<m>2 + 3</m>? There are several ways to think about it, but the one most people think about first is that you
+		are combining two collections of objects: 
+	</p>
+	<image xml:id="sec-fas-1-simple-addition" width="60%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5] 
+				\begin{scope}
+					\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (1.5,0) rectangle ++ (1,1); 
+					\draw (1.25,-0.5) node[anchor=north] {\strut $2$}; 
+					\draw (3.5,-0.5) node[anchor=north] {\strut $+$}; 
+					\draw (3.5,0.5) node[anchor=center] {\strut $+$}; 
+				\end{scope} 
+				\begin{scope} [shift={(4.5,0)}]
+					\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (1.5,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (3,0) rectangle ++ (1,1); 
+					\draw (2,-0.5) node[anchor=north] {\strut $3$}; 
+					\draw (5,-0.5) node[anchor=north] {\strut $=$}; 
+					\draw (5,0.5) node[anchor=center] {\strut $=$}; 
+				\end{scope} 
+				\begin{scope} [shift={(10.5,0)}]
+					\draw[fill=lightgray] (0,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (1.5,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (3,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (4.5,0) rectangle ++ (1,1); 
+					\draw[fill=lightgray] (6,0) rectangle ++ (1,1); 
+					\draw (3.5,-0.5) node[anchor=north] {\strut $5$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		This works well with integers because each piece is the same. But if we try to add fractions, we get a picture
+		that doesn't really make sense.
+	</p>
+	<image xml:id="sec-fas-1-not-addition" width="50%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5] 
+				\begin{scope}
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:180:1) -- cycle; 
+					\draw (0,0) ++ (180:1) arc (180:360:1); 
+					\draw (0,-2) node[anchor=center] {\strut $\frac{1}{2}$}; 
+					\draw (2,-2) node[anchor=center] {\strut $+$}; 
+					\draw (2,0) node[anchor=center] {\strut $+$}; 
+				\end{scope} 
+				\begin{scope} [shift={(4,0)}]
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:120:1) -- cycle; 
+					\draw (0,0) ++ (120:1) arc (120:360:1); 
+					\draw (0,0) -- ++ (240:1); 
+					\draw (0,-2) node[anchor=center] {\strut $\frac{1}{3}$}; 
+					\draw (2,-2) node[anchor=center] {\strut $=$}; 
+					\draw (2,0) node[anchor=center] {\strut $=$}; 
+				\end{scope} 
+				\begin{scope} [shift={(8,0)}]
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:300:1) -- cycle; 
+					\draw (0,0) ++ (300:1) arc (300:360:1); 
+					\draw (0,0) -- ++ (120:1); 
+					\draw (0,-2) node[anchor=center] {\strut $\frac{?}{?}$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			No, that last diagram is not <m>\frac{2}{3}</m>!
+		</p>
+	</aside>
+	<p>
+		The basic challenge of this is that the pieces are different sizes, so it doesn't really make sense to combine
+		them together like this. And this is the basic explanation of a common denominator. We cannot combine the parts
+		unless they are all the same size. 
+	</p>
+	<image xml:id="sec-fas-1-fraction-addition" width="90%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.5]
+				\begin{scope}
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:180:1) -- cycle; 
+					\draw (0,0) ++ (180:1) arc (180:360:1); 
+					\draw (0,-2) node[anchor=center] {\strut $\frac{1}{2}$}; 
+					\draw (2,-2) node[anchor=center] {\strut $+$}; 
+					\draw (2,0) node[anchor=center] {\strut $+$}; 
+				\end{scope} 
+				\begin{scope} [shift={(4,0)}]
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:120:1) -- cycle; 
+					\draw (0,0) ++ (120:1) arc (120:360:1); 
+					\draw (0,0) -- ++ (240:1); 
+					\draw (0,-2) node[anchor=center] {\strut $\frac{1}{3}$}; 
+					\draw (2,-2) node[anchor=center] {\strut $=$}; 
+					\draw (2,0) node[anchor=center] {\strut $=$}; 
+				\end{scope} 
+				\begin{scope} [shift={(8,0)}]
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:180:1) -- cycle; 
+					\draw (0,0) ++ (180:1) arc (180:360:1); 
+					\draw (0,0) -- ++ (60:1); 
+					\draw (0,0) -- ++ (120:1); 
+					\draw (0,0) -- ++ (240:1); 
+					\draw (0,0) -- ++ (300:1); 
+					\draw (0,-2) node[anchor=center] {\strut $\frac{3}{6}$}; 
+					\draw (2,-2) node[anchor=center] {\strut $+$}; 
+					\draw (2,0) node[anchor=center] {\strut $+$}; 
+				\end{scope} 
+				\begin{scope} [shift={(12,0)}]
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:120:1) -- cycle; 
+					\draw (0,0) ++ (120:1) arc (120:360:1); 
+					\draw (0,0) -- ++ (60:1); 
+					\draw (0,0) -- ++ (180:1); 
+					\draw (0,0) -- ++ (240:1); 
+					\draw (0,0) -- ++ (300:1); 
+					\draw (0,-2) node[anchor=center] {\strut $\frac{2}{6}$}; 
+					\draw (2,-2) node[anchor=center] {\strut $=$}; 
+					\draw (2,0) node[anchor=center] {\strut $=$}; 
+				\end{scope} 
+				\begin{scope} [shift={(16,0)}]
+					\draw[fill=lightgray] (0,0) -- ++ (1,0) arc (0:300:1) -- cycle; 
+					\draw (0,0) ++ (300:1) arc (300:360:1); 
+					\draw (0,0) -- ++ (60:1); 
+					\draw (0,0) -- ++ (120:1); 
+					\draw (0,0) -- ++ (180:1); 
+					\draw (0,0) -- ++ (240:1); 
+					\draw (0,-2) node[anchor=center] {\strut $\frac{5}{6}$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+        <idx><h>common denominator</h></idx>
+		A "common denominator" is simply a choice of a denominator that works well with the fractions. Mathematically,
+		this means that the chosen denominator is a common multiple of the denominators you're working with. Ideally,
+		we would use the least common denominator, but if a larger denominator is chosen, the arithmetic will still work
+		out. It would just mean that there may be an extra step of reducing the final answer. 
+	</p>
+	<p>
+		There are many ways to find common multiples of numbers. For fractions involving numbers, we can usually use
+		intuition and experience to get the correct value. But there are also other methods we can use for larger
+		numbers. One of those methods is a "brute force" method where you simply list out multiples of both numbers and
+		look for the smallest number to appear in both lists:
+	</p>
+	<image xml:id="sec-fas-1-least-common-multiple" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5]
+				\draw (0,0) node[anchor=east] {
+					\begin{tabular} {c}
+						Find the least \\ common multiple of \\ $12$ and $32$.
+					\end{tabular} }; 
+				\draw[-stealth] (0,0) -- (2,0); 
+				\draw (2,0) node[anchor=west] {
+					\begin{tabular} {ll}
+						Multiples of $12$: \amp $12, 24, 36, 48, 60, 72, 84, \boxed{96}, 108, \ldots$ \\
+						Multiples of $32$: \amp $32, 64, \boxed{96}, 128, 160, \ldots$
+					\end{tabular} }; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		This approach works and helps to reinforce the idea of common multiples, but it's a clumsy approach that doesn't
+		generalize to variable expressions. A more robust and intuitive approach builds off of finding the greatest
+		common factors. 
+	</p>
+	<activity xml:id="sec-fas-1-ac1-least-common-multiple-integers">
+		<title>Calculating the Least Common Multiple of Integers</title>
+
+		<p>
+			To find the least common multiple of 12 and 32, we will start off by factoring out the greatest common
+			factor from each number:
+			<me>
+				\begin{array}{lcl}
+					12 \amp = \amp 4 \cdot 3 \\
+					32 \amp = \amp 4 \cdot 8
+				\end{array}
+			</me>
+			Notice that the common factor is already shared between the two numbers, so we can leave that part alone.
+			The remaining parts are what we might call "unshared" factors. Each part is missing the other's unshared
+			factor, and so those are the things we need to multiply by to find the least common multiple.
+			<me>
+				\begin{array}{rclcl}
+					12 \cdot 8 \amp = \amp (4 \cdot 3) \cdot 8 \amp = \amp 96 \\
+					32 \cdot 3 \amp = \amp (4 \cdot 8) \cdot 3 \amp = \amp 96
+				\end{array}
+			</me> 
+		</p>
+		<aside>
+			<p>
+				The middle step is to help you see the logic of the process. 
+			</p>
+		</aside>
+		<aside>
+			<p>
+				We're not going to worry too much about the presentation of this process. This will quickly become a
+				mental calculation. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-fas-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Find the least common multiple of 30 and 42.
+		</p>
+		<solution>
+			<p>
+				<me>
+					\left. \begin{array}{ll}
+						30 \amp = 6 \cdot 5 \\
+						42 \amp = 6 \cdot 7
+					\end{array} \right\}
+					\longrightarrow
+					\left\{ \begin{array}{lll}
+						30 \cdot 7 \amp = 210 \\
+						42 \cdot 5 \amp = 210
+					\end{array} \right.
+				</me> 
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-fas-1-ac2-least-common-multiple-monomial">
+		<title>Calculating the Least Common Multiple of Monomials</title>
+
+		<p>
+			This same approach can be used for finding common multiples of variable expressions. We will use it to find
+			the least common multiple of <m>9x^2y</m> and <m>15x y^4</m>.
+			<me>
+				\left.
+					\begin{array}{lcl}
+						9x^2 y \amp = \amp 3xy \cdot 3x \\
+						15xy^4 \amp = \amp 3xy \cdot 5y^3
+					\end{array}
+				\right\} \longrightarrow
+				\left\{
+					\begin{array}{lcl}
+						9x^2 y \cdot 5y^3 \amp = \amp 45x^2y^4 \\
+						15xy^4 \cdot 3x \amp = \amp 45x^2y^4
+					\end{array}
+				\right.
+			</me> 
+		</p>
+		<p>
+			<alert xml:id="sec-fas-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Find the least common multiple of <m>4a^2 b^3</m> and <m>12 a^3 b</m>. 
+		</p>
+		<solution>
+			<p>
+				<me>
+					\left. \begin{array}{ll}
+						4a^2b^3 \amp = 4a^2 b \cdot b^2 \\
+						12a^3 b \amp = 4a^2 b \cdot 3a
+					\end{array} \right\}
+					\longrightarrow
+					\left\{ \begin{array}{lll}
+						4a^2b^3 \cdot 3a \amp = 12a^3 b^3 \\
+						12a^3 b \cdot b^2 \amp = 12a^3 b^3
+					\end{array} \right.
+				</me> 
+			</p>
+		</solution>
+	</activity>
+	<p>
+		Finding the least common multiple of two expressions is simply a part of adding and subtracting fractions.
+		Once we identify what the least common multiple of the denominators is (the least common denominator), we
+		then need to rewrite both fractions with that denominator, and then add the results. 
+	</p>
+	<activity xml:id="sec-fas-1-ac3-add-fractions-numbers">
+		<title>Adding Fractions of Numbers</title>
+		<aside>
+			<p>
+				The last two steps are just arithmetic. We're at the point where we're not going to say anything about it anymore. 
+			</p>
+		</aside>
+		<p>
+			Here is the calculation of <m>\frac{1}{2} + \frac{1}{3}</m>: 
+			<me>
+				\begin{aligned}
+					\frac{1}{2} + \frac{1}{3} \amp = \frac{1 \cdot 3}{2 \cdot 3} + \frac{1 \cdot 2}{3 \cdot 2}
+						\amp \eqnspacer \amp \text{Common denominator} \\
+					\amp = \frac{3}{6} + \frac{2}{6} \\
+					\amp = \frac{5}{6} 
+				\end{aligned}
+			</me>
+		</p>
+		<aside>
+			<p>
+				If you are comfortable with these calculations, you can combine the first two steps into one. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-fas-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>\frac{2}{5} + \frac{3}{7}</m>.
+		</p>
+	<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						\frac{2}{5} + \frac{3}{7} \amp = \frac{2 \cdot 7}{5 \cdot 7} + \frac{3 \cdot 5}{7 \cdot 5} \amp \eqnspacer \amp \text{Common denominator} \\
+						\amp = \frac{14}{35} + \frac{15}{35} \\
+						\amp = \frac{29}{35} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-fas-1-ac4-subtract-fractions-numbers">
+		<title>Subtracting Fractions of Numbers</title>
+		<aside>
+			<p>
+				This concept for subtraction works for subtraction involving positive values and giving a positive
+				result. For negatives, things get a little more nuanced. 
+			</p>
+		</aside>
+		<p>
+			Subtraction is conceptually different from addition. With subtraction, you are starting with a collection of
+			objects and then taking objects away from that collection. But the same idea for the common denominator
+			still holds. In order for the subtraction to make sense, we need to be working with objects of the same size. 
+		</p>
+		<p>
+			<alert xml:id="sec-fas-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>\frac{5}{4} - \frac{5}{6}</m>.
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						\frac{5}{4} - \frac{5}{6} \amp = \frac{5 \cdot 3}{4 \cdot 3} - \frac{5 \cdot 2}{6 \cdot 2} \amp \eqnspacer \amp \text{Common denominator} \\
+						\amp = \frac{15}{12} - \frac{10}{12} \\
+						\amp = \frac{5}{12} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<activity xml:id="sec-fas-1-ac5-add-fractions-monomials">
+		<title>Adding Fractions of Monomials</title>
+		<p>
+			The same logic can be applied to adding or subtracting fractions with variables in them. Sometimes you will
+			be able to combine like terms, and sometimes you won't. You simply need to pay attention to the information
+			that's in front of you. 
+			<me>
+				\begin{aligned}
+					\frac{2x}{y} + \frac{3y}{x^2} \amp = \frac{2x \cdot x^2}{y \cdot x^2} + \frac{3y \cdot y}{x^2 \cdot y}
+						\amp \eqnspacer \amp \text{Common denominator} \\
+					\amp = \frac{2x^3}{x^2y} + \frac{3y^2}{x^2y} \\
+					\amp = \frac{2x^3 + 3y^2}{x^2y} 
+				\end{aligned}
+			</me>
+		</p>
+		<p>
+			<alert xml:id="sec-fas-1-ac5-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>\frac{2x}{3y} + \frac{5}{7x}</m>.
+		</p>
+		<solution>
+			<p>
+				<me>
+					\begin{aligned}
+						\frac{2x}{3y} + \frac{5}{7x} \amp = \frac{2x \cdot 7x}{3y \cdot 7x} + \frac{5 \cdot 3y}{7x \cdot 3y} \amp \eqnspacer \amp \text{Common denominator} \\
+						\amp = \frac{14x^2}{21xy} + \frac{15y}{21xy} \\
+						\amp = \frac{14x^2 + 15y}{21xy} 
+					\end{aligned}
+				</me>
+			</p>
+		</solution>
+	</activity>
+</section>

@@ -1,0 +1,249 @@
+<section xml:id="sec-vee-2-worksheets">
+	<title>Worksheets</title>
+
+
+	<p>
+		<url href="external/worksheets/02-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-vee-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Determine the value of <m>3x - 5</m> when <m>x = 4</m>, <m>x = 9</m>, and <m>x = -5</m>. Write your
+				results as if-then statements. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve <m>y + c = 7</m> for <m>y</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve <m>x^2 + c = 7</m> for <m>x^2</m> using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					How did you solve <m>y + c = 7</m> for the variable <m>y</m>? Do the same thing here. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>ax + b = c</m> for the variable <m>x</m> using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					One of the biggest hurdles for students in math is a lack of self confidence to the point that they
+					shut down without even trying. Trust yourself that you have the knowledge and experience to solve
+					this one, and just give it a try. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-vee-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Determine the value of <m>2x - 5y</m> when <m>x = 4</m> and <m>y = 2</m>, and when <m>x = 2</m>, and
+				<m>y = -3</m>. Write your results as if-then statements. 
+			</p>
+			<aside>
+				<p>
+					There is no example in the book for how to deal with two variable substitutions at the same time,
+					but you can figure it out.
+				</p>
+				<p>
+					For the "then" part of your sentence, you only need to say <m>2x - 5y = \text{(number)}</m>. We'll
+					discuss the presentation of this later. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+			</p>
+			<aside>
+				<p>
+					Hint: In this problem, there's nothing wrong with the fraction manipulations. You can use that part
+					of the calculation as a model for future problems. 
+				</p>
+			</aside>
+			<p>
+				<me>
+					\begin{aligned}
+						2x + 4y \amp = 10 \\
+						4y \amp = 2x + 10 \amp \amp \text{Add $2x$ to both sides} \\
+						y \amp = \frac{2x + 10}{4} \amp \amp \text{Divide both sides by $4$} \\
+						y \amp = \frac{2x}{4} + \frac{10}{4} \amp \amp \text{Rewrite the fraction} \\
+						y \amp = \frac{x}{2} + \frac{5}{2} \amp \amp \text{Reduce} 
+					\end{aligned}
+				</me>
+			</p>
+			<aside>
+				<p>
+					Eventually, the dividing and rewriting should be something you can do mentally in one step. Whether
+					you rewrite the one fraction as two separate fractions will depend on the context. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>2x + 3y = 6</m> for the variable <m>y</m> using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					This is a common type of calculation when working with equations of lines. We'll see more of this
+					later. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>2x + 3y = 6</m> for the variable <m>x</m> using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					This looks a lot like the previous problem. Pay attention to the details of the wording in the
+					instructions. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-vee-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Determine the value of when <m>x = 0</m>, <m>x = 4</m>, and <m>x = -3</m>. Write your results as if-then
+				statements. 
+			</p>
+			<aside>
+				<p>
+					Recall that <m>x^2 = x \cdot x</m>.
+				</p>
+				<p>
+					What happens if you multiply a negative number by another negative number? 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve <m>4x - 3y = 6</m> for <m>y</m> using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					Be careful with your negative signs. Remember that <m>\frac{a}{-b} = -\frac{a}{b}</m>. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve <m>ax + by = c</m> for <m>y</m> using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Work backwards from the given information to derive the original presentation. 
+			</p>
+			<aside>
+				<p>
+					Try not to feel overwhelmed. If you've done the worksheets up to this point, you can do this one. 
+				</p>
+			</aside>
+			<p>
+				<me>
+					\begin{aligned}
+						\\
+						\\
+						\amp \amp \amp \text{Add $c$ to both sides} \\
+						\\
+						a \amp = \frac{b + c}{d} \amp \amp \text{Divide both sides by $d$} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-vee-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Determine the value of <m>x^2 + 2y^2</m> when <m>x = -1</m> and <m>y = 2</m>, and when <m>x = -2</m> and
+				<m>y = -1</m>. Write your results as if-then statements. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve <m>ax + by = c</m> for using a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>3x - 2y - 4z = 24</m> for the variable using a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					This is not dramatically different the two variable problems. Trust yourself and give it a try. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-vee-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Solve the equation <m>(x - 5) + a = b</m> for the expression <m>(x - 5)</m>. 
+			</p>
+			<aside>
+				<p>
+					This may seem odd right now, but being able to solve for a complicated variable expression is an
+					important skill to develop. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>3 (y + 3) + a = b</m> for the expression <m>(y + 3)</m>. 
+			</p>
+			<aside>
+				<p>
+					Think of the entire set of parentheses as a single object. Do not distribute the 3. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Work backwards from the given information to derive the original presentation. 
+			</p>
+			<aside>
+				<p>
+					This is a challenging problem! You may want to look back at some of the problems on previous
+					worksheets in this section.
+				</p>
+				<p>
+					When you're done, you should check your work by reading it from top to bottom. 
+				</p>
+			</aside>
+			<p>
+				<me>
+					\begin{aligned}
+						\\
+						\\
+						\amp \amp \amp \text{Add 4 to both sides} \\
+						\\
+						\amp \amp \amp \text{Divide both sides by 6} \\
+						\\
+						\amp \amp \amp \text{Rewrite the fraction} \\
+						\\
+						a \amp = \frac{b}{6} + \frac{2}{3} \amp \amp \text{Reduce} 
+					\end{aligned}
+				</me>
+			</p>
+			<aside>
+				<p>
+					Hint: The <m>\frac{2}{3}</m> was the part that was reduced. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+</section>

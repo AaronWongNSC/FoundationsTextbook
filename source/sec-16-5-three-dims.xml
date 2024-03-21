@@ -1,0 +1,331 @@
+<section xml:id="sec-moe-5-deeper">
+	<title>Going Deeper: Three Dimensional Systems</title>
+	<p>
+		In the last couple sections, we've looked at systems of two linear equations with two variables. We saw that
+		there was a geometric aspect to understanding these systems by looking at the graphs of the lines, and we also
+		saw that there was an algebraic aspect by looking at the methods of solving these systems. We are going to take
+		a look at what happens when we increase the complexity by looking at systems of three equations and three
+		variables. Here is an example: 
+		<me>
+			\left\{ \begin{array}{rcrcrcr}
+				2x \amp - \amp y \amp - \amp z \amp = \amp 1 \\
+				x \amp + \amp 2y \amp + \amp z \amp = \amp 4 \\
+				x \amp + \amp y \amp - \amp z \amp = \amp 4
+			\end{array} \right.
+		</me> 
+	</p>
+	<p>
+		We will first wrap our minds around the geometric understanding of these equations. It turns out that these
+		formulas form planes and that planes are the natural shape to generalize the "linear-ness" of lines in two
+		variables. When we think about three simultaneous systems of equations in three variables, we're looking for a
+		point that lies on all three planes. Since the number of dimensions has increased, it makes sense that the
+		number of possible arrangements would also increase. However, we still have the three same basic classifications
+		that we had before. There will either be zero solutions, one solution, or infinitely many solutions. 
+	</p>
+	<image xml:id="sec-moe-5-three-possibilities" width="100%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope} [shift={(0,0)}]
+					\draw[blue, fill=blue!30!white] (0,0) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+					\draw[red, fill=red!30!white] (0,-0.75) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+					\draw[green!50!black, fill=green!30!white] (0,-1.5) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+				\end{scope} 
+				\begin{scope} [shift={(4,-0.25)}]
+					\draw[green!50!black, fill=green!30!white] (1,-1.25) -- ++ (30:1) -- ++ (0,0.5) -- ++ (30:-1) -- ++ (0,-0.5); 
+					\draw[red, fill=red!30!white] (0,-0.75) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+					\draw[green!50!black, fill=green!30!white] (1,-0.75) -- ++ (30:1) -- ++ (0,0.75) -- ++ (30:-1) -- ++ (0,-0.75); 
+					\draw[blue, fill=blue!30!white] (0,0) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+					\draw[green!50!black, fill=green!30!white] (1,0) -- ++ (30:1) -- ++ (0,0.75) -- ++ (30:-1) -- ++ (0,-0.75); 
+					\draw (1,-0.75) -- ++ (30:1); 
+					\draw (1,0) -- ++ (30:1); 
+				\end{scope} 
+				\begin{scope} [shift={(8,-0.75)}]
+					\draw[red, fill=red!30!white] (0.20,-0.5) -- ++ (30:1) -- ++ (60:0.577) -- ++ (30:-1) -- ++ (60:-0.577); 
+					\draw[green!50!black, fill=green!30!white] (1.8,-0.5) -- ++ (30:1) -- ++ (120:0.577) -- ++ (30:-1) -- ++ (120:-0.577); 
+					\draw[blue, fill=blue!30!white] (0,0) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+					\draw[red, fill=red!30!white] (0.20,-0.5) ++ (60:0.577) -- ++ (30:1) -- ++ (60:1.023) -- ++ (30:-1) -- ++ (60:-1.023); 
+					\draw (0.20,-0.5) ++ (60:0.577) -- ++ (30:1); 
+					\draw[green!50!black, fill=green!30!white] (1.8,-0.5) ++ (120:0.577) -- ++ (30:1) -- ++ (120:1.023) -- ++ (30:-1) -- ++ (120:-1.023); 
+					\draw (1.8,-0.5) ++ (120:0.577) -- ++ (30:1); 
+					\draw[green!50!black, fill=green!30!white] (1.8,-0.5) ++ (120:1.6) -- ++ (30:1) -- ++ (120:0.4) -- ++ (30:-1) -- ++ (120:-0.4); 
+					\draw[red, fill=red!30!white] (0.20,-0.5) ++ (60:1.6) -- ++ (30:1) -- ++ (60:0.4) -- ++ (30:-1) -- ++ (60:-0.4); 
+					\draw (0.2,-0.5) ++ (60:1.6) -- ++ (30:1); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		In each of the systems above, there are no solutions. This may seem unusual at first, since there are clearly
+		some points of intersection. However, we are working with <em>simultaneous</em> systems of equations, which
+		means that we're looking for points that lie on <em>all three</em> planes, not just pairs of planes. Notice that
+		we cannot use the simple heuristic of just thinking about whether the planes are parallel, because the diagram
+		on the right shows that it's possible to have no solutions even though none of the planes are parallel to each
+		other. 
+	</p>
+	<p>
+		A key observation about these diagrams is that when there are intersections between planes, it forms a line.
+		This is always true of the intersection of two planes, which is an idea we'll come back to when we look at the
+		algebra. 
+	</p>
+	<image xml:id="sec-moe-5-coordinate-planes" width="70%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope} [shift={(0,0)}]
+					\draw[blue, fill=blue!30!white] (1,0) ++ (30:1) -- ++ (30:1) -- ++ (1,0) -- ++ (30:-1) -- ++ (-1,0); 
+					\draw[green!50!black, fill=green!30!white] (1,0) ++ (30:1) -- ++ (30:1) -- ++ (0,1) -- ++ (30:-1) -- ++ (0,-1); 
+					\draw[red, fill=red!30!white] (0,-1) ++ (30:1) -- ++ (2,0) -- ++ (0,2) -- ++ (-2,0) -- ++ (0,-2); 
+					\draw[blue, fill=blue!30!white] (0,0) -- ++ (30:1) -- ++ (1,0) -- ++ (30:-1) -- ++ (-1,0); 
+					\draw (0,0) ++ (30:1) -- ++ (1,0); 
+					\draw[green!50!black, fill=green!30!white] (1,-1) -- ++ (30:1) -- ++ (0,2) -- ++ (30:-1) -- ++ (0,-2); 
+					\draw (1,-1) ++ (30:1) -- ++ (0,1); 
+					\draw[blue, fill=blue!30!white] (1,0) -- ++ (30:1) -- ++ (1,0) -- ++ (30:-1) -- ++ (-1,0); 
+					\draw (1,0) -- ++ (30:1) -- ++ (1,0); 
+					\draw (1,0) ++ (30:1) -- ++ (0,1); 
+					\draw[fill=black] (1,0) ++ (30:1) circle (0.06); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		This is an example of a system with one solution. Although everything is drawn to be at right angles with each
+		other, there is a lot of flexibility in terms of the relative positions of the planes. You should be able to
+		visualize each pair of planes forming a line, and that each of those lines cross each other in exactly one
+		place. 
+	</p>
+	<aside>
+		<p>
+			The diagram stacks are meant to indicate that the planes overlap each other. It's hard to visually represent
+			that without having at least some separation between them. 
+		</p>
+	</aside>
+	<image xml:id="sec-moe-5-infinite-solutions" width="100%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope} [shift={(0,0)}]
+					\draw[blue, fill=blue!30!white] (0,0) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+					\draw[red, fill=red!30!white] (0,0.04) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+					\draw[green!50!black, fill=green!30!white] (0,0.08) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+				\end{scope} 
+				\begin{scope} [shift={(4,0)}]
+					\draw[green!50!black, fill=green!30!white] (1,-1) -- ++ (30:1) -- ++ (0,1) -- ++ (30:-1) -- ++ (0,-1); 
+					\draw[blue, fill=blue!30!white] (0,0) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+					\draw[red, fill=red!30!white] (0,0.04) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+					\draw[green!50!black, fill=green!30!white] (1,0.04) -- ++ (30:1) -- ++ (0,1) -- ++ (30:-1) -- ++ (0,-1); 
+					\draw (1,0.04) -- ++ (30:1); 
+				\end{scope} 
+				\begin{scope} [shift={(8,0)}]
+					\draw[red, fill=red!30!white] (1,0) -- ++ (30:1) -- ++ (60:-1) -- ++ (30:-1) -- ++ (60:1); 
+					\draw[green!50!black, fill=green!30!white] (1,0) -- ++ (30:1) -- ++ (-60:1) -- ++ (30:-1) -- ++ (-60:-1); 
+					\draw[blue, fill=blue!30!white] (0,0) -- ++ (30:1) -- ++ (2,0) -- ++ (30:-1) -- ++ (-2,0); 
+					\draw[green!50!black, fill=green!30!white] (1,0) -- ++ (30:1) -- ++ (-60:-1) -- ++ (30:-1) -- ++ (-60:1); 
+					\draw[red, fill=red!30!white] (1,0) -- ++ (30:1) -- ++ (60:1) -- ++ (30:-1) -- ++ (60:-1); 
+					\draw (1,0) -- ++ (30:1); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Lastly, we have these configurations to get infinitely many points of intersection. The diagram on the left has
+		all three planes overlapping each other. The middle diagram has two planes overlapping each other with the third
+		plane cutting across them. The last diagram has all three planes intersecting along the same line. Even though
+		these all have infinitely many solutions, there is a distinction between the first one and the last two.
+		Intuitively, what we're seeing are different numbers of dimensions in the overlap. The intersection of the
+		first diagram is a two-dimensional plane, whereas the intersection of the last two are a one-dimensional line. 
+	</p>
+	<aside>
+		<p>
+			This suggests that we might call the single point of intersection a zero-dimensional object. 
+		</p>
+	</aside>
+	<p>
+		When it comes to solving these systems algebraically, it's just the methodical application of either
+		substitution or elimination to reduce the number of variables. Conceptually, we're going to find the
+		intersection of planes to get lines, then find the intersection of lines to get points. When working through the
+		process, it's much more about keeping the work organized so that you don't get lost. 
+	</p>
+	<subsection>
+		<title>Solving Three Dimensional Systems by Substitution</title>
+		<p>
+			<me>
+				\left\{ \begin{array}{rcrcrcr}
+					2x \amp - \amp y \amp - \amp z \amp = \amp 1 \\
+					x \amp + \amp 2y \amp + \amp z \amp = \amp 4 \\
+					x \amp + \amp y \amp - \amp z \amp = \amp 4
+				\end{array} \right.
+			</me> 
+		</p>
+		<aside>
+			<p>
+				Just as with the systems with two equations, there are many paths to the solution. You are encouraged to try other paths for practice. 
+			</p>
+		</aside>
+		<p>
+			We will solve the first equation for <m>z</m>:
+			<me>
+				\begin{aligned}
+					2x - y - z \amp = 1 \\
+					z \amp = 2x - y - 1
+				\end{aligned}
+			</me>
+			Then we will substitute this into the other equations and simplify:
+			<me>
+				\begin{aligned}
+					x + 2y + z \amp = 4 \\
+					x + 2y + (2x - y - 1) \amp = 4 \\
+					3x + y = \amp 5
+				\end{aligned}
+				\qquad\qquad
+				\begin{aligned}
+					x + y - z \amp = 4 \\
+					x + y - (2x - y - 1) \amp = 4 \\
+					-x + 2y \amp = 3
+				\end{aligned}
+			</me>
+			We can now solve for <m>y</m> in the first of the new equations: 
+			<me>
+				\begin{aligned}
+					3x + y \amp = 5 \\
+					y \amp = -3x + 5
+				\end{aligned}
+			</me>
+			And plug that into the second of the new equations and solve for <m>x</m>:
+			<me>
+				\begin{aligned}
+					-x + 2y \amp = 3 \\
+					-x + 2(-3x + 5) \amp = 3 \\
+					-7x + 10 \amp = 3 \\
+					x \amp = 1 
+				\end{aligned}
+			</me>
+			We can now work backwards to get the remaining variables.
+			<me>
+				\begin{aligned}
+					y \amp = -3x + 5 \\
+					\amp = -3(1) + 5 \\
+					\amp = 2
+				\end{aligned}
+				\qquad\qquad
+				\begin{aligned}
+					z \amp = 2x - y - 1 \\
+					\amp = 2(1) - (2) - 1 \\
+					\amp = -1
+				\end{aligned}
+			</me>
+			The solution of the system of equations is <m>(x,y,z) = (1,2,-1)</m>. 
+		</p>
+		<aside>
+			<p>
+				<idx><h>back substitution</h></idx>
+				This process is often called <term>back substitution</term>. 
+			</p>
+		</aside>
+	</subsection>
+	<subsection>
+		<title>Solving Three Dimensional Systems by Elimination</title>
+		<p>
+			<me>
+				\left\{ \begin{array}{rcrcrcr}
+					2x \amp - \amp y \amp - \amp z \amp = \amp 1 \\
+					x \amp + \amp 2y \amp + \amp z \amp = \amp 4 \\
+					x \amp + \amp y \amp - \amp z \amp = \amp 4
+				\end{array} \right.
+			</me> 
+		</p>
+		<p>
+			We will first eliminate <m>z</m> twice by first combining the first two equations then the last two
+			equations:
+		</p>
+		<image xml:id="sec-moe-5-eliminate-z" width="70%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (-3,0) node[anchor=north] {
+						$\begin{array} {rcrcrcr}
+							\strut 2x \amp - \amp y \amp - \amp z \amp = \amp 1 \\
+							\strut x \amp + \amp 2y \amp + \amp z \amp = \amp 4 \\ \hline
+							3x \amp + \amp y \amp \amp \amp = \amp 5
+						\end{array} $}; 
+					\draw (3,0) node[anchor=north] {
+						$\begin{array} {rcrcrcr}
+							\strut x \amp + \amp 2y \amp + \amp z \amp = \amp 4 \\
+							\strut x \amp + \amp y \amp - \amp z \amp = \amp 4 \\ \hline
+							2x \amp + \amp 3y \amp \amp \amp = \amp 8
+						\end{array} $}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			We will now combine these equations to eliminate <m>x</m>:
+		</p>
+		<image xml:id="sec-moe-5-eliminate-x" width="70%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (-3,0) node[anchor=north] {
+						$\begin{array} {rcrcr}
+							\strut 3x \amp + \amp y \amp = \amp 5 \\
+							\strut 2x \amp + \amp 3y \amp = \amp 8 \\ \hline
+						\end{array} $}; 
+					\draw (-0.5,0.1) node[anchor=north] {
+						$\begin{array} {c}
+							\strut \overset{\times 2}{\longrightarrow} \\
+							\strut \overset{\times (-3)}{\longrightarrow}
+						\end{array} $}; 
+					\draw (2.7,0) node[anchor=north] {
+						$\begin{array} {rcrcr}
+							\strut 6x \amp + \amp 2y \amp = \amp 10 \\
+							\strut -6x \amp - \amp 9y \amp = \amp -24 \\ \hline
+							\amp \amp -7y \amp = \amp -14 \\
+							\amp \amp y \amp = \amp 2
+						\end{array} $}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			Then combine them again to eliminate <m>y</m>:
+		</p>
+		<image xml:id="sec-moe-5-eliminate-y" width="70%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (-3,0) node[anchor=north] {
+						$\begin{array} {rcrcr}
+							\strut 3x \amp + \amp y \amp = \amp 5 \\
+							\strut 2x \amp + \amp 3y \amp = \amp 8 \\ \hline
+						\end{array} $}; 
+					\draw (-0.5,0.1) node[anchor=north] {
+						$\begin{array} {c}
+							\strut \overset{\times (-3)}{\longrightarrow} \\
+							\strut \overset{\times 1}{\longrightarrow}
+						\end{array} $}; 
+					\draw (2.7,0) node[anchor=north] {
+						$\begin{array} {rcrcr}
+							\strut -9x \amp - \amp 3y \amp = \amp -15 \\
+							\strut 2x \amp + \amp 3y \amp = \amp 8 \\ \hline
+							-7x \amp \amp \amp = \amp -7 \\
+							\amp \amp x \amp = \amp 1
+						\end{array} $}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			While we could be stubborn and go through this process again to solve for <m>z</m> using elimination, it
+			makes much more sense to simply substitute the known values into one of the original equations to solve for
+			<m>z</m>. We will use the first equation.
+			<me>
+				\begin{aligned}
+					2x - y - z \amp = 1 \\
+					2(1) - (2) - z \amp = 1 \\
+					-z \amp = 1 \\
+					z \amp = -1
+				\end{aligned}
+			</me>
+		</p>
+		<aside>
+			<p>
+				You should be able to plug the values of <m>x</m> and <m>y</m> into any of the original equations and get
+				the same result. 
+			</p>
+		</aside>
+		<p>
+			The solution of the system of equations is <m>(x,y,z) = (1,2,-1)</m>.
+		</p>
+	</subsection>
+</section>

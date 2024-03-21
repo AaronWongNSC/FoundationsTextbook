@@ -1,0 +1,37 @@
+<section xml:id="sec-uc-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		Understanding how to manipulate units is an important skill for science courses, but these types of conversions
+		happen all the time in ways that you might not expect. For example, if you have $10 and a plate of 3 street
+		tacos costs $2.50, you can convert $10 to 4 plates of tacos, and 4 plates of tacos to 12 individual street
+		tacos. You probably won't need to write out the conversion factors, and that's okay. Remember that the goal is
+		to understand what unit conversions do and how they work. The goal is not that you would learn that math is a
+		set of rules you must follow. 
+	</p>
+	<p>
+		This example may seem intuitive, but that intuition comes with familiarity and experience. Even though you may
+		not have found a 3 street tacos for $2.50 deal, you understand how it works. If you have an intuitive sense for
+		how these conversions work and you understand how unit manipulations work, then it's not as difficult to solve
+		problems in situations where you have less familiarity. 
+	</p>
+	<p>
+		Every now and then, there's an internet math meme that shows up that is an example of unit conversions gone
+		wrong. Here is one example:
+	</p>
+	<p>
+		"The winner of the next lottery will win $1300 million. There are 300 million people in the US.
+		<me>
+			\frac{\$1300 \text{ million}}{300 \text{ million}} = \$4.33 \text{ million}
+		</me>
+		Why not just give everyone $4.33 million?"
+	</p>
+	<p>
+		Can you spot the error? (Hint: Think about we have manipulated units in fractions throughout this entire
+		section.)
+	</p>
+	<aside>
+		<p>
+			No, we're not going to give you the answer. 
+		</p>
+	</aside>
+</section>

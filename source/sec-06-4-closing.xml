@@ -1,0 +1,39 @@
+<section xml:id="sec-exp-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		There is a balance between writing out all the steps and just using formulas. Just as with other algebraic steps
+		(such as combining like terms), eventually the expectation is that both the person writing things out and the
+		person reading it will be comfortable enough that all of the individual steps will not need to be written out. 
+	</p>
+	<aside>
+		<p>
+			Please do not simply guess and hope you guessed correctly! Take responsibility for your knowledge and make
+			the intellectual effort to do the best you can! 
+		</p>
+	</aside>
+	<p>
+		But even as you get more experience, there will come moments when you can't quite remember the formula. When
+		this happens, there is a mantra you can use to help jog your memory: "When in doubt, write it out!" What this
+		means is that you can always fall back on the basic ideas to recover these formulas. 
+	</p>
+	<p>
+		Remember that exponents, in their most basic form, are just a shorthand notation for repeated multiplication.
+		After that, it's just logic. 
+	</p>
+	<p>
+		<term>The Product Rule for Exponents</term>:
+		<me>
+			x^m \cdot x^n
+			= \underbrace{\underbrace{(x \cdot x \cdots x)}_{\text{$m$ times}} \cdot \underbrace{(x \cdot x \cdots x)}_{\text{$n$ times}}}_{\text{$m +n$ times}}
+			= x^{m+n}
+		</me> 
+	</p>
+	<p>
+		<term>The Power Rule for Exponents</term>:
+		<me>
+			\left( x^m \right)^n
+			= \underbrace{ \underbrace{(x \cdot x \cdots x)}_{\text{m times}} \cdot \underbrace{(x \cdot x \cdots x )}_{\text{$m$ times}} \cdots \underbrace{(x \cdot x \cdots x )}_{\text{$m$ times}}}_{\text{$n$ groups of $m$ times}}
+			= x^{mn}
+		</me> 
+	</p>
+</section>

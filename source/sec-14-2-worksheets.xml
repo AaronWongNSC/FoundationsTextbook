@@ -1,0 +1,153 @@
+<section xml:id="sec-psf-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/14-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-psf-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Determine the point-slope form of the line that passes through the point <m>(1, 2)</m> with slope
+				<m>-2</m> then convert that equation to slope-intercept form. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the point-slope form of the line that passes through the point <m>(-4, 1)</m> with slope
+				<m>\frac{5}{2}</m> then convert that equation to slope-intercept form. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the point-slope form of the line that passes through the point <m>(2, -3)</m> with slope
+				<m>-\frac{1}{4}</m> then convert that equation to slope-intercept form. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the point-slope form of the line that passes through the point <m>(-3, -2)</m> with slope
+				<m>\frac{5}{3}</m> then convert that equation to slope-intercept form. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-psf-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Determine the equation of the line that passes through the point <m>(-1, 3)</m> with slope
+				<m>-\frac{2}{3}</m>, then graph it.
+			</p>
+			<image xml:id="sec-psf-2-wksht-2-1" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Identify the point and slope used to create the equation <m>y - 2 = \frac{3}{2}(x - 4)</m>, then graph the line. 
+			</p>
+			<image xml:id="sec-psf-2-wksht-2-2" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-psf-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Find two point-slope equations for the line that passes through the points <m>(-2, 1)</m> and <m>(5, 5)</m>.
+			</p>
+			<aside>
+				<p>
+					How do you find the slope of a line that passes through two given points? 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Find two point-slope equations for the line that passes through the points <m>(-3, 4)</m> and <m>(4, -3)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Find two point-slope equations for the line that passes through the points <m>(2, -3)</m> and <m>(-1, 4)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Find two point-slope equations for the line that passes through the points <m>(-2, -1)</m> and <m>(3, -1)</m>.
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-psf-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Find three different point-slope forms for the given line. 
+			</p>
+			<image xml:id="sec-psf-2-wksht-4-1" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+						\draw (-5.5,-0.75) -- (5.5,4.75); 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Find three different point-slope forms for the given line. 
+			</p>
+			<image xml:id="sec-psf-2-wksht-4-2" width="50%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+						\draw (-5.5,2.333) -- (5.5,-5); 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-psf-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Find a point-slope form of the line that passes through the point <m>(0, b)</m> with slope <m>m</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Find a point-slope form of the line that passes through the point <m>(a, 0)</m> with slope <m>m</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Two lines are parallel if they have the same slope. Find the point-slope form of the line that passes
+				through the point <m>(2, -1)</m> that is parallel to the line <m>y = 2x - 3</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Two lines are parallel if they have the same slope. Find the point-slope form of the line that passes
+				through the point <m>(-1, -3)</m> that is parallel to the line <m>y - 2 = \frac{4}{3} (x + 1)</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

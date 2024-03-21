@@ -1,0 +1,98 @@
+<section xml:id="sec-pop-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		In this section, we saw the last of the algebraic properties of arithmetic. 
+	</p>
+    <definition xml:id="def-comm-assoc-prop-mult">
+        <title>The Commutative and Associative Properties of Multiplication</title>
+        <idx><h>commutative property of multiplication</h></idx>
+        <idx><h>associative property of multiplication</h></idx>
+        <statement>
+            <p>
+                Let <m>a</m>, <m>b</m>, and <m>c</m> be real numbers. Then the following properties hold:
+				<ul>
+					<li>
+						<p>
+							<term>The Commutative Property of Multiplication</term>: <m>a \cdot b = b \cdot a</m>
+						</p>
+					</li>
+					<li>
+						<p>
+							<term>The Associative Property of Multiplication</term>: <m>(a \cdot b) \cdot c = a \cdot (b \cdot c)</m>
+						</p>
+					</li>
+				</ul>
+            </p>
+        </statement>
+    </definition>
+	<p>
+		If this looks familiar, it's because we saw something very similar to it a few sections ago. It turns out that
+		addition also has these two properties (<xref ref="def-comm-assoc-prop-add" />). And when we combine them
+		together with the distributive property (<xref ref="def-distributive-property" />), we get a pretty thorough
+		description of how arithmetic and algebra works. 
+	</p>
+	<p>
+		It's important to notice that we've never proven any of these properties. We've relied on our experiences going
+		all the way back to when we were first learning basic arithmetic as our foundation. And from those experiences,
+		we've built out our understanding that this is how numbers work. The world would be a very different place if
+		these things weren't true. 
+	</p>
+	<p>
+		<ul>
+			<li>
+				<p>
+					(The commutative property of addition) If we start with an empty bag, then put one apple into bag
+					followed by two apples, we get the same result as if we had put in two apples followed by one apple. 
+				</p>
+			</li>
+			<li>
+				<p>
+					(The associative property of addition) If we put one apple and two oranges in a bag, and then put
+					three bananas in afterward, we get the same result as if we had put the two oranges and three
+					bananas in the bag first, and then put the one apple in. 
+				</p>
+			</li>
+			<li>
+				<p>
+					(The commutative property of multiplication) Three bag of five apples have the same number as five
+					bags of three apples. 
+				</p>
+			</li>
+			<li>
+				<p>
+					(The associative property of multiplication) Two boxes that each contain three bags with four apples
+					has the same number of apples as (two times three) bags with four apples each. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			The associative property of multiplication is tricky because we rarely think of what it means to multiply
+			three numbers together. 
+		</p>
+	</aside>
+	<p>
+		So at a very basic level, we believe these statements are true because our experiences with reality tell us they
+		should be true. These are not rules that mathematicians came up with and told everyone else they had to follow.
+		Mathematicians simply created a language to describe these things. 
+	</p>
+	<aside>
+		<p>
+			Replacing numbers with variables is an example of an abstraction. Symbolically representing multiplication
+			with a grid is another. 
+		</p>
+	</aside>
+	<p>
+		When it comes to college level mathematics, it can be helpful to think about the work you're doing with that
+		framework in mind. As much as you can, try to ground all the work that you do in terms of practical reality.
+		You won't always be able to do it. Sometimes, the work that you're doing is an abstraction or generalization of
+		a concept. If that's the case, try to bring yourself back to the last example that made sense, and see if you
+		can use that knowledge to help you build the next piece. 
+	</p>
+	<p>
+		This isn't always going to be easy. Some ideas will take more time to sink in than others. That's part of the
+		nature of learning. But if you invest the time and the energy to slow down and learn to think clearly about what
+		you're doing, you'll have a much better chance at being successful.
+	</p>
+</section>

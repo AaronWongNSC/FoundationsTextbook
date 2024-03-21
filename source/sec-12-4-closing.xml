@@ -1,0 +1,36 @@
+<section xml:id="sec-lcp-4-closing">
+	<title>Closing Ideas</title>
+	<aside>
+		<p>
+			The algebra is also important. We'll see more of that in the next section. 
+		</p>
+	</aside>
+	<p>
+		This section focused more on developing your intuition for lines than on the algebra. Linear equations are
+		extremely common in practical applications. For example, if a burger costs $3 and you want 5 burgers to bring to
+		your friends, how much will that cost? This can be modeled as a linear equation. 
+	</p>
+	<p>
+		Of course, simple cases such as this can be done with simple methods. As you start to work with "real life"
+		situations, it's usually not going to solved by quick mental arithmetic. You're going to need better tools in
+		your toolbox. And this is where having a background in algebraic reasoning and mathematical thinking will help. 
+	</p>
+	<p>
+		As you worked your way through the worksheets, you might have started to notice that moving from one point to
+		another along a line always required your variables to change in tandem. For example, the might increase by
+		every time the decreased by We will see that this is a reflection of the idea of the "slope" of a line, which we
+		will explore more deeply in the next section. 
+	</p>
+	<p>
+		<idx><h>interpolation</h></idx>
+		<idx><h>extrapolation</h></idx>
+
+		Without telling you, there were two types of modeling that were introduced in the last couple worksheets. These
+		are known as <term>interpolation</term> and <term>extrapolation</term>. The basic idea of interpolation means to
+		fill in data points	between existing data points. (See <xref ref="sec-lcp-5-deeper" />.) Extrapolation
+		means modeling data beyond the existing data points. Linear equations are often used for models of these types.
+		It's usually more complicated because real life data rarely ever fits exactly on a line, so you have to go
+		through a process of finding the "best" line that matches the data, but that application will have to wait for a
+		science or business course.
+	</p>
+</section>

@@ -1,0 +1,97 @@
+<section xml:id="sec-fas-5-deeper">
+	<title>Going Deeper: Adding and Subtracting Rational Expressions</title>
+	<p>
+		In some ways, the exercises in this section give a false impression of working with rational expressions. It is
+		not often the case that we're adding and subtracting the types of <em>monomial</em> expressions that were
+		presented. The reason the exercises look that way is because the emphasis is on learning to recognize when the
+		denominators have common factors and when they don't, which leads to knowing what to multiply by to create the
+		common denominators. By using different variables, it's much easier for students to train themselves to
+		recognize the common factors. 
+	</p>
+	<aside>
+		<p>
+			More specifically, the most common manipulation you will encounter will involve binomial factors. 
+		</p>
+	</aside>
+	<p>
+		It's likely that you will only ever encounter single variable rational expressions. But the skill of identifying
+		different terms will still come into play because you will need to recognize when <em>polynomial</em> factors
+		are the same or different. For example, instead of working with fractions of the form
+		<me>
+			\frac{1}{a} + \frac{1}{b}
+		</me>
+		you will be working with fractions of the form
+		<me>
+			\frac{1}{x + 2} + \frac{1}{x - 3}.
+		</me> 
+	</p>
+	<p>
+		In the previous "Going Deeper" section, we emphasized the importance of multiplicative factors when reducing
+		rational expressions. The same idea holds for adding and subtracting rational expressions. We need to think in
+		terms of multiplicative factors. The way we accomplish this is to think of the whole binomial as a single
+		object. Basically, we want to envision a set of parentheses around each binomial.
+		<me>
+			\frac{1}{x + 2} + \frac{1}{x - 3} = \frac{1}{(x + 2)} + \frac{1}{(x - 3)}
+		</me>
+		And once we have done this, all of the experience that we were developing in this section can come into play.
+		All of the previous logic applies to this calculation.
+	</p>
+	<aside>
+		<p>
+			We encourage students to leave the denominator as a product. Since it's easier to multiply than it is to
+			factor, it makes more sense to leave it in the form that is easier to work with. 
+		</p>
+	</aside>
+	<p>
+		<me>
+			\begin{aligned}
+				\frac{1}{x + 2} + \frac{1}{x - 3}
+				\amp = \frac{1 \cdot (x - 3)}{(x + 2) \cdot (x - 3)} + \frac{1 \cdot (x + 2)}{(x - 3) \cdot (x + 2)} \amp \eqnspacer \amp \text{Common denominator} \\
+				\amp = \frac{x - 3}{(x + 2)(x - 3)} + \frac{x + 2}{(x + 2)(x - 3)} \\
+				\amp = \frac{(x - 3) + (x + 2)}{(x + 2)(x - 3)} \\
+				\amp = \frac{2x - 1}{(x + 2)(x - 3)} 
+			\end{aligned}
+		</me>
+	</p>
+	<aside>
+		<p>
+			This idea goes all the way back to <xref ref="sec-lult-1-main" /> . 
+		</p>
+	</aside>
+	<p>
+		When subtracting rational expressions, it's extremely important to keep the parentheses around terms when
+		subtracting. This did not come up in the section because we were only working with monomial terms. But when
+		working with binomials, those parentheses are critical to avoid errors. 
+		<me>
+			\begin{aligned}
+				\frac{x}{x - 1} - \frac{3}{x + 3}
+				\amp = \frac{x \cdot (x + 3)}{(x - 1) \cdot (x + 3)} - \frac{3 \cdot (x - 1)}{(x + 3) \cdot (x - 1)} \amp \eqnspacer \amp \text{Common denominator} \\
+				\amp = \frac{x^2 + 3x}{(x - 1)(x + 3)} - \frac{3x - 3}{(x - 1)(x + 3)} \\
+				\amp = \frac{(x^2 + 3x) - (3x - 3)}{(x - 1)(x + 3)} \\
+				\amp = \frac{x^2 + 3x - 3x + 3}{(x - 1)(x + 3)} \\
+				\amp = \frac{x^2 + 3}{(x - 1)(x + 3)} 
+			\end{aligned}
+		</me>
+	</p>
+	<p>
+		In some expressions, you may find that after adding or subtracting, it may be possible to factor the numerator.
+		When you can see a way to factor, it's best to do it. The reason is that sometimes these factorization steps
+		will reveal that the fraction can be reduced or simplified, which can be very helpful. 
+		<me>
+			\begin{aligned}
+				\frac{1}{x - 2} + \frac{x - 5}{(x - 2)(x + 1)}
+				\amp = \frac{1 \cdot (x + 1)}{(x - 2) \cdot (x + 1)} + \frac{x - 5}{(x - 2)(x + 1)} \amp \eqnspacer \amp \text{Common denominator} \\
+				\amp = \frac{x + 1}{(x - 2)(x + 1)} + \frac{x - 5}{(x - 2)(x + 1)} \\
+				\amp = \frac{(x + 1) + (x - 5)}{(x - 2)(x + 1)} \\
+				\amp = \frac{2x - 4}{(x - 2)(x + 1)} \\
+				\amp = \frac{2(x - 2)}{(x - 2)(x + 1)} \\
+				\amp = \frac{2 \cdot \cancel{(x - 2)}}{(x + 1) \cdot \cancel{(x - 2)}} \\
+				\amp = \frac{2}{x + 1} 
+			\end{aligned}
+		</me>
+	</p>
+	<p>
+		It is hard to know in advance which calculations will lead to fractions that reduce and which ones don't,
+		so you will just want to get into the habit of factoring the numerator when you can.
+	</p>
+</section>

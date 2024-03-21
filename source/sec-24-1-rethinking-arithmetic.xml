@@ -1,0 +1,545 @@
+<section xml:id="sec-ra-1-main">
+	<title>Visualizing Numbers</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Understand the representation of positive and negative numbers on a number line.
+				</p>
+			</li>
+			<li>
+				<p>
+					Properly use the symbols <m> \gt </m> and <m> \lt </m> to write mathematical relationships between numbers.
+				</p>
+			</li>
+			<li>
+				<p>
+					Interpret place values using base-10 blocks.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		An important aspect of mathematical thinking is the ability to represent ideas in several different ways. Even
+		something as simple as a number can have multiple representations, and those different representations have
+		different applications. And it may seem simple, but even just representing numbers as a collection of dots or
+		squares is a technique used in higher levels of mathematics to help discover patterns and prove mathematical
+		relationships. 
+	</p>
+	<p>
+		We've already used two different representations of numbers in this book. The first is the number line, and the
+		second is the place value system. We're going to spend some time exploring these ideas a little more closely to
+		deepen our mathematical thinking. 
+	</p>
+	<aside>
+		<p>
+			Horizontal lines are convenient because we read left-to-right, which creates a forward/backward intuition
+			that helps.
+		</p>
+	</aside>
+	<p>
+		The number line is the ordering of numbers in a straight line based on their values. Traditionally, this line is
+		drawn horizontally, though there is no reason that this has to be the case. In fact, the coordinate plane is
+		actually two number lines drawn together where one of them is drawn vertically. 
+	</p>
+	<aside>
+		<p>
+			Does it even make sense to talk about the "middle" of an infinitely long object? Maybe not, but just a basic
+			intuition is good enough for this. 
+		</p>
+	</aside>
+	<p>
+		We can think of the number of as being at the middle of the number line, with positive numbers to the right
+		of it and negative numbers to the left of it. 
+	</p>
+	<image xml:id="sec-ra-1-number-line" width="90%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw[stealth-stealth] (-7,0) -- (7,0); 
+				\foreach \i in {-6,...,6} {
+					\draw[fill=black] (\i, 0) circle (0.1); 
+					\draw (\i, -0.1) node[anchor=north] {\small $\i$}; 
+				}
+				\draw (0,0) -- (0,1) node[anchor=south] {Zero}; 
+				\draw[-stealth] (0,0.5) -- (4,0.5) node[anchor=south,midway] {Positive}; 
+				\draw[-stealth] (0,0.5) -- (-4,0.5) node[anchor=south,midway] {Negative}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		We can visualize any part of the real line that we want using any sense of scale that we want. It does
+		not always need to include zero. If the actual location is important, then you should try to use an equal
+		spacing. But sometimes all we need is a symbolic representation of the locations. Regardless, it is very
+		important that we always keep the order the same, especially with negative numbers. For a portion of the
+		line that only has negative numbers, remember that going to the left makes the numbers more negative. Here are
+		some examples: 
+		<ul>
+			<li>
+				<p>
+					A number line with zero and positive numbers using an increment of 10:
+				</p>
+				<image xml:id="sec-ra-1-number-line-ex-1" width="90%">
+					<latex-image>
+						\begin{tikzpicture}
+							\draw[stealth-stealth] (-1,0) -- (11,0); 
+							\foreach \i in {0,2,...,10} {
+									\draw[fill=black] (\i, 0) circle (0.1); 
+							}
+							\draw (0, -0.1) node[anchor=north] {\small $0$}; 
+							\draw (2, -0.1) node[anchor=north] {\small $10$}; 
+							\draw (4, -0.1) node[anchor=north] {\small $20$}; 
+							\draw (6, -0.1) node[anchor=north] {\small $30$}; 
+							\draw (8, -0.1) node[anchor=north] {\small $40$}; 
+							\draw (10, -0.1) node[anchor=north] {\small $50$}; 
+						\end{tikzpicture} 
+					</latex-image>
+				</image>
+			</li>
+			<li>
+				<p>
+					A number line with negative numbers using an increment of 50:
+				</p>
+				<image xml:id="sec-ra-1-number-line-ex-2" width="90%">
+					<latex-image>
+						\begin{tikzpicture}
+							\draw[stealth-stealth] (-1,0) -- (11,0); 
+							\foreach \i in {0,2,...,10} {
+									\draw[fill=black] (\i, 0) circle (0.1); 
+							}
+							\draw (0, -0.1) node[anchor=north] {\small $-400$}; 
+							\draw (2, -0.1) node[anchor=north] {\small $-350$}; 
+							\draw (4, -0.1) node[anchor=north] {\small $-300$}; 
+							\draw (6, -0.1) node[anchor=north] {\small $-250$}; 
+							\draw (8, -0.1) node[anchor=north] {\small $-200$}; 
+							\draw (10, -0.1) node[anchor=north] {\small $-150$}; 
+						\end{tikzpicture} 
+					</latex-image>
+				</image>
+			</li>
+			<li>
+				<p>
+					A representation of the relative locations of the numbers -200 and 1:
+				</p>
+				<image xml:id="sec-ra-1-number-line-ex-3" width="70%">
+					<latex-image>
+						\begin{tikzpicture}
+							\draw[stealth-stealth] (1,0) -- (9,0); 
+							\draw[fill=black] (2, 0) circle (0.1); 
+							\draw[fill=black] (8, 0) circle (0.1); 
+							\draw (2, -0.1) node[anchor=north] {\small $-200$}; 
+							\draw (8, -0.1) node[anchor=north] {\small $1$}; 
+						\end{tikzpicture} 
+					</latex-image>
+				</image>
+			</li>
+			<li>
+				<p>
+					An approximation of the locations of the numbers -15, 0, and 100:
+				</p>
+				<image xml:id="sec-ra-1-number-line-ex-4" width="80%">
+					<latex-image>
+						\begin{tikzpicture}
+							\draw[stealth-stealth] (-2,0) -- (7,0); 
+							\draw[fill=black] (-1, 0) circle (0.1); 
+							\draw[fill=black] (0, 0) circle (0.1); 
+							\draw[fill=black] (6, 0) circle (0.1); 
+							\draw (-1, -0.1) node[anchor=north] {\small $-15$}; 
+							\draw (0, -0.1) node[anchor=north] {\small $0$}; 
+							\draw (6, -0.1) node[anchor=north] {\small $100$}; 
+						\end{tikzpicture} 
+					</latex-image>
+				</image>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			You would prefer your bank account to be $10 instead of -$1,000,000 even though the latter is a "bigger"
+			number. 
+		</p>
+	</aside>
+	<p>
+		As we move away from the numbers get bigger in size. The phrase "bigger in size" is important, because the words
+		"bigger" and "smaller" on their own create confusion with negative numbers. The size of a number is often called
+		its absolute value (or magnitude). Intuitively, is a "big" number by size, but it can also represent a large
+		deficit instead of a large quantity. To avoid that confusion, we use the phrases "greater than" and "less than"
+		when comparing numbers. These words take away the possibility of misinterpreting the comparison of two numbers. 
+	</p>
+    <definition xml:id="def-greater-than-less-than">
+        <title>Greater Than and Less Than</title>
+        <idx><h>greater than</h></idx>
+        <idx><h>less than</h></idx>
+        
+        <statement>
+            <p>
+				For any two numbers <m>a</m> and <m>b</m>, we say that <m>a</m> is <term>greater than</term> <m>b</m>
+				(written symbolically as <m>a \gt b</m>) if <m>a</m> is to the right of <m>b</m> on the number line. We
+				say that <m>a</m> is <term>less than</term> <m>b</m> (written symbolically as <m>a \lt b</m>) if <m>a</m>
+				is to the left of <m>b</m> on the number line.
+            </p>
+        </statement>
+    </definition>
+
+	<aside>
+		<p>
+			Don't try to learn these rules. They're not good for you. 
+		</p>
+	</aside>
+	<p>
+		Using the number line to visualize the locations of numbers is a natural approach to comparing numbers. Some
+		students learn a slightly complex set of rules for comparing numbers: 
+		<ul>
+			<li>
+				<p>
+					If both numbers are positive, then the bigger number is greater than the smaller number. 
+				</p>
+			</li>
+			<li>
+				<p>
+					If one number is positive and the other is negative, then the positive number is greater than the
+					negative number. 
+				</p>
+			</li>
+			<li>
+				<p>
+					If both numbers are negative, then the bigger number is less than the smaller number. 
+				</p>
+			</li>
+		</ul>
+		While this is accurate, it ends up causing confusion because it turns it into a practice of rule-following
+		rather than developing an understanding. 
+	</p>
+	<activity xml:id="sec-ra-1-ac1-ordering-numbers">
+		<title>Ordering Numbers</title>
+			<p>
+				Ordering numbers is a skill that simply requires some practice. The best intuition comes from starting
+				at and thinking about the number of steps in which direction is required to reach a value. For example,
+				starting from 0, to get to the number -45 you would have to move to the left, and on the way you'll pass
+				-21. And to reach the number 37 you would start from 0 and move to the right, and when you get there,
+				you won't have yet passed 68. This could be represented on a number line. 
+			</p>
+		<image xml:id="sec-ra-1-ac1-number-line" width="70%">
+			<latex-image>
+				\begin{tikzpicture}[scale=0.8]
+					\draw[stealth-stealth] (-5,0) -- (7,0); 
+					\draw[fill=black] (-4, 0) circle (0.1); 
+					\draw[fill=black] (-2, 0) circle (0.1); 
+					\draw[fill=black] (0, 0) circle (0.1); 
+					\draw[fill=black] (3, 0) circle (0.1); 
+					\draw[fill=black] (6, 0) circle (0.1); 
+					\draw (-4, -0.1) node[anchor=north] {\small $-45$}; 
+					\draw (-2, -0.1) node[anchor=north] {\small $-21$}; 
+					\draw (0, -0.1) node[anchor=north] {\small $0$}; 
+					\draw (3, -0.1) node[anchor=north] {\small $37$}; 
+					\draw (6, -0.1) node[anchor=north] {\small $68$}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-ra-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Put the numbers 36, 11, -58, -3, and 132 in order on a number line. 
+		</p>
+		<solution>
+			<image xml:id="sec-ra-1-ti1-solution" width="70%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.8]
+						\draw[stealth-stealth] (-5,0) -- (7,0); 
+						\draw[fill=black] (0.55, 0) circle (0.1); 
+						\draw[fill=black] (1.8, 0) circle (0.1); 
+						\draw[fill=black] (-0.15, 0) circle (0.1); 
+						\draw[fill=black] (-2.9, 0) circle (0.1); 
+						\draw[fill=black] (6.6, 0) circle (0.1); 
+						\draw (0.55, -0.1) node[anchor=north] {\small $11$}; 
+						\draw (1.8, -0.1) node[anchor=north] {\small $36$}; 
+						\draw (-0.15, -0.1) node[anchor=north] {\small $-3$}; 
+						\draw (-2.9, -0.1) node[anchor=north] {\small $-58$}; 
+						\draw (6.6, -0.1) node[anchor=north] {\small $132$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<activity xml:id="sec-ra-1-ac2-comparing-numbers">
+		<title>Comparing Numbers</title>
+		<p>
+			Once you are comfortable with locating numbers on the number line, then comparisons thinking about "to the
+			left of" (for "less than") and "to the right of" (for "greater than") are straightforward. Based on the
+			number line diagram above, we can immediately check the following comparisons: 
+			<me>
+				-45 \lt 37
+					\qquad 68 \gt 0
+					\qquad -21 \gt -45
+					\qquad -21 \lt 68
+			</me> 
+		</p>
+		<aside>
+			<p>
+				Check these! 
+			</p>
+		</aside>
+		<p>
+		</p>
+		<aside>
+			<p>
+				The sentences <m>5 \gt 3</m> and <m>3 \lt 5</m> are considered to be different sentences even though they
+				express the same fact. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-ra-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Write all mathematical sentences that compare the numbers -14, 10, and 31.
+		</p>
+		<solution>
+			<p>
+				<me>
+				\begin{array}{ccccc}
+					-14 \lt 10 \amp \phantom{.} \hspace{1cm} \phantom{.} \amp -14 \lt 31 \amp \phantom{.}  \hspace{1cm} \phantom{.} \amp 10 \lt 31 \\
+					10 \gt -14 \amp \amp 31 \gt -14 \amp \amp 31 \gt 10
+				\end{array}
+				</me> 
+			</p>
+		</solution>
+	</activity>
+	<p>
+		The second representation of numbers that we've used is the place value system. This is the way that you're
+		already familiar with writing numbers, and we discussed it briefly when we looked at decimals. But there is
+		another way of looking at these numbers that have an important generalization to other mathematical ideas. 
+	</p>
+	<aside>
+		<p>
+			Some people use different names for these shapes. The names don't actually matter. 
+		</p>
+	</aside>
+	<p>
+        <idx><h>base-10 blocks</h></idx>
+
+		In early elementary school, a common manipulative that's used to help teach children numbers are known as
+		base-10 blocks. These are basically just plastic or wooden pieces that come in three different shapes. 
+	</p>
+	<image xml:id="sec-ra-1-base-10-blocks" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.3] 
+				\begin{scope}
+					\draw[ultra thick,fill=blue!50!white] (0,0) rectangle (1,1); 
+					\draw (0.5,-0.5) node[anchor=north] {\strut ``Unit cube"}; 
+				\end{scope} 
+				\begin{scope} [shift={(10,0)}]
+					\draw[ultra thick,fill=green!50!white] (0,0) rectangle (1,10); 
+					\draw (0,1) -- ++ (1,0); 
+					\draw (0,2) -- ++ (1,0); 
+					\draw (0,3) -- ++ (1,0); 
+					\draw (0,4) -- ++ (1,0); 
+					\draw (0,5) -- ++ (1,0); 
+					\draw (0,6) -- ++ (1,0); 
+					\draw (0,7) -- ++ (1,0); 
+					\draw (0,8) -- ++ (1,0); 
+					\draw (0,9) -- ++ (1,0); 
+					\draw (0.5,-0.5) node[anchor=north] {\strut ``Tens rod"}; 
+				\end{scope} 
+				\begin{scope} [shift={(20,0)}]
+					\draw[ultra thick,fill=red!50!white] (0,0) rectangle (10,10); 
+					\draw (0,1) -- ++ (10,0); 
+					\draw (0,2) -- ++ (10,0); 
+					\draw (0,3) -- ++ (10,0); 
+					\draw (0,4) -- ++ (10,0); 
+					\draw (0,5) -- ++ (10,0); 
+					\draw (0,6) -- ++ (10,0); 
+					\draw (0,7) -- ++ (10,0); 
+					\draw (0,8) -- ++ (10,0); 
+					\draw (0,9) -- ++ (10,0); 
+					\draw (1,0) -- ++ (0,10); 
+					\draw (2,0) -- ++ (0,10); 
+					\draw (3,0) -- ++ (0,10); 
+					\draw (4,0) -- ++ (0,10); 
+					\draw (5,0) -- ++ (0,10); 
+					\draw (6,0) -- ++ (0,10); 
+					\draw (7,0) -- ++ (0,10); 
+					\draw (8,0) -- ++ (0,10); 
+					\draw (9,0) -- ++ (0,10); 
+					\draw (5,-0.5) node[anchor=north] {\strut ``Hundreds flat"}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Furthermore, we have containers that the various pieces fit into. We have a tray that fits ten units and a tray
+		that fits ten rods. We will represent these by uncolored boxes, and as pieces are put in, they will be colored
+		in.
+	</p>
+	<image xml:id="sec-ra-1-trays" width="50%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.3] 
+				\begin{scope}
+					\draw[ultra thick] (0,0) grid ++ (1,10); 
+					\draw[ultra thick] (0,0) rectangle ++ (1,10); 
+					\draw (0.5,-0.5) node[anchor=north] {\strut Unit cube tray}; 
+				\end{scope} 
+				\begin{scope} [shift={(10,0)}] \draw (0,0) grid ++ (10,10); 
+					\draw[ultra thick] (0,0) rectangle ++ (10,10); 
+					\draw[ultra thick] (0,0) grid[ystep=10] ++ (10,10); 
+					\draw (5,-0.5) node[anchor=north] {\strut Tens rod tray}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			You can also have a large cube to line 10 up flats side by side, but I don't think I've ever actually seen one of those. 
+		</p>
+		<image xml:id="sec-ra-1-big-cube" width="100%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.3]
+					\clip (-1,0) rectangle (15,13); 
+					\draw (0,0) grid ++ (10,10); 
+					\draw (10,0) -- ++ (5,3); 
+					\draw (10,1) -- ++ (5,3); 
+					\draw (10,2) -- ++ (5,3); 
+					\draw (10,3) -- ++ (5,3); 
+					\draw (10,4) -- ++ (5,3); 
+					\draw (10,5) -- ++ (5,3); 
+					\draw (10,6) -- ++ (5,3); 
+					\draw (10,7) -- ++ (5,3); 
+					\draw (10,8) -- ++ (5,3); 
+					\draw (10,9) -- ++ (5,3); 
+					\draw (10,0) -- ++ (5,3); 
+					\draw[ultra thick] (0,0) -- ++ (0,10) -- ++ (10,6); 
+					\draw[ultra thick] (1,0) -- ++ (0,10) -- ++ (10,6); 
+					\draw[ultra thick] (2,0) -- ++ (0,10) -- ++ (10,6); 
+					\draw[ultra thick] (3,0) -- ++ (0,10) -- ++ (10,6); 
+					\draw[ultra thick] (4,0) -- ++ (0,10) -- ++ (10,6); 
+					\draw[ultra thick] (5,0) -- ++ (0,10) -- ++ (10,6); 
+					\draw[ultra thick] (6,0) -- ++ (0,10) -- ++ (10,6); 
+					\draw[ultra thick] (7,0) -- ++ (0,10) -- ++ (10,6); 
+					\draw[ultra thick] (8,0) -- ++ (0,10) -- ++ (10,6); 
+					\draw[ultra thick] (9,0) -- ++ (0,10) -- ++ (10,6); 
+					\draw[ultra thick] (10,0) -- ++ (0,10) -- ++ (10,6); 
+					\draw (0,0) -- ++ (10,0) -- ++ (5,3); 
+					\draw (0,1) -- ++ (10,0) -- ++ (5,3); 
+					\draw (0,2) -- ++ (10,0) -- ++ (5,3); 
+					\draw (0,3) -- ++ (10,0) -- ++ (5,3); 
+					\draw (0,4) -- ++ (10,0) -- ++ (5,3); 
+					\draw (0,5) -- ++ (10,0) -- ++ (5,3); 
+					\draw (0,6) -- ++ (10,0) -- ++ (5,3); 
+					\draw (0,7) -- ++ (10,0) -- ++ (5,3); 
+					\draw (0,8) -- ++ (10,0) -- ++ (5,3); 
+					\draw (0,9) -- ++ (10,0) -- ++ (5,3); 
+					\draw (0,10) -- ++ (10,0) -- ++ (5,3); 
+					\draw (0.5,10.3) -- ++ (10,0) -- ++ (0,-10); 
+					\draw (1,10.6) -- ++ (10,0) -- ++ (0,-10); 
+					\draw (1.5,10.9) -- ++ (10,0) -- ++ (0,-10); 
+					\draw (2,11.2) -- ++ (10,0) -- ++ (0,-10); 
+					\draw (2.5,11.5) -- ++ (10,0) -- ++ (0,-10); 
+					\draw (3,11.8) -- ++ (10,0) -- ++ (0,-10); 
+					\draw (3.5,12.1) -- ++ (10,0) -- ++ (0,-10); 
+					\draw (4,12.4) -- ++ (10,0) -- ++ (0,-10); 
+					\draw (4.5,12.7) -- ++ (10,0) -- ++ (0,-10); 
+					\draw (5,13) -- ++ (10,0) -- ++ (0,-10); 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+	</aside>
+	<aside>
+		<p>
+			Ten unit cubes is the same as one rod. Ten rods is the same as one flat. 
+		</p>
+	</aside>
+	<p>
+		Notice that an empty unit cube tray looks a lot like a tens rod, and that a tens rod tray looks like a
+		hundreds flat. This is because in practice, students would get to exchange their full tray of unit cubes for a
+		rod (or the other way around), and this helps to reinforce arithmetic using the system. (We'll see this again in
+		a little bit.) 
+	</p>
+	<aside>
+		<p>
+			You do not need to draw the trays, though it's a good concept to have in mind for the future. 
+		</p>
+	</aside>
+	<p>
+		If we wanted to represent a number, we could simply pick the appropriate number of each piece. Here is an example: 
+	</p>
+	<image xml:id="sec-ra-1-representing-numbers" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.3] 
+				\begin{scope}
+					\draw (-1,0) node[anchor=east] {\strut $36$}; 
+					\draw[stealth-stealth] (0,0) -- ++ (2,0); 
+				\end{scope} 
+				\begin{scope} [shift={(4,-5)}]
+					\draw[fill=green!50!white] (0,0) rectangle ++ (1,10); 
+					\draw (0,0) grid ++ (1,10); 
+					\draw[ultra thick] (0,0) rectangle ++ (1,10); 
+					\draw[fill=green!50!white] (1.5,0) rectangle ++ (1,10); 
+					\draw (0,0) grid[shift={(1.5,0)}] ++ (1,10); 
+					\draw[ultra thick] (1.5,0) rectangle ++ (1,10); 
+					\draw[fill=green!50!white] (3,0) rectangle ++ (1,10); 
+					\draw (0,0) grid[shift={(3,0)}] ++ (1,10); 
+					\draw[ultra thick] (3,0) rectangle ++ (1,10); 
+					\draw[fill=blue!50!white] (6,0) rectangle ++ (1,6); 
+					\draw[ultra thick] (6,0) grid ++ (1,6); 
+					\draw[ultra thick] (6,0) rectangle ++ (1,6); 
+				\end{scope}
+				\draw[stealth-stealth] (13,0) -- ++ (2,0); 
+				\begin{scope} [shift={(17,-5)}]
+					\draw[fill=green!50!white] (0,0) rectangle ++ (3,10); 
+					\draw (0,0) grid ++ (10,10); 
+					\draw[ultra thick] (0,0) grid[ystep=10] ++ (10,10); 
+					\draw[ultra thick] (0,0) rectangle ++ (10,10); 
+				\end{scope} 
+				\begin{scope} [shift={(29,-5)}]
+					\draw[fill=blue!50!white] (0,0) rectangle ++ (1,6); 
+					\draw[ultra thick] (0,0) grid ++ (1,10); 
+					\draw[ultra thick] (0,0) rectangle ++ (1,10); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<activity xml:id="sec-ra-1-ac3-base-10-block-representation">
+		<title>Representing Integers with Base-10 Blocks</title>
+		<p>
+			You should be able to go back and forth between a number and combinations of base-10 blocks in order to
+			represent any value. 
+		</p>
+		<p>
+			<alert xml:id="sec-ra-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Represent the number 52 using base-10 blocks. 
+		</p>
+		<solution>
+			<image xml:id="sec-ra-1-ti3-solution" width="30%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.3] 
+						\begin{scope}
+							\draw (-1,0) node[anchor=east] {\strut $52$}; 
+							\draw[stealth-stealth] (0,0) -- ++ (2,0); 
+						\end{scope} 
+						\begin{scope} [shift={(4,-5)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,10); 
+							\draw (0,0) grid ++ (1,10); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,10); 
+							\draw[fill=green!50!white] (1.5,0) rectangle ++ (1,10); 
+							\draw (0,0) grid[shift={(1.5,0)}] ++ (1,10); 
+							\draw[ultra thick] (1.5,0) rectangle ++ (1,10); 
+							\draw[fill=green!50!white] (3,0) rectangle ++ (1,10); 
+							\draw (0,0) grid[shift={(3,0)}] ++ (1,10); 
+							\draw[ultra thick] (3,0) rectangle ++ (1,10); 
+							\draw[fill=green!50!white] (4.5,0) rectangle ++ (1,10); 
+							\draw (0,0) grid[shift={(4.5,0)}] ++ (1,10); 
+							\draw[ultra thick] (4.5,0) rectangle ++ (1,10); 
+							\draw[fill=green!50!white] (6,0) rectangle ++ (1,10); 
+							\draw (0,0) grid[shift={(6,0)}] ++ (1,10); 
+							\draw[ultra thick] (6,0) rectangle ++ (1,10); 
+							\draw[fill=blue!50!white] (9,0) rectangle ++ (1,2); 
+							\draw[ultra thick] (9,0) grid ++ (1,2); 
+							\draw[ultra thick] (9,0) rectangle ++ (1,2); 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+</section>

@@ -1,0 +1,63 @@
+<section xml:id="sec-mult-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		One way of understanding multiplication that was not discussed here was "multiplication is repeated addition."
+		We side-stepped that one because it's a very limiting perspective of multiplication. The limitation of repeated
+		addition is that it is limited to only integer values. It does not make sense to add something a half of a time.
+		But it does make sense to talk about half groups of objects, such as a half bags of chips. 
+	</p>
+	<p>
+		This doesn't mean that the concept of repeated addition is wrong. If you go back through the diagrams, you can
+		see that it's sitting there in plain sight. But it simply does not have the flexibility that these other images
+		do. Even though we did not explore them in this section, the concepts of area and groups of all extend into
+		fractions and decimals. 
+	</p>
+	<p>
+		In fact, we already saw groups of when we were working with fraction multiplication. The product
+		<m>\frac{2}{3} \cdot \frac{5}{4}</m> was two-thirds of a collection of wedges of size And we were able to obtain
+		that value by taking the wedges, cutting them into pieces, and taking out of each of those new collections.
+	</p>
+	<p>
+		It turns out that area also works with fractions, though you do need to be a bit more careful with your drawings
+		to know where your integers are. Here is the representation of the product <m>\frac{2}{3} \cdot \frac{5}{4}</m>
+		as an area. 
+	</p>
+	<image xml:id="sec-mult-4-fraction-area" width="60%">
+		<latex-image>
+			\begin{tikzpicture} [scale=2]
+				\draw[fill=lightgray] (0,0) rectangle (1.25,0.667); 
+				\draw[ultra thick] (0,0) rectangle (2,1); 
+				\draw[ultra thick] (0,0) grid (2,1); 
+				\draw (0,0.333) -- ++ (2,0); 
+				\draw (0,0.667) -- ++ (2,0); 
+				\draw (0.25,0) -- ++ (0,1); 
+				\draw (0.5,0) -- ++ (0,1); 
+				\draw (0.75,0) -- ++ (0,1); 
+				\draw (1.25,0) -- ++ (0,1); 
+				\draw (1.5,0) -- ++ (0,1); 
+				\draw (1.75,0) -- ++ (0,1); 
+				\draw (0,0) node[anchor=north] {$0$}; 
+				\draw (1,0) node[anchor=north] {$1$}; 
+				\draw (2,0) node[anchor=north] {$2$}; 
+				\draw (1.25,0) node[anchor=north] {$\frac{5}{4}$}; 
+				\draw (0,0) node[anchor=east] {$0$}; 
+				\draw (0,1) node[anchor=east] {$1$}; 
+				\draw (0,0.667) node[anchor=east] {$\frac{2}{3}$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Notice that inside of each unit square there are pieces, and that a total of 10 pieces have been shaded in. This
+		means that the final result is (which reduces to If you were to multiply straight across, you would get the
+		exact same result. 
+	</p>
+	<p>
+		These are connections that are both obvious and non-obvious at the same time. If you understand the idea of
+		multiplication being represented by areas, and if you understand parts of a whole, this picture makes complete
+		sense. But if you struggle with one concept or the other, this can seem extremely mysterious and unnecessarily
+		complicated. But that's the tension of mathematical thinking. As you grow in your intellectual sophistication,
+		you can start to see connections arise in a very natural way. But if you don't have the complete toolbox, it's
+		easy to simply be overwhelmed and frustrated. As we approach the last part of this book, we hope that you are
+		becoming more and more like the former than the latter.
+	</p>
+</section>

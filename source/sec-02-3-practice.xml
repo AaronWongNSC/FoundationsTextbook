@@ -1,0 +1,120 @@
+<section xml:id="sec-vee-3-practice">
+    <title>Deliberate Practice: Solving Equations for a Variable Expression</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+    <p>
+        <em>Focus on these skills:</em>
+        <ul>
+            <li>
+                <p>
+                    Write the original equation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Line up your equal signs.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Correctly state the algebraic steps using the correct phrasing:
+                    <ul>
+                        <li>
+                            <p>
+                                Add (expression) to both sides.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Subtract (expression) from both sides.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Multiply both sides by (expression).
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Divide both sides by (expression).
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Execute the algebra and arithmetic correctly.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Present your work legibly.
+                </p>
+            </li>
+        </ul>
+    </p>
+    <worksheet xml:id="sec-vee-3-worksheet">
+        <p>
+            <em>Instructions:</em> Solve the equations for the variable expression using a complete presentation.
+        </p>
+        <exercise>
+            <p>
+                Solve <m>6x^2 + 23 = 41</m> for the expression <m>x^2</m>.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Solve <m>2y^3 + 14 = -20</m> for the expression <m>y^3</m>.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Solve <m>5(t - 5) - 7 = 7</m> for the expression <m>(t-5)</m>.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Solve <m>6(r + 8) - 18 = 53</m> for the expression <m>(r+8)</m>.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Solve <m>3(b^2 + 4) - 25 = -38</m> for the expression <m>(b^2 + 4)</m>.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Solve <m>2x^2 + 4y^2 + 3z^2 + 5 = 11</m> for the expression <m>x^2</m>.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Solve <m>2x^2 + 4y^2 + 3z^2 + 5 = 11</m> for the expression <m>y^2</m>.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Solve <m>2x^2 + 4y^2 + 3z^2 + 5 = 11</m> for the expression <m>z^2</m>.
+            </p>
+        </exercise>
+        <aside>
+            <p>
+                 You don't need to know what <m>\ln(x)</m> or <m>\sin(2x)</m> mean to do these last two problems.
+            </p>
+        </aside>
+        <exercise>
+            <p>
+                Solve <m>4\ln(x) + 7 = 22</m> for the expression <m>\ln(x)</m>.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Solve <m>3 \sin(2x) + 8 = 14</m> for the expression <m>\sin(2x)</m>.
+            </p>
+        </exercise>
+    </worksheet>
+</section>

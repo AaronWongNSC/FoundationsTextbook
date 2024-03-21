@@ -1,0 +1,83 @@
+<section xml:id="sec-das-3-practice">
+	<title>Deliberate Practice: Adding and Subtracting Decimals</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<p>
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Write the original expression. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Focus your attention on the position of the digits relative to the decimal point. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-das-3-worksheet">
+		<p>
+			<em>Instructions:</em> Perform the indicated calculation. 
+		</p>
+		<exercise>
+			<p>
+				Calculate <m>3.14 + 1.08</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>2.4 + 3.81</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>4.07 - 2.78</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>3.3 - 1.07</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>5.32 + 2.079</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>1.6 + 2.504</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>2.054 - 1.23</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>3.13 - 1.307</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>12.08 + 3.127</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>11.37 - 2.037</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

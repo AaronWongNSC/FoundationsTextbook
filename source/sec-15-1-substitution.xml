@@ -1,0 +1,523 @@
+<section xml:id="sec-mos-1-main">
+	<title>Replace This With That</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Understand the definition of a solution to a simultaneous system of linear equations.
+				</p>
+			</li>
+			<li>
+				<p>
+					Describe the three configurations for a system of two linear equations.
+				</p>
+			</li>
+			<li>
+				<p>
+					Determine the configuration of a system of two linear equations.
+				</p>
+			</li>
+			<li>
+				<p>
+					Solve systems of linear equations using substitution.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		In the previous sections, we were looking at lines in isolation of each other. In this section, we're going to
+		look at the ways that two lines can interact with each other. 
+	</p>
+	<p>
+		A solution to a linear equation is a pair of values <m>(x, y)</m> that make the equation true. When we talk
+		about a simultaneous system of linear equations, we are looking for a pair of values <m>(x, y)</m> that satisfy
+		all of the equations at the same time. This is probably best understood graphically. 
+	</p>
+	<p>
+		The solution of a single linear equation can be represented as a line. Every point on this line can be plugged
+		into that equation and yield a true result. If we add in a second linear equation, we get a different line.
+		These are represented as the two separate graphs below.
+	</p>
+	<image xml:id="sec-mos-1-two-lines-two-graphs" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.5] 
+				\begin{scope}
+					\draw[stealth-stealth] (-1.5,0) -- (7.5,0) node[black, anchor=west] {$x$}; 
+					\draw[stealth-stealth] (0,-1.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\draw[blue] (-1,0.333) -- (7,5.667); 
+				\end{scope} 
+				\begin{scope} [shift={(13,0)}]
+					\draw[stealth-stealth] (-1.5,0) -- (7.5,0) node[black, anchor=west] {$x$}; 
+					\draw[stealth-stealth] (0,-1.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\draw[red] (7,0.333) -- (-1,5.667); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		When we talk about solutions of <em>simultaneous</em> equations, we want to find points that satisfy both
+		equations at the same time. In other words, we're looking for points that are on both lines, and so we can merge
+		the two images into one. 
+	</p>
+	<image xml:id="sec-mos-1-two-lines-one-graph" width="50%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope}[scale=0.7]
+					\draw[stealth-stealth] (-1.5,0) -- (7.5,0) node[black, anchor=west] {$x$}; 
+					\draw[stealth-stealth] (0,-1.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\draw[blue] (-1,0.333) -- (7,5.667); 
+					\draw[red] (7,0.333) -- (-1,5.667); 
+					\draw[fill=black] (3,3) circle (0.1) node[anchor=west,xshift=3pt] {$(x,y)$}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+
+    <definition xml:id="def-simultaneous-equations">
+        <title>System of Simultaneous Linear Equations</title>
+        <idx><h>system of simultaneous linear equations</h></idx>
+        <idx><h>solution</h> <h>of a simultaneous linear system</h> </idx>
+        
+        <statement>
+            <p>
+				A <term>system of simultaneous linear equations</term> is a collection of linear equations that are to
+				be solved at the same time, if possible. A <term>solution</term> of a system of simultaneous equations
+				is a point <m>(x, y)</m> that is a solution of all the equations.
+            </p>
+        </statement>
+    </definition>
+
+	<activity xml:id="sec-mos-1-ac1-verifying-solutions">
+		<title>Verifying Solutions of Simultaneous Linear Systems</title>
+		<aside>
+			<p>
+				We will often use the brackets when working with systems of equations in order to emphasize that they
+				are to be solved simultaneously. 
+			</p>
+		</aside>
+		<p>
+			We are going to focus on systems of two linear equations with two variables. Consider the following system:
+			<me>
+				\left\{
+					\begin{array}{rcrcr}
+						x \amp + \amp y \amp = \amp 2 \\
+						x \amp - \amp y \amp = \amp 4
+					\end{array}
+				\right.
+			</me>
+			As noted in the definition, a solution must solve all the equations. This means that even though
+			<m>(1, 1)</m> is a solution of <m>x + y = 2</m> and <m>(2, -2)</m> is a solution of <m>x - y = 4</m>,
+			neither nor would be a solution to the system because when we plug in the values, we don't solve both. 
+		</p>
+		<image xml:id="sec-mos-1-not-simultaneous-solutions" width="60%">
+			<latex-image>
+				\begin{tikzpicture}
+					\begin{scope}
+						\draw (0,0) node[anchor=south] {$(x,y) = (1,1)$}; 
+						\draw (0,0) node[anchor=north] {$
+							\begin{aligned}
+								\left\{
+									\begin{array} {rcrcr}
+										x \amp + \amp y \amp = \amp 2 \\
+										x \amp - \amp y \amp = \amp 4
+									\end{array}
+								\right.
+								\amp \implies
+								\left\{
+									\begin{array} {rcrcr}
+										1 \amp + \amp 1 \amp \overset{\checkmark}{=} \amp 2 \\
+										1 \amp - \amp 1 \amp \overset{\times}{=} \amp 4
+									\end{array}
+								\right.
+							\end{aligned} $}; 
+					\end{scope} 
+					\begin{scope} [shift={(0,-3)}]
+						\draw (0,0) node[anchor=south] {$(x,y) = (2,-2)$}; 
+						\draw (0,0) node[anchor=north] {$
+							\begin{aligned}
+								\left\{
+									\begin{array} {rcrcr}
+										x \amp + \amp y \amp = \amp 2 \\
+										x \amp - \amp y \amp = \amp 4
+									\end{array}
+								\right.
+								\amp \implies
+								\left\{
+									\begin{array} {rcrcr}
+										2 \amp + \amp (-2) \amp \overset{\times}{=} \amp 2 \\
+										2 \amp - \amp (-2) \amp \overset{\checkmark}{=} \amp 4
+									\end{array}
+								\right.
+							\end{aligned} $}; 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-mos-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Show that <m>(3, -1)</m> is a solution to the system of equations by direct substitution. 
+		</p>
+		<solution>
+			<image xml:id="sec-mos-1-ti1-solution" width="60%">
+				<latex-image>
+					\begin{tikzpicture}
+						\begin{scope}
+							\draw (0,0) node[anchor=south] {$(x,y) = (3,-1)$}; 
+							\draw (0,0) node[anchor=north] {
+								$\begin{aligned}
+									\left\{ \begin{array} {rcrcr}
+										x \amp + \amp y \amp = \amp 2 \\
+										x \amp - \amp y \amp = \amp 4
+									\end{array} \right. \amp
+									\implies
+									\left\{ \begin{array} {rcrcr}
+										3 \amp + \amp (-1) \amp \overset{\checkmark}{=} \amp 2 \\
+										3 \amp - \amp (-1) \amp \overset{\checkmark}{=} \amp 4
+									\end{array} \right.
+								\end{aligned} $}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		When thinking about different possibilities for solutions, we need to think about the configurations we can get
+		when we graph the two lines together. It turns out that there are three possibilities: 
+	</p>
+	<image xml:id="sec-mos-1-three-possibilities" width="100%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.5]
+				\begin{scope} [shift={(-9.5,0)}]
+					\draw[blue] (0,0) -- (5,3); 
+					\draw[red] (0,1) -- (5,4); 
+					\draw (2.5,-0.5) node[anchor=north] {\footnotesize Two different parallel lines}; 
+				\end{scope} 
+				\begin{scope} [shift={(0,0)}]
+					\draw[ultra thick,blue!50!red] (0,0) -- (5,4); 
+					\draw (2.5,-0.5) node[anchor=north] {\footnotesize Two overlapping parallel lines}; 
+				\end{scope} 
+				\begin{scope} [shift={(9.5,0)}]
+					\draw[blue] (0,0) -- (5,4); 
+					\draw[red] (0,4) -- (5,2); 
+					\draw (2.5,-0.5) node[anchor=north] {\footnotesize Two non-parallel lines}; 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		In the first case, we can see that there are no solutions because there do not exist any points that lie on both
+		lines at the same time. In the second case, we can see that every point on one line is also a point on the other
+		line, so there are infinitely many solutions. In the last case, we can see that there is exactly one point that
+		lies on both lines. 
+	</p>
+	<activity xml:id="sec-mos-1-ac2-slope-intercept">
+		<title>Systems in Slope-Intercept Form</title>
+		<p>
+			If the equations are given in slope-intercept form, it's possible to immediately identify which situation
+			you are in, and it's also possible to use substitution to solve the equations. Suppose that you have the
+			following system of equations, where and are all constants.
+			<me>
+				\left\{
+					\begin{array}{rcrcr}
+						y \amp = \amp m_1 x \amp + \amp b_1 \\
+						y \amp = \amp m_2 x \amp + \amp b_2
+					\end{array}
+				\right.
+			</me> 
+		</p>
+		<p>
+			We can match these up with the images above. 
+			<ul>
+				<li>
+					<p>
+						Two different parallel lines: Same slope, different intercept 
+					</p>
+				</li>
+				<li>
+					<p>
+						Two overlapping lines: Same slope, same intercept 
+					</p>
+				</li>
+				<li>
+					<p>
+						Two non-parallel lines: Different slopes 
+					</p>
+				</li>
+			</ul>If the lines are not parallel, you can find the solution by substituting one equation into the other. 
+		</p>
+		<aside>
+			<p>
+				Since both expressions is equal to <m>y</m> they must be equal to each other. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-mos-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Describe the configuration of the following system of equations. If they intersect at a single point,
+			determine the coordinates of that point.
+			<me>
+				\left\{
+					\begin{array}{rcrcr}
+						y \amp = \amp 4x \amp + \amp 3 \\
+						y \amp = \amp 2x \amp - \amp 1
+					\end{array}
+				\right.
+			</me> 
+		</p>
+		<solution>
+			<image xml:id="sec-mos-1-ti2-solution">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=south] {
+							$\left\{ \begin{array} {rl}
+								y \amp = 4x + 3 \\
+								y \amp = 2x - 1
+							\end{array} \right.$ };
+						\begin{scope} [shift={(0,0.5)}]
+							\draw (-3.5,-0.5) node[anchor=north] {Set the equations equal to each other}; 
+							\draw (-3.5,-1) node[anchor=north] {
+								$\begin{aligned}
+									4x + 3 \amp = 2x - 1 \\
+									2x \amp = -4 \\
+									x \amp = -2
+								\end{aligned} $}; 
+							\draw (3.5,-0.5) node[anchor=north] {Substitute into the first equation}; 
+							\draw (3.5,-1) node[anchor=north] {
+								$\begin{aligned}
+									y \amp = 4x + 3 \\
+									\amp = 4(-2) + 3 \\
+									\amp = -5
+								\end{aligned} $}; 
+							\draw (0,-3) node[anchor=north] {The solution is $(x,y) = (-2,-5)$.}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		This is an example of solving an equation by substitution. The idea of a substitution here is the same as we
+		used earlier, where we simply replace a symbol in an equation with some other collection of symbols, which then
+		reduces the equation to a single variable equation that we can solve. 
+	</p>
+	<activity xml:id="sec-mos-1-ac3-solving-system">
+		<title>Solving a System of Linear Equations</title>
+		<p>
+			In general, the equations will not be given to you in slope-intercept form. This means that you will have to
+			choose which variable to solve for and from which equation. There are no rules for this. You can sometimes
+			avoid fractions, but you often can't. Here is the same system of equations solved two ways. Each column
+			represents a different approach, but notice that they end up in the same place. 
+		</p>
+		<aside>
+			<p>
+				Uncomfortable with fractions? There's a brief fraction review at the end of the section. 
+			</p>
+		</aside>
+		<image xml:id="sec-mos-1-solution-of-system" width="100%">
+			<latex-image>
+				\begin{tikzpicture}[scale=1.4]
+					\draw (0,0) node[anchor=south] {$
+						\left\{
+							\begin{array} {rcrcr}
+								3x \amp + \amp 2y \amp = 10 \\
+								2x \amp - \amp 3y \amp = -2
+							\end{array}
+						\right.$ }; 
+					\draw (3.5,-0.5) node[anchor=north] {Solve for $y$ from the first equation}; 
+					\draw (3.5,-1) node[anchor=north] {$
+						\begin{aligned}
+							3x + 2y \amp = 10 \\
+							2y \amp = -3x + 10 \\
+							y \amp = -\frac{3}{2}x + 5
+						\end{aligned} $}; 
+					\draw (3.5,-3.5) node[anchor=north] {Substitute into the second equation}; 
+					\draw (3.5,-4) node[anchor=north] {$
+						\begin{aligned}
+							2x - 3y \amp = -2 \\
+							2x - 3 \left( - \frac{3}{2}x + 5 \right) \amp = -2 \\
+							2x + \frac{9}{2} x - 15 \amp = -2 \\
+							\frac{13}{2} x \amp = 13 \\
+							x \amp = 2
+						\end{aligned} $}; 
+					\draw (-3.5,-0.5) node[anchor=north] {Solve for $x$ from the first equation}; 
+					\draw (-3.5,-1) node[anchor=north] {$
+						\begin{aligned}
+							3x + 2y \amp = 10 \\
+							3x \amp = -2y + 10 \\
+							x \amp = -\frac{2}{3}x + \frac{10}{3}
+						\end{aligned} $}; 
+					\draw (-3.5,-3.5) node[anchor=north] {Substitute into the second equation}; 
+					\draw (-3.5,-4) node[anchor=north] {$
+						\begin{aligned}
+							2x - 3y \amp = -2 \\
+							2\left( - \frac{2}{3}y + \frac{10}{3} \right) - 3y \amp = -2 \\
+							-\frac{4}{3} y + \frac{20}{3} - 3y \amp = -2 \\
+							-\frac{13}{3} y \amp = -\frac{26}{3} \\
+							y \amp = 2
+						\end{aligned} $}; 
+					\draw (-3.5,-8) node[anchor=north] {Substitute back}; 
+					\draw (-3.5,-8.5) node[anchor=north] {$
+						\begin{aligned}
+							x \amp = -\frac{2}{3}y + \frac{10}{3} \\
+							\amp = -\frac{2}{3} (2) + \frac{10}{3} \\
+							\amp = -\frac{4}{3} + \frac{10}{3} \\
+							\amp = 2
+						\end{aligned} $}; 
+					\draw (3.5,-8) node[anchor=north] {Substitute back}; 
+					\draw (3.5,-8.5) node[anchor=north] {$
+						\begin{aligned}
+							y \amp = -\frac{3}{2}x + 5 \\
+							\amp = -\frac{3}{2} (2) + 5 \\
+							\amp = -3 + 5 \\ \amp = 2
+						\end{aligned} $}; 
+					\draw (0,-0.5) -- (0,-11); 
+					\draw (0,-12) node[anchor=north] {The solution is $(x,y) = (2,2)$.}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<aside>
+			<p>
+				Since the parts of the solution are spread out in different areas of the work, it's important to write a
+				conclusion statement to communicate your result. 
+			</p>
+		</aside>
+		<p>
+			<alert xml:id="sec-mos-1-ac3-ti">Try it!</alert>
+		</p>
+		<aside>
+			<p>
+				No matter how you solve the equation, you should get the same final result. 
+			</p>
+		</aside>
+		<p>
+			Solve the system of equations above two more times by solving for <m>x</m> and <m>y</m> from the second equation. 
+		</p>
+		<solution>
+			<image xml:id="sec-mos-1-ti3-solution" >
+				<latex-image>
+					\begin{tikzpicture}[scale=1.05]
+						\draw (0,0) node[anchor=south] {
+							$\left\{ \begin{array} {rcrcr}
+								3x \amp + \amp 2y \amp = 10 \\
+								2x \amp - \amp 3y \amp = -2
+							\end{array} \right.$ }; 
+						\begin{scope} [shift={(0,0.5)}]
+							\draw (3.5,-0.5) node[anchor=north] {Solve for $y$ from the second equation}; 
+							\draw (3.5,-1) node[anchor=north] {
+								$\begin{aligned}
+									2x - 3y \amp = -2 \\
+									-3y \amp = -2x - 2 \\
+									y \amp = \frac{2}{3}x + \frac{2}{3}
+								\end{aligned} $}; 
+							\draw (3.5,-3.5) node[anchor=north] {Substitute into the second equation}; 
+							\draw (3.5,-4) node[anchor=north] {
+								$\begin{aligned}
+									3x + 2y \amp = 10 \\
+									3x + 2 \left( \frac{2}{3} x + \frac{2}{3} \right) \amp = 10 \\
+									3x + \frac{4}{3} x + \frac{4}{3} \amp = 10 \\
+									\frac{13}{3} x \amp = \frac{26}{3} \\
+									x \amp = 2
+								\end{aligned} $}; 
+							\draw (-3.5,-0.5) node[anchor=north] {Solve for $x$ from the first equation}; 
+							\draw (-3.5,-1) node[anchor=north] {
+								$\begin{aligned}
+									2x - 3y \amp = -2 \\
+									2x \amp = 3y - 2 \\
+									x \amp = \frac{3}{2} y - 1
+								\end{aligned} $}; 
+							\draw (-3.5,-3.5) node[anchor=north] {Substitute into the second equation}; 
+							\draw (-3.5,-4) node[anchor=north] {
+								$\begin{aligned}
+									3x + 2y \amp = 10 \\
+									3 \left( \frac{3}{2} y - 1 \right) + 2y \amp = 10 \\
+									\frac{9}{2} y - 3 + 2y \amp = 10 \\
+									\frac{13}{2} x \amp = 13 \\
+									x \amp = 2
+								\end{aligned} $}; 
+							\draw (-3.5,-8) node[anchor=north] {Substitute back}; 
+							\draw (-3.5,-8.5) node[anchor=north] {
+								$\begin{aligned}
+									x \amp = \frac{3}{2}y - 1 \\
+									\amp = \frac{3}{2} (2) - 1 \\
+									\amp = 3 - 1 \\
+									\amp = 2
+								\end{aligned} $}; 
+							\draw (3.5,-8) node[anchor=north] {Substitute back}; 
+							\draw (3.5,-8.5) node[anchor=north] {
+								$\begin{aligned}
+									y \amp = \frac{2}{3}x + \frac{2}{3} \\
+									\amp = \frac{2}{3} (2) + \frac{2}{3} \\
+									\amp = \frac{4}{3} + \frac{2}{3} \\
+								\amp = 2 \end{aligned} $}; 
+							\draw (0,-0.5) -- (0,-11); 
+							\draw (0,-11.7) node[anchor=north] {The solution is $(x,y) = (2,2)$.}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		If the system of equations involves two lines with the same slope, but the equations are not written in
+		slope-intercept form, you may not immediately recognize that they have the same slope. However, in the process
+		of working through the algebra, you will end up with all of the variable terms canceling out. If that happens,
+		the equation that you're left with will tell you whether the lines overlap or not. If you get a valid
+		mathematical equation, such as <m>0 = 0</m>, then the two lines overlap. If you end up with an invalid
+		mathematical equation, such as <m>2 = 5</m>, then the lines do not overlap. 
+	</p>
+	<subsection xml:id="sec-mos-1-fraction-review">
+		<title>Brief Fraction Review</title>
+
+		<p>
+			We will take a deeper dive into fractions in a later section. For now, we're just going to review the basic
+			mechanics of fractions by looking at some examples. 
+		</p>
+		<p>
+			For addition and subtraction of fractions, you need to use a common denominator. When rewriting a fraction
+			with a different denominator, you must multiply both the numerator and denominator by the same value. 
+		</p>
+		<image xml:id="sec-mos-1-add-subtract-fractions" width="80%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (-3,0) node[anchor=north] {$
+						\begin{aligned}
+							\frac{2}{3} + \frac{5}{4} \amp = \frac{2 \cdot 4}{3 \cdot 4} + \frac{5 \cdot 3}{4 \cdot 3} \\
+							\amp = \frac{8}{12} + \frac{15}{12} \\ \amp = \frac{23}{12}
+						\end{aligned} $}; 
+					\draw (3,0) node[anchor=north] {$
+						\begin{aligned}
+							\frac{11}{6} - \frac{1}{2} \amp = \frac{11}{6} - \frac{1 \cdot 3}{2 \cdot 3} \\
+							\amp = \frac{11}{6} - \frac{3}{6} \\ \amp = \frac{8}{6} \\ \amp = \frac{4}{3}
+						\end{aligned} $}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			For multiplication of fractions, you need to multiply straight across. If you are multiplying by an integer,
+			you can put that integer over a denominator of 1. If you remember how to reduce before multiplying, that's
+			fine. If you don't, you can just reduce after multiplying. The problems in this section will not involve
+			large enough numbers for that to be important. Make sure to reduce your fractions when you finish.
+		</p>
+		<image xml:id="sec-mos-1-multiply-divide-fractions" width="80%">
+			<latex-image>
+				\begin{tikzpicture}
+					\draw (-3,0) node[anchor=north] {$
+						\begin{aligned}
+							\frac{3}{4} \cdot \frac{6}{5} \amp = \frac{3 \cdot 6}{4 \cdot 5} \\
+							\amp = \frac{18}{20} \\ \amp = \frac{9}{10}
+						\end{aligned} $}; 
+					\draw (3,0) node[anchor=north] {$
+						\begin{aligned}
+							\frac{7}{2} \cdot 4 \amp = \frac{7}{2} \cdot \frac{4}{1} \\
+							\amp = \frac{7 \cdot 4}{2 \cdot 1} \\ \amp = \frac{28}{2} \\
+							\amp = 14
+						\end{aligned} $}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+	</subsection>
+</section>

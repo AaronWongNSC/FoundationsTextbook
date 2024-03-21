@@ -1,0 +1,285 @@
+<section xml:id="sec-mpd-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="workexternal/worksheetssheets/22-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-mpd-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Calculate <m>(0.03) \cdot (1.5)</m> using fraction multiplication. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(0.42) \cdot (0.2)</m> using fraction multiplication. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Complete the chart. 
+			</p>
+			<image xml:id="sec-mpd-2-wksht-1-1" width="70%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {
+							\begin{tabular}{|c||c|c|c|c|c|c|}
+								\hline 
+								Decimal \amp $0.1$ \amp $0.2$ \amp $0.25$ \amp $0.3$ \amp $0.4$ \amp $0.5$ \\ \hline
+								Percent \amp \amp \amp \amp \amp \amp \\ \hline 
+								\multirow{2}{*}{Fraction} \amp \amp \amp \amp \amp \amp \\
+								\amp \phantom{0.000} \amp \phantom{0.000} \amp \phantom{0.000} \amp \phantom{0.000} \amp \phantom{0.000} \amp \phantom{0.000} \\ \hline
+							\end{tabular}
+						};
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Complete the chart. Reduce the fractions where possible. 
+			</p>
+			<image xml:id="sec-mpd-2-wksht-1-2" width="70%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {
+							\begin{tabular}{|c||c|c|c|c|c|c|}
+								\hline 
+								Decimal \amp \amp \amp \amp \amp \amp \\ \hline
+								Percent \amp $60\%$ \amp $70\%$ \amp $75\%$ \amp $80\%$ \amp $90\%$ \amp $100\%$\\ \hline 
+								\multirow{2}{*}{Fraction} \amp \amp \amp \amp \amp \amp \\
+								\amp \amp \amp \amp \amp \amp \\ \hline
+							\end{tabular}
+						};
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mpd-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Calculate <m>(0.05) \cdot 30</m> using fraction multiplication. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(0.008) \cdot 2000</m> using fraction multiplication. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>20\% \cdot 50</m>. 
+			</p>
+			<aside>
+				<p>
+					This is the calculation for "20% of 50."
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Complete the chart. Reduce the fractions where possible. 
+			</p>
+			<image xml:id="sec-mpd-2-wksht-2-1" width="70%">
+				<latex-image>
+					\begin{tikzpicture}
+						\draw (0,0) node[anchor=north] {
+							\begin{tabular}{|c||c|c|c|c|c|c|}
+								\hline 
+								Decimal \amp $0.413$ \amp $0.45$ \amp \amp \amp \amp \\ \hline
+								Percent \amp \amp \amp $0.7\%$ \amp $125\%$ \amp \amp \\ \hline 
+								\multirow{2}{*}{Fraction} \amp \amp \amp \amp \amp  \multirow{2}{*}{$\frac{29}{100}$} \amp \multirow{2}{*}{$\frac{7}{5}$} \\
+								\amp \phantom{0.000} \amp \phantom{0.000} \amp \phantom{0.000} \amp \phantom{0.000} \amp \phantom{0.000} \amp \phantom{0.000} \\ \hline
+							\end{tabular}
+						};
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mpd-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				What is 25% of 80?
+			</p>
+			<aside>
+				<p>
+					The "classic" percentage problems are all worded like this, which leads to the "is over of"
+					understanding of percents. Try to retrain yourself to think about this as parts of a whole. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				30% of what number is 45?
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				What percent of 20 is 40?
+			</p>
+			<aside>
+				<p>
+					Be careful! 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				The recipe states that the amount of water that is needed is equal to 70% of the weight of the flour
+				used. If 2500 grams of flour are used in the recipe, what is the weight of water that is required for
+				proper hydration? 
+			</p>
+			<aside>
+				<p>
+					<idx><h>baker's percentages</h></idx>
+					This is known as <term>baker's percentages</term>, and professional bakers really do use this. 
+				</p>
+				<p>
+					Write in complete sentences. 
+				</p>
+			</aside>
+			<p>
+				<ul>
+					<li>
+						<p>
+							The part: 
+						</p>
+					</li>
+					<li>
+						<p>
+							The whole: 
+						</p>
+					</li>
+					<li>
+						<p>
+							The percent: 
+						</p>
+					</li>
+				</ul>
+			</p>
+			<p>
+				 Answer: 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mpd-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Calculate <m>10\% \cdot 5</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				The marketing department has $100,000 to spend on this project, which is 20% of annual budget. How much
+				money did they have budgeted for the entire year? 
+				<ul>
+					<li>
+						<p>
+							The part: 
+						</p>
+					</li>
+					<li>
+						<p>
+							The whole: 
+						</p>
+					</li>
+					<li>
+						<p>
+							The percent: 
+						</p>
+					</li>
+				</ul>
+			</p>
+			<p>
+				 Answer: 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				The car has a 12 gallon tank. When we went to the gas station, we filled it with 9 gallons of gas and now
+				the tank is full. What percent of the tank's capacity was the gas level at before we went to the gas
+				station? 
+				<ul>
+					<li>
+						<p>
+							The part: 
+						</p>
+					</li>
+					<li>
+						<p>
+							The whole: 
+						</p>
+					</li>
+					<li>
+						<p>
+							The percent: 
+						</p>
+					</li>
+				</ul>
+			</p>
+			<aside>
+				<p>
+					Think carefully about the problem! The answer is not 75%.
+				</p>
+			</aside>
+			<p>
+				 Answer: 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-mpd-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				A shirt was marked on sale at 20% off the regular price. The cost of the shirt at the register was $12.
+				What is the regular price of the shirt? 
+				<ul>
+					<li>
+						<p>
+							The part: 
+						</p>
+					</li>
+					<li>
+						<p>
+							The whole: 
+						</p>
+					</li>
+					<li>
+						<p>
+							The percent: 
+						</p>
+					</li>
+				</ul>
+			</p>
+			<aside>
+				<p>
+					This is another tricky problem. 
+				</p>
+			</aside>
+			<p>
+				 Answer: 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				In the previous problem, a common error for students to make is that they compute 20% of $12 (which is
+				$2.40) and then add that amount to $12 to get $14.40. Give two different explanations for why this
+				approach is not correct. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				A tip can be calculated using the following method: (1) Start with the total bill; (2) Move the decimal
+				point one space to the left; (3) Double that new number. Use algebra to explain why this results in a
+				20% tip. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

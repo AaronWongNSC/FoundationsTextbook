@@ -1,0 +1,98 @@
+<section xml:id="sec-lult-3-practice">
+	<title>Deliberate Practice: Combining Like Terms</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<p>
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Write the original expression. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Line up your equal signs. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Show the distribution step, the rearrangement step, the grouping step, and the arithmetic step. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Be careful with negative signs and the distributive property. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-lult-3-worksheet">
+		<p>
+			<em>Instructions:</em> Simplify the expression. 
+		</p>
+		<exercise>
+			<p>
+				Simplify  <m>(3x + 5y) + 2(6x - 4y)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify  <m>2(4a - 3b) - 3(-3a -2b)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify  <m>-3(-4m + 2n + 4) + 2 (3m - 3n + 7)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify  <m>4(-3r + 7s - 3) - 3 (2r - 3s - 4)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify  <m>-4(5x + 3y - 2z) - (-3x + 4y + 3z)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify  <m>3(r^2 + 2s^2 - 4) + 5(-2r^2 + s^2 - 3)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify  <m>-2(3x^2 + 7xy - 4y^2) + 3(2x^2 - 3xy + 5y^2)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify  <m>4(2m - 5n + 1) - 2 (-3m + 2n - 3) + 5(m + 4n - 2)</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Simplify  <m>4 (x^2 - 4x + 1) + 3(-2x^2 + 3x - 4) - (-2x^2 - 5)</m>.
+			</p>
+		</exercise>
+		<aside>
+			<p>
+				Pay attention to the details! 
+			</p>
+		</aside>
+		<exercise>
+			<p>
+				Simplify  <m>2(r^3 - 3r^2s + s^3) - 3(2r^3 + 3rs^2 - 5s^3) + 2(r^2s - rs^2)</m>.
+			</p>
+		</exercise>
+	</worksheet>
+</section>

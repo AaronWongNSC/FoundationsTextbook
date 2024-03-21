@@ -1,0 +1,133 @@
+<section xml:id="sec-fd-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/20-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-fd-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Calculate <m>\frac{4}{15} \div \frac{8}{3}</m> by rewriting the calculation as multiplication by the
+				reciprocal. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{ \frac{4}{15} }{ \frac{8}{3} }</m> by rewriting the calculation as multiplication by
+				the reciprocal. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{ \frac{4}{15} }{ \frac{8}{3} }</m> by multiplying the numerator and denominator by
+				the same value to simplify the fraction. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				All three of these problems were the same underlying calculation, but presented and worked out in three
+				separate ways. Which way makes the most intuitive sense to you? 
+			</p>
+			<aside>
+				<p>
+					Even though one way may more intuitive for you, it is helpful to understand and practice all three
+					of these methods. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fd-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Calculate <m>\frac{30}{11} \div \frac{18}{55}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{21}{10} \div \frac{45}{16}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{9a^2 b}{14} \div \frac{12b}{35a}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{15 y}{8x^2} \div \frac{9y^2}{20x}</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fd-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Calculate <m>\frac{12}{11} \div \frac{21}{44}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{18}{25} \div \frac{14}{15}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{27p^2}{20q} \div \frac{45p}{28q^3}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{16 x^3}{25 y^2} \div \frac{6y}{5x}</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fd-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				We are going to work with one interpretation of fraction division that uses common denominators. The
+				fraction can be interpreted as having <m>a</m> wedges of size <m>b</m>. This means that the division
+				calculation <m>\frac{16}{3} \div \frac{4}{3}</m> can be understood as having 16 wedges of size
+				<m>\frac{1}{3}</m> and creating groups of 4 wedges of size <m>\frac{1}{3}</m>. With this framework in
+				mind, draw a diagram of 16 wedges of size <m>\frac{1}{3}</m> and divide it into groups of 4 wedges each.
+				Use this to determine the result of the calculation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Using algebraic methods, verify that <m>\frac{a}{c} \div \frac{b}{c} = \frac{a}{b}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{12}{5} \div \frac{4}{3}</m> using a common denominator. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fd-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Calculate <m>\frac{5}{4} \div \frac{2}{3}</m> using a common denominator. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{25}{6} \div \frac{5}{4}</m> using a common denominator. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{7}{16} \div \frac{5}{24}</m> using a common denominator. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>\frac{12x}{5y^2} \div \frac{6xy}{35}</m> using a common denominator. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

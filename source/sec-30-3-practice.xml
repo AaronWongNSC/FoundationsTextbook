@@ -1,0 +1,81 @@
+<section xml:id="sec-mult-3-practice">
+	<title>Deliberate Practice: Multiplication Concepts</title>
+    <p>
+        Algebra is a skill, which means it requires practice to become proficient. But it will take more than rote
+        repetition to get there. Deliberate practice is the thoughtful repetition of a task. For each of these sections,
+        you will be given a list of specific skills or ideas to focus on as you practice thinking through the problems.
+    </p>
+	<p>
+		<em>Focus on these skills:</em>
+		<ul>
+			<li>
+				<p>
+					Draw the appropriate diagrams based on the instructions. 
+				</p>
+			</li>
+			<li>
+				<p>
+					Present your work legibly. 
+				</p>
+			</li>
+		</ul>
+	</p>
+    <worksheet xml:id="sec-mult-3-worksheet">
+		<p>
+			<em>Instructions:</em> Perform the indicated calculation using <m>A</m> groups of <m>B</m> and a movement diagram. 
+		</p>
+		<exercise>
+			<p>
+				Calculate <m>3 \cdot (-4)</m> as <m>A</m> groups of <m>B</m> and as movement.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(-4) \cdot 3</m> as <m>A</m> groups of <m>B</m> and as movement.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>2 \cdot (-5)</m> as <m>A</m> groups of <m>B</m> and as movement.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>3 \cdot 2</m> as <m>A</m> groups of <m>B</m> and as movement.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(-2) \cdot (-4)</m> as <m>A</m> groups of <m>B</m> and as movement.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>(-3) \cdot 5</m> as <m>A</m> groups of <m>B</m> and as movement.
+			</p>
+		</exercise>
+		<p>
+			<em>Instructions:</em> Perform the indicated calculation using a diagram of base-10 blocks. 
+		</p>
+		<exercise>
+			<p>
+				Calculate <m>12 \cdot 24</m> using a diagram of base-10 blocks.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>24 \cdot 16</m> using a diagram of base-10 blocks.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>11 \cdot 32</m> using a diagram of base-10 blocks.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>26 \cdot 14</m> using a diagram of base-10 blocks.
+			</p>
+		</exercise>
+	</worksheet>
+</section>

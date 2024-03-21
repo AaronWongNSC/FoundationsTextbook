@@ -1,0 +1,39 @@
+<section xml:id="sec-sif-4-closing">
+	<title>Closing Ideas</title>
+	<p>
+		The slope-intercept form of a line has many useful applications and interpretations. For example: 
+		<ul>
+			<li>
+				<p>
+					The can be interpreted as a one-time initiation fee and the slope can be interpreted as a per-use
+					expense. So the cost of an exercise program with a $15 initiation fee and $4 per-use fee can be
+					modeled by <m>y = 4x + 15</m>, where <m>y</m> is the total cost and <m>x</m> is the number of uses. 
+				</p>
+			</li>
+			<li>
+				<p>
+					The can be interpreted as an initial investment expense (as negative value), and the slope can be
+					interpreted as a per-unit profit for a business model. So if raw materials cost $100 but each item
+					that can be created sells for $12 each, then the profit <m>y</m> can be modeled as <m>y = 12x - 100</m>,
+					where <m>x</m> represents the number of items sold. 
+				</p>
+			</li>
+			<li>
+				<p>
+					The slope-intercept form of a line is the standard way that computers present a line of best fit. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			A line of best fit is a used in data analysis as the most ideal approximation of a set of points. 
+		</p>
+	</aside>
+	<p>
+		There is a lot more than can be said about the use of lines in applications, but those will have to wait for
+		their corresponding courses. At this point, the goal is that you are comfortable enough with the algebra of
+		two-variable equations to convert them into slope-intercept form, and that you are able to sketch the graphs of
+		such lines.
+	</p>
+</section>

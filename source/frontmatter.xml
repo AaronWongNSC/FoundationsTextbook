@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--********************************************************************
+Copyright 2021 Aaron Wong
+*********************************************************************-->
+
+<frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <titlepage>
+
+        <author>
+            <personname>Aaron Wong</personname>
+            <department>Department of Data, Media, and Design</department>
+            <institution>Nevada State College</institution>
+            <email>aaron.wong@nsc.edu</email>
+        </author>
+
+        <date><today /></date>
+
+    </titlepage>
+    
+    <colophon xml:id="front-colophon">
+
+        <edition>Spring 2023</edition>
+
+        <website>
+            <name><c>www.nsc.edu/FoundationsTextbook</c></name>
+            <address>http://www.nsc.edu/FoundationsTextbook</address>
+        </website>
+
+        <copyright>
+            <year>2020<ndash />2023</year>
+            <holder>Aaron Wong</holder>
+            <minilicense>Creative Commons Attribution-NonCommercial-ShareAlike 4.0</minilicense>
+            <shortlicense>
+                Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+                <ul>
+                    <li>
+                        <p>
+                            Attribution: You must give appropriate credit, provide a link to the license, and indicate
+                            if changes were made.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Noncommercial: You may not use the material for commercial purposes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            ShareAlike: If you mix, transform, or build upon the material, you must distribute your
+                            contributions under the same license as the original.
+                        </p>
+                    </li>
+                </ul>
+            </shortlicense>
+        </copyright>
+    </colophon>
+
+    <preface xml:id="preface">
+        <section xml:id="preface-why">
+            <title>Underlying Philosophy</title>
+            <p>
+                Why write this book? That's a question that I needed to have a clear answer to before I began the
+                process. The short answer is that I felt like I had little choice. Here is our reality:
+                <ul>
+                    <li>
+                        <p>
+                            Nevada is historically among the lowest-ranked states for K-12 math education in the nation.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The Nevada System of Higher Education passed a policy that completely eliminates any
+                            standalone math remediation for students, forcing us to adopt a full corequisite model.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            We want students to be successful in our college level math courses while maintaining our
+                            standards.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The materials that currently exist are insufficient for the task.
+                        </p>
+                    </li>
+                </ul>
+                And so by the necessity of the situation, we needed to come up with <em>something</em> to help our
+                students.
+            </p>
+
+            <p>
+                But the longer answer to the question is that this moment of disruption is also the right time to try to
+                make a change in how remedial mathematics (including corequisite courses) are taught and understood.
+                I've spent over a decade working with students with weak mathematical backgrounds. I've watched how they
+                think and how they attempt to learn mathematical material. I've come to the conclusion that I think
+                there are better ways to help students become successful.
+            </p>
+
+            <p>
+                Of course, if we are talking about "success" then we need to define what that actually means. I will say
+                that the traditional methods of remediation are pretty good at doing what they are designed to do. The
+                primary emphasis of traditional remediation is to help students become proficient at specific algebraic
+                manipulations. The entire structure of textbooks is based on that premise:
+            </p>
+            <p>
+                <q>
+                    Here is an example. Now try a problem exactly like that one. Now do that 50 more times (but only the
+                    odd numbered problems so you can check your answer).
+                </q>
+            </p>
+            <p>
+                If all you want out of students is to get them to perform manipulations on command, this is a very good
+                way of doing it.
+            </p>
+            <p>
+                But as I think about the students I encounter, I don't think this is really that helpful. I question
+                whether they actually remain proficient in those manipulations after the semester is over. After all,
+                they've been through this before, perhaps even two or three times. Why is this time going to be
+                different? I also question what they actually learned from the class, and I question the true value that
+                the students get from courses like these. It all comes back down to a question that's at the core of
+                education: What do we <em>really</em> want students to learn?
+            </p>
+            <p>
+                If we only have one semester to teach students about mathematics, do we really want to teach them that 
+                he core of mathematics is doing algebraic manipulations? Is that what math is? Is that what we actually
+                care about? I understand that some people would agree that it is. They think the goal is to get students
+                to be proficient at these particular algebraic manipulations so that they can execute those
+                manipulations in their other courses (college algebra/precalculus, physics, chemistry, statistics). I
+                don't think this is wrong, I just think it's short-sighted.
+            </p>
+            <p>
+                <aside>
+                    <p>
+                        Here is a subset of topics that may appear in a high school Algebra 2 course: rationalizing the
+                        denominator of radical expressions, complex numbers and the fundamental theorem of algebra,
+                        exponentials, logarithms, matrices, synthetic division, logic, probability, infinite series...
+                    </p>
+                </aside>
+                I believe that the core skill that students should get is not mathematical manipulations, but the
+                development of mathematical reasoning. The emphasis of the K-12 system is still currently heavily
+                invested in mathematical manipulations. If you look at most Algebra 2 textbooks, you'll find an
+                incredibly broad range of topics that are covered. Most of these topics end up being manipulations
+                piled on top of other manipulations.
+            </p>
+            <p>
+                When I look at students in remedial courses, I make two primary observations about them. The first is
+                that students are often very confused about mathematics. They operate from a very rule-based perspective
+                and often feel as though the bulk of their work is memorizing manipulations and memorizing when they
+                need to use them. The second, which follows from the first, is that they completely lack confidence in
+                their mathematical abilities. This is a learned helplessness from all the times they tried to memorize
+                something and failed. They have had many years to develop the "not a math person" identity where they do
+                not embody any level of mathematical confidence and show few signs of mathematical reasoning. Many
+                students simply guess at whether they are doing the right thing, then sit back and wait to be told
+                whether it's right or wrong. And when you look at the educational system that they've come through, you
+                can understand why this is.
+            </p>
+            <p>
+                My goal with this book is to change how students think about mathematics. I would love to have two or
+                three semesters of math courses to really bring students to a place of thinking about mathematics at a
+                college level. But there is only so much that can be done in one semester, especially when that semester
+                is contextualized as a support for a college level math course. And that's the reality. We simply need
+                to do the best we can with the time that we have.
+            </p>
+        </section>
+
+        <section xml:id="preface-target-audience">
+            <title>Who is the Target Audience?</title>
+            <p>
+                This book is written for all college students who are interested in improving their mathematical
+                foundation. This includes students that are either destined for a liberal arts or statistics college
+                math course, and students on the STEM trajectory headed towards calculus. I also think this has value
+                to anyone who is teaching or will teach math at any level (especially K-12). There is a lot of systemic
+                brokenness in the math education system, and I will be glad if these ideas help to fix even a smallest
+                part of that.
+            </p>
+        </section>
+
+        <section xml:id="preface-book-goal">
+            <title>The Goal of the Book</title>
+            <p>
+                So we return to the driving question: What do we <em>really</em> want students to learn? The answer that
+                this book gives is that the goal is to get students to become better and more confident mathematical
+                thinkers. They've spent enough time doing the lather-rinse-repeat of pure manipulations. They need to
+                develop a different intellectual foundation. The good news is that we're not working from scratch.
+                Because although students may struggle with certain types of algebraic manipulations, it's rare that all
+                the students need to relearn all of them. Those past experiences are our starting point.
+            </p>
+            <p>
+                So instead of treating students as if they've never seen these manipulations before (which is how the
+                majority of remedial coursework approaches topics), we're going to work with students as people who have
+                experience but have not carefully reflected on those experiences. A lot of the manipulations that we ask
+                of them are already somewhere in their heads, and we're simply working with them to connect those
+                neurons to other neurons and strengthen that signal.
+            </p>
+            <aside>
+                <p>
+                    Instructors will likely be pleased by students having an organized framework for writing their
+                    mathematics, even if the students are doing everything wrong. At least it's legible!
+                </p>
+            </aside>
+            <p>
+                This begins with the very first section. The emphasis is on mathematical communication. This is already
+                a significant divergence from most other approaches, where the goal is to get the right answer. The
+                majority of students don't even have a basic framework for understanding mathematical communication. We
+                lay out simple but clear expectations for how to begin to organize their mathematical writing, and that
+                foundation is the tool that we use to help students reorganize the information in their heads. Once we
+                can get them to write their work in an organized manner, it becomes easier to begin to isolate specific
+                struggles that students are having, and they can even begin to start to recognize them for themselves.
+            </p>
+            <p>
+                Every section that follows treats students as adults who already have mathematical experiences. We do
+                not treat the students as kids who need to have to be told exactly what to do all the time. In fact, we
+                emphasize throughout the book that mathematics is not about following rules, but about being able to
+                think through situations and understanding what they're doing and why they're doing it. You will find
+                that some of the "Try It" problems do not have an example that models the exact thing they need to do.
+                Those examples often become a crutch for students as they realize that they don't actually need to think
+                for themselves, and simply have to hunt down the right example to show them exactly what to do. You will
+                see this philosophy expressed in the worksheets as well, as many of them will touch topics that were not
+                directly discussed in the text.
+            </p>
+            <p>
+                We have done this specifically because we want students to learn to think for themselves. The goal is
+                not just that students will learn the idea, but that they will begin to develop metacognitive strategies
+                for how they approach new mathematical ideas. This is a much broader foundation that they are more
+                likely to carry forward with them into their future classes. If you just teach the manipulations, then
+                it's going to be hit-or-miss whether they will remember those manipulations when they need them in the
+                future. But if you give them the tools to think about the mathematics effectively (and the confidence to
+                trust their thinking), they will be far more able to reconstruct the ideas behind the manipulations if
+                they've forgotten them. It simply puts them in a much better position for long-term success.
+            </p>
+        </section>
+
+        <section xml:id="preface-book-structure">
+            <title>The Structure of the Book</title>
+            <aside>
+                <p>
+                    The whole book can be used as a self-study book if one is independently motivated. But most students
+                    will need to transition into it.
+                </p>
+            </aside>
+            <p>
+                One of the features of this book to help students accomplish the goal is that only part of the book is
+                intended to be "taught" in the classroom. Self-efficacy comes with the practice of being
+                self-efficacious. This was an intentional decision based on the use of this material as part of a
+                corequisite math course. As much as we can want to aim for deeper learning outcomes, we still need to
+                confront the practical reality of our students' struggles with mathematics.
+            </p>
+            <aside>
+                <p>
+                    We view the content like a tree. After covering the main trunk, the branches can be done as distinct
+                    topics.
+                </p>
+                <image xml:id="book-structure-tree" width="60%">
+                    <description>The book is structured like a tree.</description>
+                    <latex-image>
+                        \begin{tikzpicture}
+                            \draw (0,0) node[rotate=90,anchor=west] {Main Trunk};
+                            \draw (-0.2,1.5) node[rotate=-45,anchor=east] {Branch 1};
+                            \draw (-0.2,0.75) node[rotate=-45,anchor=east] {Branch 2};
+                            \draw (0.2,1.5) node[rotate=45,anchor=west] {Branch 3};
+                            \draw (0.2,0.75) node[rotate=45,anchor=west] {Branch 4};
+                        \end{tikzpicture}
+                    </latex-image>
+                </image>
+            </aside>
+            <p>
+                The book is broken into five sections:
+                <ul>
+                    <li>The Main Trunk: Core algebra (Sections 1-11)</li>
+                    <li>Branch 1: Linear equations and the coordinate plane (Sections 12-16)</li>
+                    <li>Branch 2: Fractions and decimals (Sections 17-23)</li>
+                    <li>Branch 3: A review of arithmetic (Sections 24-32)</li>
+                    <li>Branch 4: A few applications (Sections 33-36)</li>
+                </ul>
+            </p>
+            <aside>
+                <p>
+                    Sections 8 and 9 (factoring quadratic polynomials) can be skipped without loss of continuity if
+                    these skills are deemed unnecessary for the students.
+                </p>
+            </aside>
+            <p>
+                The main trunk is the set of core algebra that we think are absolutely critical before launching into
+                any college level mathematics. We spend the first two weeks of the semester covering these sections.
+                They are meant to be reminders of things students have already learned, not a complete reteaching of
+                the content from scratch.
+            </p>
+            <aside>
+                <p>
+                    The presentation framework is to line up the equal signs vertically and use the space to the right
+                    to explain or justify the steps. And we really do make students do this!
+                </p>
+            </aside>
+            <p>
+                The most important section is the first one, where we introduce the idea of mathematical communication.
+                In that section, we provide students a framework that we expect them to follow. The idea is to slow them
+                down and get them to think about the algebraic manipulations, and to otherwise disrupt the bad habits
+                they've developed. Without this shift, it's significantly more difficult for students to make the
+                necessary changes.
+            </p>
+            <aside>
+                <p>
+                    Yes, we also expect students to <em>read</em> the words in the textbook!
+                </p>
+            </aside>
+            <p>
+                Beyond the main trunk, the students are expected to work on the sections more or less on their own. We
+                do have times of in-class activities that will include demonstrating that they've worked through these
+                sections, but we generally do not intend for our instructors to directly teach out of the book after
+                completing the main trunk. The textbook is written in a conversational tone that students should be able
+                to read and understand.
+            </p>
+            <aside>
+                <p>
+                    We win when we get this reaction from students: "Oh! Now I understand why we do it this way!"
+                </p>
+            </aside>
+            <p>
+                Rather than being a few big, complex ideas, it's really more a collection of a lot of little ideas to
+                help math "make sense" to students. The instructors are expected to be available to help students if
+                they get stuck on topics, but we are generally confident in the students' ability to mostly work things
+                out on their own. 
+            </p>
+            <p>
+                The emphasis of the branches is not about getting students to execute technical manipulations. It's
+                about getting them to start to think and interact differently with mathematical concepts. Remember that
+                the goal is to have increased mathematical thinking and mathematical confidence, not growing their
+                catalog of algebraic manipulations. So while we do also review manipulations (especially see
+                <xref ref="sec-fb-5-deeper" />), the context and presentation lend themselves more towards
+                thinking accurately about these mathematical ideas and not treating them as a series of rule-based
+                manipulations.
+            </p>
+            <p>
+                This perspective is the opposite of how many math textbooks are written. Most of the time, there is a
+                core thread of content and the branches point outward to bigger ideas and more distant horizons. For
+                this book, the branches point inward to the main trunk. Rather than using the main trunk as a launching
+                point for new ideas, it is the home base that we return to over and over again. And this is how we
+                achieve the depth of mathematical thinking.
+            </p>
+            <aside>
+                <p>
+                    The college level math course is where students will face new ideas!
+                </p>
+            </aside>
+            <p>
+                Simply put, for a support course like this we would rather that students make the mental effort to
+                connect the dots of ideas that already exist in their heads instead of asking them to pursue new topics.
+            </p>
+        </section>
+
+        <section xml:id="preface-section-structure">
+            <title>The Structure of Each Section</title>
+            <p>
+                The core structure of each section is the following:
+                <ul>
+                    <li>
+                        <em>Learning Objectives:</em> Each section has 1 to 4 learning objectives. This gives a brief
+                        summary of the core concepts in the section.
+                    </li>
+                    <li>
+                        <em>Main Content with Examples:</em> Students are expected to read the text and complete the
+                        "Try It" examples. If students are reading the text, they should be able to do these problems.
+                        And if they can't do these problems, that's a signal to them that they need to contact the
+                        instructor (or campus tutoring services, if available) to get help. The solutions to these
+                        examples are provided in the text.
+                    </li>
+                    <li>
+                        <em>Worksheets:</em> The worksheets are extra problems that are sometimes similar to the "Try
+                        It" examples, but they also sometimes diverge into a deeper look at familiar ideas. Those
+                        problems are where students are being asked to think mathematically. Given what they know, can
+                        they push deeper and make a new connection? We encourage students to approach these as group
+                        explorations because the act of talking through ideas (communication) is important to the
+                        primary learning outcomes. The worksheets are intentionally short to allow for these types of
+                        conversations to happen relatively quickly, rather than having them first do dozens of rote
+                        exercises before sharing their ideas with each other.
+                    </li>
+                    <li>
+                        <em>Deliberate Practice:</em> Most sections will have a short collection of exercises to allow
+                        students a bit of additional practice. This is called "deliberate practice" because students are
+                        given a number of ideas to focus on while they do these problems. These are supplements to
+                        provide students with further opportunities to practice the skills that they've developed
+                        (thinking, presenting, explaining, and executing) by doing standard manipulations. If you are
+                        looking to just dump a bunch of problems on students, you're much better off using a different
+                        textbook. These sections are intentionally kept short to discourage instructors from just
+                        assigning students to do rote exercises.
+                    </li>
+                    <li>
+                        <em>Closing Ideas:</em> Each section has a brief discussion that summarizes the ideas that are
+                        found in the section and the worksheets. The purpose of this is to redirect the focus towards
+                        the horizon. As students work their way through each section, it's easy to get fully absorbed
+                        in executing the calculations and lose track of how this fits into the bigger picture.
+                    </li>
+                    <li>
+                        <em>Going Deeper:</em> Many sections will have an additional topic that pushes students deeper.
+                        These sections exist to better illuminate the ways that the ideas from the section link to
+                        higher levels of mathematics and other applications of the ideas in each section. These
+                        additional topics can all be skipped without losing any of the core content of the book, but
+                        some instructors may find some of the topics to be helpful for use in just-in-time remediation.
+                        For example, there is a series of sections that focus on manipulating rational expressions that
+                        a precalculus course may want to cover. Other sections are there simply as fodder for discussion
+                        and to broaden students' mathematical perspective.
+                    </li>
+                </ul>
+            </p>
+        </section>
+
+        <section xml:id="preface-precalculus-alignment">
+            <title>Alignment with Precalculus Courses</title>
+            <p>
+                This textbook was organized with precalculus in mind. While precalculus textbooks vary somewhat, they
+                mostly fit the same basic pattern. This means that this textbook should work well with most standard
+                first semester precalculus courses. We wanted to create a rough alignment between this material and the
+                basic structure those courses. Specifically, there were three major touch points that we wanted to have:
+                <ul>
+                    <li>
+                        <p>
+                            Discuss the coordinate plane and graphing lines around the same time students are studying
+                            the general properties of functions.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss of fractions before introducing of rational functions to remind students of the
+                            underlying manipulations before they need it.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Discuss scientific notation around the time as logarithmic functions to create the
+                            opportunity to connect the two ideas.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                The suggested course alignment below is based on having extra contact time with students for the
+                corequisite content, which allows for the extra time up front to set the stage with the Main Branch of
+                this book. (I don't know how you would try to teach both the support material and the core content
+                without extra contact time!) It's possible to use this material without it, but students may not adopt
+                the mindset and writing habits if those sections are not treated as the primary learning outcomes. After
+                the Main Branch, very little in-class time is spent directly teaching the Foundations content. Students
+                are expected to read the book, and only a small portion of the class time is dedicated to completing the
+                worksheets and discussing the ideas directly. 
+                <table>
+                    <title>Precalculus Alignment</title>
+                    <tabular>
+                        <row>
+                      <cell width="1">Weeks</cell>
+                      <cell>Foundations Textbook</cell>
+                      <cell>Precalculus Content</cell>
+                        </row>
+                        <row>
+                      <cell>1-2</cell>
+                      <cell>
+                        <line>Main Trunk</line>
+                        <line>(Core Algebra)</line>
+                      </cell>
+                      <cell></cell>
+                        </row>
+                        <row>
+                      <cell>3-5</cell>
+                      <cell>
+                        <line>Branch 1</line>
+                        <line>(Linear Equations/Coordinate Plane)</line>
+                      </cell>
+                      <cell>Introduction to Functions</cell>
+                        </row>
+                        <row>
+                      <cell>6-10</cell>
+                      <cell>
+                        <line>Branch 2</line>
+                        <line>(Fractions/Decimals)</line>
+                      </cell>
+                      <cell>Polynomials and Rational Functions</cell>
+                        </row>
+                        <row>
+                      <cell>11-15</cell>
+                      <cell>
+                        <line>Branches 3-4</line>
+                        <line>(Arithmetic/Applications)</line>
+                      </cell>
+                      <cell>Logarithmic Functions</cell>
+                        </row>
+                    </tabular>
+                </table>
+            </p>
+        </section>
+
+        <section xml:id="sec-other-alignment">
+            <title>Alignment with Other Courses</title>
+            <p>
+                Although the organization of this textbook is not built around other first semester courses (such as a
+                quantitative literacy course or a "liberal arts" math course), the content of the course is perhaps even
+                more valuable to those students and those classes. Those students are actually the ones I have had the
+                most experience teaching. However, those courses tend to be quite varied in their structure, and so it
+                would be impossible to align this text with that. While the branches are set up in a specific and
+                intended order, it's the ideas are sufficiently self-contained that they can be rearranged without much
+                harm to the overall delivery of the material. 
+            </p>
+        </section>
+
+        <section xml:id="sec-errors-suggestions">
+            <title>Errors? Suggestions?</title>
+            
+            <p>
+                As with most things, this is a work in progress. If you find any errors in the textbook, please email me
+                to let me know. Also, if you have suggestions for additional topics or alternative approaches, I'm
+                always open to new ideas. The best way to contact me is through email
+                (<email>aaron.wong@nsc.edu</email>).
+            </p>
+        </section>
+
+    </preface>
+
+
+</frontmatter>

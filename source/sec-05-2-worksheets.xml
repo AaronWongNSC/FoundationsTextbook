@@ -1,0 +1,148 @@
+<section xml:id="sec-vas-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/05-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-vas-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Determine the value of the expression <m>3p + 5q</m> when <m>p = -2</m> and <m>q = -1</m>. Show the
+				calculation and write your result as an if-then statement. 
+			</p>
+			<aside>
+				<p>
+					The most common errors on these problems tend to be the simple arithmetic steps. Take your time and
+					be careful! 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Substitute <m>b = 3a - 5</m> into the expression <m>2b + 3</m> and simplify the result. Use a complete
+				presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+						-x + 5 \amp = -y + 3 + 5 \amp \eqnspacer \amp \text{Substitute $x = y + 3$} \\
+						\amp = -y + 8 \amp \amp \text{Arithmetic} 
+					\end{aligned}
+				</me>
+			</p>
+			<aside>
+				<p>
+					Be aware of this error so that you can avoid making it yourself! 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-vas-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Determine the value of the expression <m>4a - 3b</m> when <m>a = -3</m> and <m>b = 4</m>. Show the
+				calculation and write your result as an if-then statement. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Substitute <m>n = -2m + 1</m> into the expression <m>-n + 2</m> and simplify the result. Use a complete
+				presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Substitute <m>y = 2x - 3</m> into the expression <m>2x + 3y</m> and simplify the result. Use a complete
+				presentation. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-vas-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Determine the value of the expression <m>x - y^2</m> when <m>x = 2</m> and <m>y = -3</m>. Show the
+				calculation and write your result as an if-then statement. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>-3a + 4b - 7 = 5</m> for when <m>b = -2</m>. Use a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+					-3p + 4q \amp = 5 \\
+					-3(q - 4) + 4q \amp = 5 \amp \eqnspacer \amp \text{Substitute $p = q - 4$} \\
+					-3q - 12 + 4q \amp = 5 \amp \amp \text{Distributive property} \\
+					q - 12 \amp = 5 \amp \amp \text{Combine like terms} \\
+					q \amp = 17 \amp \amp \text{Add 12 to both sides} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-vas-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Substitute <m>s = -2t + 1</m> into the equation <m>2s + 1 = 4</m> and solve for the variable. Use a
+				complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>3m - 2n - 7 = 5</m> for when <m>m = 4n - 3</m>. Use a complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Substitute <m>x = 3</m> into the expression <m>x^2 - 6x + 9</m> and simplify the result. Use a complete presentation. 
+			</p>
+			<aside>
+				<p>
+					The value of <m>x</m> must be the same for the entire expression. We do not want <m>x</m> to take
+					two different values at the same time. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-vas-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words. 
+				<me>
+					\begin{aligned}
+						5x - y \amp = 4 \\
+						5x - (3x + 4) \amp = 4 \amp \eqnspacer \amp \text{Substitute $y = 3x - 2$} \\
+						5x - 3x - 4 \amp = 4 \amp \amp \text{Distributive property} \\
+						2x - 4 \amp = 4 \amp \amp \text{Combine like terms} \\
+						2x \amp = 0 \amp \amp \text{Subtract $4$ from both sides} \\
+						x \amp = 0 \amp \amp \text{Divide both sides by $2$} 
+					\end{aligned}
+				</me>
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Substitute <m>n = -2m - 3</m> into the expression <m>-3m - 2n + 5</m> and simplify the result. Use a
+				complete presentation. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Solve the equation <m>-2a + 3b - 7 = b</m> for when <m>b = -a + 2</m>. Use a complete presentation. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

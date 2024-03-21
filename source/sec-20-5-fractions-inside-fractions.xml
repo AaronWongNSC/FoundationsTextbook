@@ -1,0 +1,72 @@
+<section xml:id="sec-fd-5-deeper">
+	<title>Going Deeper: Fractions Inside of Fractions</title>
+	<p>
+		The technique of multiplying the top and bottom of a fraction by the same value to eliminate the denominators
+		seems odd when working with fractions involving numbers, but its value goes up significantly when working with
+		rational expressions. One of the more algebraically difficult situations to work with is when you have fractions
+		inside of other fractions. It's not that anything about the process is different, but the sheer number of
+		symbols can cause students to feel overwhelmed and make mistakes. 
+	</p>
+	<p>
+		Here is an example. The goal is to simplify the following fraction:
+		<me>
+			\frac{ \frac{1}{x + 1} - \frac{3}{x - 2}}{ \frac{2} {x - 2} + \frac{1}{x + 3}}
+		</me>
+		We will first do the calculation by adding the fractions in the numerator and denominator, and then dividing the
+		resulting fractions by multiplying by the reciprocal. 
+		<me>
+			\begin{aligned}
+				\frac{\frac{1}{x + 1} - \frac{3}{x - 2}}{ \frac{2} {x - 2} + \frac{1}{x + 3}}
+				\amp = \frac{ \frac{1 \cdot (x - 2)}{(x + 1) \cdot (x - 2)} - \frac{3 \cdot (x + 1)}{(x - 2) \cdot (x + 1)}}{ \frac{2 \cdot (x + 3)} {(x - 2) \cdot (x + 3)} + \frac{1 \cdot (x - 2)}{(x + 3) \cdot (x - 2)}} \amp \eqnspacer \amp \text{Common Denominator} \\
+				\amp = \frac{ \frac{(x - 2) - (3x + 3)}{(x + 1) (x - 2)} }{ \frac{(2x + 6) + (x - 2)} {(x - 2) (x + 3)}} \\
+				\amp = \frac{ \frac{-2x - 5}{(x + 1) (x - 2)} }{ \frac{3x + 4} {(x - 2) (x + 3)}} \amp \amp \text{Combine like terms} \\
+				\amp = \frac{-2x - 5}{(x + 1) (x - 2)} \cdot \frac{(x - 2) (x + 3)}{3x + 4} \amp \amp \text{Multiply by the reciprocal} \\
+				\amp = - \frac{(2x + 5)(x - 2)(x + 3)}{(x + 1)(x - 2)(3x + 4)} \amp \amp \text{Multiply and factor out the negative} \\
+				\amp = - \frac{(2x + 5)(x + 3) \cdot \cancel{(x - 2)}}{(x + 1)(3x + 4) \cdot \cancel{(x - 2)}} \amp \amp \text{Reduce} \\
+				\amp = - \frac{(2x + 5)(x + 3)}{(x + 1)(3x + 4)} \amp \amp \text{Reduce} \\
+			\end{aligned}
+		</me>
+	</p>
+	<aside>
+		<p>
+			This process somewhat mirrors the process of clearing the denominator in <xref ref="sec-bap-5-deeper" /> . 
+		</p>
+	</aside>
+	<p>
+		We will now do the same calculation, but we will multiply the numerator and denominator by the same value to
+		eliminate the fractions inside of the fraction. 
+		<me>
+			\begin{aligned}
+				\frac{\frac{1}{x + 1} - \frac{3}{x - 2}}{ \frac{2} {x - 2} + \frac{1}{x + 3}}
+				\amp = \frac{\frac{1}{x + 1} - \frac{3}{x - 2}}{ \frac{2} {x - 2} + \frac{1}{x + 3}} \cdot \frac{(x+1)(x-2)(x+3)}{(x+1)(x-2)(x+3)} \amp \eqnspacer \amp \text{Multiply top and bottom} \\
+				\amp = \frac{\frac{(x+1)(x-2)(x+3)}{x + 1} - \frac{3(x+1)(x-2)(x+3)}{x - 2}}{ \frac{2(x+1)(x-2)(x+3)} {x - 2} + \frac{(x+1)(x-2)(x+3)}{x + 3}} \amp \amp \text{Distribute} \\
+				\amp = \frac{\frac{\cancel{(x+1)}(x-2)(x+3)}{\cancel{x + 1}} - \frac{3(x+1)\cancel{(x-2)}(x+3)}{\cancel{x - 2}}}{ \frac{2(x+1)\cancel{(x-2)}(x+3)} {\cancel{x - 2}} + \frac{(x+1)(x-2)\cancel{(x+3)}}{\cancel{x + 3}}} \amp \amp \text{Reduce} \\
+				\amp = \frac{(x-2)(x+3) - 3(x+1)(x+3)}{2(x+1)(x+3) + (x+1)(x-2)} \amp \amp \text{Rewrite and simplify} \\
+				\amp = \frac{(x^2 + x - 6) - (3x^2 + 12x + 9)}{(2x^2 + 8x + 6) + (x^2 - x - 2)} \\
+				\amp = \frac{-2x^2 - 11 x - 15}{3x^2 + 7x + 4} \\
+				\amp = - \frac{2x^2 + 11 x + 15}{3x^2 + 7x + 4} \amp \amp \text{Factor out the negative} \\
+				\amp = - \frac{(2x + 5)(x + 3)}{(x+1)(3x + 4)} 
+			\end{aligned}
+		</me>
+	</p>
+	<aside>
+		<p>
+			You should go through each calculation step by step to make sure that you really understand what happened. 
+		</p>
+	</aside>
+	<p>
+		Both of these calculations involve a lot of steps, and neither one is necessarily better than the other. The
+		first one required the proper execution of more fraction calculations, but the second one required a
+		factorization step to ensure that the expression cannot be reduced. Both of those steps can be difficult in
+		their own ways. 
+	</p>
+	<p>
+		It should be noted that expressions that are this messy do not appear particularly frequently, but if you
+		continue along in mathematics, you will find that calculations involving fractions inside of fractions do
+		appear. There are two reasons for including this calculation here. The first is to expose you to some of the
+		more intricate algebraic manipulations that arise in higher levels of mathematics. The second is to point out
+		the fact that even though the algebra may look complicated, there's nothing here that you haven't seen before or
+		is beyond your ability. Your capacity for handling complicated expressions like these will grow as you continue
+		to practice and gain experience.
+	</p>
+</section>

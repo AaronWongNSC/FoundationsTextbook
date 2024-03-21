@@ -1,0 +1,393 @@
+<section xml:id="sec-lcp-1-main">
+	<title>Get it Straight</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Identify and determine solutions to linear equations.
+				</p>
+			</li>
+			<li>
+				<p>
+					Locate points on the coordinate plane.
+				</p>
+			</li>
+			<li>
+				<p>
+					Sketch solutions to linear equations by plotting points, including horizontal and vertical lines.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<aside>
+		<p>
+			All of the ideas will work with other variable combinations, but the variables and are the most common. 
+		</p>
+	</aside>
+	<p>
+		In <xref ref="def-solve-solution"/>, we saw that solving an equation means to find the value (or values) of the variable
+		(or variables) that make the equation true, and that solutions are the specific values of the variables that
+		accomplish that. We are going to take another look at those ideas, but in the context of using multiple
+		variables simultaneously. Specifically, we are going to be working with linear equations in the variables
+		<m>x</m> and <m>y</m>.
+	</p>
+	<aside>
+		<p>
+			Two equations are equivalent if there is a sequence of valid algebraic manipulations to convert one into the other and back again. 
+		</p>
+	</aside>
+    <definition xml:id="def-linear-equation">
+        <title>Linear Equation</title>
+        <idx><h>linear equation</h></idx>
+        <idx><h>standard form</h> <h>linear equation</h></idx>
+        
+        <statement>
+            <p>
+				A <term>linear equation in the variables <m>x</m> and <m>y</m></term> is an equation that is equivalent
+				to one of the form <m>ax + by = c</m> for some constants <m>a</m>, <m>b</m>, and <m>c</m>. This form is
+				known as the <term>standard form</term> of the equation.
+            </p>
+        </statement>
+    </definition>
+
+	<activity xml:id="sec-lcp-1-ac1-finding-solutions">
+		<title>Finding Solutions of Linear Equations</title>
+		<aside>
+			<p>
+				Unless otherwise specified, we assume that an ordered pair is being represented by the variables and in that order. 
+			</p>
+		</aside>
+		<p>
+			For example, the equation <m>3x + 2y = 7</m> is true when <m>x = 1</m> and <m>y = 2</m>. We can represent
+			this using the notation <m>(1, 2)</m>. This is known as an ordered pair because the order of the numbers
+			matters. The first value inside the parentheses is called the and the second value inside the parentheses is
+			called the We can write this using symbols as <m>(x,y) = (1,2)</m>. 
+		</p>
+		<p>
+			Notice that this is not the only solution. Here are some others: <m>(-1, 5)</m>, <m>(3, -1)</m>, and
+			<m>(0, 3.5)</m>. In fact there are infinitely many solutions. 
+		</p>
+		<p>
+			<alert xml:id="sec-lcp-1-ac1-ti">Try it!</alert>
+		</p>
+		<aside>
+			<p>
+				Note: Do not worry about presenting your work here. You ought to be able to find values mentally. 
+			</p>
+		</aside>
+		<p>
+			Determine four solutions to the equation <m>4x - 3y = -1</m>, including at least one solution with a
+			negative value and one solution that uses at least one decimal or fraction. 
+		</p>
+		<solution>
+			<aside>
+				<p>
+					"Individual answers may vary" means that there are lots of correct answers and only some are listed.
+					If you picked different numbers, it doesn't mean you're wrong. You just want to check that they make
+					the equation true. 
+				</p>
+			</aside>
+			<p>
+				Individual answers may vary. 
+				<me>
+					\begin{array}{ll}
+						\text{Integer values:} \amp (-4, -5), (-1,-1), (2, 3), (5, 7) \\
+						\text{Fraction values:} \amp (-\frac{1}{4}, 0), (0, \frac{1}{3}) \\
+						\text{Decimal values (approximations):} \amp (-0.25, 0), (0, 0.333)
+					\end{array}
+				</me>
+			</p>
+		</solution>
+	</activity>
+	<aside>
+		<p>
+			Solutions of <m>x + y = 5</m>.
+			<me>
+				\begin{array}{c|c}
+					x \amp y \\ \hline
+					0 \amp 5 \\
+					1.5 \amp 3.5 \\
+					4 \amp 1 \\
+					6 \amp -1
+				\end{array}
+			</me>
+		</p>
+	</aside>
+	<p>
+		Long lists of ordered pairs are not the most intuitive way to present solutions. For more than just a couple
+		points, it makes sense to transition to using a chart, such as the one in the margin. Sometimes a chart like
+		this can help us see a pattern in the numbers if the pattern is simple. But even with that, charts have limited
+		value because it's still just a list of numbers. It would be better to use a more visual representation of this
+		information. 
+	</p>
+	<aside>
+		<p>
+			There are other coordinate systems, but they all follow a similar conceptual construction. 
+		</p>
+	</aside>
+	<p>
+		Mathematicians often use a coordinate plane to represent solutions to two variable equations. The coordinate
+		plane is a picture where specific positions represent specific ordered pairs. Most students are familiar with
+		the basic design of the standard rectangular coordinate grid, which is the grid we will be using. 
+	</p>
+	<image xml:id="sec-lcp-1-quadrants" width="30%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.5]
+				\draw[ultra thin, gray] (-5,-5) grid (5,5); 
+				\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[anchor=west] {$x$}; 
+				\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south] {$y$}; 
+				\draw (2.5,2.5) node[anchor=center] {\Huge I}; 
+				\draw (-2.5,2.5) node[anchor=center] {\Huge II}; 
+				\draw (-2.5,-2.5) node[anchor=center] {\Huge III}; 
+				\draw (2.5,-2.5) node[anchor=center] {\Huge IV}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Here is a quick reminder of some of the basic terminology: 
+		<ul>
+			<li>
+				<p>
+					The labeled horizontal line is called the <m>x</m>-axis
+				</p>
+			</li>
+			<li>
+				<p>
+					The labeled vertical line is called the <m>y</m>-axis
+				</p>
+			</li>
+			<li>
+				<p>
+					The intersection of those two lines is called the origin. 
+				</p>
+			</li>
+			<li>
+				<p>
+					The quadrants are numbered with capital roman numerals, starting with I on the upper right and
+					working around in a counter-clockwise manner. 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<p>
+		Students often learn coordinates as a sequence of motions starting from the origin. The point <m>(2,3)</m> is
+		located by starting from the origin, moving right 2, and then moving up 3. Negative <m>x</m>-coordinates
+		correspond to moving to the left instead of to the right, and negative <m>y</m>-coordinates correspond to moving
+		down instead of up. 
+	</p>
+	<image xml:id="sec-lcp-1-vertical-horizontal" width="100%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.5] 
+				\begin{scope} [shift={(15,0)}]
+					\draw[stealth-stealth] (-5.5,0) node[anchor=east] {$y = 0$} -- (5.5,0) node[black, anchor=west] {$x$}; 
+					\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\draw[stealth-stealth, red] (-5.5,1) node[anchor=east] {$y = 1$} -- (5.5,1); 
+					\draw[stealth-stealth, red] (-5.5,2) node[anchor=east] {$y = 2$} -- (5.5,2); 
+					\draw[stealth-stealth, red] (-5.5,3) node[anchor=east] {$y = 3$} -- (5.5,3); 
+					\draw[stealth-stealth, red] (-5.5,4) node[anchor=east] {$y = 4$} -- (5.5,4); 
+					\draw[stealth-stealth, red] (-5.5,-1) node[anchor=east] {$y = -1$} -- (5.5,-1); 
+					\draw[stealth-stealth, red] (-5.5,-2) node[anchor=east] {$y = -2$} -- (5.5,-2); 
+					\draw[stealth-stealth, red] (-5.5,-3) node[anchor=east] {$y = -3$} -- (5.5,-3); 
+					\draw[stealth-stealth, red] (-5.5,-4) node[anchor=east] {$y = -4$} -- (5.5,-4); 
+				\end{scope} 
+				\begin{scope}
+					\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+					\draw[stealth-stealth] (0,-5.5) node[anchor=east,rotate=90] {$x = 0$} -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\draw[blue,stealth-stealth] (1,-5.5) node[anchor=east,rotate=90] {$x = 1$} -- (1,5.5); 
+					\draw[blue,stealth-stealth] (2,-5.5) node[anchor=east,rotate=90] {$x = 2$} -- (2,5.5); 
+					\draw[blue,stealth-stealth] (3,-5.5) node[anchor=east,rotate=90] {$x = 3$} -- (3,5.5); 
+					\draw[blue,stealth-stealth] (4,-5.5) node[anchor=east,rotate=90] {$x = 4$} -- (4,5.5); 
+					\draw[blue,stealth-stealth] (-1,-5.5) node[anchor=east,rotate=90] {$x = -1$} -- (-1,5.5); 
+					\draw[blue,stealth-stealth] (-2,-5.5) node[anchor=east,rotate=90] {$x = -2$} -- (-2,5.5); 
+					\draw[blue,stealth-stealth] (-3,-5.5) node[anchor=east,rotate=90] {$x = -3$} -- (-3,5.5); 
+					\draw[blue,stealth-stealth] (-4,-5.5) node[anchor=east,rotate=90] {$x = -4$} -- (-4,5.5); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		But there is another way to look at this which is a little bit more general. Rather than thinking about this in
+		terms of movement, we can think about this in terms of the intersection of two lines. Lines of the form
+		<m>x = \text{(Number)}</m> are vertical lines corresponding to the coordinates on the <m>x</m>-axis and lines of
+		the form <m>y = \text{(Number)}</m> are horizontal lines corresponding to the coordinates on the <m>y</m>-axis.
+		It is the overlap of these lines that creates the coordinate grid. 
+	</p>
+	<p>
+		Once you have this, then you can see that the positions are actually the intersection of two of these lines,
+		corresponding to the specific value and the specific value. Here are the two ways of interpreting the point
+		<m>(x,y) = (2,3)</m> visualized side-by-side. 
+	</p>
+	<image xml:id="sec-lcp-1-locating-points" width="100%">
+		<latex-image>
+			\begin{tikzpicture}[scale=0.5] 
+				\begin{scope} [shift={(15,0)}]
+					\draw[ultra thin, gray] (-5,-5) grid (5,5); 
+					\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+					\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\draw[blue,stealth-stealth] (2,-5.5) node[anchor=east,rotate=90] {$x = 2$} -- (2,5.5); 
+					\draw[stealth-stealth, red] (-5.5,3) node[anchor=east] {$y = 3$} -- (5.5,3); 
+					\draw[fill=black] (2,3) circle (0.1); 
+				\end{scope} 
+				\begin{scope}
+					\draw[ultra thin, gray] (-5,-5) grid (5,5); 
+					\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+					\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+					\draw[blue, thick, -stealth] (0,0) -- (2,0) node[midway,anchor=north] {$2$ Right}; 
+					\draw[red, thick, -stealth] (2,0) -- (2,3) node[midway,anchor=west] {$3$ Up}; 
+					\draw[fill=black] (2,3) circle (0.1); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<activity xml:id="sec-lcp-1-ac2-plot-points">
+		<title>Plotting Points</title>
+		<p>
+			Part of mathematical thinking is the ability to conceptualize the same result in multiple ways. Locating
+			points on a coordinate grid is an example of this. We can think of it both in terms of movement and in terms
+			of the intersection of lines. 
+		</p>
+		<p>
+			<alert xml:id="sec-lcp-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Plot the point and draw a visualization for both conceptualizations of locating the point. 
+		</p>
+		<solution>
+			<image xml:id="sec-lcp-1-ti2-solution" width="100%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5] 
+						\begin{scope} [shift={(15,0)}]
+							\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+							\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+							\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+							\draw[blue,stealth-stealth] (3,-5.5) node[anchor=east,rotate=90] {$x = 3$} -- (3,5.5); 
+							\draw[stealth-stealth, red] (-5.5,-1) node[anchor=east] {$y = -1$} -- (5.5,-1); 
+							\draw[fill=black] (3,-1) circle (0.1); 
+						\end{scope} 
+						\begin{scope}
+							\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+							\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+							\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+							\draw[blue, thick, -stealth] (0,0) -- (3,0) node[midway,anchor=north] {$3$ Right}; 
+							\draw[red, thick, -stealth] (3,0) -- (3,-1) node[midway,anchor=west] {$1$ Down}; 
+							\draw[fill=black] (3,-1) circle (0.1); 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<aside>
+		<p>
+			All of these ideas can extend into three or more dimensions. 
+		</p>
+	</aside>
+	<p>
+        <idx><h>polar coordinates</h></idx>
+		We can generalize the idea of giving locations as the intersection of two lines by allowing ourselves to use
+		curves. For example, locations on the earth are found as the intersection of the latitude and longitude lines
+		(which are actually curves on the globe). Your location in a city can often be described as being near the
+		intersection of two streets (which may not be straight). In trigonometry, there's another coordinate grid that's
+		built around circles and lines pointing out from the origin called polar coordinates. 
+	</p>
+	<p>
+		Once we have the ability to locate points on the coordinate plane, we can then plot lots of points on the same
+		coordinate grid and look for a pattern. 
+	</p>
+	<activity xml:id="sec-lcp-1-ac3-plot-solutions">
+		<title>Plotting Solutions of Linear Equations</title>
+		<aside>
+			<p>
+				When mathematicians say "by inspection" they mean that you can look at the problem and work it out in
+				your head. 
+			</p>
+		</aside>
+		<p>
+			We saw earlier that we can generate solutions to a linear equation by inspection. If we plot those solutions
+			on a grid, they will all appear in a line, which is why we call the equation a linear equation. Here is an
+			example of solving the equation <m>x - 2y = -1</m>. After plotting the points, we can draw in the shape
+			that is implied by the points. 
+		</p>
+		<image xml:id="sec-lcp-1-ac3-graphing-solutions" width="80%">
+			<latex-image>
+				\begin{tikzpicture}[scale=0.5]
+					\draw (-2,0) node[anchor=east] {$
+						\begin{array} {c|c|c}
+							x \amp \phantom{.} y \phantom{.} \amp (x,y) \\ \hline
+							-5 \amp -2 \amp (-5,-2) \\
+							-3 \amp -1 \amp (-3,-1) \\
+							-1 \amp 0 \amp (-1,0) \\
+							1 \amp 1 \amp (1,1) \\
+							3 \amp 2 \amp (3,2) \\
+							5 \amp 3 \amp (5,3)
+						\end{array} $}; 
+					\begin{scope} [shift={(6,0)}]
+						\draw[ultra thin, gray] (-5,-5) grid (5,5); 
+						\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+						\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+						\draw[fill=black] (-5,-2) circle (0.1); 
+						\draw[fill=black] (-3,-1) circle (0.1); 
+						\draw[fill=black] (-1,0) circle (0.1); 
+						\draw[fill=black] (1,1) circle (0.1); 
+						\draw[fill=black] (3,2) circle (0.1); 
+						\draw[fill=black] (5,3) circle (0.1); 
+						\draw (-5.5,-2.25) -- (5.5,3.25); 
+					\end{scope}
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-lcp-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Find four solutions of the equation <m>3x - 2y = -1</m>. Plot the points and sketch the solution. 
+		</p>
+		<solution>
+			<aside>
+				<p>
+					The points may vary, but the line will not. 
+				</p>
+			</aside>
+			<image xml:id="sec-lcp-1-ti3-solution" width="80%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5]
+						\draw (-2.6,4) node[anchor=east] {$4x-3y = -3$}; 
+						\draw (-2,0) node[anchor=east] {$
+							\begin{array} {c|c|c}
+								x \amp \phantom{.} y \phantom{.} \amp (x,y) \\ \hline
+								-3 \amp -4 \amp (-3,-4) \\
+								-1 \amp -1 \amp (-1,-1) \\
+								1 \amp 2 \amp (1,2) \\
+								3 \amp 5 \amp (3,5) \\
+							\end{array} $}; 
+						\begin{scope} [shift={(6,0)}]
+							\draw[ultra thin, lightgray] (-5,-5) grid (5,5); 
+							\draw[stealth-stealth] (-5.5,0) -- (5.5,0) node[black, anchor=west] {$x$}; 
+							\draw[stealth-stealth] (0,-5.5) -- (0,5.5) node[anchor=south, black] {$y$}; 
+							\draw[fill=black] (-3,-4) circle (0.1); 
+							\draw[fill=black] (-1,-1) circle (0.1); 
+							\draw[fill=black] (1,2) circle (0.1); 
+							\draw[fill=black] (3,5) circle (0.1); 
+							\draw (-4,-5.5) -- (3.333,5.5); 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		An important feature to recognize is that the line that is drawn represents all of the solutions. It turns out
+		that every single point on the line will solve the equation, even the ones that fall in between the grid points.
+		This is where all those decimal solutions can be found. 
+	</p>
+	<aside>
+		<p>
+			Can you really tell the difference between 0.5 and 0.49 by looking at a picture?
+		</p>
+	</aside>
+	<p>
+		However, while the sketch of the line is an important tool for building intuition, you need to be very careful
+		about trying to guess exact values on the basis of a sketch. If you're reading values from a graph that are not
+		on the grid lines, you must always acknowledge that you are only giving an approximation. 
+	</p>
+</section>

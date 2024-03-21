@@ -1,0 +1,84 @@
+<section xml:id="sec-bap-4-closing">
+    <title>Closing Ideas</title>
+    <aside>
+        <p>
+            A mathematical axiom is a pattern that we accept to be true without a formal mathematical proof.
+        </p>
+    </aside>
+    <p>
+        We have been implicitly using some very core mathematical ideas throughout this section. Specifically, we have
+        been working with the <term>axioms of equality</term>. All of the axioms are built on the idea that if you start
+        with two quantities that are equal, and then perform the same manipulation to both of them, that the results
+        should be equal. Here's what this formally looks like:
+    </p>
+    <aside>
+        <p>
+            There are actually even more axioms of equality! But here we want to focus on the algebraic manipulations.
+        </p>
+    </aside>
+    <definition xml:id="def-equality">
+        <title>Axioms of Equality</title>
+        <idx><h>axioms of equality</h></idx>
+        <statement>
+            <p>
+                Let <m>a</m>, <m>b</m>, and <m>c</m> be real numbers. The <term>axioms of equality</term> state that
+                <ol>
+                    <li>
+                        <p>
+                            If <m>a = b</m>, then <m>a + c = b + c</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>a = b</m>, then <m>a - c = b - c</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>a = b</m>, then <m>ac = bc</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If <m>a = b</m>, then <m>\frac{a}{c} = \frac{b}{c}</m>, provided that <m>c \neq 0</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </definition>
+    <aside>
+        <p>
+            Why can't we divide by zero?
+        </p>
+    </aside>
+    <p>
+        This may look intimidating at first, but it's much less so once you recognize that this is what you've been
+        doing the entire section. It just says that if we add to, subtract from, multiply, or divide (as long as we
+        don't divide by zero) both sides by the same value, then we maintain the equality. And this is what allows all
+        of our algebraic manipulations to make sense.
+    </p>
+    <p>
+        It should also be fairly intuitive that if we started with an equality but treated the two sides differently, we
+        would break the equality. For example, if we start off with <m>5 = 5</m>, but then add 3 to the left side and
+        subtract 2 from the right side, the two sides will simply be different values.
+    </p>
+    <p>
+        The important takeaway from this is that these axioms simply make sense. It's hard to imagine a world where we
+        each start with five apples, we both eat one of our own apples, but we somehow end up with two different numbers
+        of apples. And that's supposed to be true about math in general. Math is supposed to make sense. In some ways,
+        mathematics represents the epitome of strict logical reasoning.
+    </p>
+    <p>
+        Unfortunately, for many students, math is anything but that. There are so many symbols, so many rules, and so
+        many manipulations that they have been forced to memorize that the whole thing is an incomprehensible mess.
+        This book is our attempt to change that. The focus here is not going to be just on manipulating symbols, but
+        really understanding what's going on. The emphasis will be placed on making sure you are clear in your thinking
+        and clear in your communication. These things are far more important than just running you through the gamut of
+        algebraic manipulations for the second, third, or fourth time in your life.
+    </p>
+    <p>
+        The hope is that as you start to think about math differently, you will find more and more of it simply makes
+        sense.
+    </p>
+</section>

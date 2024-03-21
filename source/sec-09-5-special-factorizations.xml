@@ -1,0 +1,219 @@
+<section xml:id="sec-fqp-5-deeper">
+	<title>Going Deeper: Special Factorizations</title>
+
+	<p>
+		There are certain factoring patterns that are useful to learn to recognize. It's not that you would be unable to
+		factor these without recognizing them, but they come up so frequently that they have special names so that we
+		can identify them when they happen: 
+	</p>
+	<image xml:id="sec-fqp-5-factorizations" width="80%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (0,0) node[anchor=north] {
+						\begin{tabular}{ll}
+							Square of a binomial sum: \amp $a^2 + 2ab + b^2 = (a + b)^2$ \\
+							Square of a binomial difference: \amp $a^2 - 2ab + b^2 = (a - b)^2$ \\
+							Difference of squares: \amp $a^2 - b^2 = (a + b)(a - b)$
+						\end{tabular}
+				};
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		The basic idea of using these patterns to factor is that you need to match your expression with one of the above
+		formulas and identify the appropriate values of <m>a</m> and <m>b</m>. For example, suppose you want to factor
+		<m>x^2 + 6x + 9</m> and you want to check whether this fits one of the patterns above. By counting the number of
+		terms and looking at the signs, we can see that there's only one formula that has a chance.
+	</p>
+	<image xml:id="sec-fqp-5-special-factorizations" width="100%">
+		<latex-image>
+			\begin{tikzpicture}[scale=1.2]
+				\draw (0,0.5) node[anchor=north] {Square of a binomial sum}; 
+				\draw (0,0) node[anchor=north] {
+					$\begin{array} {ccccc}
+						a^2 \amp + \amp 2ab \amp + \amp b^2 \\
+						\updownarrow \amp \updownarrow \amp \updownarrow \amp \updownarrow \amp \updownarrow \\
+						x^2 \amp + \amp 6x \amp + \amp 9 \\
+					\end{array} $}; 
+				\draw (5,0.5) node[anchor=north] {Square of a binomial difference}; 
+				\draw (5,0) node[anchor=north] {
+					$\begin{array} {ccccc}
+						a^2 \amp - \amp 2ab \amp + \amp b^2 \\
+						\updownarrow \amp \times \amp \updownarrow \amp \updownarrow \amp \updownarrow \\
+						x^2 \amp + \amp 6x \amp + \amp 9 \\
+					\end{array} $}; 
+				\draw (10,0.5) node[anchor=north] {Difference of Squares}; 
+				\draw (10,0) node[anchor=north] {
+					$\begin{array} {ccccc}
+						a^2 \amp \amp - \amp \amp b^2 \\
+						\updownarrow \amp \times \amp \times \amp \times \amp \updownarrow \\
+						x^2 \amp + \amp 6x \amp + \amp 9 \\
+					\end{array} $}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Once we know that we should be focusing on the square of a binomial sum, we can try to identify the <m>a</m> and
+		the <m>b</m> by looking at the terms on the end and then check to see if the term in the middle matches. We can
+		see that we can take <m>a = x</m> and <m>b = 3</m>, which means that the middle term should be <m>2ab = 6x</m>.
+		And this all matches perfectly.
+		<me>
+			x^2 + 6x + 9 = x^2 + 2 \cdot x \cdot 3 + 3^2 = (x + 3)^2
+		</me> 
+	</p>
+	<p>
+		The nice part about these formulas is that it gives us insights into other factorizations that we may not
+		immediately see using the method. Here's an example:
+		<me>
+			x^2 + 2 \sqrt{2} x + 2 = x^2 + 2 \cdot x \cdot \sqrt{2} + ( \sqrt{2})^2 = (x + \sqrt{2})^2
+		</me>
+		It's not that the method can't be applied here. Here's how it would look.
+		<me>
+			x^2 + 2 \sqrt{2} x + 2 \longrightarrow \left\{
+				\begin{array}{l}
+					\text{Multiply to $2\sqrt{2}$} \\
+					\text{Add to $2$}
+				\end{array} \right.
+		</me>
+		It's technically true that <m>\sqrt{2} + \sqrt{2} = 2 \sqrt{2}</m> and <m>\sqrt{2} \cdot \sqrt{2} = 2</m>, and
+		we would be able to do the factorization by grouping: 
+		<me>
+			\begin{aligned}
+				x^2 + 2 \sqrt{2} x + 2 \amp = x^2 + \sqrt{2} x + \sqrt{2} x + 2 \amp \eqnspacer \amp \text{The $ac$ method} \\
+				\amp = x(x + \sqrt{2}) + \sqrt{2} (x + \sqrt{2}) \amp \amp \text{Factor by grouping} \\
+				\amp = (x + \sqrt{2})(x + \sqrt{2}) \amp \amp \text{Factor out the common factor} 
+			\end{aligned}
+		</me>
+		But we can see from this that the <m>ac</m> method is really designed for thinking through integer
+		factorizations. Recognizing the factorization with square roots is just not something we should expect students
+		at this level to do. 
+	</p>
+	<p>
+		The reason we use these special factorizations is because they are a special pattern that we can learn to
+		recognize with practice. And that's pretty much all this is. By learning to recognize these patterns, you have
+		access to a larger collection of factorizations that you might otherwise miss. Here are some examples: 
+	</p>
+	<aside>
+		<p>
+			You should check these factorizations by working out the products. 
+		</p>
+	</aside>
+	<image xml:id="sec-fqp-5-factorization-examples" width="90%">
+		<latex-image>
+			\begin{tikzpicture}[scale=1.1]
+				\draw (0,0.5) node[anchor=north] {Square of a binomial sum};
+				\draw (0,0) node[anchor=north] {\renewcommand{\arraystretch}{1.5}
+					$\begin{array}{lcl}
+						x^2 + 6x + 9 \amp = \amp (x + 3)^2 \\
+						x^2 + 2xy + y^2 \amp = \amp (x + y)^2 \\
+						x^4 + 10x^2 + 25 \amp = \amp (x^2 + 5)^2 \\
+					\end{array}$};
+				\draw (7,0.5) node[anchor=north] {Square of a binomial difference};
+				\draw (7,0) node[anchor=north] {\renewcommand{\arraystretch}{1.5}
+					$\begin{array}{lcl}
+						x^2 - 12x + 36 \amp = \amp (x - 6)^2 \\
+						x^2 - 4xy + 4y^2 \amp = \amp (x - 2y)^2 \\
+						x^6 - 2x^3y^2 + y^4 \amp = \amp (x^3 - y^2)^2 \\
+					\end{array}$};
+				\draw (3.5,-2.5) node[anchor=north] {Difference of squares};
+				\draw (3.5,-3) node[anchor=north] {\renewcommand{\arraystretch}{1.5}
+					$\begin{array}{lcl}
+						x^2 - 49 \amp = \amp (x + 7)(x - 7) \\
+						4x^2 - 9y^2 \amp = \amp (2x + 3y)(2x - 3y) \\
+						x^2 - 2 \amp = \amp (x + \sqrt{2})(x - \sqrt{2}) \\
+					\end{array}$};
+			\end{tikzpicture}
+		</latex-image>
+	</image>	
+	<aside>
+		<p>
+			Freshmen dream is that this is true because it would keep them from losing so many points! 
+		</p>
+	</aside>
+	<p>
+		Another aspect of these formulas is that your awareness of them can help you to avoid a few very specific
+		algebraic errors. If you are familiar with the formulas for the square of a binomial sum and difference, you
+		would immediately recognize what these expressions should be. These are errors that are so common that one of
+		them has been given the nickname of "the freshman's dream." 
+	</p>
+	<image xml:id="sec-fqp-5-bad-factorizations" width="80%">
+		<latex-image>
+			\begin{tikzpicture}
+				\draw (0,0) node[anchor=north] {\renewcommand{\arraystretch}{1.5}
+					$\begin{array}{rclcrcl}
+						(a+b)^2 \amp \overset{\times}{=} \amp a^2 + b^2 \amp \text{\textcolor{white}{.}} \hspace{2cm}
+						\text{\textcolor{white}{.}} \amp (a-b)^2 \amp \overset{\times}{=} \amp a^2 - b^2
+					\end{array} $}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<aside>
+		<p>
+			This logic works for anything of the form <m>x^2 + y^2</m>. 
+		</p>
+	</aside>
+	<p>
+		You might have noticed that that there's a formula for the square of a binomial sum and difference, but only a
+		formula for the difference of squares and not a sum of squares. It turns out that the sum of squares cannot be
+		factored using the tools that we have developed so far. We can use logic to prove that we can't do this. Let's
+		try to factor <m>x^2 + 9</m> as an example. Using the method, we have to find values that do the following:
+		<me>
+			x^2 + 9 \longrightarrow \left\{
+				\begin{array}{l}
+					\text{Multiply to $9$} \\
+					\text{Add to $0$}
+				\end{array} \right.
+		</me>
+		In order to get two numbers to multiply to a positive number, they must either both be positive or both be
+		negative. But if they are both positive or both negative, then when you add them together, you can't get zero
+		because both numbers have the same sign. And so there aren't any numbers that will do this for us. 
+	</p>
+	<aside>
+		<p>
+			At least, none of the real numbers would work. But that hasn't stopped mathematicians from imagining new
+			types of numbers that could do this. (Pun intended.) 
+		</p>
+	</aside>
+	<p>
+		The special factorization formulas don't stop there. Factorization is such an important concept in mathematics
+		that there are all sorts of factorizations that can be helpful at various times and various situations. Here are
+		a few examples, all of which you can check by multiplying everything out: 
+		<ul>
+			<li>
+				<p>
+					The sum of cubes: <m>a^3 + b^3 = (a + b)(a^2 - ab + b^2)</m> 
+				</p>
+			</li>
+			<li>
+				<p>
+					The difference of cubes: <m>a^3 - b^3 = (a - b)(a^2 + ab + b^2)</m> 
+				</p>
+			</li>
+			<li>
+				<p>
+					The difference of fourth powers: <m>a^4 - b^4 = (a - b)(a^3 + a^2b + ab^2 + b^3)</m> 
+				</p>
+			</li>
+			<li>
+				<p>
+					A "magic" formula: <m>x^2 + bx + c = \left( x - \left( - \frac{b}{2} + \sqrt{\frac{b^2}{4} - c} \right) \right) \left( x + \left( - \frac{b}{2} - \sqrt{\frac{b^2}{4} - c} \right) \right)</m> 
+				</p>
+			</li>
+		</ul>
+	</p>
+	<aside>
+		<p>
+			Do you see the pattern in the difference of powers? 
+		</p>
+	</aside>
+	<p>
+		The last formula is not one that you're likely to find anywhere, but it may look similar to something you might
+		remember from your past mathematical experiences. And it's actually related to an approach to factoring that was
+		known by mathematicians over 3500 years ago that was introduced to the modern world by Dr. Po-Shen Loh in 2019.
+	</p>
+	<aside>
+		<p>
+			You can find several understandable explanations of this alternative factoring technique on the internet. 
+		</p>
+	</aside>
+</section>

@@ -1,0 +1,618 @@
+<section xml:id="sec-mult-1-main">
+	<title>Making Groups of Things</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Understand multiplication as <m>A</m> groups of <m>B</m>.
+				</p>
+			</li>
+			<li>
+				<p>
+					Understand multiplication as areas.
+				</p>
+			</li>
+			<li>
+				<p>
+					Understand multiplication with negatives as creating "opposite" groups.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		In this book, we've already seen two different concepts for multiplication. When we were working with the
+		distributive property (<xref ref="def-distributive-property"/>), we talked about multiplication representing groups
+		of things and used this example: 
+		<me>
+			\begin{aligned}
+				4 \cdot (2 \text{ apples} + 3 \text{ oranges} ) \amp = 8 \text{ apples} + 12 \text{ oranges} 
+			\end{aligned}
+		</me>
+		We also talked about multiplication being represented as an area (<xref ref="sec-pop-1-main"/>): 
+	</p>
+	<image xml:id="sec-mult-1-multiplication-area" width="60%">
+		<latex-image>
+			\begin{tikzpicture}
+				\begin{scope} [scale=0.3]
+					\draw[ultra thin, gray] (0,0) grid (7,5); 
+					\draw (0,0) rectangle (7,5); 
+					\draw (0,2.5) node[anchor=east] {\strut $5$}; 
+					\draw (3.5,5) node[anchor=south] {$7$}; 
+				\end{scope}
+				\draw[-stealth] (3,0.75) -- (4,0.75); 
+				\draw (4.5,0.75) node[anchor=west] {$5 \cdot 7 = 35$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		In this section, we're going to explore these multiplication concepts more deeply in order to understand how
+		they relate to each other and to some of our other representations of numbers. 
+	</p>
+	<activity xml:id="sec-mult-1-ac1-A-groups-of-B">
+		<title>Multiplication as <m>A</m> Groups of <m>B</m></title>
+		<p>
+			The concept of using groups to represent multiplication is often referred to as "<m>A</m> groups of
+			<m>B</m>" (meaning the number of objects you have when you have <m>A</m> groups of <m>B</m> objects each).
+			If we think about groups of we can represent those as individual objects in the following manner:
+		</p>
+		<image xml:id="sec-mult-1-3-groups-of-5" width="70%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.4] 
+					\begin{scope}
+						\draw (0,0) circle (3); 
+						\draw[fill=lightgray] (-0.5,-2) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-0.5,-0.5) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-0.5,1) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-2,-0.5) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (1,-0.5) rectangle ++ (1,1); 
+					\end{scope} 
+					\begin{scope} [shift={(7,0)}]
+						\draw (0,0) circle (3); 
+						\draw[fill=lightgray] (-0.5,-2) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-0.5,-0.5) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-0.5,1) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-2,-0.5) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (1,-0.5) rectangle ++ (1,1); 
+					\end{scope} 
+					\begin{scope} [shift={(14,0)}]
+						\draw (0,0) circle (3); 
+						\draw[fill=lightgray] (-0.5,-2) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-0.5,-0.5) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-0.5,1) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-2,-0.5) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (1,-0.5) rectangle ++ (1,1); 
+					\end{scope}
+					\draw[-stealth] (18,0) -- (19,0) node[anchor=west] {$3 \cdot 5 = 15$}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			It's important to recognize that this is not the same picture as <m>B</m> groups of <m>A</m> even though the
+			total number of objects is the same. 
+		</p>
+		<image xml:id="sec-mult-1-5-groups-of-3" width="90%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.4] 
+					\begin{scope}
+						\draw (0,0) circle (2); 
+						\draw[fill=lightgray] (-0.5,0.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-1.25,-1.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,-1.25) rectangle ++ (1,1); 
+					\end{scope} 
+					\begin{scope} [shift={(5,0)}]
+						\draw (0,0) circle (2); 
+						\draw[fill=lightgray] (-0.5,0.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-1.25,-1.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,-1.25) rectangle ++ (1,1); 
+					\end{scope} 
+					\begin{scope} [shift={(10,0)}]
+						\draw (0,0) circle (2); 
+						\draw[fill=lightgray] (-0.5,0.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-1.25,-1.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,-1.25) rectangle ++ (1,1); 
+					\end{scope} 
+					\begin{scope} [shift={(15,0)}]
+						\draw (0,0) circle (2); 
+						\draw[fill=lightgray] (-0.5,0.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-1.25,-1.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,-1.25) rectangle ++ (1,1); 
+					\end{scope} 
+					\begin{scope} [shift={(20,0)}]
+						\draw (0,0) circle (2); 
+						\draw[fill=lightgray] (-0.5,0.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-1.25,-1.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,-1.25) rectangle ++ (1,1); 
+					\end{scope}
+					\draw[-stealth] (23,0) -- (24,0) node[anchor=west] {$5 \cdot 3 = 15$}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-mult-1-ac1-ti">Try it!</alert>
+		</p>
+		<aside>
+			<p>
+				Be sure to make it clear which one is which! 
+			</p>
+		</aside>
+		<p>
+			Draw a diagram to represent <m>2 \cdot 4</m> and <m>4 \cdot 2</m>. 
+		</p>
+	<solution>
+		<image xml:id="sec-mult-1-ti1-solution1" width="50%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.4] 
+					\begin{scope}
+						\draw (0,0) circle (2.5); 
+						\draw[fill=lightgray] (-1.25,0.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,0.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-1.25,-1.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,-1.25) rectangle ++ (1,1); 
+					\end{scope} 
+					\begin{scope} [shift={(6,0)}] \draw (0,0) circle (2.5); 
+						\draw[fill=lightgray] (-1.25,0.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,0.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (-1.25,-1.25) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,-1.25) rectangle ++ (1,1); 
+					\end{scope}
+					\draw[-stealth] (10,0) -- (11,0) node[anchor=west] {$2 \cdot 4 = 8$}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<image xml:id="sec-mult-1-ti1-solution2" width="80%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.4] 
+					\begin{scope}
+						\draw (0,0) circle (2); 
+						\draw[fill=lightgray] (-1.25,-0.5) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,-0.5) rectangle ++ (1,1); 
+					\end{scope} 
+					\begin{scope} [shift={(5,0)}]
+						\draw (0,0) circle (2); 
+						\draw[fill=lightgray] (-1.25,-0.5) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,-0.5) rectangle ++ (1,1); 
+					\end{scope} 
+					\begin{scope} [shift={(10,0)}]
+						\draw (0,0) circle (2); 
+						\draw[fill=lightgray] (-1.25,-0.5) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,-0.5) rectangle ++ (1,1); 
+					\end{scope} 
+					\begin{scope} [shift={(15,0)}]
+						\draw (0,0) circle (2); 
+						\draw[fill=lightgray] (-1.25,-0.5) rectangle ++ (1,1); 
+						\draw[fill=lightgray] (0.25,-0.5) rectangle ++ (1,1); 
+					\end{scope}
+					\draw[-stealth] (18,0) -- (19,0) node[anchor=west] {$4 \cdot 2 = 8$}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+	</solution>
+	</activity>
+	<activity xml:id="sec-mult-1-ac2-area">
+		<title>Multiplication as Area</title>
+		<aside>
+			<p>
+				There is no formal convention for whether the length is the horizontal direction or the vertical
+				direction. 
+			</p>
+		</aside>
+		<p>
+			The concept of area as a representation of multiplication comes from the formula for the area of a
+			rectangle: <m>A = \ell \cdot w</m> (where <m>\ell</m> is the length of the rectangle and <m>w</m> is the
+			width). The area of a shape is the number of unit squares that we can fit into it. In the case of
+			rectangles, things fit perfectly (compared with other shapes, like circles, where you have lots of pieces
+			of squares to deal with). 
+		</p>
+		<image xml:id="sec-mult-1-area" width="50%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.4]
+					\draw[fill=lightgray] (0,0) rectangle ++ (5,3); 
+					\draw (0,0) grid (5,3); 
+					\draw[-stealth] (6,1.5) -- ++ (1,0) node[anchor=west] {$5 \cdot 3 = 15$}; 
+					\draw (0.5,2.5) node[anchor=center] {\scriptsize $1$}; 
+					\draw (1.5,2.5) node[anchor=center] {\scriptsize $2$}; 
+					\draw (2.5,2.5) node[anchor=center] {\scriptsize $3$}; 
+					\draw (3.5,2.5) node[anchor=center] {\scriptsize $4$}; 
+					\draw (4.5,2.5) node[anchor=center] {\scriptsize $5$}; 
+					\draw (0.5,1.5) node[anchor=center] {\scriptsize $6$}; 
+					\draw (1.5,1.5) node[anchor=center] {\scriptsize $7$}; 
+					\draw (2.5,1.5) node[anchor=center] {\scriptsize $8$}; 
+					\draw (3.5,1.5) node[anchor=center] {\scriptsize $9$}; 
+					\draw (4.5,1.5) node[anchor=center] {\scriptsize $10$}; 
+					\draw (0.5,0.5) node[anchor=center] {\scriptsize $11$}; 
+					\draw (1.5,0.5) node[anchor=center] {\scriptsize $12$}; 
+					\draw (2.5,0.5) node[anchor=center] {\scriptsize $13$}; 
+					\draw (3.5,0.5) node[anchor=center] {\scriptsize $14$}; 
+					\draw (4.5,0.5) node[anchor=center] {\scriptsize $15$}; 
+					\draw (2.5,-0.5) node[anchor=north] {\small $5$}; 
+					\draw (-0.5,1.5) node[anchor=east] {\small $3$}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-mult-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Represent <m>4 \cdot 7</m> using a rectangle and determine the product by determining the area. 
+		</p>
+		<solution>
+			<image xml:id="sec-mult-1-ti2-solution" width="60%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.4]
+						\draw[fill=lightgray] (0,0) rectangle ++ (7,4); 
+						\draw (0,0) grid (7,4); 
+						\draw[-stealth] (8,2) -- ++ (1,0) node[anchor=west] {$4 \cdot 7 = 28$}; 
+						\draw (0.5,3.5) node[anchor=center] {\scriptsize $1$}; 
+						\draw (1.5,3.5) node[anchor=center] {\scriptsize $2$}; 
+						\draw (2.5,3.5) node[anchor=center] {\scriptsize $3$}; 
+						\draw (3.5,3.5) node[anchor=center] {\scriptsize $4$}; 
+						\draw (4.5,3.5) node[anchor=center] {\scriptsize $5$}; 
+						\draw (5.5,3.5) node[anchor=center] {\scriptsize $6$}; 
+						\draw (6.5,3.5) node[anchor=center] {\scriptsize $7$}; 
+						\draw (0.5,2.5) node[anchor=center] {\scriptsize $8$}; 
+						\draw (1.5,2.5) node[anchor=center] {\scriptsize $9$}; 
+						\draw (2.5,2.5) node[anchor=center] {\scriptsize $10$}; 
+						\draw (3.5,2.5) node[anchor=center] {\scriptsize $11$}; 
+						\draw (4.5,2.5) node[anchor=center] {\scriptsize $12$}; 
+						\draw (5.5,2.5) node[anchor=center] {\scriptsize $13$}; 
+						\draw (6.5,2.5) node[anchor=center] {\scriptsize $14$}; 
+						\draw (0.5,1.5) node[anchor=center] {\scriptsize $15$}; 
+						\draw (1.5,1.5) node[anchor=center] {\scriptsize $16$}; 
+						\draw (2.5,1.5) node[anchor=center] {\scriptsize $17$}; 
+						\draw (3.5,1.5) node[anchor=center] {\scriptsize $18$}; 
+						\draw (4.5,1.5) node[anchor=center] {\scriptsize $19$}; 
+						\draw (5.5,1.5) node[anchor=center] {\scriptsize $20$}; 
+						\draw (6.5,1.5) node[anchor=center] {\scriptsize $21$}; 
+						\draw (0.5,0.5) node[anchor=center] {\scriptsize $22$}; 
+						\draw (1.5,0.5) node[anchor=center] {\scriptsize $23$}; 
+						\draw (2.5,0.5) node[anchor=center] {\scriptsize $24$}; 
+						\draw (3.5,0.5) node[anchor=center] {\scriptsize $25$}; 
+						\draw (4.5,0.5) node[anchor=center] {\scriptsize $26$}; 
+						\draw (5.5,0.5) node[anchor=center] {\scriptsize $27$}; 
+						\draw (6.5,0.5) node[anchor=center] {\scriptsize $28$}; 
+						\draw (3.5,-0.5) node[anchor=north] {\small $7$}; 
+						\draw (-0.5,2) node[anchor=east] {\small $4$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		We can start to see the connection between thinking about groups and thinking about areas if we simply think
+		about the groups being either horizontal or vertical collections of squares. 
+	</p>
+	<image xml:id="sec-mult-1-area-and-groups" width="40%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.4]
+				\draw[fill=lightgray] (0,0) rectangle ++ (5,3); 
+				\draw (0,0) grid (5,3); 
+				\draw[stealth-] (0.5,-0.5) -- ++ (0,-1); 
+				\draw[stealth-] (1.5,-0.5) -- ++ (0,-1); 
+				\draw[stealth-] (2.5,-0.5) -- ++ (0,-1); 
+				\draw[stealth-] (3.5,-0.5) -- ++ (0,-1); 
+				\draw[stealth-] (4.5,-0.5) -- ++ (0,-1); 
+				\draw (2.5,-2) node[anchor=north] {$5$ groups of $3$}; 
+				\draw[stealth-] (-0.5,0.5) -- ++ (-1,0); 
+				\draw[stealth-] (-0.5,1.5) -- ++ (-1,0); 
+				\draw[stealth-] (-0.5,2.5) -- ++ (-1,0); 
+				\draw (-2,1.5) node[anchor=east] {$3$ groups of $5$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		These diagrams work well for positive numbers, but if we want to use negative numbers, we need a more robust
+		image. We can look at this either with integer chips or with movement diagrams. We will work our way through the
+		different possibilities. 
+	</p>
+	<p>
+		To do positive groups of positive objects, it's not significantly different than what we've already done. Here
+		are groups of integer chips:
+	</p>
+	<image xml:id="sec-mult-1-groups-of-chips" width="60%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.3] 
+				\begin{scope} [shift={(0,0)}]
+					\draw (0,0) circle (3); 
+					\draw[ultra thick, fill=yellow] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+				\end{scope} 
+				\begin{scope} [shift={(7,0)}]
+					\draw (0,0) circle (3); 
+					\draw[ultra thick, fill=yellow] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+				\end{scope} 
+				\begin{scope} [shift={(14,0)}]
+					\draw (0,0) circle (3); 
+					\draw[ultra thick, fill=yellow] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+				\end{scope}
+				\draw[-stealth] (18,0) -- ++ (1,0) node[anchor=west] {$3 \cdot 4 = 12$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		And here are 3 movements of 4:
+	</p>
+	<image xml:id="sec-mult-1-groups-of-movements" width="95%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-1,0) -- (13,0); 
+				\foreach \i in {0,...,12} {
+					\draw[fill=black] (\i, 0) circle (0.1); 
+				}
+				\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow,opacity=0.3] (4,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow,opacity=0.3] (8,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow] (12,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[-stealth,dotted] (0,-0.5) -- ++ (4,0) node[midway, anchor=north] {\small $4$}; 
+				\draw[-stealth,dotted] (4,-0.5) -- ++ (4,0) node[midway, anchor=north] {\small $4$}; 
+				\draw[-stealth,dotted] (8,-0.5) -- ++ (4,0) node[midway, anchor=north] {\small $4$}; 
+				\draw (0,-1.75) -- ++ (0,1.5); 
+				\draw (4,-.75) -- ++ (0,0.5); 
+				\draw (8,-.75) -- ++ (0,0.5); 
+				\draw (12,-1.75) -- ++ (0,1.5); 
+				\draw[-stealth] (0,-1.5) -- ++ (12,0) node[midway, anchor=north] {\small $12$}; 
+				\draw (14,0) node[anchor=west] {\strut \boxed{3 \cdot 4 = 12}}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		From here, it becomes fairly obvious what 3 groups -4 of must look like: 
+	</p>
+	<image xml:id="sec-mult-1-negative-groups" width="60%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.3] 
+				\begin{scope} [shift={(0,0)}]
+					\draw (0,0) circle (3); 
+					\draw[ultra thick, fill=red] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+				\end{scope} 
+				\begin{scope} [shift={(7,0)}]
+					\draw (0,0) circle (3); 
+					\draw[ultra thick, fill=red] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+				\end{scope} 
+				\begin{scope} [shift={(14,0)}]
+					\draw (0,0) circle (3); 
+					\draw[ultra thick, fill=red] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+				\end{scope}
+				\draw[-stealth] (18,0) -- ++ (1,0) node[anchor=west] {$3 \cdot (-4) = -12$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<image xml:id="sec-mult-1-groups-of-negative-movements" width="100%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-1,0) -- (13,0); 
+				\foreach \i in {0,...,12} {
+					\draw[fill=black] (\i, 0) circle (0.1); 
+				}
+				\draw[thick, fill=yellow] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow,opacity=0.3] (4,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow,opacity=0.3] (8,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow,opacity=0.3] (12,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[-stealth,dotted] (4,-0.5) -- ++ (-4,0) node[midway, anchor=north] {\small $-4$}; 
+				\draw[-stealth,dotted] (8,-0.5) -- ++ (-4,0) node[midway, anchor=north] {\small $-4$}; 
+				\draw[-stealth,dotted] (12,-0.5) -- ++ (-4,0) node[midway, anchor=north] {\small $-4$}; 
+				\draw (0,-1.75) -- ++ (0,1.5); 
+				\draw (4,-.75) -- ++ (0,0.5); 
+				\draw (8,-.75) -- ++ (0,0.5); 
+				\draw (12,-1.75) -- ++ (0,1.5); 
+				\draw[-stealth] (12,-1.5) -- ++ (-12,0) node[midway, anchor=north] {\small $-12$}; 
+				\draw (15,0) node[anchor=west] {\strut \boxed{3 \cdot (-4) = -12}}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		But this leads us to try to figure out what a negative number of groups might mean. Instead of using the word
+		"negative" it is better to think of this as "opposite." If we have a group of integer chips, it is pretty clear
+		what the corresponding "opposite" group would be: 
+	</p>
+	<image xml:id="sec-mult-1-opposite-chips" width="50%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.3] 
+				\begin{scope} [shift={(0,0)}]
+					\draw (0,0) circle (3); 
+					\draw[ultra thick, fill=yellow] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+					\draw[ultra thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+				\end{scope}
+				\draw[stealth-stealth] (4,0) -- (10,0) node[midway, anchor=south] {Opposites}; 
+				\begin{scope} [shift={(14,0)}]
+					\draw (0,0) circle (3); 
+					\draw[ultra thick, fill=red] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+				\end{scope}
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		Similarly, given a particular movement, the opposite is the same total movement but in the opposite direction. 
+	</p>
+	<image xml:id="sec-mult-1-opposite-movements" width="90%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[-stealth,dotted] (0,-0.5) -- ++ (4,0) node[midway, anchor=north] {\small $4$}; 
+				\draw (0,-.75) -- ++ (0,0.5); 
+				\draw (4,-.75) -- ++ (0,0.5); 
+				\draw[stealth-stealth] (5,-0.5) -- (11,-0.5) node[midway, anchor=south] {Opposites}; 
+				\draw[-stealth,dotted] (16,-0.5) -- ++ (-4,0) node[midway, anchor=north] {\small $-4$}; 
+				\draw (16,-.75) -- ++ (0,0.5); 
+				\draw (12,-.75) -- ++ (0,0.5); 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		With this in mind, the product <m>(-3) \cdot 4</m> would be three groups of the "opposite" of 4. In other words,
+		three groups of four negative integer chips.
+	</p>
+	<image xml:id="sec-mult-1-opposite-groups-of-chips" width="70%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.3] 
+				\begin{scope} [shift={(0,0)}]
+					\draw (0,0) circle (3); 
+					\draw[ultra thick, fill=red] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+				\end{scope} 
+				\begin{scope} [shift={(7,0)}]
+					\draw (0,0) circle (3); 
+					\draw[ultra thick, fill=red] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+				\end{scope} 
+				\begin{scope} [shift={(14,0)}]
+					\draw (0,0) circle (3); 
+					\draw[ultra thick, fill=red] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+					\draw[ultra thick, fill=red] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0); 
+				\end{scope}
+				\draw[-stealth] (18,0) -- ++ (1,0) node[anchor=west] {$-3 \cdot 4 = -12$}; 
+				\draw (7,-3) node[anchor=north] {$3$ groups of the "opposite" of $4$}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<p>
+		And also three movements that are the "opposite" of 4:
+	</p>
+	<image xml:id="sec-mult-1-opposite-groups-of-movements" width="100%">
+		<latex-image>
+			\begin{tikzpicture} [scale=0.7]
+				\draw[stealth-stealth] (-1,0) -- (13,0); 
+				\foreach \i in {0,...,12} {
+					\draw[fill=black] (\i, 0) circle (0.1); 
+				}
+				\draw[thick, fill=yellow] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow,opacity=0.3] (4,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow,opacity=0.3] (8,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[thick, fill=yellow,opacity=0.3] (12,1) -- ++ (30:0.5) arc (30:330:0.5) -- cycle; 
+				\draw[-stealth,dotted] (4,-0.5) -- ++ (-4,0) node[midway, anchor=north] {\small $4$}; 
+				\draw[-stealth,dotted] (8,-0.5) -- ++ (-4,0) node[midway, anchor=north] {\small $4$}; 
+				\draw[-stealth,dotted] (12,-0.5) -- ++ (-4,0) node[midway, anchor=north] {\small $4$}; 
+				\draw (0,-1.75) -- ++ (0,1.5); 
+				\draw (4,-.75) -- ++ (0,0.5); 
+				\draw (8,-.75) -- ++ (0,0.5); 
+				\draw (12,-1.75) -- ++ (0,1.5); 
+				\draw[-stealth] (12,-1.5) -- ++ (-12,0) node[midway, anchor=north] {\small $-12$}; 
+				\draw (6,-2) node[anchor=north] {$3$ groups of the "opposite" of a movement of $4$}; 
+				\draw (15,0) node[anchor=west] {\strut \boxed{-3 \cdot 4 = -12}}; 
+			\end{tikzpicture} 
+		</latex-image>
+	</image>
+	<activity xml:id="sec-mult-1-ac3-opposites">
+		<title>Working with Opposite Groups</title>
+		<p>
+			<alert xml:id="sec-mult-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Using the idea of "opposite" groups and "opposite" movements, determine the value of <m>-3 \cdot (-4)</m>
+			using both an integer chip diagram and a movement diagram. 
+		</p>
+		<solution>
+			<image xml:id="sec-mult-1-ti3-solution1">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.3] 
+						\begin{scope} [shift={(0,0)}]
+							\draw (0,0) circle (3); 
+							\draw[ultra thick, fill=yellow] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\end{scope} 
+						\begin{scope} [shift={(7,0)}]
+							\draw (0,0) circle (3); 
+							\draw[ultra thick, fill=yellow] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\end{scope} 
+						\begin{scope} [shift={(14,0)}]
+							\draw (0,0) circle (3); 
+							\draw[ultra thick, fill=yellow] (-1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (-1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (1,-1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+							\draw[ultra thick, fill=yellow] (1,1) circle (1) ++ (-0.5,0) -- ++ (1,0) ++ (-0.5,0.5) -- ++ (0,-1); 
+						\end{scope}
+						\draw[-stealth] (18,0) -- ++ (1,0) node[anchor=west] {$-3 \cdot (-4) = 12$}; 
+						\draw (7,-3) node[anchor=north] {$3$ groups of the "opposite" of $-4$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<image xml:id="sec-mult-1-ti3-solution2">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7]
+						\draw[stealth-stealth] (-1,0) -- (13,0); 
+						\foreach \i in {0,...,12} {
+							\draw[fill=black] (\i, 0) circle (0.1); 
+						}
+						\draw[thick, fill=yellow] (0,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+						\draw[thick, fill=yellow,opacity=0.3] (0,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+						\draw[thick, fill=yellow,opacity=0.3] (4,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+						\draw[thick, fill=yellow,opacity=0.3] (8,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+						\draw[thick, fill=yellow,opacity=0.3] (12,1) -- ++ (30:-0.5) arc (30:330:-0.5) -- cycle; 
+						\draw[-stealth,dotted] (0,-0.5) -- ++ (4,0) node[midway, anchor=north] {\small $-4$}; 
+						\draw[-stealth,dotted] (4,-0.5) -- ++ (4,0) node[midway, anchor=north] {\small $-4$}; 
+						\draw[-stealth,dotted] (8,-0.5) -- ++ (4,0) node[midway, anchor=north] {\small $-4$}; 
+						\draw (0,-1.75) -- ++ (0,1.5); 
+						\draw (4,-.75) -- ++ (0,0.5); 
+						\draw (8,-.75) -- ++ (0,0.5); 
+						\draw (12,-1.75) -- ++ (0,1.5); 
+						\draw[-stealth] (12,-1.5) -- ++ (-12,0) node[midway, anchor=north] {\small $12$}; 
+						\draw (6,-2) node[anchor=north] {$3$ groups of the "opposite" of a movement of $-4$}; 
+						\draw (14,0) node[anchor=west] {\strut \boxed{-3 \cdot (-4) = 12}}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		We can condense this all into a familiar set of "rules" (but remember that it's not about the rule, but about
+		the logic that gives us the rule). 
+	</p>
+	<theorem xml:id="thm-signs-of-multiplication">
+		<title>The Sign Rule of Multiplication</title>
+        <idx><h>sign rule of multiplication</h></idx>
+
+		<statement>
+			<p>
+				When multiplying numbers, the sign of the final result behaves according to the following:
+				<ul>
+					<li>
+						<p><m>(\text{positive}) \cdot (\text{positive}) = (\text{positive})</m> </p>
+					</li>
+					<li>
+						<p><m>(\text{positive}) \cdot (\text{negative}) = (\text{negative})</m> </p>
+					</li>
+					<li>
+						<p><m>(\text{negative}) \cdot (\text{positive}) = (\text{negative})</m> </p>
+					</li>
+					<li>
+						<p><m>(\text{negative}) \cdot (\text{negative}) = (\text{positive})</m> </p>
+					</li>
+				</ul>
+			</p>
+		</statement>
+	</theorem>
+
+</section>

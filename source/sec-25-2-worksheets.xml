@@ -1,0 +1,353 @@
+<section xml:id="sec-add-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/25-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-add-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Draw a base-10 blocks diagram to represent <m>38 + 15</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a base-10 blocks diagram to represent <m>195 + 219</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Think about (do not draw) the diagram you would need to represent <m>48 + 37</m> and compute the result
+				from that mental picture. Did you find the visualization helpful or distracting? Explain what was
+				helpful or distracting about the mental image for you. 
+			</p>
+			<aside>
+				<p>
+					The only correct answer to the "helpful or distracting" part of the question is an answer that is
+					true to your own experience. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-add-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Calculate <m>36 + 59</m> using a number line. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Calculate <m>227 + 389</m> using a number line. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Think about (do not draw) the number line diagram you would need to calculate <m>23 + 38</m> and compute
+				the result from that mental picture. Do you prefer this visualization or the blocks visualization? Why? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Practice your mental arithmetic by performing the following calculations.
+				<me>
+					\begin{aligned}
+						44 + 21 \amp = \\
+						24 + 68 \amp = \\
+						46 + 19 \amp = \\
+						16 + 25 \amp = \\
+						79 + 26 \amp = \\
+						34 + 18 \amp = \\
+						323 + 258 \amp = \\
+						297 + 197 \amp = \\
+						186 + 315 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+			<aside>
+				<p>
+					You might be surprised how much a little bit of practice can help to develop your skill and your
+					confidence. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-add-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Here is a trick for mental arithmetic when one of the numbers is close to a multiple of 10 or 100.
+				Figure out how far you are from that "nice" number and move that many steps first. Then the remaining
+				movement is much easier to do. Here's a visualization of <m>97 + 58</m>: 
+			</p>
+			<aside>
+				<p>
+					We're actually using subtraction to facilitate addition. 
+				</p>
+			</aside>
+			<image xml:id="sec-add-2-wksht-3-1" width="80%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7]
+						\draw[stealth-stealth] (-1,0) -- (6,0); 
+						\draw[fill=black] (0, 0) circle (0.1); 
+						\draw[fill=black] (1, 0) circle (0.1); 
+						\draw[fill=black] (5, 0) circle (0.1); 
+						\draw (0,-0.1) node[anchor=north] {\small $97$}; 
+						\draw (1,-0.1) node[anchor=north] {\small $100$}; 
+						\draw (5,-0.1) node[anchor=north] {\small $155$}; 
+						\draw (0,0) -- ++ (0,1); 
+						\draw[-stealth] (0,0.5) -- ++ (1,0) node[midway,anchor=south] {\strut \small $3$}; 
+						\draw (1,0) -- ++ (0,1); 
+						\draw[-stealth] (1,0.5) -- ++ (4,0) node[midway,anchor=south] {\strut \small $55$}; 
+						\draw (5,0) -- ++ (0,1); 
+						\draw (8,0) node[anchor=west] {\strut \boxed{97 + 58 = 155}}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+					Draw a number line diagram using the technique above to calculate <m>98 + 77</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a number line diagram using the technique above to calculate <m>49 + 36</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Practice your mental arithmetic by performing the following calculations.
+				<me>
+					\begin{aligned}
+						96 + 47 \amp = \\
+						97 + 88 \amp = \\
+						37 + 94 \amp = \\
+						49 + 76 \amp = \\
+						38 + 84 \amp = \\
+						34 + 18 \amp = \\
+						197 + 377 \amp = \\
+						298 + 428 \amp = \\
+						415 + 189 \amp =
+					\end{aligned}
+				</me> 
+			</p>
+			<aside>
+				<p>
+					Remember that <m>a + b = b + a</m>. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Which of the calculations did you find to be easier with this technique? Which were harder? What are the
+				key differences that make one easier than the other? 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-add-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				We are going to spend this time looking at numbers from the Greek perspective. This means that we're
+				going to think of numbers as being sticks of specific lengths. With this in mind, addition of numbers
+				is represented by finding the total length of two sticks put end-to-end.
+			</p>
+			<aside>
+				<p>
+					The units can be whatever you want them to be: inches, feet, centimeters, miles, ...
+				</p>
+			</aside>
+			<p>
+				One of the reasons that the Greeks liked this framework is because it allows us to work with abstract
+				ideas about arithmetic rather than actually having to measure out physical lengths. We can simply
+				replace the numbers with variables and the picture remains meaningful.
+			</p>
+			<image xml:id="sec-add-2-wksht-4-1" width="70%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5] 
+						\begin{scope}
+							\draw (0,-0.3) -- ++ (0,0.6); 
+							\draw (0,0) -- (5,0) node[midway, anchor=south] {\strut \small $a$}; 
+							\draw (5,-0.3) -- ++ (0,0.6); 
+							\draw (6,0) node[anchor=center] {\strut \small $+$}; 
+							\draw (7,-0.3) -- ++ (0,0.6); 
+							\draw (7,0) -- (10,0) node[midway, anchor=south] {\strut \small $b$}; 
+							\draw (10,-0.3) -- ++ (0,0.6); 
+							\draw (11,0) node[anchor=center] {\strut \small $=$}; 
+						\end{scope} 
+						\begin{scope} [shift={(12,0)}]
+							\draw (0,-0.3) -- ++ (0,0.6); 
+							\draw (0,0) -- (5,0) node[midway, anchor=south] {\strut \small $a$}; 
+							\draw (5,-0.3) -- ++ (0,0.6); 
+							\draw (5,0) -- (8,0) node[midway, anchor=south] {\strut \small $b$}; 
+							\draw (8,-0.3) -- ++ (0,0.6); 
+							\draw [decorate,decoration={brace,amplitude=10pt, mirror}] (0,-0.5) -- (8,-0.5) node [midway, anchor=north,yshift=-7pt] {\strut \small $a+b$}; 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<aside>
+				<p>
+					You may find it hard to put this into words. Try your best. It might help to think about what would
+					go wrong if <m>a + b \neq b + a</m>. 
+				</p>
+			</aside>
+			<p>
+				Draw a diagram to represent the calculation <m>b + a</m> and compare your diagram to the diagram of
+				<m>a + b</m>. Explain why the two end results are the same length. Which property of addition is being
+				demonstrated by this? 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Using this framework, the meaning and validity of the associative property of addition is made much more
+				apparent as well. 
+			</p>
+			<image xml:id="sec-add-2-wksht-4-2" width="40%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.5] 
+						\begin{scope} [shift={(0,0)}]
+							\draw (0,-0.3) -- ++ (0,0.6); 
+							\draw (0,0) -- (3,0) node[midway, anchor=south] {\strut \small $a$}; 
+							\draw (3,-0.3) -- ++ (0,0.6); 
+							\draw (3,0) -- (5,0) node[midway, anchor=south] {\strut \small $b$}; 
+							\draw (5,-0.8) -- ++ (0,1.1); 
+							\draw (5,-0.5) -- (9,-0.5) node[midway, anchor=south] {\strut \small $c$}; 
+							\draw (9,-0.8) -- ++ (0,0.6); 
+							\draw[dotted] (0,-0.5) -- (0,-2.5); 
+							\draw[dotted] (3,-0.5) -- (3,-2.5); 
+							\draw[dotted] (5,-1) -- (5,-3); 
+							\draw[dotted] (9,-0.5) -- (9,-3); 
+						\end{scope} 
+						\begin{scope} [shift={(0,-3)}]
+							\draw (0,-0.3) -- ++ (0,0.6); 
+							\draw (0,0) -- (3,0) node[midway, anchor=south] {\strut \small $a$}; 
+							\draw (3,-0.8) -- ++ (0,1.1); 
+							\draw (3,-0.5) -- (5,-0.5) node[midway, anchor=south] {\strut \small $b$}; 
+							\draw (5,-0.8) -- ++ (0,0.6); 
+							\draw (5,-0.5) -- (9,-0.5) node[midway, anchor=south] {\strut \small $c$}; 
+							\draw (9,-0.8) -- ++ (0,0.6); 
+						\end{scope}
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<aside>
+				<p>
+					The purpose of this problem is to show you how the right diagram can help to communicate complex
+					ideas in a simple manner. 
+				</p>
+			</aside>
+			<p>
+				Determine which diagram represents <m>(a + b) + c</m> and which one represents <m>a + (b + c)</m>.
+				Explain how you reached your conclusion. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-add-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Recall that the base-8 number system is a system where we work in groups of 8 instead of groups of 10.
+				The concept of addition carries over perfectly as long as the group sizes are respected.
+			</p>
+			<image xml:id="sec-add-2-wksht-5-1" width="70%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.3] 
+						\begin{scope} [shift={(0,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(1.5,0)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,7); 
+							\draw[ultra thick] (0,0) grid ++ (1,7); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,7); 
+						\end{scope}
+						\draw (1.25,-0.5) node[anchor=north] {\strut \small $17_8$}; 
+						\draw (4,-0.5) node[anchor=north] {\strut \small $+$}; 
+						\begin{scope} [shift={(5.5,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(7,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(8.5,0)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,3); 
+							\draw[ultra thick] (0,0) grid ++ (1,3); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,3); 
+						\end{scope}
+						\draw (7.5,-0.5) node[anchor=north] {\strut \small $23_8$}; 
+						\draw (11,-0.5) node[anchor=north] {\strut \small $=$}; 
+						\begin{scope} [shift={(12.5,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(14,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(15.5,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(17,0)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,10); 
+							\draw[ultra thick] (0,0) grid ++ (1,10); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,10); 
+						\end{scope}
+						\draw (15.25,-0.5) node[anchor=north] {\strut \small $??_8$}; 
+						\draw (19.5,-0.5) node[anchor=north] {\strut \small $=$}; 
+						\begin{scope} [shift={(21,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(22.5,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(24,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(25.5,0)}]
+							\draw[fill=green!50!white] (0,0) rectangle ++ (1,8); 
+							\draw (0,0) grid ++ (1,8); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,8); 
+						\end{scope} 
+						\begin{scope} [shift={(25.5,8.5)}]
+							\draw[fill=blue!50!white] (0,0) rectangle ++ (1,2); 
+							\draw[ultra thick] (0,0) grid ++ (1,2); 
+							\draw[ultra thick] (0,0) rectangle ++ (1,2); 
+						\end{scope}
+						\draw (23.75,-0.5) node[anchor=north] {\strut \small $42_8$}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+			<p>
+				Draw a base-8 blocks diagram to represent <m>25_8 + 34_8</m> and compute the result.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Draw a base-8 blocks diagram to represent <m>134_8 + 155_8</m> and compute the result. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Think about (but do not draw) the diagram you would need to represent <m>34_8 + 17_8</m> and compute the
+				result from that mental picture. 
+			</p>
+		</exercise>
+	</worksheet>
+</section>

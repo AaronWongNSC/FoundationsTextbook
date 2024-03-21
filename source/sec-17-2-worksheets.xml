@@ -1,0 +1,240 @@
+<section xml:id="sec-fb-2-worksheets">
+	<title>Worksheets</title>
+
+	<p>
+		<url href="external/worksheets/17-Worksheets.pdf">PDF Version of these Worksheets</url>
+	</p>
+	
+	<worksheet xml:id="sec-fb-2-worksheets-1">
+		<title>Worksheet 1</title>
+		<exercise>
+			<p>
+				Convert <m>\frac{15}{4}</m> from an improper fraction to a mixed number using a diagram. 
+			</p>
+			<aside>
+				<p>
+					Diagrams are not forever. But they are important enough to practice a few times. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Convert <m>\frac{17}{3}</m> from an improper fraction to a mixed number using a diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Convert <m>3 \frac{1}{5}</m> from a mixed number to an improper fraction using a diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Convert <m>2 \frac{3}{7}</m> from a mixed number to an improper fraction using a diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Represent <m>2 \frac{3}{4}</m> on a number line. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fb-2-worksheets-2">
+		<title>Worksheet 2</title>
+		<exercise>
+			<p>
+				Convert <m>\frac{12}{7}</m> from an improper fraction to a mixed number using a diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Suppose you are given the fraction <m>\frac{a}{b}</m> where <m>a</m> and <m>b</m> are both integers and
+				<m>b \neq 0</m>. Describe a calculation that would give you the corresponding mixed number without
+				drawing out a diagram. 
+			</p>
+			<aside>
+				<p>
+					Do not divide by zero! 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the values corresponding to the positions indicated in the diagram below. 
+			</p>
+			<image xml:id="sec-fb-2-wksht-2-1" width="80%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.4]
+						\draw[stealth-stealth] (-1,0) -- (21,0); 
+						\draw[fill=black] (0,0) circle (0.15) node[anchor=north] {\strut $0$}; 
+						\draw[fill=black] (5,0) circle (0.15) node[anchor=north] {\strut $1$}; 
+						\draw[fill=black] (10,0) circle (0.15) node[anchor=north] {\strut $2$}; 
+						\draw[fill=black] (15,0) circle (0.15) node[anchor=north] {\strut $3$}; 
+						\draw[fill=black] (20,0) circle (0.15) node[anchor=north] {\strut $4$}; 
+						\draw[fill=black] (6.667,0) circle (0.1); 
+						\draw[fill=black] (8.333,0) circle (0.1); 
+						\draw[stealth-] (8.333,0.3) -- ++ (0,0.7); 
+						\draw[fill=black] (16.25,0) circle (0.1); 
+						\draw[fill=black] (17.5,0) circle (0.1); 
+						\draw[fill=black] (18.75,0) circle (0.1); 
+						\draw[stealth-] (16.25,0.3) -- ++ (0,0.7); 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Completely reduce the fractions <m>\frac{21}{28}</m> and <m>\frac{18}{48}</m>.
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Completely reduce the fractions <m>\frac{8x^2}{6x^4}</m> and <m>\frac{15x^5}{35x^2}</m>.
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fb-2-worksheets-3">
+		<title>Worksheet 3</title>
+		<exercise>
+			<p>
+				Convert <m>2 \frac{3}{8}</m> from a mixed number to an improper fraction using a diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Suppose you are given the mixed number <m>a \frac{b}{c}</m> where <m>a</m>, <m>b</m> and <m>c</m> are
+				all integers and <m>c \neq 0</m>. Describe a calculation that would give you the corresponding improper
+				fraction without drawing out a diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Determine the values corresponding to the positions indicated in the diagram below. 
+			</p>
+			<image xml:id="sec-fb-2-wksht-3-1" width="80%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.4]
+						\draw[stealth-stealth] (-1,0) -- (21,0); 
+						\draw[fill=black] (0,0) circle (0.15) node[anchor=north] {\strut $12$}; 
+						\draw[fill=black] (5,0) circle (0.15) node[anchor=north] {\strut $13$}; 
+						\draw[fill=black] (10,0) circle (0.15) node[anchor=north] {\strut $14$}; 
+						\draw[fill=black] (15,0) circle (0.15) node[anchor=north] {\strut $15$}; 
+						\draw[fill=black] (20,0) circle (0.15) node[anchor=north] {\strut $16$}; 
+						\draw[fill=black] (1,0) circle (0.1); 
+						\draw[fill=black] (2,0) circle (0.1); 
+						\draw[fill=black] (3,0) circle (0.1); 
+						\draw[fill=black] (4,0) circle (0.1); 
+						\draw[stealth-] (4,0.3) -- ++ (0,0.7); 
+						\draw[fill=black] (10.833,0) circle (0.1); 
+						\draw[fill=black] (11.667,0) circle (0.1); 
+						\draw[fill=black] (12.5,0) circle (0.1); 
+						\draw[fill=black] (13.333,0) circle (0.1); 
+						\draw[fill=black] (14.167,0) circle (0.1); 
+						\draw[stealth-] (13.333,0.3) -- ++ (0,0.7); 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</exercise>
+		<exercise>
+			<p>
+				Completely reduce the fractions <m>\frac{25}{40}</m> and <m>\frac{12}{27}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Completely reduce the fractions <m>\frac{10x^3y^2}{25xy^5}</m> and <m>\frac{21a^3 b^3}{49a^3b^2}</m>. 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fb-2-worksheets-4">
+		<title>Worksheet 4</title>
+		<exercise>
+			<p>
+				Convert <m>\frac{23}{5}</m> and <m>\frac{25}{7}</m> from improper fractions to mixed numbers without
+				drawing a diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Convert <m>3 \frac{2}{9}</m> and <m>4 \frac{4}{5}</m> from mixed numbers to improper fractions without
+				drawing a diagram. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Completely reduce the fractions <m>\frac{35}{60}</m> and <m>\frac{28m^2 n^3}{36m n^8}</m>. 
+			</p>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words.
+				<me>
+					\frac{4xy}{12x^2 y^3}
+					= \frac{4xy}{3xy^2 \cdot 4xy}
+					= \frac{\cancel{4xy}}{3xy^2 \cdot \cancel{4xy}}
+					= 3xy^2
+				</me> 
+			</p>
+			<aside>
+				<p>
+					This mistake is fairly common. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Check the presentation for errors. If you find one, circle it and describe the mistake in words.
+				<me>
+					\frac{20x^2}{5x^5}
+					= \frac{4 \cdot 5x^2}{x^3 \cdot 5x^2}
+					= \frac{4 \cdot \cancel{5x^2}}{x^3 \cdot \cancel{5x^2}}
+					= 4x^3
+				</me> 
+			</p>
+		</exercise>
+	</worksheet>
+	<worksheet xml:id="sec-fb-2-worksheets-5">
+		<title>Worksheet 5</title>
+		<exercise>
+			<p>
+				Completely reduce the fractions <m>\frac{4x^2}{6x^4}</m> and <m>\frac{4(x+2)^2}{6(x+2)^4}</m>
+			</p>
+			<aside>
+				<p>
+					There is no conceptual difference between these two calculations. 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Completely reduce the fractions <m>\frac{12x y^4}{18x^4 y^2}</m> and
+				<m>\frac{12 (x+2)(x-3)^4}{18(x+2)^4 (x-3)^2}</m>. 
+			</p>
+			<aside>
+				<p>
+					Do you understand the pattern? 
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Completely reduce the fractions and <m>\frac{9 \sin(x) \cos^3(x)}{12 \sin^2(x) \cos(x)}</m>. 
+			</p>
+			<aside>
+				<p>
+					Note: <m>\sin^n(x)</m> is a shorthand for <m>\left(\sin(x) \right)^n</m> and <m>\cos^n(x)</m> is a
+					shorthand for <m>\left( \cos(x) \right)^n</m>.
+				</p>
+			</aside>
+		</exercise>
+		<exercise>
+			<p>
+				Completely reduce the fraction <m>\frac{x^2 + 5x + 6}{x^2 - 3x - 10}</m>. 
+			</p>
+			<aside>
+				<p>
+					Hint: Factor, then trust your experience to guide you from there. 
+				</p>
+			</aside>
+		</exercise>
+	</worksheet>
+</section>

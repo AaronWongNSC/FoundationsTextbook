@@ -1,0 +1,522 @@
+<section xml:id="sec-nonl-1-main">
+	<title>Through the Looking Glass</title>
+	<objectives>
+		<ul>
+			<li>
+				<p>
+					Understand how to visualize adding to a negative number on a number line.
+				</p>
+			</li>
+			<li>
+				<p>
+					Understand how to visualize subtracting from a negative number on a number line.
+				</p>
+			</li>
+		</ul>
+	</objectives>
+	<p>
+		When we introduced the number line, we showed that the negative numbers were the numbers to the left of zero.
+		But we have not yet worked with negative numbers in our arithmetic. 
+	</p>
+	<activity xml:id="sec-nonl-1-ac1-addition-negatives">
+		<title>Addition with Negative Numbers</title>
+		<p>
+			It turns out that if we add to a positive number or subtract from a positive number, there are no conceptual
+			changes to how we work with the number line. Here is an example for addition. Notice that the process has
+			not changed. 
+		</p>
+		<aside>
+			<p>
+				<ul>
+					<li>
+						<p>
+							Step 1: Start at -3.
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 2: Move 7 spaces to the right. 
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 3: End up at 4.
+						</p>
+					</li>
+				</ul>
+			</p>
+		</aside>
+		<image xml:id="sec-nonl-1-ac1-number-line" width="90%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw[stealth-stealth] (-6,0) -- (6,0); 
+					\foreach \i in {-5,...,5} {
+						\draw[fill=black] (\i, 0) circle (0.1); 
+						\draw (\i, -0.1) node[anchor=north] {\small $\i$}; 
+					}
+					\draw (-3,0) -- ++ (0,1); 
+					\draw[-stealth] (-3,0.5) -- ++ (7,0) node[midway,anchor=south] {\strut \small $7$}; 
+					\draw (4,0) -- ++ (0,1); 
+					\draw (8,0) node[anchor=west] {\strut \boxed{-3 + 7 = 4}}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-nonl-1-ac1-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>-8 + 4</m> using a number line. 
+		</p>
+		<solution>
+			<image xml:id="sec-nonl-1-ti1-solution" width="90%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7]
+						\draw[stealth-stealth] (-9,0) -- (1,0); 
+						\foreach \i in {-8,...,0} { \draw[fill=black] (\i, 0) circle (0.1); 
+							\draw (\i, -0.1) node[anchor=north] {\small $\i$}; 
+						}
+						\draw (-8,0) -- ++ (0,1); 
+						\draw[-stealth] (-8,0.5) -- ++ (4,0) node[midway,anchor=south] {\strut \small $4$}; 
+						\draw (-4,0) -- ++ (0,1); 
+						\draw (3,0) node[anchor=west] {\strut \boxed{-8 + 4 = -4}}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<activity xml:id="sec-nonl-1-ac2-subtraction-negatives">
+		<title>Subtraction with Negative Numbers</title>
+		<p>
+			Here are two subtraction calculations. Notice that it does not matter whether we start from a negative
+			value or simply cross over from positive values to negative values. In both situations, the process
+			remains exactly the same. 
+		</p>
+		<aside>
+			<p>
+				<ul>
+					<li>
+						<p>
+							Step 1: Start at 3.
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 2: Move 5 spaces to the left. 
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 3: End up at -2.
+						</p>
+					</li>
+				</ul>
+			</p>
+		</aside>
+		<image xml:id="sec-nonl-1-ac2-subtraction-1" width="90%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw[stealth-stealth] (-6,0) -- (6,0); 
+					\foreach \i in {-5,...,5} {
+						\draw[fill=black] (\i, 0) circle (0.1); 
+						\draw (\i, -0.1) node[anchor=north] {\small $\i$}; 
+					}
+					\draw (3,0) -- ++ (0,1); 
+					\draw[-stealth] (3,0.5) -- ++ (-5,0) node[midway,anchor=south] {\strut \small $5$}; 
+					\draw (-2,0) -- ++ (0,1); 
+					\draw (8,0) node[anchor=west] {\strut \boxed{3 - 5 = -2}}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<aside>
+			<p>
+				<ul>
+					<li>
+						<p>
+							Step 1: Start at -1.
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 2: Move 4 spaces to the left. 
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 3: End up at -5.
+						</p>
+					</li>
+				</ul>
+			</p>
+		</aside>
+		<image xml:id="sec-nonl-1-ac2-subtraction-2" width="90%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw[stealth-stealth] (-6,0) -- (6,0); 
+					\foreach \i in {-5,...,5} {
+						\draw[fill=black] (\i, 0) circle (0.1); 
+						\draw (\i, -0.1) node[anchor=north] {\small $\i$}; 
+					}
+					\draw (-1,0) -- ++ (0,1); 
+					\draw[-stealth] (-1,0.5) -- ++ (-4,0) node[midway,anchor=south] {\strut \small $4$}; 
+					\draw (-5,0) -- ++ (0,1); 
+					\draw (8,0) node[anchor=west] {\strut \boxed{-1 - 4 = -5}}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-nonl-1-ac2-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>2 - 7</m> using a number line. 
+		</p>
+		<solution>
+			<image xml:id="sec-nonl-1-ti2-solution" width="90%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7]
+						\draw[stealth-stealth] (-6,0) -- (6,0); 
+						\foreach \i in {-5,...,5} { \draw[fill=black] (\i, 0) circle (0.1); 
+							\draw (\i, -0.1) node[anchor=north] {\small $\i$}; 
+						}
+						\draw (2,0) -- ++ (0,1); 
+						\draw[-stealth] (2,0.5) -- ++ (-7,0) node[midway,anchor=south] {\strut \small $7$}; 
+						\draw (-5,0) -- ++ (0,1); 
+						\draw (8,0) node[anchor=west] {\strut \boxed{2 - 7 = -5}}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<p>
+		At this point, it is important that the number we are adding or subtracting is positive, and that all we are
+		doing is allowing negatives as the starting position. We will look at the other possibilities in another
+		section. But as long as that restriction is met, we can expand our ideas to allow us to think about addition
+		and subtraction with larger numbers. 
+	</p>
+	<activity xml:id="sec-nonl-1-ac3-number-line-addition-negatives">
+		<title>Number Line Addition with Negative Numbers</title>
+		<p>
+			Let's consider the calculation <m>-75 + 27</m>. When we try to draw this on a number line, there are two
+			observations we need to make. The first is that we are starting at a negative value, so we must begin
+			our movement to the left of zero. The second observation is that the movement to the right is smaller
+			than the distance to zero. This means that we will stay to the left of zero when we are done. 
+		</p>
+		<aside>
+			<p>
+				<ul>
+					<li>
+						<p>
+							Step 1: Start at -75.
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 2: Move 27 spaces to the right. 
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 3: End up at ??.`
+						</p>
+					</li>
+				</ul>
+			</p>
+		</aside>
+		<image xml:id="sec-nonl-1-ac3-neg75-plus-27-1" width="80%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw[fill=black] (-6, 0) circle (0.1); 
+					\draw (-6, -0.1) node[anchor=north] {\small $-75$}; 
+					\draw[fill=black] (-2, 0) circle (0.1); 
+					\draw (-2, -0.1) node[anchor=north] {\small $??$}; 
+					\draw[fill=black] (3, 0) circle (0.1); 
+					\draw (3, -0.1) node[anchor=north] {\small $0$}; 
+					\draw[stealth-stealth] (-7,0) -- (4,0); 
+					\draw (-6,0) -- ++ (0,1); 
+					\draw[-stealth] (-6,0.5) -- ++ (4,0) node[midway,anchor=south] {\strut \small $27$}; 
+					\draw (-2,0) -- ++ (0,1); 
+					\draw (6,0) node[anchor=west] {\strut \boxed{-75 + 27 = ??}}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<aside>
+			<p>
+				Do not add or subtract in columns with negative numbers. The algorithms you've learned will likely
+				lead to errors. 
+			</p>
+		</aside>
+		<p>
+			From here, it doesn't matter how you get to your answer. If you need to do the calculation in two steps,
+			then do it in two steps. If you can perform the calculation mentally, that's also fine. But avoid using
+			a calculator. It is worth the time to practice your mental arithmetic skills, as this feeds directly
+			into your general mathematical confidence. The important thing is to think about the relative locations
+			of the numbers. 
+		</p>
+		<aside>
+			<p>
+				<ul>
+					<li>
+						<p>
+							Step 1: Start at -75.
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 2: Move 20 spaces to the right. 
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 2: Move 7 spaces to the right. 
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 3: End up at -48.
+						</p>
+					</li>
+				</ul>
+			</p>
+		</aside>
+		<image xml:id="sec-nonl-1-ac3-neg75-plus-27-2" width="90%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw[fill=black] (-6, 0) circle (0.1); 
+					\draw (-6, -0.1) node[anchor=north] {\small $-75$}; 
+					\draw[fill=black] (-3, 0) circle (0.1); 
+					\draw (-3, -0.1) node[anchor=north] {\small $-55$}; 
+					\draw[fill=black] (-2, 0) circle (0.1); 
+					\draw (-2, -0.1) node[anchor=north] {\small $-48$}; 
+					\draw[fill=black] (3, 0) circle (0.1); 
+					\draw (3, -0.1) node[anchor=north] {\small $0$}; 
+					\draw[stealth-stealth] (-7,0) -- (4,0); 
+					\draw (-6,0) -- ++ (0,1); 
+					\draw[-stealth] (-6,0.5) -- ++ (3,0) node[midway,anchor=south] {\strut \small $20$}; 
+					\draw (-3,0) -- ++ (0,1); 
+					\draw[-stealth] (-3,0.5) -- ++ (1,0) node[midway,anchor=south] {\strut \small $7$}; 
+					\draw (-2,0) -- ++ (0,1); 
+					\draw (6,0) node[anchor=west] {\strut \boxed{-75 + 27 = -48}}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			This is mostly about the practice of thinking through the diagram to understand the underlying logic,
+			not about following rules. It would be possible to write out a set of 5 or 6 rules for how to do all of
+			these problems, but if you simply think about the picture, many of those rules will work out naturally
+			and intuitively. 
+		</p>
+		<p>
+			<alert xml:id="sec-nonl-1-ac3-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>-53 + 38</m> using a number line. 
+		</p>
+		<solution>
+			<image xml:id="sec-nonl-1-ti3-solution" width="80%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7]
+						\draw[fill=black] (-6, 0) circle (0.1); 
+						\draw (-6, -0.1) node[anchor=north] {\small $-53$}; 
+						\draw[fill=black] (-3, 0) circle (0.1); 
+						\draw (-3, -0.1) node[anchor=north] {\small $-23$}; 
+						\draw[fill=black] (-2, 0) circle (0.1); 
+						\draw (-2, -0.1) node[anchor=north] {\small $-15$}; 
+						\draw[fill=black] (0, 0) circle (0.1); 
+						\draw (0, -0.1) node[anchor=north] {\small $0$}; 
+						\draw[stealth-stealth] (-7,0) -- (1,0); 
+						\draw (-6,0) -- ++ (0,1); 
+						\draw[-stealth] (-6,0.5) -- ++ (3,0) node[midway,anchor=south] {\strut \small $30$}; 
+						\draw (-3,0) -- ++ (0,1); 
+						\draw[-stealth] (-3,0.5) -- ++ (1,0) node[midway,anchor=south] {\strut \small $8$}; 
+						\draw (-2,0) -- ++ (0,1); 
+						\draw (3,0) node[anchor=west] {\strut \boxed{-53 + 38 = -15}}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<activity xml:id="sec-nonl-1-ac4-number-line-subtraction-negatives">
+		<title>Number Line Subtraction with Negative Numbers</title>
+		<p>
+			Sometimes, the calculation takes us past zero. In this case, we just need to look at the picture and think
+			about what that means. Consider <m>22 - 54</m>. If we start at 22 and move 54 spaces to the left, we have
+			definitely gone past zero.
+		</p>
+		<aside>
+			<p>
+				<ul>
+					<li>
+						<p>
+							Step 1: Start at 22.
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 2: Move 54 spaces to the left. 
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 3: End up at ??.
+						</p>
+					</li>
+				</ul>
+			</p>
+		</aside>
+		<image xml:id="sec-nonl-1-ac4-22-minus-54-1" width="70%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw[fill=black] (-3, 0) circle (0.1); 
+					\draw (-3, -0.1) node[anchor=north] {\small $??$}; 
+					\draw[fill=black] (0, 0) circle (0.1); 
+					\draw (0, -0.1) node[anchor=north] {\small $0$}; 
+					\draw[fill=black] (3, 0) circle (0.1); 
+					\draw (3, -0.1) node[anchor=north] {\small $22$}; 
+					\draw[stealth-stealth] (-5,0) -- (5,0); 
+					\draw (3,0) -- ++ (0,1); 
+					\draw[-stealth] (3,0.5) -- ++ (-6,0) node[midway,anchor=south] {\strut \small $54$}; 
+					\draw (-3,0) -- ++ (0,1); 
+					\draw (7,0) node[anchor=west] {\strut \boxed{22 - 54 = ??}}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			Conceptually, it's easiest to think of this as simply returning to zero and then taking the remaining number
+			of steps to finish the movement.
+		</p>
+		<aside>
+			<p>
+				<ul>
+					<li>
+						<p>
+							Step 1: Start at 22.
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 2: Move 22 spaces to the left. 
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 2: Move ? spaces to the left. 
+						</p>
+					</li>
+					<li>
+						<p>
+							Step 3: End up at ??.
+						</p>
+					</li>
+				</ul>
+			</p>
+		</aside>
+		<image xml:id="sec-nonl-1-ac4-22-minus-54-2" width="70%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw[fill=black] (-3, 0) circle (0.1); 
+					\draw (-3, -0.1) node[anchor=north] {\small $??$}; 
+					\draw[fill=black] (0, 0) circle (0.1); 
+					\draw (0, -0.1) node[anchor=north] {\small $0$}; 
+					\draw[fill=black] (3, 0) circle (0.1); 
+					\draw (3, -0.1) node[anchor=north] {\small $22$}; 
+					\draw[stealth-stealth] (-5,0) -- (5,0); 
+					\draw (3,0) -- ++ (0,2); 
+					\draw[-stealth] (3,0.5) -- ++ (-3,0) node[midway,anchor=south] {\strut \small $22$}; 
+					\draw (0,0) -- ++ (0,1); 
+					\draw[-stealth] (0,0.5) -- ++ (-3,0) node[midway,anchor=south] {\strut \small $?$}; 
+					\draw (-3,0) -- ++ (0,2); 
+					\draw[-stealth] (3,1.5) -- ++ (-6,0) node[midway,anchor=south] {\strut \small $54$}; 
+					\draw (7,0) node[anchor=west] {\strut \boxed{22 - 54 = ??}}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			If you need to move a total of steps to the left, and you've already moved steps, how many steps are left?
+			You should hopefully be able to think that through and figure out that there are steps remaining. And that
+			leads us to the final result. 
+		</p>
+		<image xml:id="sec-nonl-1-ac4-22-minus-54-3" width="80%">
+			<latex-image>
+				\begin{tikzpicture} [scale=0.7]
+					\draw[fill=black] (-3, 0) circle (0.1); 
+					\draw (-3, -0.1) node[anchor=north] {\small $-32$}; 
+					\draw[fill=black] (0, 0) circle (0.1); 
+					\draw (0, -0.1) node[anchor=north] {\small $0$}; 
+					\draw[fill=black] (3, 0) circle (0.1); 
+					\draw (3, -0.1) node[anchor=north] {\small $22$}; 
+					\draw[stealth-stealth] (-5,0) -- (5,0); 
+					\draw (3,0) -- ++ (0,2); 
+					\draw[-stealth] (3,0.5) -- ++ (-3,0) node[midway,anchor=south] {\strut \small $22$}; 
+					\draw (0,0) -- ++ (0,1); 
+					\draw[-stealth] (0,0.5) -- ++ (-3,0) node[midway,anchor=south] {\strut \small $32$}; 
+					\draw (-3,0) -- ++ (0,2); 
+					\draw[-stealth] (3,1.5) -- ++ (-6,0) node[midway,anchor=south] {\strut \small $54$}; 
+					\draw (7,0) node[anchor=west] {\strut \boxed{22 - 54 = -32}}; 
+				\end{tikzpicture} 
+			</latex-image>
+		</image>
+		<p>
+			<alert xml:id="sec-nonl-1-ac4-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>34 - 78</m> using a number line. 
+		</p>
+		<solution>
+			<image xml:id="sec-nonl-1-ti4-solution" width="80%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7]
+						\draw[fill=black] (-3, 0) circle (0.1); 
+						\draw (-3, -0.1) node[anchor=north] {\small $-44$}; 
+						\draw[fill=black] (0, 0) circle (0.1); 
+						\draw (0, -0.1) node[anchor=north] {\small $0$}; 
+						\draw[fill=black] (3, 0) circle (0.1); 
+						\draw (3, -0.1) node[anchor=north] {\small $34$}; 
+						\draw[stealth-stealth] (-5,0) -- (5,0); 
+						\draw (3,0) -- ++ (0,2); 
+						\draw[-stealth] (3,0.5) -- ++ (-3,0) node[midway,anchor=south] {\strut \small $34$}; 
+						\draw (0,0) -- ++ (0,1); 
+						\draw[-stealth] (0,0.5) -- ++ (-3,0) node[midway,anchor=south] {\strut \small $44$}; 
+						\draw (-3,0) -- ++ (0,2); 
+						\draw[-stealth] (3,1.5) -- ++ (-6,0) node[midway,anchor=south] {\strut \small $78$}; 
+						\draw (7,0) node[anchor=west] {\strut \boxed{34 - 78 = -44}}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+	<activity xml:id="sec-nonl-1-ac5-number-line-practice">
+		<title>Arithmetic Practice with the Number Line</title>
+		<p>
+			You do not want to think about these calculations as rules. You just want to think about them as following
+			the natural logic of the problem. Draw the diagram and let the diagram guide your thinking. 
+		</p>
+		<p>
+			<alert xml:id="sec-nonl-1-ac5-ti">Try it!</alert>
+		</p>
+		<p>
+			Calculate <m>-15 - 32</m> using a number line. 
+		</p>
+		<solution>
+			<image xml:id="sec-nonl-1-ti5-solution" width="70%">
+				<latex-image>
+					\begin{tikzpicture} [scale=0.7]
+						\draw[fill=black] (-6, 0) circle (0.1); 
+						\draw (-6, -0.1) node[anchor=north] {\small $-47$}; 
+						\draw[fill=black] (-5, 0) circle (0.1); 
+						\draw (-5, -0.1) node[anchor=north] {\small $-45$}; 
+						\draw[fill=black] (-2, 0) circle (0.1); 
+						\draw (-2, -0.1) node[anchor=north] {\small $-15$}; 
+						\draw[fill=black] (0, 0) circle (0.1); 
+						\draw (0, -0.1) node[anchor=north] {\small $0$}; 
+						\draw[stealth-stealth] (-7,0) -- (1,0); 
+						\draw (-2,0) -- ++ (0,1); 
+						\draw[-stealth] (-2,0.5) -- ++ (-3,0) node[midway,anchor=south] {\strut \small $30$}; 
+						\draw (-5,0) -- ++ (0,1); 
+						\draw[-stealth] (-5,0.5) -- ++ (-1,0) node[midway,anchor=south] {\strut \small $2$}; 
+						\draw (-6,0) -- ++ (0,1); 
+						\draw (3,0) node[anchor=west] {\strut \boxed{-15 - 32 = -47}}; 
+					\end{tikzpicture} 
+				</latex-image>
+			</image>
+		</solution>
+	</activity>
+</section>
