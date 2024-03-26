@@ -1,6 +1,6 @@
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
 
-  <xi:include href="./bookinfo.xml" />
+  <xi:include href="./docinfo.ptx" />
 
   <book xml:id="main">
     <title>Foundational Mathematics for Corequisite Courses</title>

@@ -5,28 +5,68 @@
 <!-- settings. -->
 <docinfo xmlns:xi="http://www.w3.org/2001/XInclude">
   <!-- A unique name for the book in a catalog; for example, see https://pretextbook.org/catalog.html and https://runestone.academy/ns/books/index. It contains a simple lowercase string with no dashes or other special characters. See https://pretextbook.org/doc/guide/html/sec-publishing-to-runestone-academy.html for more information. -->
-  <document-id>changeme</document-id>
+  <document-id>foundationstextbook</document-id>
   <!-- A brief description for the book in a catalog; see the links above. The @shelf is used only when publishing to Runestone; see https://runestone.academy/ns/books/index for a list of valid values. You must copy these @shelf names exactly, including capitalization. -->
-  <blurb shelf="AP Computer Science"> A simple string (no markup is allowed) to describe your book. </blurb>
+  <blurb shelf="Mathematics, Lower Division">
+    The goal of this textbook is to help students get students up to speed quickly on their core mathematical ideas. Although it can be used as independent worksheets, there is
+    an underlying method to the organization and the order of the presentation. Students are encouraged to take a more mathematically mature approach to concepts they have seen
+    in the past, working backward from their core algebra skills to the basic concepts from their earliest experiences with arithmetic.
+  </blurb>
 
 
   <!-- The next three lines are likely for mature projects only: -->
 
-  <!-- <brandlogo url="" source="images/cover.png"/> -->
+  <brandlogo url="https://www.nevadastate.edu" source="images/CartoonMe.png" />
+
   <!-- <covers front="images/front.pdf" back="images/back.pdf"/> -->
   <!-- <document-id>unique-book-id</document-id> -->
 
   <!-- macros for defining latex math shortcuts. It is good practice -->
   <!-- to define these semantically, so that the macro relates to what-->
   <!-- it defines. -->
-  <macros> \newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} </macros>
+  <macros>
+    \newcommand{\identity}{\mathrm{id}}
+    \newcommand{\notdivide}{{\not{\mid}}}
+    \newcommand{\notsubset}{\not\subset}
+    \newcommand{\lcm}{\operatorname{lcm}}
+    \newcommand{\gf}{\operatorname{GF}}
+    \newcommand{\inn}{\operatorname{Inn}}
+    \newcommand{\aut}{\operatorname{Aut}}
+    \newcommand{\Hom}{\operatorname{Hom}}
+    \newcommand{\cis}{\operatorname{cis}}
+    \newcommand{\chr}{\operatorname{char}}
+    \newcommand{\Null}{\operatorname{Null}}
+
+    \newcommand{\tikzspacer}{
+        \draw (-8,0) circle (0.02);
+        \draw (8,0) circle (0.02);
+    }
+    \newcommand{\eqnspacer}{\hspace{25pt}}
+
+    \usepackage{cancel}
+    \usepackage{multirow}
+    \usepackage{hhline}
+</macros>
 
   <!-- If you put any latex-image elements you can include preambles -->
   <!-- for those in the next element. -->
-  <latex-image-preamble> \usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} </latex-image-preamble>
+  <latex-image-preamble>
+    \usepackage{tikz}
+    \usetikzlibrary{backgrounds}
+    \usetikzlibrary{snakes}
+    \usetikzlibrary{calc}
+
+    \usetikzlibrary{positioning,matrix,arrows}
+    \usetikzlibrary{shapes,decorations,shadows,fadings,patterns}
+    \usetikzlibrary{decorations.markings}
+
+    \usepackage{pgfplots}
+  </latex-image-preamble>
 
   <!-- It is possible to rename elements: -->
   <!-- <rename element="assemblage" xml:lang="en-US">Summary</rename> -->
+
+  <rename element="objectives" xml:lang="en-US">Learning Objectives</rename>
 
   <!-- Specify the default type of cross reference: -->
   <!-- <cross-references text="type-global" /> -->

@@ -11,8 +11,8 @@ Copyright 2021 Aaron Wong
         <author>
             <personname>Aaron Wong</personname>
             <department>Department of Data, Media, and Design</department>
-            <institution>Nevada State College</institution>
-            <email>aaron.wong@nsc.edu</email>
+            <institution>Nevada State University</institution>
+            <email>aaron.wong@nevadastate.edu</email>
         </author>
 
         <date><today /></date>
@@ -28,7 +28,7 @@ Copyright 2021 Aaron Wong
         </website>
 
         <copyright>
-            <year>2020<ndash />2023</year>
+            <year>2020<ndash />2024</year>
             <holder>Aaron Wong</holder>
             <minilicense>Creative Commons Attribution-NonCommercial-ShareAlike 4.0</minilicense>
             <shortlicense>
